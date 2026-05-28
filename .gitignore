@@ -9,3 +9,6 @@ prospecting/data/
 prospecting/checkpoints/
 *.csv.gz
 
+# Full lead list with personal contact data (emails/phones) — LOCAL ONLY, never commit to public repo
+prospecting/output/
+

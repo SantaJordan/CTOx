@@ -24,6 +24,12 @@ if os.path.exists(p("checkpoints", "phaseB.jsonl")):
         try:
             r = json.loads(ln); B[r.get("domain")] = r
         except Exception: pass
+B2 = {}  # Apify LinkedIn-jobs pass (no-ATS companies)
+if os.path.exists(p("checkpoints", "phaseB_apify.jsonl")):
+    for ln in open(p("checkpoints", "phaseB_apify.jsonl"), encoding="utf-8"):
+        try:
+            r = json.loads(ln); B2[r.get("domain")] = r
+        except Exception: pass
 
 # readable label for the integration opportunity from named SoR hits
 SOR_LABEL = [
@@ -51,14 +57,17 @@ def build():
     companies, people = [], []
     kept = dropped = 0
     for dom, s in stage1.items():
-        a = A.get(dom, {}); b = B.get(dom, {})
+        a = A.get(dom, {}); b = B.get(dom, {}); b2 = B2.get(dom, {})
         try: a1 = int(s.get("axis1_key_integration") or 0)
         except: a1 = 0
         try: a2 = int(s.get("axis2_complexity") or 0)
         except: a2 = 0
-        jobs_pain = int(b.get("jobs_pain_score") or 0)
-        integ_jobs = int(b.get("integration_jobs") or 0)
-        silo_jobs = int(b.get("silo_jobs") or 0)
+        # take the stronger of the free-ATS signal and the Apify signal
+        jobs_pain = max(int(b.get("jobs_pain_score") or 0), int(b2.get("jobs_pain_score") or 0))
+        integ_jobs = max(int(b.get("integration_jobs") or 0), int(b2.get("integration_jobs") or 0))
+        silo_jobs = max(int(b.get("silo_jobs") or 0), int(b2.get("silo_jobs") or 0))
+        if not b.get("integration_titles") and b2.get("integration_titles"):
+            b = {**b, "integration_titles": b2.get("integration_titles"), "ats": "linkedin(apify)"}
         ft_cto = a.get("has_full_time_cto", "")
         no_cto = (ft_cto == "no")
         # keep/drop: require SOME integration relevance or silo/jobs pain
