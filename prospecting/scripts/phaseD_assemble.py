@@ -30,6 +30,20 @@ if os.path.exists(p("checkpoints", "phaseB_apify.jsonl")):
         try:
             r = json.loads(ln); B2[r.get("domain")] = r
         except Exception: pass
+FE = {}  # FullEnrich email/phone fill, keyed by person linkedin_url
+if os.path.exists(p("checkpoints", "phaseA2_fullenrich.jsonl")):
+    for ln in open(p("checkpoints", "phaseA2_fullenrich.jsonl"), encoding="utf-8"):
+        try:
+            r = json.loads(ln); FE[r.get("linkedin_url")] = r
+        except Exception: pass
+
+def fill_contact(person):
+    """Fill missing email/phone from FullEnrich by the person's LinkedIn URL."""
+    li = person.get("linkedin")
+    if li and li in FE:
+        if not person.get("email"): person["email"] = FE[li].get("email", "") or ""
+        if not person.get("phone"): person["phone"] = FE[li].get("phone", "") or ""
+    return person
 
 # readable label for the integration opportunity from named SoR hits
 SOR_LABEL = [
@@ -77,7 +91,7 @@ def build():
         # composite pain (leadership gap is a booster)
         pain = round(2.0*a1 + 1.5*a2 + 1.0*jobs_pain + 0.5*min(integ_jobs,4) + (3.0 if no_cto else 0.0), 2)
         opp = opportunity(s.get("axis1_sor_hits"))
-        ceo = a.get("ceo") or {}; coo = a.get("coo") or {}
+        ceo = fill_contact(a.get("ceo") or {}); coo = fill_contact(a.get("coo") or {})
         dm = ceo if ceo.get("name") else coo
         fn = first_name(dm.get("name"))
         tech_ratio = a.get("technical_ratio", ""); tech_count = a.get("tech_count", "")
