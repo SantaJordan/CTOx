@@ -163,3 +163,21 @@ By the end, produce:
 3. **Validated Insights**: Pass all four tests
 4. **Targeting Columns**: 3-5 Exa queries with JSON
 5. **Sample Outreach Message**: "The message is a redescription of the targeting"
+
+---
+
+## Prospecting Pipeline & External Repo (for collaborators)
+
+This repo also contains a live prospecting pipeline under `prospecting/` (see `README.md` →
+"Prospecting Toolkit"). It builds Series A target lists scored on a 4-axis rubric
+(`prospecting/research/axis{1,2,3}_*.md`): missing key integration, integration complexity,
+silo pain, and weak technical leadership.
+
+**External dependency — clone this too:** Eric Nowoslawski's
+**https://github.com/growthenginenowoslawski/coldoutboundskills** (cloned locally as a sibling
+at `../coldoutboundskills/`). It provides the starter TAM (`Common Outbound Lists/` — ~173k US
+SaaS companies) and reusable skills (notably `cold-email-copy-grader`).
+
+**Secrets:** API keys (`BLITZ_API_KEY` primary, `EXA_API_KEY` fallback, `OPENWEB_NINJA_API_KEY`,
+`SERPER_API_KEY`) live ONLY in a gitignored `.env`. Never commit keys. `databricks-mimi` (mimilabs
+healthcare data) and `exa` MCP are allowlisted in `.claude/settings.json`.

@@ -100,6 +100,35 @@ All three must be specific enough that:
 - There's a detectable trigger event
 - Other CTOs would disagree with your approach
 
+## Prospecting Toolkit & Data Sources
+
+This repo also hosts a prospecting pipeline (`prospecting/`) that builds target lists of
+Series A companies that are **missing a business-critical integration** and **thin on
+technical leadership**. See `prospecting/research/axis{1,2,3}_*.md` for the scoring rubric.
+
+### Eric Nowoslawski / GrowthEngineX — `coldoutboundskills`
+
+We lean on **[Eric Nowoslawski](https://growthengine-x.com)'s open-source repo**:
+
+> **https://github.com/growthenginenowoslawski/coldoutboundskills** (273★)
+
+If you clone CTOx, also grab this repo — it's cloned locally as a sibling at
+`../coldoutboundskills/`. Useful pieces:
+
+- **Skills** (install with `cp -r coldoutboundskills/skills/* ~/.claude/skills/`):
+  - `cold-email-copy-grader` — grades/rewrites cold email 0–100 (no API key). Use it to grade the outreach this pipeline generates.
+  - `google-maps-scraper` — Google Maps business listings (RapidAPI; bundled 42k US zip DB).
+  - `prospeo-full-export` — export a full Prospeo people search to CSV.
+  - `domain-setup-dynadot-zapmail` — end-to-end cold-email domain/inbox setup.
+- **Common Outbound Lists** (local data — our free starter TAM):
+  - `us-software-saas-companies-cleaned.zip` → ~173k US software/SaaS companies with domain, LinkedIn, industry, headcount, funding range, description.
+  - `Google Maps Scrape - 12M US Businesses/` — 13-part nationwide business scrape.
+
+### Keys & secrets
+
+API keys live only in a **gitignored `.env`** (`BLITZ_API_KEY` primary, `EXA_API_KEY`
+fallback, plus `OPENWEB_NINJA_API_KEY`, `SERPER_API_KEY`). Never commit keys.
+
 ## Credits
 
 Built on Jordan Crawford's GTM methodology from [Blueprint](https://blueprint.is) and the CTOx program.

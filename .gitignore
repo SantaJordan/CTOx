@@ -2,3 +2,10 @@
 *.swp
 *.swo
 .env
+*.env
+
+# Prospecting working data (large / regenerated — never commit raw corpora)
+prospecting/data/
+prospecting/checkpoints/
+*.csv.gz
+

@@ -5,7 +5,8 @@
       "Glob",
       "Grep",
       "Task",
-      "mcp__exa__*"
+      "mcp__exa__*",
+      "mcp__databricks-mimi__*"
     ],
     "deny": [
       "WebSearch",
