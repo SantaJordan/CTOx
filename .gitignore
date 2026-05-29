@@ -12,3 +12,7 @@ prospecting/checkpoints/
 # Full lead list with personal contact data (emails/phones) — LOCAL ONLY, never commit to public repo
 prospecting/output/
 
+
+# Python cache
+__pycache__/
+*.pyc
