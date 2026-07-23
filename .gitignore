@@ -16,3 +16,9 @@ prospecting/output/
 # Python cache
 __pycache__/
 *.pyc
+
+# prospecting-ctox (large data, checkpoints, raw contact output)
+prospecting-ctox/data/
+prospecting-ctox/checkpoints/
+prospecting-ctox/vendor/
+prospecting-ctox/output/*_raw*

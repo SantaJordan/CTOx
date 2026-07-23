@@ -1,0 +1,13 @@
+{
+  "cohort": "CTOx — 2026-07-23",
+  "ctos": [
+    {"slug": "daniel-kirichanski", "name": "Daniel Kirichanski", "linkedin_url": "https://www.linkedin.com/in/daniel-kirichanski/"},
+    {"slug": "david-sowsy", "name": "David Sowsy", "linkedin_url": "https://www.linkedin.com/in/davidsowsy"},
+    {"slug": "ben-cole", "name": "Ben Cole", "linkedin_url": "https://www.linkedin.com/in/cole13ben/"},
+    {"slug": "bill-bowers", "name": "Bill Bowers", "linkedin_url": "https://www.linkedin.com/in/wibowers/"},
+    {"slug": "barry-hess", "name": "Barry Hess", "linkedin_url": "https://www.linkedin.com/in/barryshess/"},
+    {"slug": "shawn-leclair", "name": "Shawn Leclair", "linkedin_url": "https://www.linkedin.com/in/shawn-m-leclair"},
+    {"slug": "david-shake", "name": "David Shake", "linkedin_url": "https://www.linkedin.com/in/davidshake/", "company_site": "fusionsg.com"},
+    {"slug": "kenneth-thomas", "name": "Kenneth Thomas", "linkedin_url": "https://www.linkedin.com/in/kenneththomasjr"}
+  ]
+}
