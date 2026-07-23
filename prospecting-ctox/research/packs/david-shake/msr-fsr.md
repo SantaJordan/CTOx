@@ -1,0 +1,40 @@
+# Evidence pack — msr-fsr (for CTO david-shake)
+ATS: workable | liveness: unverified | feed slug: D3BC27AC2D
+
+## CTO niche
+Low-voltage systems integrators, electrical contractors, and property-technology vendors ($2M-$20M) serving multifamily, student housing, hospitality, and senior-living buildings, at the moment they add a new technology line (managed Wi-Fi, video surveillance, access control, smart-building IoT, service plans) on top of an existing install base without senior technology leadership to pick vendors, build the estimating and delivery model, and phase the rollout without breaking core delivery.
+EDP: Contracted recurring revenue covers zero months of payroll: a project-only contractor restarts revenue at zero every month, hands the highest-margin stickiest scope on its own job sites (network, Wi-Fi, cameras, service plans) to a competitor the GC will call directly next time, loses bids to broader-line rivals, and sells for a fraction of the multiple of a business with service contracts.
+
+## Matched jobs (from the 2026-06-25 snapshot; 'live' = re-verified today)
+### Project Cost Estimator - Semiconductor  [score 0.5704, live=None]
+apply: https://apply.workable.com/j/D3BC27AC2D
+posted: 2026-02-03 | company_does: provide construction inspection services and discipline leadership for mechanical, electrical, civil, structural, architectural, building envelope, accessibility, and life-safety inspections | industry: construction | stage: unknown
+signals: strong_title=False gap=True jd_lexicon=True
+JD excerpt (snapshot):
+```
+Focus: Specializes in estimating costs, reconciling Schedule of Rates (SORs), and maintaining cost-related documentation. Responsibilities: Lead cost estimation projects, ensuring accuracy and reliability of cost estimates Submit budget requests Maintain cost & budget trackers tracking Approved quantities Unit rates Acceleration costs Maintain approved overtime logs T&M Sheets (rework costs); Star Rates Free Issued Material Incentives Detailed direct and indirect costs Ensure efficiency and adherence to SOPs Maintain accurate project completion progress and estimated completion dates trackers Schedule and attend weekly reconciliation meetings and closeout meetings; with vendors and SAS personnel Maintain and update a historical tool costs tracker Identify any findings or discrepancies and report them to SAS Management *MUST HAVE HIGH LEVEL EXCEL SKILLS Requirements Qualifications and Skills: Bachelor's degree in construction, accouting, or finance is preferred. 1-3 years of estimating experience. Strong knowledge of accounting fundamentals. Proficiency in Microsoft Excel (pivot tables, VLOOKUP, data functions). High attention to detail, accuracy, and analytical mindset. Good organi
+```
+### Electrical Construction Project Coordinator-Semiconductor  [score 0.5376, live=None]
+apply: https://apply.workable.com/j/5E6DA8C063
+posted: 2026-01-02 | company_does: provide construction inspection services and discipline leadership for mechanical, electrical, civil, structural, architectural, building envelope, accessibility, and life-safety inspections | industry: construction | stage: unknown
+signals: strong_title=False gap=True jd_lexicon=True
+JD excerpt (snapshot):
+```
+The Project Coordinator is in charge of managing administrative and organizational duties and acting as a point of contact between SAS and on-site contractors to ensure the project operates smoothly. Preferably, PCs should possess expertise in the specific areas they are assigned to oversee, to ensure effectiveness and clarity. Beyond the competencies related to the scope of the CC, outlined below, the responsibilities of the PC include, but are not limited to the following: Bridge the gap between field operations and SAS Management. Minor administrative duties as defined by SAS. Develop and maintain a project communication plan. Coordinating meetings, including scheduling, sending invitations, and preparing agendas to maintain alignment between SAS and Contractors. Managing field-level project documentation, ensuring all forms and reports are accurately executed, correctly filed, and accessible. Promoting and maintaining a team atmosphere between SAS, coordinators, tool engineers, project managers, contractors, and vendors. Ensure timely progress reporting, providing stakeholders with accurate project status updates. Overseeing and managing the day-to-day field-level operational t
+```
+### Electrical Superintendent-Semiconductor  [score 0.5298, live=None]
+apply: https://apply.workable.com/j/E7370146C7
+posted: 2026-01-06 | company_does: provide construction inspection services and discipline leadership for mechanical, electrical, civil, structural, architectural, building envelope, accessibility, and life-safety inspections | industry: construction | stage: unknown
+signals: strong_title=False gap=True jd_lexicon=True
+JD excerpt (snapshot):
+```
+The Project Coordinator is in charge of managing administrative and organizational duties and acting as a point of contact between SAS and on-site contractors to ensure the project operates smoothly. Preferably, PCs should possess expertise in the specific areas they are assigned to oversee, to ensure effectiveness and clarity. Beyond the competencies related to the scope of the CC, outlined below, the responsibilities of the PC include, but are not limited to the following: Bridge the gap between field operations and SAS Management. Minor administrative duties as defined by SAS. Develop and maintain a project communication plan. Coordinating meetings, including scheduling, sending invitations, and preparing agendas to maintain alignment between SAS and Contractors. Managing field-level project documentation, ensuring all forms and reports are accurately executed, correctly filed, and accessible. Promoting and maintaining a team atmosphere between SAS, coordinators, tool engineers, project managers, contractors, and vendors. Ensure timely progress reporting, providing stakeholders with accurate project status updates. Overseeing and managing the day-to-day field-level operational t
+```
+### Process/Mechanical Construction Project Coordinator-Semiconductor  [score 0.5235, live=None]
+apply: https://apply.workable.com/j/1E6B6599C2
+posted: 2026-01-02 | company_does: provide construction inspection services and discipline leadership for mechanical, electrical, civil, structural, architectural, building envelope, accessibility, and life-safety inspections | industry: construction | stage: unknown
+signals: strong_title=False gap=True jd_lexicon=True
+JD excerpt (snapshot):
+```
+The Project Coordinator is in charge of managing administrative and organizational duties and acting as a point of contact between SAS and on-site contractors to ensure the project operates smoothly. Preferably, PCs should possess expertise in the specific areas they are assigned to oversee, to ensure effectiveness and clarity. Beyond the competencies related to the scope of the CC, outlined below, the responsibilities of the PC include, but are not limited to the following: Bridge the gap between field operations and SAS Management. Minor administrative duties as defined by SAS. Develop and maintain a project communication plan. Coordinating meetings, including scheduling, sending invitations, and preparing agendas to maintain alignment between SAS and Contractors. Managing field-level project documentation, ensuring all forms and reports are accurately executed, correctly filed, and accessible. Promoting and maintaining a team atmosphere between SAS, coordinators, tool engineers, project managers, contractors, and vendors. Ensure timely progress reporting, providing stakeholders with accurate project status updates. Overseeing and managing the day-to-day field-level operational t
+```

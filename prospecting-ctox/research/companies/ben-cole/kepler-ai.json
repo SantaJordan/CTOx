@@ -1,0 +1,34 @@
+{
+  "verdict": "keep",
+  "reason": "Kepler's live Platform Engineer posting confesses Ben's exact niche: 'This is the first dedicated platform hire' owning 'SOC 2 controls, audit logging, identity, network isolation' that 'converts procurement reviews into closed deals' — an early-stage AI company selling into financial institutions with its entire ops/security/cost layer currently owned by nobody.",
+  "fit_score": 0.5199,
+  "company": {
+    "name": "Kepler (Keru AI Inc.)",
+    "domain": "kepler.ai",
+    "one_liner": "Ground truth platform for AI — an agent harness that makes AI outputs traceable, auditable, and reproducible for financial institutions, indexing 26M+ SEC filings.",
+    "industry": "AI infrastructure / financial services software",
+    "stage": "Early-stage startup (founded 2025; backed by PebbleBed, Company Ventures, Mantis plus founders of OpenAI, Meta AI Research, dbt Labs, Square; featured by Anthropic 2026-05)",
+    "hq": "New York City, NY"
+  },
+  "evidence_jobs": [
+    {
+      "title": "Platform Engineer",
+      "url": "https://jobs.ashbyhq.com/kepler-ai/d565a153-24a6-4ae5-a818-7ff1c343e521",
+      "live": true,
+      "quote": "This is the first dedicated platform hire. ... Set the security baseline (SOC 2 controls, audit logging, identity, network isolation) that converts procurement reviews into closed deals."
+    }
+  ],
+  "people_spec": [
+    "Co-Founder & CEO (repeat founder, ex-Citadel first Head of Business Engineering — owns enterprise deals stalled in procurement)",
+    "Co-Founder & CTO / technical co-founder (ex-Palantir — owns the platform layer the posting is trying to fill)"
+  ],
+  "talk_track": "Ben Cole — I build the platform, security, and cost layer underneath founding teams so they stay on product; most recently that meant a first-attempt SOC 2 Type II at Lexipol in a CJIS-regulated environment, with AWS spend down 22% alongside. Kepler's live Platform Engineer posting is unusually candid: 'This is the first dedicated platform hire,' owning SOC 2 controls, in-VPC enterprise deployments, and the AWS account 'the whole company depends on.' Read plainly, that means the layer a bank's procurement team audits before your largest deals close is owned by nobody today. One IC rarely covers all of that, and the baseline is worth defining before the hire so they land on a paved road instead of an audit backlog. That gap is exactly the fractional work I do underneath founders while the permanent team takes shape. Which stalls deals sooner right now — SOC 2 evidence or the single-tenant deployment model?",
+  "sources": [
+    "https://jobs.ashbyhq.com/kepler-ai/d565a153-24a6-4ae5-a818-7ff1c343e521",
+    "https://api.ashbyhq.com/posting-api/job-board/kepler-ai",
+    "https://kepler.ai/",
+    "https://kepler.ai/about/",
+    "https://www.businesswire.com/news/home/20260521369696/en/Anthropic-Spotlights-Kepler-for-Verifiable-AI-in-Financial-Services",
+    "https://claude.com/blog/how-kepler-built-verifiable-ai-for-financial-services-with-claude"
+  ]
+}

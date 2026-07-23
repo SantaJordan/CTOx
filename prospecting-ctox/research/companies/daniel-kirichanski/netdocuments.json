@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "NetDocuments is a mature PE buyout-stage market leader (founded 1999, Warburg Pincus buyout 2021, self-described world's #1 legal document management platform) with a full executive bench — far too large for a fractional CTO; and the evidence pack contains no quotable pain line: all three matched-job excerpts are identical recruiting boilerplate with weak scores (0.37-0.41, strong_title=False, gap=False), while the fresh feed shows a healthy org filling routine engineering-manager and staff-infra roles, not a leadership gap.",
+  "company": {
+    "name": "NetDocuments"
+  }
+}

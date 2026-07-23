@@ -21,6 +21,30 @@ Notes on the arc:
 - The Leerink Swann engagement ran **inside** the lifetime of his consultancy — a single client relationship held for **20 years and 3 months**. It ended April 2023, the month after Silicon Valley Bank's parent filed Chapter 11 (March 17, 2023) and Leerink's parent entered its buyout upheaval (Wikipedia, dated). The same month he started at Quantum5. Timing is factual; causation is not claimed.
 - Quantum5 context during his tenure: it had acquired **ESI Trends** (May 17, 2022, per quantum5.ai press release) — a 1996-founded research firm whose platform, rebranded **ESi-Q**, ingests "millions of payroll records and employee surveys" and produces the **NADA Dealership Workforce Study** (20,000–25,000 dealership employees surveyed per year, "hundreds of thousands of payroll records" analyzed, per Ander's LinkedIn post of 2025-10-23). It then acquired **Trivie** (Jan 29, 2024, PRNewswire) and partnered with GP Strategies (Jan 3, 2024, PRNewswire). He joined the month after the ESI Trends integration year and left shortly before the Ander rebrand (Apr 27, 2026).
 
+## First-party materials (cohort Drive drop, 2026-07-23)
+
+Source for everything in this section: his own resume, uploaded to the cohort Google Drive as "Shawn_Leclair_CTO_Resume.pdf" (file dated 2026-01-27) — cited below as "CTO resume, Jan 2026". First-party but self-reported; treated as his own claims, not independent verification. Personal phone number and street address on the resume are deliberately omitted here (public repo).
+
+**New facts (not previously in this dossier):**
+
+- **Business email: Shawn@Leclair.biz** (CTO resume, Jan 2026). Confirms the leclair.biz domain for the consultancy.
+- **Resume headline: "Chief Technology Officer | SaaS & Financial Services — Scaling Platforms, Teams, and Regulated Systems"** (CTO resume, Jan 2026). Notably a full-time-CTO framing, produced the same month (Jan 2026) his LinkedIn relaunched the *fractional* practice.
+- **Led the full AWS migration of the ESi-Q platform, "consolidating fragmented systems into a single cloud environment"** (CTO resume, Jan 2026). New quantifiable-ish outcome for the Quantum5 tenure; consistent with, and more specific than, the Tyler Morgan modernization recommendation.
+- **At Quantum5, led cross-functional engineering, AI, DevOps, UX/UI, and product teams; owned delivery of "large-scale survey processing and analytics platforms"; supported hiring and interviewing** (CTO resume, Jan 2026).
+- **Claims 0→1 experience "delivering MVPs on-time and on-budget"** and lists **"M&A, Due Diligence & Exit Readiness"** and **"Budget Ownership, Vendor Strategy & Cost Optimization"** as core competencies (CTO resume, Jan 2026). The 0→1/MVP claim is new — the public footprint (and this dossier's niche) is entirely legacy-stabilization.
+- **Technology domains adds Snowflake** ("Data & Analytics: Snowflake, SQL Server, PostgreSQL, ETL Pipelines") and **"AI/ML Platform Integration, Agentic AI & Product Development"** (CTO resume, Jan 2026). Snowflake and agentic-AI did not appear in the LinkedIn/FullEnrich stack.
+- **Education, new detail:** Worcester Polytechnic Institute — Certificate, Client Server Technologies; Berklee College of Music — Diploma; University of Massachusetts Amherst — **Bachelor of Arts** (CTO resume, Jan 2026). The BA partially resolves the "UMass degree not public" gap in Unverified claims (degree level now self-attested; major still unknown).
+- **Awards & honors: Eagle Scout & Vigil Honor Member; Mensa International Member** (CTO resume, Jan 2026).
+- **Self-description: "20+ years leading company-wide technology strategy for SaaS and financial services organizations"**, with emphasis on regulatory risk, compliance, audit readiness, and "exit outcomes" (CTO resume, Jan 2026).
+
+**Contradictions with existing dossier claims (both versions retained; do not silently prefer either):**
+
+- **Leclair & Associates title.** Resume: "Founder & Chief Technology Officer (Fractional)" (CTO resume, Jan 2026). LinkedIn/FullEnrich (Career arc above): "President & Principal Consultant." The resume retitles a 25-year consultancy role as fractional CTO — plausible reframing for the 2026 practice, but the two sources disagree on the historical title.
+- **Leclair & Associates start date.** Resume: 2000 (CTO resume, Jan 2026). LinkedIn/FullEnrich: Jan 1999.
+- **Quantum5 title.** Resume: "Senior Technical Program Lead / Technology Executive" (CTO resume, Jan 2026). LinkedIn: "Senior Technical Program Lead" only — the "/ Technology Executive" suffix appears nowhere else.
+- **Current role.** Resume shows no position after December 2025 (Leclair & Associates listed as ending 2024), yet the dossier's Career arc has him President of Leclair & Associates Jan 2026–present per LinkedIn. Combined with the full-time-CTO headline, the Jan 2026 resume reads as a job-search artifact, in tension with the public fractional-practice positioning.
+- **Notable omissions (not contradictions, but material):** the resume names neither **Leerink Swann** (the 20-year engagement that anchors Proven fix #2) nor **DeltaTrends**; both are presumably folded into the anonymous "acting CTO for multiple organizations" bullet under Leclair & Associates (CTO resume, Jan 2026).
+
 ## Proven fixes
 
 Evidence here is deliberately conservative — his public footprint is small, so each fix cites exactly where it comes from.
@@ -57,6 +81,7 @@ Data-heavy B2B SaaS and services SMBs (workforce/benchmarking analytics, healthc
 - https://www.prnewswire.com/news-releases/quantum5-acquires-trivie-to-grow-automotive-retail-learning-opportunities-302046328.html — Trivie acquisition, 2024-01-29.
 - https://en.wikipedia.org/wiki/Leerink_Partners — Leerink Swann history, SVB collapse timeline.
 - FullEnrich API pull: /Users/jordan/Desktop/Claude Code/CTOx/prospecting-ctox/checkpoints/cto_enrich/shawn-leclair.json (aggregator data; used only where matched to public artifacts above).
+- CTO resume, Jan 2026 — "Shawn_Leclair_CTO_Resume.pdf" (cohort Google Drive, file dated 2026-01-27); local text copy: /Users/jordan/Desktop/Claude Code/CTOx/prospecting-ctox/data/drive_materials/shawn-leclair-resume.txt. First-party, self-reported. See "First-party materials" section.
 
 ## Unverified claims (database-only or inference — do not present as fact)
 

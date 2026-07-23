@@ -1,0 +1,44 @@
+{
+  "company": "AVATAR Partners Inc",
+  "slug": "avatar-partners-inc",
+  "domain": "avatarpartners.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Two 2022 SBIR Phase IIs (Air Force NDE, Navy V-22 SIA QA) plus named USMC EOD, USCG, NSWC, and NAWCAD customers — SBIR record and homepage testimonials.",
+  "disconnect_score": 45,
+  "subscores": {"lab_language_intensity": 13, "deployment_awareness_absence": 7, "operator_absence": 3, "hiring_profile_skew": 10, "stage_pressure": 12},
+  "score_evidence": [
+    "'300% reduction in errors, 90% reduction in time to train and 98% reduction in waste and rework' — demo-metric bragging with no fielding path → lab_language_intensity (homepage testimonial they chose to feature)",
+    "'Develop custom XR at lightning speed through our patented AI-powered XR no-code authoring platform' → lab_language_intensity (homepage)",
+    "'We will review the architecting of SIA QA to ensure its resilience against future needs (RMF and on-ramping to government systems)' — RMF acknowledged but deferred to a future review, not engineered in → partial deployment awareness (sbir_abstract)",
+    "No jobs data in pack → hiring_profile_skew set to exactly 10 per rule",
+    "'SBIR PhII x2 [2022]' with 29 employees and no follow-on production vehicle anywhere in the pack — both Phase II periods of performance have run out by 2026 → stage_pressure (channel notes)"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Build-once-deploy-anywhere assumes commercial device deployment paths; Navy flightline and shipboard networks don't accept COTS AR headsets without per-device-type accreditation",
+      "operator_reality": "A maintainer on a carrier deck or in a V-22 hangar can't pair a Wi-Fi-dependent headset to a SaaS backend; NMCI/RMF accreditation of the headset class and offline content delivery decide whether SIA QA ever leaves the demo room",
+      "why_likely_missing": "Their own abstract defers RMF to a Phase II 'review' of architecture rather than designing for it; testimonials all come from lab/warfare-center engagements, not fleet squadrons",
+      "evidence_quote": "Its build-once, deploy-anywhere capability streamlines the process and maximizes efficiency across platforms.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "'SaaS and on-prem platforms' — the SaaS half assumes connectivity that afloat and expeditionary maintenance environments deny",
+      "operator_reality": "The 'Should-Be' database that SIA QA compares against in real time has to live and update on a disconnected local node; a ship underway gets intermittent SATCOM at best — same failure mode as the 30fps crowd-detection case, just with CAD-derived reference data instead of video",
+      "why_likely_missing": "Product description centers on authoring speed and cross-platform reach; not one mention of DDIL, offline sync, or disconnected content packaging in ~2,082 words of their own language",
+      "evidence_quote": "Our SaaS and on-prem platforms feature an AI-driven, no-code, platform agnostic XR authoring suite that integrates seamlessly with IoT and Digital Twins, supports remote assistance, and delivers valuable user analytics.",
+      "quote_source": "linkedin_about"
+    },
+    {
+      "blind_spot": "Their advocacy chain is operator-level fans, not program-office champions — 20+ years in and DoD wins are still SBIRs and pilots",
+      "operator_reality": "A company commander loving EOD AR is not adoption; without a PM/PEO champion and a transition vehicle (P-8/V-22 program office line item), the 2022 Phase IIs die at period-of-performance end and the fleet never sees the tool",
+      "why_likely_missing": "Every DoD quote they showcase is from an individual engineer, HPT manager, or company commander — none from an acquisition authority; the org has no visible BD/capture or transition function at 29 people",
+      "evidence_quote": "I'm a huge fan of EOD AR and the efforts your team is making.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Both of Avatar's 2022 Phase IIs — the Air Force NDE tool and the Navy V-22 SIA QA — are past their period of performance with no follow-on production vehicle visible on the public record.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "29-person XR/AR company whose no-code authoring platform builds maintenance and training applications for Navy, USMC, USCG, and industrial customers."
+}

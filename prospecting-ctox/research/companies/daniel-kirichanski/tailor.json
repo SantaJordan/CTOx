@@ -1,0 +1,17 @@
+{
+  "verdict": "drop",
+  "reason": "No quotable pain signal: Tailor's SRE/Backend/AI Engineer JDs are generic Japanese-language postings (standard deploy-automation/monitoring/capacity-planning duties) with no cloud-spend, post-acquisition, or leadership-gap confession; the fresh 40-role feed shows a Tokyo-centered eng org hiring its own Engineering Manager, Tech Lead, Scrum Master, and Agile Coach — technical leadership exists in-house, most roles are Japan-residents-only, and the vertical is retail/ecommerce ERP rather than Daniel Kirichanski's fintech/payments weight, so this is a generic 'they hire engineers' match.",
+  "company": {
+    "name": "Tailor",
+    "domain": "tailor.tech",
+    "one_liner": "AI-native headless/composable ERP platform for retail and ecommerce brands (SF + Tokyo, YC-backed, $37M Series A final close Nov 2025)",
+    "industry": "ERP / B2B software",
+    "stage": "Series A ($37M total)",
+    "hq": "San Francisco, CA / Tokyo, Japan"
+  },
+  "sources": [
+    "https://techcrunch.com/2025/06/30/tailor-a-headless-erp-startup-raises-22m-series-a/",
+    "https://www.businesswire.com/news/home/20251120719166/en/Tailor-Announces-%2437-Million-Series-A-to-Accelerate-Expansion-of-Composable-Headless-ERP",
+    "https://jobs.ashbyhq.com/tailor"
+  ]
+}

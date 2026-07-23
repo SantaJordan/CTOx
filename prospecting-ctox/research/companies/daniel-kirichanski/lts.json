@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "LTS is a federal-government IT consultancy (VA VistA modernization, OMEGA program); its postings are staffing reqs for client contracts, not evidence of its own engineering-as-bottleneck pain, and it is not a Series A-C or PE-backed B2B software company in Daniel's niche.",
+  "company": {
+    "name": "LTS"
+  }
+}

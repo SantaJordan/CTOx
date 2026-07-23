@@ -1,0 +1,35 @@
+{
+  "verdict": "keep",
+  "reason": "TENEX's Head of Platform Engineering role — posted 2026-01-24 and still live 6 months later per today's Ashby feed — asks one hire to own SRE/SLOs, on-call, MLOps, CI/CD and a platform scaling to 'petabytes of security data and billions of daily events', which is precisely the payments-scale platform/SRE leadership gap Daniel fixed at Ripple and PayPal, at a Series B ($250M, Crosspoint-led) company in hypergrowth with 64 open roles.",
+  "fit_score": 0.6255,
+  "company": {
+    "name": "TENEX.AI",
+    "domain": "tenex.ai",
+    "one_liner": "AI-native, automation-first Managed Detection and Response (MDR) provider — an 'AI SOC' service for enterprises, launched Jan 2025.",
+    "industry": "Cybersecurity (MDR / managed security services)",
+    "stage": "Series B — $250M led by Crosspoint Capital Partners (Mar 2026), after a $27M Series A (Sep 2025) and a16z-led seed; >$10M revenue in first six months; ~64 open roles",
+    "hq": "Sarasota, FL (platform engineering role based in San Jose, CA)"
+  },
+  "evidence_jobs": [
+    {
+      "title": "Head of Platform Engineering",
+      "url": "https://jobs.ashbyhq.com/tenex/3d00d020-5422-46e2-9745-1dab6cbde72e",
+      "live": true,
+      "quote": "ensure the platform can scale to petabytes of security data and billions of daily events"
+    }
+  ],
+  "people_spec": [
+    "Founder & CTO",
+    "Founder and CEO",
+    "Founder & CFO/COO"
+  ],
+  "talk_track": "This is Daniel Kirichanski — I ran platform engineering at Ripple while it processed over six billion transactions a year, and cut cloud spend 35% doing it, so TENEX's scale problem reads familiar. Your Head of Platform Engineering posting has been open since late January; it asks one person to own SLOs, on-call, MLOps, and a platform that can 'scale to petabytes of security data and billions of daily events.' Six months unfilled usually means the spec is really two jobs stapled together: a data-platform architect and an SRE operator, so every candidate arrives half wrong. Splitting the search — or seating interim platform leadership while it runs — is what protects the SLOs the MDR business is sold on, especially with a $250M Series B funding aggressive hiring on top of that platform. Which half of that role is hurting more right now?",
+  "sources": [
+    "https://jobs.ashbyhq.com/tenex/3d00d020-5422-46e2-9745-1dab6cbde72e",
+    "https://api.ashbyhq.com/posting-api/job-board/tenex",
+    "https://tenex.ai/news/tenex-seriesa/",
+    "https://tenex.ai/blog/series-b-blog/",
+    "https://tenex.ai/meet-the-tenexers/",
+    "https://siliconangle.com/2025/01/20/cybersecurity-startup-tenex-launches-ai-powered-cloud-mdr-service/"
+  ]
+}

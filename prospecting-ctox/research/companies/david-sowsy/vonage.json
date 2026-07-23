@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Vonage is a multi-thousand-employee public CPaaS/telecom company (Ericsson subsidiary) far too large for a fractional CTO, and none of its matched or fresh postings (PMO Manager, Junior Scrum Master, Director PM BSS, SMS-platform Engineering Manager) mention BLE, medical devices, or a mobile companion app — no quotable line matches David Sowsy's connected-hardware companion-app niche.",
+  "company": {
+    "name": "Vonage"
+  }
+}

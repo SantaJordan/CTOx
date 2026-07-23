@@ -1,0 +1,40 @@
+{
+  "verdict": "keep",
+  "reason": "Series A ($13M, Madrona, Mar 2025) AI startup doubling headcount with Principal Platform Engineer, Principal SRE, and Senior Infrastructure Engineer all open at once — the live JD's offer to 'define how platform reliability looks at an AI-native company' is a public confession that the platform/reliability function Daniel builds does not exist yet.",
+  "fit_score": 0.5191,
+  "company": {
+    "name": "Gradial",
+    "domain": "gradial.com",
+    "one_liner": "AI agents that automate enterprise marketing content operations — CMS authoring, website updates, and content supply chains.",
+    "industry": "B2B software / martech AI agents",
+    "stage": "Series A ($13M led by Madrona, Mar 2025; ~$20M total; ~20 employees at raise, doubling)",
+    "hq": "Seattle, WA"
+  },
+  "evidence_jobs": [
+    {
+      "title": "Principal Platform Engineer",
+      "url": "https://job-boards.greenhouse.io/gradial/jobs/4290694009",
+      "live": true,
+      "quote": "the opportunity to define how platform reliability looks at an AI-native company"
+    },
+    {
+      "title": "Senior Infrastructure Engineer",
+      "url": "https://job-boards.greenhouse.io/gradial/jobs/4251118009",
+      "live": true,
+      "quote": "brings a deep understanding of how to make infrastructure reliable, secure, and scalable"
+    }
+  ],
+  "people_spec": [
+    "Co-Founder & CTO",
+    "Co-Founder & CEO",
+    "Head of Engineering"
+  ],
+  "talk_track": "Daniel Kirichanski — I ran platform engineering at Ripple and the CI/CD platform serving 9,000+ developers at PayPal, and now do that work fractionally for Series A-C software companies. Gradial's live Principal Platform Engineer posting offers candidates the chance to 'define how platform reliability looks at an AI-native company' — alongside open Principal SRE and Senior Infrastructure Engineer seats. Three senior platform roles open at once usually means reliability is currently carried by product engineers, and every new enterprise customer raises the price of that arrangement. Searches like these routinely take one to two quarters, and the platform decisions made while the seats sit empty are the ones that stick. At Ripple that same inflection is where GitOps delivery and cost guardrails paid off — deploys went from hours to minutes and cloud spend dropped 35%. Who owns production reliability while those three seats stay open?",
+  "sources": [
+    "https://job-boards.greenhouse.io/gradial/jobs/4290694009",
+    "https://job-boards.greenhouse.io/gradial/jobs/4251118009",
+    "https://www.geekwire.com/2025/seattle-startup-gradial-raises-13m-for-ai-marketing-tech-that-automates-content-operations/",
+    "https://www.gradial.com/blog/announcing-series-a",
+    "https://www.citybiz.co/article/673620/gradial-raises-13m-series-a/"
+  ]
+}

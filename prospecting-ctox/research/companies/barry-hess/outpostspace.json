@@ -1,0 +1,18 @@
+{
+  "verdict": "drop",
+  "reason": "Outpost is a well-capitalized aerospace hardware scale-up ($33.2M AFWERX STRATFI award 2024 plus venture rounds, sitting CTO with four VP-of-Engineering roles reporting to him, 20+ open roles) — too large and too exec-staffed for a fractional CTO, and its hiring wave signals scale-up in reentry-vehicle hardware (TPS, structures, avionics), not the lab-to-field transition stall in Barry Hess's software/mobile/cyber niche; no JD line in the fresh feed redescribes his EDP.",
+  "company": {
+    "name": "Outpost Technologies Corporation",
+    "domain": "outpost.space",
+    "one_liner": "Reusable Earth-return vehicles (Carryall/Ferryall) delivering cargo from orbit to precise landing zones",
+    "industry": "aerospace / space logistics",
+    "stage": "growth startup (seed $7.1M 2022; ~$17.5M+ raised; $33.2M USAF STRATFI 2024)",
+    "hq": "Playa Vista / Santa Monica, California"
+  },
+  "sources": [
+    "https://www.businesswire.com/news/home/20240828025992/en/Air-Force-Selects-Outpost-for-%2433.2-Million-Award-to-Develop-Scalable-Earth-Return-Vehicle-for-Hypersonic-Testing-and-Re-Entry-Missions",
+    "https://spaceindex.io/companies/outpost",
+    "https://www.outpost.space/",
+    "https://job-boards.greenhouse.io/outpostspace/jobs/4675925006"
+  ]
+}

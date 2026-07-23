@@ -1,0 +1,33 @@
+{
+  "verdict": "keep",
+  "reason": "61-person YC/Bessemer-backed fintech serving community banks and credit unions with a live VP of Engineering posting (open since 2026-05-27) confessing a release-discipline and quality-framework breakdown across eight engineering value streams at a 'critical inflection point' — the exact engineering-as-growth-constraint situation Daniel fixes, in his deepest vertical.",
+  "fit_score": 0.5842,
+  "company": {
+    "name": "Bankjoy",
+    "domain": "bankjoy.com",
+    "one_liner": "Digital banking platform (mobile/online banking, account opening, loan origination, conversational AI) for community banks and credit unions",
+    "industry": "fintech / digital banking infrastructure",
+    "stage": "growth-stage startup (~61 employees, founded 2015; Y Combinator + Bessemer backed, Curql Collective round 2023)",
+    "hq": "Royal Oak (Detroit), Michigan"
+  },
+  "evidence_jobs": [
+    {
+      "title": "VP of Engineering",
+      "url": "https://jobs.ashbyhq.com/bankjoy/9e3892ee-25da-4b55-9c38-60cbcd064df4",
+      "live": true,
+      "quote": "This is a hands-on leadership role at a critical inflection point in Bankjoy's growth... The ideal candidate has deep roots in quality engineering, has personally rescued or rebuilt automation programs in multi-platform environments"
+    }
+  ],
+  "people_spec": [
+    "Founder & CEO (Michael Duncan — technical founder; a company hiring a VP of Engineering to own quality across all eight value streams has the eng-leadership gap sitting directly under him)",
+    "Chief Technology Officer",
+    "Chief Operating Officer"
+  ],
+  "talk_track": "At PayPal and Ripple, Daniel Kirichanski's whole job was the problem Bankjoy's VP of Engineering posting describes: release discipline breaking as a fintech engineering org scales. The listing calls it 'a hands-on leadership role at a critical inflection point' and asks for someone who has 'personally rescued or rebuilt automation programs in multi-platform environments.' Read plainly, that is a confession — eight value streams shipping to banks and credit unions without a shared quality framework, with the bar set stream by stream. The role has been open since late May, and every month of the search is a month those standards stay unwritten while credit-union clients keep auditing releases. What worked at payments scale was standing up the release and platform discipline first, so the eventual VP inherits a working system instead of a rescue. While the search runs, who owns release quality across the eight streams?",
+  "sources": [
+    "https://jobs.ashbyhq.com/bankjoy/9e3892ee-25da-4b55-9c38-60cbcd064df4",
+    "https://www.businesswire.com/news/home/20230306005066/en/Bankjoy-Raises-Funding-From-Curql-to-Support-Companys-Continued-Growth-Ongoing-Product-Innovation",
+    "https://www.linkedin.com/company/bankjoy",
+    "https://finovate.com/digital-banking-solutions-provider-bankjoy-secures-new-funding/"
+  ]
+}

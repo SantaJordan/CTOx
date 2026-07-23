@@ -1,0 +1,40 @@
+{
+  "verdict": "keep",
+  "reason": "Series A GPU-marketplace/AI-cloud company ($12M Series A Dec 2024, ~$20M total) run by PhD research founders is hiring a hands-on 'Vice President of Infrastructure' plus a Senior SRE whose JD calls SLOs and economic efficiency 'product-critical' — the exact reliability-plus-unit-economics inflection Daniel's PayPal/Ripple platform-engineering and FinOps playbook fixes, at a stage small enough for a fractional bridge while the exec search runs.",
+  "fit_score": 0.5793,
+  "company": {
+    "name": "Hyperbolic Labs",
+    "domain": "hyperbolic.ai",
+    "one_liner": "Open-Access AI Cloud: a GPU marketplace aggregating compute from global suppliers plus a serverless AI inference service.",
+    "industry": "AI infrastructure / GPU cloud (web3-adjacent investors)",
+    "stage": "Series A ($12M Dec 2024 led by Variant and Polychain Capital; ~$20M total raised; founded 2022)",
+    "hq": "San Francisco, CA"
+  },
+  "evidence_jobs": [
+    {
+      "title": "VP of Engineering",
+      "url": "https://jobs.ashbyhq.com/hyperbolic/c6039f86-4915-4d1d-9e10-ac7c2a484d5c",
+      "live": true,
+      "quote": "We are seeking a highly technical Vice President of Infrastructure to build and scale the foundational infrastructure powering our AI cloud platform. This is a hands-on executive leadership role."
+    },
+    {
+      "title": "Senior Site Reliability Engineer",
+      "url": "https://jobs.ashbyhq.com/hyperbolic/cb366294-41bb-4510-bc5b-19ce055c4643",
+      "live": true,
+      "quote": "As an aggregator of compute resources from hundreds of global suppliers, our SLOs, trust, and economic efficiency are product-cr[itical]"
+    }
+  ],
+  "people_spec": [
+    "Co-Founder & CEO (Jasper Zhang)",
+    "Co-Founder & CTO (Yuchen Jin)"
+  ],
+  "talk_track": "This is Daniel Kirichanski — at Ripple I ran platform engineering for a payments network moving 6B+ transactions a year, where the job was the same one a GPU marketplace faces: keeping reliability and unit economics honest while compute spend compounds. Your VP of Engineering posting asks for 'a highly technical Vice President of Infrastructure' and stresses it is 'a hands-on executive leadership role.' The Senior SRE posting next to it says your 'SLOs, trust, and economic efficiency are product-critical.' Read together, those two listings say the infrastructure under the marketplace has outgrown founder-led operations before the executive who will own it exists. Searches for that seat typically run two or more quarters, and neither the SLOs nor the margin math pauses for it. Who owns reliability and compute economics while that search runs?",
+  "sources": [
+    "https://jobs.ashbyhq.com/hyperbolic/c6039f86-4915-4d1d-9e10-ac7c2a484d5c",
+    "https://jobs.ashbyhq.com/hyperbolic/cb366294-41bb-4510-bc5b-19ce055c4643",
+    "https://www.hyperbolic.ai/blog/hyperbolic-secures-20m-total-funding-with-latest-series-a",
+    "https://siliconangle.com/2024/12/10/hyperbolic-launches-cloud-hosted-gpu-marketplace-raising-12m-funding/",
+    "https://fortune.com/crypto/2024/12/10/ai-company-hyperbolic-raises-12-million-series-a-funding/",
+    "https://www.cbinsights.com/company/hyperbolic-labs"
+  ]
+}

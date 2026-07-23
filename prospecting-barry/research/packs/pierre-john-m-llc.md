@@ -1,0 +1,281 @@
+# Evidence pack: PIERRE JOHN M LLC
+slug: pierre-john-m-llc | domain: physics-ai.com | HQ: Pacifica, California US | employees(LI): 7 | founded:  | stage_band: revenue_stage
+sources: sbir
+industry(LI): Research | specialties: 
+channel notes: SBIR PhII x1 [2023] Office of the Secretary of Defense latest: DeepRL Sim-to-Real hq: Pacifica,CA emp: 7
+own-language word count: ~659
+
+## Their own words (website via Exa, livecrawl-preferred)
+
+URL: https://physics-ai.com
+physicsAI – Deep Learning in Spacetime
+
+# Deep Learning in Spacetime
+
+Dynamic machine perception for robotics, autonomous vehicles, and intelligent sensors
+
+## Technology
+
+#### Neural Networks
+
+Deep hybrid architectures.
+
+#### Simulation
+
+Generative AI.
+
+#### Machine Learning
+
+Robust algorithms.
+
+#### Data Science
+
+Rigorous mathematics.
+
+## Applications
+
+### Autonomous Vehicles
+
+Machine perception. Intelligent behaviors. Optimal control. Adaptive online learning. UAVs. UGVs.
+
+### Intelligent Sensors
+
+Computer vision. EO/IR/RADAR sensor fusion. Spatiotemporal exploitation. Real-time low SWAP.
+
+### Virtual Reality
+
+3D physics simulations. Synthetic training data. Domain randomization. Sim-to-real.
+
+## Services
+
+#### R&D
+
+Deep Learning algorithm design and customization. Model training, testing, evaluation, and optimization. Rapid prototyping software and hardware.
+
+#### Consulting
+
+Artificial intelligence strategy. Machine learning system design. Deep learning best practices.
+
+## News
+
+Autonomous Vehicles/ Customers/ Deep Learning
+
+The Defense Advanced Research Projects Agency (DARPA) has awarded PhysicsAI a prime contract under the Albatross program, a cutting-edge initiative to develop autonomous soaring capabilities for unmanned aerial vehicles (UAVs). …
+
+Autonomous Vehicles/ Customers/ Deep Learning
+
+The Defense Advanced Research Projects Agency has selected software company EpiSci in partnership with PhysicsAI to develop the first version of “tactical artificial intelligence algorithms for missionized, team-based air combat”. …
+
+Autonomous Vehicles
+
+In less than three years, artificial intelligence (AI) algorithms developed under DARPA’s Air Combat Evolution (ACE) program have progressed from controlling simulated F-16s flying aerial dogfights on computer screens to …
+
+Read More News...
+
+## Contact Us
+
+Your Name (required)
+
+Your Email (required)
+
+Subject
+
+Your Message
+
+580 Crespi Drive, Unit Q, Pacifica, CA 94044
+
+[phone]
+
+[phone]
+
+URL: http://physics-ai.com/#features
+physicsAI – Deep Learning in Spacetime
+
+# Deep Learning in Spacetime
+
+Dynamic machine perception for robotics, autonomous vehicles, and intelligent sensors
+
+## Technology
+
+#### Neural Networks
+
+Deep hybrid architectures.
+
+#### Simulation
+
+Generative AI.
+
+#### Machine Learning
+
+Robust algorithms.
+
+#### Data Science
+
+Rigorous mathematics.
+
+## Applications
+
+### Autonomous Vehicles
+
+Machine perception. Intelligent behaviors. Optimal control. Adaptive online learning. UAVs. UGVs.
+
+### Intelligent Sensors
+
+Computer vision. EO/IR/RADAR sensor fusion. Spatiotemporal exploitation. Real-time low SWAP.
+
+### Virtual Reality
+
+3D physics simulations. Synthetic training data. Domain randomization. Sim-to-real.
+
+## Services
+
+#### R&D
+
+Deep Learning algorithm design and customization. Model training, testing, evaluation, and optimization. Rapid prototyping software and hardware.
+
+#### Consulting
+
+Artificial intelligence strategy. Machine learning system design. Deep learning best practices.
+
+## News
+
+Autonomous Vehicles/ Customers/ Deep Learning
+
+The Defense Advanced Research Projects Agency (DARPA) has awarded PhysicsAI a prime contract under the Albatross program, a cutting-edge initiative to develop autonomous soaring capabilities for unmanned aerial vehicles (UAVs). …
+
+Autonomous Vehicles/ Customers/ Deep Learning
+
+The Defense Advanced Research Projects Agency has selected software company EpiSci in partnership with PhysicsAI to develop the first version of “tactical artificial intelligence algorithms for missionized, team-based air combat”. …
+
+Autonomous Vehicles
+
+In less than three years, artificial intelligence (AI) algorithms developed under DARPA’s Air Combat Evolution (ACE) program have progressed from controlling simulated F-16s flying aerial dogfights on computer screens to …
+
+Read More News...
+
+## Contact Us
+
+Your Name (required)
+
+Your Email (required)
+
+Subject
+
+Your Message
+
+580 Crespi Drive, Unit Q, Pacifica, CA 94044
+
+[phone]
+
+[phone]
+
+## LinkedIn about
+
+PhysicsAI is developing novel real-time machine perception technologies using deep neural networks for applications including: robotics, autonomous vehicles, intelligent sensors, and optimal control.
+
+## SBIR/STTR record (their own abstracts)
+
+### DeepRL Sim-to-Real — Office of the Secretary of Defense 2023 ($1,200,180)
+Project FORCIS investigates solutions to the challenging problem of few-shot object detection. FORCIS leverages synthetic training data generated by simulation engines which are dynamically parameterized to maximize utility to a downstream deep-learning algorithm. We explore this approach, inspired by advances in the Reinforcement Learning (RL) branch of machine learning (ML), and contrast it against other advanced ML concepts aimed at addressing few-shot detection. Our approach on FORCIS leverages a flexible simulation environment based upon a modern game-development engine (e.g. Unreal or Unity). A programmatic interface to this simulator allows an optimizing agent to control the probability distributions of a wide range of simulation parameters. The control agent is designed to explore this high-dimensional parameter-space in order to maximize the performance of a mission-specific computer-vision “Main Task Model” (MTM). During this Phase II Enhancement, we propose to fully mature and apply the innovative techniques established under the prior phases, demonstrating their usage against real flight-test events.
+
+## News (Exa, top 3)
+- DOD Vendors with Contracts over $25000.00 () https://dodsoco.ogc.osd.mil/Portals/102/Documents/Conflicts/2025%2025K%20(FY2024)%20FINAL.pdf?ver=nG77mgIEGmaN7INenaQMnA%3D%3D
+  DOD Vendors with Contracts over $25,000.00
+Revised March 2025 Page 1
+DOD Vendors
+with 
+Contracts over $25,000.00 
+For use in CY 2025
+(Contains FPDS Data for FY 2024)
+DOD Vendors with Contracts over $25,000.00
+Revised March 2025 Page 2
+(RC) 2 PHARMA CONNECT L.L.C.
+'@MIRE, INC.
+1 A DEFENSE, LLC
+1 ACORD SERVICES, LLC
+1 HEALTH SOLUTIONS LLC
+1 MISSION PARTNERS
+1 SOURCE SOLUTIONS CO, LLC
+1 SYNC TECHNOLOGIES, LLC
+100 WORKFORCE SOLUTIONS, LLC
+10-31 INCORPORATED
+1032 ENTERPRISES LLC
+10-8 TACTICAL INC.
+10
+- JOHN M STREET JR AND COMPANY LIMITED LIABILITY COMPANY - RICHMOND, VA  - $30,723 in Defense Contracts in 2000 - 3817 GASKINS ROAD () https://www.governmentcontractswon.com/department/defense/john_m_street_jr_co_llc_073374501.asp?yr=00
+  JOHN M STREET JR AND COMPANY LIMITED LIABILITY COMPANY - RICHMOND, VA - $30,723 in Defense Contracts in 2000 - 3817 GASKINS ROAD
+
+| See Defense Contracts Won |
+| --- |
+| Defense Contract Totals in 2020 Count:3,603,454 Dollar Amount:$421,753,292,925 |
+
+| Home | | | Contractor Search | | | Data Downloads | | | About | Data Updated Through 2020 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+
+# JOHN M STREET JR AND COMPANY LIMITED LIABILITY COMPANY 3817 GASKINS ROADRICHMOND, VA 23233-1436 2000 
+- JohnPac Wins $9.2M Army Corps Contract for Emergency Flood Fight Sandbags | Contract Awards (2026-01-12) https://envzone.com/award-record/johnpac-wins-9-2m-army-corps-contract-for-emergency-flood-fight-sandbags/
+  JohnPac Wins $9.2M Army Corps Contract for Emergency Flood Fight Sandbags | Contract Awards
+
+Know who’s winning. Learn how to compete.
+
+# JohnPac Wins $9.2M Army Corps Contract for Emergency Flood Fight Sandbags
+
+JohnPac LLC,* Crowley, Louisiana, was awarded a $9,152,500 firm-fixed-price contract for sandbags in support of the National Flood Fight Material Center for emergency operations within the continental United States and overseas. Bids were solicited via the web with 11 received. Work loc
+
+## Open roles
+(no jobs data found)
+
+---
+# Context for the scoring agent (do not re-search)
+
+## Barry Hess niche
+Defense and intelligence technology companies in the $5M-$10M range whose proven prototype is stuck between demo and fielded deployment, guided by a CTO who fielded a patented tactical Android app platform with operators in theater and now engineers deployment architecture and acquisition advocacy from day one.
+
+**EDP:** When months-to-field exceeds the funded months remaining on the contract, the program dies in the DoD valley of death - and for a $5M-$10M defense tech company, one dead transition is often the company.
+
+## Deployed-reality checklist (score absence against this)
+- **DDIL**: denied/disconnected/intermittent/low-bandwidth comms. Canonical example: an AI
+  crowd-detection startup streamed 30fps video; the contested environment had bandwidth for
+  1 frame every 5 seconds. One architecture change (frame-rate decoupling) saved the project.
+- **SWaP-C**: size, weight, power, cost on the platform actually carried/mounted.
+- **ATO/RMF**: Authority to Operate on government networks; STIGs, POA&Ms, IL4/IL5.
+- **CMMC / NIST 800-171**: company-level compliance before the contract dies.
+- **ITAR/export**: controlled data handling.
+- **Operator training & sustainment**: who trains the E-5, who fixes it in the field, spares,
+  battery logistics, GFE integration.
+- **Advocacy chain**: a champion above the operator level; operators loving it is not adoption.
+- **Prime/flow-down mechanics**: subcontract structure, government back-end integration.
+- **TAK ecosystem**: if it touches situational awareness and never mentions ATAK/TAK, ask why.
+
+
+## Doctrine
+# Targeting doctrine brief (inject into every dossier & company agent — do NOT re-read the corpus)
+
+Distilled from Jordan Crawford's Cannonball/Blueprint corpus, 2026-07-23.
+
+1. **Pain-Qualified Segment beats ICP.** Never target firmographics ("50-200 person SaaS").
+   Target companies in an observable painful SITUATION right now. The situation must be
+   provable from public data.
+2. **Existential Data Point (EDP).** For each niche, name the single number that kills the
+   company if the problem stays unfixed (e.g. equipment utilization 60% vs 80% margins;
+   fleet utilization <70% = crisis). Every dossier must state the EDP of its CTO's target
+   situation: "what does it cost a company, in what metric, to leave this unfixed?"
+3. **Jobs are confessions.** A job posting is a company publicly describing its own pain.
+   We match jobs whose EXISTENCE signals a problem the CTO has already fixed — not jobs the
+   CTO would apply to. "First Head of Engineering" = no technical leadership. "Integration
+   Engineer (Epic, HL7)" = drowning in healthcare plumbing.
+4. **The message is a redescription of the targeting.** If targeting is precise, the message
+   writes itself by describing what we found. The reader should think "how do they know that?"
+5. **Message-as-gift (GTM Shift letter standard).** Conversational, unhurried, 4–6 short
+   sentences. Opens with a verified surprising fact. Every claim traces to a named public
+   source. Valuable even if never answered. One light question, under 15 words. Bans: "I
+   noticed", flattery, "hope you're well", meeting asks, personal details about the recipient
+   as the opener. Lead with the CTO's expertise matched to the company's evident problem.
+6. **Niche = Industry × Situation × Unique Angle** — all three specific (Ben Horowitz
+   principle: not best botanist; best Japanese botanist specializing in Zen gardens).
+7. **Insight tests**: counterintuitive (would other CTOs argue?), specific (exact tools/
+   patterns), quantifiable (before/after numbers), demonstrable (showable in 5 minutes).
+8. **Evidence honesty.** Actions > words > database records. Aggregator/API data (Blitz,
+   FullEnrich) never corroborates itself — load-bearing claims need the person's or
+   company's OWN public artifacts. Date every claim; label estimates as estimates.
+9. **Dropping a bad fit is success.** Never pad a list to hit a count.

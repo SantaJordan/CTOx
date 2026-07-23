@@ -1,0 +1,33 @@
+{
+  "verdict": "keep",
+  "reason": "Seed-stage ($10M, Sep 2025) counter-UAS laser startup whose live Director of Engineering posting literally confesses Barry's niche: it asks one hire to 'drive the hard handoff from a thing that works in the lab to a thing that survives downrange and gets built at volume' — the lab-to-field valley-of-death transition he fixes.",
+  "fit_score": 0.5611,
+  "company": {
+    "name": "Aurelius Systems",
+    "domain": "aureliussystems.com",
+    "one_liner": "VC-backed defense tech startup building autonomous, edge-deployed directed-energy laser weapons for counter-UAS.",
+    "industry": "Defense technology (directed energy / counter-UAS)",
+    "stage": "Seed — $10M round closed Sep 2025, co-led by General Catalyst and Draper Associates; founded 2024; SF lab + Detroit manufacturing hub; DIU and USSOCOM listed among backers/partners on homepage",
+    "hq": "San Francisco, CA"
+  },
+  "evidence_jobs": [
+    {
+      "title": "Director of Engineering",
+      "url": "https://jobs.ashbyhq.com/aureliussystems/c1f3e27a-8e68-413f-8c22-ecd9eb9181aa",
+      "live": true,
+      "quote": "drive the hard handoff from a thing that works in the lab to a thing that survives downrange and gets built at volume. This is the person who turns a demonstrator"
+    }
+  ],
+  "people_spec": [
+    "CEO & Co-Founder (Michael LaFramboise)",
+    "CTO & Co-Founder (John Marmaduke)"
+  ],
+  "talk_track": "Barry Hess here — I spent 16 years as CTO of a defense small business and fielded a patented tactical app platform with operators in theater, then watched it die force-wide for lack of a senior champion inside the building. Your Director of Engineering posting asks one person to 'drive the hard handoff from a thing that works in the lab to a thing that survives downrange and gets built at volume.' That line actually describes two jobs: an engineering leader can get you to volume, but survival downrange is decided in the program office, not on your 400-acre range. Weekly field tests prove the demo; the DoD valley of death opens after the demo lands, when months-to-field runs past the funded window. The companies that make the transition engineer the acquisition advocacy at the same time they engineer the product. Who owns the program-office side of that handoff today?",
+  "sources": [
+    "https://jobs.ashbyhq.com/aureliussystems/c1f3e27a-8e68-413f-8c22-ecd9eb9181aa",
+    "https://www.businesswire.com/news/home/20250902984268/en/Aurelius-Systems-Raises-%2410-Million-to-Bring-Autonomous-Laser-Defense-to-the-Battlefield-In-Round-Led-by-General-Catalyst-Draper-Associates",
+    "https://www.axios.com/2025/09/03/aurelius-lasers-cuas-seed-money",
+    "https://www.aureliussystems.com/",
+    "https://f.inc/portfolio/aurelius-systems/"
+  ]
+}

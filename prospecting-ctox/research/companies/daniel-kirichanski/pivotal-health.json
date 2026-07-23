@@ -1,0 +1,43 @@
+{
+  "verdict": "keep",
+  "reason": "Bessemer-backed healthcare-reimbursement (money-flow) platform, ~64 people growing ~5x YoY with 31 open roles, whose live postings confess exactly Daniel's problem: a Senior Platform Engineer asked to 'design, scale, and harden the foundation' and a Staff Security Engineer described as 'Pivotal's first dedicated security hire' — platform and security maturity being built after the growth, the moment his PayPal/Ripple platform-SRE playbook applies.",
+  "fit_score": 0.5067,
+  "company": {
+    "name": "Pivotal Health",
+    "domain": "pivotalhealth.ai",
+    "one_liner": "AI-driven platform (formerly Radix Health, rebranded Jan 2026) that helps healthcare providers dispute underpaid claims and win fair reimbursement via Independent Dispute Resolution (No Surprises Act) workflows.",
+    "industry": "Healthtech / revenue-cycle fintech (claims reimbursement)",
+    "stage": "Growth (founded 2023; PitchBook: 2 rounds, latest 'PE Growth'; Bessemer Venture Partners portfolio; ~64-65 employees, headcount up ~485% YoY per Exa company data)",
+    "hq": "New York, NY and Santa Monica, CA (engineering roles posted in both hubs)"
+  },
+  "evidence_jobs": [
+    {
+      "title": "Senior Platform Engineer",
+      "url": "https://jobs.ashbyhq.com/pivotal-health/bbcd1270-0dd0-40c8-aef9-ca0fce35ace1",
+      "live": true,
+      "quote": "help design, scale, and harden the foundation that powers Pivotal's platform... ensure our platform scales as the business takes on more customers and more complexity... Expand and harden our Terraform coverage"
+    },
+    {
+      "title": "Staff Security Engineer",
+      "url": "https://jobs.ashbyhq.com/pivotal-health/c560d519-3123-465b-b1fd-1856d6b1e9bf",
+      "live": true,
+      "quote": "As Pivotal's first dedicated security hire, you will play a critical role in architecting and building our security program from the ground up"
+    }
+  ],
+  "people_spec": [
+    "Co-Founder & CEO (Max Mangum)",
+    "Co-Founder & COO (Josh Folds)",
+    "VP of Engineering / Head of Engineering (none surfaced in research — founders appear to own engineering; the Staff Security JD confirms no security leadership exists)"
+  ],
+  "talk_track": "Daniel Kirichanski — I spent a decade running platform engineering at PayPal and Ripple, including the CI/CD platform behind 9,000+ PayPal developers, and now do that work fractionally for Series A–C companies. Two of Pivotal's live Ashby postings tell a story: the Senior Platform Engineer is asked to 'design, scale, and harden the foundation that powers Pivotal's platform,' and the Staff Security Engineer opening is described as 'Pivotal's first dedicated security hire... building our security program from the ground up.' With 31 roles open at once, that reads as foundation and security being built after the growth arrived — normal, but every month those seats stay empty, the architecture gets decided by default. The less obvious risk: staff-level platform and security engineers rarely accept a blank page — they join where the paved road and threat model already have an owner. An interim operator can set that baseline so both hires land into a mandate instead of an ambiguity. Who's making the platform-architecture calls while those two seats are open?",
+  "sources": [
+    "https://jobs.ashbyhq.com/pivotal-health/bbcd1270-0dd0-40c8-aef9-ca0fce35ace1",
+    "https://jobs.ashbyhq.com/pivotal-health/c560d519-3123-465b-b1fd-1856d6b1e9bf",
+    "https://api.ashbyhq.com/posting-api/job-board/pivotal-health",
+    "https://pivotalhealth.ai/about-us",
+    "https://pivotalhealth.ai/resources/radix-health-rebrands-as-pivotal-health",
+    "https://pitchbook.com/profiles/company/544633-75",
+    "https://www.bvp.com/companies/pivotal-health",
+    "https://www.globenewswire.com/news-release/2026/01/20/3221732/0/en/Radix-Health-Rebrands-as-Pivotal-Health.html"
+  ]
+}

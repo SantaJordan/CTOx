@@ -1,0 +1,48 @@
+{
+  "verdict": "keep",
+  "reason": "Series B industrial-AI data platform (Insight Partners strategic round Nov 2025) whose live Lead DevOps Engineer posting compresses a VP-platform mandate — end-to-end DevOps ownership, internal developer platform, FinOps across AWS/GCP, and LLM-assisted incident response to cut MTTR — into one CA$185K lead hire, which is precisely the AI-in-operations/platform-engineering gap Daniel Kirichanski fixed at Tricentis, Ripple, and Industrial-AI peer Avathon.",
+  "fit_score": 0.4719,
+  "company": {
+    "name": "Litmus (Litmus Automation, Inc.)",
+    "domain": "litmus.io",
+    "one_liner": "Industrial edge data platform that connects machines, systems, and sensors so manufacturers can structure real-time operational data and deploy AI across plants.",
+    "industry": "Industrial AI / industrial IoT edge data platform",
+    "stage": "Growth-stage; Series B ($30M led by Belden, Sept 2022; $42.6M total) plus additional strategic investment led by Insight Partners (Nov 2025)",
+    "hq": "Santa Clara, CA"
+  },
+  "evidence_jobs": [
+    {
+      "title": "Lead DevOps Engineer",
+      "url": "https://jobs.ashbyhq.com/litmus/7b1c0627-da65-41c6-84b0-dc5656127cb3",
+      "live": true,
+      "quote": "Embed AI capabilities into the observability and incident response stack — using LLM-assisted root cause analysis, alert summarization, and runbook generation to reduce mean time to resolution."
+    },
+    {
+      "title": "Lead DevOps Engineer",
+      "url": "https://jobs.ashbyhq.com/litmus/7b1c0627-da65-41c6-84b0-dc5656127cb3",
+      "live": true,
+      "quote": "This is a senior technical leadership role — reporting directly to the Head of Technology — for someone who is ready to own the DevOps function end-to-end across the entire company, and to lead its transformation into an AI-enabled engineering discipline."
+    },
+    {
+      "title": "Lead DevOps Engineer",
+      "url": "https://jobs.ashbyhq.com/litmus/7b1c0627-da65-41c6-84b0-dc5656127cb3",
+      "live": true,
+      "quote": "Apply AI-driven approaches to cloud cost optimization — using intelligent anomaly detection and spend forecasting to inform FinOps decisions across AWS and GCP."
+    }
+  ],
+  "people_spec": [
+    "Head of Technology (named in the JD as the hiring manager the role reports to — owns the platform/DevOps gap)",
+    "Co-Founder & CEO",
+    "Co-Founder & COO"
+  ],
+  "talk_track": "Daniel Kirichanski here — I ran cloud operations for an Industrial AI platform at Avathon and cut MTTR roughly 40% at Tricentis by putting AI agents into incident detection and root-cause analysis, the same mandate your live Lead DevOps Engineer posting describes. That posting asks one lead engineer to 'own the DevOps function end-to-end across the entire company' — GitLab, EKS across AWS and GCP, security tooling, an internal developer platform, plus 'LLM-assisted root cause analysis, alert summarization, and runbook generation to reduce mean time to resolution.' That is a platform organization's charter written as a single CA$145–185K role. Read plainly, it means the AI-enabled engineering transformation has no senior owner between the Head of Technology and the ICs, and while the req sits open, delivery friction and multi-cloud spend keep compounding. Whoever fills it will need an operating model on day one — DORA baselines, a FinOps loop, and an evaluation harness before more AI tooling gets embedded. Which is hurting more right now — delivery friction or cloud spend?",
+  "sources": [
+    "https://jobs.ashbyhq.com/litmus/7b1c0627-da65-41c6-84b0-dc5656127cb3",
+    "https://api.ashbyhq.com/posting-api/job-board/litmus",
+    "https://www.prweb.com/releases/litmus-raises-30m-in-series-b-funding-to-accelerate-industrial-iot-edge-platform-adoption-854004845.html",
+    "https://www.newswire.com/news/litmus-secures-additional-investment-led-by-insight-partners-to-22673991",
+    "https://techcrunch.com/2022/09/13/industrial-iot-startup-litmus-automation-bags-new-cash-to-grow-its-product/",
+    "https://www.arcweb.com/blog/litmus-raises-30m-series-b-funding-led-belden",
+    "https://litmus.io"
+  ]
+}

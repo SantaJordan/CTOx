@@ -22,6 +22,47 @@ Education & credentials: PhD, Chemical Engineering, University of Illinois Urban
 
 Note: his LinkedIn shows KBI as still "Current" alongside the Mar 2026 Quantum Surge fractional practice — he appears to hold both roles.
 
+## First-party materials (cohort Drive drop, 2026-07-23)
+
+Source: **"QST_CapState_Jul26.pdf"** — his own Quantum Surge Tech ("QST") capability statement, uploaded to the cohort Google Drive and downloaded 2026-07-23 (local copy: `data/drive_materials/qst-capstate-jul26.txt`). Everything here is first-party **[self-reported — QST capability statement, Jul 2026]** unless noted. Contact listed in the document: barry@quantumsurge.tech, linkedin.com/in/barryshess. (The document also lists a personal mobile number; deliberately omitted from this dossier — the repo is public.)
+
+### Verbatim positioning
+
+**Who I work with:** "Series A and B defense tech startups (typically 8-30 people) building AI/ML, geospatial, or sensor related products for DoW and Intelligence Community customers. If your team builds the technology but needs cleared senior leadership to get it into the hands of warfighters, that's where I come in."
+
+**Value proposition:** "You've built technology the DoW needs. Now you need to prove it in their language, on their timeline, inside their compliance framework. I get defense tech startups procurement-ready and positioned to win government contracts faster. My active TS/SCI clearance means I can walk into a classified meeting next week without waiting months for access."
+
+Note: this first-party ICP (funding-stage + headcount: Series A/B, 8–30 people) sits in tension with this dossier's niche statement below, which sizes the target by revenue ("$5M–$10M range"). His own sizing lens should be treated as authoritative for outbound; the dossier's revenue framing is retained unedited for the record.
+
+### "When to call me" triggers (verbatim)
+
+- "Your company just received SBIR Phase II funding and needs cleared technical leadership to execute"
+- "You're preparing for your first government technical evaluation and aren't sure you'll pass"
+- "Your team is building for DoD but nobody on staff has ever worked inside a SCIF"
+- "You need CMMC certification before your runway runs out"
+- "You're a VC looking to derisk a defense tech portfolio company before its next contract milestone"
+
+### The problems he solves (his three named categories, verbatim)
+
+1. **Prototype to Fielding:** "Your tech works in the lab. It works in the demo. I close that gap by pressure-testing architecture and operational assumptions against real-world conditions before they become real-world failures."
+2. **Advocacy Chain Building:** "Operator enthusiasm doesn't become a program of record on its own. I identify and enable the advocacy chain from the operator level up to senior decision makers so your technology has a champion at every level." (Directly consistent with proven-fix #2 below — the KBI "died on the vine" lesson.)
+3. **CEO Technical Translation:** "I help CEOs bridge the gap by translating their vision into a credible technical narrative with realistic milestones, honest timelines, and a roadmap that both investors and program offices can say yes to."
+
+### New qualifications & client-outcome claims (relative to the rest of this dossier)
+
+All **[self-reported — QST capability statement, Jul 2026]**; none independently verified, clients unnamed:
+
+- **Explicit ICP definition** (new): Series A/B defense tech startups, typically 8–30 people, building AI/ML, geospatial, or sensor products for DoW and Intelligence Community customers.
+- **Clearance restated as "Top Secret / SCI (Current)"** — first-party reaffirmation of the TS/SCI claim; still not publicly verifiable.
+- **Expanded named-customer list:** "20+ years supporting SOCOM, CENTCOM, STRATCOM, NGA, AFRL, DTRA, DHS, and the broader Intelligence Community." STRATCOM, AFRL, and DTRA are newly named here (the dossier's self-reported customer set was SOCOM, CENTCOM, NPS, DHS; NGA support was previously via the NJVC role). Same caveat as before: no public prime/subaward record for most of these.
+- **Contradiction (tenure):** the capability statement says "20+ years in Defense and Intelligence programs," but the career arc above shows continuous defense/IC work since 1987 (~38 years). "20+" is presumably conservative marketing rounding, but the two figures conflict — do not quote both.
+- **Client outcome — CMMC:** "Guided a geospatial analytics startup through CMMC certification, clearing the path for their first prime contract." (New; no CMMC client outcome appears elsewhere in this dossier.)
+- **Client outcome — architecture review:** "Identified critical technical debt during an architecture review that would have caused a failed government demonstration." (New; consistent with his Jul 2026 LinkedIn technical-debt content stream but a distinct, specific claim.)
+- **Client outcome — engineering org design:** "Structured the engineering org for an early-stage AI/ML company so the founder could stop making every technical decision personally." (New.)
+- **Investor/VC offering** (new audience): "I help your defense tech portfolio companies become procurement-ready faster, reducing time-to-first contract and protecting your capital. Happy to discuss how I can support multiple companies in your portfolio."
+- **Testimonials** (new, first names only — "Rob" and "Anne"): Rob credits "deep technical expertise and strategic vision… quickly assess complex technical landscapes, identify gaps, and chart a clear path forward"; Anne calls him "an Engineer's engineer… a gifted leader of technical talent."
+- PhD (Chemical Engineering, University of Illinois) and PMP restated — consistent with the credentials block above; no conflict.
+
 ## Proven fixes
 
 1. **Getting tactical software from lab to deployed operators.** At KBI he built a drag-and-drop Android app builder that let special operators assemble mission-specific apps (target tracking, asset validation, data collection) on-site while deployed — "compressed development cycles from months to minutes" [self-reported, LinkedIn]. Independent corroboration that the platform existed and was sold into DoD: an SRC, Inc. subaward description in USASpending (2017-10-04, $133,282, USAF) reads "KBI uses a proprietary app development platform, built on open-standards, which facilitate[s]…" **[verified: USASpending subaward record]**; patent applications assigned to KnowledgeBridge (US 13/986,075 filed 2013; continuation US 16/449,313 published as US-2019-0306275-A1) describe exactly this component-based mobile app-building method, inventor Barry Samuel Hess **[verified: Google Patents]**; KBI's GitHub org (KBIOPS) includes TacMapPLI, "a simplified version of TacMap for Position Location Information display and collaboration" **[verified: github.com/KBIOPS]**.

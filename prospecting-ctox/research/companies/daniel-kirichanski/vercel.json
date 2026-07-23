@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Vercel is a multi-billion-dollar infrastructure platform company with a permanent CTO and deep platform/SRE leadership — far too large for a fractional CTO, and its infra job postings (Software Engineer, Deployment Infrastructure; Engineering Manager, CDN) are the company building the platform-engineering product it sells, not a confession of the pain Daniel fixes.",
+  "company": {
+    "name": "Vercel"
+  }
+}

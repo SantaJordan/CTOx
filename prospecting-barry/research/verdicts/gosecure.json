@@ -1,0 +1,21 @@
+{
+  "company": "GoSecure",
+  "slug": "gosecure",
+  "domain": "gosecure.ai",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "None in their own language — only defense-VC list membership in the sources line (vc:shield, vc:razors-edge); every visible customer artifact is commercial or Canadian civil government (CanadaBuys pen-testing and firewall awards), zero DoD/military/warfighter language.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "'24/7 managed detection, response, and expert cybersecurity services' → commercial MSSP/managed-services motion, also a services-lean disqualifier (homepage)",
+    "News is entirely Canadian procurement: 'ENTER INTO A FRAMEWORK AGREEMENT WITH GOSECURE INC. FOR PENETRATION TESTING SERVICES' → no US defense customer motion (news)",
+    "Open roles are Montreal/Toronto sales, onboarding, and SOC analysts — no cleared, federal, or compliance roles (job_post list)",
+    "Note: own-language word count ~482 is also under the 500-word insufficiency gate; drop on gate 1 takes precedence"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Canadian-rooted managed extended detection and response (MXDR) provider selling 24/7 SOC services and cybersecurity consulting to commercial and civil-government customers."
+}

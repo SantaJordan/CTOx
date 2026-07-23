@@ -1,0 +1,20 @@
+{
+  "company": "MOBIUS CONSULTING, LLC",
+  "slug": "mobius-consulting-llc",
+  "domain": "mobius-llc.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "SDA Direct-to-Phase-II, $64M MDA award, $567M Parsons-Mobius JV for MDA test services — SBIR record and news sections.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "'Mobius provides engineering, analytical, and programmatic expertise to government and commercial customers' → services/advisory firm, not a product company with a stuck prototype (homepage)",
+    "Capabilities list is Systems Engineering, Modeling & Simulation, Test & Evaluation, Program Management, Organizational Strategy → SETA/consulting services (homepage)",
+    "'A joint venture between Parsons and Mobius will provide testing support to the Missile Defense Agency under a potential six-year, $566.67 million contract' → services prime/JV at scale (news)"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "HUBZone/WOSB defense consulting firm selling systems engineering, modeling and simulation, T&E, and program-management services to MDA, SDA, and other DoD customers."
+}

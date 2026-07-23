@@ -95,6 +95,10 @@ def candidates_for(con, spec):
       AND ({any_like('title', strong)} OR {any_like('title', gap)}
            OR {any_like('jd_markdown', jdlex)})
       AND NOT ({any_like('company', disq)} OR {any_like('company_does', disq)})
+    ORDER BY (CAST({any_like('title', strong)} AS INT) * 4
+            + CAST({any_like('title', gap)} AS INT) * 3
+            + CAST({any_like('jd_markdown', jdlex)} AS INT)) DESC
+    LIMIT 40000
     """
     return {r[0]: r for r in con.execute(q).fetchall()}
 
@@ -126,13 +130,21 @@ def main():
     seen = 0
     for batch in scanner.to_batches():
         ids = batch.column("id").to_pylist()
-        mask = [i for i, x in enumerate(ids) if x in wanted]
+        pre = [i for i, x in enumerate(ids) if x in wanted]
+        if not pre:
+            continue
+        te_raw = batch.column("title_embedding").take(pre).to_pylist()
+        je_raw = batch.column("jd_embedding").take(pre).to_pylist()
+        mask = [pre[i] for i in range(len(pre))
+                if te_raw[i] is not None and len(te_raw[i]) == 1536
+                and je_raw[i] is not None and len(je_raw[i]) == 1536]
         if not mask:
             continue
-        te = np.asarray(batch.column("title_embedding").take(mask).to_pylist(),
-                        dtype=np.float32)
-        je = np.asarray(batch.column("jd_embedding").take(mask).to_pylist(),
-                        dtype=np.float32)
+        keepi = [i for i in range(len(pre))
+                 if te_raw[i] is not None and len(te_raw[i]) == 1536
+                 and je_raw[i] is not None and len(je_raw[i]) == 1536]
+        te = np.asarray([te_raw[i] for i in keepi], dtype=np.float32)
+        je = np.asarray([je_raw[i] for i in keepi], dtype=np.float32)
         te /= np.clip(np.linalg.norm(te, axis=1, keepdims=True), 1e-9, None)
         je /= np.clip(np.linalg.norm(je, axis=1, keepdims=True), 1e-9, None)
         sel_ids = [ids[i] for i in mask]

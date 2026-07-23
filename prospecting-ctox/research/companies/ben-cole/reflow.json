@@ -1,0 +1,41 @@
+{
+  "verdict": "keep",
+  "reason": "Seed-stage ($15M+, Feb 2026) enterprise-selling SaaS with a solo product-background founder and no CTO/VP Eng, whose live DevOps & Security Engineer posting asks one IC to own infrastructure, multi-tenant enterprise isolation, security reviews/compliance/audits, and cloud cost efficiency all at once — the exact unowned technical-operations layer Ben Cole builds, at a company that already staffs its leadership fractionally (Fractional Head of Sales, Finance, CS, Technical Recruiter, plus an open Technical Advisor role).",
+  "fit_score": 0.5448,
+  "company": {
+    "name": "Reflow (Reflow System Inc)",
+    "domain": "reflow.ai",
+    "one_liner": "Workforce and workflow intelligence platform that makes enterprise operational work observable — showing how work flows across people and systems, what to automate, and the ROI of automation.",
+    "industry": "Enterprise SaaS — workforce/workflow intelligence for operations-heavy mid-market and enterprise teams (support, accounting, tax, legal, compliance)",
+    "stage": "Seed — $15M+ round announced Feb 11, 2026 (Basis Set portfolio); founded 2024; ~15 employees and hiring ~22 open roles",
+    "hq": "San Francisco, CA"
+  },
+  "evidence_jobs": [
+    {
+      "title": "DevOps & Security Engineer",
+      "url": "https://jobs.ashbyhq.com/reflow/1ca2e414-f45f-48ff-89ce-4249b2f92a32",
+      "live": true,
+      "quote": "As adoption scales, our infrastructure needs to be more secure, observable, and cost-efficient."
+    },
+    {
+      "title": "DevOps & Security Engineer (same posting — compliance scope)",
+      "url": "https://jobs.ashbyhq.com/reflow/1ca2e414-f45f-48ff-89ce-4249b2f92a32",
+      "live": true,
+      "quote": "Design isolated multi-tenant environments for enterprise customers. ... Support ongoing security reviews, compliance efforts, and audits."
+    }
+  ],
+  "people_spec": [
+    "Founder & CEO (Uğur Kaner) — solo founder with product/design background (ex-Udemy, ex-Collective CPO); no technical co-founder found, so he owns this problem directly",
+    "Technical Advisor — the company has an open posting for exactly this role, confirming they buy advisory technical leadership; whoever fills or scopes it is the counterpart",
+    "Note: no CTO, VP Engineering, or Head of Platform exists to find — the DevOps & Security Engineer being hired would be the entire ops layer"
+  ],
+  "talk_track": "Ben Cole here. I've built the platform, DevSecOps, and FinOps layer under fast-scaling products four times — most recently taking Lexipol through a first-attempt SOC 2 Type II in a CJIS-regulated environment while cutting AWS spend 22%. Reflow's DevOps & Security Engineer posting says it plainly: 'As adoption scales, our infrastructure needs to be more secure, observable, and cost-efficient.' Read closely, that one role is being asked to carry three jobs — multi-tenant enterprise isolation, security reviews and audits, and cloud cost — which is where ops layers usually break: a single engineer with nobody owning the layer above them. And because Reflow captures how enterprise work gets done, your buyers' security teams will gate every deal on the audit evidence that role is supposed to produce, months before any single hire can ramp. Which of those three does the business need owned first?",
+  "sources": [
+    "https://jobs.ashbyhq.com/reflow/1ca2e414-f45f-48ff-89ce-4249b2f92a32",
+    "https://www.reflow.ai/",
+    "https://www.prnewswire.com/news-releases/reflow-launches-with-15m-seed-to-make-enterprise-operations-observable-at-scale-302684424.html",
+    "https://basisset.com/portfolio-companies/reflow",
+    "https://www.linkedin.com/company/reflowai",
+    "https://www.linkedin.com/in/ukaner"
+  ]
+}

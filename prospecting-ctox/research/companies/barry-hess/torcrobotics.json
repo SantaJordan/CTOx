@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Torc Robotics is a commercial autonomous-trucking software company owned by Daimler Truck with a large multi-site engineering org (Director of Engineering, multiple Engineering Managers, ML and HiL test teams) — not a $5M-$10M defense/intelligence firm in the DoD valley of death, and far too large and well-led to hire a fractional CTO; no job in the fresh feed redescribes the lab-to-field acquisition pain Barry Hess fixes.",
+  "company": {
+    "name": "Torc Robotics"
+  }
+}

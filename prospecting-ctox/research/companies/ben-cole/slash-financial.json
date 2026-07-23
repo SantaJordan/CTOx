@@ -1,0 +1,36 @@
+{
+  "verdict": "keep",
+  "reason": "A 60-person, $250M-ARR regulated banking platform doubling headcount YoY is asking a single live Senior Infrastructure/Platform Engineer hire to be 'focused on owning and scaling the foundation of our banking platform as we grow fast' — a public confession that the platform/ops layer under first-time CTO Kevin Bai has no dedicated owner, which is precisely the situation Ben Cole's fractional technical-operations practice exists for.",
+  "fit_score": 0.5406,
+  "company": {
+    "name": "Slash Financial",
+    "domain": "slash.com",
+    "one_liner": "Business banking platform (accounts, corporate cards, bill pay, stablecoins, AI-native workflows) for 6,000+ businesses; $250M ARR with ~60 employees",
+    "industry": "fintech / business banking",
+    "stage": "Series C ($100M, Apr 2026, led by Ribbit Capital; $1.4B valuation)",
+    "hq": "San Francisco, CA"
+  },
+  "evidence_jobs": [
+    {
+      "title": "Senior Infrastructure/Platform Engineer",
+      "url": "https://jobs.ashbyhq.com/slash-financial/ddfdb655-0fd2-4e02-bf0f-4add83b461dd",
+      "live": true,
+      "quote": "We're looking for a Senior Infrastructure/Platform Engineer focused on owning and scaling the foundation of our banking platform as we grow fast."
+    }
+  ],
+  "people_spec": [
+    "Co-Founder & CTO (Kevin Bai)",
+    "Head of Engineering (Jason Jiang, in role since Apr 2026)",
+    "Co-Founder & CEO (Victor Cardenas)"
+  ],
+  "talk_track": "Ben Cole here — I build the platform, DevSecOps, and FinOps layer underneath CTOs; at Lexipol that meant a first-attempt SOC 2 Type II in a CJIS-regulated environment and 22% off the AWS bill, after scaling the same layer at Expedia and Pokemon. Slash's live Senior Infrastructure/Platform Engineer posting asks one hire to be 'focused on owning and scaling the foundation of our banking platform as we grow fast.' Read plainly, that says the foundation of a $250M-ARR banking platform has no dedicated owner yet. At 100% year-over-year headcount growth, that is usually the moment cloud spend starts drifting and enterprise buyers start asking for compliance evidence a single engineer cannot produce alone. Worth having even if we never speak: the fix is an accountable ops layer under the CTO, not more headcount. What do enterprise customers ask Slash for before they sign?",
+  "sources": [
+    "https://jobs.ashbyhq.com/slash-financial/ddfdb655-0fd2-4e02-bf0f-4add83b461dd",
+    "https://techcrunch.com/2026/04/16/slash-a-ramp-competitor-founded-by-teenagers-raises-100m-at-1-4b-valuation/",
+    "https://www.slash.com/blog/series-c-fundraise-release",
+    "https://www.instagram.com/reel/DXMvEA8iXQh/",
+    "https://www.slash.com/company/about",
+    "https://www.linkedin.com/in/kevinbai0",
+    "https://www.linkedin.com/in/jason-jiang-743908220"
+  ]
+}

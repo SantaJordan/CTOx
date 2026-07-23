@@ -30,6 +30,39 @@ All tenures and titles from the FullEnrich pull unless otherwise sourced; corrob
 
 Shape of the arc: individual-contributor systems/Java engineer → early iOS entrepreneur (2009, App Store's second year) → cross-platform mobile architect → regulated medical-device software engineer → mobile engineering manager at a connected-hardware company, with a deliberate 2023-24 retooling into applied AI (CUDA, local LLMs, RAG) done in public.
 
+## First-party materials (cohort Drive drop, 2026-07-23)
+
+Source: "David Sowsy - Resume.pdf", uploaded by David to the cohort Google Drive 2026-07-23 (local extract: `data/drive_materials/david-sowsy-resume.txt`). This is first-party self-report — it upgrades many previously database-only claims to "self-attested" but is not third-party corroboration. Personal phone number deliberately omitted (public repo).
+
+### New facts not previously in this dossier (each: Resume, uploaded 2026-07-23)
+
+- **Contact:** email dsowsy@gmail.com; headline "Understands the Assignment: Building with Tech, People, and Projects." Self-positions as "Mobile Applications Engineering Leader," 25+ years software engineering, 12+ years mobile, 5+ years managing/mentoring engineering teams — not as a fractional CTO.
+- **SharkNinja, Jan 2025 – Dec 2025** (previously database-only; now self-attested, with an end date implying he has left or is leaving): managed the mobile team (FTEs, contractors, co-ops) for the **SharkClean app** serving **5M+ global customers** across **9 App Store field releases**; acted as director's assistant and backup for the lead Android engineer; ran App Store/Google Play submissions with TestFlight, Firebase, and Bitrise pipelines; post-release hypercare via **BugSnag**, personally shipping **a dozen-plus high-priority crash fixes**; hands-on across **iOS (Swift), Android (Kotlin), React Native (TypeScript), and Rust shared libraries**; introduced linters, static analysis, pre-commit hooks, and a **<250 ms responsiveness standard**; used generative AI for RCA/debugging and started team-wide "AI in Practice" meetups.
+- **MedAcuity quantified outcomes** (previously database-only project claims; now self-attested): software architected/implemented for **six medical hardware clients** including cardiac surgical robotics; the Xamarin/C# BLE sensor prototype tied to **33,000+ hydrocephalus patients**; synthetic patient record generation for HL7 interoperability with Synthea in **Scala and Java**; "Big Data Techniques" lunch-and-learn to **60+ technical staff**.
+- **Tap Tap Done quantified outputs** (2013–2018 stint): **shipped 30+ customer-facing apps** on App Store and Google Play; **four machine-vision apps** using OpenCV with Objective-C/Swift; managed cross-functional teams across **five countries and six time zones**; ad-revenue optimization dashboards across multiple ad networks. (2009–2012 stint): **20 complex iOS/Android apps**; the four Bradley Sleep Labs (Brown University) iOS apps are described as **"still operational"**; custom apps for **three authors**.
+- **RoadBars** (previously unverified with no artifact): self-attested as built with **SwiftUI, Combine, and Metal**, with AV programming for iOS and **CarPlay**, plus Node.js/Swift client integration and complex-event-processing proof of concept.
+- **Ping4alerts role** (previously role-unverified; now self-attested): owned/optimized the urgent-notification iOS app; engaged stakeholders including **MEMA and FEMA**; mentored newcomers.
+- **Agero scope:** designed and tested **cross-platform vehicle applications for major automobile brands**, titled "Mobile Software Architect Consultant" (see contradictions below on dates).
+- **Two employers absent from the FullEnrich pull entirely** (listed undated under "Prior Related Work Experience"):
+  - **SavaJe Technologies — Member of the Technical Staff**: cell-phone software in J2SE/Xlets/MIDP, JSR-75 PIM apps, J2ME GUI redesign in Java Swing, internal mobile emulator + Sun WTK, features in phone/calendar apps, mentored new hires. (SavaJe was a mid-2000s Java-phone OS startup — dates this before/around the MRV era.)
+  - **The MITRE Corporation — Network and Distributed Systems Engineer**: **Predator UAV video capture and data-visualization software in Java**; "award-winning" tactical planning software for the Air Force and DoD; ported multiple-hypothesis-tracking software Unix→Windows; geospatial server software in C++; **held interim secret clearance**.
+- **Speaking audiences beyond PMI:** AI/resume-tailoring/ATS-scoring sessions also delivered to **MCOA and MassHire** job-seeker groups; built automated/semi-automated resume generation with Python (Sikuli), JavaScript, Node.js, and ChatGPT.
+- **Visible Edge outcome:** passed the **Robotics in Manufacturing (RMF) Certification Exam**.
+- **Certifications, now with issuers and dates** (previously only "PMP, CPMAI" in his name string, registries unchecked; all still self-attested): CPMAI+E — Cognilytica (Nov 2024); Applied Generative AI for Digital Transformation — MIT (Aug 2024) [matches the previously unverified "MIT Professional Education short course"]; Generative AI Certified Professional in OCI — Oracle (Jul 2024); Prompt Engineering for Project Managers — PMI (Jul 2024); AI Governance — Securiti (Apr 2024); Data Landscape of GenAI for PMs — PMI (Apr 2024); GenAI Overview for PMs — PMI (Mar 2024); IBM IT Project Manager — IBM (Nov 2023); **PMP — PMI (Nov 2023)**; AI Infrastructure and Operations Fundamentals — NVIDIA (Oct 2023); Google IT Automation with Python (Jul 2021); Google Digital Cloud Leader (Sep 2021); Google Data Analytics Certificate (Sep 2021).
+- **Education:** BS Computer Science, University of Massachusetts at Lowell (no dates on resume; consistent with the 1996 `dsowsy@cs.uml.edu` artifact).
+- **Skills list additions** not in the FullEnrich pull: Amazon Q, ChatGPT Enterprise, Claude Code, Cursor, React Native, PyTorch, Scikit-learn, SwiftLint, C#.
+
+### Contradictions between the resume and existing dossier claims (resume vs. FullEnrich — neither is independently verified)
+
+- **SharkNinja title:** resume says "Mobile Applications **Engineering** Manager (Shark & Ninja)"; FullEnrich row says "Mobile Applications Manager."
+- **MedAcuity title:** resume says "Senior Mobile Software Engineering **Technical Specialist / Technical Coordinator**"; FullEnrich row says "Senior Software Engineer."
+- **Tap Tap Done reactivated stint start:** resume says **Nov 2022**; FullEnrich says Nov 2023. A full year of difference on when the AI-speaker/RoadBars period began.
+- **Tap Tap Done 2013–2018 stint:** resume says Oct 2013 – **Dec 2018**; FullEnrich says Nov 2013 – **Dec 2019**. A one-year difference on the end date.
+- **Agero dates:** resume says **Feb 2012 – Jan 2013**; FullEnrich says Jan – Aug 2012. Resume also omits the Softworld staffing intermediary. (Resume's first Tap Tap Done stint ends Jan 2012 vs. FullEnrich's Dec 2011 — minor.)
+- **Visible Edge dates:** resume says **Jan 2023** – Oct 2023; FullEnrich says Jun 2023 – Oct 2023.
+- **MedAcuity Synthea tech:** resume says the synthetic-patient-record/HL7 work was in **Scala and Java**; the FullEnrich profile text claimed Spark, Kafka and Camel. Overlapping but different stacks.
+- **MRV Communications (2007–2009) does not appear on the resume at all** — the FullEnrich-only row (and its "700 bugs via FindBugs" figure) now rests on even thinner ground.
+
 ## Proven fixes (specific problems he demonstrably solved, with evidence)
 
 1. **Shipped branded client apps end-to-end as a one-man studio, including App Store submission.** The archived taptapdone.com portfolio (Wayback, 2014-07-04) lists shipped iOS apps for celebrity author Mel Robbins ("Stop Saying You're Fine"), author Mark Jeffrey ("Max Quick"), and author J.C. Hutchins ("Kilroy: SHAKE IT!"), plus utility apps (cooking timers built on Newton's Law of Cooling). This is his studio's own site, not aggregator data. Source: web.archive.org/web/20140704092037/http://taptapdone.com:80/
@@ -59,6 +92,7 @@ Connected-hardware and medical-device companies (industry) at the moment their p
 
 ## Sources
 
+- "David Sowsy - Resume.pdf", uploaded by David to the cohort Google Drive 2026-07-23 (first-party self-report; local extract: /Users/jordan/Desktop/Claude Code/CTOx/prospecting-ctox/data/drive_materials/david-sowsy-resume.txt)
 - FullEnrich API pull (aggregator — never self-corroborating): /Users/jordan/Desktop/Claude Code/CTOx/prospecting-ctox/checkpoints/cto_enrich/david-sowsy.json (pulled 2026-07)
 - GitHub profile + repo list: https://github.com/dsowsy (repo dates 2011-2025, checked 2026-07-23 via GitHub API)
 - Tap Tap Done portfolio site, archived 2014-07-04: http://web.archive.org/web/20140704092037/http://taptapdone.com:80/

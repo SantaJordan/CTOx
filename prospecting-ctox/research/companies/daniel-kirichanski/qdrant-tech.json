@@ -1,0 +1,49 @@
+{
+  "verdict": "keep",
+  "reason": "Series B AI-infrastructure company (in Daniel's A-C sweet spot) confessing his exact pain: two simultaneous FinOps postings whose JD calls cloud cost 'a unit economics role', plus a VP of Engineering search open since April during its post-$50M-raise scaling moment.",
+  "fit_score": 0.5848,
+  "company": {
+    "name": "Qdrant",
+    "domain": "qdrant.tech",
+    "one_liner": "Open-source vector search engine built in Rust, powering RAG, agents, and semantic search for enterprises like Canva, HubSpot, and Bosch.",
+    "industry": "AI tooling / data infrastructure",
+    "stage": "Series B ($50M, Mar 2026, led by AVP; $87.8M total raised)",
+    "hq": "Berlin, Germany (with New York presence; remote-first)"
+  },
+  "evidence_jobs": [
+    {
+      "title": "Senior FinOps & Cloud Analyst",
+      "url": "https://jobs.ashbyhq.com/qdrant.tech/f205d3ab-6347-46d9-9279-d1c20396e2cf",
+      "live": true,
+      "quote": "This is not just a cost optimization role. It is a unit economics role. You will help ensure that every new feature, workload..."
+    },
+    {
+      "title": "Cloud Infrastructure Cost Analyst (FinOps)",
+      "url": "https://jobs.ashbyhq.com/qdrant.tech/c13adc26-fdfd-428a-b234-de2db5e0283e",
+      "live": true,
+      "quote": "You will work closely with our Cloud Engineering team to understand how architectural decisions impact infrastructure cost"
+    },
+    {
+      "title": "VP of Engineering",
+      "url": "https://jobs.ashbyhq.com/qdrant.tech/930cc1d0-3c8e-4446-8a56-b5c055609a1b",
+      "live": true,
+      "quote": "lead and grow our engineering organization at a pivotal moment — post-Series B, as we scale from a beloved open-source tool into the definitive vector search platform for enterprise AI"
+    }
+  ],
+  "people_spec": [
+    "Co-Founder & CEO (Andre Zayarni) — owns the post-Series B scaling mandate and the open VP Engineering search",
+    "Co-Founder & CTO (Andrey Vasnetsov) — owns architecture decisions driving cloud cost; the VP Eng JD says the hire partners directly with the CEO, so eng leadership bandwidth is thin",
+    "Chief Financial Officer / Head of Finance — the FinOps 'unit economics' roles sit between engineering and finance, so finance co-owns this pain",
+    "Head of Cloud / Cloud Engineering lead — named in the FinOps JD as the analyst's day-to-day partner"
+  ],
+  "talk_track": "Daniel Kirichanski here — at Ripple I owned the program that cut cloud spend 35%, about $8M a year, while the platform cleared 6 billion annual transactions. Qdrant's Senior FinOps & Cloud Analyst posting says something most companies never admit out loud: 'This is not just a cost optimization role. It is a unit economics role.' Two cost-analyst roles posted the same day, alongside a VP of Engineering search open since April, reads as cloud gross margin becoming a board-level number right after the $50M Series B. The pattern I have seen twice at payments scale: an analyst can surface the unit economics, but the savings live in architecture and provisioning decisions only engineering leadership can move. Until the VP seat is filled, that gap is where the margin leaks. Who owns cloud gross margin while the VP Engineering search runs?",
+  "sources": [
+    "https://jobs.ashbyhq.com/qdrant.tech/f205d3ab-6347-46d9-9279-d1c20396e2cf",
+    "https://jobs.ashbyhq.com/qdrant.tech/c13adc26-fdfd-428a-b234-de2db5e0283e",
+    "https://jobs.ashbyhq.com/qdrant.tech/930cc1d0-3c8e-4446-8a56-b5c055609a1b",
+    "https://qdrant.tech/blog/series-b-announcement/",
+    "https://www.businesswire.com/news/home/20260312313902/en/Qdrant-Raises-%2450-Million-Series-B-to-Define-Composable-Vector-Search-as-Core-Infrastructure-for-Production-AI",
+    "https://www.techtarget.com/searchdatamanagement/news/366640132/Qdrant-raises-50M-in-funding-to-fuel-vector-database-growth",
+    "https://www.cbinsights.com/company/qdrant"
+  ]
+}

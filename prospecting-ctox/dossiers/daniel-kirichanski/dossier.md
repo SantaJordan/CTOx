@@ -29,6 +29,115 @@ Location: Austin, TX. Languages: English, Hebrew, Russian (database). Total expe
 Tricentis as his current role. His live profile (crawled 2026-07-09) shows Tricentis ended Jun 2026 and Prime Path
 Global founded Jun 2026. The practice is ~1 month old at research time.
 
+## First-party materials (cohort Drive drop, 2026-07-23)
+
+Two documents uploaded by Daniel himself to the cohort Google Drive, downloaded 2026-07-23:
+(1) a designed Prime Path Global one-pager (text extracted verbatim from an image-based PDF)
+[data/drive_materials/daniel-kirichanski-primepath-onepager.txt], and (2) a fractional-CTO
+services/resume doc [data/drive_materials/daniel-kirichanski-fractional-cto.txt]. All claims
+below are self-reported first-party statements. Contact details on the docs beyond business
+email (daniel@primepath.global) and public URLs are deliberately omitted here (public repo).
+
+### Verbatim positioning (one-pager)
+
+Headline: **"Building AI Products that scale past the people delivering them"** — Ex-PayPal,
+Ripple, Microsoft, Tricentis.
+
+Pull quote: *"You've proven demand with a high-touch, human-delivered offer. The hard part is
+next: turning that into a product and an engineering org that scales without scaling headcount
+one-for-one. That's the exact transition I've spent the last few years making in production:
+taking work that lived in people's hands and moving it into AI systems that hold up under real
+load."*
+
+**Note:** this is a materially different lead than the platform/SRE/FinOps positioning captured
+from LinkedIn + primepath.global (snapshot 2026-07-09). The one-pager leads with
+services-to-AI-product transformation for businesses with proven high-touch offers, not with
+engineering-as-growth-constraint at Series A–C/PE-backed software companies. See contradiction
+notes below and the signal-spec comparison in project notes.
+
+### "The Problems I Solve" — six named categories (one-pager, verbatim claims)
+
+1. **AI agents in production, not slides.** Tricentis: AI agents for incident detection,
+   root-cause analysis, on-call response — "cutting MTTR by ~40%." (Consistent with LinkedIn
+   snapshot 2026-07-09.)
+2. **Platforms that let small teams punch above their size.** Led PayPal's CI/CD platform for
+   9,000+ developers; ran Ripple's platform engineering for "6B+ annual transactions, cutting
+   deploy cycles from hours to minutes." (Consistent with LinkedIn snapshot.)
+3. **Hands-on with the models.** Has "trained and fine-tuned LLMs (Llama, ChatGPT)"; building a
+   **reference architecture for AI agent orchestration** — knowledge ingestion, a memory layer,
+   and agents that act on business systems. (Reference architecture is new — not on LinkedIn or
+   primepath.global as of 2026-07-09 snapshots.)
+4. **Zero-to-product experience.** "I co-founded an **alternative-data company** and took it
+   from nothing to a **private-equity acquisition in 12 months**, owning both technical vision
+   and product execution." **Contradiction (a):** the dossier's research (CB Insights,
+   FintechWeekly) describes VerumView as a real-time-**KYC** startup with a seed round — no exit
+   was found in research, and "alternative-data" is a different framing. **Contradiction (b):**
+   "12 months" vs. his own resume doc listing "Co-Founder & CTO, Verumview (2015–2017)" (~2
+   years) and the dossier's 2016–2017. No PE acquisition of VerumView surfaced in Exa research;
+   treat the exit claim as unverified self-report.
+5. **Org realignment.** Restructures siloed, misaligned teams into cohesive engineering orgs;
+   "fragmented product ownership is solvable with the right operating cadence." (Consistent with
+   the Tricentis 5-team restructuring claim, Proven fix #4.)
+6. **Product leadership at scale.** "As a Senior Product Manager at PayPal, I led the mobile app
+   **from inception** to global launch and scaled it to **250M users** worldwide." (250M figure
+   already noted as self-reported/unverified; "from inception" is a stronger claim than the
+   LinkedIn-snapshot framing of mobile app launch + Canada market entry during a 2017–2018
+   rotation — PayPal's mobile app predates 2017, so "inception" likely refers to a specific
+   app/relaunch. Unverified.)
+
+**Positioning contradiction with dossier's "What he is NOT":** the dossier (from
+LinkedIn/site, 2026-07-09) concluded he is "not a product-zero-to-one CTO." The one-pager
+explicitly claims the opposite: "I know zero-to-product mode as well as scale-up" and sells
+"Zero-to-product experience" as a headline problem category. Original claim left intact above;
+both are his own artifacts, ~2 weeks apart.
+
+### New facts from the fractional-CTO services doc (2026-07-23)
+
+- **Earlier career, first-party confirmed:** Software Engineer, **Microsoft (2009–2010)** —
+  new; absent from the dossier career table and explains the "Ex-Microsoft" one-pager tagline.
+  Senior QA Engineer, **Marvell Technology (2006–2009)** — new. **Dell (2012–2013)** and **NICE
+  Actimize (2010–2012, "QA & Automation Team Lead")** — previously FullEnrich-only, now
+  first-party corroborated.
+- **VerumView, first-party confirmed:** "Co-Founder & CTO, Verumview (2015–2017)". Upgrades the
+  dossier's "Unverified" VerumView association from aggregator-only to self-reported first-party
+  (still no external corroboration of his role or any exit). **Date contradiction:** 2015–2017
+  here vs. 2016–2017 in the FullEnrich pull.
+- **Title/date contradictions vs. LinkedIn snapshot (2026-07-09):**
+  - Ripple: resume doc says "**Senior Manager**, Platform Engineering, 2022–2024" vs. LinkedIn's
+    "**Head of** Platform Engineering." Second title variant on his own artifacts (Wiza variant
+    already noted in Unverified).
+  - Tricentis: "Head of **Cloud Platform & Site Reliability Engineering (SRE)**, 2025–2026" vs.
+    LinkedIn's "Head of Infrastructure Platform and Reliability Engineering."
+  - Advisory: "Technology Expert & Advisor (VCs, Enterprises, GLG Network), **2023** – Present"
+    vs. LinkedIn's Jan **2024** start. Also first-party names **GLG** (previously
+    FullEnrich-only).
+- **Ripple metrics, new granularity:** reliability/availability +30%+, engineering velocity +30%
+  (CI/CD rebuild), system stability +40% (observability), **$8M annual cost savings explicitly
+  attributed to Ripple** (site had only said "a large payment business"), while scaling a **30+
+  global engineering team**. All self-reported.
+- **PayPal 2019–2022 metrics:** throughput +35%, reliability +30%+ (CI/CD modernization, SDLC
+  transformation, SRE adoption). Also: M&A technical due diligence and post-acquisition
+  integrations **for PayPal Ventures** (new attribution).
+- **Tooling named first-party** (upgrades several FullEnrich-only items): CI/CD — GitHub
+  Actions, GitLab CI, Jenkins, **ArgoCD**, CircleCI; observability — Prometheus, Grafana,
+  Datadog, ELK; IaC — Terraform, CloudFormation.
+- **Compliance breadth, new:** SOC 2, **GDPR, ISO 27001, FedRAMP**; IAM / Zero Trust
+  Architecture. (Only SOC 2/SOX appeared in prior research.)
+- **Cost claim ceiling:** "multi-million-dollar cost optimizations (**up to $8M annually**)" —
+  consistent with the $8M figure, framed as an upper bound.
+- **Education & credentials, new:** BSc Computer Science (Cum Laude), College of Management
+  Academic Studies, Israel; PayPal Technology Leadership Program ("Corporate MBA"); Google AI
+  Essentials; IBM Generative AI for Executives; DeepLearning.AI (Generative AI with LLMs;
+  Generative AI for Software Development Specialization); Kubernetes Administration (Linux
+  Foundation); Cloudera Spark & Big Data; Cisco CCNA; Microsoft MCSE. (Blockchain Council cert
+  already in dossier.)
+- **PrimePath services framing:** fractional CTO + technical advisory, leading "senior
+  cross-functional specialists across DevOps, IT infrastructure, and security" (implies a
+  bench/network, not strictly solo); technical due diligence and infrastructure assessments for
+  "venture and enterprise clients."
+- **Public contact (one-pager):** daniel@primepath.global, www.primepath.global,
+  linkedin.com/in/daniel-kirichanski, X: primepath.global.
+
 ## Proven fixes (specific problems, with evidence + source)
 
 All bullets below are **self-reported on his own public artifacts** (LinkedIn profile experience section,
@@ -82,7 +191,9 @@ snapshot 2026-07-09; primepath.global). None are independently audited numbers.
 - **Security:** PayPal InfoSec engineering management, Avathon InfoSec ownership, zero-trust patterns.
 - **What he is NOT (per his own positioning):** not a product-zero-to-one CTO, not a consumer-app builder, not a
   hands-on ML researcher. His material targets companies that already have a product and revenue but whose
-  engineering org, platform, or cloud economics broke during growth or M&A.
+  engineering org, platform, or cloud economics broke during growth or M&A. **[Contradicted by his own
+  one-pager (Drive drop, 2026-07-23), which claims "zero-to-product" experience as a headline strength —
+  see First-party materials section. Original assessment retained; based on LinkedIn/site as of 2026-07-09.]**
 
 ## Niche statement
 
@@ -124,12 +235,18 @@ reduction, deploys hours→minutes) are the before/after of exactly that number.
 - https://www.zdnet.com/article/paypal-to-pay-60m-for-israeli-security-startup-cyactive/ — CyActive price report (2015-03-09)
 - https://www.prnewswire.com/news-releases/avathon-launches-the-first-system-level-industrial-ai-platform-302278510.html — SparkCognition→Avathon rebrand (2024-10-17)
 - FullEnrich API pull: checkpoints/cto_enrich/daniel-kirichanski.json (aggregator; used for pre-2015 roles and noted as stale on current role)
+- data/drive_materials/daniel-kirichanski-primepath-onepager.txt — first-party one-pager, cohort Drive drop, downloaded 2026-07-23 (image-PDF text extraction, treated as verbatim)
+- data/drive_materials/daniel-kirichanski-fractional-cto.txt — first-party fractional-CTO services/resume doc, cohort Drive drop, downloaded 2026-07-23
 
 ## Unverified claims (database-only or self-reported without external corroboration)
 
 - **VerumView co-founder role (2016–2017):** company existence and seed round corroborated (FintechWeekly, CB
   Insights), but his association appears only in the FullEnrich pull; CB Insights lists a different person
   ("Maxim P.") as Founder/Director. Our profile crawl truncated before this era. Treat as unverified.
+  **[Update 2026-07-23: his own fractional-CTO doc (Drive drop) lists "Co-Founder & CTO, Verumview
+  (2015–2017)" — now self-reported first-party, dates conflicting with FullEnrich's 2016–2017; and his
+  one-pager claims a "private-equity acquisition in 12 months" of an "alternative-data company" — no exit
+  found in research, description conflicts with KYC framing. Role: self-reported. Exit: unverified.]**
 - **NICE Actimize (2010–2012) and Dell (2012–2013) details:** FullEnrich-only in this research (profile crawl
   truncated); dates plausible, not directly captured from his own artifact.
 - **GLG and AlphaSights "Technology Expert/Advisor" roles (2024–2025):** FullEnrich-only as named engagements,

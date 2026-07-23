@@ -22,3 +22,21 @@ prospecting-ctox/data/
 prospecting-ctox/checkpoints/
 prospecting-ctox/vendor/
 prospecting-ctox/output/*_raw*
+
+# prospecting-barry (large data, checkpoints, raw contact output)
+prospecting-barry/data/
+prospecting-barry/checkpoints/
+prospecting-barry/output/
+
+# prospecting-ben (Ben Cole pipeline — page cache, checkpoints w/ PII, contact output)
+prospecting-ben/data/
+prospecting-ben/checkpoints/
+prospecting-ben/output/
+
+# prospecting-cameron (raw data + contact output w/ emails/phones)
+prospecting-cameron/data/
+prospecting-cameron/output/
+
+# iCloud duplicate git dirs
+.git\ 2
+.git\ 3

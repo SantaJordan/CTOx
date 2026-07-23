@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Neon Health is a healthtech SaaS (AI automation of pharma patient-access workflows) with no connected hardware or mobile companion app; its fresh job feed has zero mobile/BLE/iOS/Android roles, and the sole matched job (VP of Engineering, score 0.4357) exists to support an already-in-seat full-time CTO — no quotable line matches David Sowsy's companion-app-bottleneck niche.",
+  "company": {
+    "name": "Neon Health"
+  }
+}

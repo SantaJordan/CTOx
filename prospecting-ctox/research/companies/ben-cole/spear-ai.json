@@ -1,0 +1,43 @@
+{
+  "verdict": "keep",
+  "reason": "Seed-stage (~$2.3M, Jul 2025) DC defense-AI startup in Ben's 20-200 band and an even more regulated environment (IL5/IL6/TS-SCI) than his Lexipol CJIS/NIST record; its live Embedded DevOps posting confesses the exact unowned ops-glue layer he builds, asking one IC to bring 'best practices for HIL, SIL, CI/CD, Deployment, Provisioning, Configuration' and 'serve as an informal interface between the embedded software team and the company-wide software group.'",
+  "fit_score": 0.5278,
+  "company": {
+    "name": "Spear AI",
+    "domain": "spear.ai",
+    "one_liner": "Maritime defense AI startup building sonobuoy sensors and software that turn US Navy submarine/SONAR acoustic data into decision advantage, deployed to IL5/IL6/TS-SCI.",
+    "industry": "defense / maritime AI (hardware, software, and services)",
+    "stage": "seed (round closed Jul 2025, Scare the Bear Capital + Cortical Ventures; ~$2.3M per Tech Startups), rapidly growing with Navy/CDAO/ONR customers",
+    "hq": "Washington, D.C. (offices in Falmouth, MA and Groton, CT)"
+  },
+  "evidence_jobs": [
+    {
+      "title": "Embedded DevOps Engineer",
+      "url": "https://jobs.ashbyhq.com/spear-ai/af29f0e0-1d03-432b-a117-3772b24ee497",
+      "live": true,
+      "quote": "This person will also serve as an informal interface between the embedded software team and the company-wide software group... Your job will be to provide best practices for HIL, SIL, CI/CD, Deployment, Provisioning, Configuration, etc., to the firmware team using Spear AI's cloud-based infrastructure and applications."
+    },
+    {
+      "title": "Infrastructure Engineer (Senior) [TS/SCI]",
+      "url": "https://jobs.ashbyhq.com/spear-ai/9bf519fa-2d15-49e0-814d-7101f0084eef",
+      "live": true,
+      "quote": "We're a small team wearing many hats, and you'd have a wide variety of responsibilities"
+    }
+  ],
+  "people_spec": [
+    "Chief Executive Officer",
+    "VP of Software (named as the reporting line in the Embedded DevOps Engineer posting)",
+    "Chief Operating Officer",
+    "Co-Founder"
+  ],
+  "talk_track": "Ben Cole has built the operations layer underneath product teams four times — Expedia (0 to 95), Pokemon (2 to 32 at 320M users), Prytania Media, and most recently Lexipol, where his team passed SOC 2 Type II on the first attempt in a CJIS/NIST-regulated environment while cutting AWS spend 22%. Spear AI's live Embedded DevOps Engineer posting asks one hire to bring 'best practices for HIL, SIL, CI/CD, Deployment, Provisioning, Configuration' to the firmware team — and to 'serve as an informal interface between the embedded software team and the company-wide software group.' That second clause is the tell: the glue between hardware and software builds is currently unowned, so it is being written into an IC's job description as a side duty. In Ben's experience, that seam outgrows one engineer fast once fielding tempo picks up — and with software already deployed to IL5, IL6, and TS/SCI, every build and provisioning decision now carries an evidence trail someone has to own. A fractional operations layer can hold that seam so the VP of software's engineers stay on mission software instead of build plumbing. Who owns build and deployment infrastructure across both teams today?",
+  "sources": [
+    "https://jobs.ashbyhq.com/spear-ai/af29f0e0-1d03-432b-a117-3772b24ee497",
+    "https://jobs.ashbyhq.com/spear-ai/9bf519fa-2d15-49e0-814d-7101f0084eef",
+    "https://www.spear.ai/",
+    "https://spear.ai/newsroom/seed-funding",
+    "https://www.reuters.com/business/spear-ai-raises-first-round-funding-apply-ai-submarine-data-2025-07-25/",
+    "https://techstartups.com/2025/07/25/spear-ai-raises-2-3m-to-bring-ai-powered-threat-detection-to-u-s-navy-submarines/",
+    "https://www.citybiz.co/article/723843/spear-ai-closes-seed-funding-round-co-led-by-scare-the-bear-capital-cortical-ventures/"
+  ]
+}

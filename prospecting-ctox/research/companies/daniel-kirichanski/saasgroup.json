@@ -1,0 +1,43 @@
+{
+  "verdict": "keep",
+  "reason": "saas.group is a serial acquirer of ~20 bootstrapped B2B SaaS brands (the PE-backed-platform-in-M&A-mode situation Daniel targets), and its live Greenhouse posting for a hands-on CTO at 15-person portfolio brand AddSearch publicly confesses a technical-leadership gap at a post-acquisition AI/RAG inflection point.",
+  "fit_score": 0.4762,
+  "company": {
+    "name": "saas.group",
+    "domain": "saas.group",
+    "one_liner": "Serial acquirer and operator of ~20 bootstrapped B2B SaaS brands (Prerender, ScraperAPI, AddSearch, INFOnline), run with a founder-friendly, remote-first holding model.",
+    "industry": "SaaS holding company / serial software acquirer",
+    "stage": "Founded 2018; profitable PE-style holdco (~80-100 central+brand staff per aggregator data); each portfolio brand is small (AddSearch is 15 people)",
+    "hq": "Remote-first, distributed across 28 countries; US entity (aggregators list Seattle, WA / Las Vegas, NV)"
+  },
+  "evidence_jobs": [
+    {
+      "title": "Chief Technology Officer (CTO) — AddSearch (saas.group brand)",
+      "url": "https://job-boards.eu.greenhouse.io/saasgroup/jobs/4876704101",
+      "live": true,
+      "quote": "You'll be joining a company at an inflection point: maintaining a stable, high-SLA enterprise product while scaling a newer AI/RAG solution. You'll need to balance both."
+    },
+    {
+      "title": "Senior DevOps Engineer — ScraperAPI (saas.group brand)",
+      "url": "https://job-boards.eu.greenhouse.io/saasgroup/jobs/4858508101",
+      "live": true,
+      "quote": "Explore and assess the infrastructure architecture, collecting risks and opportunities that need to be addressed"
+    }
+  ],
+  "people_spec": [
+    "CEO, AddSearch (the portfolio-brand CEO hiring her first CTO — there is no incumbent technical leader to find)",
+    "Co-Founder / Managing Partner, saas.group",
+    "COO, saas.group (central operations owner across portfolio brands)",
+    "Head of Portfolio Operations / Integration, saas.group"
+  ],
+  "talk_track": "Daniel Kirichanski here — my work is standing up engineering leadership inside post-acquisition SaaS companies, the same integration playbook I ran at PayPal after the CyActive deal and again at Tricentis. AddSearch's live Greenhouse posting for a hands-on CTO says the company is 'at an inflection point: maintaining a stable, high-SLA enterprise product while scaling a newer AI/RAG solution.' Read plainly, that means the RAG product is winning deals faster than the platform underneath can absorb, with no technical owner holding both sides. Player-coach CTO searches for 15-person companies tend to run long, because anyone who can carry an enterprise SLA and an AI roadmap is usually already a CTO somewhere. The interim months are where the risk lives: the SLA erodes quietly, or the RAG roadmap ships without an evaluation harness — the failure mode I keep writing about. What breaks first if the search runs long — the SLA or the roadmap?",
+  "sources": [
+    "https://job-boards.eu.greenhouse.io/saasgroup/jobs/4876704101",
+    "https://job-boards.eu.greenhouse.io/saasgroup/jobs/4858508101",
+    "https://saas.group/",
+    "https://saas.group/about/",
+    "https://saas.group/family/",
+    "https://www.linkedin.com/company/saas-group",
+    "https://www.cbinsights.com/investor/saasgroup"
+  ]
+}

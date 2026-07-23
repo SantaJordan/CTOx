@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Upbound is a Series B commercial cloud-infrastructure company ($69M raised, Fortune 500 customers, creators of Crossplane) — not a $5M-$10M defense/intelligence firm in the DoD valley of death; its Director of Engineering postings are generic engineering-leadership hires with no line that redescribes the lab-to-field transition pain Barry Hess fixes, and the company is too large and well-funded for a fractional CTO.",
+  "company": {
+    "name": "Upbound"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Dyna Robotics is a commercial embodied-AI robotics company with $140M+ raised (CRV, First Round) hiring a full-time Head of Engineering across a ~28-role org — wrong industry (no defense/IC work anywhere in its fresh job feed), far too well-funded for a fractional CTO, and its 'deployment' pain is commercial site bring-up, not the DoD valley-of-death transition Barry Hess fixes.",
+  "company": {
+    "name": "Dyna Robotics"
+  }
+}

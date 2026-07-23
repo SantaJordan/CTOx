@@ -1,0 +1,44 @@
+{
+  "company": "K2 Space Corporation",
+  "slug": "k2-space-corporation",
+  "domain": "k2space.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Two 2023 Air Force SBIR Phase IIs plus an $18M 2025 USAF Phase II for the Mega Class satellite — SBIR record and news sections.",
+  "disconnect_score": 49,
+  "subscores": {"lab_language_intensity": 13, "deployment_awareness_absence": 9, "operator_absence": 12, "hiring_profile_skew": 10, "stage_pressure": 5},
+  "score_evidence": [
+    "'The Mega Class platform delivers 10x the power of other constellation class satellites (20kW vs. 2kW), unlocking industry-leading payload performance' — spec-brag framing, kW as the headline → lab_language_intensity (homepage)",
+    "'ultra-high-power spacecraft capable of delivering over 115kW of power and 15,000kg of payload mass to enable previously unattainable capabilities' → lab_language_intensity (sbir_abstract)",
+    "'We believe in ownership: if you design it, you see it fly. Pride comes from real hardware, not slide decks' — the story ends at launch; no mission operators, no Space Force users, no ground crews anywhere in ~1,541 words → operator_absence (homepage/about)",
+    "Open roles are entirely build-and-test hardware engineering (thermal, avionics test, optomechanical); zero mission-ops, ISSO, compliance, or government-integration roles → hiring_profile_skew (job_post list)",
+    "'K2 Space raises $110 million to scale up satellite production' — cash-rich with an SES anchor partnership; little visible clock pressure → stage_pressure kept low (news)"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The ISR pitch never touches the government ground segment: tasking, C2, and data dissemination into existing Space Force/IC architectures",
+      "operator_reality": "A 115kW ISR bus is judged by whether its payload data reaches an analyst through accredited ground infrastructure; integrating into SSC/NRO ground systems, getting an ATO for the C2 software they write in-house, and interoperating with legacy mission-management stacks is a multi-year gauntlet their language never acknowledges",
+      "why_likely_missing": "Founding team is SpaceX-avionics and startup-exit DNA — vertical hardware integration is the religion ('80% of each satellite is built in-house'); ground-segment accreditation is someone else's plumbing until a Phase II demo stalls on it",
+      "evidence_quote": "ultra-high-power spacecraft capable of delivering over 115kW of power and 15,000kg of payload mass to enable previously unattainable capabilities spanning ISR",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "'Build Bigger' runs head-on into the proliferated-resilience doctrine their USAF customer actually buys against — and their language never argues survivability beyond radiation",
+      "operator_reality": "SDA/USSF moved to proliferated small constellations precisely because a single large satellite is a single large target; a Mega/Giga bus carrying a concentrated DoD payload must answer maneuver, ASAT threat, and graceful-degradation questions in acquisition review, not just radiation tolerance",
+      "why_likely_missing": "Their resilience vocabulary is environmental ('withstand even the harshest radiation environments'), inherited from commercial GEO thinking; contested-space survivability is a warfighting frame their commercial SES-anchored messaging has no reason to use — until the Phase II customer does",
+      "evidence_quote": "Bigger satellites deliver more power to payloads, mass on orbit, and resilience at lower cost. Bigger isn't excess, it's access.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No export-control or security language anywhere, from a company shipping satellite buses with DoD ISR ambitions",
+      "operator_reality": "ITAR flow-down, CUI handling on the factory floor, and CMMC apply the moment USAF payload interface data hits their 289-person vertically integrated factory; a single spill or a failed CMMC assessment stalls the $18M Phase II and the SES-adjacent government pipeline behind it",
+      "why_likely_missing": "In ~1,541 words of own language there is zero mention of ITAR, CMMC, or classified/CUI handling — the site is written for commercial operators and recruits, and compliance has never yet been the gate they died on",
+      "evidence_quote": "80% of each satellite is built in-house. Vertical integration drives reliability, accelerates production, and enables continuous innovation",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "K2's $18M USAF Mega Class Phase II will be judged on accredited ground-segment integration and contested-space survivability — two topics that appear nowhere in K2's own 1,500 words of public language.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Builds very large, high-power satellite buses (Mega/Giga Class) in a vertically integrated factory for commercial and USAF customers."
+}

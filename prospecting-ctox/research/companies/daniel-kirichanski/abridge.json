@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Abridge is a Series E healthcare AI company (~450 employees, $757M raised, $5.3B valuation as of June 2025 per Reuters/TechCrunch) with a full in-house engineering leadership bench — far too large and too well-led for a fractional CTO, outside Daniel's Series A-C fintech-weighted niche, and the matched Staff/Senior Platform Engineer roles are routine hyperscale hiring ('teams are in hyperscale mode'), not evidence of the leadership-gap or platform-drag pain he fixes.",
+  "company": {
+    "name": "Abridge"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "company": "Array Information Technology, Inc",
+  "slug": "array-information-technology-inc",
+  "domain": "arrayinfotech.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "DTRA SBIR Phase II (2022) and Army/USAF IT contract awards (ITES-3S prime) — SBIR record and news sections.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "'ARRAY is an application service provider committed to optimizing mission performance' → IT services firm, not a product company (linkedin_about)",
+    "'ARRAY Awarded Prime Contract on Army's $12.1B ITES-3S IDIQ' → services prime on an enterprise IT vehicle (news)",
+    "Note: own-language word count ~33 would independently trigger insufficient_evidence; disqualified_type takes precedence at gate 1"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Federal IT services company (application modernization, logistics-system replatforming) priming on Army and Air Force enterprise IT contract vehicles."
+}

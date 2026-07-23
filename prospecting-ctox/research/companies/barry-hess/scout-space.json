@@ -1,0 +1,44 @@
+{
+  "verdict": "keep",
+  "reason": "Series A space-domain-awareness startup living Barry's exact situation — SBIR Phase II tech bridging the DoD valley of death via TACFI contracts ($3.8M 2025, $3.2M Apr 2026) with a public 2-year orbit deadline, while its live Director of Engineering posting confesses the fielding clock ('delivered on time, meet mission requirements') and its Capture Manager posting confesses the acquisition-advocacy gap being built mid-flight.",
+  "fit_score": 0.567,
+  "company": {
+    "name": "Scout Space Inc.",
+    "domain": "scout.space",
+    "one_liner": "Space domain awareness sensors, flight software, and data products that let satellites see and protect other satellites; Owl payload flying on Blue Origin's Blue Ring.",
+    "industry": "Aerospace / defense — space domain awareness",
+    "stage": "Series A ($18M, May 2026, led by Washington Harbour Partners; ~38 employees, headcount doubling planned)",
+    "hq": "Reston, VA"
+  },
+  "evidence_jobs": [
+    {
+      "title": "Director of Engineering",
+      "url": "https://job-boards.greenhouse.io/scoutspace/jobs/5210357008",
+      "live": true,
+      "quote": "ensuring that Scout's payloads, flight software, and data products are delivered on time, meet mission requirements, and push the boundaries of on-orbit capability"
+    },
+    {
+      "title": "Capture Manager",
+      "url": "https://job-boards.greenhouse.io/scoutspace/jobs/5226414008",
+      "live": true,
+      "quote": "leading the end-to-end capture process—from early opportunity shaping through proposal submission—while establishing and scaling companywide processes to ensure consistent success in capturing new business"
+    }
+  ],
+  "people_spec": [
+    "Chief Executive Officer (Philip Hover-Smoot — non-engineering background, former chief counsel; owns the transition risk)",
+    "Co-founder & Chief Technology Officer (Sergio Gallucci — stretched across a doubling org, hiring his first Director of Engineering)",
+    "Chief Operating Officer / VP of Operations (if present — owns delivery schedule against funded contract windows)"
+  ],
+  "talk_track": "Barry Hess here — I spent 16 years as CTO of a defense SDVOSB getting a patented tactical platform from prototype into operators' hands in theater, then watched it die force-wide for lack of a senior champion inside the building. Scout's Director of Engineering posting defines the job as 'ensuring that Scout's payloads, flight software, and data products are delivered on time, meet mission requirements' — and on the same board, the Capture Manager req asks one hire to build 'companywide processes to ensure consistent success in capturing new business' from scratch. Read together, those postings say the TACFI clock is now the company clock: months-to-orbit has to beat the funded months remaining, and the capture muscle that turns a Phase II into a Phase III is being assembled mid-flight. In my experience the engineering is rarely what kills a transition — it's fielding architecture and acquisition advocacy sequenced after the build instead of alongside it. Which arrives first for Owl — the orbit date or the Phase III decision?",
+  "sources": [
+    "https://job-boards.greenhouse.io/scoutspace/jobs/5210357008",
+    "https://job-boards.greenhouse.io/scoutspace/jobs/5226414008",
+    "https://www.prnewswire.com/news-releases/scout-space-raises-18m-series-a-to-scale-space-domain-awareness-capabilities-and-expand-manufacturing-in-northern-virginia-302760326.html",
+    "https://spacenews.com/scout-space-raises-18-million-to-expand-orbital-tracking-technology/",
+    "https://www.scout.space/news/scout-space-tacfi-1",
+    "https://www.exterrajsc.com/p/space-force-awards-32m-contract-to",
+    "https://spacewerx.us/accelerate/stratfi-tacfi/",
+    "https://spacenews.com/scout-space-names-new-chief-executive-officer/",
+    "https://theorg.com/org/scout-space/org-chart/sergio-gallucci"
+  ]
+}

@@ -21,6 +21,64 @@ Education: BS Technology Management (Kaplan University); MS Technology Managemen
 
 Note the pattern he names himself: four consecutive employers where he built the *central technical-operations layer* (shared services / platform / DevSecOps) for organizations "scaling faster than their operational foundations could support" (LinkedIn About).
 
+## First-party materials (cohort Drive drop, 2026-07-23)
+
+Four documents Ben uploaded to the cohort Google Drive, downloaded 2026-07-23: a niche/positioning statement (`ben-cole-niche-details.txt`, written 2026-07-23 — the most authoritative and most recent statement of his ICP), a resume (`ben-cole-resume.txt`), a one-pager (`ben-cole-one-pager.txt`), and a CTOx Experience & Impact Inventory (`ben-cole-experience-impact.txt`). All live at `data/drive_materials/`. These are first-party and postdate every source above; where they contradict earlier claims, the contradiction is flagged inline below rather than silently rewriting the original.
+
+### Verbatim niche/positioning statement (niche-details, 2026-07-23)
+
+> "I help funded studios entering full production protect milestone confidence by owning the operational foundation underneath game delivery."
+>
+> "I help funded independent game studios entering full production build the operational foundation underneath game delivery. The work focuses on the non-creative technical operations layer: DevOps, cloud, security, IT, data, build/release operations, tooling, vendors, operational risk, and execution discipline."
+>
+> "The core belief: a funded studio without technical operations ownership is carrying hidden milestone risk. When senior engineers and Tech Directors are pulled into builds, access, cloud, vendors, security, release coordination, and operational fire drills, the studio is burning runway and leadership capacity on work that should have an owner."
+
+**Contradiction (scope) vs. the dossier's Niche statement below:** this 2026-07-23 statement narrows his niche to *funded independent game studios entering full production* only. The dossier's earlier niche statement (and the one-pager, and studiofoundations.com) covers "20–200-person regulated B2B SaaS companies *and* game studios." The regulated-SaaS half (SOC 2/CJIS/govtech) does not appear in his own current niche statement.
+
+### Stated ideal prospect and buyers (niche-details, 2026-07-23)
+
+| Dimension | His statement |
+|---|---|
+| Geography | US-based |
+| Platform | PC/console studio |
+| Size | roughly 20–150 employees (dossier/spec previously said 20–200 — contradiction, see above) |
+| Funding | a publisher relationship or recent funding |
+| Growth | visible headcount growth |
+| Product | an active Steam/product page |
+| Hiring signals | early hiring around build, DevOps, IT, security, cloud, platform, backend, release, or QA automation |
+| Buyer | Studio Head, CEO, COO/GM, investor, or publisher stakeholder |
+| Affected internal leader | often the Tech Director (not the buyer) |
+
+### Explicit NOT-list (niche-details, 2026-07-23, verbatim)
+
+"I am not:
+- a hands-on DevOps contractor,
+- not a generic MSP,
+- not a replacement for the Tech Director,
+- not a gameplay/engine/creative technology leader,
+- and not a fractional CTO trying to own the game's technical vision."
+
+(Note: the one-pager's own title is "Fractional Technical Operations Executive," consistent with this — he rejects the fractional-*CTO* framing specifically.)
+
+### New facts from the resume / one-pager / experience inventory
+
+| Fact | Source | Notes |
+|---|---|---|
+| Based in Woodinville, WA | resume | New. City-level only; street address/phone deliberately omitted (public repo). |
+| New brand: **OpsProof.io**, business email **ben@opsproof.io** | one-pager | New. Dossier previously only knew studiofoundations.com. One-pager is branded OpsProof, not Studio Foundations. |
+| Studio Foundations listed as **"2026 – Present," "Founder & Fractional Technical Operations Executive,"** advising game investment funds and studios | resume | **Contradicts** the career-arc row above: LinkedIn shows Feb 2024 – present, co-founded with David Williams, originating as Unreal/Unity build-system services. Resume presents it as a 2026-founded solo advisory practice. (Also contradicts FullEnrich's "ended Sep 2024.") Left unresolved. |
+| "Leveraged AI for Infrastructure-as-Code refactoring... eliminating ~1,200 hours of manual engineering effort" (Lexipol) | resume + one-pager + experience inventory | Previously listed under "Unverified claims" (FullEnrich-only). Now first-party corroborated — upgrade from database-only to self-published. |
+| "Passing NIST 800-171 audit with zero major findings" (Prytania) | resume + experience inventory | Previously listed under "Unverified claims" (FullEnrich-only). Now first-party corroborated. |
+| Lexipol described as **~400 employees** | one-pager + experience inventory | **Contradicts** the ~527 headcount in the career-arc row above. Left unresolved. |
+| Lexipol: Internal Developer Portal (RBAC + self-service provisioning); standardized GitHub Actions CI/CD; strategic Azure→AWS consolidation; led post-acquisition technology integration; 18% license rationalization; role had turned over 4× in 2 years before him — he provided 18+ months of stable leadership; integrated nearshore Central/South America staff into product teams | resume + experience inventory | Azure→AWS consolidation, post-acquisition integration, role-turnover context, and nearshore model are new. |
+| Pokémon: zero-downtime migration to **Aurora Postgres** as the mechanism behind the $4.5M annual savings; unified identity / single login across all Pokémon digital products; **COPPA-compliant data handling**; 0% unwanted attrition; promoted 5 internal contributors to leadership; integrated Dublin-based team; company context 300→1,200 employees, $600M–$1B+ revenue, transitioning from outsourced to in-house technology; 3.75× spikes tied to **Pokémon Go**-era launches | resume + one-pager + experience inventory | Aurora Postgres, COPPA, single-login product, attrition, promotions, Dublin, and company-size/revenue context are all new. |
+| Prytania: **Jenkins build system integrated with Unreal** delivered the prototype milestone **6 weeks early, before investor demos** (spotted a studio tech director managing builds via zip files); org was pre-revenue, 30→150+ employees; 35-person org fully remote across US + Canada; promoted 4 internal contributors; pitched a business plan to spin shared services into an external offering to multiple investment groups/VCs | resume + experience inventory | The "6 weeks early" figure is a different metric from the dossier's "50% prototype reduction" (Himalayas) — related but not identical; both retained. Spin-out pitch is new and is effectively the origin story of the fractional practice. |
+| Expedia: promoted 7 internal contributors; India/London staff integrated as full peers; ServiceNow scaled as cross-BU workflow platform | resume + experience inventory | Promotion count and geography detail new. |
+| Expedia sized at **"7,000+ employees"** (resume) vs. **"~3,000 employees, ~$15B revenue"** (one-pager + experience inventory) | resume vs. one-pager | **Internal contradiction between his own documents.** Left unresolved. |
+| Experience claim: **"15+ years"** (resume) vs. **"20+ years"** (one-pager) | resume vs. one-pager | Internal contradiction between his own documents (early-career Microsoft contracting likely explains the gap). |
+| Early career (all new employers/roles): Release Program Manager, **Microsoft**; Release Manager & Dev Lead, **Washington Mutual** (owned release process for wamu.com); Release/Program Manager contracting at Microsoft (Windows Media Player, Media Center PC Beta Program, WinCE); game tester (contract, Microsoft) on **Halo: Combat Evolved, Oddworld: Munch's Oddysee, MechWarrior 4: Black Knight**; Usability Coordinator (game usability sessions) | resume | Dossier previously had only "started as a game tester on Halo." Microsoft and Washington Mutual are new employers; two additional tested titles are new. |
+| Leadership-development claim across employers: 5 (Pokémon) + 4 (Prytania) + 2 (Lexipol) + 7 (Expedia) internal contributors promoted into leadership; two protégés followed him across companies (DevOps→InfoSec engineer to Prytania; TPM→Sr Manager to Pokémon) | experience inventory | New; self-reported, no third-party check. |
+
 ## Proven fixes
 
 All figures below are self-published by Ben on his own LinkedIn profile/posts and Himalayas profile (i.e., his own public artifacts, not aggregator data). None are third-party audited; each is dated to its source.

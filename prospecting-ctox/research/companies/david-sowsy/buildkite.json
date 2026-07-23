@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Buildkite is a growth-stage CI/CD platform (customers: Uber, OpenAI, Shopify) with a sitting CTO hiring a VP of Product Engineering under him — no hardware product, no mobile companion app, and nothing in its fresh job feed (Escalations Engineer, Principal Engineer - Data, Staff ML Engineer, DevOps Support) touches David Sowsy's connected-hardware/regulated-mobile niche; the 0.4826 match was a generic lexical hit, and a company this size with in-house technical leadership is not a fractional-CTO buyer.",
+  "company": {
+    "name": "Buildkite"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "company": "Expedition Technology",
+  "slug": "expedition-technology",
+  "domain": "exptechinc.com",
+  "verdict": "drop",
+  "drop_reason": "sbir_mill",
+  "dod_intent_evidence": "DARPA RFMLS lineage, ONR Phase IIs (OSIRIS, FMS), IARPA Phase 3 data security contract — SBIR record and news sections.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "'We actively perform applied research to advance the state of the art and distance ourselves from our competition' → self-described research house (homepage)",
+    "13 years old, 126 employees, and every news item is another research contract award (DARPA, ONR, IARPA) — winning R&D awards IS the business model, not a product stuck in one transition (news section)",
+    "Counter-signal noted for honesty: they hire an 'Embedded Software Engineer - Edge ML/Low SWaP Systems' and mention FPGAs/edge — they are not deployment-blind, which also makes them a weak disconnect prospect (job_post)"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Defense/IC R&D contractor building AI/ML signal-processing and computer-vision systems (RF spectrum awareness, wideband sensing) under DARPA/ONR/IARPA awards."
+}

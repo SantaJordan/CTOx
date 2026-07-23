@@ -1,0 +1,44 @@
+{
+  "company": "Red 6",
+  "slug": "red-6",
+  "domain": "red6ar.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "AFWERX STRATFI award ($30M matched by $30M private), 2025 USAF contract to integrate ATARS on the F-16, and an AFSOC MC-130J STRATFI SBIR — news section.",
+  "disconnect_score": 37,
+  "subscores": {"lab_language_intensity": 12, "deployment_awareness_absence": 10, "operator_absence": 3, "hiring_profile_skew": 4, "stage_pressure": 8},
+  "score_evidence": [
+    "'Don't be surprised when our technology goes from a concept to a flying prototype in only a few days' — prototype-velocity as the brand → lab_language_intensity (careers page)",
+    "'fully immersive, data-driven, AI-enabled 3D synthetic training worlds' → lab_language_intensity (homepage)",
+    "In ~1,590 own words there is no airworthiness, flight-clearance, ATO, or certification language at all for a device flying inside a fighter cockpit — the fielding path is invisible in their story → deployment_awareness_absence (homepage/vision)",
+    "Operators are central: 'Modern Flight Training for Modern Warfighters'; leadership is F-22 pilots and a retired Major General → operator_absence scored low",
+    "Hiring 'Trade Compliance/Export Controls Manager', 'Configuration Management (CM) Manager', 'Contract Proposal Manager - Department of Defense', 'Manufacturing Test Engineer' → deployment/compliance hiring, skew scored low (job_post list)"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The site sells synthetic-world immersion; nothing in their language addresses the airworthiness and flight-clearance gauntlet between the F-16 award and fleet-wide fielding",
+      "operator_reality": "Putting an AR headset with recording sensors and RF links inside a fleet F-16 requires a military flight clearance (SEEK EAGLE process), egress/ejection-safety qualification against the ACES II seat, and integration testing per tail configuration — a multi-year serial process that eats the STRATFI period of performance regardless of how fast the demo iterated",
+      "why_likely_missing": "Culture is prototype-speed ('concept to a flying prototype in only a few days'); flight clearance is the opposite tempo and lives with the government, so it never shows up in a startup's self-narrative until it becomes the schedule",
+      "evidence_quote": "Don't be surprised when our technology goes from a concept to a flying prototype in only a few days.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No squadron-level sustainment story for a helmet-mounted hardware product",
+      "operator_reality": "At a training squadron, ATARS competes for life-support-shop time with HGU-55 helmets and JHMCS: fit checks per pilot, spares and battery logistics, fault isolation by an E-5 aircrew flight equipment tech with 20 minutes of training — none of which appears in their language, which stops at the immersive experience",
+      "why_likely_missing": "Team DNA is pilots, VFX artists, and game-engine engineers; testimonial energy is about what the pilot sees, and sustainment planning is invisible until the first squadron owns broken units",
+      "evidence_quote": "We are warfighters, engineers and technologists. We are MBAs, visual artists, creatives and lawyers.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "'Data-driven... synthetic training worlds... at scale' presumes range connectivity and an accredited data pipeline they never describe",
+      "operator_reality": "Multi-ship synthetic adversaries need low-latency datalinks across a training range and a security-accredited path for training data that mixes with real aircraft telemetry; range network accreditation and spectrum coordination are controlled by the government, and a cloud-synced training world degrades exactly like the 30fps crowd-detection case when the range link is intermittent",
+      "why_likely_missing": "Their proof points are single-aircraft and small-formation demos where a local link suffices; scale-and-frequency claims outrun the network and accreditation reality of operational training ranges",
+      "evidence_quote": "fully immersive, data-driven, AI-enabled 3D synthetic training worlds that allow humans and machines to train together safely, frequently, and at scale in realistic threat environments",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Red 6's F-16 ATARS award from ACC starts a flight-clearance and per-tail integration clock that runs at government speed while the STRATFI period of performance runs at calendar speed.",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Builds ATARS, an augmented-reality system that puts synthetic adversaries and training environments into real fighter cockpits during live flight."
+}

@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Filigran is a ~200-person, Series C ($58M Oct 2025, $114M+ total raised) cybersecurity vendor whose platform/ops layer is already owned in-house — the matched Senior Platform Engineer JD itself says the hire 'will report to the VP Platform and work closely with him, a Technical Product Manager and Platform Staff Engineers' — so the hiring signal is routine growth of an existing team (strong_title=False, gap=False on every match), not the unowned-ops/compliance-scramble situation Ben Cole fixes, and the company is past the stage that hires a fractional technical-operations leader.",
+  "company": {
+    "name": "Filigran"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "verdict": "keep",
+  "reason": "Seed-stage ($12.4M, Aug 2025) dual-use missile-defense startup advancing a garage-built prototype toward fielding, whose live Chief Engineer posting demands experience taking space hardware 'from System Concept, System Requirements to Technology Readiness Level 9' — a public confession that the lab-to-field capability Barry Hess sells does not yet exist in-house.",
+  "fit_score": 0.5466,
+  "company": {
+    "name": "Space Kinetic Corp.",
+    "domain": "spacekinetic.com",
+    "one_liner": "Dual-use space technology startup building a 'one-to-many' architecture that deploys many payloads from a host spacecraft at high velocity without thrusters, for missile defense and space superiority.",
+    "industry": "Defense / space technology (dual-use, cleared national security)",
+    "stage": "Seed — $12.4M total raised (led by Balerion Space Ventures, Aug 2025), founded 2022, ~40 employees",
+    "hq": "El Segundo, CA (job-posting HQ) and Albuquerque, NM"
+  },
+  "evidence_jobs": [
+    {
+      "title": "Chief Engineer",
+      "url": "https://job-boards.greenhouse.io/spacekinetic/jobs/5072678008",
+      "live": true,
+      "quote": "supporting development of space hardware from System Concept, System Requirements to Technology Readiness Level 9 ... Have successfully flown two spacecrafts from concept to mission operations."
+    },
+    {
+      "title": "Senior Systems Integration and Test Engineer",
+      "url": "https://job-boards.greenhouse.io/spacekinetic/jobs/4943512008",
+      "live": true,
+      "quote": "Space Kinetic is a dual use space technology startup building a completely new architecture for space operations"
+    }
+  ],
+  "people_spec": [
+    "Co-Founder & CEO (Ryan Sullivan)",
+    "Co-Founder & CTO (Scott Ziegler)",
+    "Technical Program Director (currently an open req — until filled, the transition problem is owned by the founders)"
+  ],
+  "talk_track": "Barry Hess here — I spent 16 years as CTO of a DoD small business taking a patented tactical Android platform from the lab to operators in theater. Your live Chief Engineer posting asks for someone who has carried space hardware 'from System Concept, System Requirements to Technology Readiness Level 9' and has 'successfully flown two spacecrafts from concept to mission operations.' Read plainly, that req says the road from your funded prototype to a fielded system is currently unowned — and the search for someone who has flown two birds can run longer than a seed runway. What killed my own platform wasn't the hardware gates; it was force-wide adoption dying for lack of a senior champion inside the customer's building, which is why I now build deployment architecture and acquisition advocacy in parallel from day one. The distance between CDR sign-offs and a program of record is a different discipline than either founder engineering or spacecraft systems review. Who owns your transition plan while the Chief Engineer seat is empty?",
+  "sources": [
+    "https://job-boards.greenhouse.io/spacekinetic/jobs/5072678008",
+    "https://job-boards.greenhouse.io/spacekinetic/jobs/4943512008",
+    "https://www.latimes.com/b2b/banking-finance/story/2025-08-22/space-kinetic-raises-12-million-seed-round-space-missile-defense",
+    "https://www.abqjournal.com/business/albuquerque-startup-space-kinetic-secures-12-million-to-advance-payload-development-system-prototype/653485",
+    "https://www.prnewswire.com/news-releases/cerracap-ventures-invests-in-space-kinetic-driving-breakthrough---space-superiority-and-missile-defense-innovation-302532800.html",
+    "https://www.cbinsights.com/company/space-kinetic",
+    "https://www.linkedin.com/company/space-kinetic"
+  ]
+}
