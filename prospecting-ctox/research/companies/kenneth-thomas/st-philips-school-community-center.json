@@ -1,0 +1,49 @@
+{
+  "verdict": "keep",
+  "reason": "Live Chief of Business Operations posting (reposted 6 days ago on Built In, $76-85K, reports to the COO-equivalent \"Integrator\") folds Information Technology into a facilities-and-administration portfolio at a $12M/yr independent PK-8 school with a 25-member board of trustees and no technology leadership anywhere on its org chart -- the exact \"outgrew reactive outsourced IT, board can't answer technology-risk questions\" situation Kenneth's 90-day board-clarity engagement is built for.",
+  "fit_score": 7,
+  "company": {
+    "name": "St. Philip's School and Community Center",
+    "domain": "stphilips1600.org",
+    "one_liner": "Independent, non-denominational Christian PK-8 school and community center in South Dallas serving ~250 students, paired with a food pantry, senior programs, and a neighborhood-revitalization arm.",
+    "industry": "K-12 education (independent private school) / nonprofit community services",
+    "stage": "Independent 501(c)(3), founded 1945; FY-June-2024 revenue $15.6M, expenses $12.0M, net assets $53.5M, 138 employees; expanded to 7th-8th grade in 2023 and opened the Moody Performing & Fine Arts Center in 2025",
+    "hq": "1600 Pennsylvania Avenue, Dallas, TX 75215"
+  },
+  "evidence_jobs": [
+    {
+      "title": "Chief of Business Operations",
+      "url": "https://recruiting.paylocity.com/recruiting/jobs/details/4256127",
+      "live": true,
+      "quote": "The Chief of Business Operations is a senior organizational leader responsible for overseeing the day-to-day management of Facilities, Information Technology, and Administrative Services at St. Philip's School & Community Center."
+    }
+  ],
+  "people_spec": [
+    "Perot Family Headmaster & Executive Director",
+    "Integrator (COO-equivalent)",
+    "Chief Financial Officer / Director of Finance",
+    "Board Chair, Board of Trustees",
+    "Board Treasurer",
+    "Chief of Business Operations (once hired)"
+  ],
+  "talk_track": "I help independent school boards answer the technology-risk questions their leadership teams can't -- cybersecurity, AI use, and vendor accountability -- without displacing the IT vendors already in place. Your open Chief of Business Operations role puts one person in charge of \"the day-to-day management of Facilities, Information Technology, and Administrative Services,\" reporting to the Integrator. The read most schools miss: when IT lives inside a facilities-and-admin portfolio, you get solid help-desk coverage and no governance layer -- nobody whose job is telling the board what the vendors are actually doing with student and family data. That lands differently at St. Philip's than at a tuition-driven school, because contributions were roughly two-thirds of your $15.6M in FY2024, so donor confidence is what a mishandled vendor incident really costs. Whoever you hire will own the plumbing; the board still needs someone to translate it. Worth a note on what that gap usually looks like?",
+  "sources": [
+    "https://recruiting.paylocity.com/recruiting/jobs/details/4256127",
+    "https://builtin.com/job/chief-business-operations/9749359",
+    "https://www.stphilips1600.org/",
+    "https://www.stphilips1600.org/we-believe/history.cfm",
+    "https://www.stphilips1600.org/we-believe/boardoftrustees.cfm",
+    "https://www.stphilips1600.org/we-believe/careers.cfm",
+    "https://projects.propublica.org/nonprofits/organizations/751097360",
+    "https://www.causeiq.com/organizations/st-philips-school-community-center,751097360/",
+    "https://www.privateschoolreview.com/st-philips-school-community-center-profile",
+    "https://projects.propublica.org/private-school-demographics/schools/st-philips-school-community-center-02060341",
+    "https://theorg.com/org/st-philips-school-and-community-center/org-chart/dr-terry-flowers"
+  ],
+  "caveats": [
+    "Enrollment (~250 PK-8 students, per privateschoolreview 2026 and the school's own FY2023 990 program description of 265 children) sits well below Kenneth's stated 800-2,000 band. It clears the intent of that band on every other axis -- $12.0M annual expenses, 138 employees, a 25-member board of trustees, and a school + community center + neighborhood-development footprint -- but the headcount mismatch is real and unresolved.",
+    "Kenneth's tuition-attrition EDP does not map here. St. Philip's serves low- and moderate-income families and drew $10.56M of its $15.59M FY2024 revenue from contributions, so the analogous existential number is donor confidence, not tuition churn. The talk track reflects that substitution.",
+    "No IT director or technology leader appears in any public org chart or leadership page; absence of evidence, not confirmed absence.",
+    "Liveness verified indirectly: Built In shows the role \"Reposted 6 Days Ago.\" The Paylocity apply URL was not fetched directly (Exa-only research policy)."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "verdict": "drop",
+  "reason": "Right vertical and size (independent PK3-12 day school, 813 students, $21.2M revenue, Wilmington NC) but no live posting confesses the pain: the two matched jobs are a Welcome Center Receptionist and an AR Accounting Specialist that matched only on the boilerplate school blurb ('technology-rich environment'), and the school's own employment page today lists nothing but a tutor, coaches, after-school assistants and a bus driver; the one on-point signal, a DovetailED-run search for 'its next Director of Information Technology' (2026-03-18, career-center job 22126396), does not appear on the school's current careers page and could not be confirmed live, and CFA's shape is wrong for the niche anyway -- it staffs technology leadership in-house (Director of Technology at $110,025 per the FY2025 Form 990, plus an internal help-desk specialist) rather than running on unsupervised outsourced IT.",
+  "company": {
+    "name": "Cape Fear Academy",
+    "domain": "capefearacademy.org",
+    "one_liner": "Independent, non-sectarian PK3-12 college-preparatory day school on a 47-acre campus in Wilmington, NC.",
+    "industry": "K-12 education (independent school)",
+    "stage": "Nonprofit, founded 1966/67; 813 students, 156 faculty and staff, $21.2M total revenue (FY2025 Form 990)",
+    "hq": "Wilmington, North Carolina"
+  },
+  "near_miss_notes": {
+    "why_it_looked_promising": "Dead-center in Kenneth's 800-2,000-student independent-school band, tuition-funded and board-governed, and it ran an external retained search in March 2026 for its next Director of Information Technology -- a technology-leadership transition is exactly when board technology-risk questions land with nobody to answer them.",
+    "unverified_quote_not_used_for_keep": "Cape Fear Academy seeks a strategic and service-oriented Director of Information Technology to oversee the effective deployment and long-term planning of technology across the school.",
+    "quote_provenance": "DovetailED Talent Sourcing posting text, reshared 2026-03-18; surfaced via Exa. Career-center mirrors (NAIS/CoSN/ISACA job 22126396) returned no job-description body and 'Posted: Unknown'. Liveness as of 2026-07-23: NOT confirmed; absent from capefearacademy.org/about/employment.",
+    "revisit_if": "The Director of Information Technology seat is confirmed still open or reopens, or the school publishes a posting naming vendor oversight, AI-use policy, or cybersecurity governance."
+  },
+  "sources": [
+    "https://www.capefearacademy.org/about/employment",
+    "https://recruiting.paylocity.com/recruiting/jobs/All/bad901c1-f066-460d-90a1-32df81fba70b/Cape-Fear-Academy",
+    "https://careers.cosn.org/jobs/22126396/director-of-information-technology",
+    "https://careers.nais.org/jobs/22126396/director-of-information-technology",
+    "https://jobs.isaca.org/jobs/22126396/director-of-information-technology",
+    "https://www.causeiq.com/organizations/cape-fear-academy,566075566/",
+    "https://resources.finalsite.net/images/v1760109345/capefearacademyorg/clyhybuzjkmtqtf8jkbm/2025-2026CFASchoolProfile.pdf"
+  ]
+}

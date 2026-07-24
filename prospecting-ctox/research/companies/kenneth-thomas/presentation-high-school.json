@@ -1,0 +1,33 @@
+{
+  "verdict": "drop",
+  "reason": "Right vertical (independent all-girls Catholic college prep, San Jose CA, ~600 students, $31,220 tuition, $14.6M revenue, own board under President Holly Elkins) but the only matched posting is a $29-36/hr non-exempt Admissions & Advancement Operations Coordinator reporting to the Director of Admissions; its most technical line, 'Serve as a primary administrator of SchoolAdmin and other departmental technology platforms,' is routine admissions-CRM administration, not a confession of the board-level technology-governance vacuum Kenneth fixes (pack itself scored 0.4309 with strong_title=False, gap=False, jd_lexicon only). Compounding: enrollment ~600 sits below his ~800-2,000 band, and the school already runs technology in-house -- a staffed Technology Department with a Zendesk help desk, 1:1 iPad program, Schoology and Google for Education, plus a named Educational Technologist -- so the 'outgrew reactive outsourced IT with no technology leadership' premise is not evidenced. Claiming this posting proves a governance gap would be an unsourced inference against visible contrary evidence (doctrine #8).",
+  "company": {
+    "name": "Presentation High School",
+    "domain": "presentationhs.org",
+    "one_liner": "Independent Catholic college preparatory high school for young women (grades 9-12) in San Jose, CA.",
+    "industry": "K-12 education (independent school)",
+    "stage": "Established nonprofit, founded 1962; ~86 employees, ~$14.6M annual revenue",
+    "hq": "San Jose, CA"
+  },
+  "notes": {
+    "correct_side_of_market": true,
+    "correct_side_of_market_detail": "Independent school with its own board and president, affiliated with the Presentation Sisters -- not a public district and not a diocesan-operated school, so it is the buyer side Kenneth targets.",
+    "disqualifiers": [
+      "No live posting redescribes the pain (board cannot answer technology-risk questions; unsupervised IT vendors; AI policy gap; legacy PBX).",
+      "Enrollment ~600 (2022-23) is below the ~800-2,000 target band.",
+      "In-house Technology Department already exists (support@presentationhs.zendesk.com, Educational Technologist on staff), undercutting the 'no technology leadership' situation.",
+      "Liveness of the Paylocity posting (job 4277163, posted 2026-06-23) could not be re-verified via Exa; it surfaced only through the talent.com aggregator."
+    ],
+    "revisit_if": "A posting appears for Director of Technology, IT Director, or a Head of School/board-driven technology or AI-governance search -- or a peer-school vendor breach surfaces publicly in the West Catholic Athletic League."
+  },
+  "sources": [
+    "https://www.presentationhs.org/admissions",
+    "https://www.presentationhs.org/about/employment",
+    "https://www.presentationhs.org/about/school-leadership",
+    "https://www.presentationhs.org/student-life/technology",
+    "https://www.talent.com/view?id=625437787915299139",
+    "https://recruiting.paylocity.com/recruiting/jobs/details/4277163",
+    "https://www.cde.ca.gov/schooldirectory/details?cdscode=43696666940613",
+    "https://presentationhs.org/"
+  ]
+}

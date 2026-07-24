@@ -1,0 +1,25 @@
+{
+  "verdict": "drop",
+  "reason": "Right vertical and size (independent PK3-12, Marietta GA, ~858-959 students) but wrong situation: the only matched posting is a fundraising role (Assistant Director of Development, no technology content, score 0.38, strong_title=False, gap=False), and the school's one live tech posting is an instructional-tech teaching role that explicitly reports into an existing in-house tech org -- 'Collaborate with the Director of Technology to align instructional needs with IT infrastructure' -- with a Director of Technology (16+ yrs tenure) and an Assistant Director of Technology (18+ yrs) already in seat, which is the opposite of Kenneth's 'outgrew reactive outsourced IT with no technology leadership' trigger; no live posting quotes governance, vendor-risk, cybersecurity, AI policy, or telephony pain, so there is no quotable line.",
+  "company": {
+    "name": "The Walker School",
+    "domain": "thewalkerschool.org",
+    "one_liner": "Nonsectarian PK3-12 college-preparatory independent school in Marietta, GA (NAIS member), ~858-959 students, ~110-150 employees.",
+    "industry": "K-12 independent education",
+    "stage": "Established independent school, founded 1957",
+    "hq": "700 Cobb Pkwy N, Marietta, GA 30062"
+  },
+  "counter_signals": [
+    "Director of Technology in seat since Dec 2009 (16+ years) and Assistant Director of Technology since Nov 2007 (18+ years) -- in-house, long-tenured technology leadership, not ungoverned outsourced IT",
+    "Educational Technology Coordinator posting is instructional/classroom-facing (teaches two sections, coaches robotics, runs faculty PD) and defers infrastructure to the existing Director of Technology",
+    "Matched job in the evidence pack is Assistant Director of Development -- philanthropy/advancement, zero technology-risk signal"
+  ],
+  "sources": [
+    "https://recruiting.paylocity.com/recruiting/jobs/details/4083506",
+    "https://recruiting.paylocity.com/recruiting/jobs/Details/3893337/The-Walker-School/Educational-Technology-Coordinator",
+    "https://www.thewalkerschool.org/careers",
+    "https://nces.ed.gov/surveys/pss/privateschoolsearch/school_detail.asp?ID=00297383&SchoolID=00297383&Search=1",
+    "https://www.usnews.com/education/k12/georgia/the-walker-school-306986",
+    "https://thewalkerschool.org/"
+  ]
+}

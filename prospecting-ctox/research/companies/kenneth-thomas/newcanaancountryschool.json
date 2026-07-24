@@ -1,0 +1,28 @@
+{
+  "verdict": "drop",
+  "reason": "New Canaan Country School (Pre-K-9 independent day school, New Canaan CT, countryschool.net) is only 555-571 students -- below Kenneth's ~800-2,000 band -- and it already has in-house technology leadership (Freddy Gavidia, Director of Technology since June 2022, plus an Educational Technology Integrator), so it is not a school running on unsupervised outsourced IT; the single matched posting is a Business Office & Billing Coordinator whose 'system administration' means Blackbaud tuition billing, not technology governance, and the pack scored it 0.3994 with strong_title=False and gap=False and could not verify liveness (ATS paylocity, feed slug None).",
+  "company": {
+    "name": "New Canaan Country School"
+  },
+  "notes": {
+    "domain": "countryschool.net",
+    "one_liner": "Co-ed independent day school in New Canaan, CT serving ~571 students Pre-K through Grade 9, founded 1916.",
+    "industry": "K-12 independent education",
+    "stage": "Established nonprofit; $33.8M total revenue and 338 employees (FY2023 990 via Cause IQ), $65.3M endowment as of 2025-06-30",
+    "hq": "New Canaan, CT",
+    "disqualifiers": [
+      "size: 555 students (NCES) / 571 (school's own 'At a Glance') vs niche floor of ~800",
+      "wrong side of the problem: existing full-time Director of Technology and Ed Tech Integrator = technology leadership already in place",
+      "hiring signal is finance/billing, not a technology-governance confession"
+    ],
+    "sources": [
+      "https://recruiting.paylocity.com/recruiting/jobs/details/4213743",
+      "https://www.jobsparx.com/Job/B9383701/New-Canaan-Country-School-Business-Office-Billing-Coordinator-New-Canaan-CT",
+      "https://www.countryschool.net/about-us/all-about-us",
+      "https://nces.ed.gov/surveys/pss/privateschoolsearch/school_detail.asp?ID=00233228",
+      "https://www.causeiq.com/organizations/new-canaan-country-school,060646765/",
+      "https://theorg.com/org/new-canaan-country-school-inc/org-chart/freddy-gavidia",
+      "https://www.countryschool.net/give/endowment"
+    ]
+  }
+}

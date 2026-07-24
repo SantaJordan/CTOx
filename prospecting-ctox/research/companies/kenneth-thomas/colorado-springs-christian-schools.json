@@ -1,0 +1,54 @@
+{
+  "verdict": "keep",
+  "fit_score": 8.5,
+  "reason": "CSCS is an independent, ACSI-accredited K-12 school of ~835 students across three campuses with a live Director of Technology opening that loads cybersecurity, telephone systems, vendor management and budgets onto one hands-on operator — the exact no-governance-layer situation Kenneth's 90-day board clarity engagement (and his Avaya-to-Teams Phone lane) addresses.",
+  "company": {
+    "name": "Colorado Springs Christian Schools",
+    "domain": "cscslions.org",
+    "one_liner": "Independent, non-denominational ACSI-accredited private Christian K-12 school serving ~835 full-time students across a Colorado Springs campus, a Woodland Park campus, and a Lions Online program.",
+    "industry": "K-12 independent / private education (nonprofit)",
+    "stage": "Established nonprofit; ~$9.7M total revenue and 268 total employees per FY2025 Form 990 (Cause IQ); ~52-146 staff depending on source; founded 1971",
+    "hq": "4855 Mallow Rd, Colorado Springs, CO 80907"
+  },
+  "evidence_jobs": [
+    {
+      "title": "Director of Technology",
+      "url": "https://builtin.com/company/colorado-springs-christian-schools/jobs",
+      "live": true,
+      "quote": "Lead and oversee technology across multiple campuses, managing infrastructure, networking, cybersecurity, telephone systems, helpdesk operations, budgets, vendors, and technology projects.",
+      "note": "Listing was posted ~6 days before the Exa crawl (mid-July 2026) and is one of two open CSCS roles. Quote is the live listing's description of the role scope; the underlying application page (recruiting.paylocity.com job board 64823138-841a-472a-a556-bb99d3359f04) renders via JavaScript and returned no readable JD text through Exa, so the raw Paylocity wording could not be captured."
+    },
+    {
+      "title": "STEAM Club Supervisor",
+      "url": "https://recruiting.paylocity.com/recruiting/jobs/details/3964008",
+      "live": false,
+      "quote": "The STEAM Club Supervisor provides comprehensive leadership and operational oversight of Lions STEAM Club, including after-school programs and summer camps.",
+      "note": "From the 2026-06-25 snapshot in the evidence pack; NOT a governance signal and not load-bearing for this verdict — included only for completeness."
+    }
+  ],
+  "people_spec": [
+    "Head of School / Superintendent",
+    "Chief Financial Officer (peer independent-school Director of Technology roles report to the CFO)",
+    "Executive Director / Director of Operations",
+    "Board of Trustees Chair",
+    "Director of Business Operations"
+  ],
+  "talk_track": "I do technology governance for independent schools — the board-level layer that sits above whatever IT staff and vendors a school already has, without replacing either. CSCS has a live posting for a Director of Technology across all three campuses, and it asks that one person to own infrastructure, networking, cybersecurity, telephone systems, helpdesk operations, budgets and vendors. That combination is worth reading twice: it puts risk decisions and the ticket queue in the same pair of hands, so cybersecurity and vendor accountability get whatever hours are left after the helpdesk. It also means that for however long the search runs, nobody is drafting the answers your board will want if one of your vendors is breached — in the two schools I watched go through the same vendor breach, the one with governance in place recovered in days and the other spent weeks managing parent communication. Worth splitting the governance half from the operations half before you hire? — Kenneth Thomas",
+  "sources": [
+    "https://builtin.com/company/colorado-springs-christian-schools/jobs",
+    "https://recruiting.paylocity.com/recruiting/jobs/All/64823138-841a-472a-a556-bb99d3359f04/Colorado-Springs-Christian-Schools",
+    "https://cscslions.org/enrollment/",
+    "https://cscslions.org/admissions/",
+    "https://www.causeiq.com/organizations/colorado-springs-christian-schools,742477359/",
+    "https://www.datanyze.com/companies/colorado-springs-christian-school/72190378",
+    "https://www.linkedin.com/in/matthew-fox-40678675",
+    "https://recruiting.paylocity.com/recruiting/jobs/details/3964008"
+  ],
+  "notes": [
+    "Enrollment: CSCS's own 25-26 enrollment table shows 835 total full-time students (725 Colorado Springs, 82 Woodland Park, 28 Lions Online) against an 897 goal — inside Kenneth's 800-2,000 band, and short of goal, which sharpens the enrollment-attrition EDP.",
+    "Right side of the market: independent non-denominational nonprofit school, NOT a public district and not an edtech vendor.",
+    "Backfill inference (flagged): a LinkedIn profile snapshot dated 2026-05-07 (surfaced via Exa, not visited) lists a current Director of Technology at CSCS since Sep 2023, so the live opening reads as a backfill — i.e. a leadership gap opening now, not a net-new function. Not independently confirmed.",
+    "Existing in-house IT staff (systems administrator, computer systems engineer, security coordinator per Exa-surfaced profile snapshots) is a fit, not a conflict: Kenneth sells governance oversight alongside existing staff and vendors rather than replacing them.",
+    "Secondary hook: the posting explicitly names 'telephone systems', which maps to his documented ~50% telephony cost cut migrating a 300+ user org off legacy Avaya to Microsoft Teams Phone."
+  ]
+}

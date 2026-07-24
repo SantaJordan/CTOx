@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Right vertical (independent non-denominational PK-12 in Savannah, GA, ~70 staff) but zero technology signal: the only matched job is a Girls Basketball Program Director, which matched on jd_lexicon alone (the JD's 'MS STEM' teaching-priority line) with strong_title=False and gap=False. The company's full live job list (Little Raiders Floater/Toddler/Older Infant Teacher, Girls Basketball Program Director, MS/US Math Teacher 26-27, Substitute Teacher) contains no IT, technology-director, cybersecurity, or vendor-management posting, so there is no quotable line redescribing the technology-governance pain Kenneth Thomas fixes.",
+  "company": {
+    "name": "Savannah Christian Preparatory School"
+  }
+}

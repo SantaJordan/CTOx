@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Wrong entity type and inverted signal: this is a Catholic diocesan Pastoral Center (a chancery serving parishes, schools and ministries — a district-equivalent, not an independent or charter school of 800-2,000 students), and the only matched posting is a Tier II 'IT Field Support Analyst' that 'works under the direction of the Director of Information Technology,' i.e. they already have in-house technology leadership and are insourcing hands-on support — the opposite of Kenneth Thomas's 'no technology leadership, everything outsourced to unmanaged vendors' situation; Exa could not even resolve which diocese posted it (company is a bare UUID), liveness is unverified, and the match carries no strong-title or leadership-gap signal (score 0.39, jd_lexicon only).",
+  "company": {
+    "name": "Unidentified Catholic diocese (Paylocity feed b4146e92-1adc-4f59-9805-46c96b06b3b0)"
+  }
+}

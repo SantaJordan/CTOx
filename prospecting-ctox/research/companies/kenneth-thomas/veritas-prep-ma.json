@@ -1,0 +1,27 @@
+{
+  "verdict": "drop",
+  "reason": "Veritas Preparatory Charter School (Springfield, MA; tuition-free public charter, grades 5-12, 769 students, ~58 staff) sits in Kenneth's stated charter-school vertical, but the only matched posting is 'Grade Level Lead (SY26-27, Middle School)' -- a teacher-leader stipend role about facilitating weekly grade-level culture meetings, with zero technology, vendor, cybersecurity, or AI-governance content (the pack's own signals show strong_title=False, gap=False, jd_lexicon-only), liveness was never verified, and targeted Exa searches for any IT/technology/data leadership opening surfaced only an expiring Feb-Aug 2026 temporary front-office Operations Associate whose 'technology implementation' duty is laptop-and-testing setup, not board-level governance -- so there is no quotable line from a live posting that redescribes the pain this CTO fixes.",
+  "company": {
+    "name": "Veritas Preparatory Charter School"
+  },
+  "notes": {
+    "domain": "veritasprepma.org",
+    "one_liner": "Tuition-free public charter school in Springfield, MA serving ~769 students in grades 5-12 across two campuses, with an Early College program partnered with Springfield Technical Community College and Worcester State University.",
+    "industry": "K-12 charter education",
+    "stage": "Founded 2012; ~58 employees; ~$17.5M annual revenue (aggregator estimate, unverified)",
+    "hq": "370 Pine Street, Springfield, MA 01105",
+    "vertical_fit": "In-vertical (charter school, own board of trustees, own MA district code 04980405 -- not a wrong-side-of-market school district), but at 769 students it is just under the ~800-2,000 band, and as a tuition-FREE charter it does not match the tuition-attrition EDP as written.",
+    "why_not_a_borderline_keep": "Doctrine rule: jobs are confessions, and this confession is about middle-school culture systems, not technology governance. Keeping it would be padding the list.",
+    "data_caution": "LeadIQ conflates this school with the Varsity Tutors-owned 'Veritas Prep' test-prep brand (acquired 2019, discontinued 2022) and reports a $100-250M revenue range. That is a different entity; aggregator noise, not used here.",
+    "sources": [
+      "https://apply.workable.com/veritas-prep-ma/",
+      "https://veritasprepma.org/",
+      "https://veritasprepma.org/about/",
+      "https://veritasprepma.org/work-with-us/",
+      "https://profiles.doe.mass.edu/profiles/student.aspx?orgcode=04980405&orgtypecode=6",
+      "https://nces.ed.gov/ccd/schoolsearch/school_detail.asp?DistrictID=2500536&ID=250053602714&Search=1",
+      "https://veritasprepma.org/wp-content/uploads/2023/10/VPCS-2022-23-Annual-Report.pdf",
+      "https://talents.vaia.com/companies/veritas-preparatory-charter-school/springfield/operations-associate-immediate-hire-high-school-71444889/"
+    ]
+  }
+}

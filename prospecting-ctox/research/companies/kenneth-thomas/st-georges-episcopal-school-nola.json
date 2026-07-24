@@ -1,0 +1,22 @@
+{
+  "verdict": "drop",
+  "reason": "St. George's Episcopal School (stgnola.org, New Orleans) is a ~400-student nursery-8 independent school with ~45 employees — roughly half the low end of Kenneth's 800-2,000-student niche — and the only matched postings are an Early Childhood Assistant Teacher and a Nursery Caregiver, pure classroom roles with zero technology, vendor-governance, cybersecurity, or AI-policy language, so there is no quotable line confessing the pain he fixes; Exa also shows the school already employs an in-house Director of Information Technology (Allie Segura, stgnola.org) who runs the 1:1 Chromebook/iPad programs, which contradicts the 'IT fully outsourced with no technology leadership' situation, and the nearest tech-adjacent opening (Accounting Systems Associate reporting to the CFO) is a business-office finance-systems hire, not a governance gap.",
+  "company": {
+    "name": "St. George's Episcopal School (New Orleans, LA)"
+  },
+  "notes": {
+    "domain": "stgnola.org",
+    "size": "~400 students, ~45 employees, nursery through 8th grade, founded 1969",
+    "hq": "923 Napoleon Ave, New Orleans, LA 70115",
+    "matched_jobs": [
+      "Early Childhood Assistant Teacher (1s/2s) 2026-27 — https://recruiting.paylocity.com/recruiting/jobs/details/4236268",
+      "Nursery Caregiver 2026-27 — https://recruiting.paylocity.com/recruiting/jobs/details/4236163"
+    ],
+    "sources": [
+      "https://stgnola.org/",
+      "https://www.stgnola.org/discover/employment-opportunities",
+      "https://nces.ed.gov/surveys/pss/privateschoolsearch/school_detail.asp?ID=00540603",
+      "https://www.jobtarget.com/jobs/jt-adel205v5p/accounting-systems-associate-new-orleans-louisiana"
+    ]
+  }
+}

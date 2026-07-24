@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "The only evidence in the pack is a single stale (posted 2025-09-15, liveness unverified, no fresh careers feed — feed slug None) '(Anticipated) Elementary Teacher of Student with Disability' posting whose JD is purely instructional (lesson plans, classroom behavior standards, NJCCCS goals, adapting curriculum) with zero mention of technology governance, cybersecurity, vendor oversight, AI policy, board reporting, or IT leadership — a generic 'a school hires teachers' match with no quotable line redescribing the pain Kenneth Thomas fixes; four Exa searches could not resolve the employer's name, domain, size, or enrollment (Paylocity job 3576258 does not surface anywhere, and the NJ language-based-learning-differences candidates — The Craig School, Deron School, Mount Carmel Guild Academy — all post under different ATS/JD text), so even the independent-vs-district and enrollment-band screens (~800-2,000 students) cannot be cleared.",
+  "company": {
+    "name": "Unidentified NJ special-education private school (evidence pack e864b442-df9a-4850-8cf3-97388e118488)"
+  }
+}

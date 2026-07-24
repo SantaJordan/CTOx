@@ -1,0 +1,46 @@
+{
+  "verdict": "drop",
+  "reason": "The only matched job is a Transportation & Property Manager (school bus fleet, driver recruitment, academy housing tenant relations) with zero technology content -- hit_strong=False, hit_gap=False, only a generic jd_lexicon hit -- so there is no quotable line that redescribes Kenneth's technology-governance pain; separately, Mercersburg is ~439-447 students (NCES/Wikipedia) versus his 800-2,000 niche floor, and it already employs in-house technology leadership (a 22-year Telecommunications Director and a 21-year Systems Administrator), which is the opposite of his 'IT fully outsourced to vendors nobody oversees, no technology leadership' situation and also pre-empts the Teams Phone secondary motion.",
+  "company": {
+    "name": "Mercersburg Academy",
+    "domain": "mercersburg.edu",
+    "one_liner": "Independent coed college-preparatory boarding and day school for grades 9-12 and postgraduates, founded 1893, on a 300-acre campus in Mercersburg, PA.",
+    "industry": "K-12 independent education (boarding school)",
+    "stage": "Established nonprofit; ~439-447 students, ~164 employees, $18.4M total philanthropic support FY2023-24",
+    "hq": "100 Academy Drive, Mercersburg, PA 17236"
+  },
+  "drop_detail": {
+    "legal_entity_on_ats": "Regents of the Mercersburg College",
+    "matched_job": {
+      "title": "Transportation & Property Manager",
+      "url": "https://recruiting.paylocity.com/recruiting/jobs/details/4249421",
+      "posted": "2026-06-16",
+      "score": 0.3715,
+      "why_not_evidence": "Reports to the CFOO and Director of HR under General Student Services; scope is transportation operations, fleet, driver recruitment/training, and tenant relations for academy housing. Contains no technology, cybersecurity, AI-governance, or vendor-oversight responsibility. The lexicon match fired only on generic operations/vendor language."
+    },
+    "liveness": "unverified -- the pipeline returned an empty live_jobs list for this employer, so the matched posting was never re-confirmed live today.",
+    "other_openings_seen": [
+      "Events & External Programs Administrative Assistant",
+      "Head Diving Coach",
+      "Director of Annual Giving",
+      "Advancement Communications Manager"
+    ],
+    "other_openings_note": "All non-technical; none confess a technology-leadership or governance gap.",
+    "existing_it_leadership": [
+      "Telecommunications Director (in role since Jun 2004, ~22 years)",
+      "Systems Administrator (in role since Nov 2004, ~21 years)"
+    ],
+    "size_gap": "~439 students (NCES ID 01197796) to ~447 (Wikipedia) vs. the 800-2,000 student niche band -- roughly half the floor."
+  },
+  "sources": [
+    "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4249421",
+    "https://mercersburg.edu/",
+    "https://www.mercersburg.edu/about/careers",
+    "https://nces.ed.gov/surveys/pss/privateschoolsearch/school_detail.asp?ID=01197796&Search=1",
+    "https://en.wikipedia.org/wiki/Mercersburg_Academy",
+    "https://www.mercersburg.edu/giving/philanthropy",
+    "https://www.boardingschoolreview.com/mercersburg-academy-profile",
+    "https://careers.nais.org/jobs/20814464/director-of-annual-giving",
+    "https://www.indeed.com/q-mercersburg-academy-l-pennsylvania-jobs.html"
+  ]
+}

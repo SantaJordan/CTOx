@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Pack has no company name, domain, or live-verified job feed (ATS paylocity, liveness: unverified, feed slug: None), and the single matched job is a generic front-office 'Administrative Assistant' (sorting mail, operating the copy machine, serving as telephone receptionist) with strong_title=False and gap=False — nothing about vendor oversight, cybersecurity, AI policy, or board-level technology risk, so there is no quotable line redescribing the governance pain Kenneth Thomas fixes; the described entity ('K-12 educational services and administration staffing') also reads as a staffing/services provider rather than an independent or charter school, i.e. the wrong side of the market. Two Exa searches failed to resolve Paylocity job 4213155 to a named employer.",
+  "company": {
+    "name": "Unidentified K-12 education services / administration staffing employer (Paylocity job 4213155)"
+  }
+}
