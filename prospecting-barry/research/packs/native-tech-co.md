@@ -78,6 +78,47 @@ Native is a Multi-Language Platform (MLP). It enables seamless communication acr
 This proposal highlights the potential of an AI-driven, multilingual conversational intelligence service that will enhance decision makers’ situational awareness, especially in multinational operating contexts, empowering leaders to make more informed dec
 
 ## News (Exa, top 3)
+- Native American Technology Corporation () https://www.highergov.com/awardee/native-american-technology-corporation-10100482/
+  Native American Technology Corporation
+
+HigherGov
+
+Notify
+
+- New Contract Awards
+- New Grant Awards
+
+Favorite
+
+Export
+
+- CSV
+- Excel
+
+Share
+
+- Copy URL
+- Email
+- Tweet
+
+# Native American Technology Corporation
+
+UEI: DJ49STFKLYX7 &#x2022 CAGE: 1LCE9 &#x2022 SBA Certs: SDVOSB VOSB
+
+- List
+- Text
+
+## Overview
+
+Awardee Type
+
+Parent
+
+Federal Capability Statement
+
+Program Management Services, Training Support Services, Professional and Technical Support Services, Aviation and Geospatial Services
+
+Keyw
 - Native American Technologies Company - Laser-Based Robotic System for Naval Ship and Aircraft Repair Award | SBIR.org () https://sbir.org/awards/dod-no-contract-11981
   Native American Technologies Company - Laser-Based Robotic System for Naval Ship and Aircraft Repair Award | SBIR.org
 
@@ -139,14 +180,6 @@ Government Project
 
 OASIS+ SBA-CERTIFIED WOMEN-OWNED SMALL BUSINESS IDIQ OAS+WO
 
-- V653C611 |  Award | NON-BUILDING STRUCTURE CONSTRUCTION () https://www.federalcompass.com/fed-contract-award/V653C611
-  V653C611 | Award | NON-BUILDING STRUCTURE CONSTRUCTION
-
-# V653C611 - NON-BUILDING STRUCTURE CONSTRUCTION
-
-##### Federal Contract Award Search » Definitive Contract Award
-
-This Definitive Contract contract was awarded in FY2004 on Sep 30, 2004 to Native American Technology Corporation by . There have been $134.2k in obligations to date with a ceiling value of $134.2k, showing a 100% burn rate so far on the contract. The contract was competed under 8(a) Sole Source preference program with 1 offer 
 
 ## Open roles
 (no jobs data found)

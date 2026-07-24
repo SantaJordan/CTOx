@@ -1,0 +1,43 @@
+{
+  "company": "Danti",
+  "slug": "danti",
+  "domain": "danti.ai",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Air Force SBIR Phase II 2023 ($1.2M) for Space Force NLP search (SBIR record), SpaceWERX TACFI $1.9M (2024) and Direct-to-Phase II $1.25M for Space Force TacSRT automated analysis (Sept 2025, their own press releases in news section); site has a dedicated Government page and Defense & Intelligence use case.",
+  "disconnect_score": 64,
+  "subscores": {"lab_language_intensity": 14, "deployment_awareness_absence": 14, "operator_absence": 8, "hiring_profile_skew": 13, "stage_pressure": 15},
+  "score_evidence": [
+    "'Machine learning querying makes everybody an expert' and 'get you the answers you need in seconds' — speed/wow demo framing with no operational constraints → lab_language_intensity",
+    "'Accessible on the web or deployable inside your organizational firewalls' is the ONLY deployment nod in ~1,193 words; no ATO/RMF/IL level/CMMC/cross-domain language despite selling into Space Force TacSRT → deployment_awareness_absence",
+    "Live roles are 'Head of Growth - Public Sector', 'Commercial Sales Manager', 'Marketing Manager', 'Senior Solutions Engineer - Public Sector' — all GTM, zero ISSO/compliance/deployment engineering → hiring_profile_skew",
+    "Direct-to-Phase II awarded Sept 2025 (PoP clock running), TACFI 2024, ~$8M seed, 36 people — SBIR-bridge stage with transition unproven → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The product's core promise — live synthesis of internet-scale sources in seconds — assumes reachback connectivity that TacSRT's tactical consumers do not have",
+      "operator_reality": "A user on a constrained or disconnected link cannot query news, social media, and shipping data 'in seconds'; the answer engine degrades to nothing exactly when the tactical user needs it — same failure mode as the 30fps crowd-detection case",
+      "why_likely_missing": "Company grew up as a web search product for analysts at desks; nothing in their language addresses caching, forward-deployed nodes, or low-bandwidth operation",
+      "evidence_quote": "Danti synthesizes data from diverse sources, including imagery, news, social media, shipping data and your unique data sources to get you the answers you need in seconds.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "One hand-wave line stands in for an entire accreditation architecture: a multi-INT engine that fuses OSINT with government data must cross security boundaries, and no ATO/IL/cross-domain path is ever named",
+      "operator_reality": "Getting a commercial SaaS pulling open internet sources accredited next to GEOINT/SIGINT workflows on IL5+/classified networks is routinely a multi-year effort — longer than a Phase II period of performance, which is the valley-of-death clock",
+      "why_likely_missing": "Their differentiation is search UX and data breadth; compliance is treated as an implementation detail ('every implementation') rather than the gating architecture decision",
+      "evidence_quote": "Accessible on the web or deployable inside your organizational firewalls",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Free-trial, product-led GTM aimed at end users builds operator enthusiasm with no visible advocacy chain to a program of record",
+      "operator_reality": "Government users who sign up for a 2-week web trial are not a transition path; without a champion above the operator level and a contract vehicle beyond SBIR/TACFI extensions, love from analysts never becomes sustained fielding — and the live hiring (Heads of Growth, sales) doubles down on top-of-funnel instead of fielding roles",
+      "why_likely_missing": "Commercial SaaS playbook applied to federal: they measure signups, not accreditation milestones or program sponsorship",
+      "evidence_quote": "Government users can now sign up for a free 2 week trial.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Danti's September 2025 Direct-to-Phase II puts automated analysis inside Space Force TacSRT, yet the only deployment language on danti.ai is 'deployable inside your organizational firewalls' — no IL level, no ATO path, and every live job posting is growth or sales.",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "AI search engine that answers natural-language questions about any place on Earth by fusing satellite imagery, OSINT, and government/commercial data sources."
+}

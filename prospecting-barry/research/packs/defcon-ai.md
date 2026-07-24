@@ -3,7 +3,7 @@ slug: defcon-ai | domain: defconai.com | HQ: Mclean, Virginia US | employees(LI)
 sources: vc:red-cell
 industry(LI): Software Development | specialties: mathematical optimization, simulation, data science, machine learning
 channel notes: modeling and simulation for logistics resilience
-own-language word count: ~1271
+own-language word count: ~1264
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -138,7 +138,7 @@ Request a Demo
 DockForge optimizes the assignment of complex maintenance jobs for the maintenance of ships, ensuring continuous operational readiness and maximizing shipyard throughput. This aggregate-level scheduling tool uses advanced algorithms to balance job workload against dry dock availability and constraints across shipyards, rapidly generating an optimized maintenance schedule based on existing plans. It allows planners to explore various trade-off scenarios, defining the permissible scope of changes (simple to complex) to understand the maximum achievable efficien
 
 URL: https://defconai.com/contact
-Contact | Explore Our Solutions — Contact Us Today — DEFCON AI 
+Contact | Explore Our Solutions — Contact Us Today — DEFCON AI
 
 # Connect with Us
 
@@ -154,26 +154,21 @@ Contact our team to explore a custom solution built for you.
 
 Get In Touch →
 
-
-
-URL: https://defconai.com/capabilities
-Solutions | Optimize with Confidence — Get Started Today — DEFCON AI
-
-# Capabilities
-
-The DEFCON AI Platform holds the power of AI solutions and advanced optimization algorithms across a range of industries, translating complex operations into scalable success.
-
 All National Security Manufacturing Logistics & Transportation Healthcare
 
-### ARTIV Air
+## National Security
+
+Advanced optimization models accelerate rapid, informed decision-making, reinforcing national and operational readiness in dynamic and contested environments.
+
+### Artiv Air
 
 ARTIV Air empowers planners to route cargo and personnel for maximum efficiency, mission effectiveness, and operational resiliency. Built on cloud-native, time-dynamic optimization, it facilitates rapid scenario generation with the ability to integrate disruptions into planning to anticipate and adapt to changing conditions. Its resilient routing engine incorporates a penalty structure and Red attack modeling to minimize risk, while a results dashboard provides clear performance insights for confident decision-making.
 
 Request a Demo
 
-### R-ALIGN
+### R-Align
 
-R-ALIGN (Resilient Analytics for Logistics and Inter-modal Global Networks) empowers operational planners to rapidly generate and evaluate multiple mission scenarios through 
+R-ALIGN (Resilient Analytics for Logistics and Inter-modal Global Networks) empowers operational planners to rapidly generate and evaluate multiple mission scenarios through cloud-native, time-sensitive optimization. Built for dynamic and contested environments globally, it enhances strategic dec
 
 ## LinkedIn about
 

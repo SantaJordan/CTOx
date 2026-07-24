@@ -207,16 +207,9 @@ Neros is a defense technology company that builds asymmetric systems to ensure t
 
 Search
 
-- Space
-- Army
-- Navy/USMC
-- Air Force
-- Business/Financial
-- Commentary
-
 A Neros Archer FPV drone flying with U.S. Army personnel. Photo: Neros
 
-The Army has awarded Neros Technologies a $500 million contract to provide its Archer first person view (FPV) drones for the Purpose-Built Attritable Systems (PBAS) program. The new contract could cover delivery of “hundreds of thousands” 
+The Army has awarded Neros Technologies a $500 million contract to provide its Archer first person view (FPV) drones for the Purpose-Built Attritable Systems (PBAS) program. The new contract could cover delivery of “hundreds of thousands” of Archer FPV drones, Reese Hamilton, Neros' director of marketing, told D
 - Neros Awarded $500M Army IDIQ for Archer Attritable Drones (2026-07-17) https://www.govconwire.com/articles/neros-500m-army-archer-fpv-contract
   # Neros Awarded $500M Army IDIQ for Archer Attritable Drones
 
@@ -233,27 +226,15 @@ Neros Awarded $500M Army IDIQ for Archer Attritable Drones
 
 [![GovCon Wire](https://www.govconwire.com/wp-content/uploads/2021/03/gcwlogo.png "GovCon Wire")](https://www.govconwire.com/)
 
-- Neros Lands Army Contract Worth Up to $500M (2026-07-17) https://www.tectonicdefense.com/neros-lands-army-contract-worth-up-to-500m/
-  # Neros Lands Army Contract Worth Up to $500M
+- $500M Army IDIQ Sends Neros to Mass-Produce Chinese-Free… (2026-07-17) https://govconfeed.com/article/neros-500m-army-archer-fpv-attritable-drone-idiq-june-2026
+  $500M Army IDIQ Sends Neros to Mass-Produce Chinese-Free…
 
-Author: Barratt Dewey
-Published: 2026-07-17T13:49:32+00:00
-Source: tectonicdefense.com (tectonicdefense.com)
-Language: en
+Photo: Lance Cpl. Allison White, DVIDS (Public Domain)
 
-## Story
-
-Neros Lands Army Contract Worth Up to $500M
-
-Skip to content
-
-[![TectonicDefense](https://www.tectonicdefense.com/wp-content/themes/tectonicdefens/assets/images/logo.png?v=1.0.3)](https://www.tectonicdefense.com/) [Subscribe](https://www.tectonicdefense.com/subscribe/) Menu
-
-Search for:
-
-[Subscribe](https://www.tectoni
+The Army has committed up to half a billion dollars to a three-year-old drone startup, betting that a Torrance, California, manufacturer can churn out combat-ready first-person-view attack drones without a single Chinese part. According to the Contracts for July 14, 2026, list published by the Department of War, Neros Inc. won a $500,000,000 firm-fixed-price, indefinite-delivery/ind
 
 ## Open roles (Blitz, live)
+- Manufacturing Operations Engineer ({'city': 'Torrance', 'country_code': 'US'})
 - Advanced Manufacturing Engineer ({'city': None, 'country_code': 'US'})
 - Autonomy Mechatronics Engineer (Hardware & Test) ({'city': 'Torrance', 'country_code': 'US'})
 - Senior Automation Engineer ({'city': 'Torrance', 'country_code': 'US'})
@@ -263,7 +244,6 @@ Search for:
 - Full-Stack Software Engineer ({'city': 'Torrance', 'country_code': 'US'})
 - Senior Electrical Engineer ({'city': 'Torrance', 'country_code': 'US'})
 - Prototype Shop Manager ({'city': 'Torrance', 'country_code': 'US'})
-- Manufacturing Systems Engineer ({'city': 'Torrance', 'country_code': 'US'})
 
 ---
 # Context for the scoring agent (do not re-search)

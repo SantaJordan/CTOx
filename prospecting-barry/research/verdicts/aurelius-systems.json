@@ -1,0 +1,46 @@
+{
+  "company": "Aurelius Systems",
+  "slug": "aurelius-systems",
+  "domain": "aureliussystems.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Their own LinkedIn post (2026-01-19, News section) states \"Aurelius has been awarded a contract under $151B MDA SHIELD, IDIQ to support development and delivery of the Archimedes laser weapon system. The award follows our recent testing with the 25th Infantry\"; USSOCOM and DIU also appear on their own backer wall.",
+  "disconnect_score": 56,
+  "subscores": {"lab_language_intensity": 14, "deployment_awareness_absence": 10, "operator_absence": 12, "hiring_profile_skew": 9, "stage_pressure": 11},
+  "score_evidence": [
+    "\"stop drone threats at the speed of light, for the cost of electricity, anywhere they appear\" → lab_language_intensity: the marginal-cost-per-shot line that elides prime power, thermal load and duty cycle",
+    "\"Field Proven: Tested and operated in live field conditions including adverse weather\" → lab_language_intensity: an unquantified claim with no unit, range, or engagement numbers behind it",
+    "\"every solution on the market still needs someone watching a screen. We built something that doesn't\" and \"real-time detection and targeting — no operator required\" → operator_absence: removing the human is the headline feature of a weapon system",
+    "\"Power ArchitectureDesigned to draw from grid, generator, or battery — switchable across sources for uninterrupted operation in any environment\" and \"COTS-Based Hardware ... accessible maintenance\" → deployment_awareness_absence held DOWN: genuine SWaP and sustainment framing",
+    "No mention of ATO/RMF, laser safety review, DoDD 3000.09, ITAR, CMMC or Section 889 anywhere in their own language → deployment_awareness_absence, for a directed-energy weapon on an MDA IDIQ",
+    "Open roles include \"Director of Mission Operations\" and \"Lead, Mission Operations\" alongside \"Digital Marketing Specialist\", \"Founders Associate\", \"Data Annotator\" → hiring_profile_skew held DOWN by the mission-ops hires, but no compliance, quality, test, or ISSO role at a company on a weapons IDIQ",
+    "\"Aurelius Systems Raises $10 Million ... In Round Led by General Catalyst & Draper Associates\" (2025-09-03) with 22 employees and a hardware weapon to deliver → stage_pressure: seed capital funding a weapon-system delivery schedule"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Full autonomy is marketed as the differentiator on a lethal-effect weapon, where the human-control chain is the acceptance criterion",
+      "operator_reality": "An autonomous engagement decision by a directed-energy weapon runs straight into DoDD 3000.09 review, laser eye-safety hazard zones, and range-clearance rules — every one of which asks who authorizes the shot and how the operator aborts it. On the 25th ID range, the test officer needs a positive-control interface, an abort, and an engagement log before the system is allowed to radiate; discovering that after the demo turns a six-week integration into a six-month documentation exercise. Designing the human-on-the-loop path now costs almost nothing and is the difference between an MDA delivery order and a stalled one.",
+      "why_likely_missing": "The autonomy is the honest technical achievement and the fundraising story, so the review chain reads like a feature to be minimized rather than the requirement it actually is.",
+      "evidence_quote": "Sensing & AutonomyOptical sensing paired with machine learning for real-time detection and targeting — no operator required.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "COTS sourcing is presented purely as a cost and maintenance win, with no supply-chain or company-level compliance framing",
+      "operator_reality": "The optics, laser diodes, and compute that make a COTS build cheap are the same components that trip NDAA Section 889 and foreign-sourcing review, and directed energy is squarely export-controlled — so the bill of materials becomes a delivery-order blocker. Meanwhile CMMC Level 2 and NIST 800-171 apply to Aurelius as a company handling CUI under the IDIQ, and at 22 people with no compliance hire visible, that assessment is a multi-month project nobody has started. Both are solvable in parallel with engineering; neither is solvable in the last month before delivery.",
+      "why_likely_missing": "COTS is a genuine speed advantage in the demo phase and the constraint only appears at the contract-delivery boundary, which they crossed for the first time in January.",
+      "evidence_quote": "COTS-Based HardwareBuilt on COTS components for efficient cost, fast production, and accessible maintenance.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Power is described as source-flexible rather than sufficient, and the Rheinmetall vehicle integration is where that distinction bites",
+      "operator_reality": "A high-power laser mounted on a robotic combat vehicle does not fail because it cannot find a socket — it fails because the vehicle's alternator and thermal budget cap the engagement duty cycle, so the third and fourth drone in a swarm arrive while the system is still cooling. 'Switchable across sources' answers availability; the number the integrator needs is kilowatts sustained at 45C ambient on vehicle power, and the answer determines whether Archimedes is a point-defense system or a base-defense system. Getting that number into the partnership scope early is what keeps the Rheinmetall relationship from souring at first integration.",
+      "why_likely_missing": "Generator and grid testing at a company site always works, so the constraint only surfaces on someone else's platform — which the July 7 Rheinmetall announcement means is about to happen.",
+      "evidence_quote": "Designed to draw from grid, generator, or battery — switchable across sources for uninterrupted operation in any environment.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Aurelius posted on January 19 that Archimedes picked up an award under the MDA SHIELD IDIQ right after testing with the 25th Infantry Division, and the capability page still leads with 'no operator required' — that phrase is what turns a directed-energy delivery order into months of positive-control and laser-safety documentation, and it is far cheaper to design the human-on-the-loop path before the first delivery than after.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Builds Archimedes, a compact autonomous high-power laser turret that detects and burns down small drones, sold for base, force, and vehicle protection."
+}

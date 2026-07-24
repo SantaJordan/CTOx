@@ -341,6 +341,18 @@ The USAF data analytics community requires the latest Artificial Intelligence (A
   ATO Approved: InfiniteTactics Extends DoD's HPC Modernization Program to the Cloud Accessibility Statement Skip Navigation
 
 BEAVERCREEK, Ohio, May 1, 2025 /PRNewswire/ -- InfiniteTactics, a Certified Veteran-Owned Small Business and mission partner to DoD and military, today announced that its Analytics Gateway platform has received full Authority to Operate (ATO), formally integrating secure on-demand AWS GovCloud-based HPC as a new access resource under the DoD High Performance Computing Moder
+- (Exclusive) Beavercreek defense technology firm to expand, courts acquisitions (2024-04-22) https://www.bizjournals.com/dayton/news/2024/04/22/infinitetactics-beavercreek-defense-growth.html
+  InfiniteTactics to expand, courts acquisitions - Dayton Business Journal
+
+Preview this article 1 min
+
+The Beavercreek-based firm is gaining multimillion-dollar contracts with the U.S. Air Force, Navy and others. This comes at a time when the company is planning to double its local footprint, add a half-dozen new jobs, and seek out acquisition opportunities. Find out more.
+
+#### Related Articles
+
+##### ‘Shell-ter:’ Booming Dayton defense firm also saves endangered turtles
+
+##### Welding a Solutio
 - Breaking News – IL5 Approval (2024-04-10) https://infinitetactics.com/www/index.php/2024/04/10/breaking-news-il5-approval/
   Breaking News – IL5 Approval
 
@@ -372,18 +384,6 @@ Press
 | --- | --- |
 
 ## InfiniteTactics’ Analytics Gateway Platform Approved at Impact Level 5 Security by the Department of Defe
-- (Exclusive) Beavercreek defense technology firm to expand, courts acquisitions (2024-04-22) https://www.bizjournals.com/dayton/news/2024/04/22/infinitetactics-beavercreek-defense-growth.html
-  InfiniteTactics to expand, courts acquisitions - Dayton Business Journal
-
-Preview this article 1 min
-
-The Beavercreek-based firm is gaining multimillion-dollar contracts with the U.S. Air Force, Navy and others. This comes at a time when the company is planning to double its local footprint, add a half-dozen new jobs, and seek out acquisition opportunities. Find out more.
-
-#### Related Articles
-
-##### ‘Shell-ter:’ Booming Dayton defense firm also saves endangered turtles
-
-##### Welding a Solutio
 
 ## Open roles
 (no jobs data found)

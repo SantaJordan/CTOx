@@ -1,0 +1,16 @@
+{
+  "company": "Knostic",
+  "slug": "knostic",
+  "domain": "knostic.ai",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "None — entire site, blog, LinkedIn about, and news coverage describe an enterprise AI-security/need-to-know-access-governance product (shadow AI discovery, coding-agent security, LLM oversharing) with zero DoD/military/warfighter language or contract record.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "unknown",
+  "what_they_do": "Enterprise AI-security platform for shadow AI discovery, need-to-know access governance, and coding-agent/MCP supply-chain security — no defense connection."
+}

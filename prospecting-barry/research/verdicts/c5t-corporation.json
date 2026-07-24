@@ -1,0 +1,16 @@
+{
+  "company": "C5T Corporation",
+  "slug": "c5t-corporation",
+  "domain": "c5t.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "Genuine DoD footprint (SDVOSB at Scott AFB, USTRANSCOM/AMC contracts, one AF SBIR Phase II in the SBIR section), but their own words describe a services firm: 'provider of capabilities... IT Services... Organizational Innovation & Process Consulting... Educational Offerings (PMP Boot Camp)'.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "77-person Service-Disabled Veteran-Owned government-services contractor at Scott AFB doing IT services, program management, process consulting, and PMP training for DoD customers — a services/consulting shop, not a product company with a prototype stuck in the valley."
+}

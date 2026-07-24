@@ -1,0 +1,51 @@
+{
+  "company": "Kestrel",
+  "slug": "kestrel",
+  "domain": "kestrelintelligence.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Their own blog post 'Inside Delta 7: Kestrel Joins the Catalyst Accelerator' (15 Jan 2026) states 'Kestrel Intelligence has been selected for Cohort Delta 7 of the U.S. Space Force Catalyst Accelerator', matching the GlobeNewswire release on the CAAMO cohort demonstrating AI-driven intelligence for Space Delta 7. (Note: the two Exa news hits about Logos Technologies' Kestrel aerostat system and NordSpace's Kestrel VLEO constellation are unrelated name collisions and were not used.)",
+  "disconnect_score": 77,
+  "subscores": {
+    "lab_language_intensity": 17,
+    "deployment_awareness_absence": 15,
+    "operator_absence": 11,
+    "hiring_profile_skew": 17,
+    "stage_pressure": 17
+  },
+  "score_evidence": [
+    "'Autonomous ISR: Why the Next War Will Be Won by Machines That See First' and 'Scalable Autonomy for Sensing and Effects' → lab_language_intensity: the entire public surface is thought leadership and market sizing; there is no product page, no reference customer, no demonstration result",
+    "'83% of collection assets manually tasked / $4.2B annual unused satellite capacity / 47min avg latency from request to collection' → lab_language_intensity: the proof offered is market statistics, not a fielded outcome",
+    "'It negotiates access across multiple commercial and government constellations, submits tasking orders, and begins fusing the incoming data before the first analyst opens the ticket' → deployment_awareness_absence: a workflow spanning commercial APIs and government tasking with no mention of the enclave, cross-domain solution, ATO/RMF, or the classification of the data being fused",
+    "'Military and Intelligence Operators. AI & Autonomy Technologists.' → operator_absence held at 11: operators are claimed as a hiring identity, but no CONOPS, training, or field-feedback loop appears anywhere",
+    "Their Lever board lists exactly four roles — 'Data Scientist (Colorado)', 'Data Scientist (Virginia)', 'Software Engineer (Colorado)', 'Software Engineer (Virginia)' — all Product team, with no security engineer, ISSO, compliance, or deployment role → hiring_profile_skew",
+    "Founded 2025, 10 employees on LinkedIn, pre-seed/seed backed, currently inside an accelerator cohort with no contract of record visible → stage_pressure at the top of the band"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The agent has to live on both sides of a classification boundary, and nothing addresses that",
+      "operator_reality": "Tasking commercial constellations happens on the internet; tasking and fusing government collection happens on SIPR or JWICS. An agent that does both needs an accredited cross-domain solution, an ATO on the high side, and a data-flow policy that a security control assessor will sign. That accreditation typically takes longer than a seed round's runway, and it is the reason ISR-orchestration prototypes stall after a strong accelerator demo.",
+      "why_likely_missing": "A ten-person team of data scientists and software engineers has nobody whose job is the authorization package, and an accelerator demo runs on an unclassified sandbox where the boundary never appears.",
+      "evidence_quote": "It negotiates access across multiple commercial and government constellations, submits tasking orders, and begins fusing the incoming data before the first analyst opens the ticket.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The 47-minute latency they attack is mostly authority and contract, not software",
+      "operator_reality": "Collection management is slow because a human with legal accountability arbitrates priorities against standing intelligence requirements, and because commercial capacity has to be under a contract vehicle before anyone can task it. Software can compress the staffing time; it cannot self-authorize a collection or buy an unallocated SAR pass. Without an acquisition and advocacy path — who owns the tasking authority, which contract buys the imagery — the agent optimizes the one part of the loop that was never the constraint.",
+      "why_likely_missing": "Framing the bottleneck as 'the brain, not the eye' is a compelling market narrative, and no one inside a pre-seed team is incentivized to name the parts of the delay that software cannot touch.",
+      "evidence_quote": "Today's sensor tasking workflows rely on human operators cycling through spreadsheets of collection requirements, manually matching assets to targets, negotiating priorities across organizations, and waiting.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Fusing thousands of sensors assumes bandwidth that no forward node has",
+      "operator_reality": "Connecting to 3,500+ sensors across space, air, land and sea implies continuous ingest of imagery and RF products — fine in an ops center on fat pipe, impossible at a forward node where the link is intermittent and measured in kilobits. If the answer is 'it runs in the cloud and the operator queries it', then the operator who needs the answer most is the one who cannot reach it. This is the same architecture mistake as streaming 30fps into a contested link that supports one frame every five seconds; the fix is deciding up front which decisions get made at the edge on degraded data.",
+      "why_likely_missing": "The product concept was formed around commercial satellite abundance, an environment defined by unlimited backhaul into a cloud, which is the exact inverse of the deployed case.",
+      "evidence_quote": "connecting to 3,500+ autonomous global sensors in space, the air, on land, and at sea to identify and solve problems",
+      "quote_source": "linkedin_about"
+    }
+  ],
+  "opener_hook": "Your January post says Kestrel was selected for Catalyst Accelerator Cohort Delta 7, and the February ISR piece describes an agent that negotiates access across both commercial and government constellations — that agent has to sit on two sides of a cross-domain boundary before it submits its first tasking order.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Agentic AI software that automatically tasks and coordinates commercial and government ISR sensors instead of leaving collection managers to do it by hand."
+}

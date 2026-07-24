@@ -210,6 +210,11 @@ The advancement of the Next Generation Open Mission Planning Services (NOMS) arc
 title: DS2 Awarded US Air Force Next-Gen Mission Planning R&D Contract
 description: DS2 has been awarded a three-year, $4.9 million Small Business Innovation & Research (SBIR) Phase III contract to continue our software development work building out the next generation mission planning software system for USAF Weapons Planning. Our team of talented software engineers is thrilled to be given the opportunity to continue re-architecture and modernization of […]
 image: https://www.ds2.com/wp-con
+-  () https://www.ds2.com/ds2-awarded-rapid-airfield-damage-repair-upgrade-and-hardware-integration-contract/
+  ---
+title: DS2 Awarded Rapid Airfield Damage Repair Upgrade And Hardware Integration Contract
+description: Rapid Airfield Damage Repair (ADR) software provides the US Air Force with critical analysis of combat damage to airfields/runways during wartime. DS2 has developed ADR solutions for the last 11 years and is proud to be given a new 6-month contract award to provide software and hardware testing and integration to the fleet of RADAS […]
+image: https://www.ds2.com/wp-content/uploads/2025/09/D
 - DS2 Awarded SBIR Phase 3 () https://www.ds2.com/ds2-awarded-sbir-phase-3/
   Skip to content
 
@@ -221,17 +226,6 @@ image: https://www.ds2.com/wp-con
 # DS2 Awarded SBIR Phase 3
 
 The Rapid Airfield Damage Repair (RADR) software packages provide the US Air Force with critical analysis of combat damage to airfields/runways during wartime. DS2 has developed RADR solutions for the last 11 years and is proud to be awarded a new 5-year SBIR 3 contract to continue optimizing the capabilities needed by our airmen. This work will build upon current prototypes which enable Civil Engineers and
--  () https://www.ds2.com/ds2-awarded-software-sustainment-contract/
-  Skip to content
-
-## Contracts News
-
-- Alicia Pruitt
-- Dec 6
-
-# DS2 Awarded Software Sustainment Contract
-
-Rapid Airfield Damage Repair (ADR) software provides the US Air Force with critical analysis of combat damage to airfields/runways during wartime. DS2 has developed ADR solutions for the last 11 years and is proud to be given a new 5-year software sustainment contract award to sustain the Civil Engineering expeditionary software suite of tools. The suite of capabilities DS2 will maintain inc
 
 ## Open roles (Blitz, live)
 - Software Engineer – Special Operations Mission Systems ({'city': 'Niceville', 'country_code': 'US'})

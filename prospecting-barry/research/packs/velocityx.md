@@ -186,16 +186,6 @@ Velocity-X constructs and deploys data management and analytics solutions for th
 RESTON, Va., Jan. 12, 2026 /PRNewswire/ -- V2X, Inc. (NYSE: VVX) is pleased to announce it has been awarded a contract under the Missile Defense Agency's (MDA) Scalable Homeland Innovative Enterprise Layered Defense (SHIELD) inde nite-delivery/inde nite-quantity (IDIQ) contract vehicle.
 
 Under this contract, valued with a ceiling of $151 billion, V2X will partner with the M
-- Technology for the War ghter () https://s202.q4cdn.com/296309594/files/doc_news/V2X-Awarded-ATSP5-Contract-to-Advance-Emerging-Technology-for-the-Warfighter-2026.pdf
-  NEWS RELEASE
-
-## V2X Awarded ATSP5 Contract to Advance Emerging
-
-## Technology for the War ghter
-
-2026-02-18
-
-RESTON, Va., Feb. 18, 2026 /PRNewswire/ -- V2X Inc. (NYSE: VVX) proudly announces its selection for a seat on the Advanced Technology Support Program 5 (ATSP5), a $25 billion multiple-award Inde nite Delivery/Inde nite Quantity (IDIQ) contract. ATSP5, administered by the Defense Microelectronics Activity (DMEA) under the O ce of the Secretary of Defense, is one of the Department of Defen
 - V2X Awarded $100M In National Security Contracts () https://s202.q4cdn.com/296309594/files/doc_news/V2X-Awarded-100M-In-National-Security-Contracts-2026.pdf
   NEWS RELEASE
 
@@ -206,6 +196,16 @@ RESTON, Va., Feb. 18, 2026 /PRNewswire/ -- V2X Inc. (NYSE: VVX) proudly announc
 RESTON, Va., Feb. 11, 2026 /PRNewswire/ -- V2X Inc. (NYSE: VVX) was awarded $100 million in classi ed contracts during the fourth quarter of 2025 to support a broad range of national security missions for multiple U.S. defense and intelligence agencies. The awards include services and solutions in the areas of cyber operations, special systems integration, unique facility solutions and contested logistics.
 
 "These awa
+- Technology for the War ghter () https://s202.q4cdn.com/296309594/files/doc_news/V2X-Awarded-ATSP5-Contract-to-Advance-Emerging-Technology-for-the-Warfighter-2026.pdf
+  NEWS RELEASE
+
+## V2X Awarded ATSP5 Contract to Advance Emerging
+
+## Technology for the War ghter
+
+2026-02-18
+
+RESTON, Va., Feb. 18, 2026 /PRNewswire/ -- V2X Inc. (NYSE: VVX) proudly announces its selection for a seat on the Advanced Technology Support Program 5 (ATSP5), a $25 billion multiple-award Inde nite Delivery/Inde nite Quantity (IDIQ) contract. ATSP5, administered by the Defense Microelectronics Activity (DMEA) under the O ce of the Secretary of Defense, is one of the Department of Defen
 
 ## Open roles
 (no jobs data found)

@@ -1,0 +1,25 @@
+{
+  "company": "Advanced Aircraft Company LLC",
+  "slug": "advanced-aircraft-company-llc",
+  "domain": "flyaac.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "AFWERX $1.25M Direct-to-Phase-II (Jan 2024) for next-gen tactical UAS plus the 2022 USAF Phase II for HAMR base-security ISR (news section, SBIR abstract).",
+  "disconnect_score": 44,
+  "subscores": {"lab_language_intensity": 8, "deployment_awareness_absence": 8, "operator_absence": 5, "hiring_profile_skew": 10, "stage_pressure": 13},
+  "score_evidence": [
+    "Spec-forward framing — '3.5+ hours', '800 acres in 90 minutes', '6x increase in flight time' — though tied to manning outcomes → lab_language_intensity",
+    "Strong physical fielding fluency ('austere land or maritime conditions', 'IP54 rated', 'field maintainable') but zero cyber/accreditation language: no Blue UAS, no ATO for the GCS/data link, no ITAR mention → deployment_awareness_absence",
+    "Tiny team (5-11 people) with a Jan-2024 D2P2 clock running and 'Now Shipping!' pressure to convert SBIR into program revenue → stage_pressure",
+    "No jobs data in pack → hiring_profile_skew set exactly 10 per rule"
+  ],
+  "blind_spots": [
+    {"blind_spot": "ISR-T mission with QGroundControl as the standard GCS and no TAK integration mentioned", "operator_reality": "Base defense ISR is consumed on ATAK screens in the BDOC; a feed that lives only in QGroundControl on a DesertRotor ground station is a stovepipe the security forces squadron can't task or share — the transition dies at C2 integration, not at flight performance", "why_likely_missing": "Aeronautical-engineering founders (NASA-style design philosophy) optimized the air vehicle; the consumption side of the ISR product is inherited COTS", "evidence_quote": "Ground Control Software | QGroundControl (http://qgroundcontrol.com/)", "quote_source": "homepage"},
+    {"blind_spot": "COTS PixHawk/PX4 open-source autopilot with no Blue UAS or NDAA-compliance claim anywhere", "operator_reality": "Group 1/2 UAS procurement for base security now gates on Blue UAS listing and data-link cybersecurity; without it, units legally can't buy the aircraft no matter how well it flies — the exact demo-to-fielded wall", "why_likely_missing": "Open-source flight stack was the fast prototyping path; certification is a compliance program a 6-person company hasn't staffed", "evidence_quote": "Autopilot Hardware | PixHawk Cube Blue … Autopilot Software | PX4", "quote_source": "homepage"},
+    {"blind_spot": "'Field maintainable' hybrid gasoline engine with no training or sustainment chain described", "operator_reality": "A combustion engine at an austere OCONUS site means fuel logistics, spark plugs, vibration-mount spares, and an E-5 with 20 minutes of training doing small-engine maintenance in dust — 'line replaceable components' only helps if the spares pipeline and the training pipeline exist", "why_likely_missing": "Claims come from engineering test experience ('this test plot confirms…negligible vibration'), not from a fielded sustainment program", "evidence_quote": "it is rapidly setup (less than 5 minutes), durable (IP54 rated), and field maintainable.", "quote_source": "homepage"}
+  ],
+  "opener_hook": "HAMR ships with PX4 and QGroundControl as its standard stack for base-security ISR-T, and no Blue UAS listing or TAK integration appears anywhere on flyaac.com.",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "11-person veteran-owned Hampton, VA shop building HAMR, a hybrid gas-electric multirotor drone with 3.5-hour endurance for base perimeter security and maritime ISR, now shipping and running on AFWERX Phase II money."
+}

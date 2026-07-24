@@ -1,0 +1,50 @@
+{
+  "company": "JAXON, INC.",
+  "slug": "jaxon-inc",
+  "domain": "jaxon.ai",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Homepage badge row and news: 'Space Force Phase III SBIR Awardee ... Air Force Phase II SBIR Awardee ... Awardable in Tradewinds Marketplace', corroborated by contract FA881025CB004 and a $1.54M Space Force Phase III (Dec 2025).",
+  "disconnect_score": 61,
+  "subscores": {
+    "lab_language_intensity": 14,
+    "deployment_awareness_absence": 9,
+    "operator_absence": 11,
+    "hiring_profile_skew": 16,
+    "stage_pressure": 11
+  },
+  "score_evidence": [
+    "'Formal Verification — Mathematically proves outputs align with policy' and 'guaranteeing internal policies, regulations, and constraints are followed with provable correctness' → lab_language_intensity: the entire pitch is correctness proofs, never a described mission thread",
+    "'Use across on-premises, cloud, and secure, air-gapped environments' plus explicit FISMA/RMF/SCG references → deployment_awareness_absence scored LOW (9): they are more compliance-literate than most, but it is their customers' compliance, never their own ATO/CMMC posture",
+    "'Built For: Warfighters, Analysts, Adjudicators, and Compliance Professionals' → operator_absence: warfighters named as a market label, with no training, CONOPS, or field-feedback loop anywhere in 1,525 words",
+    "Ten open roles are 'Machine Learning Engineer' (x4), 'Growth Lead', 'Growth Specialist', 'Marketing Associate' (x2), 'Sales Associate', 'Federal Account Executive, Defense & Intelligence' — zero deployment, test, ISSO or security-engineering roles, while the site markets itself to 'Forward Deployed Engineering teams' → hiring_profile_skew",
+    "'Jaxon, Inc. was awarded a $1.54 million SBIR Phase III contract' (Dec 2025) against an SBIR.gov record of $2,149,838 total awarded and 19 employees → stage_pressure: a small team whose defense revenue is period-of-performance money while it staffs up marketing and growth"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The verification layer's value proposition assumes a reachable frontier-model endpoint",
+      "operator_reality": "Inside an IL5 enclave, on a ship, or on a deployed tactical network there is no GPT, Claude, or Gemini to proxy to, and the bandwidth to a hosted model is exactly what DDIL denies. A guardrail layer whose portability story is 'switch LLM providers' inherits the connectivity assumptions of the model it wraps — the architecture question is what DSAIL does when the only model available is a quantized 7B running on a box in a tent.",
+      "why_likely_missing": "The commercial verticals on the same page (stock exchanges, insurance, life sciences) all live in connected enterprise clouds, so the same product page has to serve both and the connected case wins.",
+      "evidence_quote": "LLM Proxy: Easily switch LLM providers — no code changes required.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No visible authorization path of their own — they sell compliance, they do not claim it",
+      "operator_reality": "A product that sits between an LLM and a mission decision is itself a system on a government network, needing its own RMF package, STIGs, POA&Ms and an IL4/IL5 hosting decision, plus CMMC/NIST 800-171 at the company level to hold the data. Absent a reusable authorization artifact, each new program restarts the clock, and that clock is the thing that outlasts the funded months on a Phase III.",
+      "why_likely_missing": "Their compliance vocabulary is aimed outward at what the product enforces for customers, so nobody internally owns the package Jaxon itself has to carry.",
+      "evidence_quote": "Security control assertion guardrails for Federal Information Security Modernization Act (FISMA) compliance",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "HOPS puts LLM-plus-symbolic reasoning in a space-based IR detection loop with no stated compute or latency budget",
+      "operator_reality": "Space-based IR target detection, tracking and classification is a SWaP-and-latency problem before it is an AI problem: on-board processors are radiation-tolerant and years behind, downlink windows are minutes long, and a verification step that adds seconds per decision changes the tracking picture. Nothing in their material says where the model runs, what the inference budget is, or what happens when verification cannot complete before the next frame.",
+      "why_likely_missing": "The team is composed of ML engineers optimizing for label efficiency and model iteration speed — 'accelerates data labeling by 90%' — which is a training-pipeline metric, not an on-orbit inference budget.",
+      "evidence_quote": "SBIR phase III - space-based infrared (IR) target detection, tracking, and classification ai-enhance framework. The Hybrid Observation And Processing System (HOPS) integrates large language models (LLMS) and neurosymbolic ai",
+      "quote_source": "news"
+    }
+  ],
+  "opener_hook": "The Space Force Phase III you announced in December puts HOPS — LLMs plus neurosymbolic reasoning — inside space-based IR target tracking, while the DSAIL page's portability story is an LLM proxy that swaps GPT, Claude or Gemini without code changes; those two live in different enclaves.",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "A neurosymbolic verification layer that checks LLM outputs against formally encoded policy rules before a decision is acted on."
+}

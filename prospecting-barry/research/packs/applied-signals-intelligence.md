@@ -211,26 +211,26 @@ Platform Agnostic Integration with MOSA Interfaces
 Applied Signals Intelligence (ASI) delivers Radio Frequency (RF) sensors for the modern battlespace. In this new environment, navigation jammers, communications jammers, counter-battery radars, and air defense radars collectively degrade GPS, disrupt datalinks, and restrict maneuver, creating contested, degraded, denied, and exclusionary zones across all domains. As RF-enabled threats proliferate, the shift of Electromagnetic Spectrum Operations (EMSO) from large, manned aircraft and Group 3+ UAS to smaller, more affordable, more survivable, Group 1 and Group 2 UAS has become both necessary an
 
 ## News (Exa, top 3)
-- Award | SBIR () https://www.sbir.gov/awards/186584
-  Award | SBIR Skip to main content
+- applied signals intelligence, inc. () https://www.sbir.gov/portfolio/13802
+  Firm | SBIR Skip to main content
 
-# Award
+# Company
 
 Portfolio Data
 
-Back to Award Search
+Back to Company Search
 
-## Open Call for Innovative Defense-Related Dual-Purpose Technologies/Solutions with a Clear Air Force Stakeholder Need
+## APPLIED SIGNALS INTELLIGENCE, INC.
 
-### Awardee
-
-#### APPLIED SIGNALS INTELLIGENCE, INC.
+### Address
 
 45945 CENTER OAK PLZ STE 100STERLING, VA, 20166-6572USA
 
-Award Year: 2020
+View website
 
 UEI: CQJRVMX1CMJ5
+
+Number of Employees: 16
 
 HUBZone Owned: No
 
@@ -238,19 +238,29 @@ Woman Owned: No
 
 Socially and Economically Disadvantaged: No
 
-Congressional District: 10
+#### SBIR/STTR Involvement
 
-Tagged as:
+Year of first award: 2010
 
-SBIR
+7
+
+Phase I Awards
+
+8
+
+Phase II Awards
+
+114.29%
+
+Conversion Rate
+
+$823,037
+
+Phase I Dollars
+
+$13,239,787
 
 Phase I
-
-### Awarding 
-- Applied Signals Intelligence Awarded $1.7M by US Department ... (2026-02-19) https://www.linkedin.com/posts/frontier-optic_applied-signals-intelligence-inc-has-been-activity-7430135193157468160-pNcO
-  # Applied Signals Intelligence, Inc. has been awarded $1,701,609 by the United States Department of War, United States Department of the Air Force, under the Small Business Innovation Research Program Phase II. This … | Frontier Optic · LinkedIn · 2026-02-19
-
-**Frontier Optic**: Frontier Optic is a company that unveils key metrics in deep tech and science innovation. They track, analyze, and discover tomorrow's pioneers today. Frontier Optic has 1-10 employees, founded in 2024. Headquartered in 
 - Applied Signals Intelligence () https://www.highergov.com/awardee/applied-signals-intelligence-inc-10030400/
   Applied Signals Intelligence
 
@@ -295,6 +305,10 @@ Applied Signals Intelligence is a Cyber-EM and ISR systems provider of tactical 
 
 Keywords
 
+- applied signals intelligence, inc. (2026-06-23) https://asigint.com/
+  # Applied Signals Intelligence, Inc.
+
+Applied Signals Intelligence, Inc. is a Defense and Space Manufacturing company. Applied Signals Intelligence (ASI) delivers advanced Radio Frequency (RF) Direction Finding (DF) and geolocation sensors that enable autonomous Electromagnetic Spectrum Operations (EMSO) from Group 2 Unmanned Aerial Systems (UAS) and other low-SWaP platforms. Applied Signals Intelligence, Inc. employs 9 people (-6.2% YoY, -1 person), founded in 2007. Headquartered in Sterling, V
 
 ## Open roles (Blitz, live)
 - Field Service Representative ({'city': 'Sterling', 'country_code': 'US'})

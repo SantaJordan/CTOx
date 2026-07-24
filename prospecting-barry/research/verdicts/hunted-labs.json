@@ -1,0 +1,45 @@
+{
+  "company": "Hunted Labs",
+  "slug": "hunted-labs",
+  "domain": "huntedlabs.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "News section carries prime contract FA254125CB028 on HigherGov — 'SF242-D028: strategic advancements in resilient space technologies for pwsa enhancement. This SBIR phase II contract aims to harden and secure software development and cyber response for cyber defenders in the US Department o[f Defense]' — corroborated by the Red Cell launch release citing '$3M in pre-seed funding and a $1.79M contract with the Space Development Agency'.",
+  "disconnect_score": 64,
+  "subscores": {"lab_language_intensity": 13, "deployment_awareness_absence": 12, "operator_absence": 11, "hiring_profile_skew": 10, "stage_pressure": 18},
+  "score_evidence": [
+    "'Enhance your coding workflow with our VSIX extension for VS Code and other supported editors (Cursor, Windsurf, etc.).' → lab_language_intensity: the delivery surface described is a commercial developer's laptop, not a DoD enclave",
+    "Pricing page still carries unedited Webflow template copy — 'Starter Plan ... $299 / month ... Basic strategy consultation / Social media setup / Monthly performance reports' — alongside 'Fintech is its potential to promote financial inclusion' as body text → lab_language_intensity: the public go-to-market artifact is unfinished self-serve SaaS, not a contract vehicle",
+    "Across the whole site there is no mention of ATO, RMF, STIG, IL4/IL5, Iron Bank, air-gap, CMMC, NIST 800-171, or ITAR — the only compliance-adjacent term is SBOM ('How SBOMs Help You Maneuver in the Cyber Kill Zone') → deployment_awareness_absence (capped at 12: substantive own-language is well under 1000 words once the template boilerplate is removed)",
+    "Audience language is developer/enterprise throughout — 'Hunted Labs exposes hidden dependencies, stopping risk early to protect your most critical systems' and 'a software supply chain security company that helps developers identify and remediate threats' — with no operator, cyber-defender workflow, training, or CONOPS language of their own → operator_absence (capped at 12)",
+    "No jobs data in pack → hiring_profile_skew set to exactly 10, per rule",
+    "'Hunted Labs launches with $3M in pre-seed funding and a $1.79M contract with the Space Development Agency' (2025-03-19), 10 employees → stage_pressure: a Phase II period of performance is running against pre-seed runway, and the contract is ~60% of total capital raised"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Contributor-intelligence products need live upstream network access; the cyber defenders named in their own contract do not have it",
+      "operator_reality": "DepsDiver's whole value is knowing who maintains a package — that means continuously reaching npm/PyPI/GitHub and their contributor graph. A defender working an SDA/PWSA program does that work inside an air-gapped or IL5 enclave where the IDE has no route to a vendor cloud and package registries are mirrored, stale, and stripped of contributor metadata. The tool that lights up on a commercial laptop returns nothing on the network where the contract lives — the same class of failure as the 30fps crowd-detection case, where the architecture assumed connectivity the environment denies.",
+      "why_likely_missing": "The product was clearly designed commercial-first (IDE extension, CLI, free trial, self-serve pricing) and the SDA award arrived at launch, before anyone had to run it inside a real enclave.",
+      "evidence_quote": "Enhance your coding workflow with our VSIX extension for VS Code and other supported editors (Cursor, Windsurf, etc.).",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No visible path through the DoD software factory that would actually host this tool",
+      "operator_reality": "A scanner that enforces policy 'across the software lifecycle' has to live in the customer's CI/CD — which in DoD means Platform One / Iron Bank, a hardened container image, STIG compliance, and a signed authorization package before it runs on a single pipeline. That accreditation work is measured in months and is the single line item most likely to outrun the funded period of performance on a Phase II. Nothing in their material names Iron Bank, container hardening, a Phase III sole-source path, or a government sponsor who would carry the ATO.",
+      "why_likely_missing": "Founders came from threat research and intelligence, where the deliverable is a report; the artifact that gets software fielded is an authorization package, and that is a different discipline than the one that won the award.",
+      "evidence_quote": "Ongoing security monitoring and enforcement designed to prevent adversarial foreign ownership, control, and influence across the software lifecycle.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Scanning DoD codebases means ingesting CUI at a 10-person pre-seed with no stated compliance posture",
+      "operator_reality": "The dependency manifests and SBOMs of a space-vehicle program are not neutral metadata — they describe the composition of a defense system and are handled as CUI, with NIST 800-171/CMMC obligations on the vendor holding them. Their own research already advertises visibility into 'container images in Node.js and Department of Defense systems'. If that data is transiting a commercial SaaS backend without a documented CMMC posture, the contract can die on a compliance finding rather than on the technology.",
+      "why_likely_missing": "Pre-seed companies defer CMMC until a contracting officer forces the issue, and with no compliance or security-program hire visible, no one internally owns it.",
+      "evidence_quote": "Solo maintainer poses supply chain risk to more than 5,000 software packages, including container images in Node.js and Department of Defense systems",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Hunted Labs' Space Development Agency Phase II (FA254125CB028) is scoped to harden software for DoD cyber defenders, but DepsDiver's contributor intelligence depends on live registry access — which the enclaves those defenders work in do not have.",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Software supply-chain security tooling (DepsDiver, Entercept) that identifies foreign adversarial ownership and influence behind the open-source packages a codebase depends on."
+}

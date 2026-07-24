@@ -1,0 +1,25 @@
+{
+  "company": "Super Powers Mobility Inc",
+  "slug": "super-powers-mobility",
+  "domain": "spm.fun",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Defense-contract-adjacent news coverage (defence-blog.com, 2026-07-18: 'Pittsburgh startup pitches EV kit to elite troops'; second outlet: 'Why Special Operations Forces Want This New Pittsburgh Electric [Vehicle Kit]... the company recently demonstrated its new system') plus an investor's own announcement naming the company 'dual-use military/civilian' — see News section. No DoD/military language appears anywhere on the company's own site.",
+  "disconnect_score": 81,
+  "subscores": {"lab_language_intensity": 17, "deployment_awareness_absence": 19, "operator_absence": 19, "hiring_profile_skew": 10, "stage_pressure": 16},
+  "score_evidence": [
+    "'165 horsepower / 120 kW...Instant torque and control...Experience the EPIC APEX of UTV performance' → lab_language_intensity (pure consumer performance-spec bragging, zero operational framing, despite reported special-operations demo)",
+    "'Fast-charge compatible: At home or on the go using existing EV charging stations' and full technical-spec tables (voltage, battery, charging standard J1772) with zero mention of DDIL/ATO/RMF/CMMC/ITAR/SWaP-C anywhere in ~1,332 words → deployment_awareness_absence",
+    "'Enjoy the future as you take a ride in your new electric UTV' — every page addresses a recreational buyer/rider; zero mention of operators, warfighters, training, or CONOPS anywhere in the pack → operator_absence",
+    "'Delivers Q2 2027' / 'Alpha Deliveries Q3 2026' pre-order stage, 5-person team, fresh 2025 VC investment (Uma Ventures) — tiny team racing a hardware delivery timeline while reportedly courting special operations customers → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "'Charge anywhere...at home or on the go using existing EV charging stations' assumes grid/charging-station access", "operator_reality": "The reported use case (special operations infiltrating behind enemy lines) is definitionally DDIL — no J1772 charging station exists in a denied area; there's no mention of field charging, generator compatibility, or battery-swap logistics for an extended patrol, the SWaP-C analog to the 30fps crowd-detection failure", "why_likely_missing": "Product and go-to-market were built entirely around the civilian recreational off-road buyer (Shopify storefront, pre-order deposits, garage charging)", "evidence_quote": "fast-charge compatible: At home or on the go using existing EV charging stations", "quote_source": "homepage"},
+    {"blind_spot": "Built on an off-the-shelf civilian donor chassis (Polaris RZR XP1000) and consumer components (NOCO 12V battery) with no ruggedization or acoustic/thermal signature discussion", "operator_reality": "The news coverage's own framing is that stealth (low acoustic signature) is the entire value proposition for special-operations customers, yet nothing in the company's own language addresses signature management, MIL-STD shock/vibration/dust testing, or combat durability beyond consumer off-roading", "why_likely_missing": "Engineering effort visibly went into powertrain performance (165 HP, instant torque) for the recreational buyer, not survivability engineering for a tactical vehicle", "evidence_quote": "Based on the versatile and capable Polaris Rzr chassis, the SPM EPEX delivers performance that you didn't know you needed", "quote_source": "homepage"},
+    {"blind_spot": "Battery (183 lbs) and vehicle weight (1,500 lbs) specs are framed purely around recreational range ('Ride all day, charge in your garage overnight') with no SWaP-C tradeoff discussion", "operator_reality": "A special-operations customer needs to know sling-load and internal-airlift weight/dimension limits (e.g. CH-47/C-130 constraints) for insertion — a fundamentally different design constraint than trailer-hauling a UTV to a trailhead, and nothing in the pack shows this tradeoff being engineered for", "why_likely_missing": "Spec sheet was written to sell a $40-45K premium recreational vehicle, not to pass a military airlift-compatibility requirement", "evidence_quote": "Vehicle Weight | 1,500 lbs...Est Range (20 kWh) | 50-60 miles", "quote_source": "homepage"}
+  ],
+  "opener_hook": "SPM demoed its electric UTV powertrain to special operations forces (Defence Blog, July 2026) while every public spec sheet is still framed around garage charging and weekend trail riding — is a signature-managed, airlift-rated variant on the roadmap?",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Builds high-performance electric UTV powertrains and turnkey vehicles (EPEX, EVK conversion kit) sold as consumer recreational off-road products, with reported demos to special operations forces as a dual-use military application."
+}

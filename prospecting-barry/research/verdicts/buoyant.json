@@ -1,0 +1,16 @@
+{
+  "company": "Buoyant",
+  "slug": "buoyant",
+  "domain": "buoyant.io",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "No DoD motion in any company artifact: Kubernetes service-mesh vendor (Linkerd) whose only defense-adjacent language is FIPS/FedRAMP/CMMC compliance features for commercial customers ('FIPS for FedRAMP, CMMC, HIPAA'); no SBIR, no defense customer; all three news hits are unrelated 'buoyant' body-armor-plate contracts by other companies.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Creators of the Linkerd open-source service mesh; sell Buoyant Enterprise for Linkerd (mTLS, FIPS builds, multi-cluster reliability) to commercial Kubernetes platform teams like Xbox and Imagine Learning."
+}

@@ -262,48 +262,33 @@ XEED (‘exceed’) provides full-body analytics for at-home fitness and fun. We
 The project aims to create a framework for real-time wearable sensor analysis that can be used to monitor warfighter health and readiness. There are two parts to the work: Framework and Model. The framework will be built on a smartphone and provides the flexibility to add any number of Bluetooth Low Energy wearable sensors and/or internal smartphone sensors while maintaining low energy consumption. The framework will be modular so that different data analysis models can be swapped out and experimented with. The models will include different artificial intelligence and machine learning algorithms that can recognize human activity and anomalies to be used for personal health determination.  The project differentiates itself from others by using IMU pose-based multi-wearable data instead of raw sensor data from multiple wearables. This type of data is of particular interest because although there is plenty of research on camera-based pose data, there is very little on IMU-based pose data. The use of an integrated full-body tracking system corrects noise from individual sensors through corrections found from sensor fusion of full-body data. The pose data is also used as a verification method for the data itself as pose data is easily visualized and understood by the human eye which provides a convenient way to label the information. The labels will consist of hierarchical structures to help the machine learning algorithms better differentiate between activities.  The human activity recognition models include experimenting with full-body pose data on the three types of categories: Template, Generative, and Discriminative. Specifically, the tested algorithms are Dynamic Time Warping, Hierarchical Hidden Markov Model (HHMM), and the Random Forest Classifier. To verify that the models work as intended, work will be performed to automatically create poses that can be properly classified by the model. This will be done with Generative Adversarial Networks as their main goal is to find the important features in data that lead to the classification. This way, a large amount of properly labeled data can be artificially created without having to do manual data collection.  The anomaly detection models are split into two parts: i) anomaly within activity and ii) anomaly within routines. Within an activity, anomalies are found through outlier analysis such that data points that differ too greatly from the usual way the person would perform the activity are flagged. Within routines, the anomalies can be found using an HHMM. As all the state transitions have a dynamic probability, anomalies are transitions that occur even though they have a low probability of occurring. Similar to human activity pose generation, verification is done by simulating anomalous data within activities and by simulating anomalous routines. As before, these outputs can then be manually checked using the pose data viewer.
 
 ## News (Exa, top 3)
-- Software-driven, smart munitions are revolutionizing warfare (2024-12-20) https://www.prnewswire.com/news-releases/software-driven-smart-munitions-are-revolutionizing-warfare-302337435.html
-  Software-driven, smart munitions are revolutionizing warfare Accessibility Statement Skip Navigation
-
-XTEND Defense Secures $8.8M Contract to Supply U.S. Department of Defense (IWTSD) with AI-Driven, Tactical FPV, Smart Loitering Munitions
-
-HERNDON, Va., Dec. 20, 2024 /PRNewswire/ -- XTEND, a global leader in AI-powered autonomy and tactical drone solutions, has been awarded a $8.8 million dollar contract by the U.S. Department of Defense's (DoD) Irregular Warfare Technical Support Directorate (
 - US Department of Defense Selects XENDEE for Standardized Design Platform of Resilient Microgrids (2020-05-26) https://www.businesswire.com/news/home/20200526005133/en
   US Department of Defense Selects XENDEE for Standardized Design Platform of Resilient Microgrids | Business Wire
 [![Business Wire](https://www.businesswire.com/images/bwlogo_extreme.png)](http://www.businesswire.com/)
 # **US Department of Defense Selects XENDEE for Standardized Design Platform of Resilient Microgrids**
 May 26, 2020 10:00 AM Eastern Daylight Time
 SAN DIEGO--([BUSINESS WIRE](https://www.businesswire.com/))--[XENDEE Corporation](https://cts.businesswire.com/ct/CT?id=smartlink&url=h
-- JFB Announces XTEND’s $8.8M U.S. Government Contract Strengthening U.S. AI and Manufacturing Capabilities () https://www.xtend.me/resources/jfb-announces-xtends-8-8m-u-s-government-contract-strengthening-u-s-ai-and-manufacturing-capabilities
-  JFB Announces XTEND’s $8.8M U.S. Government Contract Strengthening U.S. AI and Manufacturing Capabilities
+- xeed ventures (2026-06-26) https://xeed.vc/
+  # Xeed Ventures (021 Capital Advisors LLP)
 
-Leave us your information
+Xeed Ventures is a Venture Capital and Private Equity Principals company. 020 Capital is a company that provides financial services. Xeed Ventures employs 4 people, founded in 2017. Headquartered in Bangalore, Karnataka, India, with presence in United States. Its workforce is distributed across India, Singapore, and Algeria.
 
-Country
+## Company Details
+- Industry: Venture Capital and Private Equity Principals
+- Type: Privately Held
+- Headquarters: Bangalore, I
+- xeed consulting (2026-06-04) https://linkedin.com/company/xeedconsulting
+  # Xeed Consulting
 
-I want to receive news and updates
+Xeed Consulting is a Business Consulting and Services company. Xeed Consulting employs 3 people, founded in 2020. Headquartered in Gurgaon, Haryana, India.
 
-Submit
+## About
 
-Thank you! Your submission has been received!
+Xeed Consulting was founded to offer services in Business Consulting, Business Services and Telecom VAS services etc to organisations. 
 
-Oops! Something went wrong while submitting the form.
+We work with a few large manufacturing companies to automate processes and modernise the technology to ensure seamless efficient operations. 
 
-Platforms
-
-Leave us your information
-
-Country
-
-I want to receive news and updates
-
-Submit
-
-Thank you! Your submission has been received!
-
-Oops! Something went wrong while submitting the form.
-
-Leave us your info
+We also offer Telecom VAS services
 
 ## Open roles
 (no jobs data found)

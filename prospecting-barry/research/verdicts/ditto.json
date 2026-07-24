@@ -1,0 +1,24 @@
+{
+  "company": "Ditto",
+  "slug": "ditto",
+  "domain": "ditto.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Own press releases: $950M USAF ABMS contract award (2022), AFWERX STRATFI up to $28M (2025), and the ATAK Edge Sync Plugin page states USSOCOM use — plus a Major of the 55th Wing quoted on the homepage.",
+  "disconnect_score": 0,
+  "subscores": {
+    "lab_language_intensity": 0,
+    "deployment_awareness_absence": 0,
+    "operator_absence": 0,
+    "hiring_profile_skew": 0,
+    "stage_pressure": 0
+  },
+  "score_evidence": [
+    "\"Ditto's Edge Sync Plugin for ATAK ... ensures real-time data sharing even in degraded, denied, or disconnected environments\" and \"The plugin is already mission-ready\" — fully DDIL/TAK-fluent and shipping at scale (208 LI employees, $45M Series A, $950M ABMS ceiling, STRATFI); they crossed the valley Barry sells into"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Offline-first mobile database with peer-to-peer mesh sync, including an ATAK plugin for DDIL environments, fielded with USAF/USSOCOM and commercial customers."
+}

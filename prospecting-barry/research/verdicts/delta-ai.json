@@ -1,0 +1,20 @@
+{
+  "company": "Delta AI",
+  "slug": "delta-ai",
+  "domain": "learndelta.ai",
+  "verdict": "insufficient_evidence",
+  "drop_reason": "",
+  "dod_intent_evidence": "Weak but present in their own language — About page: 'delivering accessible, scalable, and highly effective training solutions for the Private Sector and Department of Defense (DoD)', with a West Point/Army-veteran CEO; no SBIR, contract record, or DIU/AFWERX engagement anywhere in the pack.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "Pack own-language word count is ~497 — below the ~500-word sufficiency floor, so absence of deployment language cannot be scored",
+    "'Learn Delta is a company that is currently launching soon. Delta AI employs 3 people.' → pre-launch shell; the site is four feature bullets and a contact form",
+    "No jobs data in pack, no SBIR abstract, no contract record — nothing to reason a deployed-environment failure mode from"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Tiny pre-launch team building AI role-players for scenario-based conversation training, pitched at both enterprise and DoD buyers."
+}

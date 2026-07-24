@@ -216,7 +216,11 @@ OnSeen is an AI-powered Mobile Workforce Management (MWM) solution that helps or
 The Intelligent Installation Management System (I2MS) will provide Commanders with a Common Operating Picture (COP), real-time situational awareness, automated response functionality, and predictive resource allocation capabilities for critical installati
 
 ## News (Exa, top 3)
-- The Defense Threat Reduction Agency (DTRA) Office of Small ... () https://www.facebook.com/BusinessDefense/posts/the-defense-threat-reduction-agency-dtra-office-of-small-business-programs-conti/1234938888808950/
+- onseen, inc (2026-06-25) https://onseen.com/
+  # OnSeen, Inc (OnSeen Marketing, Inc.)
+
+OnSeen, Inc is a IT Services and IT Consulting company. OnSeen is a mobile workforce management software powered by resource allocation ai. It offers intelligent mobile workforce management software to manage people, places, and things with speed, ease, and autonomy. OnSeen, Inc employs 9 people (+25.0% YoY, +2 people), founded in 2016. Headquartered in London, Ohio, United States. Its workforce is distributed across United States and Argentina. Has $200K 
+- The Defense Threat Reduction Agency (DTRA) Office of ... (2026-04-24) https://www.facebook.com/BusinessDefense/posts/the-defense-threat-reduction-agency-dtra-office-of-small-business-programs-conti/1234938888808950/
   The Defense Threat Reduction Agency... - DoW Small Business | Facebook
 
 All reactions:
@@ -232,10 +236,6 @@ Log In
 ](https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&next=https://www.facebook.com/BusinessDefense/posts/the-defense-threat-reduction-agency-dtra-office-of-small-business-programs-conti/1234938888808950/)
 Log In
 [Forgot Account?](https://www.facebook.com/recover/initiate?ars=royal_bl
-- onseen, inc (2026-06-25) https://onseen.com/
-  # OnSeen, Inc (OnSeen Marketing, Inc.)
-
-OnSeen, Inc is a IT Services and IT Consulting company. OnSeen is a mobile workforce management software powered by resource allocation ai. It offers intelligent mobile workforce management software to manage people, places, and things with speed, ease, and autonomy. OnSeen, Inc employs 9 people (+25.0% YoY, +2 people), founded in 2016. Headquartered in London, Ohio, United States, with presence in Argentina. Has $200.0K in total funding, with 2 prior fund
 - OnSeen, Inc. News and Press Releases | PR Newswire () https://www.prnewswire.com/news/onseen%2C-inc./
   OnSeen, Inc. News and Press Releases | PR Newswire Accessibility Statement Skip Navigation
 

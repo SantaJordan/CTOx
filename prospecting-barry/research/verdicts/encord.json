@@ -1,0 +1,19 @@
+{
+  "company": "Encord",
+  "slug": "encord",
+  "domain": "encord.com",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "The only defense artifacts are a 'Defense' vertical tile among seven verticals (homepage, alongside Sports AI and Voice AI) and a 2025-01-22 blog about being 'invited by Amazon Web Services (AWS) to attend the event dubbed Project Stormcloud' with the UK Royal Navy — event attendance, not a US DoD contract, SBIR, or DIU/AFWERX engagement; named customers are Toyota, Skydio, and Maxar (linkedin_about).",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "'300+ teams including Toyota, Skydio, and Maxar rely on Encord... $110M raised' (linkedin_about) → commercial enterprise SaaS at Series C scale, no DoD program of its own",
+    "'Announcing Encord's $60 million Series C funding' (news, 2026-02-26) → 202 employees and $110M raised, far outside the $5M-$10M band and with no valley-of-death transition at risk"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Enterprise platform plus services for curating, annotating, and evaluating multimodal training data for computer-vision and physical-AI models."
+}

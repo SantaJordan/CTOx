@@ -258,14 +258,6 @@ Talk to an Expert
 We’re on a mission to make trustworthy AI the global standard and rebuild it from the ground up so that every aspect of AI is clearly understandable by human beings. We execute this mission through our Understandable AI® Platform, an alternative to neural networks that is based in data-centric AI. Howso (formerly “Diveplane”) was co-founded by Dr. Mike Capps, Dr. Chris Hazard, and Mike Resnick in 2017. In September 2023, the company rebranded to Howso, alongside the release of our open source project.
 
 ## News (Exa, top 3)
-- Kratos Lands $400M for US Hypersonic, National Security Programs (2026-07-17) https://thedefensepost.com/2026/07/17/kratos-hypersonic-us-funding/
-  Kratos Lands $400M for US Hypersonic, National Security Programs
-
-Artist rendition of one of Kratos' hypersonic efforts. Photo: Kratos
-
-The US Department of Defense has awarded approximately $400 million to Kratos Defense & Security Solutions to support hypersonic and other national security programs.
-
-The company said the recent funding reflects growing demand for its portfolio of high-speed technologies, which includes hypersonic flight vehicles, solid rocket motors, ballistic missile targets,
 - Kratos Receives Approximate $100 Million Sole Source Prime (2026-07-13) https://www.globenewswire.com/news-release/2026/07/13/3326150/224/en/Kratos-Receives-Approximate-100-Million-Sole-Source-Prime-Space-Domain-Awareness-System-Program-Award.html
   Kratos Receives Approximate $100 Million Sole Source Prime
 
@@ -282,12 +274,28 @@ Share
 ---
 
 SAN DIEGO, July 13, 2026 (GLOBE NEWSWIRE) -- Kratos Defense & Security Solutions, Inc. (NASDAQ: KTOS), a Technology 
-- U.S. Awards Kratos $400 Million for Hypersonic Systems and Classified Defense Projects- The Defense News (2026-07-14) https://www.thedefensenews.com/US-Awards-Kratos-400-Million-for-Hypersonic-Systems-and-Classified-Defense-Projects/
-  U.S. Awards Kratos $400 Million for Hypersonic Systems and Classified Defense Projects- The Defense News
+- Colorado-based Sierra Space awarded $798M defense contract (2026-07-15) https://www.cpr.org/2026/07/15/colorado-based-sierra-space-lucrative-defense-contract/
+  # Colorado-based Sierra Space awarded $798M defense contract
 
-SAN DIEGO — Kratos Defense & Security Solutions has received approximately $400 million in new funding from the U.S. Department of War (DoW) to support selected hypersonic systems and other classified national security programs, the company announced on Tuesday.
+Published: 2026-07-15T20:34:58+00:00
+Source: cpr.org (cpr.org)
+Language: en
 
-The funding, which began arriving in June and accelerated through July, will support ongoing work on advanced defense technologies
+## Story
+
+Colorado-based Sierra Space was awarded a federal Department of Defense contract this week that could net it $798 million.
+
+The contract is for the design, manufacturing and delivery of 18 missile warning/missile tracking /missile defense space vehicles for the “Golden Dome,” a federal national missile defense system.
+
+The Space Development Agency a
+- Kratos Lands $400M for US Hypersonic, National Security Programs (2026-07-17) https://thedefensepost.com/2026/07/17/kratos-hypersonic-us-funding/
+  Kratos Lands $400M for US Hypersonic, National Security Programs
+
+Artist rendition of one of Kratos' hypersonic efforts. Photo: Kratos
+
+The US Department of Defense has awarded approximately $400 million to Kratos Defense & Security Solutions to support hypersonic and other national security programs.
+
+The company said the recent funding reflects growing demand for its portfolio of high-speed technologies, which includes hypersonic flight vehicles, solid rocket motors, ballistic missile targets,
 
 ## Open roles
 (no jobs data found)

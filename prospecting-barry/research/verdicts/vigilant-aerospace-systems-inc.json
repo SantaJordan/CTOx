@@ -1,0 +1,43 @@
+{
+  "company": "Vigilant Aerospace Systems, Inc.",
+  "slug": "vigilant-aerospace-systems-inc",
+  "domain": "vigilantaerospace.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "News section: 'Vigilant Aerospace Selected for US Air Force EWAAC Contract as Preferred Vendor for Uncrewed Airspace Management' (2025) plus an Air Force SBIR Phase II for a long-endurance UAS detect-and-avoid integration; LinkedIn about states 'contracts and users at NASA, the FAA, the U.S. Department of Defense.'",
+  "disconnect_score": 60,
+  "subscores": {"lab_language_intensity": 14, "deployment_awareness_absence": 12, "operator_absence": 8, "hiring_profile_skew": 10, "stage_pressure": 16},
+  "score_evidence": [
+    "'FlightHorizon is based on an exclusively licensed NASA patent... The software has won multiple industry awards' → lab_language_intensity (patent/award-driven framing over operational framing)",
+    "'designed to... comply with FAA Part 107.205 waiver requirements' is the only compliance language anywhere in the own-language corpus, despite claimed DoD/USAF contracts — no ATO, RMF, CMMC, or ITAR mention → deployment_awareness_absence (capped at 12 per <1000-word rule)",
+    "no jobs data found in pack → hiring_profile_skew set to 10 exactly per rule",
+    "'$4M in total funding, with 5 prior funding rounds' over an 11-year history (founded 2015, still 10 employees) alongside a fresh 2025 'Preferred Vendor' selection on USAF EWAAC → stage_pressure (thin capital, long incubation, active transition attempt now)"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "FlightHorizon's detect-and-avoid sensing is built entirely on cooperative civil-aviation data sources — transponders and radar — which assume the other aircraft is broadcasting.",
+      "operator_reality": "In a contested or adversarial airspace, hostile or unknown platforms will not be squawking ADS-B/transponder data the way a benign civil aircraft does; a sense method validated for FAA Part 107 civil integration is a different problem than detect-and-avoid in a tactical, non-cooperative environment.",
+      "why_likely_missing": "The company's compliance and market language is built around the FAA BVLOS/civil integration pathway, which is where its patent and awards history comes from, so the DoD contract work appears layered on top of a civil-first sensing architecture rather than designed from a contested-airspace baseline.",
+      "evidence_quote": "FlightHorizon uses data from standard aviation transponders and radar to allow unmanned aircraft to autonomously self-separate from other aircraft and avoid mid-air collisions.",
+      "quote_source": "linkedin_about"
+    },
+    {
+      "blind_spot": "The only compliance framework named anywhere in the site or LinkedIn copy is FAA Part 107.205 — an 11-year-old company with claimed DoD contract history never mentions ATO, RMF, CMMC, NIST 800-171, or ITAR.",
+      "operator_reality": "FAA airworthiness/waiver compliance does not get software onto a USAF network; the EWAAC 'Preferred Vendor' selection still requires its own government ATO/RMF authorization, and nothing in their public language shows that work has started or is understood as a separate track.",
+      "why_likely_missing": "Company language and go-to-market are dominated by the civil UAS/FAA market (where the NASA patent and Part 107 waivers are the differentiator), so DoD-specific security compliance reads as an afterthought layered onto the civil product rather than a first-class requirement.",
+      "evidence_quote": "The software is designed to meet industry technical standards, to provide automatic safety and to allow UAS to safely fly beyond the sight of the pilot... and comply with FAA Part 107.205 waiver requirements.",
+      "quote_source": "linkedin_about"
+    },
+    {
+      "blind_spot": "The Air Force SBIR abstract integrates FlightHorizon onto a 'long-endurance Group V UAS' for 'improved operational awareness' but never addresses the size/weight/power budget the sensor-fusion DAA payload consumes on an airframe already tight on endurance margins.",
+      "operator_reality": "Adding transponder/radar fusion hardware and processing to a long-endurance platform trades directly against fuel/battery and mission duration — a SWaP-C tradeoff invisible in language that only talks about 'operational awareness' and 'air traffic visibility,' not what the integration costs the airframe.",
+      "why_likely_missing": "The company's core expertise is the detection/avoidance software logic (inherited from the NASA patent), not airframe integration engineering, so the abstract emphasizes the algorithm's benefit and elides the physical integration cost on the specific long-endurance platform.",
+      "evidence_quote": "This project proposes to integrate a functional detect-and-avoid (DAA) system onto an existing long-endurance Group V uncrewed aircraft system (UAS) to provide improved operational awareness, air traffic visibility and automatic collision avoidance",
+      "quote_source": "sbir_abstract"
+    }
+  ],
+  "opener_hook": "FlightHorizon's detect-and-avoid runs on transponder and radar data — what's the plan for aircraft that don't squawk ADS-B?",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "An 11-year-old, NASA-patent-licensed detect-and-avoid and airspace-management software company (FlightHorizon) for uncrewed aircraft, recently selected as a preferred vendor on a USAF EWAAC contract."
+}

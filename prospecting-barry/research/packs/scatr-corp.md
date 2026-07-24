@@ -214,6 +214,10 @@ Data Camouflage™ segments each message into small pieces, obfuscates the
 In an era of ubiquitous sensing and contested networks, the traditional perimeter is dead. For the modern warfighter and critical infrastructure providers, the challenge isn’t just moving data—it’s ensuring that data remains indistinguishable to adversaries and survivable in degraded environments. SCATR is the world’s first Zero Trust Transit™ platform. Powered by our patended architecture, SCATR moves beyond legacy encryption to secure \"data in motion.\" We ensure mission-critical information securely reaches its destination, regardless of the physical or digital obstacles in its path. U.S-o
 
 ## News (Exa, top 3)
+- SCATR Available on Army Digital Marketplace (2026-03-19) https://www.linkedin.com/posts/scatrcorp_zerotrust-datasecurity-armychess-activity-7440417224768503808-ohBG
+  # SCATR is now available on the U.S. Army Digital Marketplace () through the ITES-SW2 contract vehicle, the Army’s designated source for commercial IT procurement. | SCATR Corp · LinkedIn · 2026-03-19
+
+**SCATR Corp**: SCATR Corp is a defense-grade Zero Trust Transit™ platform that defeats surveillance, traffic analysis, and HNDL collection. SCATR Corp has 10-20 employees (+10% YoY), founded in 2018. Headquartered in Cleveland, Ohio, United States. Has $25.1M in total funding, with 3 prior fundin
 - SCATR Achieves CMMC Level 2 | SCATR Corp (2025-12-03) https://www.linkedin.com/posts/scatrcorp_cmmc-cmmclevel2-cui-activity-7402117427997679617-5Fof
   # SCATR Achieves CMMC Level 2 | SCATR Corp · LinkedIn · 2025-12-03
 
@@ -236,24 +240,6 @@ top of page
 April 22, 2026
 
 CLEVELAND—SCATR Corp., the company that pioneered Zero Trust Transit™ and the only cybersecurity platform purpose-built to protect data while it is in motion across untrusted networks, today announced the close of it
-- SCATR Corp. Raises $12.6 Million Series A Led by First In (2026-04-22) https://www.globenewswire.com/news-release/2026/04/22/3279127/0/en/scatr-corp-raises-12-6-million-series-a-led-by-first-in.html
-  SCATR Corp. Raises $12.6 Million Series A Led by First In
-
-# SCATR Corp. Raises $12.6 Million Series A Led by First In
-
-## Funding accelerates deployment of the Zero Trust Transit™ platform across enterprise and critical infrastructure markets
-
-April 22, 2026 10:10 ET | Source: SCATR Follow SCATR
-
-Cleveland, OH
-
----
-
-Share
-
----
-
-CLEVELAND, April 22, 2026 (GLOBE NEWSWIRE) -- SCATR Corp., the company that pioneered Zero Trust Transit™ and the only cybersecurity platform purpose-built to protect da
 
 ## Open roles
 (no jobs data found)

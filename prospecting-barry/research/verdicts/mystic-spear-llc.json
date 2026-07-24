@@ -1,0 +1,16 @@
+{
+  "company": "MYSTIC SPEAR, LLC",
+  "slug": "mystic-spear-llc",
+  "domain": "mysticspear.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "SDVOSB SOF-veteran-owned company with a USSOCOM SBIR Phase II award (2022, $1.59M), but its own language describes it as an advisory/integration services firm, not a product company.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "SOF-veteran-owned SDVOSB that provides advisory/integration services to government customers, positioning itself as a 'problem solving integrator' that sources COTS technology and modifies/integrates it (including AI/ML) to fill capability gaps — a services/integrator business, not a single fielded product."
+}

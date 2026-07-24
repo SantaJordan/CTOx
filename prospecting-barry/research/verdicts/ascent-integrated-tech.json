@@ -1,0 +1,22 @@
+{
+  "company": "Ascent Integrated Tech",
+  "slug": "ascent-integrated-tech",
+  "domain": "ascentitech.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Homepage and LinkedIn about state $10.25M in Department of War funding and 651-682 fieldings across every service branch plus an AFWERX D2P2 SBIR — DoD intent is unambiguous, but it is post-valley, not stuck in it.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "\"Fielded across and funded ($10.25M) by the DoW\" (homepage) → already_operational",
+    "\"Fielded 651 watches across the Department of War, federal agencies, allied partners, and civilian public safety sectors, reaching every branch of service\" (linkedin_about) → already_operational",
+    "\"Native CoT Integration / No Plugins or Server Mods\" and \"Built hand in hand with the Air Force TAK CoE\" → maximum TAK/deployment fluency, the inverse of Barry's blind-spot signal",
+    "\"Low SWAP-C Sensors and Command Portal\" (sbir_abstract title) → SWaP-C literacy already present",
+    "\"Fielded 60 WearTAK watches across the SFG, for monitoring all patrols. They are driving feature requests.\" → operator feedback loop already running"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "series_a",
+  "what_they_do": "Wrist-worn WearTAK smartwatch EUD that puts ATAK, physiological monitoring, and acoustic gunshot/UAS detection on the operator's wrist, fielded free to TAK.gov users."
+}

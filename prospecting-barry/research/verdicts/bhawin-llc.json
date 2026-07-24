@@ -1,0 +1,27 @@
+{
+  "company": "Bhawin LLC",
+  "slug": "bhawin-llc",
+  "domain": "bhawins.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "SBIR section shows a real Army Phase II ($523,646, CLS nanopowders for LWIR sensor windows), and the About text claims 'Our laboratories support government, defense, aerospace, and industrial research programs' — but the business itself is a two-person contract testing laboratory selling analytical services, not a product company with a prototype to field.",
+  "disconnect_score": 0,
+  "subscores": {
+    "lab_language_intensity": 0,
+    "deployment_awareness_absence": 0,
+    "operator_absence": 0,
+    "hiring_profile_skew": 0,
+    "stage_pressure": 0
+  },
+  "score_evidence": [
+    "'We are a dynamic Testing Laboratory in Ann Arbor, Michigan' -> services-only lab, disqualified type",
+    "'If any company is facing legal issues due to a product failure, Bhawin LLC has qualified professional witnesses on staff' -> expert-witness and failure-analysis services revenue, not a fielded product",
+    "Service lines span 'pharmaceutical formulations', 'Ultra High Performance Concrete', 'oral care product', 'high efficient inks' -> a generalist contract research shop with no defense product line to transition",
+    "employees(LI): 2 -> no engineering organization for Barry to advise"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Two-person contract materials testing and formulation laboratory in Ann Arbor doing failure analysis, pharma/concrete/consumer formulation work, plus one Army SBIR on infrared optical ceramic nanopowders."
+}

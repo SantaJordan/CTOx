@@ -1,0 +1,16 @@
+{
+  "company": "Reaxiomatic",
+  "slug": "reaxiomatic",
+  "domain": "reaxiomatic.com",
+  "verdict": "insufficient_evidence",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own press release states it is 'an aerospace and defense startup focused on rethinking and refreshing critical platforms and infrastructure for the Department of War' (Updates page) — genuine defense intent stated, but stealth.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 10, "stage_pressure": 0},
+  "score_evidence": ["no jobs data beyond 'Chief Executive Advisor' listings → hiring_profile_skew set to 10 per rules, no meaningful jobs data"],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "low",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Stealth aerospace/defense startup (founded by Hermeus co-founder Skyler Shuford) refreshing critical defense platforms and infrastructure; product details not yet public."
+}

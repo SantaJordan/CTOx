@@ -304,6 +304,44 @@ goTenna mesh networks are currently enabling 20,000 military, law enforcement, a
 The Air National Guard frequently conducts operations where communications are unavailable or denied. This can include post-disaster response, counter transnational criminal organization missions in the border environment, or joint operations with partner nations. In these scenarios, there is a need for ultra low cost, size, weight and power mobile ad hoc networks (MANET) to provide redundant and resilient communications to ensure both operators and command elements maintain situational awareness.    In this effort, goTenna will leverage innovative R&D to enhance goTenna’s proven commercial off the shelf (COTS) mesh radio capabilities to enhance support to ANG, driving new capabilities that improve ANG operations: Software improvements that enable superior and secure interoperability with interagency and partner forces. Demonstrate rapid standup of secure MANET networks in post-disaster or pre-operational environments leveraging ad hoc infrastructure (i.e., fixed relays or aerial assets). Increase integration and support for Joint Operations Center (JOC) environments by improving communications to and from the field environment and integrating relevant sensor data. The result will be dramatically improved communications capabilities realized at a fraction of the cost of currently deployed capabilities, providing the ANG with military-grade communications capability at COTS prices - leading to safer ANG operations across the world.
 
 ## News (Exa, top 3)
+- Award | SBIR () https://www.sbir.gov/awards/210240
+  Award | SBIR Skip to main content
+
+# Award
+
+Portfolio Data
+
+Back to Award Search
+
+## goTenna STRATFI with AFSOC: Next Generation Mesh Network Radio Technology
+
+### Awardee
+
+#### Gotenna, Inc.
+
+https://www.sbir.gov/portfolio/1223039 101 HUDSON STREET 17TH FLOOR SUITE 1701JERSEY CITY, NJ, 07302-3933USA
+
+Award Year: 2024
+
+UEI: CWLDWJHLQ3T5
+
+HUBZone Owned: No
+
+Woman Owned: No
+
+Socially and Economically Disadvantaged: No
+
+Congressional District: 8
+
+Tagged as:
+
+SBIR
+
+Phase II
+
+### Awarding Agency
+
+DOW
 - goTenna awarded $15M AFWERX STRATFI SBIR Contract (2024-09-13) https://gotenna.com/blogs/newsroom/gotenna-awarded-15m-afwerx-stratfi-sbir-contract-for-air-force-cots-connectivity
   goTenna awarded $15M AFWERX STRATFI SBIR Contract
 
@@ -314,29 +352,7 @@ Sep 16, 2024
 About goTenna
 
 ###### goTenna, the pioneer in tactical mesh networking solutions, is the only company in the world that provides inexpensive, lightweight, off-grid connectivity that moves mission-critical data in the most challenging environments where communication is limited or even denied. goTenna's drive to create resilient connectivity began 
-- goTenna Deployment Kits | Awarded to Gotenna by DOD (2025) (2025-06-11) https://govcontractfinder.com/contracts/gotenna-deployment-kits---n6833525q0238
-  goTenna Deployment Kits | Awarded to Gotenna by DOD (2025)
-
-# goTenna Deployment Kits
-
-Award NoticeAwarded
-
-This federal contract opportunity has been awarded to on June 11, 2025.
-
-Find Similar Active Opportunities
-
-Track DEPT OF DEFENSE
-
-Browse NAICS 334220 Contracts
-
-## Award Information
-
-DEPT OF DEFENSE awarded this contract to for $171,207 on June 11, 2025, as part of federal procurement initiatives.
-
-This award is part of federal acquisition procurement activities.
-
-Award NumberN6833525P025
-- goTenna awarded $15M AFWERX STRATFI SBIR Contract for Air Force CoTS Connectivity (2024-09-16) https://www.prnewswire.com/news-releases/gotenna-awarded-15m-afwerx-stratfi-sbir-contract-for-air-force-cots-connectivity-302247993.html
+- goTenna awarded $15M AFWERX STRATFI SBIR Contract ... (2024-09-16) https://www.prnewswire.com/news-releases/gotenna-awarded-15m-afwerx-stratfi-sbir-contract-for-air-force-cots-connectivity-302247993.html
   goTenna awarded $15M AFWERX STRATFI SBIR Contract for Air Force CoTS Connectivity Accessibility Statement Skip Navigation
 
 AFWERX selects goTenna for a Small Business Innovation Research contract to develop CoTS capabilities to enable communications connectivity solutions for the U.S Air Force.

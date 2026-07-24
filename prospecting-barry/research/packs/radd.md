@@ -236,6 +236,12 @@ Program on Negotiation is an interdisciplinary, multi-university research center
 Built for the warfighter, RADD is a defense technology hardware startup revolutionizing mission-critical capabilities for modern operations. Founded by former warfighters and business operators, we empower the Department of War with interoperable hardware platforms designed to protect the protectors, enabling integration, edge resilience, and modern battlefield survivability. With early traction in key DoW segments and a successful pre-seed raise, our team of veterans, engineers, and operators is building the foundational layer for AI-era national security. Based in the southeastern United Sta
 
 ## News (Exa, top 3)
+- Joint Research and Development (JRAD), LLC. announces award for the Missile Defense Agency Scalable Homeland Innovative Enterprise Layered Defense (SHIELD) - Joint Research and Development, LLC (2025-12-23) https://www.jrad.us/joint-research-and-development-jrad-llc-announces-award-for-the-missile-defense-agency-scalable-homeland-innovative-enterprise-layered-defense-shield
+  Joint Research and Development (JRAD), LLC. announces award for the Missile Defense Agency Scalable Homeland Innovative Enterprise Layered Defense (SHIELD) - Joint Research and Development, LLC
+
+# Joint Research and Development (JRAD), LLC. announces award for the Missile Defense Agency Scalable Homeland Innovative Enterprise Layered Defense (SHIELD)
+
+Joint Research and Development LLC (JRAD) is pleased to announce it was awarded a contract for the Missile Defense Agency Scalable Homeland Innova
 - Parsons Awarded $62.9M RADBO Contract (2024-04-09) https://www.highergov.com/news/parsons-awarded-62-9m-radbo-contract-4454717/
   Parsons Awarded $62.9M RADBO Contract
 
@@ -258,34 +264,18 @@ The modification will support the production, integration, and sustainment of th
 HigherGov
 
 AFLCMC Robins AFB announced it has awarded a $62.9 million modification to Parsons Government Services to produce, integrate, and sustain Recovery of Airbases Denied 
-- US Army awards RTX $1.7B for new missile defense radar production (2025-08-29) https://www.defensenews.com/land/2025/08/29/us-army-awards-rtx-17b-for-new-missile-defense-radar-production/
-  US Army awards RTX $1.7B for new missile defense radar production
+- Kratos Receives Approximate $36 Million Air Defense System Single ... (2026-07-02) https://www.kratosdefense.com/newsroom/kratos-receives-approximate-36-million-air-defense-system-single-award-contract
+  Kratos Receives Approximate $36 Million Air Defense System Single Award Contract | Kratos Defense
 
-#### Land
+Press Release
 
-https://www.defensenews.com/land
-
-# US Army awards RTX $1.7B for new missile defense radar production
-
-By Jen Judson
-
-Aug 29, 2025
-
-A full scale model of Raytheon's Lower Tier Air and Missile Defense Sensor, a next-generation radar that will defeat advanced threats like hypersonic weapons. (Photo courtesy of Raytheon)
-
-The U.S. Army awarded Raytheon a $1.7 billion contract to produce a new missile defense sensor that w
-- Space Force Splits $423M Radar Digitization Award Three… (2026-07-19) https://govconfeed.com/article/space-force-423m-ground-based-radar-digitization-raytheon-scitec-wildstar-june-2026
-  Space Force Splits $423M Radar Digitization Award Three…
-
-Photo: Dave Grim, DVIDS (Public Domain)
+# Kratos Receives Approximate $36 Million Air Defense System Single Award Contract
 
 Share
 
-Email
+Copy Link
 
-Copy link
-
-The Space Force has broken a decades-old radar monopoly into three pieces. On July 17, 2026, Space Systems Command in Colorado Springs awarded three firm-fixed-price Other Transaction Agreements for the Ground Based Radar Digitization (GBRD) program worth roughly $423.4 million combined, according to the Department of War contracts announcement. Raytheon Corp. of Woburn, Ma
+SAN DIEGO, July 02, 2026 (GLOBE NEWSWIRE) — Kratos Defense & Security Solutions, Inc. (Nasdaq: KTOS), a technology company in the defense, national security and global markets, today announced that it has recently received an approximate $36 million sole-source contract award for a n
 
 ## Open roles (Blitz, live)
 - Staff Mechatronics Engineer ({'city': None, 'country_code': 'US'})

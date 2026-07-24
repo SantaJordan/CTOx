@@ -1,0 +1,16 @@
+{
+  "company": "Extropic",
+  "slug": "extropic",
+  "domain": "extropic.ai",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "No defense customer language, SBIR, DIU/AFWERX engagement, or contract record in any of their own artifacts — site is all commercial compute ('radically more energy efficient than GPUs', homepage); the only defense reference is a founder's policy opinion in news ('AI regulations harm domestic defense'), which is not a defense motion. vc:marque portfolio membership alone does not qualify.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Thermodynamic/probabilistic computing chips (TSUs) aimed at ultra energy-efficient AI workloads."
+}

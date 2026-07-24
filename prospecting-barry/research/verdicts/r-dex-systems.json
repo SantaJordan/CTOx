@@ -1,0 +1,39 @@
+{
+  "company": "R-DEX Systems",
+  "slug": "r-dex-systems",
+  "domain": "r-dex.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Multiple own-abstract SBIR/STTR Phase I/II awards across Navy, Army, and NAWCAD (underwater ranging, OWLS Radar, USURPER, Electronic Warfare Surrogate System) plus a Military & Defense division description on the homepage naming Ai/ATR, EW, SIGINT, and radar work.",
+  "disconnect_score": 68,
+  "subscores": {"lab_language_intensity": 14, "deployment_awareness_absence": 10, "operator_absence": 12, "hiring_profile_skew": 16, "stage_pressure": 16},
+  "score_evidence": [
+    "'Innovation Redefined... Pioneering the Future of AI, Robotics, and Sensor Solutions' → lab_language_intensity",
+    "'making the impossible a reality' / 'Engineering Tomorrow's Solutions Today' → lab_language_intensity",
+    "OWLS Radar abstract mentions CONOPS and Phase III transition planning but no DDIL/ATO/RMF/CMMC/ITAR/STIG anywhere in ~1248 words → deployment_awareness_absence",
+    "'operator' language never appears; only generic 'CONOPS' and 'threat analysis' from the OWLS abstract → operator_absence",
+    "sole open role is 'Senior Research Scientist' — no field/integration/compliance hire despite multiple Phase II programs nearing Phase III transition → hiring_profile_skew",
+    "self-/contract-funded, 16-person team juggling concurrent Navy, Army x2, and NAWCAD Phase I/II SBIRs → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "OWLS active-protection radar commits to 'Phase III transition into current and developmental Army radar platforms' with no SWaP-C discussion",
+     "operator_reality": "An active-protection radar destined for a 'mobile ground vehicle' has a hard power/weight/space budget set by the vehicle, not the lab testbed — a hardware-in-the-loop SDR demo proves the algorithm, not that it fits the platform",
+     "why_likely_missing": "abstract details algorithm development, simulation, and testbed construction but never the physical integration constraints of the target vehicle",
+     "evidence_quote": "current radar technology for mobile ground vehicle active protection and situational awareness",
+     "quote_source": "sbir_abstract"},
+    {"blind_spot": "Company runs commercial FANUC/OpenText/Pelican Robotics integration work alongside EW/SIGINT/radar defense contracts with no visible export-control segregation",
+     "operator_reality": "Mixing dual-use commercial robotics integration with ITAR-adjacent EW/radar defense work inside one small company creates compliance risk that can stall or kill a Phase III transition if not addressed structurally before the contract's funded months run out",
+     "why_likely_missing": "site markets commercial partnerships and defense division side-by-side with no mention of ITAR/export controls anywhere",
+     "evidence_quote": "R-DEX Systems is an Authorized System Integrator for FANUC Robots",
+     "quote_source": "homepage"},
+    {"blind_spot": "Only visible open role is 'Senior Research Scientist' while multiple SBIR Phase II programs approach transition decisions",
+     "operator_reality": "Their own OWLS abstract names 'Phase III transition' as the next milestone, but the hiring signal points to more R&D, not the field/integration/compliance talent that actually survives a transition — the exact gap Barry's niche targets",
+     "why_likely_missing": "no field engineer, ISSO, or deployment role posted despite several concurrent Phase II clocks running",
+     "evidence_quote": "Senior Research Scientist",
+     "quote_source": "job_post"}
+  ],
+  "opener_hook": "Your Army OWLS Radar Phase II names 'Phase III transition into current and developmental Army radar platforms' as the next step — who owns the SWaP-C budget for that vehicle integration?",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Small dual-use AI/robotics/sensor engineering firm with a Military & Defense division (Ai/ATR, EW, SIGINT, radar) running multiple concurrent SBIR Phase I/II awards across Navy, Army, and NAWCAD, alongside commercial industrial-automation integration work."
+}

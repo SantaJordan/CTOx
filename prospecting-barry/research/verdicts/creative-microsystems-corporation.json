@@ -1,0 +1,43 @@
+{
+  "company": "Creative Microsystems Corporation (Creative Micro)",
+  "slug": "creative-microsystems-corporation",
+  "domain": "creativemicro.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own site: 'a woman-owned, 8(a) set-aside small business contractor' with 'weapon mounted displays' and night vision among its proficiencies; SBIR record shows an ATAK-compatible Tactical AR system for TACP operators (channel notes, sbir.gov/awards/186645) and a $2.7M Navy night-vision contract (news).",
+  "disconnect_score": 32,
+  "subscores": {"lab_language_intensity": 5, "deployment_awareness_absence": 3, "operator_absence": 8, "hiring_profile_skew": 10, "stage_pressure": 6},
+  "score_evidence": [
+    "Deployment-fluent, so scores low: 'Ruggedized formfactors and high-G packaging' and 'Reduction in Size, Weight, Power, Cost (SWaP-C)' named verbatim → deployment_awareness_absence 3",
+    "'engineered and fielded best-in-class daylight readable transparent displays' — fielding language, not demo language → lab_language_intensity 5",
+    "No jobs data in pack → hiring_profile_skew set to exactly 10 per rule",
+    "Own-language ~645 words (<1000): deployment_awareness_absence and operator_absence capped at 12"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Optics-first shop feeding a TAK ecosystem it never talks about on its own site",
+      "operator_reality": "Their Tactical AR system lives or dies on the ATAK data pipeline over tactical radios — DDIL bandwidth, mesh drops, and CoT message discipline — yet all ~645 public words are about displays, holography, and packaging, none about the comms path that actually delivers the situational awareness.",
+      "why_likely_missing": "Founders and staff are electro-optics and lithography specialists (MIT Media Lab holography lineage); the network side is someone else's GFE in their mental model.",
+      "evidence_quote": "an integrated workflow that spans optics, mechanics, electronics, software and firmware development – all accomplished in-house",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Skunkworks prototype culture with no visible path through accreditation to a program",
+      "operator_reality": "A helmet display carrying classified SA data onto a soldier needs the hosting software to survive RMF/ATO and the program office to fund it past prototype; 'quick turn' one-offs stall exactly at the valley Barry works — nothing in their language mentions ATO, RMF, STIG, or an acquisition pathway.",
+      "why_likely_missing": "Thirty-five years of surviving on quick-turn custom R&D jobs rewards fast prototypes, not the slow advocacy chain that turns one into a fielded program.",
+      "evidence_quote": "Skunkworks quick turn engineering and problem solving",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No sustainment or training story for hardware worn by an E-5",
+      "operator_reality": "Helmet- and weapon-mounted displays in the field mean battery logistics, spares, and a 20-minute-trained sergeant doing maintenance; a 19-person Vermont shop doing 'limited run production' has no field-service or training footprint in any of its language.",
+      "why_likely_missing": "As a component/prototype supplier they have always handed hardware to a customer engineer, never owned unit-level fielding.",
+      "evidence_quote": "Quick turn prototypes and limited run production",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Creative Micro's public proficiency list covers SWaP-C, high-G packaging, and fielded daylight displays — and not one word about the ATAK data path its Tactical AR system for TACPs depends on.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Rugged AR/HUD and electro-optics shop (daylight-readable transparent displays, night vision, holographic optics) building tactical wearable displays for DoD, prototype-to-limited-rate in-house."
+}

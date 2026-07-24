@@ -409,18 +409,10 @@ EMERGING TECH
 ### AI startup Kyndi raises $8.5M to help companies predict the future
 
 New artificial intelligence startups seem to be popping up every week, but investors still cannot seem to get enough of them as the AI industry continues to soar. Kyndi, a Palo Alto-based AI startup, is one of the latest companies to get a piece of the AI funding pie, as it announced to
-- KYND | PRESS RELEASE: KYND secures new funding to advance cyber risk… (2024-02-16) https://www.kynd.io/news/kynd-investment-2024/
-  KYND | PRESS RELEASE: KYND secures new funding to advance cyber risk…
+- kyndi (2026-06-28) https://kyndi.co.uk/
+  # Kyndi
 
-February 16, 2024 • News • 5 min read
-
-# PRESS RELEASE: KYND secures new funding to advance cyber risk management
-
-By KYND
-
-KYND, a leading provider of cyber risk management solutions, has today officially disclosed a substantial investment in the business to propel expansion and further growth.
-
-The investment comes from Verisk, a leading global data analytics and technology provider, and existing backer BGF, one of the larg
+Kyndi is a Hospitals and Health Care company. Kyndi provides life-changing solutions that empower independent lives through personalized assessments and continuous innovation. They believe in a world where everyone can live life to the fullest, regardless of limitations. Kyndi offers a wide range of assistive technologies that create a safer environment, allowing users to focus on what matters most. Kyndi's trusted monitoring and support services provide peace of mind for users and thei
 
 ## Open roles
 (no jobs data found)

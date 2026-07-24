@@ -339,27 +339,6 @@ PhasorLab was founded in 2014. Our mission is to revolutionize Position, Navigat
 The United States Air Force and other service branches need reliable Position, Navigation and Timing (PNT) technology for multiple critical missions. Today the military relies heavily on GPS for PNT. However, GPS can be denied, disrupted, or spoofed, making it potentially unreliable in hostile environment. PhasorLab Inc. of Nashua New Hampshire intends to develop and deploy a reliable and resilient Assured Position, Navigation and Timing (A-PNT) solution as an alternative to GPS for Unmanned Aerial Systems (UAS) based on its Hyper Sync Net (HSN) technology developed and matured over past seven years of R/D.   Hyper Sync Net (HSN) is Time and Frequency Distribution System (TFDS), employing innovative technologies to achieve sub-nanosecond time synchronization and less-than one part-per-billion (ppb) frequency synchronization. HSN can be quickly deployed as a mobile wireless solution capable of self-organizing, self-healing, and operating under jamming attacks while providing networking capabilities without any advance onsite pre-planning.  HSN is well-suited for providing cost-effective mobile PNT services as a backup or complementary solution to GPS.   In this proposed SBIR Phase 2 effort, PhasorLab will deliver an autonomous drone fleet navigation system collaborating with Major Devin Beckwith of US Special Forces (our target end user) and our TPOC Mr. Raj Malhotra of AFRL (also our Customer) utilizing HSN as the platform technology. As part of phase 2  R&D, we will demonstrate our A-PNT solution by delivering a plug and play module compatible with blue-SUAS certified drones. This module will enable drones to use HSN-based PNT solution when GPS is jammed or unavailable, and go back to using GPS again when available. If successful, this is a game-changing capability not just for the DoD but also for the larger aviation industry which is on the cusp of launching self-driving air taxis, drone-based delivery services, and other new systems requiring reliable PNT services.
 
 ## News (Exa, top 3)
-- Complementary PNT and GPS Backup Technologies ... () https://www.transportation.gov/sites/dot.gov/files/2021-01/FY%2718%20NDAA%20Section%201606%20DOT%20Report%20to%20Congress_January%202021.pdf
-  1
-Complementary PNT and GPS Backup 
-Technologies Demonstration Report
-Sections 1 through 10
-Andrew Hansen, Ph.D.
-Stephen Mackey
-Hadi Wassaf, Ph.D.
-Vaibhav Shah
-Eric Wallischeck
-Christopher Scarpone
-Michael Barzach
-Elliott Baskerville
-January 2021
-DOT-VNTSC-20-07
-Prepared for: 
-Office of the Assistant Secretary for Research and Technology,
- Department of Transportation
-Notice
-This document is disseminated under the sponsorship of the Department of Transportation in the
-interest of information exc
 - Universities, consortiums and Parallel Wireless score open RAN funding (2023-11-28) https://www.lightreading.com/open-ran/universities-consortiums-and-parallel-wireless-score-open-ran-funding
   Universities, consortiums and Parallel Wireless score open RAN funding
 
@@ -377,11 +356,25 @@ November 28, 2023
 - phasorlab inc. (2026-06-24) https://phasorlab.com/
   # PhasorLab Inc. (PhasorLab, Inc.)
 
-PhasorLab Inc. is a Wireless Services company. PHASORLAB is a next generation wireless technology company that provides a mobile wireless mesh network platform with atomic clock precision over wireless mesh network and frequency synchronization. PhasorLab Inc. employs 11 people (+12.5% YoY, +2 people), founded in 2014. Headquartered in Nashua, New Hampshire, United States, with presence in South Korea.
+PhasorLab Inc. is a Wireless Services company. PHASORLAB is a next generation wireless technology company that provides a mobile wireless mesh network platform with atomic clock precision over wireless mesh network and frequency synchronization. PhasorLab Inc. employs 11 people (+12.5% YoY, +2 people), founded in 2014. Headquartered in Nashua, New Hampshire, United States. Its workforce is distributed across United States and South Korea.
 
 ## About
 
-PhasorLab was founded in 2014. Our mission is t
+PhasorLab 
+- NTIA Awards $13M in Grants for Wireless Supply Chain Innovation - Telecompetitor (2023-11-29) https://www.telecompetitor.com/ntia-awards-13m-in-grants-for-wireless-supply-chain-innovation/
+  NTIA Awards $13M in Grants for Wireless Supply Chain Innovation - Telecompetitor
+
+November 29, 2023
+
+# NTIA Awards $13M in Grants for Wireless Supply Chain Innovation
+
+- Share on LinkedIn
+- Share on X
+- Email this Page
+
+The National Telecommunications and Information Administration (NTIA) has awarded more than $13 million in grants from the Public Wireless Supply Chain Innovation Fund.
+
+This is the second round of grants from the fund’s first Notice of Funding Opportunity. The program, also know
 
 ## Open roles
 (no jobs data found)

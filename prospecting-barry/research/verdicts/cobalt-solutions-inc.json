@@ -1,0 +1,45 @@
+{
+  "company": "Cobalt Solutions Inc",
+  "slug": "cobalt-solutions-inc",
+  "domain": "cobaltsolutions.net",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Air Force SBIR Phase II 2022 ($750K) building 5G-ARES for AFSOC's 361st ISRG ('This project will immediately support the mission of the 361st ISRG' — SBIR abstract), plus a 2021 DHS Phase II for C-UAS (news); site sells the CNG sensor explicitly for 'Defense and ISR'.",
+  "disconnect_score": 60,
+  "subscores": {"lab_language_intensity": 12, "deployment_awareness_absence": 11, "operator_absence": 11, "hiring_profile_skew": 10, "stage_pressure": 16},
+  "score_evidence": [
+    "'Best-in-class survey speed' / 'real time' repeated across every capability block — spec brags with tactical adjectives but no operational depth → lab_language_intensity",
+    "'Fully automated. Self-configuring... Low-drag user experience and mission-ready performance' — marketing-tactical, never a word on ATO, STIGs, ITAR, or how the data legally reaches a mission network → deployment_awareness_absence",
+    "No mention anywhere of who operates, trains on, or maintains the CNG2440 in the field; 'low-drag user experience' is the closest they come → operator_absence",
+    "No jobs data in pack — hiring_profile_skew set to exactly 10 per rule",
+    "Phase II awarded 2022, period of performance long expired; 3-7 employees and (aggregator estimate, Blitz/LI) ~$631.7K annual revenue with no follow-on contract news since — the classic post-Phase-II stall → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "'Your stack, your way' integration hand-waving in place of platform-integration reality",
+      "operator_reality": "Mounting a 2U emitter-adjacent RF sensor on an aircraft or vessel means GFE integration, EMI/EMC and safety-of-flight sign-off, and prime-led subcontract flow-down — 'standard data streams and formats' gets a demo flight, not a fielded fit. The months those approvals take are exactly the months a $750K Phase II doesn't fund.",
+      "why_likely_missing": "A 3-7 person RF engineering team that has lived in survey and test environments, not through a prime's airworthiness and integration gauntlet.",
+      "evidence_quote": "Deploy across airborne, ground, and maritime platforms via standard data streams and formats. Your stack, your way.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "A situational-awareness sensor with no TAK/CoT story",
+      "operator_reality": "The product exists to give AFSOC 'direct threat warning and enhanced situational awareness', yet nothing in their language mentions ATAK/TAK or Cursor-on-Target output — meaning the network laydown lives on the sensor's own 'on-board display and UI' while the operators it warns are looking at ATAK. A geolocation feed that can't hit the common operating picture doesn't change anyone's decision.",
+      "why_likely_missing": "Cellular-RF specialists optimizing detection and decode; the consumption side of the intelligence loop is someone else's problem until transition dies for lack of it.",
+      "evidence_quote": "A complete signal-to-intelligence loop, in a single sensor.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No ATO/accreditation path for the intelligence the sensor produces",
+      "operator_reality": "Passive collection against '5G NR and 4G LTE' generates data that must land on accredited government networks (and much of it at classification); without an RMF ATO, STIGged software, and an IL-rated transport path, the CNG2440's output legally stops at the transit case. 'Fully automated, self-configuring' software with no compliance language is a demo-only system on a government range.",
+      "why_likely_missing": "The Phase II funded sensor performance, not cyber accreditation; nobody on a team this size owns RMF paperwork.",
+      "evidence_quote": "Real-time passive collection. Detection, decoding, geolocation. Fully automated, self-configuring.",
+      "quote_source": "homepage",
+      "note": "quote from cobaltsolutions.net/cng product page"
+    }
+  ],
+  "opener_hook": "Cobalt's 5G-ARES Phase II for AFSOC's 361st ISRG was awarded in 2022 — three years on, the CNG2440 page promises 'your stack, your way' but names no TAK output, no ATO path, and no transition vehicle, which is where 2U sensors go quiet.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Austin micro-team (3-7 people) building the CNG2440, a 2U ruggedized sensor that detects, decodes, and geolocates 4G/5G cellular networks from ground, air, and maritime platforms."
+}

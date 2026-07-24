@@ -1,14 +1,7 @@
 #!/usr/bin/env python3
 """Stage 3: build one evidence pack per verified company so the disconnect-scoring
 agents judge identical evidence instead of each re-searching the world.
-
-Input : data/universe_verified.csv
-        checkpoints/sbir_awards.jsonl                (abstracts — their own lab-language)
-        ../prospecting-ctox/checkpoints/match/barry-hess_jobs.jsonl (JD evidence)
-Fetch  : Exa /contents (homepage + product/tech subpages), Exa /search (news),
-         Blitz jobs/company (hiring profile).
 Output : research/packs/<slug>.md  + checkpoints/packs_manifest.jsonl (resume-safe)
-
 Usage: python3 s6_build_packs.py [--limit N]
 """
 import csv
@@ -39,7 +32,6 @@ def slugify(name):
 
 
 def scrub(text):
-    """No personal emails/phones inside committed packs."""
     return PHONE_RE.sub("[phone]", EMAIL_RE.sub("[email]", text or ""))
 
 
@@ -207,7 +199,6 @@ def main():
         for fut in cf.as_completed(futs):
             rec = fut.result()
             append_jsonl(MANIFEST, rec)
-            print(f"  {rec['slug']}: {rec['status']}")
     ok = [r for r in read_jsonl(MANIFEST) if r.get("status") == "ok"]
     print(f"packs ok: {len(ok)} -> {PACKS}")
 

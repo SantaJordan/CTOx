@@ -358,63 +358,6 @@ Providing solutions at the intersection of computer vision, sensor data analytic
 Global persistent awareness is critical for Department of Air Force (DAF) missions to win in dynamic warfighting environments. Therefore, warfighters must be able to rapidly extract actionable intelligence and act on it faster than adversaries can adapt.
 
 ## News (Exa, top 3)
-- Misram (JMCGLJSKJ9D7) () https://www.highergov.com/awardee/misram-llc-10048063/
-  Misram (JMCGLJSKJ9D7)
-
-HigherGov
-
-Notify
-
-- New Contract Awards
-- New Grant Awards
-
-Favorite
-
-Export
-
-- CSV
-- Excel
-
-Share
-
-- Copy URL
-- Email
-- Tweet
-
-# Misram
-
-UEI: JMCGLJSKJ9D7 &#x2022 CAGE: 79PJ6 &#x2022 SBA Certs: WOSB
-
-- List
-- Text
-
-## Overview
-
-Parent Awardee
-
-Company Description
-
-Software defined wireless technology to close the loop between cognitive computing and wireless networking.
-
-Name
-
-Misram
-
-Website
-
-Headquarters
-
-Holmdel, NJ United States
-
-Most Recent Award
-
-Feb. 9, 2024
-
-Calc
-- CONTRACT to MSM TECHNOLOGY LLC () https://www.usaspending.gov/award/CONT_AWD_HC102822F0686_9700_47QTCA18D00JM_4732
-  USAspending.gov
-
-USAspending.gov
 - Mistral Awarded $74M Sole-Source USSOCOM Contract for GOLAM II Munitions, Support Services – ExecutiveBiz (2024-05-20) https://www.executivebiz.com/articles/mistral-awarded-74m-sole-source-ussocom-contract-for-golam-ii-munitions-support-services
   Mistral Awarded $74M Sole-Source USSOCOM Contract for GOLAM II Munitions, Support Services – ExecutiveBiz
 
@@ -433,6 +376,22 @@ Latest Federal & Government Contracting Companies' News Coverage
 United States Special Operations Command / Wikipedia
 
 The U.S. Special Operations Command has awarded small woman owned business Mistral a sole-source, indefinite-delivery/indefinite-quantity contract for the acquisiti
+- Contracts For Aug. 1, 2025 (2025-08-01) https://www.war.gov/News/Contracts/Contract/Article/4262594/contracts-for-aug-1-2025/
+  Contracts For Aug. 1, 2025 > U.S. Department of War > Contract | U.S. Department of War
+
+Skip to main content (Press Enter).
+
+DEFENSE LOGISTICS AGENCY
+
+RTX Corp., Arlington, Virginia, has been awarded a maximum $50,000,000,000 terms and conditions umbrella contract for RTX systems and end-item production, spare parts, services and other types of support. This umbrella is comprised of basic terms and conditions allowing for indefinite-delivery/indefinite-quantity and "C" type subsumable contracts
+- GOLAM II Munitions Deal: Mistral Inc. Awarded $73.5M Contract for Precision Strike Systems | Contract Awards (2024-05-17) https://envzone.com/award-record/golam-ii-munitions-deal-mistral-inc-awarded-73-5m-contract-for-precision-strike-systems/
+  GOLAM II Munitions Deal: Mistral Inc. Awarded $73.5M Contract for Precision Strike Systems | Contract Awards
+
+Know who’s winning. Learn how to compete.
+
+# GOLAM II Munitions Deal: Mistral Inc. Awarded $73.5M Contract for Precision Strike Systems
+
+Mistral Inc., Bethesda, Maryland, is being awarded an indefinite-delivery/indefinite-quantity contract (H9240324D0003) which has a maximum value of $73,552,208 and a minimum ordering guarantee of $5,000. Mistral Inc. is a small woman owned business and 
 
 ## Open roles
 (no jobs data found)

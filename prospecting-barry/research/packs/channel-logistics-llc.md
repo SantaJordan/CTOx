@@ -269,16 +269,16 @@ Space-Eyes is an intelligence, space, and defense technology company delivering 
 The maritime moving target indicator (MMTI) technical challenge is a Multi-Sensor Fusion and Physics problem that needs to address object detection on the ocean leveraging multiple modalities across diverse time-series data sets. In prior technical effort
 
 ## News (Exa, top 3)
-- CONTRACT to ACQUISITION LOGISTICS LLC () https://www.usaspending.gov/award/CONT_AWD_W9124J25FA075_9700_N0002325D0004_9700
+- CONTRACT to ACQUISITION LOGISTICS LLC () https://www.usaspending.gov/award/CONT_AWD_M6700424P4001_9700_-NONE-_-NONE-
   USAspending.gov
-- Contracts For Jul. 21, 2025 (2025-07-18) https://www.war.gov/News/Contracts/Contract/Article/4250988/
-  Contracts For Jul. 21, 2025 > U.S. Department of War > Contract | U.S. Department of War
+- Contracts For May. 2, 2025 (2025-05-02) https://www.war.gov/News/Contracts/Contract/Article/4173239/contracts-for-may-2-2025/
+  Contracts For May. 2, 2025 > U.S. Department of War > Contract | U.S. Department of War
 
 Skip to main content (Press Enter).
 
-AIR FORCE
+DEFENSE LOGISTICS AGENCY
 
-Lockheed Martin Corp., Orlando, Florida, was awarded a $999,000,000 indefinite-delivery/indefinite-quantity contract for Joint Air to Surface Standoff Missile (JASSM) and Long-Range Anti-Ship Missile production support (LRASM). This contract provides for lifecycle support for all efforts related to JASSM, LRASM (Air Force Inventory) and all their variants in t
+Applied Solutions Logistics LLC,** Kansas City, Missouri, has been awarded a maximum $114,000,000 hybrid firm-fixed-price, cost-plus-fixed-fee, cost-reimbursement, no-fee indefinite-delivery/indefinite-quantity contract for warehousing and operations support services. This was a competitive acquisition with four responses received. This is a five
 - Connected Logistics Lands Potential $91M ITES-3S IDIQ Task Order  | WashingtonExec (2021-03-15) https://washingtonexec.com/2021/03/connected-logistics-lands-12b-army-contracting-command-task-order/
   Connected Logistics Lands Potential $91M ITES-3S IDIQ Task Order | WashingtonExec
 

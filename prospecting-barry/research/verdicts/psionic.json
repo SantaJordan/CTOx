@@ -1,0 +1,43 @@
+{
+  "company": "Psionic",
+  "slug": "psionic",
+  "domain": "psionicnav.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Navy SBIR Phase II 2025 for maritime GPS-denied navigation, DARPA LASSO program involvement, partnerships with Northrop Grumman and Collins Aerospace, and SurePath shown mounted on a Humvee in 2025 with listed defense applications (Convoy, Targeting, Munitions, UAVs, Close Air Support) — homepage, SurePath page, and News section.",
+  "disconnect_score": 60,
+  "subscores": {"lab_language_intensity": 10, "deployment_awareness_absence": 12, "operator_absence": 14, "hiring_profile_skew": 12, "stage_pressure": 12},
+  "score_evidence": [
+    "'SurePath mounted to a Humvee, 2025' paired with 'It can also be retrofitted to existing navigation systems' -> deployment_awareness_absence: real platform integration is claimed but ATO/RMF/CMMC/STIG/IL4-5 are never mentioned once across ~1,275 words",
+    "'Land and Air Defense: Convoy Navigation Object Detection Targeting Munitions UAVs Material Replenishment Threat Surveillance Close Air Support' -> operator_absence: applications listed as abstract capability tags with no operator voice, training story, or CONOPS anywhere in the pack",
+    "Open roles are Mechanical Engineer, Senior Embedded Firmware/Flight Software Engineer, Silicon Photonics Engineer, Flight Systems Software Developer -> hiring_profile_skew: all core sensor R&D hires, zero field integration/test/compliance roles even though the product is already mounted on a Humvee and holds a Navy Phase II",
+    "'Completed Series A financing; Series B in progress' -> stage_pressure: ~50-65 person team mid-raise while the full end-to-end navigation system isn't expected until Q1 2027"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "SurePath is pitched as retrofittable onto existing navigation systems and is already shown mounted on a Humvee, but the pack contains zero ATO/RMF/CMMC language for how that sensor's data gets authorized on the platform's network.",
+      "operator_reality": "Retrofitting a sensor onto a fielded military platform means its data interface has to clear GFE integration and network authorization, not just a mechanical mount — a hardware company that's silent on this risks discovering the authorization requirement only when a program office asks for it, right as Series B math depends on contract revenue.",
+      "why_likely_missing": "The public narrative and hiring are both centered on sensor performance (accuracy, jamming resistance, SWaP) rather than the acquisition/authorization mechanics of getting that sensor onto a program of record.",
+      "evidence_quote": "It can also be retrofitted to existing navigation systems.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Munitions, Targeting, and Close Air Support are listed as defense applications with no mention of who trains an operator to trust or recalibrate a GPS-replacement sensor feeding those workflows.",
+      "operator_reality": "A navigation sensor substituting for GPS in a targeting or munitions pipeline needs an established field trust-and-maintenance loop — sensor drift, recalibration cadence, and failure-mode training are existential once it's feeding a weapons chain, and none of that appears anywhere in the site's language.",
+      "why_likely_missing": "The team's NASA-space heritage (lunar landing, RPO precision sensing) frames the technology around measurement accuracy, not the field sustainment loop a weapons-adjacent ground/air defense application requires.",
+      "evidence_quote": "Land and Air Defense: Convoy Navigation Object Detection Targeting Munitions UAVs Material Replenishment Threat Surveillance Close Air Support",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "All visible hiring is core sensor R&D (mechanical, embedded firmware, silicon photonics, flight software) — no field integration, test, or compliance hires — even though the product is already mounted on a Humvee and pursuing a second Navy Phase II.",
+      "operator_reality": "Moving from 'mounted on a Humvee for a demo' to fielded requires field/integration engineers fluent in vehicle GFE integration and platform certification; without that function staffed, Phase II SBIR dollars risk funding more sensor-accuracy iteration instead of the fielding push that actually converts a demo into an operational contract.",
+      "why_likely_missing": "The company's leadership bios (NASA optoelectronics, USAF lidar, space business development) skew heavily toward sensor science and space/aviation business development, with no listed leader owning field deployment or DoD integration/compliance.",
+      "evidence_quote": "Senior Embedded Firmware/Flight Software Engineer ... Silicon Photonics Engineer ... Flight Systems Software Developer",
+      "quote_source": "job_post"
+    }
+  ],
+  "opener_hook": "SurePath was mounted to a Humvee in 2025 and Munitions and Targeting are listed as defense applications — nothing on the site addresses who calibrates or trains an operator to trust a GPS-replacement sensor feeding a targeting pipeline.",
+  "confidence": "medium",
+  "stage_band": "series_a",
+  "what_they_do": "NASA-derived laser/lidar navigation sensor (SurePath) that provides GPS-independent position and velocity data for vehicles and platforms in jammed or GPS-denied environments, sold dual-use into both commercial and defense/space markets."
+}

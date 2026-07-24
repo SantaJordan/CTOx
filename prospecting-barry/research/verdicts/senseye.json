@@ -1,0 +1,44 @@
+{
+  "company": "Senseye",
+  "slug": "senseye",
+  "domain": "senseye.co",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "2025 Direct-to-Phase-II SBIR award for mobile AI diagnostics for traumatic brain injury using smartphone eye tracking, per sbir.gov award record (channel notes) and HigherGov federal-award profile (News section).",
+  "disconnect_score": 73,
+  "subscores": {"lab_language_intensity": 18, "deployment_awareness_absence": 12, "operator_absence": 12, "hiring_profile_skew": 17, "stage_pressure": 14},
+  "score_evidence": [
+    "\"Senseye is building the breakthrough diagnostic platform for mental health — and we're starting with PTSD.\" -> lab_language_intensity",
+    "\"Our diagnostic runs on smartphones, from any location — including a telehealth setting. No specialized equipment or upfront capital investment is needed.\" -> deployment_awareness_absence (capped at 12: word count <1000; detailed product description, zero DDIL/ATO/RMF/CMMC/ITAR mention anywhere, and no TBI/military framing at all despite the SBIR)",
+    "\"We aim to help clinicians personalize care with fast, accurate tools for establishing a clear baseline and tracking outcomes over time.\" -> operator_absence (capped at 12: clinicians/patients only, zero operator/warfighter/training/CONOPS language)",
+    "Open roles: \"SaMD Quality Engineer/Sr. Engineer\", \"Director of Clinical Operations\" (x3), zero field/ISSO/DoD-compliance roles -> hiring_profile_skew",
+    "Series A $30M raised, founded 2015 (~10yr, still Series A), fresh Direct-to-Phase-II SBIR clock started 2025 -> stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The company won a Direct-to-Phase-II SBIR specifically for TBI diagnostics, but the entire public product description is framed around a 'telehealth setting' with no discussion of whether the eye-tracking computer-vision model holds up outside controlled clinic/home lighting.",
+      "operator_reality": "Sunlight glare, dust, and uncontrolled field lighting will degrade a computer-vision eye-tracking algorithm calibrated on clinic/telehealth conditions — the same fragility pattern as any AI model that only works under lab conditions.",
+      "why_likely_missing": "The commercial PTSD product is the company's primary public-facing narrative; the TBI/military application appears to exist only as a separate, unmarketed SBIR line item.",
+      "evidence_quote": "Our diagnostic runs on smartphones, from any location — including a telehealth setting. No specialized equipment or upfront capital investment is needed.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Every open role is a civilian medical-device/SaMD compliance or clinical-operations position; there is no field engineer, ISSO, or DoD-compliance hire despite an active military-relevant SBIR.",
+      "operator_reality": "FDA SaMD clearance and DoD ATO/CMMC compliance are separate regulatory tracks; a team fully staffed for the FDA path with nobody assigned to the DoD path will stall the moment the TBI diagnostic needs to run on a government network or device.",
+      "why_likely_missing": "The company's core business model and funding history (Series A, civilian mental-health VC) point toward the FDA/commercial healthcare pathway as the organizing priority.",
+      "evidence_quote": "SaMD Quality Engineer/Sr. Engineer; Director of Clinical Operations",
+      "quote_source": "job_post"
+    },
+    {
+      "blind_spot": "Senseye's own language never mentions TBI or the military at all — every description of the product (workflow, use case, mission statement) is written for civilian mental-health clinicians and patients.",
+      "operator_reality": "A medic administering a rapid TBI screen in the field needs a workflow built for battlefield triage timing, no dedicated exam room, unreliable connectivity, and a non-clinician administrator — none of which resembles the '10-minute ocular test' telehealth session the company describes everywhere it talks about its product.",
+      "why_likely_missing": "The TBI SBIR appears to be an extension of the existing PTSD platform rather than a purpose-built military product, so the deployed-use-case thinking hasn't yet been built into how the company talks about itself.",
+      "evidence_quote": "We aim to help clinicians personalize care with fast, accurate tools for establishing a clear baseline and tracking outcomes over time.",
+      "quote_source": "linkedin_about"
+    }
+  ],
+  "opener_hook": "Your 2025 Direct-to-Phase-II SBIR funds a TBI diagnostic, but the ocular-test workflow on your site is written entirely for a telehealth session — does the field version look different?",
+  "confidence": "medium",
+  "stage_band": "series_a",
+  "what_they_do": "Smartphone-based computer-vision eye-tracking platform for objective mental-health diagnosis, built for PTSD in civilian clinical/telehealth settings, with a separate SBIR-funded TBI diagnostic application."
+}

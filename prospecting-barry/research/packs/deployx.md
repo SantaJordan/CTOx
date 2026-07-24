@@ -327,6 +327,28 @@ A RED CELL COMPANY
 DeployX is an advanced communications company delivering the next generation of integrated radio frequency technologies.
 
 ## News (Exa, top 3)
+- DeployX () https://deployx.com/
+  DeployX
+
+# Beyond Boundaries.Beyond Limits.
+
+Pioneering integrated RF technologies for themission-critical operations of tomorrow.
+
+Get in Touch
+
+Who We Are
+
+# Spectrum Dominance for Modern Warfare
+
+In contested environments, electromagnetic spectrum superiority can make the difference between tactical advantage and defeat. DeployX builds advanced RF technology engineered for U.S. defense and commercial platforms–strengthening and protecting communications where they matter most.
+
+About Us
+
+Air.
+- DeployX () https://www.redcellpartners.com/company/deployx/
+  DeployX | Red Cell Partners
+
+"Today’s command‑and‑control systems across land, air, sea, and space need greater frequency and power agility to keep pace with rapidly evolving operational demands. This is especially true as adversary threats and their denial capabilities grow in both sophistication and range. DeployX was built to address this challenge. As an advanced communications company pioneering the next breakthrough in the electromagnetic spectrum, DeployX is working to deliver the secure,
 - CONTRACT to DEPLOYED RESOURCES LLC () https://www.usaspending.gov/award/CONT_AWD_70B01C23F00000067_7014_70RDAD21A00000012_7001
   CONTRACT to DEPLOYED RESOURCES LLC | USAspending
 
@@ -371,24 +393,6 @@ View glossary definition of Blanket Purchase Agreements (BPA) Calls
 ##### Department of Homeland Security (DHS)
 
 https://www.usaspending.gov/agency/dep
-- Support America's Golden Dome Defense System () https://gov2x.com/wp-content/uploads/2026/02/V2X-Secures-SHIELD-IDIQ-Contract-from-MDA-to-Support-Americas-Golden-Dome-Defense-System-2026.pdf
-  NEWS RELEASE
-
-## V2X Secures SHIELD IDIQ Contract from MDA to
-
-## Support America's Golden Dome Defense System
-
-2026-01-12
-
-RESTON, Va., Jan. 12, 2026 /PRNewswire/ -- V2X, Inc. (NYSE: VVX) is pleased to announce it has been awarded a contract under the Missile Defense Agency's (MDA) Scalable Homeland Innovative Enterprise Layered Defense (SHIELD) inde nite-delivery/inde nite-quantity (IDIQ) contract vehicle.
-
-Under this contract, valued with a ceiling of $151 billion, V2X will partner with the M
-- V2X Wins Key Role in $151B US Missile Defense Modernization Contract - BriefGlance.com (2026-01-12) https://briefglance.com/articles/v2x-wins-key-role-in-151b-us-missile-defense-modernization-contract
-  V2X Wins Key Role in $151B US Missile Defense Modernization Contract - BriefGlance.com
-
-# V2X Wins Key Role in $151B US Missile Defense Modernization Contract
-
-RESTON, VA – January 12, 2026 – Defense and technology integrator V2X, Inc. (NYSE: VVX) has secured a pivotal position in one of the Pentagon's most ambitious modernization efforts, winning an award under the Missile Defense Agency's (MDA) Scalable Homeland Innovative Enterprise Layered Defense (SHIELD) contract vehicle. The indefinite-de
 
 ## Open roles (Blitz, live)
 - Principal Radio Frequency (RF) Engineer ({'city': 'Torrance', 'country_code': 'US'})

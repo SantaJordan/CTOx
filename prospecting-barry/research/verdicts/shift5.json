@@ -1,0 +1,16 @@
+{
+  "company": "Shift5",
+  "slug": "shift5",
+  "domain": "shift5.io",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Channel notes and own news confirm status 'fielded' with Army, Air Force, and Navy contracts (F-16 upgrade contract, USAF Rapid Sustainment Office IDIQ, NIAP/CSfC certified, Anduril Lattice Mesh integration) — this is a mature, deployed defense OT company, not a pre-fielding prototype.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Onboard OT observability and cyber/EW platform for defense vehicles and transportation fleets (aircraft, combat vehicles, rail) already fielded with Army/AF/Navy."
+}

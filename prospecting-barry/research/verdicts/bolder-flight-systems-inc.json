@@ -1,0 +1,52 @@
+{
+  "company": "Bolder Flight Systems, Inc.",
+  "slug": "bolder-flight-systems-inc",
+  "domain": "bolderflight.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "SBIR section: Air Force Phase II 2022, $749,371, 'Common Flight Control System (C-FCS)', written around AFRL/RQ and warfighter support; the news section adds an active definitive contract, FA930225C0008 (AF251-004, 'Micro Variable in-flight Simulation Test Aircraft'), awarded by Air Force Test Center with AFRL as funding agency.",
+  "disconnect_score": 54,
+  "subscores": {
+    "lab_language_intensity": 9,
+    "deployment_awareness_absence": 12,
+    "operator_absence": 6,
+    "hiring_profile_skew": 10,
+    "stage_pressure": 17
+  },
+  "score_evidence": [
+    "'Data Acquisition Systems for General Aviation + Research and Development' -> lab_language_intensity held low-to-moderate: the framing is research instrumentation, but it is honest engineering rather than TRL bragging",
+    "'Maximum Ratings: ... Temperature: -10 to +50C' -> deployment_awareness_absence: a benign-environment qualification envelope published for a box now aimed at military flight test and UAS autopilots, with no DO-160, MIL-STD-810 or MIL-STD-461 language anywhere",
+    "'Integrations: works with ACROWRX, FlySto CloudAhoy, and AviNet for data sharing and analysis' -> deployment_awareness_absence: the default data path is consumer cloud analysis, and CMMC/NIST 800-171/ITAR appear nowhere in ~1561 words",
+    "'Melissa worked in the private industry and for the Department of Defense in the engineering fields of aircraft airworthiness, flight test, aircraft performance, flying qualities, air data, structures, maintenance, and repairs' -> operator_absence scored low; there is genuine airworthiness and flight-test literacy in the leadership",
+    "'Fault-tolerant control laws automatically detect and enter reversionary modes if faults are encountered' -> operator_absence and lab_language both held down; they reason about failure states",
+    "No jobs data in pack -> hiring_profile_skew set to exactly 10 by rule",
+    "'Bolder Flight Systems employs 3 people (-50.0% YoY, -2 people)' while holding an AFTC definitive contract and a Jan 28 2026 autopilot co-development partnership with Systems Technology, Inc. -> stage_pressure: obligations growing while the team halves"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "A general-aviation qualification envelope on hardware being pulled toward military platforms",
+      "operator_reality": "The published PDAS envelope stops at +50C and -10C. A box that flies on an Air Force test aircraft or a fielded UAS gets asked for DO-160 or MIL-STD-810 across roughly -40 to +71C plus altitude, humidity, vibration, shock and salt fog, and MIL-STD-461 for conducted and radiated emissions. Qualification testing is not a firmware sprint — it is chamber time, lab scheduling, failures, redesign and re-test, typically six to twelve months and a six-figure line item. For a three-person company, discovering that requirement after the contract is signed is precisely the case where months-to-field exceeds funded months remaining.",
+      "why_likely_missing": "The commercial customer base is student pilots, flight schools and a test pilot school flying benign profiles from improved fields, where nobody has ever asked for an environmental qualification report.",
+      "evidence_quote": "Maximum Ratings: Acceleration: +/- 16 g; Rotation: +/- 2,000 deg/s; Airspeed: 0 to 340 knots; Altitude: -10,000 to +70,000 ft; Temperature: -10 to +50C",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The default flight-data workflow runs through consumer cloud services and an unmanaged tablet",
+      "operator_reality": "Flight test data from a military platform — control law responses, flying qualities, performance points — is CUI at minimum and frequently program-protected. Their shipping workflow streams GDL90 over Wi-Fi to ForeFlight on someone's iPad and uploads logs to third-party cloud analysis services. On a military test program that is both a spillage path and an RF emissions issue, and the test engineer will default to the documented workflow unless an offline, air-gap-friendly path exists and is the one in the manual. The fix is cheap now (local export, no-RF mode, documented handling) and expensive after an incident report.",
+      "why_likely_missing": "Cloud sharing is a genuine selling point to flight schools and researchers, so it was engineered as the primary path rather than an optional one.",
+      "evidence_quote": "Real-time streaming: GDL90 output to apps like ForeFlight for GPS and backup AHRS ... Connectivity: Bluetooth + Wi-Fi",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Building UAS flight control hardware with no visible export-control function",
+      "operator_reality": "A fault-tolerant flight control system and autopilot for unmanned aircraft is squarely the kind of technical data that lands on the USML, and the obligations attach to the drawings, source and test data — not just to shipping a box overseas. This is a three-person company that co-developed PDAS with the International Test Pilots School and just announced a co-development partnership for U.S.-manufactured UAS autopilots. Registration, an empowered official, technical-data segregation and deemed-export controls on any non-US person touching the repo are all company-level work that has to exist before a Phase III or a prime subcontract can flow down to them, and it is the kind of finding that stops an award rather than delaying it.",
+      "why_likely_missing": "'Manufactured in the USA' is treated on the site as a marketing attribute and a supply-chain claim, which reads as if the export question is already answered.",
+      "evidence_quote": "Manufactured in the USA: designed, manufactured, and assembled in the U.S., with U.S. sourced materials wherever possible",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Your PDAS spec sheet publishes a maximum temperature rating of -10 to +50C, which is a general-aviation envelope, while FA930225C0008 with Air Force Test Center points that same hardware at platforms whose qualification baseline starts around -40C and MIL-STD-461.",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Three-person New Mexico avionics shop selling flight data acquisition hardware to pilots and flight-test organizations, now developing a common flight control system and UAS autopilots under Air Force contracts."
+}

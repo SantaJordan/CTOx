@@ -279,58 +279,58 @@ Phase I
 DOD
 
 Branch: USA
-- Interactive Aptitude LLC () https://www.sbir.gov/portfolio/2240017
-  Firm | SBIR Skip to main content
+- CONTRACT to INTERACTIVE APTITUDE LLC () https://www.usaspending.gov/award/CONT_AWD_140D0425P0130_1406_-NONE-_-NONE-
+  CONTRACT to INTERACTIVE APTITUDE LLC | USAspending
 
-# Company
+# Contract Summary
 
-Portfolio Data
+- Copy link
+- Email
+- X (Twitter)
+- Facebook
+- LinkedIn
+- Reddit
 
-Back to Company Search
+Share
 
-## INTERACTIVE APTITUDE LLC
+---
 
-### Address
+Download
 
-2 Bridgeview Cir Ste 8-5005Tyngsboro, MA, 01879USA
+- Copy link
+- Email
+- X (Twitter)
+- Facebook
+- LinkedIn
+- Reddit
 
-UEI: T6NLUFWABL29
+Share
 
-Number of Employees: 9
+## Purchase Order (PO)
 
-HUBZone Owned: No
+### PIID
 
-Woman Owned: No
+140D0425P0130
 
-Socially and Economically Disadvantaged: No
+##### Completed
 
-#### SBIR/STTR Involvement
+---
 
-Year of first award: 2023
+###### Awarding Agency
 
-11
+##### Department of the Interior (DOI)
 
-Phase I Awards
+###### Recipient
 
-2
+##### INTERACTIVE APTITUDE LLC
 
-Phase II Awards
+24 ST PAUL LN
 
-18.18%
+WESTFORD, MA 01886-1674
 
-Conversion Rate
+UNITED STATES
 
-$1,833,849
-
-Phase I Dollars
-
-$3,049,842
-
-Phase II Dollars
-
-$4,883,691
-
-Total 
+Congressional District: MA-
 
 ## Open roles
 (no jobs data found)

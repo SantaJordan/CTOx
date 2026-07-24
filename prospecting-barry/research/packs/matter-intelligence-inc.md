@@ -194,14 +194,6 @@ Website
 Headquarters
 
 El Segundo, CA Uni
-- matter intelligence (2026-06-18) https://matter.com/
-  # Matter Intelligence (Matter Intelligence Inc.)
-
-Matter Intelligence is a Space Research and Technology company. Matter Intelligence employs 30 people (+181.8% YoY, +20 people), founded in 2023. Headquartered in El Segundo, California, United States. Has $12M in total funding, with 1 prior funding round.
-
-## About
-
-Matter specializes in advancing sensors and geospatial AI that capture "extreme-resolution" images of natural and artificial materials from space to surface, creating never-seen data
 - Matter Intelligence Emerges from Stealth with $12 Million Seed Funding to Revolutionize Remote Sensing and Global Perception () https://www.businesswire.com/news/home/20241030574726/en/Matter-Intelligence-Emerges-from-Stealth-with-%2412-Million-Seed-Funding-to-Revolutionize-Remote-Sensing-and-Global-Perception
   Matter Intelligence Emerges from Stealth with $12 Million Seed Funding to Revolutionize Remote Sensing and Global Perception
 
@@ -214,6 +206,14 @@ Share
 ---
 
 LOS ANGELES--(BUSINESS WIRE)--Matter Intelligence, a California-based remote sensing startup, has emerged from stealth, unveiling its plans to launch space sensors capable of capturing neve
+- matter intelligence (2026-06-18) https://matter.com/
+  # Matter Intelligence (Matter Intelligence Inc.)
+
+Matter Intelligence is a Space Research and Technology company. Matter Intelligence employs 30 people (+181.8% YoY, +20 people), founded in 2023. Headquartered in El Segundo, California, United States. Has $12M in total funding, with 1 prior funding round.
+
+## About
+
+Matter specializes in advancing sensors and geospatial AI that capture "extreme-resolution" images of natural and artificial materials from space to surface, creating never-seen data
 
 ## Open roles (Blitz, live)
 - Flight Software Engineer ({'city': 'El Segundo', 'country_code': 'US'})

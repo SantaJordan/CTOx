@@ -1,0 +1,27 @@
+{
+  "company": "Code-X",
+  "slug": "code-x",
+  "domain": "teamcode-x.com",
+  "verdict": "insufficient_evidence",
+  "drop_reason": "",
+  "dod_intent_evidence": "Plausible but stale and entirely self-asserted: their own 2021 BusinessWire release claims a 'Lattice-Based Data Protection Platform Validated by the United States Department of Defense' (news section). No contract number, no award record, and nothing in the last five years corroborates it.",
+  "disconnect_score": 0,
+  "subscores": {
+    "lab_language_intensity": 0,
+    "deployment_awareness_absence": 0,
+    "operator_absence": 0,
+    "hiring_profile_skew": 0,
+    "stage_pressure": 0
+  },
+  "score_evidence": [
+    "Own-language word count is ~90 — far under the ~500-word floor. The entire website is one sentence plus a banner: 'Code-X Changes the foundation of security though proven innovative technology, eliminating the most vulnerable of attack surfaces and methodologies.' followed by 'GLOBAL COMMERCIAL RELEASE - 2026 / *Including a new website*'",
+    "The LinkedIn about section contains no product description at all — it is market-size boilerplate ('The digital economy accounts for 15–18% of global GDP (2025 estimates)')",
+    "No SBIR abstracts, no jobs data, and the three news items are all from 2021–2022 (the $5M Series A led by By Light, and an AWS partnership)",
+    "Per the gate, absence of deployment awareness only counts when the product is described in enough detail that deployment topics would naturally appear. Code-X describes no product. Scoring this high would be rewarding a company for saying nothing."
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "unknown",
+  "what_they_do": "Claims a lattice-based data-protection platform for securing data and network packets; the public site is a placeholder promising a 2026 commercial release and a new website."
+}

@@ -1,0 +1,16 @@
+{
+  "company": "Pillar Security",
+  "slug": "pillar-security",
+  "domain": "pillar.security",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "None found — the entire pack (homepage, SAIL platform page, LinkedIn about, and all three news items) is enterprise/commercial AI-security language (Gartner, Latio, Frost & Sullivan, a $9M seed round covered by GlobeNewswire and Times of Israel); the only defense signal is membership on the vc:shield source list, which the gate explicitly says is not sufficient on its own.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "unknown",
+  "what_they_do": "Enterprise security platform that discovers, tests, and governs AI agents across code, cloud, SaaS, and endpoints."
+}

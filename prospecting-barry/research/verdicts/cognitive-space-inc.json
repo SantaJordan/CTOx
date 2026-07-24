@@ -1,0 +1,53 @@
+{
+  "company": "Cognitive Space, Inc.",
+  "slug": "cognitive-space-inc",
+  "domain": "cognitivespace.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "disconnect_score": 57,
+  "dod_intent_evidence": "Two USAF SBIR Phase IIs in their own abstracts ('CNTIENT for Topology and Link Management of a Dynamic Satellite Network', $1,249,731, 2023; 'Dynamic ISR planning with multi-level security access for space asset tasking', $1,695,909, 2022), a USAF Indefinite Delivery Contract FA861221D0113 tied to Advanced Battle Management System, a usaspending contract record (FA254125CB007), and roughly $5M in two SDA awards reported by SpaceNews (March 2025).",
+  "subscores": {
+    "lab_language_intensity": 15,
+    "deployment_awareness_absence": 13,
+    "operator_absence": 9,
+    "hiring_profile_skew": 9,
+    "stage_pressure": 11
+  },
+  "score_evidence": [
+    "'In a collection scenario with a high-density target region, AI-driven collection plans outperformed a traditional heuristics greedy algorithm by 4x' (homepage) → lab_language_intensity: benchmark-against-a-baseline framing, the classic lab metric",
+    "'In real-world operations, CNTIENT.Optimize has shown time savings of 87% per operator per week' (homepage) → lab_language_intensity: a single efficiency number carries the whole value proposition, with no unit, mission, or accreditation named",
+    "'The Market Leader in Intelligent Space Automation' and 'Future proof your operations with industry leading AI-Driven technology' (homepage) → lab_language_intensity: superlatives in place of operational specifics",
+    "'By leveraging artificial intelligence, cloud computing, and deep operational expertise' (homepage) → deployment_awareness_absence: cloud is named as a foundational dependency with zero mention of ATO, RMF, IL5/IL6, STIG, or the classified enclaves SDA and ABMS actually run on",
+    "'The Hybrid-Space Architecture Demonstration (HAD) exercises have shown to be an excellent proving ground to demonstrate' — Former HAD Program Manager, AFRL (homepage testimonial) → stage_pressure: their strongest defense reference is an exercise, from a program manager described as 'Former'",
+    "'Integrate with ease through well defined APIs and engineering support' (homepage) → deployment_awareness_absence: government back-end integration reduced to 'well defined APIs'",
+    "Open roles are 'Senior AI/ML Engineer - Reinforcement Learning', 'AI/ML Engineer - Reinforcement Learning', and one 'DevSecOps Engineer - Clearance' → hiring_profile_skew scored mid: the cleared DevSecOps hire is real evidence they feel the accreditation problem, but two of three open roles are model research",
+    "Latest site news is dated 9 December 2025 against a '© Copyright ©2024' footer, and headcount is ~24 → stage_pressure: small team, aging public surface, Phase II periods of performance running"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The product is sold as cloud AI-SaaS while the customers named in their own SBIR abstracts — SDA, JADC2, ABMS — operate on classified fabric where that delivery model is the gate, not the feature",
+      "operator_reality": "An SDA or ABMS mission thread runs on SIPR or higher. Getting CNTIENT there means an ATO on a network where the model cannot phone home, cannot pull telemetry from a commercial cloud, and cannot be retrained on live data. The 87%-per-operator saving was measured on the commercial side of that boundary; on the classified side the same software is a different program with a different accreditation owner and an 18-month clock. 'Request Access/Demo' is not a path a program office can follow.",
+      "why_likely_missing": "Their commercial constellation business (Terran Orbital and similar operators) works exactly as advertised over the open internet, so cloud delivery has never cost them a deal. The classified variant only becomes the whole project after the demonstration ends, which is precisely when the funded months run out.",
+      "evidence_quote": "By leveraging artificial intelligence, cloud computing, and deep operational expertise, Cognitive Space provides automated satellite operations that enable constellations to scale",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "A reinforcement-learning scheduler that beats a greedy heuristic by 4x has no stated explainability, repeatability, or manual-fallback story — and that is what an accrediting authority and an ops crew will ask for first",
+      "operator_reality": "A space operations crew commander cannot execute a collection or link-management plan they cannot explain to the mission director, and cannot accept a planner that produces a different answer on the same inputs. The question at the operational acceptance review is not 'how much better is it' but 'what does the crew do at 0300 when the plan looks wrong, and how do they revert.' Nothing in their language names a fallback mode, a determinism guarantee, or a human-approval step. A 4x benchmark does not survive that meeting.",
+      "why_likely_missing": "Both open engineering roles are reinforcement-learning positions, so the internal scoreboard is model performance against a baseline. Trust engineering — the deterministic replay, the audit trail, the degraded manual mode — is nobody's job title in a 24-person company.",
+      "evidence_quote": "Dynamically reschedule mission plans in near real-time",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Their own problem statement names downlink as the bottleneck, yet the architecture is a ground-based planner whose value depends on the very ground segment and links it cannot control",
+      "operator_reality": "If the constraint is 'Bottlenecks in data downlink' and 'Near real-time response requirements', then plan quality is capped by how fast a new plan reaches the vehicle. In a contested or degraded ground-station picture — the AFRL quote is explicitly about the oversubscribed AF Satellite Control Network — a planner sitting in a cloud produces optimal plans that arrive after the pass. The frame-rate lesson applies directly: the answer is decoupling planning from the uplink cadence and pushing autonomy on board, not making the ground-side optimizer smarter.",
+      "why_likely_missing": "They correctly diagnosed the bottleneck on their own homepage and then built the solution on the side of it that is easiest to sell as SaaS. Commercial operators with plentiful commercial ground networks never expose the failure; a contested tactical ISR timeline does.",
+      "evidence_quote": "Increasing complexity in payloads and taskability / Fast-growing constellations / Oversubscribed capacity / Near real-time response requirements / Bottlenecks in data downlink",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Your homepage lists 'bottlenecks in data downlink' as the problem and then quotes AFRL on the oversubscribed AF Satellite Control Network — which means CNTIENT's 87% operator saving is being measured on the side of the link that isn't the constraint.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "AI software (CNTIENT) that automates mission planning, tasking, and ground-pass scheduling across satellite constellations, sold to commercial imagery operators and to SDA/AFRL for ISR collection and mesh-network link management."
+}

@@ -327,63 +327,7 @@ Share
 SAN FRANCISCO--(BUSINESS WIRE)--TurbineOne announced today it has been awarded a five-year, IDIQ contract with a $98.9M ceiling from the U.S. Army to deliver and demonstrate its Frontline Perception System (FPS) as part of the Army’s Intelligence Enterprise modernization.
 
 With FPS, warfighters can
-- CONTRACT to TURBINEONE INC () https://www.usaspending.gov/award/CONT_AWD_W911QX25FA029_9700_W911QX25DA010_9700
-  CONTRACT to TURBINEONE INC | USAspending
-
-# Contract Summary
-
-- Copy link
-- Email
-- X (Twitter)
-- Facebook
-- LinkedIn
-- Reddit
-
-Share
-
----
-
-Download
-
-- Copy link
-- Email
-- X (Twitter)
-- Facebook
-- LinkedIn
-- Reddit
-
-Share
-
-## Delivery Order (DO)
-
-### PIID
-
-W911QX25FA029
-
-##### In Progress
-
-##### (9 months remain)
-
-Unlinked Award
-
----
-
-###### Awarding Agency
-
-##### Department of Defense (DOD)
-
-###### Recipient
-
-##### TURBINEONE INC
-
-563 18TH AVE
-
-SAN FRANCISCO, CA 94121-3110
-
-UNITED STATES
-
-Congr
-- TurbineOne Awarded Army Contract Through Joint Innovation Outpost (2026-04-16) https://www.businesswire.com/news/home/20260416363459/en/TurbineOne-Awarded-Army-Contract-Through-Joint-Innovation-Outpost
+- TurbineOne Awarded Army Contract Through Joint ... (2026-04-16) https://www.businesswire.com/news/home/20260416363459/en/TurbineOne-Awarded-Army-Contract-Through-Joint-Innovation-Outpost
   TurbineOne Awarded Army Contract Through Joint Innovation Outpost
 
 -
@@ -397,6 +341,18 @@ Share
 FORT BRAGG, N.C.--(BUSINESS WIRE)--TurbineOne announced the award of a new U.S. Army contract to accelerate the fielding of its Frontline Perception System (FPS). As an edge-first AI/ML platform, FPS enables automated object recognition and near real-time detection across multi-sensor feeds.
 
 “Through these hands-on evaluations, Soldiers validated
+- Army Awards TurbineOne Contract for AI-Powered Edge Target Recognition | Soldier Systems Daily Soldier Systems Daily (2025-09-05) https://soldiersystems.net/2025/09/05/army-awards-turbineone-contract-for-ai-powered-edge-target-recognition/
+  Army Awards TurbineOne Contract for AI-Powered Edge Target Recognition | Soldier Systems Daily Soldier Systems Daily
+
+Advertise
+
+---
+
+## Army Awards TurbineOne Contract for AI-Powered Edge Target Recognition
+
+SAN FRANCISCO–TurbineOne announced today it has been awarded a five-year, IDIQ contract with a $98.9M ceiling from the U.S. Army to deliver and demonstrate its Frontline Perception System (FPS) as part of the Army’s Intelligence Enterprise modernization.
+
+With FPS, warfighters can build, re
 
 ## Open roles (Blitz, live)
 - Field Engineering Manager ({'city': 'Washington', 'country_code': 'US'})

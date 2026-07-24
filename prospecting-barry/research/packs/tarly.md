@@ -274,14 +274,16 @@ Tarly is a secure AI platform for government acquisition defensibility. We want 
 # Press Releases
 
 WASHINGTON – U.S. Senators Roger Wicker, R-Miss., and Cindy Hyde-Smith, R-Miss., today praised a $96,851,697 U.S. Army contract award to Taylor Defense Products, LLC. of Louisville to support the Rough Terrain Container Handler (RTCH) Modernization program. The award follows a competitive process that selected Taylor Defense to modernize the Army’s existing machines, which are used to transfer 
-- Wicker, Hyde-Smith Announce $261.7 Million Army Contract To Louisville Company -... (2021-11-23) https://www.wicker.senate.gov/2021/11/wicker-hyde-smith-announce-261-7-million-army-contract-to-louisville-company
-  Wicker, Hyde-Smith Announce $261.7 Million Army Contract To Louisville Company -...
+- WICKER, HYDE-SMITH ANNOUNCE $261.7 MILLION ARMY CONTRACT TO LOUISVILLE COMPANY | Senator Cindy Hyde-Smith () https://www.hydesmith.senate.gov/wicker-hyde-smith-announce-2617-million-army-contract-louisville-company
+  WICKER, HYDE-SMITH ANNOUNCE $261.7 MILLION ARMY CONTRACT TO LOUISVILLE COMPANY | Senator Cindy Hyde-Smith
 
-# Press Releases
+Tuesday, November 23, 2021
 
-WASHINGTON – U.S. Senator Roger Wicker, R-Miss., and Cindy Hyde-Smith, R-Miss., today announced the award of a $261.7 million contract to Taylor Defense Products in Louisville to provide cranes for the U.S. Army.
+WICKER, HYDE-SMITH ANNOUNCE $261.7 MILLION ARMY CONTRACT TO LOUISVILLE COMPANY
 
-Taylor Defense won the competitive $261,753,327 firm fixed-price contract to produce commercial cranes with minor military modifications. The contract work is expected to extend throu
+Taylor Defense Products to Produce Commercial Cranes for U.S. Army Use
+
+WASHINGTON, D.C. – U.S. Senators Roger Wicker (R-Miss.) and Cindy Hyde-Smith (R-Miss.) today announced the award of a $261.7 million contract to Taylor Defense Products in Louisville to provide cranes for the U.S.
 - HYDE-SMITH ANNOUNCES NAVY CONTRACT FOR LOUISVILLE COMPANY | Senator Cindy Hyde-Smith () https://www.hydesmith.senate.gov/hyde-smith-announces-navy-contract-louisville-company
   HYDE-SMITH ANNOUNCES NAVY CONTRACT FOR LOUISVILLE COMPANY | Senator Cindy Hyde-Smith
 

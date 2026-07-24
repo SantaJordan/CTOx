@@ -287,11 +287,7 @@ Service members need head protection that goes beyond the impact protection prov
 - paxauris (2026-06-25) https://paxauris.com/
   # Paxauris (Paxauris LLC.)
 
-Paxauris is a Research Services company. Paxauris is a company that provides innovative hearing protection products. They offer patented fluid inflatable earplugs for industrial workers, military, shooting and hunting, swimming, and music and events. Paxauris employs 11 people (+37.5% YoY, +3 people), founded in 2016. Headquartered in phoenix, arizona, United States, with presence in Australia. Has $5M in total funding, with 3 prior funding rounds.
-
-## About
-
-Paxauris
+Paxauris is a Research Services company. Paxauris is a company that provides innovative hearing protection products. They offer patented fluid inflatable earplugs for industrial workers, military, shooting and hunting, swimming, and music and events. Paxauris employs 11 people (+37.5% YoY, +3 people), founded in 2016. Headquartered in phoenix, arizona, United States. Its workforce is distributed across United States and Australia. Has $5M in total funding, with 3 prio
 - Paxauris Profiled in TechConnect: Arizona’s Technology Magazine – Paxauris® () https://paxauris.com/paxauris-profiled-in-techconnect-arizonas-technology-magazine/
   Paxauris Profiled in TechConnect: Arizona’s Technology Magazine – Paxauris®
 

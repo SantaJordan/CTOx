@@ -196,7 +196,7 @@ bottom of page
 Augmented Sense Technologies develops ruggedized safety devices for harsh environments that save lives using Embedded AI.
 
 ## News (Exa, top 3)
-- $550000 Awarded to Advance Air Force Command and Control ... (2026-05-01) https://www.griffissinstitute.org/news/550000-awarded-to-advance-air-force-command-and-control-through-griffiss-institutes-hustle-defense-accelerator/
+- $550,000 Awarded to Advance Air Force Command and Control Through Griffiss Institute’s HUSTLE Defense Accelerator - Griffiss Institute (2026-05-01) https://www.griffissinstitute.org/news/550000-awarded-to-advance-air-force-command-and-control-through-griffiss-institutes-hustle-defense-accelerator/
   $550,000 Awarded to Advance Air Force Command and Control Through Griffiss Institute’s HUSTLE Defense Accelerator - Griffiss Institute
 
 # $550,000 Awarded to Advance Air Force Command and Control Through Griffiss Institute’s HUSTLE Defense Accelerator
@@ -204,17 +204,6 @@ Augmented Sense Technologies develops ruggedized safety devices for harsh enviro
 - May 1, 2026
 
 HUSTLE Cohort 5 Team – AugSense – pictured with a ceremonial check for $155,000 in funding. From left: Mayor Jeffery Lannigan, City of Rome; Ms. Heather Hage, President and CEO, Griffiss Institute; Mr. Bryce Randle, Co-Founder and C
-- $550,000 Awarded to Advance Air Force Command and Control Through Griffiss Institute’s HUSTLE Defense Accelerator () https://www.griffissinstitute.org/wp-content/uploads/2026/05/HUSTLE-Pitch-Day-Cohort-5-Press-Release.pdf
-  592 Hangar Road Suite 200 Rome, NY 13441 griffissinstitute.org
-
-### FOR IMMEDIATE RELEASE
-
-## $550,000 Awarded to Advance Air Force Command and Control Through Griffiss Institute’s HUSTLE Defense Accelerator
-
-HUSTLE Cohort 5 Team – AugSense – pictured with a ceremonial check for $155,000 in 
-funding. From left: Mayor Jeffery Lannigan, City of Rome; Ms. Heather Hage, President and 
-CEO, Griffiss Institute; Mr. Bryce Randle, Co-Founder and CEO, AugSense; Mr. Anant 
-Singh, Co-Founder and President,
 - Colorado AI company wins fifth HUSTLE in Rome | News | romesentinel.com (2026-05-02) https://www.romesentinel.com/news/rome-griffiss-institute-hustle-winner/article_30b2372a-a09f-4319-8e36-f11f0b46afc8.html
   Colorado AI company wins fifth HUSTLE in Rome | News | romesentinel.com
 
@@ -233,6 +222,17 @@ AugSense of Colorado won $155,000 as part of the Cohort 5 of the HUSTLE Accelera
 Photo submitted by Griffiss Institute
 
 ROME — An AI company from Colorado is the grand prize winner of $155,000 in the latest HUSTLE Defense Tech Accelerator, hosted b
+- $550,000 Awarded to Advance Air Force Command and Control Through Griffiss Institute’s HUSTLE Defense Accelerator () https://www.griffissinstitute.org/wp-content/uploads/2026/05/HUSTLE-Pitch-Day-Cohort-5-Press-Release.pdf
+  592 Hangar Road Suite 200 Rome, NY 13441 griffissinstitute.org
+
+### FOR IMMEDIATE RELEASE
+
+## $550,000 Awarded to Advance Air Force Command and Control Through Griffiss Institute’s HUSTLE Defense Accelerator
+
+HUSTLE Cohort 5 Team – AugSense – pictured with a ceremonial check for $155,000 in 
+funding. From left: Mayor Jeffery Lannigan, City of Rome; Ms. Heather Hage, President and 
+CEO, Griffiss Institute; Mr. Bryce Randle, Co-Founder and CEO, AugSense; Mr. Anant 
+Singh, Co-Founder and President,
 
 ## Open roles
 (no jobs data found)

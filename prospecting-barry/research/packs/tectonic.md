@@ -386,15 +386,7 @@ They can't read it yet. But quantum computers will change that. Every month you 
 Tectonic builds quantum-secure defense technology, translating cutting-edge cryptographic research into deployable systems that protect blockchains, financial networks, and national infrastructure. Built in the U.S. and part of the BlackFlag.vc program, Tectonic is backed by leading national security investors and led by a team of cryptographers, engineers, and founders from Google, IBM, MIT, Berkeley, and Coinbase.
 
 ## News (Exa, top 3)
-- Exclusive: Firestorm Snags $30M APFIT Contract (2026-05-07) https://www.tectonicdefense.com/exclusive-firestorm-snags-30m-apfit-contract/
-  Exclusive: Firestorm Snags $30M APFIT Contract
-
-A Firestorm xCell being loaded onto a C-130. Image: Firestorm.
-
-You know what they say: When it rains, it pours. And it turns out that holds true whether it’s a thunderstorm or a Firestorm. (Bada-bing!)
-
-Fresh off an $82M Series B last week, the 3D-printed drone and mobile manufacturing hotshot announced in an exclusive release to Tectonic this morning that it has secured a $30M APFIT contract (boostable to $50M) to deliver drones and the container
-- Exclusive: DEFCON AI Secures $115M Software Integration Contract with the Marines (2026-06-10) https://www.tectonicdefense.com/exclusive-defcon-ai-secures-115m-software-integration-contract-with-the-marines/
+- Exclusive: DEFCON AI Secures $115M Software Integration Contract with ... (2026-06-10) https://www.tectonicdefense.com/exclusive-defcon-ai-secures-115m-software-integration-contract-with-the-marines/
   Exclusive: DEFCON AI Secures $115M Software Integration Contract with the Marines
 
 Image: US Marine Corps
@@ -402,18 +394,24 @@ Image: US Marine Corps
 In case Operation Jailbreak, ongoing NGC2 exercises, and the Pentagon’s all-encompassing Joint All-Domain Command and Control (JADC2) initiative didn’t give it away, integration is quickly becoming the word of the year in the defense world.
 
 Logistics is one of the areas where the whole “making sure all this new software coming onto the scene works together so we can get things where they n
-- Pentagon Awards $86M in OTAs for Laser Weapons (2026-07-10) https://www.tectonicdefense.com/pentagon-awards-86m-in-otas-for-laser-weapons/
-  Pentagon Awards $86M in OTAs for Laser Weapons
+- Exclusive: Adyton Raises $11M, Scores a $7M Navy Contract (2025-05-15) https://www.tectonicdefense.com/exclusive-adyton-raises-11m-scores-a-7m-navy-contract/
+  Exclusive: Adyton Raises $11M, Scores a $7M Navy Contract
 
-Image: Lockheed Martin
+Remember when we said that some of the most cutting-edge defense tech isn’t necessarily the flying, sexy stuff? Well, we’re back to prove our point.
 
-Pew-pew, baby. Laser weapons are here to stay.
+This morning, military operations software company Adyton announced to Tectonic in an exclusive release that they’ve received $11M in funding led by Venrock, with participation from Khosla Ventures, Liquid 2 Ventures, Alumni Ventures, Initialized Capital, Kindred Ventures, and Leblon Capita
+- Tectonic-3D has been awarded a contract by the Dutch Ministry of ... () https://tectonic-3d.com/news/tectonic-3d-has-been-awarded-a-contract-by-the-dutch-ministry-of-defense
+  Tectonic-3D has been awarded a contract by the Dutch Ministry of Defense | Tectonic 3D News
 
-Yesterday, the Pentagon announced that it’s awarded two OTAs to nLIGHT Defense and Lockheed Martin Aculight to develop laser weapons systems to “advance the United States’ next-generation cruise missile and unmanned aerial system (UAS) defense architecture.”
+Back to News
 
-The combined awards have an initial contract value of $86M with a program ceiling of $847M.
+# Tectonic-3D has been awarded a contract by the Dutch Ministry of Defense
 
-- FWIW: nLight said in a st
+We'll demonstrate a new line of ultra-strong filaments, engineered to produce high demanding with desktop 3D printers.
+
+We're excited to share that Tectonic-3D has been awarded a contract by the Dutch Ministry of Defense!
+
+By November this year, we will demonstrate a brand-new line of ultra-strong filaments, enginee
 
 ## Open roles
 (no jobs data found)

@@ -1,0 +1,16 @@
+{
+  "company": "MORSECORP, INC",
+  "slug": "morsecorp-inc",
+  "domain": "morsecorp.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "MORSE Corp was awarded a $48,054,384 US Army OTA (Aug 2025) for long-range autonomous aircraft in GPS-denied A2/AD environments, plus two SOCOM SBIR Phase II awards (2022, 2023) — per News and SBIR/STTR sections.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "193-person employee-owned defense R&D firm (Mission Oriented Rapid Solution Engineering) building AI/ML, mission planning, and autonomous UAS systems for SOCOM and the Army, now with a $48M OTA for GPS-denied long-range autonomous aircraft."
+}

@@ -1,0 +1,16 @@
+{
+  "company": "Sema4.ai",
+  "slug": "sema4-ai",
+  "domain": "sema4.ai",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "Own-words section is entirely commercial back-office AI agents (invoice reconciliation, AP help desk, receivables matching); no DoD/military/warfighter language, no SBIR, no defense contract news anywhere in the pack.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "series_a",
+  "what_they_do": "Enterprise AI agent platform automating finance/back-office workflows (AP, invoice reconciliation, receivables) for commercial companies."
+}

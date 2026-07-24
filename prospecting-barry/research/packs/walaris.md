@@ -203,6 +203,10 @@ March 9, 2026
 Calculating
 
 ##### Show Quick Stats (See Federal Award Analysis for Full Details)
+- Walaris GmbH Develops AI-Driven Counter-Drone Systems (2026-02-02) https://www.linkedin.com/posts/defence-finance-monitor_walaris-gmbh-strategic-technologies-for-activity-7424164322399895553-HBGj
+  # Walaris GmbH is a Germany-based deep-tech company developing AI-driven perimeter surveillance and counter-drone systems built around edge-based sensor fusion. Its AirScout platform combines computer vision, radar and electro-optical inputs to autonomously detect, … | Defence Finance Monitor · LinkedIn · 2026-02-02
+
+**Defence Finance Monitor**: Defence Finance Monitor - Analysis is a publication that maps NATO and European Union strategic priorities to identify relevant technologies and compani
 - Walaris - 2026 Company Profile, Team, Funding & ... (2023-02-14) https://tracxn.com/d/companies/walaris/__2_vlWCFv3sw6DJ-N9dwDOiXMptJvaTTyuN127MJ819A
   Walaris - 2026 Company Profile, Team, Funding & Competitors - Tracxn
 
@@ -221,10 +225,6 @@ Copy Url
 ## Walaris - About the company
 
 Walaris
-- Walaris GmbH Develops AI-Driven Counter-Drone Systems (2026-02-02) https://www.linkedin.com/posts/defence-finance-monitor_walaris-gmbh-strategic-technologies-for-activity-7424164322399895553-HBGj
-  # Walaris GmbH is a Germany-based deep-tech company developing AI-driven perimeter surveillance and counter-drone systems built around edge-based sensor fusion. Its AirScout platform combines computer vision, radar and electro-optical inputs to autonomously detect, … | Defence Finance Monitor · LinkedIn · 2026-02-02
-
-**Defence Finance Monitor**: Defence Finance Monitor - Analysis is a publication that maps NATO and European Union strategic priorities to identify relevant technologies and compani
 
 ## Open roles (Blitz, live)
 - Software Engineer ({'city': 'Nuremberg', 'country_code': 'DE'})

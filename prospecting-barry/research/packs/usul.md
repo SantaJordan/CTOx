@@ -253,42 +253,25 @@ We're
 Sit around any defense tech conference long enough, and the industry’s main gripe will become abundantly clear: the Pentagon is a byzantine labyrinth, and the government is, well, a pain in the ass to work with.
 
 Turns out one company may have finally found a solution. This morning, software startup Usul—born out of Stanford’s Hacking for Defense course and Y-Combinator—announced a $3.3M seed funding round, led by Scout Ventur
-- Usul: Funding, Team & Investors (2026-04-15) https://startupintros.com/orgs/usul
-  Usul: Funding, Team & Investors | Startup Intros
+- Usul - AI Partner For Winning Government Contracts () https://usul.com/
+  Book a demo
 
-Skip to content
+# Where government contracts are won
 
-Loading organizations...
+Today's top government contractors trust Usul's AI platform to compete smarter and win bigger across every market.
 
-## Financial History
+See Usul in action
 
-Usul has raised $3.0M across 1 funding round.
+Contract Inbox
 
-Raised
+Forecasts
 
-$3.0M
+Teaming
 
-1 funding round
+Market Maps
 
-## Leadership Team
-
-3 people
-
-Key people at Usul.
-
-JRJarren ReidFounder
-
-OGOliver GomezFounder
-
-JLJoonghyun LeeFounder
-
-## Frequently Asked Questions
-
-Who founded Usul?
-
-Usul was founded in 2024 by Jarren Reid (Founder) and Oliver Gomez (Founder) and Joonghyun Lee (Founder).
-
-How much funding has Usul rai
+- Our AI matches every contract against your capabilities and relationships making sure no contract is ever missed again. Say goodbye to keyword search. Learn more Automatically identify opportunities
+- Surface every expiring contract and upcoming opportunity 2-5 
 
 ## Open roles (Blitz, live)
 - Founding Growth Marketer / GTM Engineer ({'city': 'San Francisco', 'country_code': 'US'})

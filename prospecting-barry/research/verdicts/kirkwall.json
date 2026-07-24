@@ -1,0 +1,26 @@
+{
+  "company": "Kirkwall",
+  "slug": "kirkwall",
+  "domain": "kirkwall.io",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "No qualifying evidence in the pack. The signals present are all marketing-adjacent: an about-page title reading 'ABOUT | Kirkwall Defense', a CEO bio saying he 'leads the company's mission to safeguard critical infrastructure across agriculture, defense, and manufacturing', and a blog post 'Reflections from SOFWeek 2025' (conference attendance, not a SOFWERX engagement). No SBIR award, no contract record, no named military customer, no DIU/AFWERX/SOFWERX/NSIN program. The channel-note claim of a DOE CESER subcontract is (a) unverified in the pack and (b) Department of Energy, not DoD. All three Exa news hits are name collisions with Kirkwall, Orkney, Scotland (an airport DVOR contract and a care facility).",
+  "disconnect_score": 0,
+  "subscores": {
+    "lab_language_intensity": 0,
+    "deployment_awareness_absence": 0,
+    "operator_absence": 0,
+    "hiring_profile_skew": 0,
+    "stage_pressure": 0
+  },
+  "score_evidence": [
+    "Every market they name on the homepage is civilian: 'Manufacturing, Heavy Industry, Energy & Fuels Sector, Municipal Water Facilities, Agricultural Co-ops, Datacenters, Biomedical Facilities'",
+    "Their only published case study is commercial biotech cold-chain monitoring: 'Kirkwall prevented the loss of four years' worth of archived cancer research samples, DNA, and reagents on day one'",
+    "A former-CIA founder and a security engineer 'driving initiatives around CMMC' establish defense literacy, not defense motion — CMMC readiness is a prerequisite companies pursue before any DoD work exists"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "SaaS platform (Overwatch) that aggregates sensor data from industrial and critical-infrastructure equipment and alerts operators to anomalies within 30 seconds."
+}

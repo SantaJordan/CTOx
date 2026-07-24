@@ -276,7 +276,7 @@ Organizations are incr
 Manifest is a leader in AI and software supply chain security, empowering federal agencies, regulators, and Fortune 500 leaders across healthcare, automotive, and defense. Our platform uncovers hidden software supply chain risks, enabling customers to confidently detect and manage threats at scale. From national security to public health, we enable trusted operations where the stakes are highest.
 
 ## News (Exa, top 3)
-- Manifest's Flagship SBOM Capability Awarded $1.8M Air ... (2024-02-13) https://www.prnewswire.com/news-releases/manifests-flagship-sbom-capability-awarded-1-8m-air-force-contract-302060833.html
+- Manifest's Flagship SBOM Capability Awarded $1.8M Air Force Contract (2024-02-13) https://www.prnewswire.com/news-releases/manifests-flagship-sbom-capability-awarded-1-8m-air-force-contract-302060833.html
   Manifest's Flagship SBOM Capability Awarded $1.8M Air Force Contract[Accessibility Statement](https://www.cision.com/about/accessibility/)[Skip Navigation](#main)
 # Manifest's Flagship SBOM Capability Awarded $1.8M Air Force Contract
 [![(PRNewsfoto/Manifest Cyber, Inc.)]( "(PRNewsfoto/Manifest Cyber, Inc.)")](#)

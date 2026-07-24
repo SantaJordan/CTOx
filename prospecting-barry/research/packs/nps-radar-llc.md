@@ -335,6 +335,10 @@ Neural Propulsion Systems, Inc
 Founded in 2018 by Silicon Valley experts, NPS is a pioneer in next‑generation radar operating systems, delivering crystal‑clear visibility for mission‑critical defense applications. Its flagship product, Hyper‑Definition Radar Operating System (HROS), is an advanced radar solution that uses AI‑powered, patented mathematical frameworks to deliver unmatched clarity and responsiveness at a practical cost for large‑scale deployment. HROS currently supports multiple defense scenarios that rely on early threat detection and minimal false positives, giving military teams the awareness, confidence, a
 
 ## News (Exa, top 3)
+- NPS Completes $17.5M Series B Funding for Software-Defined Radar Led by Cota Capital with Key Strategic Investment from GM Ventures and RTX Ventures (2024-03-07) https://www.prnewswire.com/news-releases/nps-completes-17-5m-series-b-funding-for-software-defined-radar-led-by-cota-capital-with-key-strategic-investment-from-gm-ventures-and-rtx-ventures-302082398.html
+  NPS Completes $17.5M Series B Funding for Software-Defined Radar Led by Cota Capital with Key Strategic Investment from GM Ventures and RTX Ventures Accessibility Statement Skip Navigation
+
+PLEASANTON, Calif., March 7, 2024 /PRNewswire/ -- Neural Propulsion Systems (NPS), a pioneer in software-defined radar, today announced it secured a $17.5 million Series B funding round. The round is led by Cota Capital with contributions from GM Ventures, the venture capital arm of General Motors Co. (NYSE: 
 - Neural Propulsion Systems Secures Series B Strategic Investment from Raytheon Technologies - NPS (2023-03-02) https://nps.ai/neural-propulsion-systems-secures-series-b-strategic-investment-from-raytheon-technologies/
   Neural Propulsion Systems Secures Series B Strategic Investment from Raytheon Technologies - NPS
 
@@ -345,10 +349,6 @@ Founded in 2018 by Silicon Valley experts, NPS is a pioneer in next‑generation
 Funding Will Enable NPS to Advance New Hyper-Resolution Digital Imaging Radar Technology
 
 PLEASANTON, Calif. – March 2, 2023 – Neural Propulsion Systems (NPS), a pioneer in hyper-resolution digital imaging radar technology, today announced a new Series B strategic investment by RTX Ventures, t
-- NPS Completes $17.5M Series B Funding for Software-Defined ... (2024-03-07) https://www.prnewswire.com/news-releases/nps-completes-17-5m-series-b-funding-for-software-defined-radar-led-by-cota-capital-with-key-strategic-investment-from-gm-ventures-and-rtx-ventures-302082398.html
-  NPS Completes $17.5M Series B Funding for Software-Defined Radar Led by Cota Capital with Key Strategic Investment from GM Ventures and RTX Ventures Accessibility Statement Skip Navigation
-
-PLEASANTON, Calif., March 7, 2024 /PRNewswire/ -- Neural Propulsion Systems (NPS), a pioneer in software-defined radar, today announced it secured a $17.5 million Series B funding round. The round is led by Cota Capital with contributions from GM Ventures, the venture capital arm of General Motors Co. (NYSE: 
 - Raytheon Technologies Invests In Hyper-Resolution Radar Company - Defense Daily (2023-03-02) https://www.defensedaily.com/raytheon-technologies-invests-in-hyper-resolution-radar-company/advanced-transformational-technology/
   Raytheon Technologies Invests In Hyper-Resolution Radar Company - Defense Daily
 

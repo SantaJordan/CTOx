@@ -152,10 +152,28 @@ Back to feed
 ● Aug 2025
 
 Four Charleston tech startups received over $150k in funding from the South Carolina Research Authority. The recipients include Qatalyst Health, Tikvah Health and Wellness, Realize Ascent Labs, and Ripple Two. Qatalyst Health and Ripple Two each received a $50k Acceleration Grant, while Realize Ascent Labs received a $25k Academic Startup Grant. These grants support the tech, l
-- Contract Vehicles - Ripple Effect () https://rippleeffect.com/contractvehicles/
-  Contract Vehicles | Ripple Effect
+- Ripple Effect beats out 10 to win $18M NIH National Library of Medicine LHNBC Data Science and Biomedical Informatics Research Support Services contract | OrangeSlices AI () https://orangeslices.ai/ripple-effect-beats-out-10-to-win-18m-nih-national-library-of-medicine-lhnbc-data-science-and-biomedical-informatics-research-support-services-contract/
+  Ripple Effect beats out 10 to win $18M NIH National Library of Medicine LHNBC Data Science and Biomedical Informatics Research Support Services contract | OrangeSlices AI
 
-The Federal Government is our largest customer, and we have worked to provide a set of diversified contract vehicles as mechanisms through which capabilities and services can be acquired. Through our Government-Wide Acquisition Contract (GWAC), General Services Administration (GSA) Federal Supply Schedules (FSS), and agency-specific Indefinite-Delivery, Indefinite-Quantity (IDIQ) contracts that we have been awarded as a prime and subcontractor, we are able to o
+- Opportunities Home
+- FY2027 Expiring Tasks
+- FY2026 Expiring Tasks
+- Expiring Tasks in 2026
+- Contract Termination Reports
+- 🍊OS PBC Insider: Forecasts
+- 🍊OS PBC Insider: Solicitations
+
+Department of Defense
+
+- Defense Health Agency
+- US Air Force
+- US Army
+- US Navy
+
+Federal Citizen Services
+
+- Department of Commerce
+- Depa
 - Ripple Effect Communications awarded $100M NIH Consulting and Training Services BPA | OrangeSlices AI () https://orangeslices.ai/ripple-effect-communications-awarded-100m-nih-consulting-and-training-services-bpa/
   Ripple Effect Communications awarded $100M NIH Consulting and Training Services BPA | OrangeSlices AI
 

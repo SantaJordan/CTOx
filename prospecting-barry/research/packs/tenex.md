@@ -3,7 +3,7 @@ slug: tenex | domain: tenex.ai | HQ: Sarasota, Florida US | employees(LI): 145 |
 sources: vc:shield
 industry(LI): Technology, Information and Internet | specialties: 
 channel notes: AI-powered security operations
-own-language word count: ~1403
+own-language word count: ~1365
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -166,13 +166,13 @@ Please enable JavaScript in your browser to complete this form.
 
 TB Needed
 
+TB Needed
+
 #### 25TB
 
 ###### $99,000
 
 Essential AI-Native MDR
-
-Needed TB
 
 #### 50TB
 
@@ -237,6 +237,8 @@ READ MORE ABOUT TENEX
 
 ## News and Industry Insight
 
+https://tenex.ai/blog/google-ai-threat-defense/
+
 - 2026-05-27
 
 - Blog
@@ -246,6 +248,8 @@ READ MORE ABOUT TENEX
 https://tenex.ai/blog/google-ai-threat-defense/
 
 Read More
+
+https://tenex.ai/blog/defend/
 
 - 2026-04-08
 
@@ -257,6 +261,8 @@ https://tenex.ai/blog/defend/
 
 Read More
 
+https://tenex.ai/blog/emea-piers-morgan/
+
 - 2026-04-07
 
 - Blog
@@ -266,6 +272,8 @@ Read More
 https://tenex.ai/blog/emea-piers-morgan/
 
 Read More
+
+https://tenex.ai/news/extrahop-launches-the-agentic-soc-alliance-to-validate-ashared-operating-model-for-machine-speed-defense/
 
 - 2026-07-22
 
@@ -277,6 +285,8 @@ https://tenex.ai/news/extrahop-launches-the-agentic-soc-alliance-to-validate-ash
 
 Read More
 
+https://tenex.ai/news/microsoft/
+
 - 2026-07-08
 
 - Press Releases
@@ -286,6 +296,8 @@ Read More
 https://tenex.ai/news/microsoft/
 
 Read More
+
+https://tenex.ai/news/official-cybersecurity-partner-of-the-kansas-city-chiefs/
 
 - 2026-06-17
 
@@ -323,19 +335,7 @@ Explore TENEX
 
 Diverse Sector Coverage
 
-### Tailored Cybersecurity for Every Industry
-
-Finance
-
-### Finance
-
-TENEX delivers advanced cyber security solutions to safeguard financial transactions, prevent fraud, and ensure regulatory compliance, keeping your customer's trust intact.
-
-Healthcare
-
-### Healthcare
-
-Our HIPAA-compliant solutions secure sensitive healthcare data, shield systems from breaches and ensure unint
+### Tailored C
 
 URL: https://tenex.ai/about-us/
 About Tenex | Innovators in Cybersecurity Solutions
@@ -469,19 +469,6 @@ TENEX is the first AI-native, human-led MDR powered by AI SOC.  Backed by 24/7 U
 ## News (Exa, top 3)
 - CONTRACT to TENAX AEROSPACE LLC () https://www.usaspending.gov/award/CONT_AWD_1202SA23K9410_12C2_1202SA23T9450_12C2
   USAspending.gov
-- Company () https://tenaxaerospace.com/news.html
-  Company | Tenax Aerospace
-[![Tenax Aerospace](images/logo.png)](index.html)
-# Company
-Who We Are
-**NEWS, PRESS & RECOGNITION**
-## What's New at Tenax Aerospace
-**01.08.24
-## [TENAX AEROSPACE AWARDED AIRCRAFT SUPPORT CONTRACT
-Tenax Aerospace is proud to announce its recent aerial firefighting contract award with the United States Forest Service.
-[Read More**](news-tenax-awarded-aircraft-support-contract.html)
-**08.10.23
-## [TENAX AEROSPACE PROUDLY WELCOMES U.S. SENATOR ROGER WICKER TO ITS MISSISS
 - Ammunition - Ammunition Tender in USA, ID 11508885 | Tender Impulse () https://tenderimpulse.com/government-tenders/usa/ammunition-11508885
   Ammunition - Ammunition Tender in USA, ID 11508885 | Tender Impulse
 
@@ -491,6 +478,8 @@ Tenax Aerospace is proud to announce its recent aerial firefighting contract awa
 # Ammunition - 11508885
 
 This tender is from the country of USA in Americas region. The tender was published by DEPT OF DEFENSE on 20 Feb 2026 for Reason for amendment is to extend solicitation Cartridge 22 Cal Eley Tenex. The last date to submit your bid for this tender was 20 Feb 2026. This tender is for the companies specializing in Ammunition and similar
+- TENAX AEROSPACE LLC | Federal Award Recipient Profile () https://www.usaspending.gov/recipient/1ee6edf8-2db3-d98f-9f0a-a86b2b9f0821-C/latest
+  USAspending.gov
 
 ## Open roles (Blitz, live)
 - Sales Operations Associate-EMEA ({'city': None, 'country_code': 'GB'})

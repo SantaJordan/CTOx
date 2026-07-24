@@ -178,50 +178,6 @@ Nimbis Services is a trusted name in collaborative, secure cloud computing. Foun
 Secure Collaborative Artificial Intelligence Ecosystem effort builds upon the TSS-DTE cloud platform to enhance the current data management and repository solution to address business challenges and security issues associated with data transfer and storage of information within a collaborative environment. By optimizing the TSS data management and repository capabilities, it will alleviate the business challenges to exchange innovative ideas and research with government entities. In addition, it will address the challenge of creating automated workflows to manage data and information and support data retention, archiving, and provenance. Enhancements to the TSS trusted cloud ecosystem will be made to address the requirements of this proposal. Approved for Public Release | 22-MDA-11102 (22 Mar 22)
 
 ## News (Exa, top 3)
-- Air Force Award | 47QFLA20D0013 | FEDERATED CLOUD-BASED QUANTITATIVE ASSURANCE ECOSYSTEM () https://www.federalcompass.com/award-contract-detail/47QFLA20D0013
-  Air Force Award | 47QFLA20D0013 | FEDERATED CLOUD-BASED QUANTITATIVE ASSURANCE ECOSYSTEM
-
-# 47QFLA20D0013 - FEDERATED CLOUD-BASED QUANTITATIVE ASSURANCE ECOSY...
-
-##### Federal Contract Award Search » IDC Award
-
-This IDC contract for IT Outsourcing, Aerospace & Defense Research and Development was awarded in FY2020 on Aug 12, 2020 to Nimbis Services Inc by Spectrum Warfare Division (RYW). There have been $36.7M in obligations to date with a ceiling value of $200M, showing a 18% burn rate so far 
-- Award | SBIR () https://www.sbir.gov/awards/198344
-  Award | SBIR Skip to main content
-
-# Award
-
-Portfolio Data
-
-Back to Award Search
-
-## Foundry Assurance Modeling & Experiments for Radiation Hardened (FAME-RH) Applications
-
-### Awardee
-
-#### NIMBIS SERVICES INC
-
-https://www.sbir.gov/portfolio/13552 1846 E INNOVATION PARK DR STE 200ORO VALLEY, AZ, 85755-1963USA
-
-Award Year: 2022
-
-UEI: HVBUF4XSR8K7
-
-HUBZone Owned: No
-
-Woman Owned: No
-
-Socially and Economically Disadvantaged: No
-
-Congressional District: 1
-
-Tagged as:
-
-SBIR
-
-Phase II
-
-### Awarding A
 - Award | SBIR () https://www.sbir.gov/awards/195535
   Award | SBIR Skip to main content
 
@@ -266,6 +222,50 @@ Branch: MDA
 Total Award Amount: $1,698,837
 
 Cont
+- Air Force Award | 47QFLA20D0013 | FEDERATED CLOUD-BASED QUANTITATIVE ASSURANCE ECOSYSTEM () https://www.federalcompass.com/award-contract-detail/47QFLA20D0013
+  Air Force Award | 47QFLA20D0013 | FEDERATED CLOUD-BASED QUANTITATIVE ASSURANCE ECOSYSTEM
+
+# 47QFLA20D0013 - FEDERATED CLOUD-BASED QUANTITATIVE ASSURANCE ECOSY...
+
+##### Federal Contract Award Search » IDC Award
+
+This IDC contract for IT Outsourcing, Aerospace & Defense Research and Development was awarded in FY2020 on Aug 12, 2020 to Nimbis Services Inc by Spectrum Warfare Division (RYW). There have been $36.7M in obligations to date with a ceiling value of $200M, showing a 18% burn rate so far 
+- Award | SBIR () https://www.sbir.gov/awards/198344
+  Award | SBIR Skip to main content
+
+# Award
+
+Portfolio Data
+
+Back to Award Search
+
+## Foundry Assurance Modeling & Experiments for Radiation Hardened (FAME-RH) Applications
+
+### Awardee
+
+#### NIMBIS SERVICES INC
+
+https://www.sbir.gov/portfolio/13552 1846 E INNOVATION PARK DR STE 200ORO VALLEY, AZ, 85755-1963USA
+
+Award Year: 2022
+
+UEI: HVBUF4XSR8K7
+
+HUBZone Owned: No
+
+Woman Owned: No
+
+Socially and Economically Disadvantaged: No
+
+Congressional District: 1
+
+Tagged as:
+
+SBIR
+
+Phase II
+
+### Awarding A
 
 ## Open roles
 (no jobs data found)

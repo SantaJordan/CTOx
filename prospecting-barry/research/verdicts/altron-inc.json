@@ -1,0 +1,17 @@
+{
+  "company": "ALTRON, INC.",
+  "slug": "altron-inc",
+  "domain": "altroninc.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "Own site: 25+ years supporting the U.S. Navy and Department of State, prime on SeaPort NxG, multiple Navy SBIR Phase IIs for UnifyRT — motion is real but the company is a services firm.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "25-year federal IT services and engineering firm (Navy combat-system support, DoJ, State Dept passport processing) with a side product line (UnifyRT logging/analytics).",
+  "notes": "Industry: IT Services and IT Consulting. Core business is program support, professional services, and passport-center operations under SeaPort NxG and GSA MAS — a services/SI profile, not a product startup stuck in the valley. They are also ecosystem-fluent (ISO 9001, CMMI-DEV/3, 'secure, real-time' combat systems IT&C — their SBIR is literally about fielding certification), so no disconnect to sell into. Recurring Navy SBIR Phase I/IIs (2022, 2024, 2025 x2) on top of a services base edges toward sbir_mill as a secondary reason."
+}

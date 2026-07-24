@@ -1,0 +1,16 @@
+{
+  "company": "VIDTERRA LLC",
+  "slug": "vidterra-llc",
+  "domain": "vidterra.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Own-words homepage timeline: COMPASS 'Operational since 2020... in production today across U.S. special operations, conventional forces, federal law enforcement, allied partners' including JSOC, Naval Special Warfare, USSOCOM TACLAN Program of Record, UK MoD, and acquired by NTS in 2025 — deep, sustained DoD motion.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "COMPASS, an ISR video distribution/normalization product that has been in production for six years across USSOCOM, JSOC, allied SOF, and federal law enforcement, with an active Program of Record and a 2025 acquisition by NTS — already fielded at scale, past the valley of death."
+}

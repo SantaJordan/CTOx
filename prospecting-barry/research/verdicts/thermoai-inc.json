@@ -1,0 +1,38 @@
+{
+  "company": "ThermoAI Inc.",
+  "slug": "thermoai-inc",
+  "domain": "thermoai.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own-language homepage states 'We develop advanced AI software for defense and industrial clients,' backed by an Air Force SBIR Phase II ($1,197,907, 2023) for the WINGMAN product ('AI Cross-validation of IoT systems to increase Accuracy, Trust, and Mission Readiness') and a 2022 win of the HUSTLE Defense Accelerator Demo Day at Griffiss Institute.",
+  "disconnect_score": 75,
+  "subscores": {"lab_language_intensity": 15, "deployment_awareness_absence": 16, "operator_absence": 16, "hiring_profile_skew": 10, "stage_pressure": 18},
+  "score_evidence": [
+    "'TURN DATA IN A DECISIVE ADVANTAGE' / 'Empowering Defense and Industry with Trustworthy AI Solutions' → lab_language_intensity (vision/marketing language with no operational grounding)",
+    "'Leveraging advanced cyber-physical systems (CPS) and clustering machine learning can crosscheck signals in Internet of Things (IoT) systems that control critical infrastructure, autonomous vehicles, and C4ISR control systems' — detailed product description, zero DDIL/ATO/RMF/CMMC/ITAR mention → deployment_awareness_absence",
+    "'allowing operators to understand how AI systems arrived at their decisions' is the only operator mention across ~1100 words; no training, CONOPS, or field feedback discussed → operator_absence",
+    "No jobs data in pack ('Open roles: (no jobs data found)') → hiring_profile_skew set exactly 10 per instructions",
+    "Founded 2018, still 3 employees, single Air Force SBIR Phase II ($1.2M, 2023) as primary evidenced funding, described in 2022 press as a 'seed stage startup' → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "WINGMAN cross-validates IoT signals inside C4ISR control systems with zero mention of DDIL",
+     "operator_reality": "If WINGMAN's cross-validation layer sits on a C4ISR network monitoring autonomous vehicles and critical infrastructure, the canonical failure mode applies: an architecture built assuming continuous signal correlation across sensors will misbehave the moment the network is denied, degraded, or intermittent — exactly the environment C4ISR systems operate in during contested operations.",
+     "why_likely_missing": "The product page frames the value entirely around trust/explainability/cyberattack-defensibility, never around the comms environment the cross-validation signals travel over.",
+     "evidence_quote": "'Leveraging advanced cyber-physical systems (CPS) and clustering machine learning can crosscheck signals in Internet of Things (IoT) systems that control critical infrastructure, autonomous vehicles, and C4ISR control systems- increasing accuracy, trust, and mission readiness.'",
+     "quote_source": "homepage"},
+    {"blind_spot": "'Installed in a day, with no equipment downtime' claim has no accompanying sustainment or operator-training story",
+     "operator_reality": "A fast install is not the same as a supported system — someone has to interpret WINGMAN's explainability outputs in the field and know what to do when it flags a sensor conflict; that person, their training, and who fixes it when it breaks is never addressed.",
+     "why_likely_missing": "Marketing emphasizes ease of adoption (install speed, no downtime) as the sales hook, which is a pre-sale concern, not a post-fielding sustainment plan.",
+     "evidence_quote": "'Our Trusted AI solution can be installed in a day, with no equipment downtime, and increases the resilience of the existing IoT system.'",
+     "quote_source": "homepage"},
+    {"blind_spot": "FuelSim simulates jet fuel performance in Air Force engines via digital twin with no ITAR/export-control or ATO language",
+     "operator_reality": "A digital twin trained on Air Force jet engine performance and fuel contamination data is exactly the kind of technical data that triggers export-control and government-network accreditation requirements — a 3-person company with no visible compliance hire is likely to hit this wall before FuelSim moves past demo.",
+     "why_likely_missing": "The product description is entirely about technical capability (contamination detection, fuel-waste reduction) with no acknowledgment of the data-handling requirements that come with Air Force engine telemetry.",
+     "evidence_quote": "'Leveraging artificial intelligence and digital twin technology can simulate the performance of different jet fuels in Air Force jet engines.'",
+     "quote_source": "homepage"}
+  ],
+  "opener_hook": "ThermoAI's WINGMAN cross-validates IoT signals in C4ISR control systems under a $1.2M Air Force SBIR Phase II awarded in 2023.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Small AI startup building trust/cross-validation software for defense IoT/C4ISR systems (WINGMAN), industrial combustion optimization, and Air Force jet fuel simulation (FuelSim)."
+}

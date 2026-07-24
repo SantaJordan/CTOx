@@ -1,0 +1,16 @@
+{
+  "company": "MatX",
+  "slug": "matx",
+  "domain": "matx.com",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "None: site and news exclusively describe chips 'for the large model needs of frontier labs' (commercial AI labs), $500M Series B led by Jane Street/Situational Awareness LP to compete with Nvidia — no SBIR, no DoD/military customer language, no government contract anywhere in the pack.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "unknown",
+  "what_they_do": "Designs high-throughput AI chips (training/inference) optimized for large language model workloads, sold to frontier AI labs."
+}

@@ -1,0 +1,16 @@
+{
+  "company": "QuSecure",
+  "slug": "qusecure",
+  "domain": "qusecure.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "AFWERX selected QuSecure to deliver IL6 PQC capabilities for Air Force Global Strike Command; MDA SHIELD IDIQ contract (Feb 2026) explicitly described as validating 'readiness to support Large-Scale Deployment Initiatives' — News section.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Sells QuProtect, a self-described 'fully integrated, production-ready' post-quantum-cryptography and crypto-agility platform, to Fortune 500s, banks, and federal agencies including DoD/MDA/AFWERX at IL6."
+}

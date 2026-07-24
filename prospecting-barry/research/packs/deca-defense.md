@@ -255,29 +255,50 @@ Once synthesized and loaded, all layers of the network exist simultaneously
 Deca Defense is an organization focused on applying artificial intelligence in defense contexts, specializing in optimizing combat hardware through AI algorithms. Formed by a team of AI engineers and military veterans, our objective is to enhance the effectiveness and efficiency of ground forces. Our work includes integrating AI into existing defense systems with minimal architectural changes, tailoring AI solutions to meet Size, Weight, and Power constraints, and ensuring the reliability and accuracy of these solutions. We engage in rigorous model analysis, develop AI datasets specific to com
 
 ## News (Exa, top 3)
-- IBM Awarded Defense Commissary Agency Contract to Modernize ... (2026-02-25) https://newsroom.ibm.com/2026-02-25-ibm-awarded-defense-commissary-agency-contract-to-modernize-electronic-shelf-label-system
-  IBM Awarded Defense Commissary Agency Contract to Modernize Electronic Shelf Label System
+- DECA EBS 2.0 Technical Implementation (W58P0525C0007) () https://www.highergov.com/contract/W58P0525C0007/
+  DECA EBS 2.0 Technical Implementation (W58P0525C0007)
 
-# All press releases
+HigherGov
 
-# IBM Awarded Defense Commissary Agency Contract to Modernize Electronic Shelf Label System
+Pipeline
 
-Feb 25, 2026
+FOIA
 
-- rss
-- pdf
+Track
 
-WASHINGTON, Feb. 25, 2026 / PRNewswire/ -- IBM (NYSE: IBM) has secured a contract with a ceiling value of $112 million for up to five years from the Department of War's (DoW) Defense Commissary Agency (DeCA) to modernize pricing displays across commissaries worldwide
-- IBM Wins $112M DeCA Contract to Upgrade Commissary Systems (2026-02-26) https://www.govconwire.com/articles/ibm-deca-pricing-systems-upgrade-contract
-  IBM Wins $112M DeCA Contract to Upgrade Commissary Systems
+Favorite
 
-Photo: Susan Wedge / LinkedIn
+No Bid
 
-Author: Kristen Smith || Date Published: February 26, 2026
+Export
 
-IBM has been selected to modernize the digital pricing infrastructure used across U.S. military commissaries under a contract valued at up to $112 million over five years.
+- CSV
+- Excel
 
-The contract, awarded by the Department of War’s Defense Commissary Agency, covers upgrades to electronic shelf label systems at 177 stores in the United States and deployment 
+Share
+
+- Copy URL
+- Email
+- Tweet
+
+# W58P0525C0007
+
+Definitive Contract
+
+- List
+- Text
+
+## Overview
+
+Government Description
+
+Defense commissary agency (DECA) Enterprise Business Solutions (EBS) 2.0 technical implementation. The work involves modernizing the defense commissary agency enterprise business solutions platform.
+
+Awardee
+
+Awarding Agency
+
+ACC Aberdeen Provin
 - SkyWater Florida and Deca Technologies Announce $120M DOD Award to Expand Advanced Packaging Capabilities in Osceola County, Florida (2024-01-10) https://www.businesswire.com/news/home/20240110104364/en/SkyWater-Florida-and-Deca-Technologies-Announce-%24120M-DOD-Award-to-Expand-Advanced-Packaging-Capabilities-in-Osceola-County-Florida
   SkyWater Florida and Deca Technologies Announce $120M DOD Award to Expand Advanced Packaging Capabilities in Osceola County, Florida
 
@@ -292,6 +313,19 @@ Share
 SkyWater is the first domestic provider of Deca’s M-Series™ fan-out and Adaptive Patterning® technologies to support the reshoring of the semiconductor supply chain
 
 KISSIMME
+- IBM Awarded Defense Commissary Agency Contract to ... (2026-02-25) https://newsroom.ibm.com/2026-02-25-ibm-awarded-defense-commissary-agency-contract-to-modernize-electronic-shelf-label-system
+  IBM Awarded Defense Commissary Agency Contract to Modernize Electronic Shelf Label System
+
+# All press releases
+
+# IBM Awarded Defense Commissary Agency Contract to Modernize Electronic Shelf Label System
+
+Feb 25, 2026
+
+- rss
+- pdf
+
+WASHINGTON, Feb. 25, 2026 / PRNewswire/ -- IBM (NYSE: IBM) has secured a contract with a ceiling value of $112 million for up to five years from the Department of War's (DoW) Defense Commissary Agency (DeCA) to modernize pricing displays across commissaries worldwide
 
 ## Open roles (Blitz, live)
 - Deep Learning Engineer Internship ({'city': 'Melbourne', 'country_code': 'US'})

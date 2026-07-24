@@ -286,6 +286,10 @@ Obsidian Sensors is democratizing thermal imaging. We are breaking down the cost
 
 
 ## News (Exa, top 3)
+- Obsidian Sensors awarded US Army contracts to accelerate ... (2024-12-12) https://www.prnewswire.com/news-releases/obsidian-sensors-awarded-us-army-contracts-to-accelerate-the-development-of-high-resolution-thermal-imaging-sensors-and-expands-their-large-scale-microbolometer-production-capabilities-with-a-new-manufacturing-partnership-302329699.html
+  Obsidian Sensors awarded US Army contracts to accelerate the development of high-resolution thermal imaging sensors and expands their large-scale microbolometer production capabilities with a new manufacturing partnership Accessibility Statement Skip Navigation
+
+SAN DIEGO, Dec. 12, 2024 /PRNewswire/ -- Obsidian Sensors kicked off a new manufacturing partnership with Japan's leading flat panel display maker, JDI (Japan Display Incorporated). This partnership is the second manufacturing source for
 - Contract W5170125C0047 Obsidian Sensors () https://www.highergov.com/contract/W5170125C0047/
   Contract W5170125C0047 Obsidian Sensors
 
@@ -334,10 +338,6 @@ Department of the Army (USA) [DoD]
 NAICS
 
 541715 - Research and Development in the Physical, Engineering, and Life Sciences (except Nanotechnology and Biotec
-- Obsidian Sensors awarded US Army contracts to accelerate ... (2024-12-12) https://www.prnewswire.com/news-releases/obsidian-sensors-awarded-us-army-contracts-to-accelerate-the-development-of-high-resolution-thermal-imaging-sensors-and-expands-their-large-scale-microbolometer-production-capabilities-with-a-new-manufacturing-partnership-302329699.html
-  Obsidian Sensors awarded US Army contracts to accelerate the development of high-resolution thermal imaging sensors and expands their large-scale microbolometer production capabilities with a new manufacturing partnership Accessibility Statement Skip Navigation
-
-SAN DIEGO, Dec. 12, 2024 /PRNewswire/ -- Obsidian Sensors kicked off a new manufacturing partnership with Japan's leading flat panel display maker, JDI (Japan Display Incorporated). This partnership is the second manufacturing source for
 - obsidian sensors inc () https://www.sbir.gov/portfolio/1430725
   Firm | SBIR Skip to main content
 

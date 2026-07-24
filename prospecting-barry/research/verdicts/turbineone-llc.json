@@ -1,0 +1,21 @@
+{
+  "company": "TurbineOne, Inc.",
+  "slug": "turbineone-llc",
+  "domain": "turbineone.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "SBIR Phase II (Air Force 2022) plus a $98.9M five-year Army IDIQ (Sept 2025) for its Frontline Perception System, with a follow-on Army Joint Innovation Outpost contract (April 2026) explicitly noting soldiers already validated the system in hands-on evaluations.",
+  "disconnect_score": 8,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 2, "operator_absence": 2, "hiring_profile_skew": 2, "stage_pressure": 2},
+  "score_evidence": [
+    "\"TurbineOne announced today it has been awarded a five-year, IDIQ contract with a $98.9M ceiling from the U.S. Army to deliver and demonstrate its Frontline Perception System\" → already_operational",
+    "\"Instantly translate sensor inputs into detections, classifications, and persistent tracks that help operators see, identify, and prioritize threats faster in DDIL environments\" / \"Built for DDIL: Fully functional in contested, degraded, and disconnected environments\" → deployment_awareness_absence is LOW (maximally DDIL-fluent)",
+    "\"Through these hands-on evaluations, Soldiers validated...\" (April 2026 Army JIO contract news) → operator_absence is LOW (active soldier field validation already happened)",
+    "Open roles (Blitz): Field Engineering Manager, Lead Field Engineer, Business Development (SOCOM) → hiring_profile_skew is LOW (field/deployment/BD roles present, consistent with a company already fielding, not just building)"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Edge AI/ML platform (Frontline Perception, Command, Autonomy) for real-time sensor-to-decision target detection in DDIL environments, already fielding under a $98.9M Army IDIQ with completed soldier validation."
+}

@@ -3,7 +3,7 @@ slug: tycho-ai | domain: tycho.ai | HQ: Cambridge, Massachusetts US | employees(
 sources: exa-agent:ai-ml-isr
 industry(LI): Defense and Space Manufacturing | specialties: ai, defense, edge compute
 channel notes: Series A $10M Series A led by FirstMark (2025) and $8M venture financing (2026); $18M total reported. dom: ai_ml status: prototype dod: Tycho secured a $2M AFRL TACFI contract for maritime autonomy and was selected for the DoD CDAO Crucible program. hq: Cambridge, MA emp: 18 src: https://tycho.ai/
-own-language word count: ~1179
+own-language word count: ~1177
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -59,8 +59,6 @@ May 28, 2026
 #### Tycho.AI Validates Halley VTOL UAS with Successful C-UAS and One-Way Attack Demonstrations at T-REX 26-2
 
 May 26, 2026
-
-All News
 
 URL: https://tycho.ai/halley
 Halley
@@ -202,7 +200,7 @@ March 10, 2026Thought LeadershipSince the early days of the Ukrainian conflict, 
 Tycho.AI builds resilient, mission-ready autonomy for unmanned systems operating in GPS-denied and contested environments. Our technology fuses multi-modal sensing, advanced AI, and custom compute hardware to enable aircraft and ground vehicles to perceive, decide, and navigate independently, even when traditional systems fail. From defense to commercial applications, Tycho.AI delivers essential autonomy for fast, low, and precise performance at the edge where it counts.
 
 ## News (Exa, top 3)
-- Tycho.AI Secures $2M AFRL TACFI Contract to Advance Maritime ... (2026-05-28) https://tycho.ai/news/tycho-ai-secures-2m-afrl-tacfi-contract-to-advance-maritime-autonomy-in-gps-denied-environments
+- Tycho.AI Secures $2M AFRL TACFI Contract to Advance ... (2026-05-28) https://tycho.ai/news/tycho-ai-secures-2m-afrl-tacfi-contract-to-advance-maritime-autonomy-in-gps-denied-environments
   Tycho.AI
 
 Press Release
@@ -216,6 +214,50 @@ TRIDENT program to accelerate development and deployment of Voyager autonomy sta
 ‍
 
 CAMBRIDGE, MA – [May 28, 2026] – Tycho.AI, a pioneer in high-performance edge autonomy, today announced an 18-month, $2 million Tactical Funding Increase (TACFI) contract award from the U.S. Air Force Research Laboratory (AFRL) to acceler
+- Award | SBIR () https://www.sbir.gov/awards/215720
+  Award | SBIR Skip to main content
+
+# Award
+
+Portfolio Data
+
+Back to Award Search
+
+## Cognitive Terrain Flight Assistance
+
+### Awardee
+
+#### Tycho AI Inc.
+
+https://www.sbir.gov/portfolio/2462139 46 Upton St, Apt 4Boston, MA, 02118USA
+
+Award Year: 2025
+
+UEI: MXYQQ2P7LGS5
+
+HUBZone Owned: No
+
+Woman Owned: No
+
+Socially and Economically Disadvantaged: No
+
+Congressional District: N/A
+
+Tagged as:
+
+SBIR
+
+Phase I
+
+### Awarding Agency
+
+DOW
+
+Branch: ARMY
+
+Total Award Amount: $228,817
+
+Contract Number: W5170
 - Tycho.AI Secures $2M AFRL TACFI Contract to Advance (2026-05-28) https://www.globenewswire.com/news-release/2026/05/28/3302607/0/en/tycho-ai-secures-2m-afrl-tacfi-contract-to-advance-maritime-autonomy-in-gps-denied-environments.html
   Tycho.AI Secures $2M AFRL TACFI Contract to Advance
 
@@ -232,14 +274,6 @@ Share
 ---
 
 Cambridge, MA, May 28, 2026 (GLOBE NEWSWIRE) -- Tycho.AI, a pioneer in high-performance edge autonomy, today announced an 18-month, $2 million Tactica
-- US Air Force Invests in AI Autonomy for GPS-Denied Missions (2026-06-01) https://thedefensepost.com/2026/06/01/air-force-voyager-ai-autonomy/
-  US Air Force Invests in AI Autonomy for GPS-Denied Missions
-
-Tycho.AI’s Voyager autonomy stack is designed to enable GPS-denied navigation, onboard AI processing, and autonomous mission execution for military platforms. Image: Tycho.AI
-
-The US Air Force is investing in artificial intelligence-powered autonomy as military planners look to reduce reliance on GPS and communications networks in contested environments.
-
-Under a new $2-million contract from the Air Force Research Laboratory, Tycho.AI 
 
 ## Open roles (Blitz, live)
 - QA/QC - Integrations ({'city': 'Cambridge', 'country_code': 'US'})

@@ -1,0 +1,16 @@
+{
+  "company": "AVNIK Defense Solutions Inc",
+  "slug": "avnik-defense-solutions-inc",
+  "domain": "avnikdefense.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "Genuine DoD motion (Army STTR Phase II iFMCW, $1,144,286; homepage) — but the company is a services/SBIR-prime and Army Aviation engineering-services subcontractor, not a product company.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Woman-owned services firm providing programmatic, technical, and logistics management services to DoD — prime for SBIR Phase I/II projects and subcontractor for Army Aviation engineering."
+}

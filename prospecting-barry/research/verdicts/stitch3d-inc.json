@@ -1,0 +1,25 @@
+{
+  "company": "Stitch3D Inc.",
+  "slug": "stitch3d-inc",
+  "domain": "stitch3d.io",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Two 2022 Air Force SBIR Phase II awards (RADAS/airfield assessment, $750K + $750K) plus a 2025 USAF STTR Phase I, on-site demos to Coast Guard Sectors San Diego/Miami with DEA/CBP/TACLET, and a Lt Col Air Force testimonial — see SBIR/STTR record and website testimonials sections.",
+  "disconnect_score": 74,
+  "subscores": {"lab_language_intensity": 17, "deployment_awareness_absence": 18, "operator_absence": 12, "hiring_profile_skew": 10, "stage_pressure": 17},
+  "score_evidence": [
+    "'Candelytics is developing a proprietary LIDAR-based software solution...Our mission is to democratize access to 3D data and revolutionize human interaction with the physical world' plus 'demonstrated our technology...via nine virtual demonstrations and two on-site demonstrations' → lab_language_intensity (demo-count bragging, mission-statement grandiosity, zero fielding framing)",
+    "'Reality Captured, Insights Delivered / Stitch3D connects teams with cloud-native spatial data management' with no mention anywhere in ~2,339 words of DDIL/ATO/RMF/CMMC/ITAR/STIG → deployment_awareness_absence",
+    "'allowed Coast Guard operators to execute basic change detection and volumetric calculations' is the only operator-specific line in the whole pack, no training/CONOPS/sustainment language → operator_absence",
+    "Firmographic data note: 'Stitch3D employs 4 people (-14.3% YoY, -1 person)...Has $3.9M in total funding, with 6 prior funding rounds' → stage_pressure (shrinking headcount, funding fragmented across 6 small rounds, still chasing new SBIR/STTR awards in 2025)"
+  ],
+  "blind_spots": [
+    {"blind_spot": "'Cloud-native' spatial data hosting assumes persistent connectivity to upload/sync point cloud files", "operator_reality": "Rapid airfield damage assessment (their own RADAS use case) happens at contested or austere airstrips where DDIL comms deny the cloud round-trip their entire architecture is built on — same failure mode as the 30fps crowd-detection case", "why_likely_missing": "Product and pricing are built for commercial surveying/drone-mapping customers (city surveyors, drone shops) where broadband is a given", "evidence_quote": "Stitch3D connects teams with cloud-native spatial data management, visualization, and business intelligence", "quote_source": "homepage"},
+    {"blind_spot": "'Industry's first real-time multiplayer web viewer' for up to 50 simultaneous users", "operator_reality": "A 50-user real-time collaborative session requires sustained bandwidth no contested airfield or forward site has; there is no offline/degraded-mode viewer described anywhere", "why_likely_missing": "Feature was built to win commercial reality-capture customers (Pix4D-competitor positioning), not for field-degraded ops", "evidence_quote": "The industry's first real-time multiplayer web viewer that lets up to 50 users simultaneously markup, annotate, and comment", "quote_source": "homepage"},
+    {"blind_spot": "No ATO/RMF/CMMC/ITAR language despite handling sensitive military geometry (naval ship scans, airfield damage data, smuggling-compartment annotations for DEA/CBP)", "operator_reality": "If this data is uploaded to their commercial multi-tenant cloud without an ATO or documented compliance boundary, it's a contract-killing gap the moment a program office asks about data handling", "why_likely_missing": "Tiny 4-6 person team with no compliance function visible; company narrative (TechCrunch) centers on a founder's personal frustration story, not acquisition process fluency", "evidence_quote": "Candelytics has developed prototype software that allowed Coast Guard operators to execute basic change detection...and added features that allowed users to annotate voids and suspicious areas that could represent smuggling compartments", "quote_source": "sbir_abstract"}
+  ],
+  "opener_hook": "Stitch3D ran two Air Force SBIR Phase IIs on RADAS airfield-damage assessment and demoed live to Coast Guard Sectors San Diego and Miami — is the platform on a path to an ATO for that data yet?",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Cloud-native SaaS platform (formerly Candelytics) for hosting, viewing, and collaboratively analyzing LIDAR point-cloud data, sold mainly to commercial reality-capture/survey customers with defense demos in airfield damage assessment and Coast Guard smuggling detection."
+}

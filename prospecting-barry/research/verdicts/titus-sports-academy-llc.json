@@ -1,0 +1,19 @@
+{
+  "company": "Titus Sports Academy LLC",
+  "slug": "titus-sports-academy-llc",
+  "domain": "titushp.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "One SBIR Phase II (Defense Health Program 2022, Navy sleep/fatigue wearables platform 'SPEAR' targeting ATO IL5) shows real DoD motion, but the company itself is a physical human-performance/athletic-training and coaching business, not a technology product company.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "\"Titus was built on the principle of athletic development having trained athletes... Military Special Operations Soldiers\" → core business is training/coaching services, not software/hardware product development",
+    "Industry(LI): Wellness and Fitness Services; LinkedIn about: \"a health, wellness and fitness company\" → disqualified_type (services-only)"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Athletic/human-performance training academy (gym + coaching services) that also runs a small SBIR-funded wearable sleep/fatigue monitoring platform for Navy sailors."
+}

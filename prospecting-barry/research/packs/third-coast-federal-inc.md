@@ -184,16 +184,14 @@ Purchase Order
 Government Description
 
 Deep learning classifier to support Department of Defense supply chain diversity and resiliency through automated data labeling and summarizati
-- Third Coast Federal () https://www.thirdcoastfederal.com/
-  Third Coast Federal
+- third coast federal, inc. (2026-06-21) https://thirdcoastfederal.com/
+  # Third Coast Federal, Inc.
 
-# We Specialize in the Defense Innovation Space.
+Third Coast Federal, Inc. is a Government Relations Services company. Third Coast Federal is a tech company and federal consultancy that specializes in defense innovation space. They help teams from dod, industry, and academia develop innovative dual use solutions to complex operational and sustainment challenges. Third Coast Federal, Inc. employs 6 people (-9.1% YoY, -1 person), founded in 2018. Headquartered in South Bend, Indiana, United States.
 
-## Innovation is in our DNA …
+## About
 
-Third Coast Federal, Inc. is a tech company and federal consultancy that helps teams from DoD, industry, and academia develop innovative dual use solutions to complex operational and sustainment challenges. We deliver AI-enabled solutions, data-driven insights, and strategic programs to fuel innovations that solve critical problems of importance to national and economic security. Learn More >
-
-#
+Empower
 
 ## Open roles
 (no jobs data found)

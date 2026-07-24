@@ -1,0 +1,16 @@
+{
+  "company": "Xage Security",
+  "slug": "xage-security",
+  "domain": "xage.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Own testimonials and press confirm production DoD use: a named Space Systems Command colonel states Xage 'supports secure interactions between defense and commercial ground and space assets'; News section confirms a $17M contract from Space Force's Space Systems Command (2023) plus a $3.9M AF SBIR Phase II and a $1.5M Navy SBIR (per channel notes) for zero-trust battle networks.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "series_a",
+  "what_they_do": "Established zero-trust cybersecurity (OT/IT/cloud/space) vendor already in production with named commercial customers (Kinder Morgan, Ornua, Pacific Canbriam) and a live $17M U.S. Space Force Space Systems Command contract."
+}

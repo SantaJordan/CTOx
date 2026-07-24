@@ -1,0 +1,20 @@
+{
+  "company": "Applied Systems Engineering Incorporated",
+  "slug": "applied-systems-engineering-incorporated",
+  "domain": "aseifl.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "DoD motion is unambiguous — a 2023 SOCOM SBIR Phase II ($2,674,089) for GPS-contested SOPGM navigation in their own abstract, plus a news item on their own site: 'ASEI Awarded $48,640,357 Contract with Naval Surface Warfare Center' for production SAASM ATACNAV units on a five-year ordering period.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "'a $48,640,357 indefinite-delivery/indefinite-quantity, firm-fixed-price delivery orders contract with a five-year ordering period to provide Selective Availability Anti-Spoofing Module (SAASM) Advanced Tactical Navigator (ATACNAV) units' → firm-fixed-price production, i.e. across the valley",
+    "'navigation systems being used in a variety of USAF and USN aircraft and weapons, as well as our operational flight software performing in several inventory weapon systems and weapon launchers' → already in inventory systems",
+    "Founded 1993 on the JDAM Operational Concept Demonstration, ISO9001-certified QMS, 37 employees — a mature production supplier, not a prototype stuck at demo"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Designs and produces GPS/INS navigation units (ATACNAV, MCAP) and guidance electronics for precision munitions, plus munition design, integration, and test services."
+}

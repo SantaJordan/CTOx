@@ -387,70 +387,42 @@ April 15, 2026
 California-based aviation software company expands its hardware-lite, AI data platform, and direct pilot assistance autonomy technology to support high-demand defense missions and future commercial adoption.
 
 San Carlos, CA – April 15, 2026 – Beacon AI, a California-based aviation software technology company building advanced systems to augment 
-- Beacon AI Snags $50M USSOCOM Aviation AI Contract (2026-04-20) https://www.tectonicdefense.com/beacon-ai-snags-50m-ussocom-aviation-ai-contract/
-  Beacon AI Snags $50M USSOCOM Aviation AI Contract
+- Beacon AI Signs $49.5M Phase 3 Prototype OTA with ... (2026-04-15) https://www.businesswire.com/news/home/20260414608938/en/Beacon-AI-Signs-%2449.5M-Phase-3-Prototype-OTA-with-USSOCOM-to-Advance-a-First-of-Its-Kind-Pilot-Assistant-Toward-Production
+  Beacon AI Signs $49.5M Phase 3 Prototype OTA with USSOCOM to Advance a First-of-Its-Kind Pilot Assistant Toward Production
 
-The C-146A Wolfhound. Image: Department of Defense
+Apr 15, 2026 8:00 AM Eastern Daylight Time
 
-After a long line of (relatively) smaller contracts, Beacon’s finally getting the big bucks. Last week, California-based aviation AI startup inked a $50M multi-year deal—their 13th, and largest, to date—with US Special Operations Command that’ll put its pilot-assistance software in the cockpits of a wide range of SOCOM’s aircraft.
-
-Under the contract—a four-year Prototype Other Transaction Auth
-- Contract H92405249P016 Beacon Ai () https://www.highergov.com/contract/H92405249P016/
-  Contract H92405249P016 Beacon Ai
-
-HigherGov
-
-Pipeline
-
-FOIA
-
-Track
-
-Favorite
-
-No Bid
-
-Export
-
-- CSV
-- Excel
+# Beacon AI Signs $49.5M Phase 3 Prototype OTA with USSOCOM to Advance a First-of-Its-Kind Pilot Assistant Toward Production
 
 Share
 
-- Copy URL
-- Email
-- Tweet
+---
 
-# H92405249P016
+California-based aviation software company expands its hardware-lite AI data platform and direct-pilot-assistance autonomy technology to support high-demand defense missions and future commercia
+- Pentagon Contract Will Give Military Pilots Access to More AI () https://www.bloomberg.com/news/articles/2026-04-14/pentagon-contract-will-give-military-pilots-access-to-more-ai
+  Pentagon Contract Will Give Military Pilots Access to More AI - Bloomberg
 
-Other Transaction Agreement
+The AI Race:
 
-- List
-- Text
+OpenAI Files for IPO
 
-## Overview
+BackForward
 
-Government Description
+Gift this article
 
-Beacon Ai Pilot SBIR Ph II
+Contact us:Provide news feedback or report an error
 
-Awardee
+Confidential tip?Send a tip to our reporters
 
-Awarding / Funding Agency
+Site feedback:Take our Survey
 
-Air Mobility Command (AMC) [DoD - USAF]
+April 14, 2026 at 9:02 PM UTC
 
-NAICS
+Save
 
-Not Reported
+Translate
 
-PSC
-
-AC32 - National Defense R&D Services; Defense-Related Activities; Applied Research
-
-Place of Performance
-
-San Carlos, CA 94070 
+US Special Operations Command awarded a $50 million contract to aviation technology firm Beacon AI as part of a push to give military pilots more access to artificial intelligence
 
 ## Open roles (Blitz, live)
 - Lead Software Engineer, Frontend/Web App ({'city': 'San Carlos', 'country_code': 'US'})

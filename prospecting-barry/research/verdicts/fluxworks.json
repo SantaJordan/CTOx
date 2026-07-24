@@ -1,0 +1,16 @@
+{
+  "company": "FluxWorks",
+  "slug": "fluxworks",
+  "domain": "fluxworks.co",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "Only awards in the pack are an NSF SBIR Phase I (in-space manufacturing) and a Texas Space Commission SEARF grant - no DoD/military/warfighter language anywhere on their site (news + own-words sections); presence on the vc:scout list is not sufficient by itself.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Contactless magnetic gearboxes (Celestial Gear) for robotics, automation, and space applications."
+}

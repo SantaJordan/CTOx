@@ -4,17 +4,13 @@
   "domain": "zeroeyes.com",
   "verdict": "drop",
   "drop_reason": "already_operational",
-  "dod_intent_evidence": "AFWERX Direct-to-Phase-II with deployment at Ellsworth AFB plus 2024 (ZCAS) and 2025 (ASTRA) Phase IIs — channel notes and SBIR record sections.",
+  "dod_intent_evidence": "Multiple Air Force Phase II SBIRs (ZIAI, ZATD, $15.7M DRASD in 2022) plus a 2025 OSD Phase II SBIR (ASTRA) and a 2024 USAF award (ZCAS) — real defense motion, but the company has already crossed the valley of death.",
   "disconnect_score": 0,
   "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
-  "score_evidence": [
-    "'40+ U.S. states where ZeroEyes protects schools, campuses, and facilities' → fielded at scale commercially (homepage)",
-    "'Series B Over $100M total reported venture funding' → far past the $5M-$10M valley-of-death profile (channel notes)",
-    "'integrated into any existing Common Operating Picture (COP), networked mobile device such as the Tactical Assault Kit/Team Awareness Kit (TAK)' → already fluent in the deployed ecosystem (sbir_abstract)"
-  ],
+  "score_evidence": [],
   "blind_spots": [],
   "opener_hook": "",
   "confidence": "high",
   "stage_band": "revenue_stage",
-  "what_they_do": "AI gun detection on existing security cameras with 24/7 human analyst verification, sold to schools, commercial sites, and military bases."
+  "what_they_do": "AI-powered visual gun/weapon detection platform (194 employees, $100M+ raised through Series B) already fielded in 40+ states across schools, commercial, and government sites, with multiple completed Air Force/OSD SBIR Phase IIs including named DoD end-users (325th SFS, 412th TW, Army Futures Command) — company is already operational at scale, not stuck in the prototype-to-fielded gap."
 }

@@ -1,0 +1,44 @@
+{
+  "company": "Obsidian Sensors",
+  "slug": "obsidian-sensors",
+  "domain": "obsidiansensors.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Two US Army contracts for high-resolution thermal-imaging microbolometer sensors (PRNewswire, 2024-12-12) plus 5 SBIR Phase II awards totaling $6.6M and 4 Phase I awards (sbir.gov portfolio record).",
+  "disconnect_score": 70,
+  "subscores": {"lab_language_intensity": 18, "deployment_awareness_absence": 12, "operator_absence": 12, "hiring_profile_skew": 14, "stage_pressure": 14},
+  "score_evidence": [
+    "\"MEMS imaging sensors on display glass at unprecedented cost and scale\" / \"Custom high-channel count readout IC, compatible with multiple sensor designs\" -> lab_language_intensity",
+    "Entire own-language site is a pedestrian-safety/automotive pitch (NHTSA stats, AEB rules) with zero mention of DDIL, ATO, RMF, CMMC, ITAR, or STIG despite two live Army contracts -> deployment_awareness_absence (capped, own-language <1000 words)",
+    "\"unlocking new capabilities for defense, automotive safety, and industrial automation\" is the pack's only defense reference; no operator, warfighter, training, or CONOPS language anywhere -> operator_absence (capped, own-language <1000 words)",
+    "Only open role listed is \"Assembly Technician (San Diego)\" -- production scale-up, not field/test/compliance/ISSO hiring -> hiring_profile_skew",
+    "$24M Series A raised in 2019 (channel notes) with no subsequent equity round reported, while running parallel SBIR Phase I/II obligations and two Army contracts -> stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The entire own-language site is an automotive pedestrian-safety pitch (crash stats, NHTSA rulemaking) with zero mention of ruggedization, environmental sealing, or operating temperature range for the same sensor module now under Army contract.",
+      "operator_reality": "A thermal module spec'd for a dashboard camera environment is not automatically survivable on a soldier-worn or vehicle-mounted platform -- dust, vibration, thermal cycling, and battle-condition shock are a different qualification regime than an automotive OEM's, and nothing in the pack shows that work has been done or even flagged.",
+      "why_likely_missing": "Company's primary go-to-market narrative and metrics (pedestrian fatality data, AEB mandates) are automotive; the Army contracts appear layered on top of an automotive-first product roadmap.",
+      "evidence_quote": "\"Thermal Sensor Module — MEMS imaging sensors on display glass at unprecedented cost and scale\"",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Obsidian just expanded microbolometer production capacity through a manufacturing partnership with Japan Display Inc. (JDI), a foreign panel maker, on the same technology base that's funded by U.S. Army SBIR dollars -- with no visible mention of ITAR/export-control segregation.",
+      "operator_reality": "Foreign-manufacturing partnerships layered onto defense-funded IP are exactly the kind of arrangement that trips ITAR/export review during a program transition, potentially freezing a contract at the worst possible moment relative to period-of-performance.",
+      "why_likely_missing": "The manufacturing partnership was framed purely as a scale/cost story (second production source) rather than a compliance one.",
+      "evidence_quote": "\"Obsidian Sensors kicked off a new manufacturing partnership with Japan's leading flat panel display maker, JDI\"",
+      "quote_source": "news"
+    },
+    {
+      "blind_spot": "Support/downloads page offers only Windows desktop software (ThermalCam 4.x) and GenICam/UVC interface docs aimed at bench-level integrators -- nothing about field firmware updates, spares, battery logistics, or who fixes a failed sensor once it's fielded away from a lab bench.",
+      "operator_reality": "A sensor company whose entire sustainment story is a downloadable Windows app and a PDF interface spec has no answer for an austere OCONUS site where the E-5 has no laptop, no internet, and no vendor support line -- the exact gap the checklist calls 'operator training & sustainment.'",
+      "why_likely_missing": "Product is sold as a component/module to integrators (automotive, drone, security OEMs), so end-customer field support has likely never been the company's problem to solve until now.",
+      "evidence_quote": "\"Software (WIN64) ThermalCam 4.8 (Latest)\"",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Obsidian's site pitches pedestrian-safety stats, not the Army contracts -- how's the sensor rated for MIL-STD environmental exposure?",
+  "confidence": "medium",
+  "stage_band": "series_a",
+  "what_they_do": "Manufactures low-cost, high-resolution thermal-imaging microbolometer sensor modules (MEMS) sold into automotive ADAS, defense, security, and industrial markets."
+}

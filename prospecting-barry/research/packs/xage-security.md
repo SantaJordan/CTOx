@@ -298,12 +298,12 @@ Unlinked Award
 ##### Department of Defense (DOD)
 
 https://www.usaspending.gov/agency/department-o
-- Xage Security Awarded $1.5 Million Contract by United States Navy to Advance Zero Trust Initiatives (2024-10-09) https://xage.com/press/xage-security-awarded-1-5-million-contract-by-united-states-navy-to-advance-zero-trust-initiatives/
-  Xage Security Awarded $1.5 Million Contract by United States Navy to Advance Zero Trust Initiatives
+- Xage Awarded $17 Million Cybersecurity Contract by U.S. ... (2023-09-27) https://xage.com/press/xage-awarded-17-million-cybersecurity-contract-by-u-s-space-forces-space-systems-command/
+  Xage Awarded $17 Million Cybersecurity Contract by U.S. Space Force’s Space Systems Command - Xage Security
 
-#### Xage’s Zero Trust Solutions to Support U.S. Navy’s Strategic Initiatives in Line with DOD CIO’s 2027 Zero Trust Target Strategy, Enhancing Protection Across Naval Battle Networks
+### Mesh-based Zero Trust Solution to Secure Distributed Cyber Physical Environments From Ground to Space
 
-PALO ALTO, Calif. – Oct 9, 2024 – Xage Security Government(Xage), a global leader in Zero Trust access and protection, today announced a $1.5 million Sequential Phase II Small Business Innovation Research (SBIR) co
+Palo Alto, CA – September 27, 2023 – Xage Security Gov, the zero trust real-world cybersecurity company, announced it received a $17 million contract awarded by U.S. Space Force’s Space Systems Command (SSC) to offer its zero trust access control and data protection across SSC’s curr
 
 ## Open roles (Blitz, live)
 - Senior UI/UX Designer ({'city': 'Palo Alto', 'country_code': 'US'})

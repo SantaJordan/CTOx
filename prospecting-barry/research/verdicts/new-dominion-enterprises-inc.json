@@ -1,0 +1,43 @@
+{
+  "company": "New Dominion Enterprises Inc.",
+  "slug": "new-dominion-enterprises-inc",
+  "domain": "newdominionenterprises.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Two direct-to-Phase-II AFWERX SBIR awards (~$2.2M total, 2023) for 'Improved Conformable Wearable Batteries (CWBs)' whose own abstract names Air Force Combat Controllers and their field equipment as the customer (SBIR/STTR record section).",
+  "disconnect_score": 66,
+  "subscores": {"lab_language_intensity": 18, "deployment_awareness_absence": 12, "operator_absence": 10, "hiring_profile_skew": 10, "stage_pressure": 16},
+  "score_evidence": [
+    "'incorporation of NDE's inorganic fluid with lithium battery electrolytes addresses many limitations of conventional organic electrolytes' — pure electrochemistry framing, zero operational language → lab_language_intensity",
+    "'Electrolyte chemistry is the primary limiting factor for the next generation of lithium batteries, especially for large-scale energy storage and electric vehicle applications' — product pitched around commercial EV/grid storage, never soldier-worn weight/size/thermal tradeoffs → deployment_awareness_absence (capped, own-language <1000 words)",
+    "No jobs data in pack → hiring_profile_skew set to exactly 10 per scoring instructions",
+    "2-4 person team, 10 years since founding (2015) still pre-scale, two Phase II SBIR clocks running per 'New Dominion Enterprises wins $2.2M in two Air Force SBIR awards' → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Product is positioned for EV/large-scale energy storage first; no SWaP-C framing (weight, ruggedization, thermal extremes) for the soldier-worn use case the SBIR itself targets.",
+      "operator_reality": "A Combat Controller's weight budget is fixed before a mission — a chemistry paper on '10-30% Phospholyte replacement' says nothing about resulting battery weight, size, or performance in desert heat/arctic cold, the numbers that decide fieldability.",
+      "why_likely_missing": "NDE's commercialization narrative targets multiple commercial evaluators and EV/grid-storage markets; the DoD wearable-battery use case appears only inside the SBIR abstract, not the public product story.",
+      "evidence_quote": "Electrolyte chemistry is the primary limiting factor for the next generation of lithium batteries, especially for large-scale energy storage and electric vehicle applications.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No mention anywhere of battery logistics, hot-swap procedure, spares, or recharge infrastructure for a Combat Controller in the field, despite their own abstract naming that exact operator's gear load.",
+      "operator_reality": "A better electrolyte doesn't answer the E-5-level question of how a Combat Controller recharges or swaps power on a multi-day DDIL mission with no grid — chemistry gains die at the sustainment question if no one has designed for it.",
+      "why_likely_missing": "The SBIR abstract exists to justify Air Force funding, not to describe a fielding plan; it stops at listing the equipment that draws power, not how power gets replenished in theater.",
+      "evidence_quote": "Air Force Combat Controllers rely heavily on technology while in the battlefield. This usually includes multiple radios, mapping devices, Pocket Laser Rangefinder (PLRF), night vision goggles, video downlink, and more. Each of these requires a power sourc",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "Zero mention of CMMC/NIST 800-171 or ITAR/export control anywhere, despite patented battery chemistry and a live series of US government contracts.",
+      "operator_reality": "A follow-on Phase III or production contract typically requires company-level CMMC compliance before the government signs; a 2-4 person materials company with no stated compliance posture is exactly the profile that stalls at the transition gate regardless of how good the underlying science is.",
+      "why_likely_missing": "Messaging is aimed at commercial licensees and investors ('multiple commercial companies now evaluating'), where compliance framing isn't part of the pitch.",
+      "evidence_quote": "With multiple commercial companies now evaluating the inorganic liquid known as Phospholyte®, in addition to a series of contracts with the US government, the company is on the verge of establishing a new standard for electrolyte chemistry in the lithium battery industry.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Your Feb 2023 AFWERX Phase II abstract for Conformable Wearable Batteries names Combat Controllers' radios, PLRF, and NVGs as the power draw — the public site frames the same chemistry around EV and grid storage.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Develops a patented inorganic liquid electrolyte additive (Phospholyte) to make lithium batteries safer and more energy-dense."
+}

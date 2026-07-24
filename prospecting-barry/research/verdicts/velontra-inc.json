@@ -1,0 +1,43 @@
+{
+  "company": "Velontra Inc",
+  "slug": "velontra-inc",
+  "domain": "velontra.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "SBIR/STTR record: four Air Force SBIR awards 2022-2025 (Phase II $750,000 in 2022, feasibility study 2024, TRL-7 nozzle design 2023, direct-connect altitude testing 2025) all on the same afterburning-turbojet propulsion line explicitly for USAF Autonomous Collaborative Platform (ACP) and Low-Cost Attritable Aircraft Technology (LCAAT) programs — genuine, sustained DoD motion progressing toward higher TRL.",
+  "disconnect_score": 59,
+  "subscores": {"lab_language_intensity": 8, "deployment_awareness_absence": 11, "operator_absence": 12, "hiring_profile_skew": 12, "stage_pressure": 16},
+  "score_evidence": [
+    "'USAF needs the ability to generate combat power inside growing Anti-Access/Area-Denial (A2/AD) threat envelopes...contested/denied environments where attrition rates for crewed aircraft are unacceptable' shows real operational-mission awareness, but ITAR/export control is never mentioned anywhere despite the company sitting squarely in controlled hypersonics/turbojet technology → deployment_awareness_absence (capped at 12, own-language <1000 words)",
+      "the SBIR abstract and site describe design-build-test propulsion engineering exclusively — zero mention of the ground crew, maintainers, or field handling of an 'attritable' engine once it leaves the test stand → operator_absence (capped at 12)",
+    "'Propulsion Responsible Engineer, Principal Turbomachinery Engineer, Senior Turbomachinery Engineer, Turbomachinery Engineer' — all 4 open roles are propulsion/turbomachinery domain engineers (neutral per hardware-firm rule); zero field, integration, test, or compliance roles → hiring_profile_skew",
+    "four SBIR awards from 2022 (Phase II, $750K) through 2025 (altitude testing), still only 8 employees, no production or Phase III contract disclosed anywhere in the pack → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Company operates squarely in ITAR-controlled propulsion/hypersonics technology (afterburning turbojet for military UAVs) but never mentions ITAR, export licensing, or controlled technical-data handling anywhere in its public site or SBIR abstracts",
+      "operator_reality": "at 8 employees, a single export-control misstep (hiring a non-US-person engineer without the right process, or sharing test data outside an authorized channel) can freeze a Phase II/III transition regardless of how well the engine performs on the stand",
+      "why_likely_missing": "the company's public voice is entirely engineering-culture and mission-urgency focused ('Fewer meetings. More fire'), with no visible attention to the compliance apparatus that has to exist alongside the hardware",
+      "evidence_quote": "Fewer meetings. More fire.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The abstract explicitly designs the engine to be 'attritable/reusable' for contested-environment UAV sorties, but nothing addresses field-level sustainment — inspection, fueling/arming, or turnaround servicing of an afterburning turbojet at a forward location between sorties",
+      "operator_reality": "an 'attritable' engine still needs someone at the flight line who can safely inspect, fuel, and prep it before each mission; a rapid design-build-test culture optimized for the propulsion bench hasn't described the handoff to whoever operates it in theater",
+      "why_likely_missing": "the team's stated mission is restarting rapid propulsion R&D ('Innovating like it's 1965'), which centers on engineering velocity, not the operational sustainment tail",
+      "evidence_quote": "Velontra will design, build and test a Turbine-Based-Combined-Cycle propulsion prototype at Sea-Level-Static Inlet Conditions",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "The SBIR abstract is entirely propulsion-bench-focused (sea-level-static test conditions) for engines meant to power ACP/LCAAT airframes built by other primes/integrators, but never addresses the physical/electronic integration boundary — fuel system, flight controls, GFE interface — where the engine actually meets somebody else's airframe",
+      "operator_reality": "an engine that performs beautifully at sea-level-static on Velontra's own test stand still has to talk to a prime's airframe controls and fuel system; that integration boundary is exactly where valley-of-death failures happen — works standalone, never actually flies because nobody engineered the interface",
+      "why_likely_missing": "as a small propulsion-only shop, Velontra's technical narrative naturally stops at the test-stand result rather than the downstream integration the ACP/LCAAT programs require from a systems integrator",
+      "evidence_quote": "the Autonomous Collaborative Platform (ACP) and Low-Cost Attritable Aircraft Technology (LCAAT) programs intend to develop a family of low-cost Unmanned Aerial Vehicles (UAV)...It requires the use of an afterburning turbojet/fan",
+      "quote_source": "sbir_abstract"
+    }
+  ],
+  "opener_hook": "Velontra's four SBIR awards since 2022 have taken its afterburning turbojet from feasibility study to direct-connect altitude testing — worth a conversation about how that engine's fuel and control interface talks to whichever airframe integrator ends up flying it.",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Small propulsion-engineering company designing low-cost, attritable/reusable afterburning turbojet engines (subsonic through hypersonic) for Air Force unmanned aerial vehicle programs, funded through a multi-year string of SBIR awards."
+}

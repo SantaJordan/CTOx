@@ -1,0 +1,25 @@
+{
+  "company": "Axle Box Innovations LLC",
+  "slug": "axle-box-innovations-llc",
+  "domain": "axle-box.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Air Force SBIR Phase II ($749,592) for the Multi-Purpose Expeditionary Platform, developed against an explicit AFWERX Rapid Sustainment need (SBIR/STTR section).",
+  "disconnect_score": 51,
+  "subscores": {"lab_language_intensity": 10, "deployment_awareness_absence": 11, "operator_absence": 8, "hiring_profile_skew": 10, "stage_pressure": 12},
+  "score_evidence": [
+    "\"This advanced platform will be tested and demonstrated to verify its performance\" -> lab_language_intensity (demo-to-verify framing)",
+    "\"develop a testing protocol acceptable to our AF partners\" at a university proving ground -> deployment_awareness_absence (validation stops at a controlled RELLIS test range, not the field)",
+    "no jobs data in pack -> hiring_profile_skew set to 10",
+    "SBIR PhII awarded 2022 with a ~8-person team and Inc5000 growth chasing -> stage_pressure (period-of-performance clock long since running)"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Real-time sensor telemetry to the operator assumes a live radio link", "operator_reality": "An E-5 driving the MPEP at an austere OCONUS site has intermittent/low-bandwidth comms; LiDAR + visual + thermal + IMU streamed 'to the operator so they can visualize the environment' collapses to a stale feed the moment the link degrades", "why_likely_missing": "Tested at a university proving ground with clean spectrum, so the contested-comms failure mode never surfaces", "evidence_quote": "This sensor information will also be transmitted to the operator so that they can visualize the environment", "quote_source": "sbir_abstract"},
+    {"blind_spot": "GPS 'teach and repeat' has no stated GPS-denied fallback", "operator_reality": "Expeditionary and contested environments routinely jam or spoof GPS; a follow-the-recorded-path autonomy that depends on GPS strands the platform exactly where sustainment robotics are needed most", "why_likely_missing": "Objective framed around reducing operator workload, not around adversary electronic warfare", "evidence_quote": "We will develop GPS-based “teach and repeat” such that the vehicle can follow a path that has been previously driven", "quote_source": "sbir_abstract"},
+    {"blind_spot": "Sustainment/spares logistics for a hydraulic quick-attach platform is unaddressed", "operator_reality": "A ruggedized machine with hydraulic connectors and swappable attachments needs a spares tail, field maintainers, and battery/power logistics at the site — the very 'logistics tail' the product claims to shrink becomes its own", "why_likely_missing": "Phase II scope is autonomy features and a touchscreen controller, not fielded sustainment doctrine", "evidence_quote": "The quick attach hydraulic connectors allow the MPEP to provide additional functionalities", "quote_source": "sbir_abstract"}
+  ],
+  "opener_hook": "Your MPEP Phase II validation plan ends at the RELLIS proving ground with 'a testing protocol acceptable to our AF partners' — a clean-spectrum range, not a GPS-denied austere site where the teach-and-repeat and live sensor feed actually have to hold.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Public-safety/defense tech-development firm building an unmanned Multi-Purpose Expeditionary Platform for Air Force rapid sustainment, alongside a scale-up manufacturing services division."
+}

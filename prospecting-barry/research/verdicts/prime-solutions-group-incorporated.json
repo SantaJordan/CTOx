@@ -1,0 +1,16 @@
+{
+  "company": "Prime Solutions Group, Incorporated",
+  "slug": "prime-solutions-group-incorporated",
+  "domain": "psg-inc.net",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "Explicitly self-describes as 'a professional engineering services company' 19 years old serving Raytheon/Lockheed Martin/IBM/NGA as consulting/staff-augmentation, already holding SCIF space and CMMC-compliant infrastructure — homepage and About page.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "19-year-old professional engineering services firm doing SAR/ISR systems engineering, data science, and consulting for primes (Raytheon, Lockheed Martin) and government agencies — a services/SI shop, not a productized defense-tech company with its own prototype to field."
+}

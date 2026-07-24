@@ -1,0 +1,26 @@
+{
+  "company": "MacroVation",
+  "slug": "macrovation",
+  "domain": "macrovation.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Active DoD definitive contract N6833525C0287 (in progress, per USAspending.gov) plus a $139,900 DoD STTR award (Dec 2025) and four named active programs with USMC, NAVSEA, and ONR — homepage's 'Active Defense Programs' section and news section.",
+  "disconnect_score": 62,
+  "subscores": {"lab_language_intensity": 5, "deployment_awareness_absence": 15, "operator_absence": 10, "hiring_profile_skew": 12, "stage_pressure": 20},
+  "score_evidence": [
+    "'Sponsors evaluate prototype hardware, measured performance, and program-ready data built around funded mission needs' → lab_language_intensity low, language is sponsor/deliverable-framed, not lab-bragging",
+    "'We build chemistry, delivery hardware, and performance validation...for controlled material effects, composite tooling, and warfighter recovery systems' — detailed product description across 1222 words with zero mention of SWaP-C, sustainment, training, ATO, or ITAR despite fielding hardware to warfighters → deployment_awareness_absence",
+    "'Warfighter Recovery & Performance Restoration Systems...measurable warfighter recovery, performance restoration, and operational readiness outcomes' names warfighters but never describes training, CONOPS, or field feedback → operator_absence",
+    "Only open role: 'Research And Development Chemist' — pure R&D hire, no field/test/integration/compliance role, on a 3-4 person team → hiring_profile_skew",
+    "'In Progress (2 months remain)' on DoD contract N6833525C0287 per USAspending.gov, while running four concurrent USMC/NAVSEA/ONR programs on a 3-4 person team → stage_pressure maxed"
+  ],
+  "blind_spots": [
+    {"blind_spot": "No sustainment or training model for a 'warfighter recovery system'", "operator_reality": "A material-enabled recovery/performance-restoration product still needs someone at the unit level trained to use, restock, and maintain it; naming the product category without addressing who trains the corpsman or resupplies the consumable is exactly where excellent chemistry dies at the fielding gate.", "why_likely_missing": "The site is written for program-office and prime-contractor evaluators assessing technical readiness, not for the operator-facing logistics question, which likely hasn't been engineered yet at prototype stage.", "evidence_quote": "Material-enabled systems supporting measurable warfighter recovery, performance restoration, and operational readiness outcomes.", "quote_source": "homepage"},
+    {"blind_spot": "The funded-months-remaining clock is public and running out in real time", "operator_reality": "A 3-4 person company juggling four concurrent funded programs (USMC x2, NAVSEA, ONR) with one contract showing '2 months remain' is the literal valley-of-death math Barry's EDP describes — if months-to-transition exceeds what's left on this contract, the program (and likely a meaningful share of the company) is at risk.", "why_likely_missing": "This isn't a blind spot in their language so much as a fact publicly visible on USAspending that their own marketing site (understandably) doesn't surface.", "evidence_quote": "In Progress (2 months remain)", "quote_source": "news"},
+    {"blind_spot": "'Delivery architectures for controlled material effects at distance' never addresses SWaP-C or export control", "operator_reality": "A delivery system meant to be carried/deployed by an operator has hard size/weight/power/cost constraints, and 'formulation' plus 'dispensing hardware' for military effect is a plausible ITAR-controlled technical-data category — neither SWaP-C nor export-control language appears anywhere despite four active USMC/NAVSEA/ONR programs.", "why_likely_missing": "Public site language is intentionally high-level ('detailed scope is shared under NDA'), so SWaP-C and ITAR specifics may exist internally but aren't part of the public technical narrative that a partner or prime evaluator would see first.", "evidence_quote": "Delivery architectures for controlled material effects at distance — integrating formulation, flow behavior, dispensing hardware, target interaction, and measured performance.", "quote_source": "homepage"}
+  ],
+  "opener_hook": "Your NAVSEA contract N6833525C0287 shows 2 months remaining on USAspending — worth comparing notes on what it takes to get from prototype demonstration to transition before that clock runs out.",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "A materials-science and hardware R&D company building composite tooling, controlled material-effect delivery systems, and warfighter recovery systems under active USMC, NAVSEA, and ONR SBIR/STTR-funded programs."
+}

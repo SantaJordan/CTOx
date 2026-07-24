@@ -282,35 +282,7 @@ To meet the operational imperatives set forth by Air Force Secretary Frank Kenda
 - rownd (2026-06-29) https://rownd.ai/
   # Rownd (Rownd, Inc.)
 
-Rownd is a Technology, Information and Internet company. Rownd simplifies sign-in for everyone by redefining authentication for product-led teams. They offer secure, flexible authentication for modern apps, and provide a frictionless, secure sign-in experience with passkeys and magic links that users love. Rownd employs 5 people (+10.0% YoY, +1 person), founded in 2022. Headquartered in Durham, North Carolina, United States, with presence in Austria. Has $3.6M in total fun
-- Rownd: Fully autonomous defense solutions for the global edge. () https://www.ycombinator.com/companies/rownd
-  Rownd: Fully autonomous defense solutions for the global edge. | Y Combinator
-
-Home› Companies›Rownd
-
-Rownd
-
-Fully autonomous defense solutions for the global edge.
-
-Y Combinator LogoWinter 2022
-
-Active
-
-Artificial Intelligence
-
-Drones
-
-Open Source
-
-ML
-
----
-
----
-
-### Fully autonomous defense solutions for the global edge.
-
-Rownd AI builds fully autonomous drones that use local edge intelligence and global LTE/5G/SatCom failover to eliminate the 1:1 pilot bottleneck anywhere on earth or space. We
+Rownd is a Technology, Information and Internet company. Rownd simplifies sign-in for everyone by redefining authentication for product-led teams. They offer secure, flexible authentication for modern apps, and provide a frictionless, secure sign-in experience with passkeys and magic links that users love. Rownd employs 5 people (+10.0% YoY, +1 person), founded in 2022. Headquartered in Durham, North Carolina, United States. Its workforce is distributed across United State
 - Rev Up: Wisconsin native returns home to grow software startup Rownd (2024-06-10) https://biztimes.com/rev-up-wisconsin-native-returns-home-to-grow-software-startup-rownd/
   Rev Up: Wisconsin native returns home to grow software startup Rownd
 
@@ -349,6 +321,44 @@ Advertise
 Entrepreneurship & Small Business
 
 # Rev Up: Wisconsin native returns home to g
+- SAM.gov () https://sam.gov/workspace/contract/opp/f3bd437d35e04ba788c75fabfe4c95cc/view
+  SAM.gov
+
+You have 2 new alerts
+
+Scheduled SAM Maintenance
+
+ISR Workspace: Increased Contract Volume
+
+See All Alerts
+
+See All Alerts
+
+Return to Workspace Contract Opportunity
+
+Open Default Actions Menu
+
+Version Current Record 2024-10-29 07:21:09
+
+# Provably Weird Network Deployment and Detection (PWND²)
+
+Inactive
+
+Opportunity
+
+# Provably Weird Network Deployment and Detection (PWND²)
+
+Inactive
+
+Notice ID
+
+##### HR001124S0037-HR001125CE024
+
+Related Notice
+
+##### HR001124S0037
+
+Contract Opportunity
 
 ## Open roles
 (no jobs data found)

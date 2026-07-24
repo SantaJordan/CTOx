@@ -1,0 +1,52 @@
+{
+  "company": "BioFlyte",
+  "slug": "bioflyte",
+  "domain": "bioflyte.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "disconnect_score": 56,
+  "dod_intent_evidence": "News section: Air Force SBIR Phase I (Feb 4 2025) and Phase II (Sep 4 2025) 'ruggedizing BioFlyte's BioTOF technology for deployment on unmanned ground vehicles, enabling mobile chem/biothreat detection in expeditionary environments', plus a homepage testimonial attributed to a 'Biosensors Project Manager, Pentagon Force Protection Agency'.",
+  "subscores": {
+    "lab_language_intensity": 12,
+    "deployment_awareness_absence": 12,
+    "operator_absence": 7,
+    "hiring_profile_skew": 10,
+    "stage_pressure": 15
+  },
+  "score_evidence": [
+    "'a state-of-the-art MALDI time-of-flight mass spectrometer incorporating robotics and AI/ML algorithms' and 'BioFlyte is the first company to bring this proven analysis tool from the clinical lab to the point of need' -> lab_language_intensity: the product is openly a clinical bench instrument being pushed outward",
+    "'The threat library and software updates are easily executed through the cloud.' -> deployment_awareness_absence: cloud dependency stated as a convenience, with no DDIL, ATO, RMF, STIG, CMMC or ITAR language anywhere in ~869 words (subscore capped at 12 by the <1000-word rule)",
+    "'MailScreen includes a Windows-based tablet computer, which serves as the system's Command Console' -> deployment_awareness_absence: a Windows endpoint that would need STIG hardening and an ATO before it touches a government network",
+    "'A sample disk and a microliter of a solvent mixture... are consumed during each test' -> per-test consumables with no visible sustainment or resupply story for an expeditionary UGV",
+    "'an operator initiates the sample collection for screening a batch of mail' -> operator_absence held moderate; operators appear, but as mailroom staff rather than deployed forces",
+    "No jobs data in pack -> hiring_profile_skew set to exactly 10 by rule",
+    "employees(LI): 6, Phase II awarded Sep 4 2025 -> stage_pressure: a six-person team owes UGV ruggedization inside a period of performance that is already roughly ten months old"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Threat-library currency depends on a cloud path that an expeditionary UGV does not have",
+      "operator_reality": "Detection accuracy is entirely a function of how current the library spectra are — the ID step compares processed mass spectra against library spectra. In a mailroom the library refreshes itself over the building network. On a UGV at an austere site the vehicle may go weeks without a permitted uplink, so the fielded article silently degrades to whatever library shipped with it. The fix is a signed, offline, sneakernet-able library package with versioning the operator can read off the console — designed now, not discovered during operational test.",
+      "why_likely_missing": "Every deployment they have validated against — transportation hubs, public venues, commercial buildings, mailrooms — sits on a building network, so connectivity has never been a variable.",
+      "evidence_quote": "The threat library and software updates are easily executed through the cloud.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "A vacuum-and-high-voltage bench instrument being asked to live on a moving vehicle",
+      "operator_reality": "A time-of-flight mass spectrometer needs a vacuum path, a UV laser, high-voltage acceleration optics and a robotic sample handler in alignment. The 'autonomous operation for months at a time' claim was earned in climate-controlled, mains-powered, vibration-free rooms. On a UGV it becomes a SWaP-C problem: pump power draw against vehicle battery, shock and vibration on the ion optics, thermal soak in the sun, dust in the aerosol collector, and realignment after every road march. That gap is where the Phase II period of performance goes if the mechanical and power architecture is not settled early.",
+      "why_likely_missing": "The commercial installed base never moves, so nothing in their validation data set surfaces vibration, transport shock, or vehicle power as design inputs.",
+      "evidence_quote": "Robotic sample handling, tracking, and storage enable autonomous operation for months at a time.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The alarm terminates on a touchscreen instead of entering the CBRN warning and reporting chain",
+      "operator_reality": "A chem/bio detection alarm is only useful if it propagates — to the unit's common operating picture, to the CBRN cell, and into the warning and reporting formats the force actually uses. Their described output stops at an operator standing in front of a Windows console reading a result. On a UGV nobody is standing there. Nothing in their language names ATAK/TAK, JWARN, or any C2 interface, which means the machine-to-machine alarm path — message format, transport under intermittent comms, false-alarm handling on the receiving end — is unbuilt work that a program office will ask for at exactly the wrong moment.",
+      "why_likely_missing": "In a mailroom or an airport the console operator IS the response trigger, so an integration layer never had to exist.",
+      "evidence_quote": "The console displays operational status, maintenance notifications, and communicates the results of MailScreen analysis to the operator.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Your September 4 Phase II ruggedizes BioTOF for unmanned ground vehicles in expeditionary environments, and the product page still says the threat library and software updates run through the cloud — which is the one thing a UGV downrange will not have.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Builds fieldable MALDI time-of-flight aerosol mass spectrometers that identify airborne biological and chemical threats — anthrax, ricin, fentanyl — in about five minutes, sold into mailrooms, airports and now Air Force expeditionary use."
+}

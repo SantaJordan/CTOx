@@ -282,7 +282,7 @@ Contact: Mike Sakal, Public Information Officer
 Office: [phone]; [email]
 
 #
-- Goodyear defense contractor receives prestigious research ... (2015-07-10) https://www.goodyearaz.gov/Home/Components/News/News/1569/1127?arch=1&npage=4
+- Goodyear defense contractor receives prestigious research grant ... (2015-07-10) https://www.goodyearaz.gov/Home/Components/News/News/1569/1127?arch=1&npage=4
   Goodyear defense contractor receives prestigious research grant from United States Air Force | City News | City of Goodyear
 
 Skip to Main Content
@@ -302,10 +302,21 @@ Contact: Mike Sakal, Public Information Officer
 Office: [phone]; [email]
 
 # Goodyear de
-- prime solutions, llc an altamira company (2026-06-22) https://linkedin.com/company/prime-solutions_2
-  # Prime Solutions, LLC an Altamira Company
+- defense solutions group, incorporated (2026-06-15) https://linkedin.com/company/defense-solutions-group-incorporated
+  # Defense Solutions Group, Incorporated
 
-Prime Solutions, LLC an Altamira Company is a Defense and Space Manufacturing company. Altamira is a parsons company that advances critical national security missions with tech-enabled multi-intelligence solutions and critical operations. They are informed by mission experts and delivered by elite technical talent. Prime Solutions, LLC an Altamira Company employs 5 people and has an annual revenue of $8.7M, founded in 2003. Headquartered in Columbia, M
+Defense Solutions Group, Incorporated is a Manufacturing company. Defense Solutions Group, Incorporated employs 13 people. Headquartered in Fort Worth, Texas, United States.
+
+## Company Details
+- Industry: Manufacturing
+- Headquarters: Fort Worth, United States
+- Aliases: defense solutions group, incorporated
+- LinkedIn: linkedin.com/company/defense-solutions-group-incorporated
+- Linkedin Followers: 22
+
+## Workforce
+- Employees: 13
+- Talent Sources: Longh
 
 ## Open roles (Blitz, live)
 - Program Controls Analyst ({'city': 'Goodyear', 'country_code': 'US'})

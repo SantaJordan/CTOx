@@ -1,0 +1,21 @@
+{
+  "company": "Delta Sigma, LLC",
+  "slug": "delta-sigma-llc",
+  "domain": "deltasigmacompany.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "Real DoD motion — 2023 Air Force SBIR Phase II 'Automated Rivet Intelligent Extraction System (ARIES)' ($1,249,232) for the 402 CMXG at Warner Robins, and project write-ups on F-22/F-35/C-130 production lines (SBIR abstract + homepage projects).",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "Services menu is literally 'Engineer to Order' alongside 'RCS and Antenna Measurement Systems' → engineer-to-order automation shop, a disqualified type",
+    "'We specialize in developing systems and tools to automate large, complex, precision assembly and manufacturing processes' (LinkedIn about) → depot/factory tooling, not a fielded warfighter capability",
+    "Founded 1990, 30 employees, one open role ('Application Engineer - ProjectionWorks') → mature custom-machinery business with no transition-to-fielding cliff",
+    "ARIES delivers into a depot maintenance line at Warner Robins, an environment with power, network and technicians — no DDIL/SWaP-C/austere-site exposure to be blind to"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "35-year-old Georgia industrial-automation and RCS/antenna-measurement engineering shop that builds custom robotic tooling for aircraft assembly and depot maintenance lines."
+}

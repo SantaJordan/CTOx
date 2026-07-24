@@ -237,6 +237,8 @@ Branch: NAVY
 Total Award Amount: $500,000
 
 Contract Number: M67854-23-C-
+- CONTRACT to ROME RESEARCH, LLC () https://www.usaspending.gov/award/CONT_AWD_N4940024F3001_9700_N0017819D8440_9700
+  USAspending.gov
 - Government Contract Update: $4M payment to ROME RESEARCH CORPORATION | Quiver Quantitative (2025-03-10) https://www.quiverquant.com/news/Government+Contract+Update%3A+%244M+payment+to+ROME+RESEARCH+CORPORATION
   Government Contract Update: $4M payment to ROME RESEARCH CORPORATION | Quiver Quantitative
 
@@ -249,16 +251,6 @@ Here is the award's description:
 IT SUPPORT SERVICES TO NAVCENT/C5F/CMF C4I SYSTEMS AND NETWORKS.
 
 Our code mapped this con
-- Rome Research to support AFMC - UPI.com (2007-11-16) https://www.upi.com/Defense-News/2007/11/16/Rome-Research-to-support-AFMC/20791195232526/
-  Rome Research to support AFMC - UPI.com
-
-Nov. 16, 2007 / 12:02 PM
-
-NEW HARTFORD, N.Y., Nov. 16 (UPI) -- The U.S. Air Force announced it has contracted New York-based Rome Research Corp. to support the Air Force Materiel Command.
-
-A U.S. Defense Department contractor, Rome Research is a subsidiary of PAR Technology Corp. that provides information technology and communication services.
-
-Under the $34 million, 10-year contract, Rome Research will partner with New York-based information technology s
 
 ## Open roles
 (no jobs data found)

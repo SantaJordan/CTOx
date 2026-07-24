@@ -1,0 +1,26 @@
+{
+  "company": "XEED, LLC",
+  "slug": "xeed-llc",
+  "domain": "xeedlimits.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "DARPA SBIR Phase II award ($1,726,448, 2023) 'Exceeding Limits Beyond Ordinary Wearables (ELBOW)' explicitly funds monitoring warfighter health and readiness — see SBIR/STTR record section.",
+  "disconnect_score": 82,
+  "subscores": {"lab_language_intensity": 19, "deployment_awareness_absence": 19, "operator_absence": 17, "hiring_profile_skew": 10, "stage_pressure": 17},
+  "score_evidence": [
+    "'Patent-pending sensor fusion enables zero-drift tracking without jitter or foot-sliding and within 2 degrees error to lighthouse trackers' → lab_language_intensity",
+    "'The framework will be built on a smartphone and provides the flexibility to add any number of Bluetooth Low Energy wearable sensors...while maintaining low energy consumption' with zero mention of ATO/RMF/CMMC/ITAR across the entire abstract → deployment_awareness_absence",
+    "'Help Us Help You! Our mission is to make full body tracking fun for all ages' — product framed entirely around consumer users, not operators or CONOPS → operator_absence",
+    "no jobs data found → hiring_profile_skew set to 10 per instructions",
+    "2-3 employee team, 'Coming Soon' pre-manufacturing product page, single DARPA Phase II with a period-of-performance clock → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "The Link's real-time WiFi/BLE/USB output architecture assumes a live host connection", "operator_reality": "A DDIL field environment denies the continuous BLE/WiFi link the Link depends on to stream sensor-fusion data to a host in real time — same failure mode as the 30fps crowd-detection case", "why_likely_missing": "product was engineered for indoor VR/gaming rooms with a phone or PC always in range", "evidence_quote": "The Link takes the data from all the connected Trackers in realtime, performs its own body-informed sensor fusion, and outputs it via Bluetooth, WiFi, or USB.", "quote_source": "homepage"},
+    {"blind_spot": "18-hour battery life assumes nightly recharge access", "operator_reality": "An austere OCONUS site has no guaranteed daily recharge point; wearable health sensors need field battery logistics and spares planning that consumer USB-C charging cases don't address", "why_likely_missing": "battery spec is pitched as a consumer convenience win ('play all day'), not a sustainment requirement", "evidence_quote": "Play all day with over 18 hours of active battery life from the Tracker's 20 mAH cell and the Link's 220 mAH cell.", "quote_source": "homepage"},
+    {"blind_spot": "ELBOW abstract treats warfighter health monitoring as a pure ML/data-pipeline problem", "operator_reality": "Any DoD-network deployment of a health-sensor smartphone framework needs ATO/RMF sign-off and likely CMMC compliance before it can touch government systems, plus training/sustainment for the E-5 wearing it", "why_likely_missing": "the abstract is written from a research-differentiation angle (IMU pose data vs. camera pose data) with no compliance or fielding section at all", "evidence_quote": "The framework will be built on a smartphone and provides the flexibility to add any number of Bluetooth Low Energy wearable sensors and/or internal smartphone sensors while maintaining low energy consumption.", "quote_source": "sbir_abstract"}
+  ],
+  "opener_hook": "Your DARPA ELBOW Phase II award funds a smartphone-based framework for monitoring warfighter health and readiness via wearable IMU sensors — built on the same real-time BLE/WiFi architecture as your consumer VR trackers.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Wearable IMU-based full-body motion-capture sensors built for VR/gaming/fitness, now extending via a DARPA SBIR into warfighter health and readiness monitoring."
+}

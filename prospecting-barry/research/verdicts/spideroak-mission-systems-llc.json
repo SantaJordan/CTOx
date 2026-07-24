@@ -1,0 +1,22 @@
+{
+  "company": "SpiderOak Mission Systems LLC",
+  "slug": "spideroak-mission-systems-llc",
+  "domain": "spideroak.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "SDA PWSA SBIR award (Sept 2025), Army PMO UAS Blue UAS assessor contract (Mar 2026), DIU hybrid space network project with Amazon/Microsoft, and a 2023 USSF Enterprise Ground Services Phase II SBIR ($1.23M) — News + SBIR abstract sections.",
+  "disconnect_score": 34,
+  "subscores": {"lab_language_intensity": 6, "deployment_awareness_absence": 2, "operator_absence": 8, "hiring_profile_skew": 10, "stage_pressure": 8},
+  "score_evidence": [
+    "\"Programmable policy management adaptable to any CONOP or operational workflow\" and \"connected across contested, disrupted, or third-party networks\" and \"even with the typical constraints on size, weight, and power\" → explicit CONOPS/DDIL/SWaP-C fluency, driving deployment_awareness_absence to near zero per the 'fluent = low score, still a keep' calibration rule"
+  ],
+  "blind_spots": [
+    {"blind_spot": "SpiderOak positions itself entirely as a component vendor selling through 'system providers' (integrators/primes) rather than owning the end-user relationship.", "operator_reality": "\"Operators loving it is not adoption\" — SpiderOak's own materials show they've architected themselves as a sell-through security layer, with no visible advocacy-chain narrative for how OrbitSecure survives if a prime partner's priorities shift or the integration gets deprioritized.", "why_likely_missing": "Zero-trust security is inherently a component/embedded technology, so the company's go-to-market naturally routes through system integrators rather than direct operator relationships.", "evidence_quote": "With SpiderOak, system providers can extend access control and data protection to edge devices, applications, and platforms—such as satellites, payloads, autonomous vehicles, or tactical radios.", "quote_source": "homepage"},
+    {"blind_spot": "On-orbit demonstrations (Ball Aerospace payload, ISS with Axiom/AWS) are framed as proof of technical feasibility, with no public mention of key/certificate rotation, revocation, or patch cadence once the asset is physically unreachable.", "operator_reality": "\"Achievable\" in a single on-orbit demo doesn't address the sustainment question that actually matters for a fielded space asset: how do you rotate crypto material or patch firmware on something you can never touch again?", "why_likely_missing": "Public materials are written to showcase flight heritage as a sales proof point; sustainment/lifecycle mechanics are typically a later-stage engineering discussion not surfaced in marketing.", "evidence_quote": "SpiderOak's OrbitSecure technology was successfully deployed and integrated on-orbit, demonstrating that data-level zero-trust is achievable in space, even with the typical constraints on size, weight, and power.", "quote_source": "homepage (about)"},
+    {"blind_spot": "SBIR abstract describes brokering command and control across 'US Government, Allied, and/or commercial infrastructure' with no ITAR/export-control or CMMC language anywhere in public materials.", "operator_reality": "Multi-party data brokering across US/Allied/commercial boundaries is exactly the scenario that triggers ITAR and foreign-disclosure review — the company's own compliance posture supporting that claim isn't described publicly.", "why_likely_missing": "Compliance posture likely exists internally for a company this far along in government contracting, but isn't surfaced as a public trust signal.", "evidence_quote": "This will enable an enterprise command brokering system that enables use of US Government, Allied, and/or commercial infrastructure for command and control.", "quote_source": "sbir_abstract"}
+  ],
+  "opener_hook": "SpiderOak's OrbitSecure has flown on an ISS demo and a Ball Aerospace on-orbit payload — its own materials never say who rotates keys once the asset is unreachable.",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Zero-trust cybersecurity software for tactical-edge and space systems — demonstrated on ISS and an on-orbit payload, now contracted by SDA (PWSA) and Army PMO UAS."
+}

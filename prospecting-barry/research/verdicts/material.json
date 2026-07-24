@@ -1,0 +1,16 @@
+{
+  "company": "MATERIAL (Material Hybrid Manufacturing Inc.)",
+  "slug": "material",
+  "domain": "material.inc",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "None found: 'Defense' appears only as one of five 'Live Applications' marketing categories (alongside drones, medical, AI/wearables) and a generic 'Explore Defense' contact-form option — no SBIR award, no named DoD customer, no contract record. The News section's DoD stories (Martin Materials Solutions cover-glass award, Numat protective suits) are unrelated companies, not Material.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "unknown",
+  "what_they_do": "3D-prints conformal, chemistry-agnostic batteries (HYBRID3D platform) directly into custom device geometries for consumer, drone, and medical products."
+}

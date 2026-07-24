@@ -1,0 +1,16 @@
+{
+  "company": "RackTop Systems",
+  "slug": "racktop-systems",
+  "domain": "racktopsystems.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Own site states BrickStor is 'deployed today across the Department of War (DoW, formerly DoD)' with NSA CSfC DAR alignment up to Top Secret and CMMC/RMF-aligned federal solutions pages — Federal & Defense solutions section.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Cyberstorage (data-defense) platform for federal, defense, and enterprise customers, already fielded across DoW/IC missions with NSA CSfC certification, CMMC/RMF alignment, and edge deployment (underwater, land, sea, airborne)."
+}

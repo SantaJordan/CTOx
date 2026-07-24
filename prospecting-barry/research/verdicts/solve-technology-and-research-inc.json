@@ -1,0 +1,20 @@
+{
+  "company": "Solve Technology and Research, Inc",
+  "slug": "solve-technology-and-research-inc",
+  "domain": "solve-global.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "Defense Logistics Agency SBIR Phase II ($1,950,977, 2022) for metal-powder recovery/reuse quality assurance in additive manufacturing -- real but narrow, and the company's own language describes a generalist multi-sector R&D consulting shop, not a defense product company. (Note: the pack's News section is about a different, unrelated company, 'Systems & Technology Research LLC' of Woburn, MA, per the AGENT_PROMPT name-collision warning -- disregarded.)",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "own words: 'global technology and research services company' organized into 'eight Technology divisions and eight Research divisions' spanning energy, medical, industry, infrastructure -> disqualified_type: generalist consulting/services house, not a focused defense product company",
+    "the single SBIR project (metal powder recovery for additive manufacturing quality assurance) is an industrial process-improvement tool, not a fielded product with operators, DDIL, or deployment-architecture concerns -> does not match Barry's niche",
+    "4 employees, 8+ years old, no product page, no pricing, no customer case studies visible on site -> consulting shop, not a company with a prototype stuck between demo and fielded"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "medium",
+  "stage_band": "unknown",
+  "what_they_do": "Small, generalist multi-sector R&D and technology consulting firm (energy, medical, industry, infrastructure) with one Defense Logistics Agency SBIR for an additive-manufacturing quality-assurance tool."
+}

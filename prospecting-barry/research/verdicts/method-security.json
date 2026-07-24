@@ -1,0 +1,38 @@
+{
+  "company": "Method Security",
+  "slug": "method-security",
+  "domain": "method.security",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "USAF SBIR Phase II ($1,249,873, 2025, contract FA8649-25-...), Navy STTR Phase I ($139,545, 2024), and a TBPN interview claiming 'DOD has deployed the company's offensive tools' — News section. Explicit self-description arming 'USAF, and NSA cyber operators.'",
+  "disconnect_score": 64,
+  "subscores": {"lab_language_intensity": 14, "deployment_awareness_absence": 18, "operator_absence": 10, "hiring_profile_skew": 10, "stage_pressure": 12},
+  "score_evidence": [
+    "'Monitor and interrogate your world at ludicrous speed and scale', 'weapons-grade system' → lab_language_intensity",
+    "Zero mention of ATO/RMF/IL4/IL5/FedRAMP anywhere despite 'Delivering cyber resilience to the U.S. Government' → deployment_awareness_absence",
+    "'arm cyber operators with a decisive advantage', 'deeper investigation by human operators' → operator_absence (moderate — operators are named but not detailed with training/CONOPS)",
+    "No jobs data found in pack → hiring_profile_skew set to 10 per instructions",
+    "Series A $27M (General Catalyst), 24 employees, but two live SBIR/STTR threads (USAF Phase II 2025, Navy STTR Phase I 2024) create period-of-performance clocks → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Zero mention of ATO, RMF, IL4/IL5, or FedRAMP anywhere on the site despite explicitly claiming to arm 'USAF, and NSA cyber operators.'",
+     "operator_reality": "A continuous-scanning security platform touching government networks cannot go live without an ATO — silence on this is the same failure mode as any hardware vendor ignoring RMF: the sales cycle looks fast until the ATO clock starts.",
+     "why_likely_missing": "Site is written in commercial-SaaS marketing voice ('Request Demo', 'Get started') rather than for a federal procurement audience.",
+     "evidence_quote": "Delivering cyber resilience to the U.S. Government and critical enterprises",
+     "quote_source": "homepage"},
+    {"blind_spot": "'Global sensor placement: Method deploys fleets of cloud, on-prem, and edge sensors to hit targets harder from every angle' assumes those edge sensors have continuous connectivity back to the central platform.",
+     "operator_reality": "An edge sensor sitting inside a contested or disconnected government network segment can't phone home in real time — no mention of offline queuing or DDIL-tolerant sync for the 'edge' tier of their own architecture.",
+     "why_likely_missing": "Product architecture optimized for enterprise-scale cloud/on-prem coverage, with 'edge' treated as a scale dimension rather than a connectivity constraint.",
+     "evidence_quote": "Method deploys fleets of cloud, on-prem, and edge sensors",
+     "quote_source": "homepage"},
+    {"blind_spot": "'Up and running fast... Immediate defender and attacker perspectives deliver results on Day 0' promises commercial-SaaS-speed onboarding with no mention of ATO/POA&M timelines for a DoD customer.",
+     "operator_reality": "For an NSA/USAF customer, 'Day 0' results are gated by an RMF assessment measured in months, not a sales-cycle promise — a gap between the marketing claim and the actual government onboarding reality is exactly what stalls a contract during the funded period of performance.",
+     "why_likely_missing": "Onboarding flow (Live Training → Proof of Value → Deploy) is built for commercial enterprise sales motion, not adapted for the federal ATO process.",
+     "evidence_quote": "Up and running fast...Immediate defender and attacker perspectives deliver results on Day 0",
+     "quote_source": "homepage"}
+  ],
+  "opener_hook": "Method Security's USAF Phase II SBIR ($1.25M, 2025) and Navy STTR are public, and a TBPN interview says DOD has already deployed their offensive tools — yet the site itself never mentions ATO or IL5.",
+  "confidence": "medium",
+  "stage_band": "series_a",
+  "what_they_do": "Builds Bastion (continuous attack-surface mapping) and Reaper (AI-driven offensive/red-team automation) cyber products, marketed to USG/critical-enterprise customers and funded in part by USAF and Navy SBIR/STTR awards."
+}

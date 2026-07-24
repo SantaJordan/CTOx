@@ -170,26 +170,26 @@ Branch: USAF
 Total Award Amount: $74,997
 
 Contract Number: F
-- UBIQD INC - Solar Windows Using Quantum Dots to Power Military Bases Award | SBIR.org () https://sbir.org/awards/dod-FA8649-22-P-1018-1
-  UBIQD INC - Solar Windows Using Quantum Dots to Power Military Bases Award | SBIR.org
-
-Phase II $749,999 Department of Defense
-
-# Solar Windows Using Quantum Dots to Power Military Bases
-
-UBIQD INC· May 2022
-
-UbiQD is developing solar windows embedded with quantum dots that may generate electricity while maintaining structural strength, potentially allowing Air Force bases to reduce grid dependence and help maintain power during outages.
-
-## What is this research about?
-
-This technology creates 
 - U.S. Air Force Funds Photovoltaic Window Technology on Military Bases (2022-08-17) https://www.prnewswire.com/news-releases/us-air-force-funds-photovoltaic-window-technology-on-military-bases-301607318.html
   U.S. Air Force Funds Photovoltaic Window Technology on Military Bases Accessibility Statement Skip Navigation
 
 Air Force contract will accelerate deployment of quantum dot solar technology after recent successful demonstration projects, highlighting dual use capabilities
 
 LOS ALAMOS, N.M., Aug. 17, 2022 /PRNewswire/ -- UbiQD, Inc., a New Mexico-based nanotechnology development company, announced today it was recently awarded Small Business Innovation Research (SBIR) contracts by the United State
+- UBIQD INC - Solar Windows Using Quantum Dots to Power Military Bases Award | SBIR.org () https://sbir.org/awards/dod-FA8649-21-P-1130-1
+  UBIQD INC - Solar Windows Using Quantum Dots to Power Military Bases Award | SBIR.org
+
+Phase I $50,000 Department of Defense
+
+# Solar Windows Using Quantum Dots to Power Military Bases
+
+UBIQD INC· April 2021
+
+UbiQD is developing window glass embedded with quantum dots that may convert sunlight into electricity while maintaining structural strength and transparency, intended to help power Air Force facilities with integrated renewable energy.
+
+## What is this research about?
+
+This technology crea
 
 ## Open roles (Blitz, live)
 - Facilities Maintenance Technician ({'city': 'Los Alamos', 'country_code': 'US'})

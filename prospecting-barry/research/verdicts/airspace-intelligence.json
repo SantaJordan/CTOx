@@ -1,0 +1,20 @@
+{
+  "company": "Air Space Intelligence",
+  "slug": "airspace-intelligence",
+  "domain": "airspace-intelligence.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Genuine DoD motion is present (homepage Impact section: 'ASI Awarded Contract by DIU to deliver AI-Enabled Joint Sustainment Decision Tool (JSDT)' and 'ASI and U.S. Air Force Accelerate Partnership for NITMRE-GEO', plus a govtribe Air Force Other Transaction Order dated 2025-12-26) — but they are far past the valley of death.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "'ASI Awarded $875m FAA contract to modernize the National Airspace System' (news, 6/22/2026) → program-of-record scale, not a $5-10M company in transition risk",
+    "'PRESCIENCE is a versatile platform impacting over a million air travelers daily and used across military operations and complex global logistics chains' → already fielded",
+    "Open roles include two 'Deployment Lead (Defense)' plus 'Data Lead (Defense)' and 'Data Analyst (Defense)' in Colorado Springs → they already staff fielding and sit next to Space Force/NORTHCOM customers"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Dual-use AI decision-support platform (PRESCIENCE/Flyways) that simulates and optimizes air traffic, energy grids, and military logistics."
+}

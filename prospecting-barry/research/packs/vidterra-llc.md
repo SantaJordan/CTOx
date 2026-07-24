@@ -326,14 +326,48 @@ Vidterra proposes an automated approach to video transport making it easy to sen
   USAspending.gov
 - CONTRACT to VIDTERRA LLC () https://www.usaspending.gov/award/CONT_AWD_M6785423P2071_9700_-NONE-_-NONE-
   USAspending.gov
-- U.S. Special Operations Command (USSOCOM) Vidterra ... () https://orangeslices.ai/contract-award-u-s-special-operations-command-ussocom-vidterra-hw-sw/
-  Contract Award: U.S. Special Operations Command (USSOCOM) Vidterra HW/SW | OrangeSlices AI
+- Award | SBIR () https://www.sbir.gov/awards/201294
+  Award | SBIR Skip to main content
 
-Search
+# Award
 
-Awardee Name: NEXTECH SOLUTIONS LLC Unique Entity ID: YKPDRCB2BCC4 Total Contract Value: $3,123,480.37 Action Obligation: $897,762.37 Department Name: DEPT OF DEFENSE Funding Agency: U.S. SPECIAL OPERATIONS COMMAND (USSOCOM) Description: vidterra hw/sw base year Number of Bidders: 6 Award ID: H9241523F0044 Referenced IDV ID: NNG15SD03B
+Portfolio Data
 
-A Public Benefit Corporation means trust and independence gui
+Back to Award Search
+
+## Automated ISR Video Delivery Between Tactical and Enterprise Networks
+
+### Awardee
+
+#### VIDTERRA LLC
+
+https://www.sbir.gov/portfolio/1974845 5402 CROSS CREEK RDWILMINGTON, NC, 28403-3456USA
+
+Award Year: 2022
+
+UEI: ejjrm3hlxcj7
+
+HUBZone Owned: No
+
+Woman Owned: No
+
+Socially and Economically Disadvantaged: No
+
+Congressional District: N/A
+
+Tagged as:
+
+SBIR
+
+Phase II
+
+### Awarding Agency
+
+DOW
+
+Branch: USAF
+
+Total Aw
 
 ## Open roles
 (no jobs data found)

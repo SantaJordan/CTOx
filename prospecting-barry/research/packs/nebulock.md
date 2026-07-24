@@ -374,33 +374,7 @@ Autonomous threat hunting for continuous and context-aware coverage across your 
 We help security teams hunt threats across endpoint, identity, cloud, network, and SaaS from a single platform. By focusing on behaviors and TTPs rather than IOCs, teams can correlate weak signals into actionable hypotheses and turn discoveries into automated coverage. Our agentic approach brings expert-level threat hunting to your team without additional headcount or specialized expertise.
 
 ## News (Exa, top 3)
-- Nebulock: Funding, Team & Investors (2026-07-13) https://startupintros.com/orgs/nebulock
-  Nebulock: Funding, Team & Investors | Startup Intros
-
-Skip to content
-
-Loading organizations...
-
-## Financial History
-
-Nebulock has raised $6.0M across 1 funding round.
-
-Raised
-
-$6.0M
-
-1 funding round
-
-## Frequently Asked Questions
-
-How much funding has Nebulock raised?
-
-Nebulock has raised $6.0M in total across 1 funding round.
-
-## About
-
-Nebulock provides an autonomous threat hunting platform, leveraging agentic AI and contextual security analytics. The platform proactively identifies hidden t
-- Nebulock Raises $25M Series A for Hunt-First, Always-On Security Operations (2026-06-25) https://nebulock.io/blog/nebulock-raises-25m-series-a-for-hunt-first-always-on-security-operations
+- Nebulock Raises $25M Series A for Hunt-First, Always-On Security ... (2026-06-25) https://nebulock.io/blog/nebulock-raises-25m-series-a-for-hunt-first-always-on-security-operations
   Nebulock Raises $25M Series A for Hunt-First, Always-On Security Operations
 
 Skip to main content
@@ -424,6 +398,22 @@ https://nebulock.io/blog/open-weights-open-season
 July 16, 2026
 
 #### U
+- Nebulock Raises $25 Million for AI-Native Contextual Security - SecurityWeek (2026-06-26) https://www.securityweek.com/nebulock-raises-25-million-for-ai-native-contextual-security/
+  Nebulock Raises $25 Million for AI-Native Contextual Security - SecurityWeek
+
+BREAKING OpenAI Says Its AI Models Went Rogue and Hacked Hugging Face
+
+### SECURITYWEEK NETWORK:
+
+### ICS:
+
+Connect with us
+
+Hi, what are you looking for?
+
+Cybersecurity startup Nebulock has announced raising $25 million in a Series A funding round that brings the total raised by the company to over $33 million.
+
+The new investment round was led by FirstMark, with additional support from previous backers Bain Capital V
 - Nebulock emerges from stealth with $8.5M from Bain Capital Ventures, In-Q-Tel (2025-07-29) https://www.axios.com/2025/07/29/nebulock-ai-threat-startup-bain-capital
   Nebulock emerges from stealth with $8.5M from Bain Capital Ventures, In-Q-Tel
 

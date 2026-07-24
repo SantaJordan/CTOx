@@ -1,0 +1,35 @@
+{
+  "company": "TerraKinesis",
+  "slug": "terrakinesis",
+  "domain": "terrakinesis.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own LinkedIn post documents 'PULSE Reduces Network Overhead by 60% at Fort Bragg,' the pack's channel notes confirm a demonstration on TrellisWare radios during the U.S. Army's Dragon Nexus 26-01 bench test, and the site states PULSE is 'Compatible with NGC2, TAK, Lattice, JBC-P, and C2FIX. Tested on commercial, public sector, and military radios.'",
+  "disconnect_score": 41,
+  "subscores": {"lab_language_intensity": 7, "deployment_awareness_absence": 4, "operator_absence": 2, "hiring_profile_skew": 10, "stage_pressure": 18},
+  "score_evidence": [
+    "No jobs data in pack ('Open roles: (no jobs data found)') → hiring_profile_skew set exactly 10 per instructions",
+    "'TerraKinesis employs 4 people, founded in 2026' (LinkedIn/Exa snapshot) — tiny team, pre-seed, days-old company → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Zero ATO/RMF/CMMC/ITAR/STIG language despite explicit NGC2/TAK/JBC-P/C2FIX integration claims",
+     "operator_reality": "Even a company this fluent in DDIL and radio integration can stall at the bureaucratic gate rather than the technical one — touching NGC2 and JBC-P means the software eventually has to earn an ATO on government networks, and that path is never mentioned.",
+     "why_likely_missing": "Public materials (site, architecture page, Substack) are entirely focused on protocol/network-science credibility (NACK, beehive clustering, O(n) scaling) aimed at a technical/operator audience, not the compliance/acquisition audience.",
+     "evidence_quote": "'Compatible with NGC2, TAK, Lattice, JBC-P, and C2FIX. Tested on commercial, public sector, and military radios.'",
+     "quote_source": "homepage"},
+    {"blind_spot": "Today's shipping PULSE runs 'on top of fixed WiFi silicon' — jamming resistance and waveform agility are roadmap, not current capability",
+     "operator_reality": "Same failure mode as the canonical 30fps-video case: a demo that works great on COTS WiFi hardware in a bench test can fall apart the moment it meets an actual contested-spectrum environment, because the FHSS jamming resistance the pitch implies ('under 30 to 80 percent burst jamming') depends on an SDR/MAC-PHY layer they explicitly label as future work.",
+     "why_likely_missing": "The architecture page candidly separates 'Today' (COTS MCU / fixed WiFi silicon) from the SDR roadmap, but the homepage marketing (142 fps under jamming) doesn't carry that caveat forward.",
+     "evidence_quote": "'Pulse Protocol today is a software bus — application logic riding on top of fixed WiFi silicon. The SDR roadmap takes ownership of MAC and PHY, which is what unlocks beehive scale, FHSS jamming resistance, slot-precise TDMA, and waveform agility.'",
+     "quote_source": "homepage"},
+    {"blind_spot": "No mention anywhere of who trains the operator, sustains spares/batteries, or owns the advocacy chain above the operator level, despite operator-centric branding",
+     "operator_reality": "Being 'Built by Operators' and citing a downed-pilot survival story builds emotional resonance but is not the same as a fielded training/sustainment plan — a 4-person team at pre-seed with a single Fort Bragg bench test has not yet had to answer who trains the next unit rotation or who champions PULSE above the operator level when the Dragon Nexus period of performance ends.",
+     "why_likely_missing": "Team bios and blog content emphasize origin-story credibility (West Point, Top Secret clearance, downed-WSO case study) rather than program-of-record mechanics like training curricula or GFE integration.",
+     "evidence_quote": "'Three co-founders with overlapping experience across the defense industrial base, automotive, and hyperscale cloud — from concept to contract.'",
+     "quote_source": "homepage"}
+  ],
+  "opener_hook": "TerraKinesis documented a 60% network overhead reduction running PULSE at Fort Bragg in June 2026, following a bench test on TrellisWare radios during the Army's Dragon Nexus 26-01.",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Distributed mesh-networking software (PULSE) that guarantees message delivery across 1,000+ nodes in DDIL environments without SATCOM, for multi-domain military C2 and commercial edge/vehicle use cases."
+}

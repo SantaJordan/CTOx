@@ -338,38 +338,20 @@ bottom of page
 We convert brines to battery materials to unlock global energy abundance.
 
 ## News (Exa, top 3)
-- electroflow technologies, inc. () https://seedfund.nsf.gov/awardees/phase-1/details/?company=electroflow-technologies-inc
-  Awardees phase 1 details | NSF SBIR
+- Electroflow Technologies Raises $8M for Lithium | Dealroom.co () https://app.dealroom.co/news/feed/electroflow-technologies-raises-8m-for-lithium
+  Electroflow Technologies Raises $8M for Lithium | Dealroom.co
 
-# Award Details
+# Electroflow Technologies Raises $8M for Lithium
 
-# There were no results found for that query.
+● Jul 2025
 
-Try a new search or return to previous page to try again.
+Stanford grads Eric McShane and Evan Gardner's startup, Electroflow Technologies, claims a breakthrough in lithium extraction, reducing costs to $1,500/ton. Their method achieves 96% recovery using less water. Backed by Breakthrough Energy, they hit 92% recovery in Utah with Mandrake Resources, securing a $1 million DOE grant. Electroflow is raising $8 million, adding to 
+- Fenwick Represents Electroflow Technologies in $10M Seed ... (2025-10-01) https://www.fenwick.com/insights/experience/fenwick-represents-electroflow-technologies-in-10m-seed-funding
+  Fenwick Represents Electroflow Technologies in $10M Seed Funding | Fenwick Skip to main content
 
-Search America's Seed Fund awardees
+Fenwick represented Electroflow Technologies, a developer of electrochemical technology designed to streamline and reduce the cost of producing lithium in the United States, in its $10 million Seed funding. The round was co-led by Union Square Ventures and Voyager Ventures with participation from Fifty Years and Harpoon Ventures.
 
-## Loading company results...
-
-# Phase I
-
-# 3VO MEDICAL, INC
-
-## SBIR Phase I: Feasibility of a Novel Minimally Invasive Labor Augmentation System for Stage I Labor
-
-#### Project Leader
-
-Principal Investigator
-
-#### Contact
-
-3520 MULTIVIEW DR
-
-Los Angeles, CA 90068--1222
-
-#### NSF Award
-
-2507364 – SBIR
+Electroflow Technologies will use the funds to continue its mission of
 - Electroflow promises to make LFP material for 40% less than Chinese producers | TechCrunch (2025-10-01) https://techcrunch.com/2025/10/01/electroflow-promises-to-make-lfp-material-for-40-less-than-chinese-producers/
   Electroflow promises to make LFP material for 40% less than Chinese producers | TechCrunch
 
@@ -388,14 +370,6 @@ Tim De Chant
 Copy Share Link
 
 The battery world has fallen head over heals for lithium-iron-phosphate cells, a cheap, durable chemistry that can lower the price of a vehicle by thousands of dollars. Tariffs and anti-China r
-- Electroflow Technologies Raises $8M for Lithium | Dealroom.co () https://app.dealroom.co/news/feed/electroflow-technologies-raises-8m-for-lithium
-  Electroflow Technologies Raises $8M for Lithium | Dealroom.co
-
-# Electroflow Technologies Raises $8M for Lithium
-
-● Jul 2025
-
-Stanford grads Eric McShane and Evan Gardner's startup, Electroflow Technologies, claims a breakthrough in lithium extraction, reducing costs to $1,500/ton. Their method achieves 96% recovery using less water. Backed by Breakthrough Energy, they hit 92% recovery in Utah with Mandrake Resources, securing a $1 million DOE grant. Electroflow is raising $8 million, adding to 
 
 ## Open roles (Blitz, live)
 - Cathode Synthesis Intern (Summer 2026) ({'city': 'San Bruno', 'country_code': 'US'})

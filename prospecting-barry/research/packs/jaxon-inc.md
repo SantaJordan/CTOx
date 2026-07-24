@@ -411,20 +411,16 @@ $2,149,838
 Total Awarded
 
 ## Aw
-- Jaxon Awarded SBIR Phase I with U.S. Space Force to Employ Self-Organizing Market of Specialized AI Models for Warfighters - PR.com (2026-07-21) https://www.pr.com/press-release/973951
-  # Jaxon Awarded SBIR Phase I with U.S. Space Force to Employ Self-Organizing Market of Specialized AI Models for Warfighters - PR.com
+- Jaxon Awarded SBIR Phase III With U.S. Space Force to Accelerate Safe AI Adoption (2025-12-02) https://www.accessnewswire.com/newsroom/en/computers-technology-and-internet/jaxon-awarded-sbir-phase-iii-with-u.s.-space-force-to-accelerate-1104173
+  Jaxon Awarded SBIR Phase III With U.S. Space Force to Accelerate Safe AI Adoption
 
-Published: 2026-07-21T07:53:00-04:00
-Source: pr.com (pr.com)
-Language: en
+Back to the Newsroom
 
-## Story
+---
 
-Jaxon Awarded SBIR Phase I with U.S. Space Force to Employ Self-Organizing Market of Specialized AI Models for Warfighters - PR.com
+# Jaxon Awarded SBIR Phase III With U.S. Space Force to Accelerate Safe AI Adoption
 
-- [![PR.com](https://static.pr.com/images/logo-pr-base.png)](https://www.pr.com/)
-- [Join Now](https://admin.pr.com/create-account)
-- [Sign In](htt
+BOSTON, MASSACHUSETTS / ACCESS Newswire/ December 2, 2025 / Jaxon, Inc. was awarded a $1.54 million SBIR Phase III contract for its development of governance and guardrail systems to ensure responsible AI (RAI) implementation. In particular, Jaxon's Hybrid Observation and Processing System (HOPS) allows 
 
 ## Open roles (Blitz, live)
 - Machine Learning Engineer ({'city': 'Lincoln', 'country_code': 'US'})

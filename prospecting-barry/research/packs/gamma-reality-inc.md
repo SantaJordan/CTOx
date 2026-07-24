@@ -291,6 +291,18 @@ Gamma Reality Inc.\'s mission is to harness the power of multi-sensor data fusio
 As an increasing number of CBRN and situational awareness sensors are deployed on the battlefield on vehicles and on unmanned ground and aerial platforms, an unprecedented amount of data is now available to support DoD missions. Collecting, correlating, analyzing, and communicating the different types of data produced by these sensors, including CBRNE, location/tracking, and situational awareness, is a time consuming and burdensome process for the Warfighter and Commanders, and manually correlating these separate pieces of data is also prone to human error. New situational awareness and training tools employing augmented reality (AR), virtual reality (VR) and mixed reality (XR) interfaces also provide more ways to collect and display the data. With the wide deployment of sensors and the adoption of new data communication and visualization tools, new capabilities are needed to bridge the gap between sensors and visualization platforms and overcome the challenges of integrating sensor data into an AR client or HUD system. Gamma Reality Inc. proposes to extend the capabilities developed under Phase I to enable faster, more efficient, real-time, on-the-move CBRN hazard detection, assessment, and response through the visualization and communication of radioactive and chemical hazards in AR in a HUD through the deployment of vehicle-mounted, as well as off-board sensor systems in Phase II.
 
 ## News (Exa, top 3)
+- Gamma Reality Inc. - AR goggles may help soldiers identify chemical and radiation threats in real time Award | SBIR.org () https://sbir.org/awards/dod-W911-NF-22-P-0003-1
+  Gamma Reality Inc. - AR goggles may help soldiers identify chemical and radiation threats in real time Award | SBIR.org
+
+Phase I $167,432 Department of Defense
+
+# AR goggles may help soldiers identify chemical and radiation threats in real time
+
+Gamma Reality Inc.· November 2021
+
+Gamma Reality is developing augmented reality technology that could overlay chemical and radiation sensor data onto soldiers' vision, potentially helping them identify dangerous CBRN threats faster in the field.
+
+## Wha
 - Award | SBIR () https://www.sbir.gov/awards/207726
   Award | SBIR Skip to main content
 
@@ -335,70 +347,16 @@ Branch: CWMD
 Total Award Amount: $174,559
 
 Contract Num
-- Award | SBIR () https://www.sbir.gov/awards/202453
-  Award | SBIR Skip to main content
+- Gamma Reality Inc. - Mobile 3D Radiation Mapping System for Homeland Security Detection Award | SBIR.org () https://sbir.org/awards/dhs-70RWMD24C00000009-1
+  Gamma Reality Inc. - Mobile 3D Radiation Mapping System for Homeland Security Detection Award | SBIR.org
 
-# Award
+Phase I $174,559 Department of Homeland Security
 
-Portfolio Data
+# Mobile 3D Radiation Mapping System for Homeland Security Detection
 
-Back to Award Search
+Gamma Reality Inc.· May 2024
 
-## Automated 3D data fusion surveys on Spot robot for next generation plant monitoring
-
-### Awardee
-
-#### Gamma Reality Inc.
-
-1301 S 46th St Bldg 478 Rm 102Richmond, CA, 94804-4600USA
-
-Award Year: 2023
-
-UEI: NLWWX8DE7KF9
-
-HUBZone Owned: Yes
-
-Woman Owned: No
-
-Socially and Economically Disadvantaged: No
-
-Congressional District: 11
-
-Tagged as:
-
-SBIR
-
-Phase II
-
-### Awarding Agency
-
-DOE
-
-Total Award Amount: $1,149,690
-
-
-- Gamma Reality, Inc. – A Game Changer for Radiation Detection | Department of Energy (2023-07-19) https://www.energy.gov/technologycommercialization/articles/gamma-reality-inc-game-changer-radiation-detection
-  Gamma Reality, Inc. – A Game Changer for Radiation Detection | Department of Energy
-
-Blog
-
-# Gamma Reality, Inc. – A Game Changer for Radiation Detection
-
-San Francisco start-up Gamma Reality, Inc. (GRI) has revolutionized radiation detection by creating safer, efficient real-time 3D mapping technologies.
-
-Office of Technology Commercialization
-
-July 19, 2023
-
-Estimated Read Time min
-
-Energy I-Corps Success Story
-
-Video Url
-
-Gamma Reality, Inc. – A Game Changer for Radiation Detection
-
-U.S. Depa
+Gamma Reality is developing a modular, vehicle-mounted system that may create real-time 3D maps of radioactive materials by combining radiation detectors with cameras and AI, potentially making detection faster and more reliable than current fi
 
 ## Open roles (Blitz, live)
 - Operations Manager ({'city': 'Richmond', 'country_code': 'US'})

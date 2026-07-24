@@ -1,0 +1,22 @@
+{
+  "company": "Intalus",
+  "slug": "intalus",
+  "domain": "intalustech.com",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "No SBIR, no DoD contract record, and no program-office, warfighter or service-branch language anywhere in the pack. Their about page lists \"Defense & Aerospace\" as one of six addressable verticals alongside Medical, Mobility and Energy, and the only defense-adjacent fact is Lockheed Martin participating in the seed round per the Origin Ventures LinkedIn post — investor membership, which the gate explicitly does not accept.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "\"INTALUS integrates ceramics into metal to create engineered material architectures for demanding applications across a wide range of industries\" → horizontal materials supplier, not a defense product company",
+    "\"OEMs and manufacturers trust INTALUS to perform in demanding environments\" → the customer is an OEM, not a government program; any DoD exposure is several tiers of subcontract away",
+    "Proven use cases are listed as Defense & Aerospace, Space Systems, Industrial & Maritime, Medical, Energy & Nuclear, Mobility → defense is one sixth of an addressable-market list, with no named customer, contract or award",
+    "Their own newest news item is \"INTALUS moves into production with new facility at Purdue's HAMTC... for government and industrial use\" — a facility announcement, not a defense contract",
+    "Funding news (\"$11M Seed\", \"raised an additional $20M... alongside Lockheed Martin and Scout Ventures\") is the sole defense signal, and it is investor-side"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "medium",
+  "stage_band": "series_a",
+  "what_they_do": "An Indiana advanced-materials startup whose patented Targeted Phase Infusion process fuses ceramic into finished metal parts for wear, corrosion and thermal resistance without a surface coating."
+}

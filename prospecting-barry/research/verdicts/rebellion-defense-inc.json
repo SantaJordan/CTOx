@@ -1,0 +1,16 @@
+{
+  "company": "Rebellion Defense / Rebellion Industries",
+  "slug": "rebellion-defense-inc",
+  "domain": "rebelliondefense.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Multiple executed U.S. Navy contracts (Project Overmatch/CJADC2 2024, Target Recognition expansion 2024/2025), Air Force SBIR ($1.7M, Project ABIGAIL for 11th SOIS), and 'Awardable' vendor status on CDAO's Tradewinds Solutions Marketplace — real, delivered DoD software programs, not just intent.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Established defense software company (Iris/Prism/target recognition, Navy Project Overmatch work) now rebranding as Rebellion Industries around a new radar+AI sensing 'Intelligence Shield' product for critical infrastructure."
+}

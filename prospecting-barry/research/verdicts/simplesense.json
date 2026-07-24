@@ -1,0 +1,16 @@
+{
+  "company": "Simplesense",
+  "slug": "simplesense",
+  "domain": "simplesense.io",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Deployed at Tyndall AFB (29,000-acre installation, 17,000+ endpoints) with $15M AFWERX STRATFI and a $20M DoD APFIT expansion contract for five further installations — per own News section and channel notes (status: fielded).",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Installation Resilience Platform unifying facilities/security/OT data into one operational picture; already fielded at Tyndall AFB with a five-installation expansion contract."
+}

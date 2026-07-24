@@ -1,0 +1,44 @@
+{
+  "company": "Pison Technology",
+  "slug": "pison-technology",
+  "domain": "pison.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Channel notes cite Pison's TAK-GUIDE Phase II SBIR ('adds ML-enabled gesture control to AFSOC tactical-awareness systems for drone engagement', status: prototype, src: sbir.gov/awards/198924); News section confirms a Nov 2023 SOCOM Phase III SBIR award and a NAVAIR/NAWCAD R&D contract, and the homepage itself banners 'Backed by DoD' / 'How it is used by the Army'.",
+  "disconnect_score": 80,
+  "subscores": {"lab_language_intensity": 16, "deployment_awareness_absence": 20, "operator_absence": 18, "hiring_profile_skew": 10, "stage_pressure": 16},
+  "score_evidence": [
+    "'Pison continuously learns your unique nervous system to predict your cognitive performance 24/7' → lab_language_intensity (algorithmic/real-time brag, zero operational framing)",
+    "Entire site never mentions DDIL, ATO, RMF, CMMC, ITAR, STIG, or SWaP-C despite claiming 'Backed by DoD' and an active AFSOC TAK-GUIDE prototype → deployment_awareness_absence maxed",
+    "'operators' appears only as 'For owners, operators & decision-makers' — a business-exec audience label, not a military operator, training, or CONOPS reference; TAK-GUIDE is explicitly for 'drone engagement' yet the site never says 'TAK' or 'ATAK' → operator_absence",
+    "no jobs data found in pack → hiring_profile_skew set to 10 per instructions",
+    "founded 2016 (10 years), 81 employees, ~$17M disclosed funding across rounds per channel notes, TAK-GUIDE still at 'status: prototype', and the company's current public flagship product is a $29/mo consumer wearable subscription → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "TAK-GUIDE is explicitly built to add 'ML-enabled gesture control to AFSOC tactical-awareness systems for drone engagement,' yet the company's own site never uses the word TAK, ATAK, or describes any C2/tactical-display integration.",
+      "operator_reality": "Gesture control for drone engagement has to slot into an operator's existing tactical-awareness display and workflow under load — a still-prototype effort with zero public description of that integration path is exactly where transitions stall.",
+      "why_likely_missing": "The TAK-GUIDE work exists only in SBIR award records; the company's brand voice has moved entirely to consumer cognitive wellness.",
+      "evidence_quote": "channel notes: 'Pison's TAK-GUIDE Phase II effort adds ML-enabled gesture control to AFSOC tactical-awareness systems for drone engagement'",
+      "quote_source": "news"
+    },
+    {
+      "blind_spot": "No discussion anywhere of glove compatibility, NVG interference, or signal reliability under load/stress for a gesture-control system meant for drone-engagement operators.",
+      "operator_reality": "Electroneurography gesture sensing that works on a resting wrist in a marketing demo is a different engineering problem than reading nerve signals through gloves, sweat, and adrenaline during an engagement — a gap that kills adoption if not solved.",
+      "why_likely_missing": "Public product design and messaging optimize for the consumer wellness use case (5-minute daily test, resting-state sensing), not high-stress tactical gesture recognition.",
+      "evidence_quote": "'A light flashes, you flex your wrist.' [60-second test description]",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Still 'status: prototype' per SBIR channel notes with no ATO/RMF/ITAR language despite the tactical-awareness/drone-engagement use case.",
+      "operator_reality": "A prototype gesture-control layer for drone engagement will need to cross an ATO before it ever integrates with a program-of-record C2 system — the company's public materials give no indication this is being engineered for from day one.",
+      "why_likely_missing": "Focus and public narrative center on the sensor/AI IP and the consumer commercialization path, not the government accreditation pipeline for the tactical variant.",
+      "evidence_quote": "channel notes: 'status: prototype'",
+      "quote_source": "news"
+    }
+  ],
+  "opener_hook": "Your AFSOC TAK-GUIDE Phase II is still status: prototype for drone-engagement gesture control — is the ATAK integration path scoped yet, or riding on the ATO clock?",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Neural/ENG wristband sensing platform, sold publicly as a consumer cognitive-performance wearable, with parallel DoD SBIR work adding gesture control to AFSOC tactical-awareness systems."
+}

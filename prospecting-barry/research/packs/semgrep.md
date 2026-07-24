@@ -454,7 +454,7 @@ Join us at
 Semgrep is the leader in code security for builders. Teams catch, flag, and fix real issues before they ship, powered by security that learns as you build. Built for builders and trusted by security, the platform unifies SAST, SCA, and secrets scanning, embedding protection directly into the development workflow so security begins where code is written and lives where developers work. Semgrep combines deterministic static analysis with AI reasoning to power detection, triage, and remediation. This approach helps teams uncover real vulnerabilities, prioritize reachable risks, and fix issues fas
 
 ## News (Exa, top 3)
-- Series D announcement (2025-02-05) https://semgrep.dev/blog/2025/series-d-announcement/
+- Series D announcement (2025-02-05) https://semgrep.dev/blog/2025/series-d-announcement
   Series D announcement | Semgrep
 
 Semgrep Code
@@ -480,13 +480,13 @@ Combine AI reasoning with rule-based analysis for detection, triage, and remedia
 Semgrep AppSec Platform
 
 Automate, manage, and enforce security
-- Semgrep Announces $100M Series D Funding to Advance AI-Powered ... (2025-02-05) https://www.prnewswire.com/news-releases/semgrep-announces-100m-series-d-funding-to-advance-ai-powered-code-security-302367780.html
+- Semgrep Announces $100M Series D Funding to Advance AI-Powered Code Security (2025-02-05) https://www.prnewswire.com/news-releases/semgrep-announces-100m-series-d-funding-to-advance-ai-powered-code-security-302367780.html
   Semgrep Announces $100M Series D Funding to Advance AI-Powered Code Security Accessibility Statement Skip Navigation
 
 Investment, led by Menlo Ventures, accelerates autonomous security platform for developers
 
 SAN FRANCISCO, Feb. 5, 2025 /PRNewswire/ -- Semgrep, a leading Application Security platform, today announced $100M in Series D funding led by Menlo Ventures. With added participation from existing investors including Felicis Ventures, Harpoon Ventures, Lightspeed Venture Partners, Redpoin
-- Application Security Startup Semgrep Locks Down $100M Series D (2025-02-05) https://news.crunchbase.com/cybersecurity/application-startup-semgrep-fundraise-menlo/
+- Application Security Startup Semgrep Locks Down $100M ... (2025-02-05) https://news.crunchbase.com/cybersecurity/application-startup-semgrep-fundraise-menlo/
   Application Security Startup Semgrep Locks Down $100M Series D
 
 Chris Metinko

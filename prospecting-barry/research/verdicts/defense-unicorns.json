@@ -1,0 +1,21 @@
+{
+  "company": "Defense Unicorns",
+  "slug": "defense-unicorns",
+  "domain": "defenseunicorns.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Deep DoD motion — homepage 'Get Software to Warfighters', $15M U.S. Space Force STRATFI with a PEO partner (news), multiple USAF SBIR awards, and UDS fielded across Navy/Army/Air Force/Space Force per channel notes.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "'UDS Fleet ... is an end-to-end platform, purpose-built for airgapped and DDIL environments' → maximal deployment fluency; they name DDIL by acronym on their own product page",
+    "'UDS Fleet meets key NIST SP 800-53 technical controls out of the box, collapsing the timeline to ATO submission from months to days' → they sell the ATO fix Barry sells",
+    "'empowering every operator at the edge to own their system, no specialized IT expertise required' → operator-centric design and sustainment already central",
+    "220 employees, $35M Series A (2024) plus $15M STRATFI, product already fielded across four services → past the valley of death, not in the $5M-$10M band"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Colorado Springs veteran-founded company selling UDS, an open-source, airgap-native software delivery and ATO-compliance platform for getting apps onto disconnected military systems at the tactical edge."
+}

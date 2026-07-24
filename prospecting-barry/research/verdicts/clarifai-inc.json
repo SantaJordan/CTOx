@@ -1,0 +1,16 @@
+{
+  "company": "Clarifai, Inc.",
+  "slug": "clarifai-inc",
+  "domain": "clarifai.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Genuine DoD motion (Project Maven, two 2022 SBIR Phase IIs, CDAO Tradewinds 'Awardable' status, Palantir/Army ground-station delivery — SBIR abstracts and news sections), but the company is a decade-old revenue-stage platform ('Billions of predictions served', 400K+ users) that has crossed the valley — and its homepage announces Nebius is licensing its IP and absorbing its core engineering team, with 'Platform credit purchases will be disabled after June 18, 2026'. There is no stuck prototype and soon no independent company to sell to.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Enterprise computer-vision/AI platform whose inference IP and core team are being absorbed by Nebius; the standalone platform is being wound down."
+}

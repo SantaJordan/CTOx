@@ -250,6 +250,20 @@ Revolutionizing healthcare as pioneers in non-invasive neurostimulation solution
 Acute stress reaction (ASR) is a risk factor for completed suicide and can lead to having post-traumatic stress disorder (PTSD) symptoms. Patients with PTSD have shown a greater propensity to alcohol and opioid abuse. ASR typically lasts much less than 48 hours, so a rapidly deployable approach is needed to immediately treat or prevent ASR to avert long-lasting adverse effects. Current military ASR treatment efforts involve front-line psychiatry and combat operational stress control. The success of these treatments depends on proximity to care and immediacy of the applied therapy. Trained personnel are required to quickly administer the treatment. Many battlefield situations do not allow for the affected soldier to be close enough to trained personnel to avert adverse effects from an ASR event. Data suggests vagus nerve stimulation (VNS) can attenuate stress-related symptoms such as anxiety, hyperarousal, and social avoidance. Spark Biomedical recently attained 510(k) clearance for the Sparrow device, a wearable device that fits around the ear and transcutaneously stimulates the auricular branch of the vagus nerve. In Phase I, the Spark team developed the performance parameters and form factor of a disposable, cable-free wearable transcutaneous auricular neurostimulation device to treat or prevent ASR in far-forward battlefield environments. In the proposed Phase II work, Spark will develop a clinical grade tAN device and test its efficacy to restore performance on operationally relevant tasks in a clinical model of laboratory stress.  A pre-submission application will be submitted to the FDA to get feedback on the regulatory strategy and the future clinical study design.
 
 ## News (Exa, top 3)
+- SPARK BIOMEDICAL INC. - Wearable Ear Device May Help Treat Battlefield Stress in Minutes Award | SBIR.org () https://sbir.org/awards/dod-HT9425-23-C-0042-1
+  SPARK BIOMEDICAL INC. - Wearable Ear Device May Help Treat Battlefield Stress in Minutes Award | SBIR.org
+
+Phase II $1,149,775 Department of Defense
+
+# Wearable Ear Device May Help Treat Battlefield Stress in Minutes
+
+SPARK BIOMEDICAL INC.· July 2023
+
+A small wearable device that stimulates the vagus nerve through the ear could help rapidly treat acute stress reactions in soldiers, potentially reducing the risk of PTSD and suicide within hours of deployment.
+
+## What is this research about?
+
+Spa
 - Spark Biomedical Awarded $1.15M Department of Defense Phase II ... (2023-08-29) https://www.sparkbiomedical.com/news-articles/spark-biomedical-awarded-1-15m-department-of-defense-phase-ii-sttr-grant
   Spark Biomedical Awarded $1.15M Department of Defense Phase II STTR Grant in Partnership with Battelle Memorial Institute | Spark Biomedical
 
@@ -274,18 +288,6 @@ August 29, 2023 14:52 ET | Source: Spark Biomedical Spark Biomedical
 ---
 
 DALLAS, Texas, Aug. 29, 2023 (GLOBE NEWSWIRE) -- Aug. 29, 2023 — Spark Biomedical, Inc., a Dallas-based pioneer
-- Spark Biomedical Awarded $1.15M Department of Defense Phase II STTR Grant in Partnership with Battelle Memorial Institute - BioSpace (2023-08-29) https://www.biospace.com/spark-biomedical-awarded-1-15m-department-of-defense-phase-ii-sttr-grant-in-partnership-with-battelle-memorial-institute
-  Spark Biomedical Awarded $1.15M Department of Defense Phase II STTR Grant in Partnership with Battelle Memorial Institute - BioSpace
-
-# Spark Biomedical Awarded $1.15M Department of Defense Phase II STTR Grant in Partnership with Battelle Memorial Institute
-
-August 29, 2023 |
-
-5 min read
-
-## Spark Biomedical, Inc. was awarded a $1.15M Phase II grant to develop a Transcutaneous Auricular Neurostimulation device, Sparrow® Hawk, to address the adverse effects of acute stress reaction.
-
-The partners
 
 ## Open roles
 (no jobs data found)

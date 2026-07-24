@@ -1,0 +1,26 @@
+{
+  "company": "Sky Spy",
+  "slug": "sky-spy",
+  "domain": "skyspy.ai",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own newsroom documents a live demonstration with the French Armed Forces (May 2026) and a NATO exercise with Estonian Defence Forces (July 2026), plus a $1.6M pre-seed to fund production for contested-environment SIGINT — genuine, current defense motion, not yet at program-of-record scale.",
+  "disconnect_score": 39,
+  "subscores": {"lab_language_intensity": 4, "deployment_awareness_absence": 10, "operator_absence": 5, "hiring_profile_skew": 3, "stage_pressure": 17},
+  "score_evidence": [
+    "'Offer customers technology tested in actual combat operations, not laboratory conditions.' → lab_language_intensity scored low; this company explicitly rejects lab framing",
+    "'Eliminates latency, minimizes bandwidth, enables autonomous target tracking' and 'low-SWaP tactical RF intelligence solution' show real SWaP-C/bandwidth awareness → keeps deployment_awareness_absence moderate rather than high; but zero mention of ATO/RMF/CMMC/ITAR anywhere pulls it back up from a true bottom score",
+    "'designed alongside frontline military operators to ensure real-world effectiveness' and 'Sky Spy's combat veterans and engineers witnessed firsthand how traditional SIGINT systems failed in Ukraine' → operator_absence scored low",
+    "10 open 'Field Application & Sales Engineer (EW/RF/SIGINT)' roles across NL/PL/LT/IT/FR/DE → hiring_profile_skew scored low (field-facing hiring, not lab/ML hiring)",
+    "5-person team, $1.6M pre-seed (Dec 2025) explicitly earmarked to 'go-to-market, launch production and expand team' → stage_pressure scored high"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Zero mention of ITAR/export control anywhere on the site despite being a multinational dual-use SIGINT company hiring field engineers across six NATO countries and formally partnering with the French Armed Forces.", "operator_reality": "SIGINT/RF direction-finding hardware sits squarely in dual-use export-control categories; a small multinational team selling combat SIGINT across borders with no visible export-control process risks a formal procurement stalling the moment a prime or MOD legal office asks for compliance documentation.", "why_likely_missing": "Team's identity and marketing center on combat credibility (Ukraine-tested, veteran-founded) rather than the acquisition-bureaucracy layer that only becomes visible once a formal government buyer engages.", "evidence_quote": "Headquartered across the U.S. and the EU, we operate as an agile, multinational team of veterans and technologists, committed to supporting NATO and allied forces", "quote_source": "linkedin_about"},
+    {"blind_spot": "Claims 'any COP/C2 system integration' for fire-mission targeting data but never names a specific interoperability standard like TAK/ATAK, VMF, or Link 16.", "operator_reality": "NATO and US tactical units standardize situational-awareness data through specific systems (ATAK/TAK being the most common at the small-unit level); a generic 'integrates with any C2 system' claim without naming the protocol usually means the hardest integration step — getting emitter coordinates onto the actual operator's screen in their actual software — is still unproven beyond a demo.", "why_likely_missing": "Company's proof points so far are combat testing and exercise demonstrations (Ukraine, NATO exercise, French Armed Forces demo), which validate the sensor and algorithm but not necessarily formal C2 backend integration.", "evidence_quote": "Data is transferred immediately to initiate fire missions through any COP/C2 system integration.", "quote_source": "homepage"},
+    {"blind_spot": "No mention anywhere of an accreditation or authorization path for a data pipeline explicitly described as feeding fire-mission targeting.", "operator_reality": "A system whose own marketing says it 'initiates fire missions' is handling targeting-grade data; without a described security accreditation process (ATO/RMF-equivalent or the NATO analog), this is exactly the kind of capability that demos brilliantly at an exercise and then stalls indefinitely waiting for formal authorization before any unit can use it operationally.", "why_likely_missing": "5-person, pre-seed-stage team's public narrative is entirely about combat validation of the sensor/algorithm; the accreditation-for-fielding step typically only becomes visible once a formal government contract vehicle is in motion.", "evidence_quote": "generates heat maps with precise emitter coordinates and photos. Data is transferred immediately to initiate fire missions", "quote_source": "homepage"}
+  ],
+  "opener_hook": "Sky Spy closed a $1.6M pre-seed in December 2025 to fund production after demonstrating its SIGINT system at a NATO exercise with Estonian Defence Forces and in a joint demo with the French Armed Forces.",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Portable, low-SWaP SIGINT system that detects, classifies, and localizes hostile RF emitters for contested electromagnetic battlefield environments, built by combat veterans and tested in Ukraine."
+}

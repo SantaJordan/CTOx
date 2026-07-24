@@ -1,0 +1,16 @@
+{
+  "company": "Knowmadics, Inc.",
+  "slug": "knowmadics-inc",
+  "domain": "knowmadics.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Clear DoD motion (SOCOM Other Transaction Agreement 2024, SBIR Phase II 'Devils Range' 2022, another 2024 SBIR award) but the company is already past the valley of death, not stuck in it.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "12-year-old (founded 2013), ~70-person defense/law-enforcement/enterprise electronic-warfare and situational-awareness company selling a trademarked, multi-module product line (360° Aware® Suite) already fielded across three market segments."
+}

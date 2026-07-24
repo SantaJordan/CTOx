@@ -1,0 +1,22 @@
+{
+  "company": "Eolian",
+  "slug": "eolian",
+  "domain": "eolianvr.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Delivered $10M of ARTAK to USSOCOM ahead of schedule via APFIT (news, 2023), $9.9M USSOCOM contract (2022), 'deployed in preparation for and during NATO SOF 2025', and services page claims 'a proven track record of delivering fielded capabilities to U.S. Special Operations Command' — they crossed the valley; APFIT is literally the fielding program. Also fully deployment-fluent (ATAK integration, 'Full operational capability in disconnected, austere environments'), so no disconnect to sell into.",
+  "disconnect_score": 0,
+  "subscores": {
+    "lab_language_intensity": 0,
+    "deployment_awareness_absence": 0,
+    "operator_absence": 0,
+    "hiring_profile_skew": 0,
+    "stage_pressure": 0
+  },
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "AR/VR multi-domain C2 and mission-planning platform (ARTAK) fielded with USSOCOM, integrated with the TAK ecosystem."
+}

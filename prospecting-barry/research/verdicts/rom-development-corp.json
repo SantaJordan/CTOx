@@ -1,0 +1,16 @@
+{
+  "company": "Rom Development Corp. (Core Composites)",
+  "slug": "rom-development-corp",
+  "domain": "corecomposites.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "Has a 2023 Navy SBIR Phase II ($500K) for an amphibious catamaran (SHARC), but the company itself is a 30+ year composite-materials distributor/manufacturer ('Core Composites... is a Rhode Island-based distributor of advanced composite materials and project management company'), not a software/tech deployment company.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Composite-materials distributor and project-management shop building a physical amphibious catamaran hull (SHARC) under a Navy SBIR — a hardware-only manufacturer, not a software/deployment-gap company."
+}

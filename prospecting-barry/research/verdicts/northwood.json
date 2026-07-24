@@ -1,0 +1,16 @@
+{
+  "company": "Northwood",
+  "slug": "northwood",
+  "domain": "northwoodspace.io",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Landed a $49M Space Force contract alongside a $100M Series B (news section) — genuine DoD motion exists, but the company has already crossed the valley of death.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Builds and operates a phased-array ground-station network (Portal, Prism antennas) for satellite TT&C and data downlink."
+}

@@ -1,0 +1,16 @@
+{
+  "company": "Material Security",
+  "slug": "material-security",
+  "domain": "material.security",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "None: no SBIR, no DoD/military customer language on site, no defense contract naming this company. The News section's hits (DOE/NNSA 'Global Materials Security' program, Martin Materials Solutions cover-glass contract) are unrelated organizations that share keywords with the company name, not evidence of Material Security's own defense motion.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "unknown",
+  "what_they_do": "Commercial email/cloud-office security platform (Google Workspace, Microsoft 365) for phishing, OAuth, data exposure, and account-takeover protection."
+}

@@ -223,6 +223,58 @@ InferLink Corporation SINCE ITS FOUNDING IN
 El Segundo, California https://www.inferlink.com/ [phone]
 
 ##
+- inferlink corp () https://www.sbir.gov/portfolio/386908
+  Firm | SBIR Skip to main content
+
+# Company
+
+Portfolio Data
+
+Back to Company Search
+
+## INFERLINK CORP
+
+### Address
+
+2361 ROSECRANS AVE STE 348EL SEGUNDO, CA, 90245-4929USA
+
+UEI: M8KCZYW54M17
+
+Number of Employees: 24
+
+HUBZone Owned: No
+
+Woman Owned: No
+
+Socially and Economically Disadvantaged: No
+
+#### SBIR/STTR Involvement
+
+Year of first award: 2012
+
+30
+
+Phase I Awards
+
+18
+
+Phase II Awards
+
+60%
+
+Conversion Rate
+
+$4,475,101
+
+Phase I Dollars
+
+$20,099,995
+
+Phase II Dollars
+
+$24,575,096
+
+Total Awar
 - InferLink Gets DHS Funding to Develop Cybersecurity Info Sharing Tech (2020-09-24) https://www.executivegov.com/articles/inferlink-gets-dhs-funding-to-develop-cybersecurity-info-sharing-tech
   InferLink Gets DHS Funding to Develop Cybersecurity Info Sharing Tech 
 
@@ -241,20 +293,6 @@ Share this
 InferLink Corp. has secured $1 million in funds from the Department of Homeland Security(DHS) through the Small Business Innovation Research (SBIR) program to build a peer-to-peer cybersecurity information sharing tool.
 
 Ann Cox, SBIR topic manager at DHS science and technology directorate, said in a statement published Thursday t
-- DHS awards $1M for cybersecurity information sharing tool - Homeland Preparedness News (2020-09-25) https://homelandprepnews.com/stories/56158-dhs-awards-1m-for-cybersecurity-information-sharing-tool/
-  DHS awards $1M for cybersecurity information sharing tool - Homeland Preparedness News
-
-Wednesday, June 10th, 2026
-
-« Emory Healthcare, Hazelden Betty Ford create Addiction Alliance of Georgia
-
-House passes T-Band bill top protect public safety communications»
-
-# DHS awards $1M for cybersecurity information sharing tool
-
-© Shutterstock
-
-The Department of Homeland Security (DHS) Small Business Innovation Research (SBIR) Program awarded $1 million to InferLink Corp. to develop a tool for sharing c
 
 ## Open roles
 (no jobs data found)

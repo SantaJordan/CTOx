@@ -107,6 +107,58 @@ Phase II $1,250,000 Department of Defense
 COLUMBUS NANOWORKS, INC.· June 2022
 
 Columbus NanoWorks is developing a quantum-based biosensor using fluorescent nanodiamonds to detect disease and stress biomarkers at the single-molecule level, potentially enabling rapid point-of-care diagnostics for military pe
+- columbus nanoworks, inc. () https://www.sbir.gov/portfolio/416829
+  Firm | SBIR Skip to main content
+
+# Company
+
+Portfolio Data
+
+Back to Company Search
+
+## COLUMBUS NANOWORKS, INC.
+
+### Address
+
+1507 CHAMBERS RD FL 1COLUMBUS, OH, 43212-1568USA
+
+UEI: DKV6HXMPSJJ5
+
+Number of Employees: 4
+
+HUBZone Owned: No
+
+Woman Owned: No
+
+Socially and Economically Disadvantaged: No
+
+#### SBIR/STTR Involvement
+
+Year of first award: 2005
+
+6
+
+Phase I Awards
+
+4
+
+Phase II Awards
+
+66.67%
+
+Conversion Rate
+
+$1,657,190
+
+Phase I Dollars
+
+$3,941,351
+
+Phase II Dollars
+
+$5,598,541
+
+Total Awa
 - Award | SBIR () https://www.sbir.gov/awards/207564
   Award | SBIR Skip to main content
 
@@ -149,16 +201,6 @@ HHS
 Branch: NIH
 
 Total Award Amount: $354,99
-- COLUMBUS NANOWORKS, INC. - Magnetic Nanobeads to Isolate Cancer Cells from Blood Samples Award | SBIR.org () https://sbir.org/awards/hhs-2R42CA116048-02-1
-  COLUMBUS NANOWORKS, INC. - Magnetic Nanobeads to Isolate Cancer Cells from Blood Samples Award | SBIR.org
-
-Phase II $1,024,656 Department of Health and Human Services
-
-# Magnetic Nanobeads to Isolate Cancer Cells from Blood Samples
-
-Columbus NanoWorks is developing tiny magnetic particles that appear capable of efficiently separating rare cancer cells from blood and bone marrow samples, potentially enabling faster and more accurate cancer diagnosis and monitoring.
-
-## What is this research about
 
 ## Open roles
 (no jobs data found)

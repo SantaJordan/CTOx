@@ -1,0 +1,20 @@
+{
+  "company": "HavocAI",
+  "slug": "havocai",
+  "domain": "havocai.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Genuine DoD motion is not in question — the news section shows RIMPAC 2026 demonstration hosted by Commander U.S. Pacific Fleet, a Navy RFI (N0016425SNB96) on GovTribe, and Fortune coverage of an $85M raise to sell autonomous boats to the U.S. military.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "'Havoc autonomy is integrated and deployed on vehicles around the world with more than 25,000 hours of autonomous operations.' → fielded at scale, crossed the valley",
+    "'Havoc Connect creates a resilient peer-to-peer overlay network so systems can exchange commands, telemetry, and mission data even when connectivity is intermittent, degraded, or spans heterogeneous networks.' → fully fluent in DDIL, no disconnect to sell into",
+    "'Havoc Raises $100M Series A' → 177 employees, far outside Barry's $5M-$10M valley-of-death band"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Collaborative-autonomy software (C2, edge OS, mesh comms) that lets one operator supervise large fleets of unmanned surface, air, and ground vehicles."
+}

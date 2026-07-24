@@ -1,0 +1,37 @@
+{
+  "company": "Maybell Quantum",
+  "slug": "maybell-quantum",
+  "domain": "maybellquantum.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "SBIR Phase II award (sbir.gov #206815, 'Scaled Production of High-Density Cryogenic Flexible coAXial (FLAX) RF Ribbon Cables', 2023) plus a matching USAspending contract (FA8751-22-C-0007, AFRL) — News section.",
+  "disconnect_score": 78,
+  "subscores": {"lab_language_intensity": 20, "deployment_awareness_absence": 15, "operator_absence": 17, "hiring_profile_skew": 18, "stage_pressure": 8},
+  "score_evidence": [
+    "'obsessively engineered', 'base temperatures below 10mK with the quietest experimental environment in the industry' → lab_language_intensity",
+    "'let you focus on science, not babysitting your fridge' → operator_absence (audience is researchers, not field operators)",
+    "'96-99.9% uptime', 'datacenter-ready reliability' with zero mention of ATO/CMMC/ITAR despite holding an AFRL contract → deployment_awareness_absence",
+    "Open roles: Associate Product Engineer, VP Operations, Product Marketing Manager, Validation Technician, Director of Engineering, Cryogenics R&D Scientist — zero field/compliance/deployment roles → hiring_profile_skew"
+  ],
+  "blind_spots": [
+    {"blind_spot": "ColdCloud is marketed as 'datacenter-ready' with 96-99.9% uptime assuming continuous facility power/cooling/staffing.",
+     "operator_reality": "A forward or classified government facility isn't a commercial datacenter — no guaranteed continuous power, no on-call facilities team, and physical/TEMPEST security requirements that a 'centralized plant' cryogenic architecture never addresses.",
+     "why_likely_missing": "Team is optimizing for national-lab and commercial quantum customers, not DoD facility constraints.",
+     "evidence_quote": "expected uptime: 96-99.9%",
+     "quote_source": "homepage"},
+    {"blind_spot": "Zero mention of ITAR, export control, CMMC, or NIST 800-171 anywhere on the public site despite holding an active AFRL SBIR Phase II contract for RF cable production.",
+     "operator_reality": "A company already handling DoD-funded cryogenic RF hardware needs CMMC/NIST 800-171 posture before follow-on contracts can flow — silence here is the same blind spot that kills a Phase II-to-Phase III transition.",
+     "why_likely_missing": "Company language is 100% aimed at commercial quantum-computing customers (QuantWare, national labs), not government contracting officers.",
+     "evidence_quote": "The quantum infrastructure company... more accessible, reliable, and affordable",
+     "quote_source": "linkedin_about"},
+    {"blind_spot": "\"Three-year comprehensive warranty with same-day response\" assumes a commercial support model (ship a tech, phone support) rather than sustainment planning for a device installed at a secure or overseas government site.",
+     "operator_reality": "Same-day response and spares logistics collapse the moment the unit sits behind a SCIF door or on a base with restricted access — no GFE integration or field-service planning is mentioned.",
+     "why_likely_missing": "Support model was designed for university/commercial lab customers who can grant vendor access on demand.",
+     "evidence_quote": "Three-year comprehensive warranty with same-day response",
+     "quote_source": "homepage"}
+  ],
+  "opener_hook": "Maybell's AFRL SBIR Phase II (FLAX RF ribbon cables) and new ColdCloud platform are public — neither the product pages nor the LinkedIn about page mention CMMC or ITAR posture.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Builds dilution refrigerators and cryogenic infrastructure (ColdCloud) for quantum computing labs and data centers, with one AFRL SBIR-funded RF cable line item."
+}

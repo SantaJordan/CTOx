@@ -1,0 +1,16 @@
+{
+  "company": "Mimic",
+  "slug": "mimic",
+  "domain": "mimic.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "SAM.gov 'NOTICE OF INTENT TO SOLE SOURCE: Mimics base and analysis subscription renewals' (W911QX25QA067, DEPT OF DEFENSE, 2025-07-31) shows DoD is already an active, renewing subscription customer — News section.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "series_a",
+  "what_they_do": "Enterprise kernel-level ransomware/AI-agent defense SaaS ($50M Series A led by GV and Menlo Ventures, 124 employees, FEDRAMP-ready) sold broadly to commercial and government customers, with DoD already an active renewing subscriber — a mature commercial security vendor, not a defense-native prototype-stage company."
+}

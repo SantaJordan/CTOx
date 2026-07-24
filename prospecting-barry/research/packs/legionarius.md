@@ -3,7 +3,7 @@ slug: legionarius | domain: legionari.us | HQ: ,   | employees(LI): 3 | founded:
 sources: exa-agent:tactical-mobile-edge|exa-agent:sensors-data-collection-more
 industry(LI): Defense and Space Manufacturing | specialties: atak, integration, systems engineering, smart garments, rapid prototyping
 channel notes: SBIR Phase II SBIR Phase I/II work with goTenna partnership. dom: sensors status: prototype dod: Legionarius is developing a smart garment that detects wounds and alerts medics through ATAK and BATDOK in combat operations. hq: Boston, MA emp: 1-10 src: https://www.sbir.gov/portfolio/714804 || SBIR USAF-funded innovation program. dom: sensors status: prototype dod: Legionarius is developing a smart uniform/garment for TACP and USAF personnel that senses vital signs and penetrating wounds. hq: Sudbury, Massachusetts emp: 1-10 src: https://www.sbir.gov/awards/209147
-own-language word count: ~1088
+own-language word count: ~1095
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -45,9 +45,9 @@ Privacy Policy – Privacy & Terms – Google
 
 Privacy & Terms
 
-## Privacy & Terms
+Privacy & Terms
 
-https://policies.google.com/privacy
+## Privacy & Terms
 
 # Google Privacy Policy
 
@@ -64,8 +64,6 @@ Take the Privacy Checkup
 Effective May 26, 2026 | Archived versions| Download PDF
 
 ## Contents
-
-Introduction
 
 Information Google collects
 
@@ -89,6 +87,7 @@ Related privacy practices
 
 We build a range of services that help millions of people daily to explore and interact with the world in new ways. Our services include:
 
+- Updates
 - Google apps, sites, and devices, like Search, YouTube, and Google Home
 - Platforms like the Chrome browser and Android operating system
 - Products that are integrated into third-party apps and sites, like ads, analytics, and embedded Google Maps
@@ -101,7 +100,7 @@ To help explain things as clearly as possible, we’ve added examples, explanato
 
 ## We want you to understand the types of information we collect as you use our services
 
-We collect information to provide better services to all our users — from figuring out basic stuf
+We collect information to provide better services to all our users — from figuring out basic stuff like which language yo
 
 URL: https://policies.google.com/terms
 Google Terms of Service – Privacy & Terms – Google
@@ -166,22 +165,6 @@ Legionarius is a technical solutions provider for performance garments in high-r
 May 4, 2022
 
 Programs designed and administered by the Wright Brothers Institute (WBI) to support innovative small businesses have been instrumental in developing a “smart garment” for the military that senses penetrating wounds and burns while simultaneously alerting medical personnel. In January, Legionarius participated in
-- Expediting medical care for wounded warriors with Legionarius and goTenna - The Last Mile (2024-10-09) https://thelastmile.forterra.com/expediting-medical-care-for-wounded-warriors-with-legionarius-and-gotenna/
-  Expediting medical care for wounded warriors with Legionarius and goTenna - The Last Mile
-
-Military
-
-# Expediting medical care for wounded warriors with Legionarius and goTenna
-
-2024-10-09
-
-Ryan Schradin· October 9, 2024
-
-0 1 1.5k 0
-
-A serious battlefield injury, isolated from medical help and safety, becomes an urgent race against time—one that begins the moment the injury occurs, not when medical personnel arrive.
-
-In those critical moments, several actions must be taken before medical aid can
 - This smart shirt might save your life on the battlefield (2022-10-17) https://www.defensenews.com/video/2022/10/17/this-smart-shirt-might-save-your-life-on-the-battlefield/
   This smart shirt might save your life on the battlefield
 
@@ -200,6 +183,22 @@ In those critical moments, several actions must be taken before medical aid can
 ###### "It's real, it's here." Elbit shows off "combat proven" Sigma mobile Howitzer at AUSA Global Force
 
 ###### Staying ahead in the space domain | De
+- Expediting medical care for wounded warriors with Legionarius and goTenna - The Last Mile (2024-10-09) https://thelastmile.forterra.com/expediting-medical-care-for-wounded-warriors-with-legionarius-and-gotenna/
+  Expediting medical care for wounded warriors with Legionarius and goTenna - The Last Mile
+
+Military
+
+# Expediting medical care for wounded warriors with Legionarius and goTenna
+
+2024-10-09
+
+Ryan Schradin· October 9, 2024
+
+0 1 1.5k 0
+
+A serious battlefield injury, isolated from medical help and safety, becomes an urgent race against time—one that begins the moment the injury occurs, not when medical personnel arrive.
+
+In those critical moments, several actions must be taken before medical aid can
 
 ## Open roles
 (no jobs data found)

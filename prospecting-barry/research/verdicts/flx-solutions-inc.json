@@ -1,0 +1,52 @@
+{
+  "company": "FLX Solutions, Inc.",
+  "slug": "flx-solutions-inc",
+  "domain": "flxsolutions.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "$1.4M Direct-to-Phase-II SBIR from the Air Force awarded 2025, announced by PA IPart and by the CEO himself, plus their own LinkedIn claim that the FLX BOT 'is already in use in the U.S. Navy, Air Force, and shipbuilders' (News + LinkedIn about).",
+  "disconnect_score": 68,
+  "subscores": {
+    "lab_language_intensity": 13,
+    "deployment_awareness_absence": 15,
+    "operator_absence": 9,
+    "hiring_profile_skew": 13,
+    "stage_pressure": 18
+  },
+  "score_evidence": [
+    "\"The smallest, most customizable, most affordable snake-like robot in the world\" and \"1\\\" diameter is 3x - 5x smaller than any other on the market\" → lab_language_intensity (superlative spec comparison as the whole value claim)",
+    "\"a customer price that is an order of magnitude less than other robots on the market today\" → lab_language_intensity",
+    "Across ~1,379 words describing a robot that enters confined spaces, there is no mention of intrinsic safety, explosive-atmosphere rating, shipboard shock/EMI qualification, data handling, CMMC, or ITAR → deployment_awareness_absence",
+    "The entire website sells factory uptime — \"Improve manufacturing uptime by allowing maintenance teams to quickly and easily inspect hard-to-reach areas within machinery\" — while the only defense framing lives on LinkedIn and in the SBIR announcement → deployment_awareness_absence",
+    "\"The FLX BOT can be handheld or mounted on the end of a pole allowing an operator to easily maneuver the system into place\" → operator_absence scored MID (a user is present, but as a generic industrial maintainer; no training, sustainment, or CONOPS anywhere)",
+    "Four open roles — Senior Operations Manager, Senior Mechanical Product Engineer, Software Lead: Firmware & Robotics, Executive Operations Manager — contain no field service, test/qualification, compliance, or government program role despite an active AF Phase II and claimed Navy use → hiring_profile_skew",
+    "~$485K total funding reported against a $1.4M D2P2 with a live period of performance, 7-13 employees → stage_pressure very high; the SBIR is effectively the runway"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The Navy confined spaces they are selling into are gas-hazard spaces, and a battery-powered motorized robot needs an intrinsic-safety answer before anyone authorizes entry",
+      "operator_reality": "Shipboard voids, ballast tanks, fuel tanks and bilges are permit-required confined spaces; entry is controlled by a Gas Free Engineer, and anything electrical going into a potentially flammable atmosphere needs an intrinsic-safety or explosion-proof rating. The FLX BOT is a motorized, camera-carrying, battery-powered device with a 1-inch envelope — the smallest package is the hardest one to make intrinsically safe, because the certification adds barriers, potting and enclosure volume it does not have. Without that certification, the tool is limited to already-certified-safe spaces and mockups, which is a fraction of the mission it is being bought for.",
+      "why_likely_missing": "The product was designed for factory maintenance, where the atmosphere is ambient and the constraint is reach, not gas hazard — and the industrial customers who validated the design never asked the question.",
+      "evidence_quote": "At 1\" in diameter, The FLX BOT can enter enclosed, difficult to navigate spaces that conventional solutions and the much larger snake-like robots in the market cannot.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The robot's output is a 3D map and corrosion imagery of a warship's interior — controlled data with no stated handling posture",
+      "operator_reality": "Structural and corrosion-condition data on a Navy hull is at minimum CUI, often more. That means the operating software cannot simply run on a laptop plugged into a shipyard network, the storage and transfer path needs a documented answer, and the company itself needs NIST 800-171 / CMMC posture before a follow-on contract can flow down. This is the review that turns a well-liked demo into a nine-month pause — the tool works, the data path is not approved, and a Phase II period of performance runs out while it is being sorted.",
+      "why_likely_missing": "The commercial pitch is 'read a serial number, spot a failing bearing' — data that has no classification and therefore no handling design behind it.",
+      "evidence_quote": "Cameras power 3D mapping, which when paired with our software operating system makes it simple for users to navigate in unknown spaces.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "A modular 3-to-5-link robot with swappable heads has a sustainment tail, and the only fulfillment mechanism on the site is a pre-order form",
+      "operator_reality": "In a shipyard or on a flight line the tool gets dropped, the link seals get fouled, an end effector gets bent, and the sailor needs a spares kit, a link-level repair procedure, a calibration step and someone to call. Program offices buy the sustainment package as much as the hardware — training materials, a provisioning list, mean-time-to-repair, and a service path. FLX publishes a pre-order form, no service offering, no training, and is not hiring a field service or customer-support engineer among four open roles, which says nobody owns the tail yet.",
+      "why_likely_missing": "With 7-13 people, the founder-led model has engineering supporting every deployment personally; that scales to a handful of units and breaks at the first real fielding quantity.",
+      "evidence_quote": "Configured using 3 to 5 individual links. These flexible configurations create variable use cases for different functions and customer markets. ... End effectors can be easily swapped out depending on need.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "FLX's LinkedIn says the BOT is already in use with the Navy, Air Force and shipbuilders, and IPart announced the $1.4M Air Force Direct-to-Phase-II in August 2025 — while flxsolutions.com sells manufacturing uptime and ends in a pre-order form, with nothing about intrinsic safety for the tanks and voids a Gas Free Engineer controls.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Builds the FLX BOT, a 1-inch modular snake-like robot with swappable camera, NDT and gripper heads for inspecting and working in confined, hard-to-reach spaces."
+}

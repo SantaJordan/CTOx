@@ -296,86 +296,28 @@ Threads
 WhatsApp
 
 # Pa. robot maker wins Air Force deal for DroneDogs and other automated inspecto
-- Award | SBIR () https://www.sbir.gov/awards/210600
-  Award | SBIR Skip to main content
+- Asylon to Advance Autonomous Aircraft Inspections for US ... (2026-07-17) https://thedefensepost.com/2026/07/17/asylon-autonomous-aircraft-inspections-us/
+  Asylon to Advance Autonomous Aircraft Inspections for US Air Force
 
-# Award
+Guardian small unmanned aerial system. Photo: Asylon
 
-Portfolio Data
+Asylon has secured a contract from the Warner Robins Air Logistics Complex to further develop and demonstrate an autonomous aircraft inspection system designed to support US Air Force maintenance operations.
 
-Back to Award Search
+Known as Multi-modal Autonomous Robotics for Inspection of Aircraft (MARIA), the system combines aerial and ground robots to perform general visual inspections of milita
+- Asylon Wins Contract for Innovative Autonomous Aircraft Inspection System with Warner Robins Air Logistics Complex - SSBCrack News (2026-07-18) https://news.ssbcrack.com/asylon-wins-contract-for-innovative-autonomous-aircraft-inspection-system-with-warner-robins-air-logistics-complex/
+  # Asylon Wins Contract for Innovative Autonomous Aircraft Inspection System with Warner Robins Air Logistics Complex - SSBCrack News
 
-## Integrating Unmanned Surface Vehicles into Asylon DroneCore Robotic Perimeter Security platform to secure Air Bases with maritime boundaries
+Published: 2026-07-18T00:20:36-04:00
+Source: news.ssbcrack.com (news.ssbcrack.com)
+Language: en
 
-### Awardee
+## Story
 
-#### ASYLON INC
+Asylon Wins Contract for Innovative Autonomous Aircraft Inspection System with Warner Robins Air Logistics Complex - SSBCrack News
 
-52 BUTTONWOOD STEAST NORRITON, PA, 19401-4408USA
+Saturday, Jul 18, 2026
 
-Award Year: 2024
-
-UEI: C8XKHPPEX9Y4
-
-HUBZone Owned: No
-
-Woman Owned: No
-
-Socially and Economically Disadvantaged: No
-
-Congressional District: 4
-
-Tagged as:
-
-SBIR
-
-Phase I
-
-### Awarding Agency
-
-
-- Award | SBIR () https://www.sbir.gov/awards/204409
-  Award | SBIR Skip to main content
-
-# Award
-
-Portfolio Data
-
-Back to Award Search
-
-## Automated Battery Swap Technology for Persistent Quadruped Unmanned Ground Vehicle based Perimeter Security
-
-### Awardee
-
-#### ASYLON INC
-
-52 BUTTONWOOD STEAST NORRITON, PA, 19401-4408USA
-
-Award Year: 2023
-
-UEI: C8XKHPPEX9Y4
-
-HUBZone Owned: No
-
-Woman Owned: No
-
-Socially and Economically Disadvantaged: No
-
-Congressional District: 4
-
-Tagged as:
-
-SBIR
-
-Phase II
-
-### Awarding Agency
-
-DOD
-
-Branch: USAF
-
-Total Award A
+[![SSBCrack News](https://news.ssbcrack.com/wp-content/uploads/2025/09/ssbcrack-news-logo-v2.webp)](htt
 
 ## Open roles (Blitz, live)
 - Sales Business Development ({'city': 'Greater Philadelphia', 'country_code': 'US'})

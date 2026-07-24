@@ -1,0 +1,24 @@
+{
+  "company": "Cenith Innovations",
+  "slug": "cenith-innovations",
+  "domain": "cenithinnovations.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "SBIR Phase II record (Elite Flight, Air Force 2022, $749K), a $6.1M U-2 Open Mission System pipeline contract FA852822C0003 (news/GovChime), and warfighter-first language across their own site ('We hear the warfighter's call for modernization because we were the warfighter', about page).",
+  "disconnect_score": 15,
+  "subscores": {"lab_language_intensity": 3, "deployment_awareness_absence": 2, "operator_absence": 2, "hiring_profile_skew": 3, "stage_pressure": 5},
+  "score_evidence": [
+    "'IL4/5 Ready Architecture ... Hybrid Cloud/On-Premise/Air Gapped ... PACE Comms (HaLow, 5G, Disconnected)' (homepage) → deployment_awareness_absence scored near zero; they are fluent in DDIL and accreditation",
+    "'once the robot enters the breach, it finishes the task even if the signal is cut' (homepage) → lab_language_intensity low; framing is operational, 'built for the mission, not the trade show'",
+    "Open roles include Field Test Technician (Bend) and Cloud Engineer (Fort Drum) → hiring_profile_skew low; field/test presence is real"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Public-record opacity is becoming a procurement liability just as contract sizes jump", "operator_reality": "A contracting officer vetting a $25M BPA sees no leadership page history and thin USAspending trail; source-selection risk aversion stalls the very transition the tech has earned", "why_likely_missing": "An operator-founded team optimizes for mission credibility with users, not for the paper trail acquisition officials audit", "evidence_quote": "A mysterious company with no identifiable leadership or operational history won a $25M Army drone contract, raising serious red flags about defense procurement vetting.", "quote_source": "news"},
+    {"blind_spot": "Sustainment tail for attritable swarm hardware is not visible anywhere in their language or hiring", "operator_reality": "Group 2 STRIDER and 50-lb UGVs at Fort Drum or OCONUS need spares, battery logistics, and a repair chain the E-5 can actually reach; open roles skew to Executive Assistant, Warehouse and Office Coordinators, not sustainment engineering", "why_likely_missing": "R&D-contract cadence pays for builds and demos, not for the spares-and-training tail that fielding requires", "evidence_quote": "We believe in providing our employees with the flexibility to work from anywhere.", "quote_source": "job_post"},
+    {"blind_spot": "Mission-planning orchestration layer never mentions TAK/ATAK despite selling a tactical common picture", "operator_reality": "SOF and Army units run mission planning and SA through ATAK; a planning tool that is not a TAK plugin or TAK-integrated becomes a second screen the operator abandons", "why_likely_missing": "In-house UX pride ('Intuitive User Experience') pushes toward building their own front end instead of riding the ecosystem operators already carry", "evidence_quote": "Fully Documented API for Easy Integration", "quote_source": "homepage"}
+  ],
+  "opener_hook": "Cenith's U-2 OMS pipeline contract shows $6.1M fully obligated across 11 transactions while robotics.press flagged the $25M Army BPA for having no public leadership record — the acquisition paper trail, not the swarm autonomy, is the open risk.",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Veteran-founded shop building mission-planning software and attritable drones/UGVs (mine-breaching, EW, ISR) for SOF and Air Force customers."
+}

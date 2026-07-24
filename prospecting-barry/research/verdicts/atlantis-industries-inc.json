@@ -1,0 +1,44 @@
+{
+  "company": "Atlantis Industries, Inc.",
+  "slug": "atlantis-industries-inc",
+  "domain": "atlantis-industries.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "2023 Air Force SBIR Phase II D2P2 ($1,249,892) 'Automated Space Weather Anomaly Detection & Countermeasure Response' framed against USSPACECOM's #1 SDA mission requirement, plus a 2022 Phase II — SBIR/STTR record section, in their own abstract.",
+  "disconnect_score": 63,
+  "subscores": {"lab_language_intensity": 15, "deployment_awareness_absence": 14, "operator_absence": 10, "hiring_profile_skew": 10, "stage_pressure": 14},
+  "score_evidence": [
+    "'Atlantis has patent pending AI/ML technology... our Anomaly Detection and Response System (ADRS) technology (TRL 3/4)... Phalanx AI (TRL 6) algorithms' → lab_language_intensity",
+    "'The 21st century cislunar space race is estimated to be a 10 trillion dollar opportunity' → lab_language_intensity",
+    "'Secure, online dashboard to track mission radiation risk analytics, trends and alerts' — sole security/hosting statement, no ATO/RMF/IL-level/CMMC/ITAR anywhere → deployment_awareness_absence",
+    "No jobs data in pack → hiring_profile_skew set exactly 10 per rule",
+    "'demonstrate the feasibility of our ADRS technology (TRL 3/4)' on a 2023 D2P2 with a ~4-person Boerne TX team (channel notes) → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "No accreditation path for the 'secure, online dashboard' their DoD offering depends on",
+      "operator_reality": "An ADRS alert feed consumed by USSPACECOM/SDA operators must live on accredited government networks — RMF package, IL4/IL5 hosting, STIGs, a sponsor for the ATO. A commercial web dashboard demo cannot be plugged into a Space Force ops floor, and the ATO clock (12-18 months) can outrun their Phase II period of performance.",
+      "why_likely_missing": "Founding team is aerospace radiation scientists and entrepreneurs; nothing in 1,477 words of own language touches ATO, RMF, IL levels, CMMC, or ITAR despite marketing directly to DoD space customers.",
+      "evidence_quote": "Secure, online dashboard to track mission radiation risk analytics, trends and alerts (pre-mission, on-station, post-mission)",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "TRL 3/4 core system with the Phase II clock already running since 2023",
+      "operator_reality": "Their own abstract says the goal is to 'demonstrate the feasibility' of ADRS at TRL 3/4 — feasibility, not fielding. When the D2P2 period of performance ends, the gap from TRL 4 demo to an operational SDA tool (integration with Space Force C2 systems, government back-end data feeds, sustainment) is exactly the months-to-field > funded-months trap; for a ~4-person company one dead transition is the company.",
+      "why_likely_missing": "The abstract measures success in MTTR benchmarks versus current practice — a lab metric — with no named transition sponsor, program office, or Phase III pathway.",
+      "evidence_quote": "Atlantis aims to perform R/R&D to demonstrate the feasibility of our Anomaly Detection and Response System (ADRS) technology (TRL 3/4)",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "Countermeasure recommendations with no advocacy chain into satellite operations centers",
+      "operator_reality": "ADRS 'generate[s] recommended evasive countermeasures or maneuvers' — but a maneuver recommendation from an outside vendor tool only matters if an ops-floor crew commander is authorized to act on it. That requires integration into existing space C2 workflows and a champion above the analyst level; analysts liking the dashboard is not adoption.",
+      "why_likely_missing": "All own-language is capability-first (sensors, models, AI) aimed at 'commercial, civil and DoD satellites' generically; no named operational unit, CONOPS, or ops-workflow integration appears anywhere.",
+      "evidence_quote": "generate probabilistic SEE models and countermeasures for protecting on-orbit assets",
+      "quote_source": "sbir_abstract"
+    }
+  ],
+  "opener_hook": "Atlantis's 2023 D2P2 abstract targets feasibility of ADRS at TRL 3/4 against USSPACECOM's SDA gap — the distance from that demo to an accredited ops-floor tool is where the funded months usually run out.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Space-radiation modeling, sensors, and AI anomaly-detection (ADRS) to protect satellites and crews from space-weather effects."
+}

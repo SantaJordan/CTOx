@@ -1,0 +1,16 @@
+{
+  "company": "Tenacity Space Systems, Inc.",
+  "slug": "tenacity-space-systems-inc",
+  "domain": "vector-launch.com",
+  "verdict": "insufficient_evidence",
+  "drop_reason": "",
+  "dod_intent_evidence": "SBIR record shows a real SOCOM/MDA award ($2.99M, 2022) for the Tenacity Target Vehicle liquid-fueled suborbital target for Missile Defense Agency programs, but own-language word count (~322) is well under the ~500-word sufficiency threshold — the site is a placeholder ('More info coming soon') with a single sentence repeated, and the news section is about an unrelated company (Tenacity Solutions LLC, a VA healthcare IT contractor).",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "low",
+  "stage_band": "unknown",
+  "what_they_do": "A liquid-fueled suborbital target-vehicle developer under a SOCOM/MDA SBIR (Tenacity Target Vehicle, for ballistic-missile-defense target emulation), operating behind a placeholder website ('Vector Launch') with almost no public detail."
+}

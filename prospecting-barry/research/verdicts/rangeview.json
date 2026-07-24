@@ -1,0 +1,16 @@
+{
+  "company": "Rangeview",
+  "slug": "rangeview",
+  "domain": "rangeview.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "Federal contract award record on HigherGov and LinkedIn about ('Restoring American Foundry Capacity for Aerospace, Defense, and Power') show real DoD-adjacent motion, but the company is a digital-casting foundry/parts manufacturer, not a prototype-to-fielded software/tech deployment company.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Digital casting / foundry technology company making metal aerospace and defense parts via novel machines and materials."
+}

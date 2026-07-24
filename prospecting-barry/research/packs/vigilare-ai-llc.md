@@ -84,6 +84,25 @@ Vigilare AI, LLC is a Aviation and Aerospace Component Manufacturing company. Vi
 Contact Info: [email]
 
 Vigilare AI, LLC specializes i
+- Five Startups Compete for Up to $500K to Implement AI into National Security (2026-05-01) https://www.wktv.com/community/five-startups-compete-for-up-to-500k-to-implement-ai-into-national-security/article_6ff1ddb1-7dbd-4f53-b902-492b91f9527d.html
+  Five Startups Compete for Up to $500K to Implement AI into National Security | Community | wktv.com
+
+You are the owner of this article.
+
+Edit Article
+
+Add New Article
+
+You have permission to edit this article.
+
+Edit
+
+- Local News
+- Latest Stories
+- Recent Videos
+- Upload News Photo/Video
+- https://www.wktv.com/news/pba-opposes-decision-for-removal-of-herkimer-csd-school-resource-officer/article_23e0660f-c096-46bb-b445-a1e4b0ffca75.html
+- https://www.wktv.com/news/updated-rome-fire-crews-respond-
 - $550,000 Awarded to Advance Air Force Command and Control Through Griffiss Institute’s HUSTLE Defense Accelerator - Griffiss Institute (2026-05-01) https://www.griffissinstitute.org/news/550000-awarded-to-advance-air-force-command-and-control-through-griffiss-institutes-hustle-defense-accelerator/
   $550,000 Awarded to Advance Air Force Command and Control Through Griffiss Institute’s HUSTLE Defense Accelerator - Griffiss Institute
 
@@ -92,15 +111,6 @@ Vigilare AI, LLC specializes i
 - May 1, 2026
 
 HUSTLE Cohort 5 Team – AugSense – pictured with a ceremonial check for $155,000 in funding. From left: Mayor Jeffery Lannigan, City of Rome; Ms. Heather Hage, President and CEO, Griffiss Institute; Mr. Bryce Randle, Co-Founder and C
-- Five U.S. Startups Selected to Advance Air Force Command and Control Through Griffiss Institute’s HUSTLE Defense Accelerator - Griffiss Institute (2026-02-23) https://www.griffissinstitute.org/news/five-startups-selected-to-advance-air-force-command-and-control-through-griffiss-institutes-hustle-defense-accelerator/
-  Five U.S. Startups Selected to Advance Air Force Command and Control Through Griffiss Institute’s HUSTLE Defense Accelerator - Griffiss Institute
-
-# Five U.S. Startups Selected to Advance Air Force Command and Control Through Griffiss Institute’s HUSTLE Defense Accelerator
-
-- Contact
-- February 23, 2026
-
-HUSTLE accelerator participants travel to Washington, D.C. to meet with congressional representatives as part of Griffiss Institute’s defense tech business accelerator program. Photo by Griffiss
 
 ## Open roles
 (no jobs data found)

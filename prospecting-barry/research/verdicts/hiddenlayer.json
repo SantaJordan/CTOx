@@ -1,0 +1,20 @@
+{
+  "company": "HiddenLayer",
+  "slug": "hiddenlayer",
+  "domain": "hiddenlayer.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "SBIR record shows an Air Force 2023 Phase II ($1,249,913) plus a 2024 USAF STTR Phase II, and the news section reports selection as an awardee on the Missile Defense Agency's $151B SHIELD IDIQ (2026-01-06).",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "'HiddenLayer's first-of-its-kind Airgapped AI Security Platform protects AI systems in highly-classified environments' (news) → already fielded in classified/disconnected environments",
+    "SBIR abstract: 'operating entirely on edge devices such as smartphones in (near) real-time while remaining disconnected' → fully fluent in DDIL constraints",
+    "Open roles include 'AI Solutions Architect- Federal', 'Customer Success Manager- Federal', 'Technical Support Engineer' → a post-sales federal delivery org, i.e. product is in customers' hands; 173 employees, far past the $5M-$10M band"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Enterprise security platform for AI/ML systems — model scanning, supply-chain security, red teaming, and runtime defense against adversarial attacks."
+}

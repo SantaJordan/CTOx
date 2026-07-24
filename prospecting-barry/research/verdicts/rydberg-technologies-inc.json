@@ -1,0 +1,44 @@
+{
+  "company": "Rydberg Technologies Inc",
+  "slug": "rydberg-technologies-inc",
+  "domain": "rydbergtechnologies.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "DARPA SBIR Phase II, 'Broadband Rydberg-Atom Near-Field Imager for Phased Array Antennas' ($1.5M Phase II, $5.48M total award), abstract explicitly targets military ISR/5G phased-array antenna testing (SBIR/STTR record section).",
+  "disconnect_score": 78,
+  "subscores": {"lab_language_intensity": 19, "deployment_awareness_absence": 18, "operator_absence": 18, "hiring_profile_skew": 14, "stage_pressure": 9},
+  "score_evidence": [
+    "\"absolute SI-traceable measurements of RF electric fields... measurement precision at the 0.1% level, an improvement >10x over that of classical antenna standards\" → lab_language_intensity",
+    "\"the RFMS is comprised of an atomic RF field probe (RFP) connected to a mainframe control unit with a ruggedized fiber-optic patch cord and is operated using a terminal software interface\" (bench-lab description, no field/DDIL/ATO/ITAR language anywhere in ~1648 words) → deployment_awareness_absence",
+    "entire site describes physics, sensing, and metrology with zero mention of operators, warfighters, training, or CONOPS → operator_absence",
+    "\"Software Engineer (Quantum and Photonics), Optical Engineer, Radio Frequency System Engineer, AMO Physicist, Electrical Engineer (Quantum and Photonics), Director of Engineering, Senior Photonics Engineer\" — all domain R&D hires (neutral per hardware-firm rule), zero field/test/integration/compliance roles → hiring_profile_skew",
+    "DARPA Phase II abstract targets \"technology readiness level 5\" as the Phase II outcome, dated 2022 — likely already past its period of performance with no visible successor contract → stage_pressure kept moderate, not maxed, absent clearer current-clock evidence"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The RFMS flagship product is explicitly a bench instrument — 'mainframe control unit' plus a 'ruggedized fiber-optic patch cord' and a 'terminal software interface' — despite the company positioning itself for 'commercial, government, and defense industries.'",
+      "operator_reality": "A near-field imaging mainframe with a fiber patch cord is built for a test lab bench, not for SWaP-C-constrained carry on a tactical platform; nothing on the site addresses what changes when this needs to move from an antenna test range to a fielded sensing role.",
+      "why_likely_missing": "Product roadmap and marketing voice are aimed at RF metrology labs and antenna test engineers, not warfighter deployment.",
+      "evidence_quote": "\"The RFMS is comprised of an atomic RF field probe (RFP) connected to a mainframe control unit with a ruggedized fiber-optic patch cord and is operated using a terminal software interface to provide SI-traceable RF measurements\"",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The DARPA Phase II abstract's own success criterion is reaching TRL5 — 'validated in relevant environment' — with no public statement of what happens to the program, or the company, if it doesn't clear TRL6+ before funding runs out.",
+      "operator_reality": "TRL5 is exactly the demo-not-fielded gap Barry sells into: a working prototype that has been shown to work, not one that has survived integration into an actual platform or program of record.",
+      "why_likely_missing": "SBIR abstracts are written to satisfy the solicitation's technical milestones, not to plan the transition path past the funded period of performance.",
+      "evidence_quote": "\"In Phase II the Rydberg MMW imager will reach a technology readiness level 5 with a performance evaluation to target metrics for field amplitude, phase, and polarization accuracy, spatial resolution, and speed.\"",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "RF sensing and quantum computing/communications technology is inherently export-sensitive, yet ITAR/export-control language never appears anywhere on the site despite explicit 'defense industries' positioning and a DARPA award.",
+      "operator_reality": "A dual-use atomic RF sensor sold into both commercial and defense channels needs an export-control story before any DoD customer can actually field it beyond the test range; silence here is a compliance gap that stalls transition, not just a marketing oversight.",
+      "why_likely_missing": "Team composition (physicists, photonics/optical engineers) is deep in the science, with no visible compliance or business-development function represented in current job postings.",
+      "evidence_quote": "\"Rydberg Technologies is leveraging quantum mechanics to reinvent capabilities for commercial, government, and defense industries.\"",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Rydberg's DARPA Phase II targets TRL5 for its MMW near-field imager — what happens after TRL5?",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Builds atomic (Rydberg-atom) quantum RF sensing and measurement hardware, including the RFMS field measurement system, for RF metrology, test, and imaging applications."
+}

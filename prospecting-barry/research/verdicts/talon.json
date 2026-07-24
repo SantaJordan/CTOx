@@ -1,0 +1,26 @@
+{
+  "company": "Talon Defense",
+  "slug": "talon",
+  "domain": "talondefense.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own homepage/careers language is explicitly militarized ('Full-spectrum Cyber & Information Warfare', 'Battlespace Sensing and Awareness', 'Cyber & EW Capabilities', 'Special Procurement Support') — genuine DoD/IC motion, independent of the mismatched news (which is about an unrelated mining company, Talon Metals).",
+  "disconnect_score": 66,
+  "subscores": {"lab_language_intensity": 10, "deployment_awareness_absence": 14, "operator_absence": 10, "hiring_profile_skew": 18, "stage_pressure": 14},
+  "score_evidence": [
+    "'cutting-edge R&D', 'AI-enabled measures', 'Relevant, Impactful AI Integrations' — capability-brag marketing with no accuracy/TRL/demo specifics → lab_language_intensity",
+    "'Low-friction Deployment' and 'Operator-centered Design' appear only as unsubstantiated taglines; zero mention of DDIL/ATO/RMF/CMMC/ITAR/STIG anywhere on site → deployment_awareness_absence",
+    "'Operator-centered Design' is named as a pillar, which keeps this from scoring near-max on operator_absence, but there is no CONOPS, field-feedback story, or named operator community → operator_absence",
+    "13 open roles: AI/ML Lead, Senior Cyber Systems Engineer, Senior/Full Stack/Software Engineers x5, Lead/CNO Developer x2, Vulnerability Researcher, two PM roles — zero field engineer, ISSO, compliance, or deployment role → hiring_profile_skew",
+    "8 employees(LI) hiring 13 open roles simultaneously, single-post blog, freshly rebuilt static site (Aug 2025) — classic early-stage scale-up pressure → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "'Battlespace Sensing and Awareness' and offensive-cyber tooling assume live connectivity to targets/C2", "operator_reality": "Forward-deployed cyber and EW effects routinely operate in denied/degraded comms; if their tools require a persistent channel back to an analyst, they fail exactly where the mission is contested — same failure mode as the 30fps crowd-detection case", "why_likely_missing": "site markets capability breadth, not the connectivity model underneath it", "evidence_quote": "Battlespace Sensing and Awareness", "quote_source": "homepage"},
+    {"blind_spot": "'Low-friction Deployment' is asserted as a pillar but no ATO/RMF/CMMC/classification pathway is named for offensive cyber tools that would touch government networks", "operator_reality": "Exploit weaponization and CNO tooling require accreditation, classification handling, and often TS/SCI-level program access before a single tool reaches an operator — 'low-friction' is the opposite of the real timeline", "why_likely_missing": "marketing language optimizes for sounding fast, not for describing the accreditation gauntlet", "evidence_quote": "Low-friction Deployment", "quote_source": "homepage"},
+    {"blind_spot": "No named program advocate or champion above the operator level — engagement is purely reactive ('Contact us about a mission need')", "operator_reality": "Operators liking a capability doesn't get it funded past a demo; without a program-office champion driving requirements and budget, an 8-person shop with 13 open reqs risks burning runway building tools nobody transitions", "why_likely_missing": "team is scaling engineering headcount, not acquisition/advocacy relationships, which don't show up on a careers page", "evidence_quote": "Contact us about a mission need →", "quote_source": "homepage"}
+  ],
+  "opener_hook": "Talon Defense lists 'Low-friction Deployment' as a pillar but names no ATO or classification pathway — that gap is usually where a funded cyber capability stalls longest before reaching a mission.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Full-spectrum offensive and defensive cyber capabilities (vuln research, exploit weaponization, malware detection, information operations) for national security customers."
+}

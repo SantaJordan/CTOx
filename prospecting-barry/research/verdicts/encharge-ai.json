@@ -1,0 +1,46 @@
+{
+  "company": "EnCharge AI",
+  "slug": "encharge-ai",
+  "domain": "enchargeai.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "$18.6M DARPA grant with Princeton announced by the company itself (news section, 2024-03-06), and their own site's news list features 'Pentagon Surges New Computational \"Chips\" for AI at Tactical Edge.'",
+  "disconnect_score": 70,
+  "subscores": {"lab_language_intensity": 18, "deployment_awareness_absence": 14, "operator_absence": 17, "hiring_profile_skew": 16, "stage_pressure": 5},
+  "score_evidence": [
+    "'Transformative technology for AI computation, breaking records in efficiency and sustainability' with '20x Higher efficiency (TOPS/W)*' and '*silicon measured MACs vs. industry-leading products' (homepage) → lab_language_intensity: bench-measured ratios as the entire value proposition",
+    "'The holy grail of AI compute: robust, scalable, and precise analog in-memory computing' (en100 product page) → lab_language_intensity",
+    "'Harnessing advanced AI responsibly with a solution that slashes CO2 emissions by 100x... to advance ESG objectives' (homepage) → deployment_awareness_absence: ESG framing where MIL-STD, export control, and trusted-supply-chain language would be",
+    "'M.2 for Laptops' and 'PCIe for Workstations' are the only two published form factors (en100 product page) → deployment_awareness_absence and operator_absence: the platforms named are commercial computers, never a vehicle, radio, payload, or man-portable kit",
+    "'Unlocking AI for the 99% by deploying models beyond Cloud infrastructure to local servers and mobile devices, ensuring everyone can harness advanced capabilities' (homepage) → operator_absence: the user is a consumer/developer abstraction; no warfighter, operator, training, or CONOPS appears anywhere",
+    "All ten live roles are Bengaluru-based silicon roles — 'Principal Physical Design Engineer', 'DFT Architect', 'Staff Engineer, Static Timing Analysis', 'Principal AI Compiler Engineer' (open roles, Blitz) → hiring_profile_skew: zero US field/test/integration/compliance/program hires against a DARPA-funded program",
+    "'Here are the 55 US AI startups that raised $100M or more in 2025' carried on their own news feed (homepage) → stage_pressure held low: they are well capitalized with no visible period-of-performance clock"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Analog compute accuracy is a function of temperature, supply, and aging — and every published number is a bench number",
+      "operator_reality": "The tactical edge is -40°C on a winter airfield and +70°C inside a sun-soaked vehicle bay, on a dirty 28V bus, after two years of thermal cycling. Charge-domain IMC is more stable than current-domain, but it is still analog: the same weights that give bench-perfect inference at 25°C drift, and the model quietly loses accuracy in the field with no error, no log, and no way for a unit to notice. That is worse than a crash — the system keeps producing confident, wrong answers, and nobody in the chain has a test that catches it.",
+      "why_likely_missing": "The team's entire proof surface is silicon measurement in a lab against digital NPUs; the laptop and workstation markets they target live at room temperature with clean power, so accuracy-versus-environment was never a required deliverable.",
+      "evidence_quote": "EnCharge AI's innovation in charge-domain computation based on intrinsically-precise metal capacitors breaks traditional IMC tradeoffs, overcoming the SNR limitations of analog processing.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Both shipping form factors plug into commercial computers, not into anything the DoD carries",
+      "operator_reality": "Nothing at the tactical edge has an M.2 slot in a laptop or a half-height PCIe slot in a workstation. It has a conduction-cooled sealed enclosure with no fan, a fixed power budget on a vehicle or aircraft bus, MIL-STD-810 shock and vibration, MIL-STD-461 EMI limits, and an integrator who needs a mechanical and thermal interface document before he can quote. 8.25W at the card is meaningless until someone specifies the case that gets that heat out with no airflow — and that redesign, not the silicon, is what sets the fielding date.",
+      "why_likely_missing": "The commercial edge-AI market is laptops and on-prem servers, and a 16nm chip company measures success in TOPS/W, not in enclosure drawings; ruggedization normally arrives via a partner they have not named.",
+      "evidence_quote": "M.2 for Laptops — Experience unparalleled performance for personalized AI on your laptop without compromising battery life or portability.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "DARPA-funded accelerator, entire live engineering bench posted offshore, and not one word about export control or trusted supply",
+      "operator_reality": "Before a program office designs a novel accelerator into a fielded system it asks who touched the design, where the parts come from, and whether the IP is export-controlled — DMEA trusted-supplier status, ITAR/EAR classification, CMMC and NIST 800-171 at the company, and a diminishing-manufacturing-source plan for a 16nm part over a 15-year platform life. Every one of those takes quarters to answer and none of them can be started after a prime asks.",
+      "why_likely_missing": "The company is optimizing for a commercial ramp where offshore design centers are pure cost advantage, and the DARPA money arrived as a research grant through a university partner, which carries none of the contractor compliance obligations a production contract does.",
+      "evidence_quote": "Principal Physical Design Engineer ({'city': 'Bengaluru', 'country_code': 'IN'}) ... Principal Research Engineer, Applied AI ... DFT Architect",
+      "quote_source": "job_post"
+    }
+  ],
+  "opener_hook": "Your own news feed carries 'Pentagon Surges New Computational Chips for AI at Tactical Edge' — and the EN100 page lists exactly two form factors, M.2 for laptops and PCIe for workstations.",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Designs analog in-memory-computing AI accelerator chips (EN100) claiming ~20x better TOPS/W than digital NPUs for on-device inference."
+}

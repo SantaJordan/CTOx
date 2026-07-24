@@ -1,0 +1,16 @@
+{
+  "company": "Bowtie",
+  "slug": "bowtie",
+  "domain": "bowtie.security",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "No DoD motion in their own artifacts: site sells enterprise ZTNA/SASE replacement; ITAR/CMMC appear only as customer-compliance selling points ('no structural conflict with ITAR, CMMC, or data residency requirements'); only named customer is commercial (K2 Space); no SBIR; the MoD 'BowTie licences' news items are a different product (BowTie risk-management software). Channel-note defense claim is not corroborated by any company artifact in the pack.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "14-person seed-stage enterprise network-security startup selling self-hosted Zero Trust Network Access / Secure Web Gateway (no vendor cloud in the traffic path) as a Zscaler/Prisma alternative."
+}

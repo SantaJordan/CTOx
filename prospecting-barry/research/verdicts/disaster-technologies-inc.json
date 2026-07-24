@@ -1,0 +1,49 @@
+{
+  "company": "Disaster Technologies Inc (PRATUS)",
+  "slug": "disaster-technologies-inc",
+  "domain": "disastertech.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "USAF AI-Based Scheduling STTR Phase II 2023 ($998,859) in the SBIR record, a $2.3M Army TATRC disaster-medicine contract in news, and a Coast Guard incident-command case study on their own homepage.",
+  "disconnect_score": 58,
+  "subscores": {
+    "lab_language_intensity": 14,
+    "deployment_awareness_absence": 16,
+    "operator_absence": 10,
+    "hiring_profile_skew": 10,
+    "stage_pressure": 8
+  },
+  "score_evidence": [
+    "\"Gain real-time situational intelligence with PRATUS AI, an AI-powered decision-support solution.\" → lab_language_intensity",
+    "\"Built natively into the Microsoft ecosystem, including Teams\" — a cloud-SaaS dependency stated with zero ATO/RMF/IL or disconnected-ops framing anywhere on the site → deployment_awareness_absence",
+    "\"PRATUS integrates live weather data, critical infrastructure impact models, and AI-powered analytics to give you near-instant situational awareness\" — assumes always-on connectivity → deployment_awareness_absence",
+    "No jobs data in pack → hiring_profile_skew set exactly to 10 per rule"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Product identity is 'native Microsoft Teams' — but DoD/USCG Teams lives in GCC High / IL4-IL5 tenants with STIG'd clients, and a commercial-tenant-native integration cannot follow the customer onto accredited networks.",
+      "operator_reality": "The Coast Guard incident commander's workstation is on an accredited network; the PRATUS-Teams integration either passes RMF inside that boundary or the tool stays on someone's personal laptop outside the command post.",
+      "why_likely_missing": "Company grew from commercial/state emergency management where a Microsoft Premier Partner badge sells; site never mentions ATO, RMF, IL levels, or FedRAMP despite courting national-level operations.",
+      "evidence_quote": "Built natively into the Microsoft ecosystem, including Teams, PRATUS unifies data, decisions, and people in one secure platform",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Every capability claim ('live weather data', 'near-instant situational awareness', 'real-time insights') presumes cloud connectivity — yet disaster response and military operations are the canonical DDIL environments where comms fail first.",
+      "operator_reality": "In the first 72 hours of a hurricane or at an austere staging site, cell and broadband are down; a cloud-SaaS 'one pane of glass' becomes zero panes of glass with no stated offline or sync-on-reconnect mode — same failure mode as the 30fps crowd-detection case.",
+      "why_likely_missing": "Platform architecture is Azure/Teams SaaS; offline-first was never a design constraint for tabletop-exercise and EOC customers on good networks.",
+      "evidence_quote": "PRATUS integrates live weather data, critical infrastructure impact models, and AI-powered analytics to give you near-instant situational awareness.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The STTR Phase II builds an AI/optimization decision-support system for humanitarian operations with no stated path from research model to accredited, sustained fielding — the classic Phase II-to-fielded gap.",
+      "operator_reality": "A strategic-planning optimization model that can't get onto the operational network before the period of performance ends becomes a demo; the advocacy chain above the exercise-planner level is nowhere in their language.",
+      "why_likely_missing": "Abstract is written in research deliverable terms ('deploy an optimization model and an artificial intelligence (AI)-based solution approach'), not transition terms — no sponsor org, no target network, no accreditation plan mentioned.",
+      "evidence_quote": "The proposed decision support system will deploy an optimization model and an artificial intelligence (AI)-based solution approach",
+      "quote_source": "sbir_abstract"
+    }
+  ],
+  "opener_hook": "PRATUS is built natively into commercial Microsoft Teams, yet its Coast Guard and USAF STTR work lands on IL4+ networks where that tenant integration cannot follow without an RMF path the site never mentions.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Cloud SaaS incident-management and AI decision-support platform embedded in Microsoft Teams for emergency and military planning, operations, and training exercises."
+}

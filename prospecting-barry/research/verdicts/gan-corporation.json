@@ -1,0 +1,28 @@
+{
+  "company": "GaN Corporation (Geeks and Nerds)",
+  "slug": "gan-corporation",
+  "domain": "geeksandnerds.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "DoD motion is real — Army SBIR Phase II 'SGT-NERDS' ($998,982, 2022), a JAIC DRAID Basic Ordering Agreement with a $241M five-year ceiling, an $83M EVCAPP contract with Army Redstone Test Center, and an Army IDV on USAspending (SBIR section + News) — but the company type disqualifies it.",
+  "disconnect_score": 0,
+  "subscores": {
+    "lab_language_intensity": 0,
+    "deployment_awareness_absence": 0,
+    "operator_absence": 0,
+    "hiring_profile_skew": 0,
+    "stage_pressure": 0
+  },
+  "score_evidence": [
+    "Self-described as a services firm in their own words: \"GaN Corporation (dba 'Geeks and Nerds') is an employee-owned, Huntsville-based technology company that provides technical and management services to government and commercial customers in the areas of Cyber Security, Systems Engineering, Test & Evaluation, Software Engineering, and Information Technology\" (LinkedIn about).",
+    "The capabilities page sells labor against a customer's program, not a product: \"Supporting customers directly with test design, network layout, system setup & operation, data management, and system maintenance\" and \"Rapid prototype development of T&E and Training capabilities\".",
+    "Revenue vehicles are services instruments — a JAIC DRAID BOA ($241M ceiling), EVCAPP providing \"agile prototyping capabilities to the U.S. Army Redstone Test Center\" ($83M ceiling), and an Army IDV — i.e. a book of task orders, not a product with a transition cliff (News).",
+    "Founded 2004, 82-117 employees across seven states, 20 years old and employee-owned — a mature Huntsville services contractor whose survival does not hinge on any single prototype reaching the field, which is the inverse of Barry's EDP.",
+    "Open roles reinforce it: Systems Engineer OTC at Fort McKavett, Program Manager-SRD x2, Operations Analyst, Office Manager — staffing customer sites and program offices."
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Employee-owned Huntsville government services contractor doing test & evaluation, systems engineering, cybersecurity, software and IT work for Army and DoD customers."
+}

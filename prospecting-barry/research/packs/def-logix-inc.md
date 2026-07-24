@@ -163,47 +163,14 @@ The main objective of this effort is to develop a cloud enabled Universal Data A
   USAspending.gov
 - CONTRACT to DEF-LOGIX INC () https://www.usaspending.gov/award/CONT_AWD_FA875017C0085_9700_-NONE-_-NONE-
   USAspending.gov
-- Def-Logix Profile () https://www.highergov.com/awardee/def-logix-inc-431009711/
-  Def-Logix Profile
+- FA830716D0025 | Air Force Award | CYBER MULTIPLE AWARD IDIQ () https://www.federalcompass.com/award-contract-detail/FA830716D0025
+  Air Force Award | FA830716D0025 | CYBER MULTIPLE AWARD IDIQ
 
-HigherGov
+# FA830716D0025 - CYBER MULTIPLE AWARD IDIQ
 
-Notify
+##### Federal Contract Award Search » IDC Award - Responsive Cyber Solutions IDIQ (2016)
 
-- New Contract Awards
-- New Grant Awards
-
-Favorite
-
-Export
-
-- CSV
-- Excel
-
-Share
-
-- Copy URL
-- Email
-- Tweet
-
-Search Awardees Open Help Docs
-
-# Def-Logix
-
-UEI: MX7THL6PALQ5 &#x2022 SBA Certs: 8(a)
-
-- List
-- Text
-
-## Overview
-
-Awardee Type
-
-Parent (1 child)
-
-Federal Capability Statement
-
-Def-Logix specializes in computer and network security research and development. We utilize, integrate or modify best of breed tools and applications from commercial off the 
+This IDC contract for IT Software, Aerospace & Defense Research and Development was awarded in FY2016 on Nov 24, 2015 to DEF-LOGIX, INC by Cryptologic & Cyber Systems Division (HNC). There have been $84.6M in obligations to date with a ceiling value of $1,000M, showing a 8% burn rate so far on the contr
 
 ## Open roles (Blitz, live)
 - Senior Security Governance and Policy Analyst with Security Clearance ({'city': 'Washington', 'country_code': 'US'})

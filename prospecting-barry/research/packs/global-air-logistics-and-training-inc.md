@@ -3,7 +3,7 @@ slug: global-air-logistics-and-training-inc | domain: galt.aero | HQ: San Diego,
 sources: sbir
 industry(LI): Defense and Space Manufacturing | specialties: 
 channel notes: SBIR PhII x2 [2022] Air Force latest: AVEO (Artificial-Intelligence Voice Enhanced Operations) for AWACS hq: San Diego,CA emp: 28
-own-language word count: ~1765
+own-language word count: ~1750
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -117,6 +117,8 @@ Advanced Technology International (ATI): Maritime Advanced Technology Accelerato
 
 System of Systems Security Consortium (SOSSEC)
 
+​​
+
 For additional details about these or other GALT contract vehicles, please reach out to [email]
 
 ## GALT Leadership
@@ -127,11 +129,11 @@ Meet the Team
 
 Our Vision
 
-To Provide Game Changing Solutions Inspired by the warfighter, driven by innovation, and focused on mission accomplishment. GALT uniquely focuses on architecture as a solution, effective open systems integration, and rapid prototyping & fielding.
+To Provide Game Changing Solutions ​ Inspired by the warfighter, driven by innovation, and focused on mission accomplishment. GALT uniquely focuses on architecture as a solution, effective open systems integration, and rapid prototyping & fielding.
 
 Our Mission
 
-To Weaponize Information at the Point of Impact P
+To Weaponize Information at the Point of Im
 
 URL: https://www.galt.aero/products-programs
 Products & Programs | Mission-Ready Systems | GALT Aerospace
@@ -146,33 +148,21 @@ DAGNE
 
 Datalink and Airborne Gateway Network Extension, is purpose-built for smaller manned and unmanned aircraft.
 
-Learn More
-
 FINN
 
 Fused Integrated Naval Network Enables multidomain awareness and C2 superiority for CJADC2 operations.
 
-Learn More
-
 SkyTower II Connecting Disadvantaged Users Across the Joint Domain.
 
-Learn More
-
 SR-WAVE Right-sized, hardware-agnostic software radio engineered for weapons and small UxS.
-
-Learn More
 
 GALT Management System
 
 The GALT Management System (GMS) is a custom-built, open-source network and radio management tool designed for simplicity, flexibility, and operational resilience.
 
-Learn More
-
 JDNO Training
 
 GALT Aerospace is at the forefront of establishing Joint Data Network Operator (JDNO) requirements through our training pipeline that produces highly skilled professionals capable of planning, managing, and executing JDN operations.
-
-Learn More
 
 ## GALT Products and Programs
 
@@ -245,13 +235,9 @@ GALT Aerospace delivers mission-driven engineering and integration solutions acr
 
 GALT Aerospace researches, develops, and tests products, services, and solutions to enhance and facilitate pioneering technologies in support of the warfighter.
 
-Learn More
-
 ### Networking
 
 GALT Aerospace excels in airborne networking, advanced waveform and datalink communications integration. We have decades of experience in networking systems analysis, design, development, deployment, testing and support
-
-Learn More
 
 GALT Careers
 
@@ -269,65 +255,16 @@ GALT has formed the AVEO Team with AWS (Amazon Web Services), NLP (Natural Langu
 GALT Aerospace will demonstrate a highly agile and readily adaptable Weapon Data Link (WDL) with greatly reduced Size, Weight and Power (SWaP) and cost compared with current WDL systems by employing the Air Force Research Laboratory Information Directorate (AFRL/RI) Software Radio (SWR) technology. Unlike Software-Defined Radio (SDR) technology, SDR special purpose signal processing hardware and support firmware coding with open General Purpose Processors (GPP) and DevSecOps software. This means much improved weapon integration, unparalleled threat responsiveness, and elimination of all too frequent vendor lock. GALT is a non‑traditional, Service-Disabled Veteran Owned Small Business (SDVOSB) focused on resilient communications innovation and effective integration. The GALT Team features the technology leaders within AFRL/RI, their research partners Jacobs, ANDRO, and PAR, and IS4S and Northrop Grumman Defense Systems (NGDS) Advanced Weapons that couples small business agility and innovation with large business depth and weapon expertise. The proven Air Force developed technology provides a truly Open Low-SWaP Software Radio that is ideally suited to the demanding environment and requirements of a wide variety of strike and counter-air weapons.  GALT will demonstrate an enhanced, modern, open architecture WDL will directly permit Blue Forces to command various collaborative weapons to employed coordinated tactics. The flexible nature of our approach works directly alongside, and with, existing legacy weapons data links buy providing multiple weapons data link information flows to and from disparate weapons, sensors and shooters.  Through the use of miniaturized, low SWaP, open radios, collaborative weapons scripts and datalinks will be seamlessly integrated. By utilizing WOCA systems, GALT will ensure we are using a common software centric approach to netcentric collaborative weapon employment. GALT will build a lab prototype of the software and hardware WDL solution optimized for munitions integration.  This solution will enable the necessary flexibility to be successful at the contested edge of the battlespace.  This solution will enable Blue Forces to utilize weapons as a communication network transporting key targeting data between weapons; weapons and sensors/shooters as well as BLOS back and forth to command and control nodes in the rear. The GALT Team is poised to mitigate each of the challenges in bringing the AFRL/RI Software Radio into the weapons arena.
 
 ## News (Exa, top 3)
-- Contracts for July 6, 2026 (2026-07-06) https://www.war.gov/News/Contracts/Contract/Article/4533905/contracts-for-july-6-2026/
-  Contracts for July 6, 2026 > U.S. Department of War > Contract | U.S. Department of War
-
-Skip to main content (Press Enter).
-
-MISSILE DEFENSE AGENCY
-
-L3Harris Technologies Integrated Systems L.P., doing business as Aeromet, Tulsa, Oklahoma, is being awarded an indefinite-delivery/indefinite-quantity contract with a maximum amount of $499,573,000. Under this follow-on contract, the contractor will provide support for the Missile Defense Agency Flight Test Airborne Sensors (ABS) program. These eff
 - GLOBAL AIR LOGISTICS AND TRAINING, INC. | Federal Award ... () https://www.usaspending.gov/recipient/56a7ed53-7cfb-d883-73d0-d74057aa34f8-C/latest
   USAspending.gov
-- Global Air Logistics And Training () https://www.highergov.com/awardee/global-air-logistics-and-training-inc-10078896/
-  Global Air Logistics And Training
+- Global Air Logistics and Training, Inc. wins Advanced Battle Management System (ABMS) ID/IQ Award (2020-07-08) https://www.prnewswire.com/news-releases/global-air-logistics-and-training-inc-wins-abms-idiq-award-301089676.html
+  Global Air Logistics and Training, Inc. wins Advanced Battle Management System (ABMS) ID/IQ Award Accessibility Statement Skip Navigation
 
-HigherGov
+DEL MAR, Calif., July 7, 2020 /PRNewswire/ -- Global Air Logistics and Training, Inc (GALT) has been awarded a $950,000,000 ceiling indefinite-delivery/indefinite-quantity contract for the maturation, demonstration and proliferation of capability across platforms and domains, leveraging open systems design, modern software and algorithm development in order t
+- GALT Awarded $23.9M Prime Contract to Provide Communication Enhancements for the USMC (2021-03-15) https://www.prnewswire.com/news-releases/galt-awarded-23-9m-prime-contract-to-provide-communication-enhancements-for-the-usmc-301247628.html
+  GALT Awarded $23.9M Prime Contract to Provide Communication Enhancements for the USMC Accessibility Statement Skip Navigation
 
-Notify
-
-- New Contract Awards
-- New Grant Awards
-
-Favorite
-
-Export
-
-- CSV
-- Excel
-
-Share
-
-- Copy URL
-- Email
-- Tweet
-
-Search Awardees Open Help Docs
-
-# Global Air Logistics And Training
-
-UEI: RJ58ZBJJFWK5 &#x2022 CAGE: 7M4N7 &#x2022 DBA: GALT
-
-- List
-- Text
-
-## Overview
-
-Awardee Type
-
-Parent (1 child)
-
-Company Description
-
-Defense and Aerospace systems engineering, design, and development
-
-Name
-
-Global Air Logistics And Training
-
-Website
-
-Headquarter
+SAN DIEGO, March 15, 2021 /PRNewswire/ -- Global Air Logistics and Training, Inc. (GALT) announced today that it was awarded a prime contract valued at almost $23.9M to deliver and support advanced networking and communication payloads to the United States Marine Corps Warfighting Laboratory (MCWL). The Fused Integrated Naval Network (FINN) Communications Gateway is a ro
 
 ## Open roles (Blitz, live)
 - Assistant Facility Security Officer ({'city': 'San Diego', 'country_code': 'US'})

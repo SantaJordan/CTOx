@@ -1,0 +1,16 @@
+{
+  "company": "Resolute ISR",
+  "slug": "resolute-isr",
+  "domain": "resoluteisr.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Own site + Jan 2026 news: Arkeus/Resolute ISR contract 'to deliver disruptive ISR to U.S. Department of War,' deploying the fielded Resolute Eagle UAS with defense/expeditionary/homeland-security missions named directly.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "OEM and ISR-as-a-service operator of the Resolute Eagle Group 3/4 UAS, providing aircraft, payload integration, operators, sustainment, and mission support for defense/maritime/homeland-security customers."
+}

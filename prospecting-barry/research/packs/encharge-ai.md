@@ -339,14 +339,6 @@ EnCharge AI is a leader in advanced hardware and software systems for AI computi
 New collaboration to yield full-stack computing solution capable of supporting large-scale public- and private-sector advancements in AI through $18.6 million grant
 
 SANTA CLARA, Calif., March 6, 2024 /PRNewswire/ -- Today, EnCharge AI, the company commercializing next-generation AI accelerators, announced a partnership with Pr
-- New chip built for AI workloads attracts $18M in ... (2024-03-06) https://www.princeton.edu/news/2024/03/06/new-chip-built-ai-workloads-attracts-18m-government-funding-revolutionary-tech
-  New chip built for AI workloads attracts $18M in government support
-
-Princeton researchers have totally reimagined the physics of computing to build a chip for modern AI workloads, and with new U.S. government backing they will see how fast, compact and power-efficient this chip can get. An early prototype is pictured above.
-
-Photo by Hongyang Jia
-
-The Defense Department’s largest research organization has partnered with a Princeton-led effort to develop advanced microchips for artificial intell
 - EnCharge AI, Princeton Partner on DARPA Project to Develop Advanced Chips for Artificial Intelligence Workloads – ExecutiveBiz (2024-03-07) https://www.executivebiz.com/articles/encharge-ai-princeton-partner-on-darpa-project-to-develop-advanced-chips-for-artificial-intelligence-workloads
   EnCharge AI, Princeton Partner on DARPA Project to Develop Advanced Chips for Artificial Intelligence Workloads – ExecutiveBiz
 
@@ -367,6 +359,14 @@ giggsy25 / Shutterstock
 R&D partnership
 
 The Defense Advanced Research Projects Agency has awarded a grant worth $18.6 million to Princeton University and technology company EnCharge AI, which hav
+- New chip built for AI workloads attracts $18M in government support (2024-03-06) https://www.princeton.edu/news/2024/03/06/new-chip-built-ai-workloads-attracts-18m-government-funding-revolutionary-tech
+  New chip built for AI workloads attracts $18M in government support
+
+Princeton researchers have totally reimagined the physics of computing to build a chip for modern AI workloads, and with new U.S. government backing they will see how fast, compact and power-efficient this chip can get. An early prototype is pictured above.
+
+Photo by Hongyang Jia
+
+The Defense Department’s largest research organization has partnered with a Princeton-led effort to develop advanced microchips for artificial intell
 
 ## Open roles (Blitz, live)
 - Principal Physical Design Engineer ({'city': 'Bengaluru', 'country_code': 'IN'})

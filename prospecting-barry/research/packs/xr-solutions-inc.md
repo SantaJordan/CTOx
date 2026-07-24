@@ -173,6 +173,10 @@ Future Sight AR creates augmented, mixed, and reality (AR/MR/XR) software for th
 XR Solutions, Inc. will provide adapted user interfaces and the corresponding software application licenses for the 349th Air Refueling Squadron.  This will accelerate DAF requirements to integrate XR technology into current mission planning and mission d
 
 ## News (Exa, top 3)
+- XR Solutions Wins $245268 SBIR Award from US Department of ... (2026-01-22) https://www.linkedin.com/posts/frontier-optic_xr-solutions-has-received-a-24526800-award-activity-7420047500251656193-BNc1
+  # XR Solutions has received a $245,268.00 award from the United States Department of War, United States Department of the Army, as part of the Small Business Innovation Research Program Phase I. This … | Frontier Optic · LinkedIn · 2026-01-22
+
+**Frontier Optic**: Frontier Optic is a company that unveils key metrics in deep tech and science innovation. They track, analyze, and discover tomorrow's pioneers today. Frontier Optic has 1-10 employees, founded in 2024. Headquartered in New York, United
 - XRG awarded $5.6M subcontract for US Department of Defense (2024-11-13) https://xrgroup.com.au/news/xrg-operatorxr-usdod/
   XRG awarded $5.6M subcontract for US Department of Defense
 
@@ -201,14 +205,6 @@ Back to all articles
 - The contract scope is to deliver a new immersive training capability and includes supplying Operator XR system licenses along with R&D services.
 - The R&D project duration is 20 months commencing 11th September 2024.
 - The contract
-- XR Defense (XRD) awarded Air Force SBIR Phase III contract for ... () https://orangeslices.ai/xr-defense-xrd-awarded-air-force-sbir-phase-iii-contract-for-maintenance-mx-data-capture/
-  XR Defense (XRD) awarded Air Force SBIR Phase III contract for Maintenance (MX) Data Capture | OrangeSlices AI
-
-Search
-
-Award details have been posted showing a recent win by this small business which strives to serve as a premier technology integrator driving some of our nations most important digital transformations.
-
-Awardee Name: XRDEFENSE, LLC Unique Entity ID: JSVBHANVWDY1 Total Contract Value: $3,000,000.00 Action Obligation: $3,000,000.00 Department Name: DEPT OF DEFENSE Funding Agency: 
 
 ## Open roles
 (no jobs data found)

@@ -291,6 +291,48 @@ WingXpand is expanding what’s possible with autonomous systems with our 8ft sm
 What if an airplane could fit within a rucksack, deploy in less than two minutes, fly for hours, and automatically detect threats in real time? Now it can with the highly capable and easy to use WingXpand™ small unmanned aerial system (sUAS), enabled by o
 
 ## News (Exa, top 3)
+- Award | SBIR () https://www.sbir.gov/awards/209413
+  Award | SBIR Skip to main content
+
+# Award
+
+Portfolio Data
+
+Back to Award Search
+
+## Expeditionary Edge AI Enabled Battle Network from a Pack Portable Fixed-Wing UAS
+
+### Awardee
+
+#### WINGXPAND INC.
+
+911 WASHINGTON AVE STE 501SAINT LOUIS, MO, 63101-1272USA
+
+Award Year: 2024
+
+UEI: LB9YEL5LJKV8
+
+HUBZone Owned: No
+
+Woman Owned: Yes
+
+Socially and Economically Disadvantaged: Yes
+
+Congressional District: N/A
+
+Tagged as:
+
+SBIR
+
+Phase I
+
+### Awarding Agency
+
+DOD
+
+Branch: ARMY
+
+Total Award Amount: $249,
 - Award | SBIR () https://www.sbir.gov/awards/204407
   Award | SBIR Skip to main content
 
@@ -368,42 +410,6 @@ SBIR
 Phase I
 
 ##
-- Award | SBIR () https://www.sbir.gov/awards/217956
-  Award | SBIR Skip to main content
-
-# Award
-
-Portfolio Data
-
-Back to Award Search
-
-## Expanding What's Possible with Composite Repairs: Vitrimer Patches for Rapid Aerospace Grade Fixes
-
-### Awardee
-
-#### WINGXPAND INC.
-
-https://www.sbir.gov/portfolio/2270755 911 WASHINGTON AVE STE 501SAINT LOUIS, MO, 63101-1272USA
-
-Award Year: 2025
-
-UEI: LB9YEL5LJKV8
-
-HUBZone Owned: No
-
-Woman Owned: Yes
-
-Socially and Economically Disadvantaged: Yes
-
-Congressional District: N/A
-
-Tagged as:
-
-STTR
-
-Phase I
-
-### Awar
 
 ## Open roles (Blitz, live)
 - Marketing & Content Specialist - Technology ({'city': 'Chicago', 'country_code': 'US'})

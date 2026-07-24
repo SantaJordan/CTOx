@@ -244,34 +244,22 @@ This connects to your focus o
 SettleTop provides data intelligence for your AI software. It\'s your data, ask it questions. The Company\'s CodeRoot.ai platform is a semantic intelligence platform that captures the provenance (software, AI agents) and provides data intelligence of your software - in areas such as productivity, risk, ROI and overall governance posture across your software supply chain.
 
 ## News (Exa, top 3)
-- SettleTop Awarded U.S. Air Force Small ... (2023-07-24) https://www.businesswire.com/news/home/20230724388607/en/SettleTop-Awarded-U.S.-Air-Force-Small-Business-Innovation-Research-SBIR-Phase-II-Contract
-  SettleTop Awarded U.S. Air Force Small Business Innovation Research (SBIR) Phase II Contract
+- CONTRACT to SETTLETOP INC () https://www.usaspending.gov/award/CONT_AWD_FA864921P0425_9700_-NONE-_-NONE-
+  USAspending.gov
+- SettleTop Awarded a U.S. Air Force $1.25M SBIR Phase II Contract to ... (2023-07-24) https://www.settletop.com/news/settletop-to-present-at-us-air-force-montgomery-it-summit-2023-about-sbom-and-cicd-automation-jnr65
+  SettleTop Awarded a U.S. Air Force $1.25M SBIR Phase II Contract to secure the Nation’s Software Supply Chain — SETTLETOP
 
--
+# SettleTop Awarded a U.S. Air Force $1.25M SBIR Phase II Contract to secure the Nation’s Software Supply Chain
 
-# SettleTop Awarded U.S. Air Force Small Business Innovation Research (SBIR) Phase II Contract
+Jul 24
 
-Share
-
----
-
-AFWERX selects SettleTop for a $1.25M SBIR Phase II contract to create a Software Contributor and Social Network Mapping Platform in Securing the Nation’s Software Supply Chain
-
-NEWBURYPORT, Mass.--(BUSINESS WIRE)--SettleTop, Inc. announces it has been selected by AFWERX for a SBIR Phase II con
-- SettleTop Awarded a U.S. Air Force $1.25M SBIR Phase II ... () https://orangeslices.ai/settletop-awarded-a-u-s-air-force-1-25m-sbir-phase-ii-contract-to-secure-the-nations-software-supply-chain/
+(Newburyport, MA, July 24, 2023) – SettleTop, Inc. announces it has been selected by AFWERX for a SBIR Phase II contract in the amount of $1.25 million focused on developing a software contributor and social network mapping platform to secure the nation’s 
+- SettleTop Awarded a U.S. Air Force $1.25M SBIR Phase II Contract to ... () https://orangeslices.ai/settletop-awarded-a-u-s-air-force-1-25m-sbir-phase-ii-contract-to-secure-the-nations-software-supply-chain/
   SettleTop Awarded a U.S. Air Force $1.25M SBIR Phase II Contract to secure the Nation’s Software Supply Chain | OrangeSlices AI
 
 Search
 
 SettleTop, Inc. announces it has been selected by AFWERX for a SBIR Phase II contract in the amount of $1.25 million focused on developing a software contributor and social network mapping platform to secure the nation’s software supply chain in addressing the most pressing challenges in the Department of the Air Force (DAF). The Air Force Research Laboratory a
-- SettleTop Awarded U.S. Air Force Small Business Innovation Research (SBIR) Phase II Contract (2023-07-24) https://envzone.com/press/settletop-awarded-u-s-air-force-small-business-innovation-research-sbir-phase-ii-contract/
-  SettleTop Awarded U.S. Air Force Small Business Innovation Research (SBIR) Phase II Contract | U.S. News
-[![EnvZone logo](https://envzone.com/wp-content/themes/500maas-product/dist/images/logo-envzone-black_de9d255c.svg)](https://envzone.com/)**
-* [**](https://envzone.com/site-search)
-* [My Workspace](https://envzone.com/my-workspace)
-* [Proposal Engine](https://envzone.com/platform/pe)
-* [Sign in](https://envzone.com/auth/onelogin)
-# SettleTop Awarded U.S. Air Force Small Business Innovation Re
 
 ## Open roles
 (no jobs data found)

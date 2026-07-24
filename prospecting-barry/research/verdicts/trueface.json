@@ -1,0 +1,20 @@
+{
+  "company": "Trueface",
+  "slug": "trueface",
+  "domain": "trueface.ai",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Multiple past Air Force AFWERX/SBIR contacts (2019, 2020 contactless access control at AF bases per News section) show genuine DoD motion, but the company is now fully absorbed into BigBear.ai (a public company) as a mature, fielded product line.",
+  "disconnect_score": 8,
+  "subscores": {"lab_language_intensity": 2, "deployment_awareness_absence": 2, "operator_absence": 4, "hiring_profile_skew": 10, "stage_pressure": 0},
+  "score_evidence": [
+    "\"Make Your World Safer & Smarter | BigBear.ai Trueface\" (site title/branding) → already_operational — absorbed into a public parent company",
+    "\"Deploy on-premise, in your cloud, or in a hybrid environment... Works offline and can be deployed anywhere, from large cloud server clusters, to edge devices\" → deployment_awareness_absence (low; explicitly deployment-flexible product with benchmarked CPU/GPU performance at the edge)",
+    "\"Trueface announced being awarded its third contract from the Air Force's AFWERX and Small Business Innovation Research Program\" (2020 news) → mature, repeat DoD customer relationship, not a stuck prototype"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Commercial facial-recognition/computer-vision SDK and on-prem/API product (contactless access control, spoof detection), now operated as BigBear.ai Trueface."
+}

@@ -169,7 +169,7 @@ The dual-use applications of ESA BIC alumnus Spherical Systems and ESA Phi-Labâ€
 - dunedain (2026-06-26) https://dunedainsystems.com/
   # Dunedain (DUNEDAIN SYSTEMS LTD)
 
-Dunedain is a Software Development company. Dunedain is a company that provides safe military AI assistant for all branches. They help save time, reduce errors, adapt to any mission, and focus on successful strategic decisions. Their systems can learn complicated and stylized armyisms for writing, formatting, and ultimately streamlining administrative work in a trusted way. Dunedain employs 11 people (+260.0% YoY). Headquartered in Austin, Texas, United States.
+Dunedain is a Software Development company. Dunedain is a company that provides safe military AI assistant for all branches. They help save time, reduce errors, adapt to any mission, and focus on successful strategic decisions. Their systems can learn complicated and stylized armyisms for writing, formatting, and ultimately streamlining administrative work in a trusted way. Dunedain employs 11 people (+260.0% YoY). Headquartered in Austin, Texas, United States,
 - Dunedain Space: ESA Phi-Lab NL programme participant focuses on space situational awareness - Space Business Innovation Centre Noordwijk (2025-09-26) https://www.sbicnoordwijk.nl/esaphilab-netherlands-programme-participant-dunedain-space/
   Dunedain Space: ESA Phi-Lab NL programme participant focuses on space situational awareness - Space Business Innovation Centre Noordwijk
 

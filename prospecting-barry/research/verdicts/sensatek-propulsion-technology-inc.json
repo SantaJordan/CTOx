@@ -1,0 +1,44 @@
+{
+  "company": "Sensatek Propulsion Technology, Inc.",
+  "slug": "sensatek-propulsion-technology-inc",
+  "domain": "sensatek.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Air Force Life Cycle Management Center propulsion engineer testimonial calling the wireless temperature sensor 'mission-ready' for the Air Force, plus a Forbes piece on landing an Air Force contract — News/own-words sections.",
+  "disconnect_score": 74,
+  "subscores": {"lab_language_intensity": 16, "deployment_awareness_absence": 17, "operator_absence": 16, "hiring_profile_skew": 10, "stage_pressure": 15},
+  "score_evidence": [
+    "\"Leverage cutting-edge computer vision and AI to monitor structural health, detect faults early, and extend asset life\" -> lab_language_intensity",
+    "\"RF interrogation antennas engineered, manufactured, and characterized at extreme temperatures\" -> deployment_awareness_absence (pure lab-characterization language, zero ATO/RMF/CMMC/ITAR mention anywhere in ~1161 words)",
+    "\"We listen with empathy to understand what keeps our customers up at night\" -> operator_absence (customers/engineers only, no operator/warfighter/training/CONOPS language)",
+    "no jobs data found in pack -> hiring_profile_skew set to exactly 10 per instructions",
+    "\"Seed $3.7M total funding reported... status: pilot\" and founded 2015 with 7-8 employees a decade later -> stage_pressure (small team, still pilot-stage after ~10 years)"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Passive RF sensing is described entirely as a lab-characterization capability with no discussion of the RF interrogation link surviving a contested or EW-dense flightline/hangar environment.",
+      "operator_reality": "A flight line or forward operating base is a contested RF/EW environment; an interrogation signal that works cleanly in a 12x12x24ft anechoic chamber can be jammed, attenuated, or crowded out by other emitters, and integrating the reader with existing GFE avionics data buses is nontrivial.",
+      "why_likely_missing": "The team's proof point so far is chamber characterization and a single Air Force pilot, not a fielded, contested-spectrum deployment.",
+      "evidence_quote": "RF reader queries sensor remotely without physical connection, enabling measurements during operation.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The newer Vision AI product line is marketed as 'completely contact-free' with zero mention of who calibrates, maintains, or retrains the vision model in the field.",
+      "operator_reality": "Camera-based monitoring on a flightline or in a hangar means dust, vibration, variable lighting, and boresight drift that break a model trained on clean lab/demo footage; someone has to recalibrate it, and the site never names who that is or how.",
+      "why_likely_missing": "Vision AI reads as a recent pivot/expansion beyond the core RF sensor business, still described at demo/marketing fidelity rather than field-operations fidelity.",
+      "evidence_quote": "Harness AI-powered video analysis to detect issues early, optimize performance, and protect your most critical systems—no sensors required.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Despite an active DoD customer relationship (AFLCMC) and a stated ambition to ship 'fully deployable products,' there is no mention anywhere in the site of ITAR/export control, CMMC, or ATO — all of which gate scaling a sensor/data company from an Air Force pilot into an actual program.",
+      "operator_reality": "Engine health data and RF sensor design details are the kind of technical data ITAR and CMMC are built to control; without a compliance path already in motion, the Phase II-to-Phase III transition stalls on paperwork long after the engineering works.",
+      "why_likely_missing": "A 7-8 person team at seed stage is almost certainly still fully absorbed in R&D and chamber testing, not yet building out the compliance function a defense contract requires to scale.",
+      "evidence_quote": "We specialize in bringing lab-proven innovations to market, turning early-stage R&D into fully deployable products.",
+      "quote_source": "linkedin_about"
+    }
+  ],
+  "opener_hook": "Your AFLCMC customer called the wireless temperature sensor 'mission-ready' for engine health monitoring — has the RF interrogation link been characterized for a contested flightline, or just the anechoic chamber?",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Battery-free passive RF sensors (plus a newer computer-vision product) for measuring temperature, strain, and vibration on rotating turbomachinery parts like turbine blades, piloted with the Air Force for engine health monitoring."
+}

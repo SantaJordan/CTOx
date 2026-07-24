@@ -243,63 +243,6 @@ Contact Us
 Talon Defense builds cyber solutions that strike with speed and precision against the most critical national security threats.
 
 ## News (Exa, top 3)
-- Talon Defense (CKAMVYQ5DKW5) () https://www.highergov.com/awardee/talon-defense-inc-1233324852/
-  Talon Defense (CKAMVYQ5DKW5)
-
-HigherGov
-
-Notify
-
-- New Contract Awards
-- New Grant Awards
-
-Favorite
-
-Export
-
-- CSV
-- Excel
-
-Share
-
-- Copy URL
-- Email
-- Tweet
-
-Search Awardees Open Help Docs
-
-# Talon Defense
-
-UEI: CKAMVYQ5DKW5 &#x2022 CAGE: 13YH3
-
-- List
-- Text
-
-## Overview
-
-Awardee Type
-
-Parent
-
-Name
-
-Talon Defense
-
-Website
-
-Headquarters
-
-Sarasota, FL United States
-
-Most Recent Award
-
-Feb. 12, 2026
-
-Calculating
-
-##### Show Quick Stats (See Federal Award Analysis for Full Details)
-
-Federal contra
 - TALON TO RECEIVE US$2.47 MILLION IN FUNDING FROM THE ... (2024-12-11) https://talonmetals.com/talon-to-receive-us2-47-million-in-funding-from-the-defense-logistics-agency/
   TALON TO RECEIVE US$2.47 MILLION IN FUNDING FROM THE DEFENSE LOGISTICS AGENCY - Talon Metals Corp
 
@@ -314,6 +257,16 @@ Washington, DC (December 11, 2024) – Talon Metals Corp. (“Talon” or the �
   ## TALON TO RECEIVE US$2.47 MILLION IN FUNDING FROM THE DEFENSE LOGISTICS AGENCY
 
 Funding from the 2024 Defense Appropriations Act will support scientific studies of new approaches to enhance nickel recovery Washington, DC (December 11, 2024) – Talon Metals Corp. (“Talon” or the “Company”) (TSX:TLO/OTC:TLOFF), through its wholly owned subsidiary Talon Nickel (USA) LLC, has been awarded a research and development contract from the Department of Defense’s Defense Logistics Agency (“DLA”) to fund s
+- Talon to Receive US$2.47 Million in Funding from the Defense Logistics Agency () https://www.newsfilecorp.com/release/233396/Talon-to-Receive-US2.47-Million-in-Funding-from-the-Defense-Logistics-Agency
+  Talon to Receive US$2.47 Million in Funding from the Defense Logistics Agency
+
+# Talon to Receive US$2.47 Million in Funding from the Defense Logistics Agency
+
+##### Funding from the 2024 Defense Appropriations Act will support scientific studies of new approaches to enhance nickel recovery
+
+December 11, 2024 4:30 PM EST | Source: Talon Metals Corp.
+
+Washington, D.C.--(Newsfile Corp. - December 11, 2024) - Talon Metals Corp. (TSX: TLO) (OTC Pink: TLOFF) ("Talon" or the "Company"), through its wh
 
 ## Open roles
 (no jobs data found)

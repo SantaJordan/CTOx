@@ -1,0 +1,16 @@
+{
+  "company": "Martian Sky Industries, LLC",
+  "slug": "martian-sky-industries-llc",
+  "domain": "martianskyindustries.com",
+  "verdict": "insufficient_evidence",
+  "drop_reason": "",
+  "dod_intent_evidence": "Air Force SBIR Phase II 'COVERT' award ($1,698,040, 2023) and SpaceWERX Orbital Prime contract with a July 2024 demonstration — SBIR/News sections.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "low",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Computer-vision software (3D point cloud + camera fusion) for real-time object recognition and autonomy in space-servicing missions."
+}

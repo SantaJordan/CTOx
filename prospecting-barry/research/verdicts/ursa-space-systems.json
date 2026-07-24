@@ -1,0 +1,16 @@
+{
+  "company": "Ursa Space Systems",
+  "slug": "ursa-space-systems",
+  "domain": "ursaspace.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "News section: awarded NGA Luno B $21M TrueSight order (2025-07) and selected for MDA's $151B SHIELD IDIQ (2025-12) — genuine DoD/IC contract record, but these are operational delivery contracts, not prototype-stage awards.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "GeoAI platform fusing multi-modal satellite/geospatial data into on-demand insights reports for defense, finance, energy, and infrastructure customers."
+}

@@ -1,0 +1,44 @@
+{
+  "company": "Ostendo Technologies, Inc.",
+  "slug": "ostendo-technologies-inc",
+  "domain": "ostendo.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own SBIR Phase II abstract: '2022 Air Force ($749,999) — MicroLED-based Wearable Displays to Support Rapid Sustainment' names Department of the Air Force aircraft maintenance groups as the explicit customer for maintainer heads-up displays.",
+  "disconnect_score": 61,
+  "subscores": {"lab_language_intensity": 19, "deployment_awareness_absence": 14, "operator_absence": 10, "hiring_profile_skew": 10, "stage_pressure": 8},
+  "score_evidence": [
+    "'40k full-color pixels per mm2 ... 5 nano-second response time ... 10x more brightness' → lab_language_intensity (dense spec-sheet bravado, zero operational framing)",
+    "Homepage/product pages never mention DDIL, ATO, RMF, CMMC, or ITAR despite the SBIR product streaming government Tech Order data over wireless links → deployment_awareness_absence",
+    "SBIR abstract shows real operator awareness ('the faster and more accurately she can complete the action') which pulls operator_absence down from a fully-blind score, but stops short of describing training, CONOPS, or field iteration → operator_absence",
+    "No jobs data in pack → hiring_profile_skew set to exactly 10 per rule",
+    "SBIR award is from 2022 (stale relative to 2026-07-23), founded 2005, revenue-stage 48-68 employee company — no visible fresh funding or period-of-performance clock in the pack → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "No ATO/RMF/STIG/CMMC language despite the device being designed to stream Tech Order data wirelessly and enable real-time collaboration on what would have to be government networks.",
+      "operator_reality": "Connecting to flightline systems and streaming technical data over wireless links onto DoD networks requires an ATO before any maintenance unit can actually use it — without that groundwork the 'future real-time collaboration with local and remote experts' promise stalls indefinitely regardless of how good the optics are.",
+      "why_likely_missing": "Ostendo is fundamentally a photonics/chip company (QPI microLED IP since 2005) messaging toward consumer/enterprise AR first; the SBIR is a bolt-on defense application of the same core tech.",
+      "evidence_quote": "connect wirelessly to existing laptops and tablets to stream existing Tech Order data to the glasses... this solution will enable real-time collaboration with local and remote experts",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "Zero SWaP-C or ruggedization specificity for a flightline maintenance environment — no mention of drop survivability, dust/grease/glove compatibility, or battery life through a shift.",
+      "operator_reality": "A maintainer with grease-covered gloves on a flightline in variable weather needs a device built for that environment; the published spec sheet (brightness, FOV, pixel density) is consumer/enterprise-framed and never addresses ruggedization or field battery logistics.",
+      "why_likely_missing": "Ostendo explicitly positions as a horizontal core-technology supplier, not a device integrator: 'Ostendo is a core technology company and will not be selling Ostendo-branded glasses' — someone else is left to solve the ruggedization problem, and no partner/integrator is named.",
+      "evidence_quote": "Ostendo is a core technology company and will not be selling Ostendo-branded glasses.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No mention of who trains the maintainer, how the device is sustained/repaired in the field, or GFE integration beyond a generic 'wirelessly connects to existing laptops and tablets' claim.",
+      "operator_reality": "Fielding a new heads-up device into an Air Force aircraft maintenance group requires training curricula, spares logistics, and real integration with existing GFE toolchains — none of which appears anywhere in the pack despite the SBIR explicitly targeting that exact operator population.",
+      "why_likely_missing": "The abstract is written to win the SBIR (technical novelty, patent portfolio) rather than to plan the fielding path.",
+      "evidence_quote": "The Department of the Air Force, and specifically aircraft maintenance groups, have a national Defense-related need to accelerate problem resolution and improve training.",
+      "quote_source": "sbir_abstract"
+    }
+  ],
+  "opener_hook": "Ostendo's 2022 Air Force Phase II SBIR ($749,999) proposes streaming Tech Order data to maintainer-worn glasses via existing laptops and tablets — the abstract never says how that data gets an ATO to move on a government network.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Designs QPI microLED microdisplay chips and wearable-display reference designs for consumer/enterprise/defense AR glasses; the SBIR line builds maintainer heads-up displays for Air Force aircraft maintenance."
+}

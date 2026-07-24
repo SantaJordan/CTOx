@@ -1,0 +1,37 @@
+{
+  "company": "Tesseract Ventures",
+  "slug": "tesseract-ventures",
+  "domain": "tesseractventures.io",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Extensive own-artifact and news-verified DoD motion: two Air Force SBIR Phase IIs (2022, 2023) for Smart Space/PRISM-MOSAIC, an AFWERX Direct-to-Phase-II Space Force SBIR, a 2024 USSOCOM Other Transaction Agreement for the SWARM drone, and selection to advance in the Defense Innovation Unit's CADDS drone-delivery prototype project (July 2026 news).",
+  "disconnect_score": 52,
+  "subscores": {"lab_language_intensity": 11, "deployment_awareness_absence": 11, "operator_absence": 5, "hiring_profile_skew": 10, "stage_pressure": 15},
+  "score_evidence": [
+    "'Inventing Tomorrow, Today' / 'Revolutionizing Military, Agriculture, and Construction with Advanced Technology' → lab_language_intensity (marketing-forward brand framing over three unrelated verticals)",
+    "'TNet Base Station: Simple, low bandwidth local mesh network for secure comms' is the only degraded-comms nod on the entire site; ATAK/TAK integration is named but ATO/RMF/CMMC/ITAR never appears → deployment_awareness_absence",
+    "No jobs data in pack ('Open roles: (no jobs data found)') → hiring_profile_skew set exactly 10 per instructions",
+    "Founded 2018, last public raise a $2M seed in 2020, still ~20 employees, yet simultaneously juggling AFWERX SBIR (2022/2023), USSOCOM OTA (2024), and DIU CADDS (2026) pursuits across airbase, spaceport, special-ops, agriculture, and construction verticals → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "ATAK-integrated visualization and TAK-enabled devices are named, but ATO/RMF/CMMC/ITAR compliance is never mentioned anywhere in the site or case studies",
+     "operator_reality": "A system ingesting spaceport blast-zone and base-defense sensor data into a JADC2-adjacent command picture will eventually need an Authority to Operate on the government network it displays data from — technical TAK integration is necessary but not sufficient, and the accreditation path is invisible in their public materials.",
+     "why_likely_missing": "Their language optimizes for operator/commander-facing capability description (situational awareness, digital twin) rather than the acquisition/compliance audience that would need ATO/RMF proof points.",
+     "evidence_quote": "'Tesseract implemented an integrated solution comprising PRISM™ hardware, MOSAIC RT™, and a custom ATAK-integrated visualization tool.'",
+     "quote_source": "homepage"},
+    {"blind_spot": "Seven years of parallel small-dollar SBIR/OTA/DIU pursuits across five unrelated verticals (airbase, spaceport, special ops, agriculture, construction) with the team still at ~20 people",
+     "operator_reality": "Spreading a small engineering team across this many simultaneous pilot programs is exactly the valley-of-death risk pattern: none of the individual programs may get the sustained engineering attention needed to convert from prototype demo to a funded program of record before its period of performance runs out.",
+     "why_likely_missing": "Each new program (SWARM/USSOCOM 2024, CADDS/DIU 2026) is announced as a standalone press release without any public statement of which single line of business is being prioritized for transition.",
+     "evidence_quote": "'Tesseract Ventures Announces Revolutionary SWARM Drone Technology for Special Operations Forces' (2024) alongside 'Tesseract Ventures Selected by Defense Innovation Unit for Containerized Autonomous Drone Delivery System (CADDS) Prototype Project' (2026)",
+     "quote_source": "news"},
+    {"blind_spot": "The only degraded-comms acknowledgment is a 'low bandwidth' base station — no discussion of fully denied/intermittent comms, and no mention of who trains operators or sustains badges/base-stations (batteries, spares, GFE integration) in the field",
+     "operator_reality": "A rugged badge and TNet base station deployed at an active airbase or spaceport needs a sustainment plan — dead batteries, damaged badges, and untrained new personnel are the day-to-day reality that determines whether the 'centralized source of truth' pitch survives contact with an actual operating base.",
+     "why_likely_missing": "Case studies describe outcomes (real-time tracking, situational awareness) in benefit language but stop short of describing the operations-and-maintenance model behind the hardware.",
+     "evidence_quote": "'TNet Base Station: Simple, low bandwidth local mesh network for secure comms to transfer sensor data'",
+     "quote_source": "homepage"}
+  ],
+  "opener_hook": "Tesseract Ventures advanced in the Defense Innovation Unit's Containerized Autonomous Drone Delivery System prototype project in July 2026, following a 2024 USSOCOM Other Transaction Agreement for its SWARM drone.",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Command-and-control/situational-awareness platform (PRISM sensors, MOSAIC data synthesis, ECHO visualization) sold into military airbase/spaceport/special-ops use cases as well as agriculture and construction."
+}

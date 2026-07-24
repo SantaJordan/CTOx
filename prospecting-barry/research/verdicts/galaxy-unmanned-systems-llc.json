@@ -1,0 +1,28 @@
+{
+  "company": "Galaxy Unmanned Systems LLC",
+  "slug": "galaxy-unmanned-systems-llc",
+  "domain": "galaxyuas.com",
+  "verdict": "drop",
+  "drop_reason": "sbir_mill",
+  "dod_intent_evidence": "DoD motion is real — CAGE 8AM48, two $1.25M Air Force Direct-to-Phase-II SBIRs (2022, 2023) and a self-reported third AFWERX D2P2 (SBIR section + News) — but the company type disqualifies it.",
+  "disconnect_score": 0,
+  "subscores": {
+    "lab_language_intensity": 0,
+    "deployment_awareness_absence": 0,
+    "operator_absence": 0,
+    "hiring_profile_skew": 0,
+    "stage_pressure": 0
+  },
+  "score_evidence": [
+    "Their own LinkedIn states the SBIRs are the development program, not a step toward a product: \"We are pioneers and believers in unmanned airships, and have completed 5 SBIRs/STTRs pursuing their development for Advanced Air Mobility and military use.\"",
+    "Founded 2014, still 2-7 people twelve years later, with no product for sale, no named fielded system, and no customer named beyond an unlabeled 'OUR CLIENTS' logo strip (pack header + homepage).",
+    "The homepage capability statement is a list of ten NAICS codes — 336411, 334511, 336413, 488190, 541330, 541519, 541690, 541715, 541990, 611512 — which is a government services contractor's registration profile, not a product page.",
+    "Self-described as a services and SETA shop: \"Our experience covers the full spectrum of Systems Engineering and Technical Assistance (SETA) support\" and \"Galaxy Unmanned Systems LLC provides unmanned services of all types, engineering, payload integration and accommodation, ground support and flight training\" (about-us).",
+    "Non-SBIR revenue is aerial advertising and film services — \"Get Our High-Visibility Unmanned Blimps at Your Special Events\" with booking pages for concerts, Spring Break, tailgates and quinceañeras (homepage) — which is not a defense transition path."
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Two-to-seven-person Fort Worth shop doing unmanned-airship and UAS engineering services, flight training and SBIR development work, alongside a blimp-advertising and aerial-film business."
+}

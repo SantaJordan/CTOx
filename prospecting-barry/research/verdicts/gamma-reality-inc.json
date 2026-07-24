@@ -1,0 +1,51 @@
+{
+  "company": "Gamma Reality Inc.",
+  "slug": "gamma-reality-inc",
+  "domain": "gammareality.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "SBIR Phase II with the Office for Chemical and Biological Defense, 'Augmented reality and data fusion for CBRN threats', $549,018 (2023), following a DoD Phase I (W911NF-22-P-0003, $167,432) and a DHS CWMD Phase I; their technology page also lists a 'Gamma Reality & Boston Dynamics DTRA Demonstration' (SBIR section + technology page).",
+  "disconnect_score": 53,
+  "subscores": {
+    "lab_language_intensity": 12,
+    "deployment_awareness_absence": 15,
+    "operator_absence": 6,
+    "hiring_profile_skew": 11,
+    "stage_pressure": 9
+  },
+  "score_evidence": [
+    "\"Real-time 3D Mapping Mobile Robotically Deployable Gamma & Neutron Radiation Imaging Data Fusion & Visualization\" — the product page is a capability string, and the proof list beneath it is six demonstration videos → lab_language_intensity",
+    "\"Our founding team developed GRI's core 3D radiation mapping, scene data fusion, and visualization technologies ... as researchers at a Department of Energy national laboratory\" plus a team roster carrying five PhDs including four radiation-detection scientists → lab_language_intensity",
+    "The Phase II abstract sets out to 'overcome the challenges of integrating sensor data into an AR client or HUD system' and neither it nor the ~1,033 words of site copy names TAK/ATAK, IVAS, Cursor-on-Target, ATO, ITAR or CMMC once → deployment_awareness_absence",
+    "\"Everywhere we went, we kept hearing firsthand from radiation detector operators, first responders, CBRNE specialists, and others about how LAMP would make their jobs easier, safer and more efficient\" → operator_absence LOW (the product genuinely originated in operator feedback)",
+    "Only two live open roles — Operations Manager and Sales Engineer, both commercial-scaling seats — with no field service, test/integration, compliance, or government program role against three active federal SBIRs → hiring_profile_skew (above 10)",
+    "Founded 2018, 13 people, but with real product revenue — \"Commercially available. Deployed in nuclear facilities around the world\" — which cushions the SBIR clock → stage_pressure moderate"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The Phase II is about getting CBRN data onto a warfighter's display, and the two displays the Army already funds are never named",
+      "operator_reality": "The Army's answer to 'sensor data on a soldier's screen' is TAK — a CBRN plugin, Cursor-on-Target messaging, an existing accreditation, and a soldier who already knows the interface — with IVAS as the HUD program of record. A bespoke AR client is a second thing to train, a second thing to accredit, and a second thing to sustain, and no program office wants to own it. The high-leverage move is the opposite of building a viewer: become a CoT/TAK data producer so the map GRI generates appears inside the tool the unit already carries, and let the display be someone else's problem. Building the visualization is the part they are best at, which is exactly why it is the part that traps them.",
+      "why_likely_missing": "In commercial nuclear and first-response work, GRI's own visualization is the product and there is no incumbent common operating picture to defer to — so 'we make the map and the viewer' is a proven strategy right up until the customer is a brigade.",
+      "evidence_quote": "New situational awareness and training tools employing augmented reality (AR), virtual reality (VR) and mixed reality (XR) interfaces also provide more ways to collect and display the data. ... new capabilities are needed to bridge the gap between sensors and visualization platforms and overcome the challenges of integrating sensor data into an AR client or HUD system.",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "The 3D map is anchored by camera-based pose estimation, which is exactly what fails in the environment a CBRN recon team works in",
+      "operator_reality": "Fusing radiation counts into a coherent 3D map requires knowing where the detector was, continuously, to within centimeters. Indoors at a nuclear plant that is a solved problem: good lighting, hard geometry, rich visual features, slow deliberate motion. A contaminated outdoor site at night, in smoke or dust, with a vehicle moving at speed and no GPS, drifts — and a radiation map built on a drifting pose does not degrade gracefully, it confidently puts the hot spot in the wrong place. That is worse than no map, because a team will act on it. The engineering answer is pose-uncertainty propagated into the map product and a display that refuses to draw what it cannot localize.",
+      "why_likely_missing": "Every deployment and demo to date — nuclear plants, decommissioning sites, the IAEA, Fukushima and Chernobyl surveys — is a structured, well-lit, feature-rich environment where the localization problem is invisible.",
+      "evidence_quote": "Automatically fuse data streams from multiple sensors into a single, intuitive map for enhanced situational understanding.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The robots in the demo reel are commercial platforms with a commercial CONOPS behind them",
+      "operator_reality": "Spot and a commercial UAV are how you show the capability; they are not how a CBRN recon element operates. The military platform is a vehicle like the NBCRV or a dismounted team in MOPP 4, and MOPP changes everything downstream: gloved hands cannot drive a tablet UI, a butyl-hooded operator cannot read a small display, the sensor has to survive decontamination solution, and the whole assembly has to be mounted on government-furnished equipment with a power and data interface the vehicle already has. A demonstration platform that is not GFE, not ruggedized to military standards, and not sustainable through a supply system converts every follow-on into a re-integration program.",
+      "why_likely_missing": "Boston Dynamics and small UAVs make outstanding demos and are genuinely how the nuclear-industry customers deploy the system, so the platform question reads as solved rather than as deferred.",
+      "evidence_quote": "Deploy GRI technologies on manned vehicles, robots, or drones for fully mobile situational awareness.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "GRI's 2023 Chem-Bio Defense Phase II abstract commits to integrating CBRN sensor data 'into an AR client or HUD system', and across that abstract and the whole of gammareality.com the words TAK, ATAK, IVAS and Cursor-on-Target never appear — those being the two display paths the Army already pays to accredit and sustain.",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Berkeley-lab spinout selling LAMP, a mobile gamma/neutron imaging system that builds real-time 3D radiation maps and fuses them with other sensors, deployed commercially in nuclear facilities and now pointed at military CBRN response."
+}

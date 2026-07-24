@@ -1,0 +1,42 @@
+{
+  "company": "Paxauris LLC",
+  "slug": "paxauris-llc",
+  "domain": "paxauris.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own SBIR Phase II abstract ('Hearable System for Impact and Blast', Defense Health Program 2022, $1,097,092) explicitly targets service members and states 'At the end of Phase II, we will deliver prototypes to the Army'; site also has a dedicated 'Military and First-Response' product page.",
+  "disconnect_score": 57,
+  "subscores": {"lab_language_intensity": 8, "deployment_awareness_absence": 14, "operator_absence": 9, "hiring_profile_skew": 10, "stage_pressure": 16},
+  "score_evidence": [
+    "'Safeguarding the heroes who defend our nation and provide help in times of trouble, by preserving the hearing of those who serve and respond' — pure marketing copy with zero deployment specificity on a page nominally about military use → deployment_awareness_absence",
+    "'In Phase II we will mature our hearable design, fabricate prototype systems... At the end of Phase II, we will deliver prototypes to the Army. In Phase III we will transition our system to a hearable product ready for acquisition and sales' — 2022 award, now well past the typical two-year Phase II window with no visible Phase III news → stage_pressure",
+    "No jobs data in pack → hiring_profile_skew set to 10 baseline"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The Hearable needs a sensor+processor+battery stack instrumented for blast/impact events, but all public marketing (comfort, easy insert/remove, hygienic/washable) describes the existing consumer Fluid earplug, not the ruggedized electronics package the SBIR requires.",
+      "operator_reality": "Cramming an accelerometer, processor, and battery into a deep-insert earplug that must survive an actual blast event is a fundamentally different SWaP-C problem than the consumer earplug they already ship — nothing in their public language addresses battery life, blast survivability, or whether the sensor payload compromises the comfort/seal that's the product's core selling point.",
+      "why_likely_missing": "Company's public voice and revenue today are consumer/DTC (Kickstarter, $49.95 shop items); the defense sensor variant is a separate, less-mature R&D track.",
+      "evidence_quote": "Slip tip into your ear – easy to insert. Press bulb to inflate – now you are protected.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No ATO/RMF/CMMC/ITAR language for a device meant to feed blast-exposure data into Army decision-making, despite the abstract explicitly describing that data pipeline.",
+      "operator_reality": "If the Hearable's exposure-risk data is meant to inform Army medical/readiness decisions, that data pipeline needs accreditation before it can touch a DoD health-record system — an abstract that ends at 'deliver prototypes to the Army' skips the accreditation and data-handling question entirely.",
+      "why_likely_missing": "SBIR abstract is written to win Phase II funding on technical feasibility, not to map the compliance path to an actual fielded system.",
+      "evidence_quote": "At the end of Phase II, we will deliver prototypes to the Army. In Phase III we will transition our system to a hearable product ready for acquisition and sales.",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "No training or fitting protocol described for service members, despite the abstract's own diagnosis that current hearing protection fails specifically because of poor fit and compliance in the field.",
+      "operator_reality": "The abstract's own root-cause analysis is that today's hearing protection fails due to comfort/fit/ease-of-use in the field, not lab performance — yet nothing describes how a service member is trained or fitted to wear the new device correctly under real conditions, risking the exact same compliance failure they set out to solve.",
+      "why_likely_missing": "The abstract focuses on the sensor/hardware innovation, treating fit/comfort as already solved by the existing consumer earplug design.",
+      "evidence_quote": "Current hearing protection is inadequate due to issues with comfort, fit, and ease-of-use, which affect compliance and cause reductions in field performance compared to laboratory ratings.",
+      "quote_source": "sbir_abstract"
+    }
+  ],
+  "opener_hook": "Paxauris' 2022 Army Phase II SBIR ($1.1M) for a blast-sensing 'Hearable' ends with prototypes delivered to the Army and a Phase III transition to acquisition — that Phase II clock is now running well past its typical two-year window.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Makes a patented inflatable deep-insert consumer/industrial earplug (Fluid), and under an Army Phase II SBIR is building an instrumented 'Hearable' version that senses blast/impact exposure for TBI and hearing-loss prevention in service members."
+}

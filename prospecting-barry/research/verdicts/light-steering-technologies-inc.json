@@ -1,0 +1,26 @@
+{
+  "company": "Light Steering Technologies, Inc.",
+  "slug": "light-steering-technologies-inc",
+  "domain": "lightsteering.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "AFWERX Direct-to-Phase II SBIR award ($1.25M, 2024) for laser communications plus a separate 2023 Air Force Phase II ($1.25M) for Responsive Space Imaging, and an Elbit Systems of America demonstration contract — SBIR abstract section and news section.",
+  "disconnect_score": 68,
+  "subscores": {"lab_language_intensity": 18, "deployment_awareness_absence": 10, "operator_absence": 17, "hiring_profile_skew": 10, "stage_pressure": 13},
+  "score_evidence": [
+    "'Aperture size 300 mm [12\"] Scanning field ±30°, circular Dither 13 µrad 60° Step and settle time 0.5 s Weight 25 kg' → lab_language_intensity",
+    "SBIR abstract explicitly names 'Size, Weight, Power, and Cost (SWaP-C)' → deployment_awareness_absence held at 10 (they're fluent in this one term, but no ATO/RMF/CMMC/ITAR/DDIL anywhere else)",
+    "'The speed at which one can point a sensor from space to ground is the key performance parameter to responsive space imaging' → operator_absence (purely technical framing, no ground operator, trainer, or CONOPS ever named)",
+    "'Light Steering Technologies was awarded a contract by Elbit Systems of America to demonstrate capabilities of Multi-Axis Scanner technology' (2021) followed by two more Phase II SBIRs in 2023 and 2024, still demo-stage → stage_pressure",
+    "No jobs data found in pack → hiring_profile_skew set to 10"
+  ],
+  "blind_spots": [
+    {"blind_spot": "No integration or compliance ownership story for a component destined for DoD ground-station/satellite networks", "operator_reality": "A beam-steering module sold into a space-imaging program still has to cross an ATO/RMF boundary once it's part of a fielded satellite ground segment; a component vendor with no stated integration or accreditation role risks being the piece a prime can't get certified in time.", "why_likely_missing": "The company's entire public identity is a patented mechanism (the magnetic joint) sold as a component, not a fielded system — the site never discusses what happens after the demo.", "evidence_quote": "Light Steering Technologies, Inc. is seeking to advance its patented technology which has the potential to enable a major advancement in beam steering for space imaging applications.", "quote_source": "sbir_abstract"},
+    {"blind_spot": "Spec sheet is all lab-bench precision metrics, none about on-orbit survivability or sustainment", "operator_reality": "Dither and settle-time numbers matter on an optical bench; they say nothing about radiation tolerance, thermal cycling, or what happens when the mechanism needs a fix after launch — the actual failure mode for space hardware that never gets a second chance at the field.", "why_likely_missing": "Marketing content is written to sell the patent's precision to engineers evaluating the mechanism, not to answer a program manager's sustainment questions.", "evidence_quote": "Dither 13 µrad 60° Step and settle time 0.5 s Weight 25 kg baseline w/o light weighting", "quote_source": "homepage"},
+    {"blind_spot": "Company is a 6-7 person team running three parallel defense product lines with a demo that's now three years old", "operator_reality": "Metrology, laser communications, laser processing, and space imaging each need their own acquisition advocacy chain and integration path; a team this small spread this thin is the classic setup where the funded months run out on all four before any one of them transitions to a program of record.", "why_likely_missing": "The site presents all four verticals as equally live product lines without signaling which one is actually closest to fielding, suggesting the company itself hasn't prioritized.", "evidence_quote": "Light Steering Technologies was awarded a contract by Elbit Systems of America to demonstrate capabilities of Multi-Axis Scanner technology for low cost line-of-sight stabilization applications", "quote_source": "news"}
+  ],
+  "opener_hook": "AFWERX funded your beam-steering Direct-to-Phase II at $1.25M for laser comms while the Elbit demonstration contract for the same Multi-Axis Scanner platform is now three years old.",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Builds a patented magnetic-joint beam-steering mechanism (Multi-Axis Scanner) for space imaging, laser communications, and metrology applications, sold as a component to defense and commercial integrators."
+}

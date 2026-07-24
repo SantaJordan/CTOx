@@ -3,126 +3,19 @@ slug: onsights | domain: onsights.io | HQ: Minnetonka, Minnesota US | employees(
 sources: vc:scout|vc:new-north
 industry(LI): Software Development | specialties: 
 channel notes: computer-vision analytics (formerly defense AI firm Anno.Ai) || computer-vision analytics on existing security systems
-own-language word count: ~709
+own-language word count: ~9
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
 URL: https://onsights.io
-Onsights
 
-# Ecommerce analytics for the real world
-
-Understand the complete shopping experience for every customer, from the mall entrance to the retailer point-of-purchase and beyond.
-
-Book a Demo
-
-## Powerful yet lightweight technology, with no new hardware required.
-
-Onsights enables identification and behavior tracking for thousands of simultaneous shoppers, across their entire journey. We use your property’s existing camera system, so no new hardware is required. Built-in dashboards and analytics provide answers to your most pressing questions about shopper behavior. And our AI-powered technology is CCPA and GDPR compliant.
-
-## Onsights picks up where existing location intelligence and shopper analytics solutions leave off.
-
-Go beyond high-level traffic estimates and customer counts. Existing mobile data-based solutions rely on small sample sizes and stop working when shoppers step inside a property. And on-premise solutions require expensive hardware and only track basic visitor activities such as footfalls and dwell times.
-
-## Get answers to the questions that matter around customer behavior.
-
-### Shopper journey
-
-### Shopper journey
-
-What is the shopper journey, from the moment they enter my store to when they leave? How can I get them to stay longer and browse other parts of my store?
-
-What is the shopper journey, from the moment they enter the mall to when they leave? How can I get them to stay longer?
-
-### Shopper behavior
-
-### Cross shopping
-
-What are shoppers doing in my store? How can I configure my store to improve their experience?
-
-What is the optimal retail tenant for my property? Where should retailers be located to maximize the shopping experience?
-
-### In-store marketing
-
-### In-center events
-
-Do our promotions work? How can I prove the value of my shelf space to my CPG partners?
-
-What impact do our events have on traffic and sales? How many more shoppers did we attract and did they spend more with our tenants afterwards?
-
-### SWAS strategy
-
-### Advertising
-
-SWAS (store-within-a-store) How can I better configure my SWASs to maximize cross-shopping across the rest of my store?
-
-What is the impact of our advertising campaigns? Which ones are shoppers viewing the most? What is the optimal placement?
-
-### Shopper journey
-
-### Shopper journey
-
-What is the shopper journey, from the moment they enter my store to when they leave? How can I get them to stay longer and browse other parts of my store?
-
-What is the shopper journey, from the moment they enter the mall to when they leave? How can I get them to stay longer?
-
-### Shopper behavior
-
-### Cross shopping
-
-What are shoppers doing in my store? How can I configure my store to improve their experience?
-
-What is the optimal retail tenant for my property? Where should retailers be located to maximize the shopping experience?
-
-### In-store marketing
-
-### In-center events
-
-Do our promotions work? How can I prove the value of my shelf space to my CPG partners?
-
-What impact do our events have on traffic and sales? How many more shoppers did we attract and did they spend more with our tenants afterwards?
-
-### SWAS strategy
-
-### Advertising
-
-SWAS (store-within-a-store) How can I better configure my SWASs to maximize cross-shopping across the rest of my store?
-
-What is the impact of our advertising campaigns? Which ones are shoppers viewing the most? What is the optimal placement?
-
-Onsights has managed to bring ecommerce analytics to brick and mortar. This tech answers previously unanswerable questions with unimpeachable data and more importantly, insights. This will move the needle for operators, capital, tenants and service providers.
-
-Laura Barr - Senior Vice President, Consumer & Retail
-
-## Onsights Team
-
-Our dynamic and elite team boasts a convergence of top talent hailing from prestigious companies and diverse industries. With our expertise, innovation, and visionary thinking, we are poised to reshape the industry landscape.
-
-## Ready to learn more?
-
-Get a demo and discover how Onsights can deliver groundbreaking insights that increase revenue for your business.
-
-Minnetonka, MN | P: [phone] | M: [email]
-
-Thank you! Your submission has been received!
-
-Oops! Something went wrong while submitting the form.
-
-ProductsSolutionsAbout Us Careers
-
-© 2024 Onsights All Rights Reserved.
-
-URL: https://onsights.io/careers
-Careers
-
-© 2024 Onsights All Rights Reserved.
-
-Careers
-[![](https://cdn.prod.website-files.com/6498c3b4530bbcad8a16f6a4/6498c406530bbcad8a171c39_logo_full.png)](/)
+ 301 Moved Permanently 
  
-[![](https://cdn.prod.website-files.com/6498c3b4530bbcad8a16f6a4/649a3918de538628b52d5d90_Property%201%3Dblack.png)](/)
-[Products](/#product)[Solutions](/#solutions)[About Us](/#about-us)[Careers](/careers)
-© 2024 Onsights All Rights Reserved.
+ 301 Moved Permanently 
+ openresty 
+ 
+ 
+
 
 ## LinkedIn about
 

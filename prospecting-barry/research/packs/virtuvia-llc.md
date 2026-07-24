@@ -3,7 +3,7 @@ slug: virtuvia-llc | domain: coachmeplus.com | HQ: Buffalo, New York US | employ
 sources: sbir
 industry(LI): Wellness and Fitness Services | specialties: strength  conditioning coaching, sports science analytics, athlete management system, personal training application, athlete management software, athlete accountability, personal training software, program builder, injury prevention, athlete management, performance management, athletic tracking  rep
 channel notes: SBIR PhII x1 [2022] Army latest: CoachMePlus H2F Holistic Athlete Management System for the Army hq: Buffalo,NY emp: 11
-own-language word count: ~1745
+own-language word count: ~1746
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -87,13 +87,13 @@ Trusted by Champions in Every Field
 – Head S&C for the Buffalo Bills
 
 URL: https://coachmeplus.com/features/
-Features - CoachMePlus 
+Features - CoachMePlus
 
 Features
 
 an all-in-one app to streamline all of your athlete management needs.
 
-Features
+# Features
 
 an all-in-one app to streamline your athlete management needs.
 
@@ -181,7 +181,7 @@ Learn More
 
 This software solution transforms simple tracking into a pragmatic way to ensure athletes are hydrated using available hydrators in your facility.
 
-Learn More
+Learn Mor
 
 URL: https://hs.coachmeplus.com/athletics
 Athletics
@@ -319,6 +319,8 @@ CoachMePlus is an Athlete Management System Software used by over 220 profession
 The CoachMePlus software platform delivers a scalable human performance platform that covers all five Holistic Health and Fitness (H2F) disciplines. The H2F Management System SBIR initiative will allow our team to validate this assertion as part of a live operational test with multiple Army units. The US Army, Air Force (USAF), Navy (USN), and professional and collegiate sports teams across the NFL, NHL, MLB, NBA, MLS, and NCAA have recognized the power of applied science and next-generation human performance analytics to uncover fitness trends, develop insights, reduce injury risk, and maximize readiness. In collaboration with The Informatics Applications Group (TIAG), a leader in military medicine and Health Information Technology, the CoachMePlus platform has been tailored for the DoD as the Warrior Performance Platform (WP2). WP2 provides for multi-channel data collection, enabling holistic evaluations that can be tailored to reflect each command’s unique requirements. Consistent with our large commercial client relationships, we can integrate with Army data fabric by both ingesting data (such as Soldier lists and unit IDs) and by exporting human performance data gathered by CoachMePlus back into the Army data fabric, via API or file import/export. The Army requires a platform that centralizes and displays human performance information, centered on the H2F operating concept of fitness, nutrition, sleep, mental, and spiritual readiness. WP2 operates on web-enabled devices and through native iOS and Android apps and optionally integrates with enterprise and consumer personal wearable fitness and physical activity tracking devices.   In a series of pilots and active programs spanning USN, USAF, Army Reserves, and the Army Recovery Care Program, the CoachMePlus team has gained crucial experience in preparation for large military deployments. In Army environments, the ratio of Soldiers to practitioners (athletic trainers, nutritionists, occupational therapists, physical therapists, registered dietitians, strength and conditioning coaches, etc.) can be challenging. The WP2 platform supports automated algorithm-driven content driven by Army best-practices as well as manual interventions driven by H2F staff. This instructional and educational content is delivered through programming tools, activity plans, and searchable libraries, utilizing video, text, questionnaires, forms, tests, and more. Alerts are routed to the proper person according to the severity and nature of the situation. The system contains configurable roles and responsibilities that allow the Army to rapidly build out a robust and scalable program across all five H2F domains. This persistent repository of Soldier data will allow for actionable real time data at the unit level while simultaneously providing command with the ability to drive methodical improvement across the force by providing structure for analysis and accountability.
 
 ## News (Exa, top 3)
+- VIRTUVIA LLC | Federal Award Recipient Profile () https://www.usaspending.gov/recipient/39ba7b48-322e-8e66-ef33-bc872467eed6-C/latest
+  USAspending.gov
 - virtuvia llc () https://www.sbir.gov/portfolio/1215831
   Firm | SBIR Skip to main content
 
@@ -375,26 +377,10 @@ Total Awarded
 ## Awards
 
 ###
-- Virtuvia Wins $4M US Navy Contract for Applied Research (2026-02-02) https://www.linkedin.com/posts/frontier-optic_virtuvia-has-been-awarded-406115420-by-activity-7423977257024561152-ymAd
-  # Virtuvia has been awarded $4,061,154.20 by the United States Department of War, United States Department of the Navy, under the Small Business Innovation Research Program Phase III. This award recognizes Virtuvia’s continued … | Frontier Optic · LinkedIn · 2026-02-02
+- CoachMePlus: Helping the Navy Optimize, Prioritize Sailors' Health & ... () https://www.navysbir.com/success/docs/SPT-CoachMePlus-21.pdf
+  The Small Business Innovation Research (SBIR) program has long been a steppingstone for high-tech small businesses looking to further develop their sought-after innovations. For CoachMePlus, however, the path to success was slightly different. Already a nation-wide success in the sports and fitness industry, the Buffalo based small business leveraged the federal SBIR program to fill a pressing Navy need.
 
-**Frontier Optic**: Frontier Optic is a company that unveils key metrics in deep tech and science innovation. They track, analyze, and discover tomorrow's pioneers today. Frontier Optic has 1-10 employees, founded in 2024. Headqu
-- Virtuix Selected by U.S. Air Force for AI Military (2026-05-27) https://www.globenewswire.com/news-release/2026/05/27/3302076/0/en/Virtuix-Selected-by-U-S-Air-Force-for-AI-Military-Platform.html
-  Virtuix Selected by U.S. Air Force for AI Military
-
-# Virtuix Selected by U.S. Air Force for AI Military Platform
-
-May 27, 2026 09:15 ET | Source: Virtuix, Inc. Follow Virtuix, Inc.
-
----
-
-Share
-
----
-
-Air Force SBIR Program Selects Virtuix for Development of Virtual Terrain Walk System for Immersive Mission Planning and Tactical Decision-Making
-
-AUSTIN, Texas, May 27, 2026 (GLOBE NEWSWIRE) -- Virtuix Holdings Inc.(NASDAQ: VTIX), a leading developer of full-body virtual reality systems, today anno
+CoachMePlus, along with Department of Defense (DoD) teaming partner TIAG, successfully deli
 
 ## Open roles (Blitz, live)
 - Marketing Internship ({'city': 'Buffalo-Niagara Falls Area', 'country_code': 'US'})

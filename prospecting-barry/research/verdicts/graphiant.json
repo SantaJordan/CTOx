@@ -1,0 +1,45 @@
+{
+  "company": "Graphiant",
+  "slug": "graphiant",
+  "domain": "graphiant.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own resource artifact 'Solution Brief: Secure Networking for Defense Critical Infrastructure' (graphiant.com/resources, Apr 10 2025) plus the news item 'Graphiant and Peraton Announce Partnership on Fully AI-Capable Network Services ... for government users' (2026-05-12) — real defense motion, but partner-led and early, with no contract record in the pack.",
+  "disconnect_score": 70,
+  "subscores": {"lab_language_intensity": 14, "deployment_awareness_absence": 15, "operator_absence": 16, "hiring_profile_skew": 13, "stage_pressure": 12},
+  "score_evidence": [
+    "'50% Time to Deploy' / '67% Lower TCOs' / 'Graphiant's technical advancements are revolutionary' → lab_language_intensity (analyst-quote and stat-brag marketing with no operational framing)",
+    "~1,345 words of their own product language covering security and compliance with zero mention of FedRAMP, IL4/IL5, ATO, RMF, STIGs or CMMC while publishing a Defense Critical Infrastructure brief → deployment_awareness_absence",
+    "'Stop relying on humans to run your network. Graphiant replaces manual operations with AI agents' → operator_absence (the human network operator is framed as the thing to remove, not the user to support)",
+    "'Graphiant's tokenized consumption model transforms network operations from a cost center into an autonomous, intelligent system' → operator_absence / lab_language_intensity",
+    "Open roles: Software Engineer, Executive Assistant, SDR, and two UK 'Project Manager, Network Migration' posts — no federal/compliance, security-accreditation or government-delivery hires despite the Peraton partnership → hiring_profile_skew",
+    "'$62 million Series B' dated Mar 28 2023 with 81 employees, plus an Oct 2025 blog 'My Vision as CEO of Graphiant' → three-year-old B round, leadership change and a repositioning toward AI networking → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "A vendor-operated NaaS control plane pitched at Defense Critical Infrastructure with no accreditation path named anywhere",
+      "operator_reality": "DCI and DoD enclaves buy network services that carry an ATO under RMF, hosted at IL4/IL5 with STIG-hardened components and a POA&M. Peraton will flow that down as a contract requirement, not a nice-to-have; a multi-tenant commercial control plane with no FedRAMP/IL story cannot be accredited inside the life of the partnership, so the pilot ends at the demo.",
+      "why_likely_missing": "The company grew up selling to enterprise network architects where SOC 2 and 'compliance management' is the ceiling; the defense entry is coming through a prime partner who owns the accreditation conversation, so it never reached Graphiant's own product language.",
+      "evidence_quote": "Experience end-to-end assurance across your entire data lifecycle, delivering the visibility required for precise decision-making, robust compliance management, and unmatched data security to confidently navigate regulatory complexities.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Autonomous AI agents making network changes with no human-in-the-loop or change-control story",
+      "operator_reality": "On a government network the authorizing official owns configuration control. An agent that 'identifies problems and drives resolution in real time' is an unapproved automated change to an accredited boundary; the ISSM disables it on day one, and the feature that carries the whole value proposition is the feature that fails the security review.",
+      "why_likely_missing": "In enterprise IT, autonomous remediation is a cost-savings win with nobody to answer to; nothing in the commercial market punishes an unauditable change, so the design never had to produce an approval trail.",
+      "evidence_quote": "Graphiant replaces manual network operations with AI-driven agents that run your infrastructure end-to-end, eliminating the need for constant monitoring, troubleshooting, and escalation.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Continuous telemetry and cloud-side intelligence assumed at sites that are intermittently connected or air-gapped",
+      "operator_reality": "Defense critical infrastructure sites — depot power, fuel, base utilities, forward enclaves — run behind boundaries with deliberately restricted egress, and lose reachback during exactly the events that matter. A service whose 'agentic' brain lives outside the boundary and needs 'real-time telemetry' degrades to nothing at the moment the network is contested. This is the 30fps crowd-detection failure mode with the frames replaced by telemetry.",
+      "why_likely_missing": "Their architecture was designed for enterprise WAN replacement where every edge has broadband; disconnected operation was never a requirement anyone paid for.",
+      "evidence_quote": "Graphiant employs advanced profiling methods and real-time telemetry",
+      "quote_source": "linkedin_about"
+    }
+  ],
+  "opener_hook": "Graphiant published a Defense Critical Infrastructure solution brief in April 2025 and announced the Peraton partnership in May 2026, yet across the whole public site there is no mention of FedRAMP, IL5, or an RMF authorization path — which is the first thing a prime flows down.",
+  "confidence": "low",
+  "stage_band": "series_a",
+  "what_they_do": "Network-as-a-Service that replaces MPLS/SD-WAN with a software-based private edge, now marketed as AI-agent-operated 'agentic infrastructure'."
+}

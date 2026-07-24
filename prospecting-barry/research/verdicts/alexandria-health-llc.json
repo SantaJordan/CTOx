@@ -1,0 +1,17 @@
+{
+  "company": "Alexandria Health LLC",
+  "slug": "alexandria-health-llc",
+  "domain": "alexandria.health",
+  "verdict": "insufficient_evidence",
+  "drop_reason": "",
+  "dod_intent_evidence": "Air Force SBIR Phase II 2022 ($749,943) for ML surgical-outcome benchmarking with DHA's Joint Trauma System and the 59th Medical Wing — SBIR/STTR record section (their own abstract).",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "unknown",
+  "what_they_do": "ML-based risk-adjusted surgical-outcome benchmarking and clinical decision support (POTTER calculator), with one Air Force SBIR Phase II via DHA.",
+  "notes": "Own-language word count ~199 (<500): website scrape returned empty, only a one-line LinkedIn about plus one SBIR abstract. Genuine DoD motion exists, but the product is not described in enough of their own language to score deployment-awareness absence honestly. All three news items in the pack are about unrelated companies (Eagle Health, Kearney and Company, BryceTech)."
+}

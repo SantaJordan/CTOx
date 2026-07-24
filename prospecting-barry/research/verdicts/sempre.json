@@ -1,0 +1,16 @@
+{
+  "company": "SEMPRE",
+  "slug": "sempre",
+  "domain": "sempre.ai",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "SBIR Phase III (transition/commercialization stage) with Air Force Global Strike Command plus a new Missile Defense Agency SHIELD IDIQ award — own-words/news sections.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "series_a",
+  "what_they_do": "EMP-hardened, mission-mobile 5G/cloud/networking infrastructure (SEMPRE T/F devices) for contested and austere environments, already fielded with Air Force Global Strike Command."
+}

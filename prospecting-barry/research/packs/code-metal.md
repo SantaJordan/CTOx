@@ -334,26 +334,6 @@ Accelerating the path from code to metal with provable AI
   Definitive Contract FA239125CB041
 
 Definitive Contract FA239125CB041
-- Code Metal Wins $280000 US Air Force Contract for AI Training Arena (2026-02-10) https://www.linkedin.com/posts/frontier-optic_code-metal-has-been-awarded-280000-by-the-activity-7426904826313220096-Yvv_
-  Code Metal Wins $280,000 US Air Force Contract for AI Training Arena | Frontier Optic posted on the topic | LinkedIn
-
-Agree & Join LinkedIn
-
-By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy.
-
-# Code Metal Wins $280,000 US Air Force Contract for AI Training Arena
-
-This title was summarized by AI from the post below.
-
-Frontier Optic
-
-1,424 followers
-
-3w
-
-- Report this post
-
-Code Metal has been awarded $280,000 by the United States D
 - Code Metal Profile () https://www.highergov.com/awardee/code-metal-inc-627615117/
   Code Metal Profile
 
@@ -413,6 +393,26 @@ Sept. 30, 2025
 Calculating
 
 ##### Show Quick Stats (See Federal Awar
+- Code Metal Wins $280000 US Air Force Contract for AI ... (2026-02-10) https://www.linkedin.com/posts/frontier-optic_code-metal-has-been-awarded-280000-by-the-activity-7426904826313220096-Yvv_
+  Code Metal Wins $280,000 US Air Force Contract for AI Training Arena | Frontier Optic posted on the topic | LinkedIn
+
+Agree & Join LinkedIn
+
+By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy.
+
+# Code Metal Wins $280,000 US Air Force Contract for AI Training Arena
+
+This title was summarized by AI from the post below.
+
+Frontier Optic
+
+1,424 followers
+
+3w
+
+- Report this post
+
+Code Metal has been awarded $280,000 by the United States D
 
 ## Open roles (Blitz, live)
 - Head of Commercial / Enterprise Sales ({'city': 'Boston', 'country_code': 'US'})

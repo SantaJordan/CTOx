@@ -1,0 +1,19 @@
+{
+  "company": "Andesite",
+  "slug": "andesite",
+  "domain": "andesite.ai",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Feb 2026 press release: partnership with Second Front Systems to deliver the Human-AI SOC to the Department of War, and homepage states 'Andesite has achieved FedRAMP Certified Class D (High) status and is available in the FedRAMP Marketplace' (news + homepage).",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "'FedRAMP High Authorized... air-gapped self-managed, or hybrid' deployment options plus CAC/PIV identity support — this company is fluent in exactly the compliance terrain Barry sells, and has already crossed it",
+    "GA product since Feb 2025 ($23M raise + 'General Availability of the Bionic SOC'), 58 employees, U.S. Government CISO testimonial in production — not a $5M-$10M prototype stuck in the valley"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "AI-assisted security operations center platform (Human-AI SOC) with FedRAMP High authorization, sold to government and enterprise SOC teams."
+}

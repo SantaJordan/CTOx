@@ -1,0 +1,21 @@
+{
+  "company": "goTenna",
+  "slug": "gotenna",
+  "domain": "gotenna.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Very strong DoD motion — SBIR section shows Air Force Phase II awards including 'Space Force Enabling TAK Edge Users' ($1,248,461) and news shows 'goTenna awarded $15M AFWERX STRATFI SBIR Contract' (2024-09-16) — but the same evidence shows they have already crossed the valley.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "'goTenna is the leader in this space and already deployed at scale' (Forterra acquisition release, 2025-10-09) → already_operational",
+    "'We support over 350 agencies in mission-critical operations around the world' and SBIR abstract '20,000 military, law enforcement, and public safety officials' → fielded, not stuck at demo",
+    "Deployment-fluent language throughout: 'secure, resilient communications for disconnected, denied and contested environments', PACE plans, LPX waveform, TRL 6 to TRL 9, and multiple ATAK case studies → this is the LOW-disconnect profile, they get it",
+    "'Forterra acquires goTenna' (2025-10-09) → no longer an independent $5M-$10M company; open roles are now Clarksburg/Fairfax program-delivery roles under the acquirer"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Low-cost, low-power tactical mesh networking radios and paired ATAK-integrated apps for off-grid team comms."
+}

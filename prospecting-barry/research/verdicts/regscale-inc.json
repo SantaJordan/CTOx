@@ -1,0 +1,16 @@
+{
+  "company": "RegScale",
+  "slug": "regscale-inc",
+  "domain": "regscale.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Genuine DoD motion exists (AFWERX Phase I/II SBIR 2022, Leidos/DoW partnership news Feb 2026) but the company is revenue-stage with a Series B ($30M, oversubscribed), Gartner Cool Vendor recognition, and a DC.gov CISO customer testimonial in the website section.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Continuous Controls Monitoring (compliance-as-code / GRC automation) SaaS platform for FedRAMP, CMMC, SOC2 and other frameworks, sold broadly across government and commercial CISOs."
+}

@@ -1,0 +1,44 @@
+{
+  "company": "Matroid",
+  "slug": "matroid",
+  "domain": "matroid.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own press release: 'USAF and Matroid Announce $25M Contract for Project FoX' (2025-09-03), integrating visual analytics into 'government-owned secure, modular software'; plus their own 'Matroid and the Federal Government – Update' post naming active CBP, DHS, USAF, and NGA engagements.",
+  "disconnect_score": 72,
+  "subscores": {"lab_language_intensity": 18, "deployment_awareness_absence": 17, "operator_absence": 16, "hiring_profile_skew": 13, "stage_pressure": 8},
+  "score_evidence": [
+    "'Pushing the Boundaries of Visual AI', 'higher accuracy and reliability', 'milliseconds... at scale (TBs)', no-code MLOps studio — classic lab/SaaS bragging with zero operational framing → lab_language_intensity",
+    "zero mentions of DDIL/ATO/RMF/CMMC/ITAR/STIG across ~1417 words despite a $25M USAF integration contract → deployment_awareness_absence",
+    "'operators' in the pack's own language means factory-floor workers following SOPs (Mercedes testimonial), not warfighters; no training/CONOPS/field-feedback language → operator_absence",
+    "3x Deep Learning Engineer, 3x Software Engineer Systems & Infrastructure vs. only 2 field-titled roles (VLM/VFM Forward Deployed Engineer, Deep Learning Field Engineer), no compliance/ISSO role → hiring_profile_skew moderate-high",
+    "33 employees, founded 2016 (established, not a fresh seed), but the $25M contract is a newly awarded ceiling that still has to convert to real task orders → stage_pressure moderate"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The onboarding story ('cloud, on-premises, or edge... deploy wherever you need it') is built for a factory floor with reliable connectivity; nothing addresses how the same claim holds up when Project FoX pushes the video-analytics stack onto a government platform with constrained network access.",
+      "operator_reality": "'Deploying wherever you need it' without addressing DDIL risks the same failure mode as the 30fps crowd-detection case if Project FoX's integration hits intermittent government-network bandwidth instead of factory Wi-Fi.",
+      "why_likely_missing": "Core company culture and marketing are manufacturing-inspection-first; the government integration is a newer motion layered onto an existing commercial product.",
+      "evidence_quote": "In the cloud, on premises or at the edge, Matroid deploys wherever you need it.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No mention of ATO/RMF/IL4-5/STIG anywhere despite Project FoX explicitly integrating into 'government-owned secure, modular software' for the USAF — a textbook accreditation-gated environment.",
+      "operator_reality": "The $25M ceiling only converts into real task orders as fast as the software clears the accreditation gate on that government platform; without visible in-house ATO/RMF expertise, the 'ceiling' risks staying just that.",
+      "why_likely_missing": "Press-release framing focuses on award scope, not accreditation mechanics — likely handled ad hoc rather than as a core competency.",
+      "evidence_quote": "The contract performance will integrate advanced visual analytics into the government-owned secure, modular software",
+      "quote_source": "news"
+    },
+    {
+      "blind_spot": "Government-facing hiring ('VLM & VFM Forward Deployed Engineer,' 'Deep Learning Field Engineer') is framed entirely around deploying better models, with no role for training the actual end-user (CBP officer, USAF operator) or sustaining the detector after the engineer leaves the site.",
+      "operator_reality": "A forward-deployed ML engineer solves integration and model accuracy, but someone still has to train the operator and handle sustainment after go-live — that role doesn't exist in the listed openings.",
+      "why_likely_missing": "33-person company is still scaling its core ML/engineering bench first; sustainment/training roles typically come later.",
+      "evidence_quote": "VLM & VFM Forward Deployed Engineer ... Deep Learning Field Engineer",
+      "quote_source": "job_post"
+    }
+  ],
+  "opener_hook": "Matroid's $25M USAF Project FoX integrates your visual analytics into a government-owned secure platform — what's the ATO timeline for that integration?",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "No-code enterprise computer-vision platform for visual inspection and video analytics, sold to manufacturing/aerospace/automotive customers and, increasingly, to USAF/DHS/CBP/NGA."
+}

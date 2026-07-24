@@ -1,0 +1,26 @@
+{
+  "company": "SkyFi",
+  "slug": "skyfi",
+  "domain": "skyfi.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "SOCOM contracted SkyFi for a Phase I study/prototype of a Sovereign Intelligence Platform and ATAK plugin delivering commercial satellite imagery to warfighters, confirmed by three independent news sources (Breaking Defense, Aviation Week, Tectonic Defense) in the News section.",
+  "disconnect_score": 64,
+  "subscores": {"lab_language_intensity": 15, "deployment_awareness_absence": 12, "operator_absence": 13, "hiring_profile_skew": 10, "stage_pressure": 14},
+  "score_evidence": [
+    "\"Instant access to satellite imagery and geospatial analytics, right at your fingertips\" -> lab_language_intensity",
+    "\"purchasing data and analytics is as easy as online shopping. Select, checkout, and await swift delivery\" -> lab_language_intensity / deployment_awareness_absence",
+    "\"SkyFi Plugin for ATAK... enables live tasking and analytics, giving field operators real-time situational awareness\" -> deployment_awareness_absence (partial TAK fluency, still no DDIL/ATO/RMF language) / operator_absence",
+    "no jobs data found -> hiring_profile_skew set to 10 per rule",
+    "\"early-phase study\" SOCOM contract, $12.7M Series A -> stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Self-service e-commerce tasking model ('a few clicks', 'instant delivery') assumes continuous connectivity to place orders and pull imagery.", "operator_reality": "At an austere OCONUS node with intermittent SATCOM, the live tasking/checkout loop breaks the moment comms go denied or degraded — the platform needs offline queuing and store-and-forward, not a real-time API call, exactly like the 30fps crowd-detection case that needed frame-rate decoupling.", "why_likely_missing": "Core product built for a 179-country commercial/civilian customer base where the self-service UX is the differentiator, so DDIL was never a design constraint until SOCOM showed up.", "evidence_quote": "Instant access to satellite imagery and geospatial analytics, right at your fingertips.", "quote_source": "homepage"},
+    {"blind_spot": "No mention anywhere of ATO/RMF, IL4/IL5, or CMMC despite now handling GEOINT tasking for a SOCOM pilot.", "operator_reality": "A commercial marketplace billing architecture ('Starting at $15', 'Starting at $200') built for consumer/enterprise credit-card checkout will need substantial re-architecture to clear an ATO on a government network before Phase II — the pricing-page UX is not the same system that survives a STIG scan.", "why_likely_missing": "Company's entire go-to-market and site language is dual-use commercial-first; the SOCOM contract is a bolt-on pilot, not yet a compliance-driven product line.", "evidence_quote": "Only Pay for What You Need with Lowest-in-Market, Transparent Pricing", "quote_source": "homepage"},
+    {"blind_spot": "The ATAK plugin is described purely as a feature ('Download now') with zero language about who trains the operator, sustains the app, or handles device/battery logistics in the field.", "operator_reality": "A sergeant who got 20 minutes of training and a plugin that assumes internet-grade tasking will not troubleshoot a failed image order mid-mission; without a named training/sustainment plan the plugin gets abandoned after the first field failure, the classic operator-loves-it-but-nobody-champions-it failure mode.", "why_likely_missing": "SkyFi's messaging optimizes for frictionless commercial self-service ('no lengthy commitments, complex contracts, or demanding account management'), the opposite instinct from building a sustainment/training plan for a deployed military user.", "evidence_quote": "Access satellite imagery with SkyFi's ATAK Plugin, which enables live tasking and analytics, giving field operators real-time situational awareness.", "quote_source": "homepage"}
+  ],
+  "opener_hook": "SOCOM's Phase I study is testing SkyFi's ATAK plugin's live-tasking loop — worth knowing how it behaves once comms go denied or intermittent, before Phase II funding decisions.",
+  "confidence": "high",
+  "stage_band": "series_a",
+  "what_they_do": "Self-service commercial marketplace for tasking satellites and buying geospatial imagery/analytics, now piloting an ATAK plugin under a SOCOM Phase I study."
+}

@@ -1,0 +1,51 @@
+{
+  "company": "Beacon AI",
+  "slug": "beacon-ai",
+  "domain": "beaconai.co",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "News + SBIR sections: two SBIR Phase IIs (SOCOM 2022 $1.36M, Air Force 2023 $1.25M) and an April 15 2026 $49.5M Phase 3 prototype OTA with USSOCOM, plus an Air Mobility Command award announced Jan 21 2026.",
+  "disconnect_score": 51,
+  "subscores": {
+    "lab_language_intensity": 12,
+    "deployment_awareness_absence": 13,
+    "operator_absence": 4,
+    "hiring_profile_skew": 17,
+    "stage_pressure": 5
+  },
+  "score_evidence": [
+    "'We Build R2-D2 for Pilots' and 'We are currently in closed beta' -> lab_language_intensity: demo/beta framing on a product now under a $49.5M production-oriented OTA",
+    "'Web and cloud-based aviation intelligence platform. Gives actionable insights for Aircraft Operator FDM/FOQA' -> deployment_awareness_absence: cloud flight-data backend with no ATO/RMF/IL5/CMMC/ITAR language anywhere in ~1363 words",
+    "'Regulatory aligned, EFB, and edge compute AI assistant' -> deployment_awareness_absence held down; they do reason about edge compute and regulatory alignment, just in FAA terms, never DoD accreditation terms",
+    "'Our team is led by people with both experience as very experienced professional pilots' and 'Reduce Pilot Training, Sustainment Costs' -> operator_absence scored low; aircrew are genuinely central",
+    "Open roles are ten software postings — 'Software Engineer, Cloud Infrastructure', 'Software Engineer, iOS/Mobile', 'Software Engineer, Artificial Intelligence/LLM', 'Senior Technical Recruiter' -> hiring_profile_skew: zero ISSO, security/compliance, flight-test, field-integration or sustainment roles while holding a SOCOM production vehicle",
+    "'$49.5M Phase 3 Prototype OTA' (Apr 2026) + $15M Series A (Oct 2024) -> stage_pressure low; funded runway and a live transition vehicle"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "A commercial cloud FDM/FOQA backend holding SOF mission flight data",
+      "operator_reality": "AFSOC and AMC flight-data recordings are not airline FOQA. Routes, tanker tracks, LZ approaches and aircraft performance in aggregate are mission-revealing; that is CUI at best and classified in composite. Standing that up on government networks means an IL5 boundary, STIGs, a POA&M and a named ISSO — and the ten roles currently open at Beacon contain no security or compliance engineer at all. The accreditation clock, not the software, is what will consume the Phase 3 period of performance.",
+      "why_likely_missing": "The same platform serves airlines and charter operators, where cloud FDM is the norm and the only regulator is the FAA — so the architecture was validated by a commercial customer set before SOCOM ever saw it.",
+      "evidence_quote": "Web and cloud-based aviation intelligence platform. Gives actionable insights for Aircraft Operator FDM/FOQA and FDM-B (enhanced flight data monitoring data).",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "An iOS/EFB delivery path that assumes a device the vendor can update",
+      "operator_reality": "Half the open engineering roles are iOS/mobile, including one explicitly for the Electronic Flight Bag. On a military airframe the EFB tablet is GFE running a locked baseline under unit MDM, with a Class 2 EFB mounting and airworthiness release behind it. There is no App Store channel, no TestFlight, and a software update is a configuration-control action measured in months. A product whose iteration loop assumes mobile-app release cadence stalls the moment it meets the aircraft.",
+      "why_likely_missing": "Their comparative advantage is stated as self-driving-car software speed applied to aviation, so fast iteration is the identity of the company rather than a variable to be traded away.",
+      "evidence_quote": "Software Engineer, iOS/Mobile - Electronic Flight Bag (EFB)",
+      "quote_source": "job_post"
+    },
+    {
+      "blind_spot": "Debrief and fleet-monitoring value that only materializes when the aircraft can offload data",
+      "operator_reality": "'Flight debrief & playback', 'Live flight support' and 'Fleet Monitoring' all presume a data path off the airframe. SOF aviation flies emissions-controlled, often with no permissible RF transmission for the whole sortie, and lands at bare bases with no accredited ground network to sideload to. The offload becomes a hand-carried encrypted drive and a two-person custody procedure — which is exactly the frame-rate-decoupling problem in a different costume: the architecture assumed a link the environment denies, and the fix is designing for deferred, chunked, integrity-checked offload rather than 'live'.",
+      "why_likely_missing": "The commercial fleets they also serve land at airports with wifi and ground handling; nothing in the airline case surfaces EMCON as a design input.",
+      "evidence_quote": "Assistant and platform to aid in flight safety and operational efficiency ... Flight debrief & playback ... Live flight support ... Fleet Monitoring",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "The $49.5M Phase 3 OTA you signed with USSOCOM on April 15 is a production vehicle, and all ten roles open on your careers page are software — frontend, cloud, iOS, LLM — with no ISSO, flight test, or field integration among them.",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Builds an AI copilot for professional flight decks — an edge-compute EFB assistant plus a cloud flight-data platform — for airlines and, increasingly, SOCOM and Air Mobility Command aircrew."
+}

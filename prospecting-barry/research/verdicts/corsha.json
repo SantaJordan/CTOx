@@ -1,0 +1,16 @@
+{
+  "company": "Corsha",
+  "slug": "corsha",
+  "domain": "corsha.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Own press release: 'Corsha Awarded $50 Million Sole-Source IDIQ by the Defense Logistics Agency (DLA) to Deliver Zero Trust Connectivity Across Critical Operational Systems' (Apr 2026, homepage/news), on top of AF SBIR Phase IIs, AFWERX TACFI, and a Booz Allen Ventures investment.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Machine-identity / zero-trust security platform for OT and industrial networks, now the sole-source zero-trust connectivity vehicle across DLA's operational systems. Crossed the valley: sole-source $50M DLA IDIQ with task-order authority, channel-note status 'fielded', hiring Federal Customer Success and Forward Deployed Engineers — no prototype-to-fielded gap for Barry to sell into; fluent in zero trust/compliance besides."
+}

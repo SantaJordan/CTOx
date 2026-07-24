@@ -1,0 +1,21 @@
+{
+  "company": "Dreadnode",
+  "slug": "dreadnode",
+  "domain": "dreadnode.io",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "No qualifying evidence — the only defense signal is investor metadata (In-Q-Tel in the Series A syndicate, per their 2025-02-25 newsroom post and SecurityWeek) plus one generic LinkedIn-about phrase, 'In collaboration with its government, enterprise, and AI labs partners'. No SBIR, no DIU/AFWERX engagement, no contract record, and no DoD/military/warfighter language anywhere on dreadnode.io or docs.dreadnode.io.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "Homepage positions purely commercially: 'ai infrastructure for the security stack' with a 'curl -fsSL https://dreadnode.io/install.sh | bash' install — a developer-tools go-to-market, not a defense program",
+    "Pricing page is self-serve SaaS: '$25 complimentary credits--no payment required', 'We use Stripe for payment... or even use a financial service platform like CashApp' — no GSA schedule, no contract vehicle, no government buying path",
+    "Their own on-prem FAQ answer ('Do you offer on-premise deployment or air-gapped environments? Yes.') shows air-gap fluency, so this is not a company blind to deployment constraints either",
+    "In-Q-Tel appears only in the investor list — per the gate, VC/strategic-investor portfolio membership alone does not establish defense motion"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "medium",
+  "stage_band": "series_a",
+  "what_they_do": "Bozeman, MT company selling a self-serve platform for building, evaluating and deploying offensive-security and AI red-teaming agents."
+}

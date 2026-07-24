@@ -1,0 +1,16 @@
+{
+  "company": "Nebulock",
+  "slug": "nebulock",
+  "domain": "nebulock.io",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "None found in the company's own language: ~1400 words of homepage/about/blog/LinkedIn content is entirely commercial SOC/CISO threat-hunting positioning (testimonials from 'Deputy CISO', 'CISO'); the only DoD/IC signal is In-Q-Tel's investor participation cited in channel-notes metadata, which the gate explicitly excludes as insufficient on its own.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "series_a",
+  "what_they_do": "AI-agentic threat-hunting and detection platform for enterprise SOC teams."
+}

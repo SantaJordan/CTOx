@@ -1,0 +1,37 @@
+{
+  "company": "Tern AI",
+  "slug": "tern-ai",
+  "domain": "tern.ai",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own-language homepage states IDPS has 'been tested by... the U.S. Department of Defense' and TERN is 'part of the... NATO DIANA cohort and winner of the U.S. Army xTech Overwatch Competition,' with a dedicated news item on the Army xTechOverwatch win and 'participation in the U.S. Army's Operation Jailbreak initiative.'",
+  "disconnect_score": 62,
+  "subscores": {"lab_language_intensity": 14, "deployment_awareness_absence": 15, "operator_absence": 7, "hiring_profile_skew": 12, "stage_pressure": 14},
+  "score_evidence": [
+    "'Recognized by TIME's Best Inventions of 2025 and the CES Innovation Awards' → lab_language_intensity (award-chasing, consumer-tech framing)",
+    "'TERN further established its role as foundational infrastructure supporting command and control, fleet operations, and intelligent mobility systems' with zero ATO/RMF/CMMC/ITAR mention anywhere on site → deployment_awareness_absence",
+    "Open roles are 'Vehicle Integration Engineer' and 'Senior Software and ML Engineer' only — no field, compliance, or ISSO roles despite claimed C2 integration → hiring_profile_skew",
+    "'Tern AI Awarded Department of Transportation Contract following $4.4M Seed Funding Round' (2024) — still seed-stage while claiming DoD/NATO program wins → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Claims 'foundational infrastructure supporting command and control' with no ATO/RMF/CMMC/ITAR language anywhere in their public materials",
+     "operator_reality": "Positioning data feeding into a command-and-control system on a government network requires an Authority to Operate and STIG compliance before it can touch that network — a plug-in consumer/automotive product has none of that groundwork visible.",
+     "why_likely_missing": "Company's product language and go-to-market are automotive/OEM-first (infotainment, Uber, dealership inventory); defense is bolted on as one of six listed 'applications' rather than a co-designed accreditation path.",
+     "evidence_quote": "'TERN further established its role as foundational infrastructure supporting command and control, fleet operations, and intelligent mobility systems'",
+     "quote_source": "news"},
+    {"blind_spot": "Product ships as 'direct integration or a plug-in device' into existing vehicle sensors with no SWaP-C or ruggedization framing",
+     "operator_reality": "A consumer-automotive-grade plug-in built for cars and delivery vans is not automatically survivable on a tactical vehicle — dust, vibration, power draw, and mounting constraints on a military platform are a different design problem the company's language never addresses.",
+     "why_likely_missing": "The described integration paths (infotainment systems, third-party turn-by-turn apps) target consumer OEM hardware, not ruggedized military electronics.",
+     "evidence_quote": "'uses data from existing sensors and hardware already in vehicles through direct integration or a plug-in device'",
+     "quote_source": "homepage"},
+    {"blind_spot": "Origin story cites 'former special operators' but no CONOPS, training plan, or advocacy chain beyond the founding team is described",
+     "operator_reality": "Having former operators on the founding team is not the same as a fielded training/sustainment plan — the classic failure mode is a product operators like in a demo but that has no champion above the operator level to carry it through acquisition, and no plan for who trains the next unit rotation.",
+     "why_likely_missing": "The 'special operators' reference appears once as a founder-credibility line, not as evidence of an active field-training or advocacy program.",
+     "evidence_quote": "'Forged from life-or-death necessity in contested environments, former special operators partnered with AI innovators to create an architecture that doesn't just improve navigation; it redefines it.'",
+     "quote_source": "homepage"}
+  ],
+  "opener_hook": "TERN won the U.S. Army's xTechOverwatch competition in November 2025 and joined the NATO DIANA accelerator cohort the same month.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "GPS-free vehicle positioning software (IDPS) sold primarily into automotive OEM, fleet, and delivery markets, with an emerging defense/government track (Army xTechOverwatch, NATO DIANA)."
+}

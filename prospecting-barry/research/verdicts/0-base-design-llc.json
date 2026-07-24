@@ -1,0 +1,16 @@
+{
+  "company": "0 BASE DESIGN, LLC",
+  "slug": "0-base-design-llc",
+  "domain": "0basedesign.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "USAF STTR Phase II ($749,922, 2022) for passive RF drone detection plus EW/DF edge technologies on their site — but the company is a design-services house (SBIR record, website).",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Contract electronics/sensor design and rapid-prototyping shop ('your end-to-end development partner') doing RF, acoustic, and edge-AI systems for clients, with SBIR/STTR work on the side."
+}

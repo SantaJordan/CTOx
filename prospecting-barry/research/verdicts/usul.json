@@ -1,0 +1,16 @@
+{
+  "company": "Usul",
+  "slug": "usul",
+  "domain": "usul.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "Own words: sells capture-management/BD SaaS to government contractors (\"Today's top government contractors trust Usul's AI platform to compete smarter\") — the customer is contractors' BD teams, not DoD end users; no fielded/deployed product in an operational environment.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "series_a",
+  "what_they_do": "AI-powered capture-management/BD platform that helps government contractors find, forecast, and win government contracts."
+}

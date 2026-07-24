@@ -1,0 +1,26 @@
+{
+  "company": "Zepsor Technologies, Inc.",
+  "slug": "zepsor-technologies-inc",
+  "domain": "zepsor.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "DARPA Direct-to-Phase-II SBIR ($1,799,737, 2023) 'Concealable and Persistent IR Sensors' is explicitly written for 'wireless people presence detection in defense and intelligence applications' — see SBIR/STTR record section.",
+  "disconnect_score": 79,
+  "subscores": {"lab_language_intensity": 19, "deployment_awareness_absence": 17, "operator_absence": 16, "hiring_profile_skew": 10, "stage_pressure": 17},
+  "score_evidence": [
+    "'World's first sensible sensors' / 'revolutionary first product' plus a full spec sheet (25 nA idle current, 100 ms response, 2mm2 chip) with zero operational framing → lab_language_intensity",
+    "DARPA abstract discusses size/battery/accuracy targets in detail but never mentions ATO/RMF/CMMC/ITAR/STIG anywhere in ~1505 words → deployment_awareness_absence",
+    "abstract names the use case ('defense and intelligence applications') but never mentions who installs, trains on, or maintains the sensor once fielded → operator_absence",
+    "no jobs data found → hiring_profile_skew set to 10 per instructions",
+    "Direct-to-Phase-II DARPA award ($1.8M) plus concurrent NSF SBIR Phase I and ARPA-E funding, all run by a 1-10 person team with ~$1.8-3M total raised → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "'Extremely concealable even for challenging deployment such as inside a door handle or door lock' — covert physical install framed as a pure size achievement", "operator_reality": "a technical surveillance or force-protection team fielding a covert sensor needs an install/exfil tradecraft plan, not just a small form factor — who places it, how it's retrieved or abandoned, and how compromise is detected are absent", "why_likely_missing": "the abstract's entire framing is device engineering (miniaturization, detection range) rather than the operational tradecraft of deploying a concealed sensor", "evidence_quote": "The reduced size (down to a pool cue tip) makes the sensor extremely concealable even for challenging deployment such as inside a door handle or door lock.", "quote_source": "sbir_abstract"},
+    {"blind_spot": "'>5 years' battery lifetime target is presented as a lab spec, not an environmental-hardening claim", "operator_reality": "a sensor concealed in an uncontrolled environment for years needs to survive temperature swings, humidity, shock, and tamper attempts — SWaP-C in the abstract only addresses size and power draw, never ruggedization or tamper detection", "why_likely_missing": "the Phase II objectives table is organized entirely around detection-range, accuracy, and form-factor metrics inherited from the Phase I feasibility study, not field survivability", "evidence_quote": "meet all stringent requirements on size (< 2 cm3), battery lifetime (> 5 years), accuracy (Probability of Detection > 95%, False Alarm Rate < 1/month)", "quote_source": "sbir_abstract"},
+    {"blind_spot": "False Alarm Rate < 1/month is framed purely as a lab accuracy benchmark", "operator_reality": "in an actual defense/intel deployment, someone has to be alerted on a detection event, verify it, and act — there's no mention of who receives the alert, how it's transmitted from a concealed, zero-power device, or what the response chain looks like", "why_likely_missing": "the abstract treats accuracy as a standalone sensor-quality metric ('gives high credibility to the sensor reported data') rather than the front end of an operational alert workflow", "evidence_quote": "the low false alarm rate gives high credibility to the sensor reported data, which ultimately leads to valuable intelligence or correctly performed functions", "quote_source": "sbir_abstract"}
+  ],
+  "opener_hook": "Your DARPA Direct-to-Phase-II SBIR ($1,799,737, 2023) targets a sub-2cm3 concealable IR sensor for defense/intelligence presence detection, with a 5-year battery-life goal and no mention yet of install tradecraft or tamper hardening.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Zero-power MEMS infrared presence-detection sensor, built for consumer/industrial touchless applications, now developing a concealable defense/intelligence version under a DARPA Direct-to-Phase-II SBIR."
+}

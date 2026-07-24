@@ -1,0 +1,16 @@
+{
+  "company": "MULTI AI, INC.",
+  "slug": "multi-ai-inc",
+  "domain": "multi.ai",
+  "verdict": "drop",
+  "drop_reason": "sbir_mill",
+  "dod_intent_evidence": "Real DoD motion existed — AFWERX SBIR Phase II (2023) and a sole-source Phase III contract (Oct 2024) for Air Force fleet coordination — but the site is now founder Alexander Nettekoven's personal academic portfolio; he 'returned to the robotics frontier after co-founding and scaling a defense AI startup' to take a UT Austin postdoc, and headcount dropped to 2 (-50% YoY).",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "medium",
+  "stage_band": "unknown",
+  "what_they_do": "Was a solo-founder defense AI startup building multi-agent mission-planning/fleet-coordination AI under sequential Air Force SBIR Phase I/II/III awards; founder has since exited to a postdoctoral research position, and the company's public presence is now his personal academic robotics portfolio."
+}

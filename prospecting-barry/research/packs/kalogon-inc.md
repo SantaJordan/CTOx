@@ -245,7 +245,7 @@ Kalogon® is best known for pioneering smart seating solutions that reduce the s
 The Air Force Global Strike Command has a national defense-related mission need in the areas of long-range strategic strike, aircrew performance, and mission readiness. Specifically, long-range strike missions require bomber and Intercontinental Ballistic Missile (ICBM) crews to be seated for extended durations, often exceeding 12 or more hours on both global bomber missions and during multi-day ICBM alert tours. In these conditions, pilots experience significant fatigue and physical pain that distract from their performance during critical phases of operation. This decrease in human performance factors negatively impacts mission effectiveness and leads to an increased risk of safety-related incidents. Kalogon contends that our innovative, Machine Learning Enabled Smart Seating technology will greatly reduce crew fatigue and thus increase combat effectiveness. The mission impact of implementing Kalogon’s Smart Seating technology on the DAF and DoD will be to greatly increase the effectiveness of aircraft and ICBM seating systems currently employed for long-duration missions by enabling the crew to remain comfortably seated for longer periods. This automated and dynamic redistribution of pressure zones encourages the flow of blood to areas that would otherwise not be offloaded. This will reduce long-term fatigue that crews experience, and it will also improve levels of comfort, enabling increased mission performance due to reduced physical pain.   The central problem that this project (internally dubbed “Project Pluto”) seeks to solve is that missions requiring extended time spent seated (12 - 24 hours) are painful for pilots, distracting from their performance, and decreasing mission readiness. We have developed a Smart Cushion that relieves pain and fatigue experienced by individuals who are seated for extended periods of time, allowing them to remain seated for longer. It accomplishes this by dynamically redistributing the user’s pressure, which causes improved blood flow and prevents the pain and fatigue that occur when blood flow is cut off while seated. We have already completed feasibility research, and in this project, we will adapt our existing off-the-shelf solution to the needs of the Air Force while continuing the development of the product for all other markets. This low-cost low-risk solution to the issues mentioned above will be done by making the following improvements: The incorporation of the external electronics enclosure into the seating surface of the cushion, so that the cushion is one fully integrated unit, as opposed to two pieces connected together. The adaption of the electronics and cushion materials to adhere to the relevant Air Force standards for use during non-critical stages of flight. The addition of the ability to power the cushion from ports available on aircraft. Investigation into the feasibility of incorporating our Smart Seating technology into an ejection seat.
 
 ## News (Exa, top 3)
-- DoD | Kalogon (2018-12-11) https://www.kalogon.com/dod
+- DoD (2018-12-11) https://www.kalogon.com/dod
   DoD | Kalogon
 
 top of page
@@ -253,6 +253,34 @@ top of page
 # Smart seating for mission-ready performance
 
 Tim Balz and Amanda Krantz from Kalogon present a B-52H Stratofortress smart seat cushion prototype to Brig. Gen. Ty W. Neuman, Director of Strategic Plans, Programs and Requirements, Air Force Global Strike Command and other A5/8 leadership and members December 6, 2023, at Barksdale Air Force Base, Louisiana. Kalogon, a company that builds seat cushions for wheelchair patients, has been working with the A5/8 as they crea
+- History (2018-12-11) https://www.kalogon.com/history
+  History | Kalogon
+
+top of page
+
+# Learn How Kalogon Was Built
+
+​​​3rd SBIR US Air Force contract ($1.6M) for E-4B cushion
+
+Kicked off August 2024
+
+$585K grant from National Institute on Disability, Independent Living, and Rehabilitation Research
+
+Awarded July 2024
+
+$1.2M Convertible Note
+
+Closed May 2024
+
+Medicare-coded cushion
+
+Began shipping May 2024
+
+Paid proof of concept for business class seat
+
+Debuted at Aircraft Interiors Expo May 2024
+
+Accessory sold by Kalogon and Etac, one of the world
 - AFGSC partners with Kalogon to modernize innovative B-52H Stratofortress upgrades () https://www.afgsc.af.mil/News/Photos/igphoto/2003357487/
   AFGSC partners with Kalogon to modernize innovative B-52H Stratofortress upgrades
 
@@ -271,16 +299,6 @@ A lock ( ) or https:// means you’ve safely connected to the .mil website. Shar
 Skip to main content (Press Enter).
 
 # AFGSC
-- Smart Seating Startup Kalogon Secures $1.2M in Funding to Fuel Product and Team Expansion (2024-05-30) https://www.kalogon.com/post/smart-seating-startup-kalogon-secures-funding
-  Smart Seating Startup Kalogon Secures $1.2M in Funding to Fuel Product and Team Expansion
-
-top of page
-
-With an oversubscribed extended seed round, Kalogon will expand product offerings leveraging its Advanced Pressure Management (APM) system
-
-New funding will also bolster R&D and sales with commercial and military aviation partners, such as the U.S. Air Force
-
-MELBOURNE, Fla. (May 30, 2024) - Kalogon, the market leader in smart seating solutions, today announced it has raised $1.2 million in ex
 
 ## Open roles (Blitz, live)
 - Production Technician ({'city': 'Melbourne', 'country_code': 'US'})

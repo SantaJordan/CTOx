@@ -1,0 +1,50 @@
+{
+  "company": "Enduvo Inc",
+  "slug": "enduvo-inc",
+  "domain": "enduvo.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own USAF page lists IDIQ contract FA302023D0009, CAGE code, and 'Conditional Authority to Operate (ATO) on AFNET'; SBIR Phase II (2019) and AFWERX TACFI (2022) in news section.",
+  "disconnect_score": 50,
+  "subscores": {
+    "lab_language_intensity": 12,
+    "deployment_awareness_absence": 8,
+    "operator_absence": 8,
+    "hiring_profile_skew": 12,
+    "stage_pressure": 10
+  },
+  "score_evidence": [
+    "'We're doing what YouTube did for video, or Canva for graphic design, but for XR.' → lab_language_intensity (commercial-creator framing of a DoD training product)",
+    "'Turn a one-hour lecture into 15-minute immersive training session' → lab_language_intensity (demo metric, no fielding framing)",
+    "Sole open role is 'Contract Software Engineer' (Chicago) — no field engineer, ISSO, or sustainment roles behind a USAF enterprise IDIQ → hiring_profile_skew",
+    "'Conditional Authority to Operate (ATO) on AFNET' → keeps deployment_awareness_absence low; they know ATO exists, but only in conditional form",
+    "Seed was $4M in 2020, 19 people, IDIQ won Oct 2023 with no task-order news since → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Treating a conditional ATO as a finished security posture",
+      "operator_reality": "Conditional ATOs carry POA&Ms and expiration dates; if the RMF conditions aren't burned down, the AFNET authorization lapses and every training unit using Enduvo loses access mid-course — the IDIQ ceiling means nothing without a current ATO.",
+      "why_likely_missing": "A 19-person commercial-first team markets the ATO as a trust badge ('it's about building a trusted future together'), not as a live compliance workstream with a clock on it.",
+      "evidence_quote": "Conditional Authority to Operate (ATO) on AFNET with all media formats",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "AR/VR headset logistics at the point of training never addressed",
+      "operator_reality": "The E-5 maintainer on a flightline gets a headset that needs charging, CAC-gated accounts, hygiene between users, and a hangar with spotty Wi-Fi; 'For everyone, and everywhere!' collapses when content is authored assuming connected AFNET delivery and nobody owns spares, batteries, or device MDM.",
+      "why_likely_missing": "The product is the authoring software; the fielded experience depends on device fleets and sustainment the site never mentions once.",
+      "evidence_quote": "For everyone, and everywhere!",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "IDIQ ceiling mistaken for adoption — no advocacy chain visible",
+      "operator_reality": "A $10M enterprise IDIQ is a hunting license, not orders; without a champion above the schoolhouse level driving task orders, the vehicle expires quietly — and their public positioning ('Pioneering Widespread Commercial Adoption') courts creators, not the acquisition chain that funds task orders.",
+      "why_likely_missing": "Founder story is pediatric-surgery training and commercial XR; the CEO letter addresses 'you, the creator,' not the program office that decides whether money flows against FA302023D0009.",
+      "evidence_quote": "Our hope is that together with you, the creator, we can make the world a more educated and better place.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Enduvo's USAF page lists IDIQ FA302023D0009 and a conditional AFNET ATO — a ceiling and a clock, with no public task-order news since the October 2023 award.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "No-code AR/VR training content authoring platform sold to the USAF, healthcare, and industry."
+}

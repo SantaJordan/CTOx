@@ -275,7 +275,7 @@ Your security posture is defined through detecting threats rather than maintaini
 Galvanick protects the industrial world against cyber attacks. Our threat detection platform for factories and critical infrastructure defends the modern world against criminals and nation-states that target SCADA (Supervisory Control and Data Acquisition) and ICS (Industrial Control Systems).
 
 ## News (Exa, top 3)
-- Big news today: Galvanick has been selected for a prime IDIQ contract ... (2026-01-20) https://www.linkedin.com/posts/jmsteinman_big-news-today-galvanick-has-been-selected-activity-7419248198881263616-1jaY
+- Galvanick has been selected for a prime ... (2026-01-20) https://www.linkedin.com/posts/jmsteinman_big-news-today-galvanick-has-been-selected-activity-7419248198881263616-1jaY
   Big news today: Galvanick has been selected for a prime IDIQ contract under War Department’s $151B MDA SHIELD contract, part of Golden Dome. It is NOT a large revenue award (yet), but it means that… | Joshua Steinman 🇺🇸 | 52 comments
 
 Agree & Join LinkedIn
@@ -289,18 +289,6 @@ https://www.linkedin.com/in/jmsteinman
 Joshua Steinman 🇺🇸
 
 Securing industrial facilities again
-- Missile Defense Agency (MDA) SHIELD Multiple Award IDIQ Contract () https://sam.gov/workspace/contract/opp/1043bdf697c049809e63b0a1a5bf6964/view
-  SAM.gov
-Skip to main content
-![](assets/uswds/img/us_flag_small.png)
-An official website of the United States government
-Here’s how you know
-Here’s how you know
-**
-**The .gov means it’s official.**
-Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
-**The site is secure.**
-The **https://** ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted
 - Galvanick Announces $10 Million in Seed Funding for Its Industrial Cybersecurity Platform (2023-06-01) https://www.businesswire.com/news/home/20230601005184/en/Galvanick-Announces-%2410-Million-in-Seed-Funding-for-Its-Industrial-Cybersecurity-Platform
   Galvanick Announces $10 Million in Seed Funding for Its Industrial Cybersecurity Platform
 
@@ -315,6 +303,18 @@ Share
 Co-founded by former Senior Director for Cyber on the National Security Council, Galvanick provides an end-to-end cybersecurity platform for industrial operators
 
 LOS ANGELES--(BUSINESS WIRE)-- Galvanick, the cybersecurity solution for protecting industrial infrastructure against cyber attacks, today
+- Galvanick Announces $10M in Seed Funding for Its ... (2023-06-01) https://galvanick.com/news/seed-round-funding
+  Galvanick Announces $10M in Seed Funding for Its Industrial Cybersecurity Platform. | GALVANICK
+
+Galvanick Announces $10M in Seed Funding for Its Industrial Cybersecurity Platform.
+
+Co-founded by former Senior Director for Cyber on the National Security Council, Galvanick provides an end-to-end cybersecurity platform for industrial operators
+
+Galvanick News.
+
+June 1, 2023.
+
+Galvanick, the cybersecurity solution for protecting industrial infrastructure against cyber attacks, today announced its $
 
 ## Open roles (Blitz, live)
 - Senior Threat Intelligence Automation Engineer ({'city': 'Seattle', 'country_code': 'US'})

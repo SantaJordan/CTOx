@@ -1,0 +1,45 @@
+{
+  "company": "Alitheon",
+  "slug": "alitheon",
+  "domain": "alitheon.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "SBIR Phase II FA942222C0022 with Air Force Nuclear Weapons Center (contract record, news section), a 2025 Navy SBIR Phase I for multi-die supply chains (news section), and a 'Government & Military' vertical on their own homepage.",
+  "disconnect_score": 64,
+  "subscores": {"lab_language_intensity": 14, "deployment_awareness_absence": 14, "operator_absence": 14, "hiring_profile_skew": 12, "stage_pressure": 10},
+  "score_evidence": [
+    "\">99.9% accuracy with zero false positives\" → lab_language_intensity",
+    "\"No Training Data needed. Object agnostic.\" → lab_language_intensity",
+    "\"A standard camera — including a mobile phone — is all that is needed to enroll or verify an item at any point in its lifecycle\" — 1,577 words of own language, zero mention of DDIL, ATO/RMF, CMMC, ITAR, or IL levels while selling into nuclear-weapons and Navy supply chains → deployment_awareness_absence",
+    "\"Streamline inventory management and prevent fraudulent parts from entering sensitive government and military systems\" — the military vertical is described with no operator, training, or field-workflow language anywhere → operator_absence",
+    "Senior Customer Engineer roles posted in CH, DE, and FR; US openings are BD and a Machine/Computer Vision Engineer — no ISSO, compliance, or US field-deployment roles for the defense line → hiring_profile_skew (job_post)",
+    "$8M Series A1 in 2026 following a $10M Series A in 2022 (channel notes); the AFNWC Phase II clock is the defense-side pressure → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "FeaturePrint verification assumes a live registry connection wherever the part is checked",
+      "operator_reality": "A munitions depot floor, forward arming point, or flight line is DDIL by default — the verify-photo has nowhere to send its match query, so the authentication step silently becomes optional exactly where counterfeit parts matter most. Same failure mode as the 30fps crowd-detection case: the architecture assumes bandwidth the environment denies.",
+      "why_likely_missing": "Their commercial anchor markets (luxury goods, pharma, datacenters) always have connectivity; specialties list 'cloud computing' as a core competency and nothing on the site mentions offline or edge matching.",
+      "evidence_quote": "At any point in the value chain, take another photo. FeaturePrint matches it with >99.9% accuracy and zero false positives.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The 'any mobile phone' capture workflow collides with DoD device policy and field capture conditions",
+      "operator_reality": "Personal phones are banned in SCIFs, munitions storage, and most sensitive maintenance areas; the E-5 doing the check is on a GFE device that needs an ATO'd app — and is photographing a corroded, greasy, dust-covered part in gloves, not a clean item in a fixture. Their own demo uses a stand 'to help us take good images.'",
+      "why_likely_missing": "The demo and commercial deployments happen in controlled indoor conditions; nobody on staff appears to own the government-fielding problem.",
+      "evidence_quote": "No labels, no barcodes, no tags, no chips — just a photo from a standard camera, even a mobile phone.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Defense part fingerprint data is CUI/ITAR, but the support organization they are hiring is European",
+      "operator_reality": "A registry of nuclear-component and Navy multi-die identities has to live on an accredited (IL4/IL5) enclave handled by US persons; their live openings put Senior Customer Engineers in Switzerland, Germany, and France, and no compliance, ISSO, or cleared-deployment role exists anywhere in the pipeline. The Phase II dies at the accreditation step regardless of how well the matching works.",
+      "why_likely_missing": "Hiring mirrors the commercial European luxury/automotive pipeline, not the AFNWC transition path.",
+      "evidence_quote": "Senior Customer Engineer ({'city': None, 'country_code': 'CH'})",
+      "quote_source": "job_post"
+    }
+  ],
+  "opener_hook": "Alitheon's Phase II with the Air Force Nuclear Weapons Center (FA942222C0022) puts FeaturePrint's match registry inside CUI territory — yet the verify step still assumes the connectivity and phone policy of a Bellevue demo room, not a munitions depot.",
+  "confidence": "medium",
+  "stage_band": "series_a",
+  "what_they_do": "Optical-AI 'fingerprinting' that identifies and authenticates individual physical parts from a photo of their surface micro-features, sold for anti-counterfeit and traceability."
+}

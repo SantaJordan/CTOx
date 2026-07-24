@@ -1,0 +1,26 @@
+{
+  "company": "Somewear Labs",
+  "slug": "somewear-labs",
+  "domain": "somewearlabs.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Defense Innovation Unit contract (announced April 30, 2025) to move Somewear's tactical comms capability, prototyped with DIU, into production for the Marine Corps across INDOPACOM, confirmed by their own newsroom, PRNewswire, and InsideDefense.com.",
+  "disconnect_score": 28,
+  "subscores": {"lab_language_intensity": 4, "deployment_awareness_absence": 2, "operator_absence": 4, "hiring_profile_skew": 10, "stage_pressure": 8},
+  "score_evidence": [
+    "language is operational throughout ('engineered for constrained throughput', 'narrowband, midband, and high-bandwidth conditions') with almost no lab-brag framing -> low lab_language_intensity",
+    "explicit DDIL/SWaP-C fluency: MIL-STD-810 shock/vibration, IP68, -4F to 140F operating range, 4oz/3.0x3.6x0.8in form factor, ATAK plugin, narrowband satellite resilience -> very low deployment_awareness_absence (calibration rule: ATAK/DDIL-fluent companies score low, still a keep)",
+    "names real operator base: 'helicopter paramedics, firefighters, customs and border patrol agents, operators within the US Special Forces' -> low operator_absence",
+    "open roles are Software QA Engineer, Senior Infrastructure Engineer, Firmware Engineer, Backend Engineer -- product/reliability engineering, but no explicitly named compliance/ISSO/field-integration role -> moderate hiring_profile_skew",
+    "DIU contract explicitly 'moves the capability prototyped with DIU into production' across INDOPACOM -- real transition pressure, though company is multi-product and Series A stage, not a single-shot prototype -> moderate stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "No mention anywhere of ATO/RMF, IL4/IL5, or CMMC despite offering 'cloud, VPC, on-prem' deployment flexibility for government networks.", "operator_reality": "Excellent RF/hardware engineering doesn't clear the ATO gate on its own; a DIU-to-production transition into INDOPACOM government networks can stall on unaddressed compliance paperwork even when the field-tested comms stack itself is solid.", "why_likely_missing": "Company messaging and hiring is engineering/product-forward (firmware, infrastructure, QA); no compliance or ISSO role is named anywhere in team or job listings.", "evidence_quote": "Flexible system deployment options—cloud, VPC, on-prem", "quote_source": "homepage"},
+    {"blind_spot": "Product pages describe kit integration and 'managed access environments' but never name who trains a unit-level operator or sustains spares/batteries once the device is fielded at scale.", "operator_reality": "A sergeant who got minimal training still needs a defined sustainment loop (battery swap cadence, spares, field troubleshooting) for a device rated for 12-hour missions; the marketing addresses configuration, not the human training/sustainment pipeline that keeps a fielded unit's comms working after week one.", "why_likely_missing": "Site content is written for a technical/procurement buyer evaluating specs, not for the sustainment planning that follows a production award.", "evidence_quote": "Configure secure, managed access environments—Workspaces—for encrypted data sharing and to organize data by mission, team, or coalition construct.", "quote_source": "homepage"},
+    {"blind_spot": "Horizon's LOS-to-BLOS 'automatic transition to preserve command continuity' for attritable unmanned platforms is stated as a capability claim without specifying how the handoff is validated against active adversarial jamming versus generic 'contested environments.'", "operator_reality": "Attritable unmanned C2 links are exactly what a peer adversary targets first with EW; a marketing claim of automatic resilience needs a specific, demonstrable jamming/spoofing test standard behind it, or the handoff itself becomes the single point of failure in a contested fight.", "why_likely_missing": "Horizon is a newer product ('Introducing Horizon') still being positioned, so the marketing language is ahead of published, adversary-specific validation data.", "evidence_quote": "Horizon is a multi-network radio for attritable unmanned operations, enabling resilient LOS and BLOS control, telemetry, and tasking in contested environments.", "quote_source": "homepage (product page)"}
+  ],
+  "opener_hook": "Somewear's DIU contract moves the tactical comms fabric from prototype into INDOPACOM production. Where's that ATO timeline landing?",
+  "confidence": "high",
+  "stage_band": "series_a",
+  "what_they_do": "Software-defined tactical mesh/SATCOM communications hardware and software (Global Hotspot, Node, Horizon) with ATAK integration, transitioning a DIU-prototyped capability into production for the Marine Corps across INDOPACOM."
+}

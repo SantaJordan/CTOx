@@ -1,0 +1,44 @@
+{
+  "company": "Victus",
+  "slug": "victus",
+  "domain": "getvictus.ai",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own-words Solutions page explicitly targets 'US DoD, Nato, Government Agencies'; Technology page states PhantomNAV 'integrates seamlessly with existing flight controllers and ATAK infrastructure' and is 'aligned with Modular Open Systems Approach (MOSA) principles,' and channel notes cite NATO DIANA and USSOCOM engagement for PhantomNAV.",
+  "disconnect_score": 43,
+  "subscores": {"lab_language_intensity": 8, "deployment_awareness_absence": 4, "operator_absence": 5, "hiring_profile_skew": 10, "stage_pressure": 16},
+  "score_evidence": [
+    "'Demonstrated Performance in 42 Real-World Flight Tests... 1.76 meters CEP50 under sustained GPS denial' → lab_language_intensity (real test data, but still headline benchmark-brag framing)",
+    "'PhantomNAV operates on commercially available edge compute, requires only onboard inertial data, and integrates seamlessly with existing flight controllers and ATAK infrastructure' → deployment_awareness_absence (low absence — they get SWaP-C/edge)",
+    "'ATAK position reporting remains uninterrupted at 1 Hz without operator intervention' → operator_absence (some operator-facing language present, not deep CONOPS)",
+    "no jobs data found in pack → hiring_profile_skew set to 10 exactly per rule",
+    "'PhantomNAV delivers assured navigation continuity... Transition-Ready Capability' plus Seed-stage/11-employee/founded-2024 metadata → stage_pressure (early team actively pushing a transition narrative)"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Mission orchestration (PhantomX) is 'built into Palantir Foundry' and PhantomNAV 'integrates natively with Palantir's AIP' — the orchestration layer sits on enterprise cloud infrastructure even though the nav layer itself is edge-native.",
+      "operator_reality": "In a DDIL tactical environment, the connection back to a Foundry/AIP instance can itself be the denied link — the same failure class as any cloud-dependent tier, just one layer up from the sensor fusion that is genuinely edge-capable.",
+      "why_likely_missing": "Palantir partnership is a credibility signal for enterprise/DoD sales, so it's foregrounded in messaging without addressing what happens to mission planning when connectivity to Foundry itself is denied.",
+      "evidence_quote": "PhantomX™ plans and orchestrates your mission, built into Palantir Foundry.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Zero mention anywhere in the site copy of ATO, RMF, STIG, IL4/IL5, or CMMC, despite the product integrating natively with Palantir's AIP — 'the same infrastructure trusted across the US defense enterprise' — which itself requires an ATO to run on DoD networks.",
+      "operator_reality": "A navigation payload that touches Palantir's DoD-enterprise stack still needs its own ATO/RMF package before a program of record will let it near GFE; leaning on Palantir's compliance halo doesn't substitute for Victus's own authorization work.",
+      "why_likely_missing": "Early-stage (seed, 11 employees, founded 2024) go-to-market messaging optimizes for technical differentiation (gravity-based PNT) over the compliance mechanics that gate actual fielding.",
+      "evidence_quote": "PhantomNAV integrates natively with Palantir's AIP, the same infrastructure trusted across the US defense enterprise.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The product claims full autonomy ('without operator intervention') but the site never addresses who trains the E-5 on the failure modes, how spares/battery logistics work for the inertial hardware, or who owns the advocacy chain above the pilot/operator level once SOCOM aviator-founders move on from a demo.",
+      "operator_reality": "Automated GNSS-degradation handling still needs a sustainment story — when PhantomNAV's synthetic GPS drifts or a sensor fails in the field, someone with 20 minutes of training has to know what broke and who to call; that person and process are absent from the messaging.",
+      "why_likely_missing": "Founders are ex-SOCOM operators themselves, so operator-level plausibility is assumed rather than documented for a broader fielded user base beyond the founding team's own tacit expertise.",
+      "evidence_quote": "During contested operations, ATAK position reporting remains uninterrupted at 1 Hz without operator intervention.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "PhantomNAV posted 1.76m CEP50 across 42 real-world GPS-denial flight tests — how's the ATO conversation going on the Palantir side?",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "An MIT-born, SOCOM-aviator-founded startup building gravity/inertial GPS-denied navigation software (PhantomNAV/X/SIGHT) that runs on existing platform sensors across drones, ships, aircraft, and satellites, integrated with ATAK and Palantir Foundry/AIP."
+}

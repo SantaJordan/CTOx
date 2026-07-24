@@ -1,0 +1,44 @@
+{
+  "company": "MatrixSpace, Inc.",
+  "slug": "matrixspace",
+  "domain": "matrixspace.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "$1.9M AFWERX TACFI Phase II Sequential contract 'for low-airspace surveillance for Air Force 87th Security Forces Squadron' (press release, 2024-08-14) plus their own SBIR Phase II abstract describing DoD installation base security and Replicator-adjacent swarming systems.",
+  "disconnect_score": 30,
+  "subscores": {"lab_language_intensity": 5, "deployment_awareness_absence": 8, "operator_absence": 6, "hiring_profile_skew": 3, "stage_pressure": 8},
+  "score_evidence": [
+    "marketing metrics are grounded in real operational specs — 495g weight, 9.0x14.5x4.8cm, 'Ultra-Low Power Consumption... Deploy using a solar panel or batteries' — not empty lab bragging → lab_language_intensity low",
+    "'MatrixSpace sensors are designed for rapid deployment without the need for specialized training' and 'while keeping emissions low' show real SWaP-C/EMCON awareness, though no explicit ATO/RMF/CMMC/ITAR/STIG vocabulary appears → deployment_awareness_absence moderate-low",
+    "'give operators layered confidence in every alert' plus a dedicated 'Software Operations Specialist – Field Customer Support' role shows real field-operator focus → operator_absence low",
+    "open roles include 'Regulatory Compliance Engineer,' 'R&D Field Test Technician' (x2), 'Product Manager – Deployment Solutions,' 'QA Documentation Specialist,' 'Software Operations Specialist – Field Customer Support' — hiring is field/compliance/deployment-heavy, the opposite of a lab-only skew → hiring_profile_skew very low",
+    "Series A, 92 employees, already past SBIR Phase II into TACFI funding (closer to commercialization, less acute clock pressure than a fresh seed) → stage_pressure moderate-low"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "AiCloud is pitched as the 'single intelligent pane of glass' layering above AiEdge sensors, but the pack never states what AiEdge does autonomously if the base loses its cloud uplink.",
+      "operator_reality": "In a contested-base scenario, if the 'single pane of glass' lives in AiCloud, base defenders need AiEdge nodes to keep functioning fully independently — the marketing never commits to that fallback explicitly.",
+      "why_likely_missing": "Cloud-native, enterprise-facing framing dominates the copy even though base defense (their flagship DoD use case) is the most contested-network application in their own portfolio.",
+      "evidence_quote": "AiCloud layers above AiEdge sensors and creates a cohesive, multi-modal view of low airspace.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No stated ATO/RMF/IL4-5 pathway for AiCloud itself, despite selling a cloud-hosted C2-adjacent picture into a base-defense customer (87th Security Forces Squadron).",
+      "operator_reality": "A cloud service with no stated authorization pathway is exactly what kills a TACFI-stage program before program-of-record: the radar can work perfectly in test and still never get network authorization in time to keep the funded clock alive.",
+      "why_likely_missing": "Company describes itself as 'radar-first, hardware-and-software hybrid' (own podcast interview) — software/cloud compliance story may be lagging hardware maturity.",
+      "evidence_quote": "Together, MatrixSpace AiCloud and AiEdge are far more than a command & control (C2) system.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No explicit TAK/ATAK mention despite the product being a situational-awareness tool for exactly the kind of base-defense operator who lives inside TAK.",
+      "operator_reality": "'Results shared into existing command systems' is vague — if that doesn't specifically mean TAK/ATAK ingestion, the Security Forces Squadron operator has to context-switch between MatrixSpace's own UI and their actual C2 tool, friction that erodes daily adoption even after the radar itself proves out.",
+      "why_likely_missing": "As a hardware-first company, downstream software integrations like TAK ingestion may be planned but not yet built or marketed.",
+      "evidence_quote": "Threat types are identified automatically, with results shared into existing command systems.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "MatrixSpace's $1.9M AFWERX TACFI is funding base-defense radar for the 87th Security Forces Squadron — does AiCloud's 'command & control' layer already ingest TAK, or is that still on the roadmap?",
+  "confidence": "high",
+  "stage_band": "series_a",
+  "what_they_do": "Portable AI-fused radar and sensor network for counter-drone (C-UAS) and low-airspace detection, sold to defense, public safety, and critical-infrastructure customers."
+}

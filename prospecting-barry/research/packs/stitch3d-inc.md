@@ -462,14 +462,6 @@ Branch: USAF
 Total Award Amount: $109,998
 
 Co
-- stitch3d (2026-06-24) https://stitch3d.io/
-  # Stitch3D (Stitch3D Inc.)
-
-Stitch3D is a Information Technology & Services company. Stitch3D is a modern cloud solution that helps users host, manage, view, analyze, and share 3d content securely anywhere, anytime. Stitch3D employs 4 people (-14.3% YoY, -1 person), founded in 2020. Headquartered in San Francisco, California, United States. Has $3.9M in total funding, with 6 prior funding rounds.
-
-## About
-
-Stitch3D is a cloud native Point Cloud data hosting platform that lets users host, view, 
 - This veteran couldn't share 3D scans of a burnt naval ship, so he created a startup that can | TechCrunch (2024-10-28) https://techcrunch.com/2024/10/28/this-veteran-couldnt-share-3d-scans-of-a-burnt-naval-ship-so-he-created-a-startup-that-can/
   This veteran couldn't share 3D scans of a burnt naval ship, so he created a startup that can | TechCrunch
 
@@ -480,6 +472,14 @@ Image Credits:Lt. John J. Mike/U.S. Navy / Getty Images
 3:06 PM PDT · October 28, 2024
 
 In the summer of 2020, a fire broke out onboard a naval ship docked in San Diego Bay. For more than four days, the USS Bonhomme Richard burned as helicopters dropped buckets of water from above, boats spewed 
+- stitch3d (2026-06-24) https://stitch3d.io/
+  # Stitch3D (Stitch3D Inc.)
+
+Stitch3D is a Information Technology & Services company. Stitch3D is a modern cloud solution that helps users host, manage, view, analyze, and share 3d content securely anywhere, anytime. Stitch3D employs 4 people (-14.3% YoY, -1 person), founded in 2020. Headquartered in San Francisco, California, United States. Has $3.9M in total funding, with 6 prior funding rounds.
+
+## About
+
+Stitch3D is a cloud native Point Cloud data hosting platform that lets users host, view, 
 
 ## Open roles
 (no jobs data found)

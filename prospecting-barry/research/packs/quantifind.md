@@ -3,7 +3,7 @@ slug: quantifind | domain: quantifind.com | HQ: Palo Alto, California US | emplo
 sources: vc:a16z-ad
 industry(LI): Software Development | specialties: big data, predictive analytics, unstructured data, text analytics, fraud analytics, media data, anti-money laundering, fintech, regtech, machine learning, data science, law enforcement, anti-money laundering, kyc, compliance, financial crimes investigation, aml, financial crimes, fincrime
 channel notes: AI risk/entity intelligence over open data; government and natsec customers incl. DoD/SOCOM heritage (a16z investment list)
-own-language word count: ~1346
+own-language word count: ~1374
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -234,8 +234,6 @@ Celent Solution Brief: Quantifying the Impact of AI-Driven Financial Crime Compl
 
 ## New Celent Report: Quantifind Unlocks Up to $177.9M in Annual Savings – DOWNLOAD NOW
 
-https://www.quantifind.com/resources/celent-solution-brief-quantifying-the-impact/ https://www.quantifind.com/resources/celent-solution-brief-quantifying-the-impact/
-
 ###### Report
 
 # Celent Solution Brief: Quantifying the Impact of AI-Driven Financial Crime Compliance
@@ -280,19 +278,26 @@ Back to Resources
 
 #### New Rules Give Commanders the Power to Remove Dangerous Vendors — Here’s What’s Still Missing
 
-Read Blog
-
 ###### Datasheet
 
 #### Agentic Middleware
-
-View Resource
 
 ###### Blog
 
 #### KYC Is Breaking. Agentic AI Is Rebuilding It.
 
-Read 
+- Login
+- Sign Up
+
+Remember me Forgot Password?
+
+Sign in
+
+I accept the Terms of Service and Privacy Policy
+
+Sign Up
+
+Lost your password? Please enter your username or email address. You will receive
 
 ## LinkedIn about
 

@@ -3,7 +3,7 @@ slug: nexla | domain: nexla.com | HQ: San Mateo, California US | employees(LI): 
 sources: vc:shield
 industry(LI): Software Development | specialties: data management, data ingestion, big data, data integration, data fabric, machine learning, artificial intelligence, data operations, production-ready data products, data from any source, data infrastructure, retrieval augmented generation, ai-ready data
 channel notes: data integration/operations platform
-own-language word count: ~1385
+own-language word count: ~1394
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -356,6 +356,12 @@ Never push anythin
 URL: https://nexla.com/mcp-studio/?utm_source=nexla-website&amp;utm_medium=notification-banner&amp;utm_campaign=mcp-studio-launch
 MCP Studio | Nexla
 
+Created with Sketch.
+
+Created with Sketch.
+
+Created using Figma
+
 Introducing MCP Studio: Create task-specific, governed MCP servers conversationally.
 
 Explore MCP Studio
@@ -364,11 +370,11 @@ Explore MCP Studio
 
 MCP Studio
 
-# Build an MCP Server to resolve a support ticketacrossJiraSalesforceSnowflake
+# Build an MCP Server to resolve a support ticketacrossJiraSalesforceSlack
 
 Tell Nexla the process you want agents to run and the systems it touches. MCP Studio discovers the data across all of them, builds the scoped tools, and delivers one governed MCP server.
 
-✦↑
+✦Build me an MCP server for the work my agents do across my systems.↑
 
 Join Early Access Program Talk to a Solutions Engineer
 
@@ -378,7 +384,7 @@ Inside MCP Studio
 
 ## From Your Systems to a Running MCP Server
 
-design-timegroundsfetchestools + resultsrequestsSnowflake1/4 picked2/4 pickedquery_warehousequery_warehouse● pickedlist_databasesget_schemaget_schema● pickedrun_taskSalesforce1/4 picked2/4 pickedsoql_querysoql_query● pickedcreate_caseget_accountget_account● pickedupdate_opportunityShopify1/4 picked2/4 pickedlist_orderslist_orders● pickedget_productfulfill_orderfulfill_order● pickedlist_customersPostgres1/3 picked2/3 pickedselect_rowsselect_rows● pickedinsert_rowdescribe_tabledescribe_table● pickedDESIGN-TIMEMCP Studioprompt + process docs → server configpromptdocs📎MCP Server and GatewayContext EngineTool RouterPolicy CheckServer MgmtDynamic Tool Assembl
+design-timegroundsfetchestools + resultsrequestsSnowflake1/4 picked2/4 pickedquery_warehousequery_warehouse● pickedlist_databasesget_schemaget_schema● pickedrun_taskSalesforce1/4 picked2/4 pickedsoql_querysoql_query● pickedcreate_caseget_accountget_account● pickedupdate_opportunityShopify1/4 picked2/4 pickedlist_orderslist_orders● pickedget_productfulfill_orderfulfill_order● pickedlist_customersPostgres1/3 picked2/3 pickedselect_rowsselect_rows● pickedinsert_rowdescribe_tabledescribe_table● pickedDESIGN-TIMEMCP Studioprompt + p
 
 ## LinkedIn about
 
@@ -404,11 +410,11 @@ Nexla, a company that participated in the TechCrunch Disrupt Battlefield in New 
 - nexla (2026-06-25) https://nexla.com/
   # Nexla (Nexla, Inc.)
 
-Nexla is a Software Development company. Nexla provides data layer for AI apps and agents to operate across 600+ enterprise systems in real-time. Nexla employs 56 people and has an annual revenue of $10.2M, founded in 2016. Headquartered in San Mateo, California, United States, operates in 9 countries (including India, Ukraine, Poland, Spain, and Canada). Has $33.5M in total funding, with 2 prior funding rounds.
+Nexla is a Software Development company. Nexla provides data layer for AI apps and agents to operate across 600+ enterprise systems in real-time. Nexla employs 56 people and has an annual revenue of $10.2M, founded in 2016. Headquartered in San Mateo, California, United States. Its workforce is distributed across 9 countries (including United States, India, Ukraine, Poland, and Spain). Has $33.5M in total funding, with 2 prior funding rounds.
 
 ## About
 
-Nexla is an enterprise-grade, AI-powered data inte
+Nexla is an enterpr
 - Nexla 10/16/2021 Capital Raise - Gaebler.com Venture Capital Database () https://www.gaebler.com/VC-Funding-22909C83-056D-4766-A94E-540B72559747-Nexla-10-16-2021
   Nexla 10/16/2021 Capital Raise - Gaebler.com Venture Capital Database
 

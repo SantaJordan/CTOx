@@ -368,7 +368,7 @@ Hi, what are you looking for?
 Knostic, a Virginia startup building technology to manage data leakage and oversharing with enterprise-class AI tools, has banked $11 million in a new funding round.
 
 The company, which emerged from stealth last April with ambitious plans to pr
-- Ending LLM Oversharing: Knostic Raises $11MM to ... (2025-03-05) https://www.knostic.ai/blog/ending-llm-oversharing-we-raised-11-million-to-secure-enterprise-ai
+- Ending LLM Oversharing: Knostic Raises $11MM to Secure Enterprise AI (2025-03-05) https://www.knostic.ai/blog/ending-llm-oversharing-we-raised-11-million-to-secure-enterprise-ai
   Ending LLM Oversharing: Knostic Raises $11MM to Secure Enterprise AI
 
 Skip to main content
@@ -390,16 +390,20 @@ https://www.knostic.ai/blog/openant-read-the-llm-vulnerability-paper
 22 June 2026
 
 ### Revoking Your Token Won't Save You: The VS Code Attack That Installs a Permanent Gi
-- Ending LLM Oversharing: Knostic Raises $11MM to Secure Enterprise AI (2025-03-05) https://www.knostic.ai/blog/ending-llm-oversharing-we-raised-11-million-to-secure-enterprise-ai?hs_amp=true
-  Ending LLM Oversharing: Knostic Raises $11MM to Secure Enterprise AI
+- Knostic raises $16m to secure generative AI data (2025-06-02) https://virginiabusiness.com/knostic-raises-16m-to-secure-generative-ai-data/
+  Knostic raises $16m to secure generative AI data
 
-Security Platform for AI Agents | Knostic Blog
+Knostic raises $16m to secure generative AI data
+![BridgeTowerMedia](https://virginiabusiness.com/files/1/2024/09/BridgeTower-Network-Logo1.webp)
+## Select Region or Brand
+* [Business](#)
+* [New Orleans, LA](https://neworleanscitybusiness.com/)
+* [New Jersey](https://njbiz.com/)
+* [Long Island, NY](https://libn.com/)
+* [Oklahoma City, OK](https://journalrecord.com/)
+* [Rochester, NY](https://rbj.net/)
+* [Minnesota](https://finance-commerce.com/)
 
-# Ending LLM Oversharing: Knostic Raises $11MM to Secure Enterprise AI
-
-Written by Gadi Evron| Mar 5, 2025 5:00:00 AM
-
-Less than a year after our pre-seed round and winning both the RSA 2024 Launch Pad competition and the Black Hat 2024 Startup Spotlight c ompetition– the only startup to win both competitions, Sounil and I are happy to share that we've raised an additional $11 mi
 
 ## Open roles (Blitz, live)
 - Senior Security Researcher ({'city': 'Tel Aviv-Yafo', 'country_code': 'IL'})

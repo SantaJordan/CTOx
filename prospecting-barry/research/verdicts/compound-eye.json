@@ -1,0 +1,43 @@
+{
+  "company": "Compound Eye",
+  "slug": "compound-eye",
+  "domain": "compoundeye.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own site: 'Compound Eye has won five Direct to Phase 2 SBIR awards from the US Department of Defense to adapt VIDAS for warfighters' (homepage/applications), corroborated by Army SBIR CATALYST $13.3M news (2025).",
+  "disconnect_score": 50,
+  "subscores": {"lab_language_intensity": 14, "deployment_awareness_absence": 8, "operator_absence": 10, "hiring_profile_skew": 8, "stage_pressure": 10},
+  "score_evidence": [
+    "'Tens of millions of depth measurements per second without LiDAR or radar' → lab_language_intensity",
+    "'True 3D measurements at 20 Hz... Accuracy within 1% of LiDAR' plus a whole 'Demo Gallery' section → lab_language_intensity",
+    "SWaP fluency exists ('fraction of the size, weight, power, and cost, all with zero signature' — sbir_abstract) but zero ATO/RMF/CMMC/ITAR language anywhere → deployment_awareness_absence held moderate",
+    "Hiring 'Field Robotics Engineer' (x3) alongside ML researchers — field roles present, but no compliance/ISSO/deployment roles → hiring_profile_skew 8"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Dev-kit power and compute budget does not fit the small unmanned platforms the Army/AF money is for",
+      "operator_reality": "A Group 1/2 UAS or dismounted kit has single-digit watts to spare; a perception stack characterized at ~30W on 12VDC either kills endurance or gets left at the FOB.",
+      "why_likely_missing": "The company is automotive-first; its published specs are for cars and heavy equipment, and the AF abstract itself admits the current stereo baseline 'is not suitable for small unmanned platforms.'",
+      "evidence_quote": "The system is powered by 12VDC and draws approximately 30W during data collection.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Tooling assumes connectivity a DDIL environment denies",
+      "operator_reality": "Data collection, model updates, and analysis that run through browser/cloud tools stop working at an austere OCONUS site with intermittent comms — same failure family as the 30fps crowd-detection case, here hitting the sustainment loop instead of the sensor feed.",
+      "why_likely_missing": "Their customers to date are commercial dev teams on networks; nothing in their language mentions disconnected operation or on-prem retraining.",
+      "evidence_quote": "browser-based tools for data collection, inspection, and analysis, and an SDK for building applications on top of VIDAS",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Sells situational awareness to Army units with no TAK story and no ATO path",
+      "operator_reality": "For VIDAS output to reach a soldier or a fires cell it must land in ATAK/TAK and the hosting software must clear RMF/ATO on the platform's network; neither ATAK, ATO, RMF, nor STIG appears in ~1,200 words of their language while $13.3M of CATALYST transition money is on the clock.",
+      "why_likely_missing": "Perception-stack engineers treat integration and accreditation as the customer's problem; DIU-style prototyping lets you defer it until it kills the transition.",
+      "evidence_quote": "Track your position even when GPS is unreliable or denied.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Compound Eye's AFRL Phase II promises to 'train AF Customers' on a monocular VIDAS — the $13.3M CATALYST clock now makes who fields it, on what power budget, the whole game.",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Camera-only 3D perception software (depth, scene understanding, GPS-denied positioning) for autonomous vehicles, being adapted to military UAS and ground autonomy."
+}

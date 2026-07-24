@@ -226,7 +226,7 @@ AI
 Walacor provides a guaranteed data store with always-on advanced security, 100% integrity, and data audit capabilities. Our platform delivers data beyond reproach and can be trusted at the core, furthering your ability to minimize cybersecurity threats through transparent access to provenance. Achieved through a blend of established and emerging technologies, including blockchain, our innovation sets a new benchmark in data protection. Guaranteeing integrity and reliability without compromising speed and performance, Walacor effectively bridges gaps in scalability, speed, and simplicity presen
 
 ## News (Exa, top 3)
-- Walacor Assessed “Awardable” on the CDAO's Tradewinds Solutions ... (2026-03-31) https://www.walacor.com/2026/03/31/walacor-assessed-awardable-on-the-cdaos-tradewinds-solutions-marketplace/
+- Walacor Assessed “Awardable” on the CDAO's Tradewinds ... (2026-03-31) https://www.walacor.com/2026/03/31/walacor-assessed-awardable-on-the-cdaos-tradewinds-solutions-marketplace/
   Walacor Assessed “Awardable” on the CDAO's Tradewinds Solutions Marketplace
 
 # Walacor Assessed “Awardable” on the CDAO’s Tradewinds Solutions Marketplace

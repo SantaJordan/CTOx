@@ -308,6 +308,16 @@ De-Ice is an MIT spin-out that has developed a novel electric method to heat mat
   # De-Ice (De-Ice Technologies, Inc.)
 
 De-Ice is a Aviation and Aerospace Component Manufacturing company. De-Ice is a company that provides new technology that melts ice using electricity. They offer fast, efficient, and chemical-free de-icing solutions that eliminate weather-related departure delays and carbon emissions. They have air canada as their launch customer and are focused on improving on-time performance, savings, and reducing CO₂ emissions. De-Ice employs 12 people (+15.0% YoY, +3 pe
+- de-ice (2026-06-07) https://de-ice.co.uk/
+  # De-ice
+
+De-ice is a Facilities Services company. The Nurture Group is an award-winning national service provider consisting of three leading brands: Nurture Landscapes, Gavin Jones, and Rokill Pest Control Services. De-ice employs 3 people (-16.7% YoY, -1 person) and has an annual revenue of $91.1K, founded in 1998. Headquartered in United Kingdom.
+
+## About
+
+De-ice is a leading supplier of gritting and snow clearance services in the UK.
+
+Using the latest gritting equipment and expertly traini
 - Dewberry Awarded Missile Defense Agency Scalable Homeland Innovative Enterprise Layered Defense Contract (2026-02-16) https://www.dewberry.com/insights-news/article/2026/02/16/dewberry-awarded-missile-defense-agency-scalable-homeland-innovative-enterprise-layered-defense-contract
   Dewberry Awarded Missile Defense Agency Scalable Homeland Innovative Enterprise Layered Defense Contract
 
@@ -320,20 +330,6 @@ Search
 $151-billion contract has 10-year capacity.
 
 Dewberry, a privately held professional services firm, has announced it was awarded a contract by the Missile Defense Agency (MDA) for the Scalable Homeland Innovative Enterprise Layered Defense (SHIELD) indefinite-delivery/indef
-- QuSecure Awarded Contract for Missile Defense Agency Scalable Homeland Innovative Enterprise Layered Defense (SHIELD) Contract (2026-02-25) https://www.businesswire.com/news/home/20260225747076/en/QuSecure-Awarded-Contract-for-Missile-Defense-Agency-Scalable-Homeland-Innovative-Enterprise-Layered-Defense-SHIELD-Contract
-  QuSecure Awarded Contract for Missile Defense Agency Scalable Homeland Innovative Enterprise Layered Defense (SHIELD) Contract
-
-Feb 25, 2026 8:00 AM Eastern Standard Time
-
-# QuSecure Awarded Contract for Missile Defense Agency Scalable Homeland Innovative Enterprise Layered Defense (SHIELD) Contract
-
-Share
-
----
-
-SHIELD Indefinite-Delivery/Indefinite-Quantity Contract Validates QuSecure’s Technical Capabilities, Past Performance, and Readiness to Support Large-Scale Deployment Initiatives
-
-SAN MA
 
 ## Open roles
 (no jobs data found)

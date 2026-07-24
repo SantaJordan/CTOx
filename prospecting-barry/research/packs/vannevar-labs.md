@@ -230,7 +230,7 @@ Learn why we’re building a new type of defense company
 Vannevar builds new defense capabilities for modern conflict. Our software delivers information dominance and decision advantage—improving targeting, accelerating planning, and strengthening both homeland defense and Indo-Pacific deterrence. Powered by one petabyte of rare adversarial data, Vannevar’s agentic AI platform adapts to each mission and operates at the tactical edge. Learn how we support more than 125 national security and U.S. government deployments at www.vannevarlabs.com.
 
 ## News (Exa, top 3)
-- Vannevar Labs Awarded Defense Innovation Unit ... (2024-11-18) https://www.vannevarlabs.com/media-coverage/vannevar-labs-awarded-diu-production-contract
+- Vannevar Labs Awarded Defense Innovation Unit Production Contract ... (2024-11-18) https://www.vannevarlabs.com/media-coverage/vannevar-labs-awarded-diu-production-contract
   Vannevar Labs Awarded Defense Innovation Unit Production Contract, Enabling Deployment at Scale Across the Department of Defense | Vannevar
 
 Vannevar Labs Awarded Defense Innovation Unit Production Contract, Enabling Deployment at Scale Across the Department of Defense | Vannevar
@@ -240,7 +240,7 @@ Vannevar Labs Awarded Defense Innovation Unit Production Contract, Enabling Depl
 Skip to main content
 
 November 18, 2024--After the initial launch of the Real-Time Information and Effects (RIE) program in 2021 with the Air Force, the Defense Innovation Unit (DIU) has transitioned the project to a production OT award with a ceiling of $99M for use across the joint force. The RIE program operationalizes commercially and publicly available information, including foreign-language content from both physical and digital media, t
-- DIU Awards Vannevar Labs Contract To Transition Data ... (2024-11-18) https://www.defensedaily.com/diu-awards-vannevar-labs-contract-to-transition-data-analysis-solution-into-production/advanced-transformational-technology/
+- DIU Awards Vannevar Labs Contract To Transition Data Analysis Solution ... (2024-11-18) https://www.defensedaily.com/diu-awards-vannevar-labs-contract-to-transition-data-analysis-solution-into-production/advanced-transformational-technology/
   DIU Awards Vannevar Labs Contract To Transition Data Analysis Solution Into Production - Defense Daily
 
 :

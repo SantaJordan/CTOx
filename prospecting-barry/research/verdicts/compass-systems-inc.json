@@ -1,0 +1,16 @@
+{
+  "company": "Compass Systems, Inc.",
+  "slug": "compass-systems-inc",
+  "domain": "compass-sys-inc.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "Real DoD motion (Navy SBIR Phase IIs 2022/2023, $40M Navy C5ISR contract — news section), but their own LinkedIn describes 'a customer focused engineering firm providing technical support services... As both a Prime and Subcontractor' — a 28-year, 121-person engineering-services and contract-manufacturing house, not a product company stuck in the valley.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Engineering services and AS9100 contract manufacturing for NAVAIR and other DoD customers, with side R&D products (ARC augmented-reality maintenance aid)."
+}

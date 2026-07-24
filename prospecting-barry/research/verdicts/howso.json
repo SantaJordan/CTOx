@@ -1,0 +1,20 @@
+{
+  "company": "Howso",
+  "slug": "howso",
+  "domain": "howso.com",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "None. The only defense signal is membership on Shield Capital's portfolio list (sources: vc:shield), which the gate excludes. Their own site, LinkedIn about, and blog contain zero DoD/military/warfighter language, no SBIR record, and no contract record; the three 'news' items in the pack are about Kratos and Sierra Space, not Howso.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "Named validators are all commercial: 'Gartner featured us in their GenAI Engineering Market Quadrant. Microsoft for Startups selected us as their \"Responsible AI\" startup partner. Accenture chose us for their FinTech Innovation Lab.'",
+    "Use cases are enterprise-only: 'Fraud detection and prevention / AML compliance / Claims, underwriting, and credit/risk management'",
+    "LinkedIn about frames the mission as 'make trustworthy AI the global standard' for enterprises — no government or defense customer named anywhere"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Enterprise explainable-AI engine (non-neural, deterministic) that produces auditable predictions, anomaly detection, and synthetic data from a customer's own source systems."
+}

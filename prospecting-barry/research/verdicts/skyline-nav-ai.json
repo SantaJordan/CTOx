@@ -1,0 +1,26 @@
+{
+  "company": "Skyline Nav AI",
+  "slug": "skyline-nav-ai",
+  "domain": "skylinenav.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "AFRL/Air Force STTR Phase II ($749,961, 2022) and SBIR Phase II ($1.25M, 2025) to integrate visual/GPS-independent localization into ATAK on Air Force platforms, corroborated by Draper, Defense Post, and Skyline's own news page.",
+  "disconnect_score": 68,
+  "subscores": {"lab_language_intensity": 10, "deployment_awareness_absence": 10, "operator_absence": 13, "hiring_profile_skew": 18, "stage_pressure": 17},
+  "score_evidence": [
+    "\"localize you within 10 to 100 centimeters\" + award-chasing (\"Best Startup\", \"Winner of 2025 Veteran Pitch Competition\") -> lab_language_intensity",
+    "\"Pathfinder on TAK - Plugin for US military use\" shows real ATAK fluency, but no ATO/RMF/CMMC/ITAR language anywhere in site or SBIR abstract -> deployment_awareness_absence",
+    "case studies name BAE Systems/Kearfott/NASA as partners but no field-operator training/sustainment language -> operator_absence",
+    "all 4 open roles are \"Research and Development - Robotics\" / \"CV and Robotics\", zero field/compliance/ISSO roles -> hiring_profile_skew",
+    "SBIR Phase II funding, ~6-12 employees, \"Sole Source Justification: Phase 3 SBIR/STTR\" listed as a contract vehicle they're chasing -> stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Pathfinder markets absolute positioning delivered 'with every frame of imagery' as a selling point, with no stated compute/power budget for the SWaP-constrained platform actually running it.", "operator_reality": "Continuous per-frame vision-model inference is a battery and thermal cost on a man-portable or small-UAS platform; the canonical DDIL failure mode (30fps crowd-detection streaming into 1-frame-per-5-seconds bandwidth) is the same class of problem here but on the power/compute axis instead of comms — nothing on the site addresses what happens when compute has to throttle.", "why_likely_missing": "Messaging is built to showcase precision and responsiveness for demos and pitch competitions, not the SWaP-C tradeoffs of the deployed hardware.", "evidence_quote": "Pathfinder™ delivers precise absolute location coordinates (latitude and longitude) with every frame of imagery—whether you need updates every millisecond or every 10 minutes.", "quote_source": "homepage"},
+    {"blind_spot": "The product line sits an unrestricted commercial iOS consumer app directly beside a military ATAK plugin with no visible ITAR/export-control or CMMC/NIST 800-171 framing anywhere on the site.", "operator_reality": "A dual-use nav tech company pursuing DARPA ERIS marketplace and Sole-Source Phase 3 SBIR/STTR status will hit export-control classification and CMMC company-level compliance requirements before that Phase III money lands; if unresolved, the contract clock (EDP: months-to-field vs. funded months remaining) runs out waiting on paperwork, not engineering.", "why_likely_missing": "Team is ~6-12 people focused on R&D and pitch competitions; compliance overhead is the kind of thing that gets deferred until a contracting officer forces it.", "evidence_quote": "Pathfinder iOS app - For commercial-military use ... Pathfinder on TAK - Plugin for US military use", "quote_source": "homepage (products page)"},
+    {"blind_spot": "Navigation accuracy depends on 'preexisting and pre-downloaded satellite datasets from around the world' with no mention of how that reference data gets refreshed, verified, or trusted by an operator in an unfamiliar AO.", "operator_reality": "An E-5 trusting a blue-dot replacement needs to know the reference imagery for today's AO isn't six months stale before they stake a route on it; no training/verification workflow is described, only the technical mechanism, which is exactly the operator-trust gap that kills adoption even when the underlying tech works.", "why_likely_missing": "Company frames the product around technical capability and awards, not the field-trust and sustainment loop that turns a demo into something a unit will actually rely on.", "evidence_quote": "Scalable and GPS-Independent: By leveraging preexisting and pre-downloaded satellite datasets from around the world, Pathfinder™ provides a scalable solution for global navigation", "quote_source": "homepage"}
+  ],
+  "opener_hook": "Skyline Nav AI's AFRL SBIR Phase II funds Pathfinder's ATAK integration for GPS-denied ops. What does the Phase III transition plan look like?",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "GPS-independent visual/inertial navigation software (Pathfinder) for drones, ground vehicles, and aircraft, with an ATAK plugin funded by AFRL/USAF SBIR and STTR contracts."
+}

@@ -1,0 +1,22 @@
+{
+  "company": "Arena AI (Arena Physica)",
+  "slug": "arena-ai",
+  "domain": "arena-ai.com",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "Only defense link in their own artifacts is a commercial partnership mention — 'working with... Anduril Industries in defense technology' (thesis page); no DoD/military customer, SBIR, or contract record of their own (the SBIR news items in the pack are Arena Labs and Code Metal, different companies). Presence on the Shield portfolio list is not sufficient.",
+  "disconnect_score": 0,
+  "subscores": {
+    "lab_language_intensity": 0,
+    "deployment_awareness_absence": 0,
+    "operator_absence": 0,
+    "hiring_profile_skew": 0,
+    "stage_pressure": 0
+  },
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Builds an electromagnetic-physics foundation model and RF design tool (Atlas RF Studio) sold to chip, satellite, and defense-industry engineering teams; ~168 employees, far outside the $5M-$10M stuck-prototype profile."
+}

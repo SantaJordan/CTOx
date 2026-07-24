@@ -1,0 +1,50 @@
+{
+  "company": "Intramotev",
+  "slug": "intramotev",
+  "domain": "intramotev.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "News section: the U.S. Army operated TugVolt with soldiers during Operation Sentinel Justice at Camp Shelby (June 2026), and National Defense Magazine reports the company explicitly 'looks to gain traction in defense market'.",
+  "disconnect_score": 51,
+  "subscores": {
+    "lab_language_intensity": 8,
+    "deployment_awareness_absence": 16,
+    "operator_absence": 10,
+    "hiring_profile_skew": 11,
+    "stage_pressure": 6
+  },
+  "score_evidence": [
+    "'From dusty desert mines to snowy steel mills, Intramotev's technology is built to last in any environment' → lab_language_intensity LOW (commercial-operational framing, real revenue service), so 8 not 16",
+    "'TugVolt | 16,400 lbf | Up to 25mph | Up to 180mi | 0.5 mi/min' → deployment_awareness_absence: a full spec sheet with zero mention of DDIL, RMF/ATO, CMMC, ITAR or GFE integration despite an active Army evaluation",
+    "'Advanced perception systems' → deployment_awareness_absence: autonomy described purely as capability, never as something that must degrade gracefully when the link or GPS goes",
+    "Open roles list 'DevOps Engineer', 'Engineering Systems Administrator', 'Senior Embedded Software Engineer' and zero ISSO/security/compliance or defense-integration roles → hiring_profile_skew",
+    "'Commercial agreement with Watco... R.J. Corman... ÖBB Rail Cargo Group' → stage_pressure LOW: paying commercial customers and a former Wabtec CEO on the board mean no period-of-performance cliff"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Autonomy and telemetry assume a permissive, continuously-connected RF environment",
+      "operator_reality": "On an installation or a contested rail head, spectrum is managed, jammed, or simply denied; an autonomous railcar that expects continuous perception-to-control link and cloud telemetry either stops dead in the interchange or, worse, keeps moving with stale state. The same failure mode as the 30fps crowd-detection case — the design assumes bandwidth the environment does not grant.",
+      "why_likely_missing": "Their proving grounds are captive industrial plants and terminals where they own the network and the geometry; nothing in commercial rail forces them to design for denied comms.",
+      "evidence_quote": "Advanced perception systems",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No cyber/ATO posture for a computer-controlled vehicle that would move materiel on a government network",
+      "operator_reality": "The moment TugVolt moves ammunition or rolling stock on an Army installation, its control stack and telemetry become a system needing RMF/ATO, STIGs and probably IL4 hosting, and Intramotev as a company needs CMMC/NIST 800-171 before a contract can be signed. That paperwork clock is typically 9-18 months and it starts after the demo everyone applauds.",
+      "why_likely_missing": "The team is hiring DevOps and a systems administrator for a commercial SaaS-style stack, with nobody accountable for authorization packages.",
+      "evidence_quote": "DevOps Engineer",
+      "quote_source": "job_post"
+    },
+    {
+      "blind_spot": "Battery logistics and sustainment presume fixed charging infrastructure and a plant maintenance shop",
+      "operator_reality": "'Up to 180mi' range and a recharge rate quoted in miles-per-minute only means something where a charger is bolted down and energized. At an expeditionary rail head or a port of debarkation there is no charger, the 88-series soldier who receives the equipment has had a day of familiarization, and lithium packs bring their own hazmat, shipping and storage rules. Sustainment, spares and the training pipeline are the transition risk, not the tractive effort.",
+      "why_likely_missing": "Every commercial deployment to date is captive-site — Carmeuse's mine, Watco's transload terminal — where power and a maintenance crew are already present.",
+      "evidence_quote": "Range Up to 180mi | Recharging 0.5 mi/min",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "The Army had soldiers operating a TugVolt at Camp Shelby during Operation Sentinel Justice in June, and the spec sheet on your product page still quotes recharge in miles-per-minute — a number that assumes an energized charger sitting at the rail head.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Retrofit kits that turn ordinary freight railcars into autonomous, battery-electric self-propelled cars for industrial and terminal switching."
+}

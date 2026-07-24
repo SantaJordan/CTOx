@@ -1,0 +1,16 @@
+{
+  "company": "Outside Analytics Inc",
+  "slug": "outside-analytics-inc",
+  "domain": "outsideanalytics.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Own words/news: acquired by SMX in late 2023, holds an $215M Space Force IDIQ contract (Deneir Analytics & Visualization Ecosystem) plus a separate $25M Space Force satellite-data-integration contract — operational systems already fielded and supported at scale, not a prototype-to-fielded gap.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Provides operational sensor-data processing, analytics, and visualization software (Elevate Sensing, Deneir) for DoD/Space Force ISR and space domain awareness missions, now as a subsidiary of SMX."
+}

@@ -227,7 +227,7 @@ DOW
 Branch: USAF
 
 T
-- Fort Worth-Based Galaxy Unmanned Systems Awarded $1.25 Million ... (2023-07-27) https://fortworthinc.com/news/galaxy-unmanned-systems-awarded-1-25-million-contract/
+- Fort Worth-Based Galaxy Unmanned Systems Awarded ... (2023-07-27) https://fortworthinc.com/news/galaxy-unmanned-systems-awarded-1-25-million-contract/
   Fort Worth-Based Galaxy Unmanned Systems Awarded $1.25 Million From DoD - Fort Worth Inc. -- --
 
 Search

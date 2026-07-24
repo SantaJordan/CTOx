@@ -291,14 +291,6 @@ The Kenific Group,(KGI) is now Pantheon Data. Pantheon Data was born out of an i
 Implement and Install SBIR Enterprise Resiliency Improvement Process (ERIP) AI module for USN Forward networks and provide data reconciliation, reporting, and process analysis to give PEO D readable, digitized, asset technical information while maintaining and tracking configuration control.
 
 ## News (Exa, top 3)
-- Pantheon Data scores $75M US Air Force IT ... () https://orangeslices.ai/pantheon-data-scores-75m-us-air-force-it-transformation-initiative-support-idiq/
-  Pantheon Data scores $75M US Air Force IT Transformation Initiative support IDIQ | OrangeSlices AI
-
-Search
-
-Award details have now been posted showing that Pantheon Data (formerly The Kenific Group) lands a key single-award IDIQ and the first task to provide innovative IT solutions aligned with Continuous Process Improvement (CPI) and organizational efficiency for the Department of the Air Force.
-
-Awardee Name: THE KENIFIC GROUP LLC Unique Entity ID: E2PHGXXFKM91 Total Contract Value: $75,000,00
 - CONTRACT to THE KENIFIC GROUP LLC () https://www.usaspending.gov/award/CONT_AWD_N0016424PG036_9700_-NONE-_-NONE-
   USAspending.gov
 - The Kenific Group Profile () https://www.highergov.com/awardee/the-kenific-group-llc-10105168/
@@ -348,6 +340,16 @@ The Kenific Group
 Website
 
 
+- the kenific group (2026-06-24) https://pantheon-data.com/
+  # The Kenific Group
+
+The Kenific Group is a IT Services and IT Consulting company. The Kenific Group employs 37 people (+14.4% YoY, +13 people), founded in 2011. Headquartered in Leesburg, Virginia, United States.
+
+## About
+
+The Kenific Group, (KGI) is now Pantheon Data. 
+
+Pantheon Data was born out of an innate desire to solve specific customer needs without sacrificing attention to detail. While supporting the Coast Guard, one of our founding members realized the client wasn’t receiving the su
 
 ## Open roles
 (no jobs data found)

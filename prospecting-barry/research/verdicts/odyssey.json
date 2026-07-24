@@ -1,0 +1,16 @@
+{
+  "company": "Odyssey",
+  "slug": "odyssey",
+  "domain": "odyssey.ml",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "None -- the pack's news section is a name collision: the $1.9B Air Force advisory contract belongs to 'Odyssey Systems Consulting Group,' an unrelated services firm, not this Odyssey (odyssey.ml), the IQT-backed general world-model AI lab. Odyssey's own site/about/research/writing pages list only consumer/robotics/gaming applications; IQT portfolio membership alone (sources: vc:iqt) is not sufficient per doctrine.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "unknown",
+  "what_they_do": "Builds general-purpose 'world models' (Odyssey-2, Starchild-1, Agora-1) -- generative AI that simulates interactive video worlds for robotics, gaming, healthcare, and consumer applications."
+}

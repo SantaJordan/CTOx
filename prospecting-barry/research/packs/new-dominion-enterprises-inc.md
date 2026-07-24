@@ -129,18 +129,66 @@ Branch: USAF
 Total Award Amount: $74,934
 
 Contract N
-- New Dominion Enterprises secures $2.2 million in ... (2023-03-21) https://www.bizjournals.com/sanantonio/inno/stories/news/2023/03/21/new-dominion-enterprises-predicts-breakout-year.html
-  New Dominion Enterprises secures $2.2 million in AFWERX contracts - San Antonio Business Journal
-* [Technology](https://www.bizjournals.com/sanantonio/news/technology)
-# 2023 will be a 'breakout year' for New Dominion Enterprises, says CEO
-![Jay Fraser New Dominion Enterprises 031723 03](https://media.bizj.us/view/img/12473263/jay-fraser-new-dominion-enterprises-031723-03*900x506x5700-3208-0-115.jpg)expand
-New Dominion Enterprises Inc. CEO and Co-Founder Jay Fraser says his company is 'on the ve
 - New Dominion Enterprises wins $2.2M in two Air Force SBIR awards for battery innovation | Startups San Antonio (2023-03-08) https://www.startupssanantonio.com/new-dominion-enterprises-wins-2-2m-in-two-air-force-sbir-awards/
   New Dominion Enterprises wins $2.2M in two Air Force SBIR awards for battery innovation | Startups San Antonio
 
 A San Antonio startup has received two Air Force funding awards for its proprietary battery additive that makes batteries safer and longer lasting.
 
 New Dominion Enterprises, Inc.(NDE), an energy technology company, won two direct-to-Phase Two Air Force Small Business Innovation Research (SBIR) contracts from the Air Force AFWERX program for its battery additive innovation in February.
+- SBIR 
+  
+  Optimizing Phospholyte Levels in Novel Electrolytes () https://www.highergov.com/contract/FA864923P0592/
+  SBIR Optimizing Phospholyte Levels in Novel Electrolytes -- --
+
+HigherGov
+
+Pipeline
+
+FOIA
+
+Track
+
+Favorite
+
+No Bid
+
+Export
+
+- Excel
+- CSV
+
+Share
+
+- Tweet
+- Email
+- Copy URL
+
+Search Prime Contracts
+
+# FA864923P0592
+
+Purchase Order
+
+- Text
+- List
+
+## Overview
+
+Government Description
+
+Optimizing Phospholyte Levels in Novel Electrolytes
+
+Awardee
+
+New Dominion Enterprises
+
+Awarding / Funding Agency
+
+Air Force Research Laboratory (AFRL) [DoD - USAF - AFMC]
+
+NAICS
+
+541715 - Research and Development in 
 
 ## Open roles
 (no jobs data found)

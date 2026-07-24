@@ -486,7 +486,7 @@ Woman Owned: No
 Socially and Economically Disadvantaged: No
 
 Congr
-- Award | SBIR () https://www.sbir.gov/awards/205751
+- Award | SBIR () https://www.sbir.gov/awards/194962
   Award | SBIR Skip to main content
 
 # Award
@@ -495,15 +495,15 @@ Portfolio Data
 
 Back to Award Search
 
-## Integrated Artificially Intelligent Solution for Automated and Predictive Resilient Army Logistics
+## Onboard Compact Self-Contained Artificially-Intelligent Multi-Sensor System for Real-Time Navigation in GPS-Denied or Degraded Environments
 
 ### Awardee
 
 #### Ubihere, Inc.
 
-https://www.sbir.gov/portfolio/1615235 4621 Lyman DriveHILLIARD, OH, 43026-1249USA
+4621 Lyman DriveHILLIARD, OH, 43026-1249USA
 
-Award Year: 2023
+Award Year: 2022
 
 UEI: KYJBXHALLSP9
 
@@ -517,14 +517,13 @@ Congressional District: 15
 
 Tagged as:
 
-SBIR
+STTR
 
-Phase I
+Phase II
 
 ### Awarding Agency
 
-DOD
-
+D
 
 ## Open roles
 (no jobs data found)

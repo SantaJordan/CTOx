@@ -1,0 +1,25 @@
+{
+  "company": "Addiguru, LLC",
+  "slug": "addiguru-llc",
+  "domain": "addiguru.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Two USAF SBIR/STTR Phase IIs (2022 $750K, 2023 $1.25M) with the 2022 abstract targeting 'deployment at REACT's machines at Tinker AF base and Air Force Research Labs'; site cites 'US Defense (DoD) and global commercial users and partners'.",
+  "disconnect_score": 60,
+  "subscores": {"lab_language_intensity": 13, "deployment_awareness_absence": 15, "operator_absence": 8, "hiring_profile_skew": 10, "stage_pressure": 14},
+  "score_evidence": [
+    "'Industry leading AI algorithms for defect detection' and 'in-situ quality monitoring results with high accuracy in the industry' plus TRL-7 framing → lab_language_intensity",
+    "Phase II explicitly ends at AF depots ('ready for deployment at REACT's machines at Tinker AF base') yet the site contains zero ATO/RMF/CMMC/ITAR/CUI language → deployment_awareness_absence",
+    "Phase II (2023) period-of-performance clock running against a 3-10 person team ('emp: 3' channel notes vs 10 on LinkedIn) → stage_pressure",
+    "No jobs data in pack → hiring_profile_skew set exactly 10 per rule"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Networked cameras and AI software on an Air Force depot floor with no accreditation path mentioned", "operator_reality": "Getting sensor-connected monitoring software onto machines at Tinker AFB means RMF/ATO on an AF network — typically 12-18 months of work a Phase II period of performance doesn't leave room for; the depot can love the demo and still be unable to plug it in", "why_likely_missing": "The product grew up on commercial 3D-printing floors where 'easily incorporated into existing equipment' really is just an install", "evidence_quote": "the solution will be ready for deployment at REACT's machines at Tinker AF base and Air Force Research Labs (AFRL).", "quote_source": "sbir_abstract"},
+    {"blind_spot": "Build reports and layer imagery of defense parts are export-controlled technical data", "operator_reality": "Layer-by-layer images of AF aerospace components are ITAR/CUI; 'on-demand generation of build reports and data logs' with an 'open policy' for third-party integration has no controlled-data handling story, which kills the transition at contracting review", "why_likely_missing": "Commercial customers want open data sharing; nothing in their market pulled them toward export-control discipline", "evidence_quote": "Addiguru's open policy allows different machine manufacturers, sensor providers, and software companies to easily integrate our technology", "quote_source": "homepage"},
+    {"blind_spot": "No CMMC/NIST 800-171 posture for a company about to hold AF depot data", "operator_reality": "A ~6-person LLC processing CUI from AF sustainment depots must clear CMMC before the contract that funds it dies — the exact months-to-field vs funded-months squeeze in Barry's EDP", "why_likely_missing": "Team depth is materials science, computer vision, and AI ('team's unique knowledge of materials science, computer vision, and artificial intelligence'), not compliance", "evidence_quote": "US Defense (DoD) and global commercial users and partners", "quote_source": "homepage"}
+  ],
+  "opener_hook": "Addiguru's 2022 Phase II abstract ends with deployment at REACT's machines at Tinker AFB — putting networked cameras on a depot floor means RMF and CUI handling that addiguru.com never mentions.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Small team selling AI in-situ defect monitoring for metal/polymer 3D printing, with commercial customers plus two USAF Phase IIs pointed at Air Force depot deployment."
+}

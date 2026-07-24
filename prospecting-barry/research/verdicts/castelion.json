@@ -1,0 +1,16 @@
+{
+  "company": "Castelion",
+  "slug": "castelion",
+  "domain": "castelion.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Own news pages: '$105M U.S. Navy Contract to Field Blackbeard on the F/A-18 Super Hornet in 2027', $49.9M Navy contract, and a $23.4M first delivery order for 50 pre-production Blackbeard rounds.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "220-person hypersonic strike weapon company (Blackbeard) with ~$180M in recent Navy awards, a first production delivery order, and an Early Operational Capability date of 2027 — it has crossed the valley of death and is scaling manufacturing, the opposite of a stuck prototype."
+}

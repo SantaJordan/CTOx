@@ -514,22 +514,46 @@ Introducing Odyssey-2 Max: Scaled World Simulation Oliver Cam
 Odyssey is an AI lab pioneering general world models: causal, multimodal systems that learn to understand and simulate the world. This foundational technology promises to revolutionize robotics, science, healthcare, education, gaming, and beyond.
 
 ## News (Exa, top 3)
-- Odyssey Selected to Drive Air Force Life Cycle Management Center Armament Directorate - Odyssey Systems (2026-01-20) https://odysseyconsult.com/odyssey-selected-to-drive-air-force-life-cycle-management-center-armament-directorate/
-  Odyssey Selected to Drive Air Force Life Cycle Management Center Armament Directorate - Odyssey
+- Air Force Awards $1.9B in Contracts to 3 Firms for ... (2026-07-21) https://www.govconwire.com/articles/air-force-1-9b-technical-advisory-support-contract-awards
+  Air Force Awards $1.9B in Contracts to 3 Firms for Technical & Management Advisory Support - GovCon Wire
 
-Type and press enter to search
+Photo: U.S. Air Force
 
-Odyssey Named to 2025 Military Times’ Best for Vets: Employers List, Places in Top Five for Massachusetts-Based Veteran Employers
+Author: Jane Edwards || Date Published: July 21, 2026
 
-Odyssey Names Meghan Frederick 2025 Core Values Award Winner
+- The Air Force has awarded $1.9 billion in advisory support contracts
+- The awards cover aerospace research and development support
+- The 2026 Air and Space Summit will explore AI, Golden Dome and more
 
-Wakefield, Mass. – Jan 19, 2026 — Odyssey, a leading provider of integrated defense capabilities and technologies, announced today it has been awarded the prime contract to partn
-- CONTRACT to ODYSSEY SYSTEMS CONSULTING ... () https://www.usaspending.gov/award/CONT_AWD_FA872123F0001_9700_GS00Q14OADS723_4732
-  USAspending.gov
-- Odyssey Systems awarded $531M U.S. Air Force contract to support ISR & SOF Directorate (2024-11-04) https://www.prnewswire.com/news-releases/odyssey-systems-awarded-531m-us-air-force-contract-to-support-isr--sof-directorate-302294473.html
-  Odyssey Systems awarded $531M U.S. Air Force contract to support ISR & SOF Directorate Accessibility Statement Skip Navigation
+The U.S. Air Force has awarded Odyssey Systems Consulting Group, Aventis and Gauss Management Research and Engin
+- Odyssey Systems and Three Others Win $1.9B Air Force ... (2026-07-21) https://news.clearancejobs.com/2026/07/20/odyssey-systems-and-three-others-win-1-9b-air-force-technical-services-contracts/
+  Odyssey Systems and Three Others Win $1.9B Air Force Technical Services Contracts - ClearanceJobs
 
-WAKEFIELD, Mass., Nov. 4, 2024 /PRNewswire/ -- Odyssey Systems Consulting Group, Ltd, a leading provider of integrated defense capabilities and technologies, announced today it was awarded a five-year $531M contract to provide cross-cutting Advisory and Assistance Services (A&AS) to the U.S. Air Force (USAF) Program Executive Officer (PEO) for Intelligence, Surveillance
+Subscribe
+
+## Contracts Valued at $7.5 Million and Above
+
+## NAVY
+
+Raytheon Missiles and Defense, Marlborough, Massachusetts, was awarded a $1,809,613,484 fixed-price incentive (firm-target), firm-fixed-price, and cost-only modification to the previously awarded contract (N00024-22-C-5500) for hardware production of the AN/SPY-6(V) Family of Radars and associated hardware. This contract modificatio
+- Pentagon awards $1.9 billion Air Force support contracts to ... () https://www.yahoo.com/news/politics/articles/pentagon-awards-1-9-billion-180512151.html
+  Pentagon awards $1.9 billion Air Force support contracts to 3 vendors
+[](https://www.yahoo.com/news/)
+Search query
+Search with Yahoo Scout
+Search the web
+* [Skip to main](#article-container)
+[News](https://www.yahoo.com/)
+[Finance](https://finance.yahoo.com/)
+[Sports](https://sports.yahoo.com/)
+More
+[
+Mail
+](https://mail.yahoo.com/)
+[
+Sign in
+](https://login.yahoo.com/?.lang=en-US&src=news&done=https://www.yahoo.com/news/politics/articles/pentagon-awards-1-9-billion-180512151.html&intl=us)
+Searc
 
 ## Open roles (Blitz, live)
 - VP, Engineering ({'city': 'Palo Alto', 'country_code': 'US'})

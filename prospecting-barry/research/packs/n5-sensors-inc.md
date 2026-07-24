@@ -293,52 +293,6 @@ Countering Weapons of Mass Destruction (CWMD) [DHS]
 NAICS
 
 541715 - Research and Deve
-- Award | SBIR () https://www.sbir.gov/awards/169150
-  Award | SBIR Skip to main content
-
-# Award
-
-Portfolio Data
-
-Back to Award Search
-
-## A Digital System-On-Chip CO2 Sensor
-
-### Awardee
-
-#### N5 SENSORS INC
-
-9605 MEDICAL CTR DR STE 200ROCKVILLE, MD, 20850-6359USA
-
-Award Year: 2018
-
-UEI: DPHWXD86RNS4
-
-HUBZone Owned: No
-
-Woman Owned: No
-
-Socially and Economically Disadvantaged: No
-
-Congressional District: 6
-
-Tagged as:
-
-SBIR
-
-Phase II
-
-### Awarding Agency
-
-DOE
-
-Branch: ARPA-E
-
-Total Award Amount: $976,971
-
-Contract Number: DE-AR0000935
-
-Agency Trac
 - N5 Sensors Profile () https://www.highergov.com/awardee/n5-sensors-inc-10086385/
   N5 Sensors Profile
 
@@ -380,6 +334,20 @@ Parent
 Company Description
 
 N5 Sensors’ advanced wireless sensor network equips communities, farms, cities, utility companies, local government, and fire departments with early detection and 24/7 alerting system. Our real-t
+- Rockville's N5 Sensors raises funds to detect and avoid disasters like ... (2023-06-22) https://rockvilleredi.org/rockvilles-n5-sensors-raises-funds-to-detect-and-avoid-disasters-like-canadian-wildfires/
+  Rockville's N5 Sensors raises funds to detect and avoid disasters like Canadian wildfires - Rockville Economic Development, Inc
+
+# Header
+
+Skip to main content
+
+Photo credit: N5 Sensors
+
+## The $2.5 million from a recent seed round will allow N5 Sensors to increase manufacturing and hiring
+
+Article originally published by Washington Business Journal on June 20, 2023
+
+N5 Sensors, a Rockville environmental hazard detection tech company, is using $2.5 million from a recent seed round to build more 
 
 ## Open roles
 (no jobs data found)

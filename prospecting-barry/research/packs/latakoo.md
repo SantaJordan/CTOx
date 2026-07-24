@@ -345,58 +345,16 @@ Branch: USAF
 Total Award Amount: $74,100
 
 Contract Number
-- SBIR 
-  
-  Rapid Data and Sensor Fusion Solution () https://www.highergov.com/contract/FA864923P0417/
-  SBIR Rapid Data and Sensor Fusion Solution -- --
+- LATAKOO, INC - Fast Video File Transfer and Workflow Tool for Military Intelligence Operations Award | SBIR.org () https://sbir.org/awards/dod-FA8649-24-P-0284-1
+  LATAKOO, INC - Fast Video File Transfer and Workflow Tool for Military Intelligence Operations Award | SBIR.org
 
-HigherGov
+Phase I $74096 Department of Defense
 
-Pipeline
+# Fast Video File Transfer and Workflow Tool for Military Intelligence Operations
 
-FOIA
+LATAKOO, INC· December 2023
 
-Track
-
-Favorite
-
-No Bid
-
-Export
-
-- Excel
-- CSV
-
-Share
-
-- Tweet
-- Email
-- Copy URL
-
-Search Prime Contracts
-
-# FA864923P0417
-
-Purchase Order
-
-Collaborate and Track Manage opportunities as a team with our Pursuit Management tools Free Trial Schedule Demo --
-
-- Text
-- List
-
-## Overview
-
-Government Description
-
-Rapid Data and Sensor Fusion Solution
-
-Awardee
-
-Latakoo
-
-Awarding / Funding Agency
-
-Air Force Research Laboratory (
+Latakoo appears to be developing secure, rapid data transfer technology that compresses and syncs large video files across unreliable networks, potentially enabling military intelligence teams to move and process footage faster without s
 
 ## Open roles (Blitz, live)
 - Senior CUDA Engineer – Video Codec Architecture ({'city': None, 'country_code': 'US'})

@@ -23,12 +23,6 @@ ML is a subset of AI. Discrimination based on SI signals is a module in monitor
   ARRAY Awarded Contract for ITES-3S IDIQ Task Order to support the Army Radio Frequency In-Transit Visibility (RF-ITV) System and Infrastructure Accessibility Statement Skip Navigation
 
 FAIRFAX, Va., July 7, 2021 /PRNewswire/ -- ARRAY today announced a partnership with Connected Logistics, Leidos, Inc. and Onyx Government Services on a task order award under the $12.1 billion ceiling Information Technology Enterprise Solutions – 3 Services contract vehicle. RF-ITV is a 5.5-year task order under w
-- ARRAY Awarded Contract to Replatform the Integrated Logistics System - Supply (ILS-S) for the US Air Force (2015-05-12) https://www.prnewswire.com/news-releases/array-awarded-contract-to-replatform-the-integrated-logistics-system--supply-ils-s-for-the-us-air-force-300081307.html
-  ARRAY Awarded Contract to Replatform the Integrated Logistics System - Supply (ILS-S) for the US Air Force Accessibility Statement Skip Navigation
-
-GREENBELT, Md., May 12, 2015 /PRNewswire/ -- Array Information Technology (ARRAY) announced today that the U.S. Air Force (USAF) selected ARRAY to lead a significant modernization of the Standard Base Supply System (SBSS), a critical system within the USAF supply chain.
-
-ARRAY, and its partners NTT Data, TSRI, and PracTrans, will soon begin a critica
 - ARRAY Awarded Prime Contract on Army’s $12.1B ITES-3S IDIQ  | WashingtonExec (2018-10-29) https://washingtonexec.com/2018/10/array-awarded-prime-contract-on-armys-12-1b-ites-3s-idiq/
   ARRAY Awarded Prime Contract on Army’s $12.1B ITES-3S IDIQ | WashingtonExec
 
@@ -45,6 +39,12 @@ ARRAY Information Technology has won a spot on the U.S. Army’s massive Informa
 The ITES-3S indefinite-delivery, indefinite-quantity contract provides enterprise mission support service solutions for the Army, as well as other defense and civilian agencies, and is valued at $12.1 billion
 
 “This is ou
+- ARRAY Awarded Contract to Replatform the Integrated Logistics System - Supply (ILS-S) for the US Air Force (2015-05-12) https://www.prnewswire.com/news-releases/array-awarded-contract-to-replatform-the-integrated-logistics-system--supply-ils-s-for-the-us-air-force-300081307.html
+  ARRAY Awarded Contract to Replatform the Integrated Logistics System - Supply (ILS-S) for the US Air Force Accessibility Statement Skip Navigation
+
+GREENBELT, Md., May 12, 2015 /PRNewswire/ -- Array Information Technology (ARRAY) announced today that the U.S. Air Force (USAF) selected ARRAY to lead a significant modernization of the Standard Base Supply System (SBSS), a critical system within the USAF supply chain.
+
+ARRAY, and its partners NTT Data, TSRI, and PracTrans, will soon begin a critica
 
 ## Open roles
 (no jobs data found)

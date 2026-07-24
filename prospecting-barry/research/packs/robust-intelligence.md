@@ -93,48 +93,52 @@ Request a demo
 Robust Intelligence enables enterprises to secure their AI transformation with an automated solution to protect against security and safety threats. Our platform includes an engine for detecting and assessing model vulnerabilities, as well as recommending and enforcing the necessary guardrails to mitigate threats to AI applications in production. This enables companies to meet AI safety and security standards with a single integration, automatically working in the background to protect applications from development to production. Robust Intelligence is backed by Sequoia Capital and Tiger Globa
 
 ## News (Exa, top 3)
-- Contracts For Mar. 18, 2022 () https://www.war.gov/News/Contracts/Contract/Article/2971812/
-  \> U.S. Department of War \> Contract | U.S. Department of War
-[Skip to main content (Press Enter).](#skip-target)
-An official website of the United States Government
-Here's how you know**
-**Official websites use .gov**
-A**.gov**website belongs to an official government organization in the United States.
-**Secure .gov websites use HTTPS**
-A**lock (lock)**or**https://**means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
-* [](https://tw
-- Robust Intelligence raises $30M Series B to stress test AI models | TechCrunch (2021-12-09) https://techcrunch.com/2021/12/09/robust-intelligence-raises-30m-series-b-to-stress-test-ai-models/
-  Robust Intelligence raises $30M Series B to stress test AI models | TechCrunch
+- Fortifying the future of Security for AI: Cisco Announces intent to acquire Robust Intelligence - Cisco Blogs (2024-08-26) https://blogs.cisco.com/news/fortifying-the-future-of-security-for-ai-cisco-announces-intent-to-acquire-robust-intelligence
+  Fortifying the future of Security for AI: Cisco Announces intent to acquire Robust Intelligence - Cisco Blogs
 
-Copy Share Link
+##### Executive Platform
 
-# Robust Intelligence raises $30M Series B to stress test AI models
+https://blogs.cisco.com/news
 
-Frederic Lardinois
+# Fortifying the future of Security for AI: Cisco Announces intent to acquire Robust Intelligence
 
-8:00 AM PST · December 9, 2021
+3 min read
 
-Share on Facebook
+Tom Gillis
 
-Copy Share Link
+### September 24, 2024 Update: We have completed the acquisition of Robust Intelligence. Welcome to Cisco!
 
-Robust Intelligence, an AI startup that helps businesses stress test their AI models and prevent them from failing, today announced that it has raised a $30 million Series B funding round led by Tiger Global. Previous investor Sequoia, which led 
-- How Much Did Robust Intelligence Raise? Funding & Key Investors () https://www.clay.com/dossier/robust-intelligence-funding
-  THE GO-TO-MARKET CONFERENCE BY CLAYoct 8, 2026, san francisco → sculpt.clay.com
+---
 
-Product Use Cases Solutions Resources Company Pricing
+The 2024 Cisco AI Readiness Index reveals a near-unanimous consensus: 95% of respondents believe 
+- Robust Intelligence Is Now Part of Cisco () https://www.cisco.com/site/us/en/products/security/ai-defense/robust-intelligence-is-part-of-cisco/index.html
+  Robust Intelligence Is Now Part of Cisco - Cisco
 
-Features
+- Skip to main content
+- Skip to search
+- Skip to footer
 
-- ClaygentsResearch target companies and people with AI
-- WaterfallCombine multiple data providers for the best coverage
-- Signals and IntentTrack job changes promotions or other signals
-- Data marketplaceBuy data from 200+ providers in one place
+# Robust Intelligence is now part of Cisco
 
-.
+Together, we are fortifying the future of security for AI.
 
-- AdsSync targeted ad audiences to Linkedin, Meta, and Google
-- AudiencesCentralize your first and thir
+Read blog
+
+## Robust Intelligence is at the core of Cisco Foundation AI and Cisco AI Defense
+
+Robust Intelligence is widely recognized for pioneering the AI security category with cutting-edge research and product innovation, including algorithmic red teaming and the industry's first AI 
+- Cisco snaps up AI security player Robust Intelligence | Network World (2024-08-27) https://www.networkworld.com/article/3496837/cisco-snaps-up-ai-security-player-robust-intelligence.html
+  Cisco snaps up AI security player Robust Intelligence | Network World
+
+# Cisco snaps up AI security player Robust Intelligence
+
+News
+
+Aug 27, 20243 mins
+
+Cisco today announced plans to acquire Robust Intelligence, a security startup with a platform designed to protect AI models and data throughout the development-to-production lifecycle. It’s paying an undisclosed amount to acquire the company, which Cisco has previously invested in through its Cisco Investments portfolio.
+
+Robust Intelligence’s
 
 ## Open roles
 (no jobs data found)

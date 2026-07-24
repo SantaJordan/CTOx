@@ -1,0 +1,21 @@
+{
+  "company": "EpiSci (EpiSys Science Inc., an Applied Intuition company)",
+  "slug": "episci",
+  "domain": "appliedintuition.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Deep DoD motion — USAF SBIR Phase II awards in 2023 ('COMBAT') and 2024 ('Aided HyperTRACE'), an Air Force Sensor Optimization Toolkit Phase II ($1,217,200), and a ~$2.7M NIWC Pacific follow-on contract for the Navy's Project Overmatch (SBIR section and news).",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "'Acquired by Applied Intuition, the physical AI company bringing intelligence to every moving machine on the planet. EpiSci, an Applied Intuition company...' (linkedin_about) → no longer an independent small company; the pack's own website content is entirely Applied Intuition's",
+    "'1,000+ engineers. 40+ ex-CTOs. 30+ former founders.' (careers page) → parent company scale, two orders of magnitude past the $5M-$10M band",
+    "'Naval Information Warfare Center Pacific has awarded a follow-on contract to software company EpiSci to advance the Navy's Project Overmatch initiative' (news) → follow-on work inside a named Navy program, i.e. transition already achieved",
+    "'Powerful SDK to construct and manage complex workflows on cloud, on-prem, and air-gapped environments' (products page) → air-gapped deployment is already a first-class product feature"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Tactical AI autonomy and cognitive electronic-warfare software (autonomous UAV swarms, signal detection) — now the defense autonomy arm of Applied Intuition."
+}

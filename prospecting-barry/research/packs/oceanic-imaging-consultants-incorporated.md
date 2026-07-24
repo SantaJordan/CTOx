@@ -31,14 +31,6 @@ Oceanic Imaging Consultants, Inc.(OIC) is the leading manufacturer in easy-to-us
 This effort seeks to improve off-GPS navigation performance for underwater vehicles, both manned and unmanned, including UUVs, AUVs, ROVs and manned subs, with automatic, real-time feature-based navigation known as SLAM - Simultaneous Localization and Mapping.  SLAM navigation aiding uses matching of terrain features to prove corrections that reduce the drift in the vehicles Inertial Navigation System (INS), thereby improving mission performance while reducing the need for costly post-acquisition processing, or re-survey.  Then development  will be based on Oceanic Imagining Consultants' (OIC's) commercially available product, well established in the industry, that performs manual feature matching for sidescan and swath bathymetry data using a SLAM algorithm tin post-acquisition mode. The tasks outlined in this proposal are 1) getting the current or updated SLAM algorithm to run in real-time, 2) addition of support for processing of Forward-Look Sonar data in CleanSweep, 3) automation of feature-detection, extraction and matching, and 4) optimization of matched feature selection to minimize outlive-induced noise in re-estimation of navigation trajectory.  This would solve a non-trivial problem for existing government programs, and is supported enthusiastically by existing and future OIC customers on the commercial side. The result will be algorithms ready for implementation and utilization in production code, interfaced to the Navy's Unmanned Maritime Autonomy Architecture (UMAA), in preparation for trials on Government UUV's and commercial vehicles.
 
 ## News (Exa, top 3)
-- Oceanic Imaging Consultants, Inc. () https://www.linkedin.com/company/oceanic-imaging-consultants-inc.
-  # Oceanic Imaging Consultants, Inc. (Oceanic Imaging Consultants Inc)
-
-Oceanic Imaging Consultants, Inc. is a Software Development company. Oceanic Imaging Consultants, Inc. provides seafloor mapping software and services for commercial, federal, military, and academic clients worldwide. Oceanic Imaging Consultants, Inc. employs 1 person (-25.0% YoY) and has an annual revenue of $8.5M, founded in 1993. Headquartered in Honolulu, Hawaii, United States.
-
-## About
-
-Oceanic Imaging Consultants, Inc.
 - Oceanic Imaging Consultants () https://www.marinetechnologynews.com/companies/company/oceanic-imaging-consultants-200182
   Oceanic Imaging Consultants
 
@@ -56,28 +48,22 @@ Suite 200 1144 10th Avenue Honolulu Hawaii 968162442 United States
 - Fax: +1 8087914075
 
 Oceanic Imaging Consultants, Inc. produces out-of-the box or custom underwater mapping software. Coupled with our expert hydrographic consulting services, we deliver world class seafloor mapping solutions. Visit us to demo our new product, SAMM, a mosaickin
-- DOD Vendors with Contracts over $25000.00 () https://dodsoco.ogc.osd.mil/Portals/102/Documents/Conflicts/2024%2025K%20FY2023.pdf
-  DOD Vendors with Contracts over $25,000.00
-Revised January 2024 Page 1
-DOD Vendors
-with 
-Contracts over $25,000.00 
-For use in CY 2024
-(Contains FPDS Data for FY 2023)
-DOD Vendors with Contracts over $25,000.00
-Revised January 2024 Page 2
-@MIRE INC
-0 BASE DESIGN LLC
-0369 SECURITY SOLUTIONS SERVICES LLC
-057 TECHNOLOGY LLC
-09CLEAN CO LTD
-1 MISSION PARTNERS
-1 PROSPECT TECHNOLOGIES LLC
-1 SOURCE SOLUTIONS LLC
-1 STOP ELECTRONICS CENTER INC
-1 SYNC TECHNOLOGIES LLC
-100 WORKFORCE SOLUTIONS LLC
-101 GLOBAL
+- Ocean Imaging () https://oceani.com/PDF/July%202023-OI%20Renews%20with%20City%20of%20San%20Diego.pdf
+  ## Ocean Imaging
+
+Ocean Imaging • 13976 West Bowles Avenue • Suite 101 • Littleton, CO 80127 • [phone] • [email]
+
+July 2023 – Ocean Imaging Renews Long-Term Contract with the City of San Diego to Help Monitor Coastal Water Quality
+
+Since 2002 Ocean Imaging (OI) has partnered with the City of San Diego’s Public Utilities Department and the United Stated International Boundary and Water Commission to utilize satellite and aerial imagery to better understand regional water quality cond
+- MSRC Announces Ocean Imaging Remote Sensing Contract (2013-11-12) https://www.marinelink.com/news/announces-contract360869
+  MSRC Announces Ocean Imaging Remote Sensing Contract
+
+# MSRC Announces Ocean Imaging Remote Sensing Contract
+
+Maritime Activity Reports, Inc.
+
+The Marine Spill Response Corporation (MSRC) has entered an exclusive contract with Ocean Imaging Corporation for cutting edge remote sensing capability. Ocean Imaging will provide its proprietary aerial surveillance technology as part of MSRC's overall strategy for enhancing the ability to tactically position response resources in the optimal areas of oi
 
 ## Open roles
 (no jobs data found)

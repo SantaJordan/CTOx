@@ -150,6 +150,28 @@ Mystic Spear LLC, is a Service-Disabled Veteran Owned Business dedicated to prov
 Team Mystic Spear will identify and procure a best-in-class software package capable of identifying, interrogating, extracting, correlating, and fusing data from sensors into a standard dashboard of USSOCOM’s choosing. We will also discuss APIs and all things access with smaller Smart Cities that also have Port facilities to determine any less obvious sensor/data feeds. From this research we will identify no less than a total of 10 sources and 10 actuators (of various types) representative of current Smart City, IoT, and Port/Maritime technology. These will be a mix of wired, wireless (Wifi, BT, IoT, industrial), RF, Cloud, etc. Our focus will be to identify not only 100% open-source sensors but also those that may require hardware/software. Much of this basic functionality is already provided under the existing software platforms. The Mystic Spear DAARC team will design, develop, and deliver this functionality in an operator-relevant package.
 
 ## News (Exa, top 3)
+- DOD Vendors with Contracts over $25000.00 () https://dodsoco.ogc.osd.mil/Portals/102/Documents/Conflicts/2025%2025K%20(FY2024).pdf?ver=6UGEr9NtBuZqMfmcfNap6A%3D%3D
+  DOD Vendors with Contracts over $25,000.00
+Revised March 2025 Page 1
+DOD Vendors
+with 
+Contracts over $25,000.00 
+For use in CY 2025
+(Contains FPDS Data for FY 2024)
+DOD Vendors with Contracts over $25,000.00
+Revised March 2025 Page 2
+(RC) 2 PHARMA CONNECT L.L.C.
+'@MIRE, INC.
+1 A DEFENSE, LLC
+1 ACORD SERVICES, LLC
+1 HEALTH SOLUTIONS LLC
+1 MISSION PARTNERS
+1 SOURCE SOLUTIONS CO, LLC
+1 SOURCE SOLUTIONS GROUP LLC
+1 SYNC TECHNOLOGIES, LLC
+100 WORKFORCE SOLUTIONS, LLC
+10-31 INCORPORATED
+1032 ENTERPRI
 - Navy Award | N0017325C2431 | SPACE POWER AND ENERGY ADVANCED RECON (SPEAR) () https://www.federalcompass.com/award-contract-detail/N0017325C2431
   Navy Award | N0017325C2431 | SPACE POWER AND ENERGY ADVANCED RECON (SPEAR)
 
@@ -176,66 +198,6 @@ Spear-1 Mission
 NSL was awarded an NRL contract in partnership with SSC for the SPEAR Mission, a spacecraft program designed to strengthen U.S. national security.
 
 NSL is uniquely positioned to rapidly mature, test, and deploy advanced technologies that directly enhance mission assurance and na
-- Navy Veterans’ Startup Spear AI Raises $2.3M, Wins $6M Navy Contract to Revolutionize Underwater Surveillance with AI - Tekedia (2025-07-27) https://www.tekedia.com/navy-veterans-startup-spear-ai-raises-2-3m-wins-6m-navy-contract-to-revolutionize-underwater-surveillance-with-ai/
-  Navy Veterans’ Startup Spear AI Raises $2.3M, Wins $6M Navy Contract to Revolutionize Underwater Surveillance with AI - Tekedia
-
-Sign in
-
-- Click here - to use the wp menu builder
-
-Sign in
-
-Welcome!Log into your account
-
-your username
-
-your password
-
-Forgot your password?
-
-Password recovery
-
-Recover your password
-
-your email
-
-Search
-
-DD
-
-MM
-
-YYYY
-
-Search this site...
-
-CATEGORIES
-
-PAGES
-
-Facebook
-
-Instagram
-
-Twitter
-
-Vimeo
-
-Youtube
-
-DD
-
-MM
-
-YYYY
-
-Search this site...
-
-CATEGORIES
-
-PAGES
-
-Home Commu
 
 ## Open roles
 (no jobs data found)

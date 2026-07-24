@@ -1,0 +1,16 @@
+{
+  "company": "Zeromatter",
+  "slug": "zeromatter",
+  "domain": "zeromatter.com",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "No defense motion in the company's own artifacts: the site pitches sensor/environment simulation for 'Autonomy, Aerospace, Automotive, Agriculture, Drones, Green Energy' with no DoD/military language, no SBIR record is present in the pack, and the only defense signal is portfolio membership in AEI HorizonX (channel-notes metadata), which per the gate is not sufficient by itself. The one news item found is a commercial 3D-data licensing deal with Aerometrex, unrelated to defense.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "medium",
+  "stage_band": "unknown",
+  "what_they_do": "Sensor and environment simulation platform ('build, test, and train anything') for autonomy, aerospace, automotive, agriculture, drones, and green energy; still described by the company itself as in stealth."
+}

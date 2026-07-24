@@ -263,7 +263,7 @@ Reveal Technology, Inc. is the next-generation defense technology platform, deli
 Reveal’s growing suite of products enable rapid generation of actionable intelligence from mobile, edge and other sensing technologies. Our mission is to generate decision advantage for decentralized operations by deploying AI and other software tools into the tactical echelon. The result is rapid GEOINT, autonomy and human identity analytics without requiring network 
 
 ## News (Exa, top 3)
-- Reveal Technology Receives Selection Notification for $33.6M STRATFI Award Through the AFVentures Program (2024-04-23) https://www.prnewswire.com/news-releases/reveal-technology-receives-selection-notification-for-33-6m-stratfi-award-through-the-afventures-program-302125198.html
+- Reveal Technology Receives Selection Notification for $33.6M ... (2024-04-23) https://www.prnewswire.com/news-releases/reveal-technology-receives-selection-notification-for-33-6m-stratfi-award-through-the-afventures-program-302125198.html
   Reveal Technology Receives Selection Notification for $33.6M STRATFI Award Through the AFVentures Program Accessibility Statement Skip Navigation
 
 BOZEMAN, Mont., April 23, 2024 /PRNewswire/ -- Reveal Technology, Inc. (Reveal) is proud to share that they have received a selection notification from the US Air Force AFVentures Program for a $33.6M Strategic Funding Increase (STRATFI).
@@ -271,7 +271,13 @@ BOZEMAN, Mont., April 23, 2024 /PRNewswire/ -- Reveal Technology, Inc. (Reveal) 
 Continue Reading
 
 Reveal will work closely with joint force customers to deliver the next generation of situation
-- Press: Reveal Extends Joint Focused STRATFI Contract ... (2025-08-20) https://www.revealtech.ai/stratfi-update
+- Reveal Technology, Inc. Receives $3.2M Award With U.S. Marine Corps Warfighting Laboratory (MCWL) (2024-03-28) https://www.prnewswire.com/news-releases/reveal-technology-inc-receives-3-2m-award-with-us-marine-corps-warfighting-laboratory-mcwl-302102592.html
+  Reveal Technology, Inc. Receives $3.2M Award With U.S. Marine Corps Warfighting Laboratory (MCWL) Accessibility Statement Skip Navigation
+
+BOZEMAN, Mont., March 28, 2024 /PRNewswire/ -- Reveal Technology, Inc. (Reveal), is proud to share that they have been granted a $3.2M research, development, testing and evaluation (RDT&E) contract award with the Marine Corps Warfighting Laboratory (MCWL).
+
+The contract is a 12-month effort that will allow Reveal to enhance their Farsight platform to produce 
+- Press: Reveal Extends Joint Focused STRATFI Contract with Option Year 1 (2025-08-20) https://www.revealtech.ai/stratfi-update
   Press: Reveal Extends Joint Focused STRATFI Contract with Option Year 1
 
 Skip to content
@@ -285,12 +291,6 @@ This is a search field with an auto-suggest feature attached.
 ##### BOZEMAN, Mont., August 20, 2025
 
 ##### Reveal Technology Inc., a veteran-founded defense technology company, has exercised Option Year 1 of its previously awarded Strategic Funding Increase (STRATFI) thr
-- Reveal Technology, Inc. Receives $3.2M Award With U.S. Marine Corps Warfighting Laboratory (MCWL) (2024-03-28) https://www.prnewswire.com/news-releases/reveal-technology-inc-receives-3-2m-award-with-us-marine-corps-warfighting-laboratory-mcwl-302102592.html
-  Reveal Technology, Inc. Receives $3.2M Award With U.S. Marine Corps Warfighting Laboratory (MCWL) Accessibility Statement Skip Navigation
-
-BOZEMAN, Mont., March 28, 2024 /PRNewswire/ -- Reveal Technology, Inc. (Reveal), is proud to share that they have been granted a $3.2M research, development, testing and evaluation (RDT&E) contract award with the Marine Corps Warfighting Laboratory (MCWL).
-
-The contract is a 12-month effort that will allow Reveal to enhance their Farsight platform to produce 
 
 ## Open roles (Blitz, live)
 - Department of Navy BD Lead ({'city': 'Gold Coast City', 'country_code': 'AU'})

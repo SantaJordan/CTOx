@@ -318,18 +318,22 @@ Larx provides geospatial, drone and remote sensing data orchestration and intell
 New UK subsidiary strengthens international presence and accelerates delivery of decision intelligence capabilities across UK, Europe, the Middle East, and Africa
 
 ATLANTA and LONDON, April 2, 2026 /PRNewswire/ -- Larx, Inc., the AI-native decision intelligence platform for visual and multi-source data, today announced the launch of its UK-based subsidiar
-- Larx Launches UK AI Hub to Bolster NATO Decision-Making - BriefGlance.com (2026-04-02) https://briefglance.com/articles/larx-launches-uk-ai-hub-to-bolster-nato-decision-making
-  Larx Launches UK AI Hub to Bolster NATO Decision-Making - BriefGlance.com
+- Larx Demonstrates Breakthrough Visual Intelligence and 3D Reconstruction Capabilities at Northern Strike 2025 (2025-09-16) https://www.prnewswire.com/news-releases/larx-demonstrates-breakthrough-visual-intelligence-and-3d-reconstruction-capabilities-at-northern-strike-2025-302558127.html
+  Larx Demonstrates Breakthrough Visual Intelligence and 3D Reconstruction Capabilities at Northern Strike 2025 Accessibility Statement Skip Navigation
 
-# Larx Launches UK AI Hub to Bolster NATO Decision-Making
+Field deployment highlights Larx's mission-proven technology, commercial satellite support, and groundbreaking 3D reconstruction workflow for operational advantage
 
-ATLANTA and LONDON – April 02, 2026 – AI-native decision intelligence firm Larx, Inc. has launched a UK-based subsidiary, LARX AI LTD., in a strategic move to embed its technology deeper within allied defense and intelligence networks across Europe, the Middle East, and Africa (EMEA). The expansion is spearheaded by the appointment of Rory Horgan, a UK military an
-- Larx Expands Global Footprint with Launch of LARX AI LTD., Appoints Rory Horgan as Director UK & EMEA (2026-04-02) https://www.prnewswire.co.uk/news-releases/larx-expands-global-footprint-with-launch-of-larx-ai-ltd-appoints-rory-horgan-as-director-uk--emea-302732110.html
-  Larx Expands Global Footprint with Launch of LARX AI LTD., Appoints Rory Horgan as Director UK & EMEA Accessibility Statement Skip Navigation
+CAMP GRAYLING, Mich., Sept. 16, 2025 /PRNewswire/ -- Larx, Inc., the visual intelligence platform, successfully demonstrated its capabilities at Northern Strike 2025, one of the U.S. m
+- Larx Demonstrates Breakthrough Visual Intelligence and 3D Reconstruction Capabilities at Northern Strike 2025 () https://finance.yahoo.com/news/larx-demonstrates-breakthrough-visual-intelligence-174300647.html
+  Larx Demonstrates Breakthrough Visual Intelligence and 3D Reconstruction Capabilities at Northern Strike 2025
 
-New UK subsidiary strengthens international presence and accelerates delivery of decision intelligence capabilities across UK, Europe, the Middle East, and Africa
+Oops, something went wrong
 
-ATLANTA and LONDON, April 2, 2026 /PRNewswire/ -- Larx, Inc., the AI-native decision intelligence platform for visual and multi-source data, today announced the launch of its UK-based subsidiar
+This is a paid press release. Contact the press release distributor directly with any inquiries.
+
+# Larx Demonstrates Breakthrough Visual Intelligence and 3D Reconstruction Capabilities at Northern Strike 2025
+
+Field deployment highlights Larx's mission-proven technology, commercial satellite support, and groundbreaking 3D reconstruction workflow for operatio
 
 ## Open roles
 (no jobs data found)

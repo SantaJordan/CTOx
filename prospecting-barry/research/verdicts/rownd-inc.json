@@ -1,0 +1,44 @@
+{
+  "company": "Rownd, Inc.",
+  "slug": "rownd-inc",
+  "domain": "rownd.ai",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "2023 Air Force SBIR Phase II ($1,237,008, zero-trust auth for Airmen) plus own-site language explicitly branding an 'Arc Edge... Defense & Tactical' product family 'purpose-built for the contested battlespace' with native ATAK/WinTAK output — genuine defense motion even setting aside the mismatched auth-company news blurb.",
+  "disconnect_score": 34,
+  "subscores": {"lab_language_intensity": 5, "deployment_awareness_absence": 2, "operator_absence": 2, "hiring_profile_skew": 10, "stage_pressure": 15},
+  "score_evidence": [
+    "\"Identify drone signatures with 97.2% accuracy... deliver precise coordinates straight into ATAK\" — spec cited but immediately operationally framed → lab_language_intensity kept low",
+    "\"Agents keep acting through DDIL conditions, air gaps, and local-only networks. No cloud round trip is required to decide what comes next.\" → deployment_awareness_absence kept very low (fluent)",
+    "\"Built for the Operator... Every surface is designed for low-bandwidth, high-stakes decision-making\" → operator_absence kept very low (operator-centric)",
+    "(no jobs data found in pack) → hiring_profile_skew set to 10 per rule",
+    "Air Force SBIR Phase II ($1,237,008) is the company's only cited award, team is ~5-10 people per LinkedIn/Blitz, founded 2022 → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Deeply fluent in DDIL/edge autonomy language but the pack shows zero mention of ATO, RMF, CMMC, or ITAR anywhere despite selling directly into Air Force networks.",
+      "operator_reality": "Being DDIL-native solves the connectivity problem; it does not get software onto a government network. The Airmen zero-trust auth SBIR implies they've touched accreditation-adjacent work before, but nothing on the current defense product pages addresses the ATO/CMMC path that actually gates fielding on DoD infrastructure.",
+      "why_likely_missing": "Marketing voice is fully optimized around the edge-autonomy pitch (DDIL, contested battlespace, EW-immune) and hasn't carried the compliance story over from the earlier authentication product line.",
+      "evidence_quote": "\"Autonomy Through Disconnect - Agents keep acting through DDIL conditions, air gaps, and local-only networks. No cloud round trip is required to decide what comes next.\"",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "'Hardened Edge Boxes' and 'Rownd Nano' compute nodes are described as MIL-STD ruggedized and fanless, but there is no mention of who repairs, resupplies, or replaces batteries on these boxes in the field.",
+      "operator_reality": "A ruggedized edge box mounted in a payload bay still fails, and a 5-10 person startup has no visible sustainment/spares pipeline — the sergeant who breaks it has no stated path to a fix, which is exactly the gap that kills fielded programs after the SBIR money runs out.",
+      "why_likely_missing": "Hardware specs (fanless, MIL-STD rugged) read as a checkbox for 'we thought about the field' without the sustainment plan that actually follows.",
+      "evidence_quote": "\"Hardened Edge Boxes - Agentic perception and sensor fusion run on Rownd compute: fanless, ruggedized, and ready for payload bays, UxS platforms, and field kits.\"",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No mention anywhere in the pack of a prime, integrator, or program-office champion above operator level — the company talks directly to 'the operator' but never to how a Phase II SBIR becomes a program of record.",
+      "operator_reality": "Operators loving the console isn't adoption; without a named advocacy chain or prime/flow-down relationship, a tiny team selling 'sovereign military intelligence' direct is exactly the profile that stalls in the valley of death once the SBIR period of performance ends.",
+      "why_likely_missing": "Team is product/engineering-led (drone autonomy, RF signal processing) with no visible BD/capture language in the pack.",
+      "evidence_quote": "\"Rownd is a technology startup delivering enterprise Edge AI infrastructure and sovereign military intelligence to the modern battlespace.\"",
+      "quote_source": "linkedin_about"
+    }
+  ],
+  "opener_hook": "Rownd's Arc platform ships DDIL-native autonomy with ATAK output on a single Air Force Phase II — is the ATO path for that Phase II mapped yet?",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Builds DDIL-native edge-AI autonomy (Arc UAS/RF/Fusion/UxV) that runs perception, reasoning, and mission decisions locally on drones, UUVs/USVs, and sensor nodes for contested environments."
+}

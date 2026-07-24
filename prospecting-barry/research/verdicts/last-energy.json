@@ -1,0 +1,16 @@
+{
+  "company": "Last Energy",
+  "slug": "last-energy",
+  "domain": "lastenergy.com",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "Own-site language is entirely commercial (data centers, metals, food/beverage, pulp/paper, chemicals, cement customers via PPA). The only defense-adjacent item is a NATO Energy Security Centre of Excellence partnership to 'jointly research military applications' and 'explore opportunities for future deployment' — an exploratory advisory MOU, not a DoD/military customer contract or SBIR.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "medium",
+  "stage_band": "unknown",
+  "what_they_do": "Full-service developer/owner/operator of factory-built 20MWe modular pressurized-water micro-reactors (PWR-20), selling baseload power to data centers and industrial customers via power purchase agreements; not a defense-tech company."
+}

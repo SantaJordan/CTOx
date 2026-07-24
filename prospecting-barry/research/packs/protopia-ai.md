@@ -264,7 +264,7 @@ Protect your sensitive data at LLM inference endpoints with stochastic transfor
 Protopia AI is a leader in data protection and privacy-preserving AI/ML technologies based in Austin, TX. Our core offering, Stained Glass Transform™ enables private inference anywhere by eliminating the need for AI models to access raw sensitive data. This enables businesses to deploy AI applications securely across various environments, including hybrid and multi-cloud infrastructures, while maintaining full control and ownership of their data. Protopia AI has served a diverse range of organizations, including the U.S. Navy and Q2 Bank. As a trusted partner to industry leaders such as Amazon
 
 ## News (Exa, top 3)
-- Protopia AI Selected as Awardee on Missile Defense Agency SHIELD ... (2026-01-20) https://protopia.ai/protopia-ai-awarded-mda-shield-idiq/
+- Protopia AI Selected as Awardee on Missile Defense ... (2026-01-20) https://protopia.ai/protopia-ai-awarded-mda-shield-idiq/
   Protopia AI Selected as Awardee on Missile Defense Agency SHIELD Contract Vehicle - Protopia
 
 ## Protopia AI Selected as Awardee on Missile Defense Agency SHIELD Contract Vehicle

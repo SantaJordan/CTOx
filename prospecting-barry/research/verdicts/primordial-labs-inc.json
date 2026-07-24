@@ -1,0 +1,41 @@
+{
+  "company": "Primordial Labs Inc.",
+  "slug": "primordial-labs-inc",
+  "domain": "primordial-labs.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "2 Phase I + 3 Phase II SBIR awards ($6.6M total, SOCOM ADViCE 2023, Army $1.9M 2025) plus a Phase III contract with the 49th Operations Group at Holloman AFB, and a named 'Army UAS Operator' testimonial — SBIR/STTR record and News sections.",
+  "disconnect_score": 42,
+  "subscores": {"lab_language_intensity": 6, "deployment_awareness_absence": 12, "operator_absence": 3, "hiring_profile_skew": 8, "stage_pressure": 13},
+  "score_evidence": [
+    "'Uses a transparent AI architecture designed to pass DoD Test & Evaluation and integrate cleanly into mission-critical workflows' -> deployment_awareness_absence: T&E is addressed but ATO/RMF/CMMC/ITAR/STIG/DDIL are never mentioned once across the pack despite Scipio feeding data into mission-planning/C2 workflows",
+    "'Primordial Labs has been awarded a Phase III contract with the 49th Operations Group at Holloman Air Force Base' plus '3 Phase II Awards ... $6,623,504 Total Awarded' -> stage_pressure: multiple overlapping SBIR Phase II/III transitions with a ~28-person team means funded-months-remaining risk on several fronts at once"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Scipio's voice-driven mission plans are described as feeding into ISR/C2 workflows and a GRIP S20 controller integration, but no ATO/RMF path is mentioned even as the company enters a Phase III contract with an operational unit.",
+      "operator_reality": "Getting from a single-unit Phase III pilot at Holloman to broader fielding typically requires the data path into program-of-record C2/GCS systems to clear RMF/ATO — without that groundwork already underway, the pilot stalls as 'the 49th Operations Group's tool' instead of scaling DoD-wide.",
+      "why_likely_missing": "The team's public narrative (and hiring: BD Manager, Director of BD, Field Deployment Engineer) is centered on demo-to-contract wins, not yet on the compliance plumbing that turns one unit's adoption into a program of record.",
+      "evidence_quote": "Built for Trust, Testability, and T&E Compliance — Uses a transparent AI architecture designed to pass DoD Test & Evaluation and integrate cleanly into mission-critical workflows",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The hands-free, voice-operated pitch never addresses acoustic robustness — command recognition under rotor wash, gunfire, or wind noise, or a fallback modality when voice input fails.",
+      "operator_reality": "A voice interface that works in a quiet demo room can fail exactly when the operator needs it most — under fire or near a running rotor — and the 'reduces cognitive burden' pitch assumes clean audio capture that a contested acoustic environment won't provide.",
+      "why_likely_missing": "The product description and the single operator testimonial both emphasize span-of-control and training-time wins, never mission-environment noise conditions, suggesting testing has centered on controlled demos rather than field acoustic stress.",
+      "evidence_quote": "Eases Operator Cognitive & Physical Burdens — Minimizes both cognitive and physical task load by allowing hands-free, intuitive system control, freeing warfighters to focus on the mission",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Scipio is a 'soldier-worn/carried kit' for Group 1 UAS, but nothing in the pack addresses battery life, battery-swap logistics, or field sustainment for that worn hardware across multi-day operations.",
+      "operator_reality": "A worn/carried payload that runs out of power mid-mission with no spares plan reverts the operator to manual control exactly when the natural-language interface was supposed to reduce burden — sustainment gaps like this are what typically kill low-SWaP hardware programs after the first field exercise.",
+      "why_likely_missing": "The ADViCE abstract frames success around four prototype kits and 'end-user evaluation and feedback engagements' — early-stage demonstration language, not yet sustainment planning for continuous field carry.",
+      "evidence_quote": "Comprised of a soldier-worn/carried kit for Group 1 small UAS and an on-board payload for Group 2/3 UAS, Scipio reduces cognitive burden by providing operators with a rapid, hands-free, voice-operated, data-driven mission planning and execution capability",
+      "quote_source": "sbir_abstract"
+    }
+  ],
+  "opener_hook": "Your ADViCE SBIR abstract describes Scipio as a soldier-worn kit built around four prototype units and end-user evaluations — the abstract doesn't say anything about a battery-swap or field-sustainment plan for a kit meant to stay on an operator across a mission.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Natural-language voice-control interface (Anura/Scipio) that lets one warfighter command drones, sensors, and ground-vehicle systems hands-free, built by ex-Skunk Works engineers with multiple SBIR and a Phase III contract already in hand."
+}

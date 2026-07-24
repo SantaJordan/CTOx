@@ -314,16 +314,14 @@ DOW
 Branch: USAF
 
 Total Award Amount: $109
-- Sonera Magnetics, Inc. · 2332 5th St Ste E, Berkeley, CA 94710-2453 () https://opengovwa.com/corporation/604847759
-  Sonera Magnetics, Inc. · 2332 5th St Ste E, Berkeley, CA 94710-2453
+- Sonera Magnetics | Intellectual Property & Industry Research Alliances () https://ipira.berkeley.edu/sonera-magnetics
+  Sonera Magnetics | Intellectual Property & Industry Research Alliances
 
-# Sonera Magnetics, Inc.
+# Sonera Magnetics
 
-## [phone] · 2332 5th St Ste E, Berkeley, CA 94710-2453
+### Brief Description
 
-## Overview
-
-SONERA MAGNETICS, INC. is a business entity in Berkeley, California registered with the Secretary of State of Washington State. The Unified Business Identifier (UBI) of the entity is #604847759, the entity type is Foreign Profit Corporation and the business category is Regular Corporation. The entity was incorporated on January 
+Magnetometers are nearly ubiquitous in today’s world, fueling applications as diverse as medical diagnostics and self-driving cars. The most sensitive magnetometers, however, can only operate at extreme temperatures and in a shielded environment that isolates the sensor from ambient magnetic fields. Sonera Magnetics is developing a magnetometer that can operate at room temperature a
 
 ## Open roles
 (no jobs data found)

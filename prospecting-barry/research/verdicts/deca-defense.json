@@ -1,0 +1,29 @@
+{
+  "company": "Deca Defense",
+  "slug": "deca-defense",
+  "domain": "decadefense.ai",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "DoD intent passes the gate on their own language — 'We don't ask warfighters to adapt to AI. We force AI to adapt to warfighters' (embedded-edge-ai page) and 'Formed by a team of AI engineers and military veterans, our objective is to enhance the effectiveness and efficiency of ground forces' (LinkedIn about). Note that none of the three news items belong to this company: W58P0525C0007 is the Defense Commissary Agency (DeCA) EBS 2.0 award, the $120M SkyWater award belongs to Deca Technologies (semiconductor packaging), and the IBM item is also DeCA. There is no contract record for Deca Defense in this pack.",
+  "disconnect_score": 0,
+  "subscores": {
+    "lab_language_intensity": 0,
+    "deployment_awareness_absence": 0,
+    "operator_absence": 0,
+    "hiring_profile_skew": 0,
+    "stage_pressure": 0
+  },
+  "score_evidence": [
+    "Their own 'Products & Services' list is six items tagged SERVICE (AI Autonomy, AI Machine Learning, Embedded Edge AI, Command Ops Support, Communication Support, Jetson BSP Sustainment, Sensor-Integrated Data Fusion) against two tagged PRODUCT (HEX, CALLOUT) → the business is engineering services sold into someone else's program",
+    "'You bring the problem. We define the objective function.' and 'Great relationships don't start with a contract. They start with a conversation. Talk to an engineer' → a consulting engagement model, not a capability seeking a transition",
+    "'We work alongside your engineers to extend capability, not replace it, while transferring knowledge along the way' and 'You Maintain Technical Ownership. We deliver models with full transparency and source code' → staff-augmentation economics; the customer keeps the IP",
+    "'Delivered Through Final Deployment — We stay involved through testing and integration to ensure the solution operates as intended in your environment' → they sell prototype-to-fielded engineering, which is Barry's own service; this is a competitor or a partner, not a prospect",
+    "Independently of type, their disconnect score would floor out: 'those aren't the real problem... Deca Defense builds AI that works in the environments where bandwidth dies, where latency kills' and 'tailoring AI solutions to meet Size, Weight, and Power constraints' (linkedin_about) show fluent DDIL and SWaP-C language — they already understand the deployed environment",
+    "Only open role is a 'Deep Learning Engineer Internship' in Melbourne, FL → ~9-12 people with no visible program-of-record delivery load"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Small Melbourne, FL engineering shop that ports and co-designs deep-learning models onto FPGA, ASIC, and embedded GPU targets for tactical platforms, plus two products — HEX (distributed edge inference over constrained links) and CALLOUT (natural-language command layer for autonomous systems)."
+}

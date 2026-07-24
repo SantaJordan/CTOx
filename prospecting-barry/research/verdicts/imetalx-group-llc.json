@@ -1,0 +1,20 @@
+{
+  "company": "iMetalx Group, LLC",
+  "slug": "imetalx-group-llc",
+  "domain": "imetalx.com",
+  "verdict": "insufficient_evidence",
+  "drop_reason": "",
+  "dod_intent_evidence": "DoD intent is genuine and passes the gate — Air Force SBIR Phase II 2023, 'Space Based Sensors for Safety and Situational Awareness for Future ISAM Vehicle Rendezvous' ($1,680,508), plus a GlobeNewswire release on a PSIONIC collaboration 'Supporting RPOD, Space Control, and Space Battle Management for U.S. Space Force and SDA Missions' (2026-02-11). The pack fails the evidence-sufficiency gate, not the intent gate.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "Own-language word count is ~492, below the ~500-word floor, and roughly half of that is two leadership bios and an office address",
+    "The entire product portfolio is four code names with no description: 'Perception (THOR) / Simulation (ASGARD) / Intelligence (HEIMDALL) / Autonomy (ODIN)' — deployment topics cannot be scored as absent when the product is never described in enough detail for them to arise",
+    "The only capability language is abstract vision copy — 'Our work extends to edge-based decision support, coordinated maneuver planning, resilient command and control, and secure integration across sensing and navigation architectures' — which nods at edge and resilience without describing any system"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Nine-person Sausalito company building space-object characterization, simulation, and autonomy software for space domain awareness, rendezvous/proximity operations, and space control."
+}

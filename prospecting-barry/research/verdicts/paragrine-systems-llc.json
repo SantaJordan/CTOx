@@ -1,0 +1,42 @@
+{
+  "company": "Paragrine Systems, LLC",
+  "slug": "paragrine-systems-llc",
+  "domain": "paragrinesystems.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own SBIR Phase II abstract: 'Powered Parafoil Vehicle Management System (PP-VMS) — Air Force 2022 ($849,807)' explicitly names Air Force PR and Special Operations Forces (SOF) as the mission customer and describes reducing combat risk to transport aircraft crews.",
+  "disconnect_score": 58,
+  "subscores": {"lab_language_intensity": 10, "deployment_awareness_absence": 12, "operator_absence": 9, "hiring_profile_skew": 10, "stage_pressure": 17},
+  "score_evidence": [
+    "'AGUV is simple, powerful, robust, low cost, and highly innovative' with zero mention of ATO/RMF/CMMC/ITAR anywhere on the site → deployment_awareness_absence (capped at 12: own-language word count ~964 < 1000)",
+    "SBIR awarded 2022, current employee count 2 ('Paragrine Systems, Llc employs 2 people (+100.0% YoY, +1 person)') with no visible Phase III transition news → stage_pressure",
+    "No jobs data in pack → hiring_profile_skew set to 10 baseline"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "PP-VMS's core value is JPADS-style 'waypoint following, loiter patterns, and autonomous path reversal' guidance, but the abstract never addresses GPS-denied or jammed navigation.",
+      "operator_reality": "In a GPS-denied fight, the same waypoint/loiter guidance that makes PP-VMS valuable disappears exactly when SOF needs precision delivery most — there's no mention of INS backup, visual nav, or degraded-GPS fallback.",
+      "why_likely_missing": "Team appears to be aviation product-development generalists (per site bio) rather than avionics/GNC specialists focused on contested-environment navigation.",
+      "evidence_quote": "mission programmability with waypoint following, loiter patterns, and autonomous path reversal",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "Claims 'reduced training requirements' for a brand-new vehicle management interface with no description of who trains aircrew or ground teams to actually use PP-VMS.",
+      "operator_reality": "'Reduced training requirements' is asserted, not demonstrated — for SOF or PR teams under real time pressure, an unfamiliar VMS interface with no described training pipeline is exactly the kind of last-mile friction that keeps a proven prototype grounded.",
+      "why_likely_missing": "The claim reads as a proposal-writing benefit statement rather than something validated with real operators.",
+      "evidence_quote": "reduced training requirements and expanded mission capabilities",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "Proposes adapting the vehicle for 'weapons delivery' and SOF missions with zero mention of ITAR/export-control handling, from a company with only 2 employees.",
+      "operator_reality": "A VMS proposed for weapons-delivery missions and SOF use is squarely inside ITAR territory; a 2-person shop with no visible compliance hire risks the same administrative freeze that stalls small defense primes before Phase III ever starts.",
+      "why_likely_missing": "Team is technical/aviation-focused (per bio: 'hands-on business builders and technical visionaries with decades of experience in aviation product development'), not compliance-focused, and is too small to have a dedicated ITAR function.",
+      "evidence_quote": "adapt powered parafoils for other missions such as ISR, weapons delivery, and decreasing pilot workload on manned operations",
+      "quote_source": "sbir_abstract"
+    }
+  ],
+  "opener_hook": "Paragrine Systems' 2022 Air Force Phase II SBIR ($849,807) proposes a parafoil vehicle-management system for SOF cargo and personnel delivery — the company is now down to 2 employees with no public sign of a Phase III transition.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Builds the AGUV, a powered-parafoil air/ground hybrid utility vehicle, and under an Air Force Phase II SBIR is developing a Powered Parafoil Vehicle Management System (PP-VMS) for SOF/PR cargo and personnel delivery."
+}

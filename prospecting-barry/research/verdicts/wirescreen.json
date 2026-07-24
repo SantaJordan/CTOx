@@ -1,0 +1,16 @@
+{
+  "company": "WireScreen",
+  "slug": "wirescreen",
+  "domain": "wirescreen.ai",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Own press release confirms 'Awardable' status on the DoW CDAO Tradewinds Solutions Marketplace (April 2026); News section shows an active SAM.gov 'WireScreen Software License Subscriptions' listing and a founder LinkedIn post confirming a spot on a $919 million federal contract vehicle.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Cloud-based China-focused business/ownership intelligence SaaS platform (web + API + data feeds), already selling active government subscriptions and hiring a dedicated federal/Air Force/Space Force sales team."
+}

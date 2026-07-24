@@ -1,0 +1,16 @@
+{
+  "company": "Vorlon",
+  "slug": "vorlon",
+  "domain": "vorlon.io",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "None found — own-words site, LinkedIn about, and news are entirely commercial enterprise SaaS/agentic-AI security messaging (customers named: ThoughtSpot, Splitit, Dutchie; Series A from Accel); source is only a defense VC portfolio list ('vc:shield'), which the gate explicitly says is not sufficient by itself, and no SBIR/DoD/military language appears anywhere in the pack.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "series_a",
+  "what_they_do": "A commercial 'agentic ecosystem security' platform (AI agent runtime monitoring, SaaS/API data-flow security) selling to enterprise CISOs at companies like ThoughtSpot, Splitit, and Dutchie — no evident DoD customer or contract motion."
+}

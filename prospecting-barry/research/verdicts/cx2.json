@@ -1,0 +1,44 @@
+{
+  "company": "CX2",
+  "slug": "cx2",
+  "domain": "cx2.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own newsroom: 'CX2 Dual Selected for DIU's Project G.I. DRM 3' (Apr 2026) and 'Downselected for DIU's Project G.I. Phase 2 with RF-Seeking Payload Vadris' (Nov 2025), plus a reported $2M DIU DRM3 contract for adoption by an INDOPACOM unit (news).",
+  "disconnect_score": 33,
+  "subscores": {"lab_language_intensity": 8, "deployment_awareness_absence": 5, "operator_absence": 4, "hiring_profile_skew": 4, "stage_pressure": 12},
+  "score_evidence": [
+    "'machine-speed targeting. From first detection to kinetic strike... in seconds' — swagger, but operationally framed → lab_language_intensity 8",
+    "Fluent in the contested environment: 'even in GNSS-denied or heavily jammed environments', 'GNSS-hardened airborne Electronic Warfare (EW) platform' → deployment_awareness_absence low (5); calibration rule: fluency scores LOW, keep at bottom of list",
+    "Operators central: 'the operator to follow a real-time line of bearing toward the signal's source'; founders flew AH-64s/MH-6s and led SpaceX RF → operator_absence 4",
+    "Hiring CNC Machinist, Manufacturing Engineer, Assembly Technician, EW Architect, BD Lead USMC — production and field-facing, not researcher-only → hiring_profile_skew 4",
+    "'3D visual prototype of Wraith in development' while DRM3 selection (Apr 2026) starts the unit-adoption clock → stage_pressure 12"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Wraith is a rendering while the DIU adoption clock is already running",
+      "operator_reality": "DRM3 selection means an INDOPACOM unit expects hardware, training, spares, and a sustainment tail on Project G.I.'s timeline; the flagship platform is still shown as a 3D model, and months-to-field beyond the funded period is exactly where transitions die.",
+      "why_likely_missing": "A 2024-founded, move-fast El Segundo team optimizes for winning downselects; nothing in their language addresses who trains the unit, who fixes Wraith forward, or battery/spares logistics.",
+      "evidence_quote": "3D visual prototype of Wraith in development",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Vadris depends on an FPV video link inside the very spectrum fight it sells",
+      "operator_reality": "Overlaying line-of-bearing 'onto the FPV video feed' assumes the video downlink survives; in the contested EMS they describe, adversary jamming and their own emissions-control rules degrade that link first — the operator loses the overlay exactly when hunting the emitter matters.",
+      "why_likely_missing": "The seeker is the product; the fragile COTS FPV control/video link is treated as a given because demos happen on clean ranges.",
+      "evidence_quote": "overlaying their direction onto the FPV video feed. This enables the operator to follow a real-time line of bearing toward the signal's source",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "'Open by Design' integration with tactical networks that never names TAK or an accreditation path",
+      "operator_reality": "Emitter coordinates reach a fires cell or ground force through ATAK/TAK and accredited C2 systems; in ~1,200 words touching situational awareness and 'C2 tools, and tactical networks' there is no ATAK, no ATO/RMF, no ITAR language — the government back-end integration that turns a downselect into fielded kit is unstated.",
+      "why_likely_missing": "RF and platform engineers (SpaceX/Raytheon lineage) build the emitter chain; the accreditation and TAK plumbing feels like paperwork until it gates the INDOPACOM deployment.",
+      "evidence_quote": "seamlessly integrate with your existing sensors, C2 tools, and tactical networks. No lock-in, just combat-ready interoperability.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "CX2's April DRM3 dual-selection puts Wraith on an INDOPACOM adoption clock while the company's own site still labels it a '3D visual prototype in development.'",
+  "confidence": "high",
+  "stage_band": "series_a",
+  "what_they_do": "AI-enabled electronic-warfare hardware/software — an RF-seeking FPV payload (Vadris) and an autonomous airborne EW drone (Wraith) — to find and target enemy emitters."
+}

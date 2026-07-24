@@ -1,0 +1,28 @@
+{
+  "company": "Code Metal",
+  "slug": "code-metal",
+  "domain": "codemetal.ai",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Strong and multi-sourced: definitive Air Force contract FA239125CB041 and a HigherGov awardee profile (UEI K3ZYBLDXBBM4, CAGE 9QYB8, most recent award Sept 30 2025) in the news section, a $280,000 USAF award (Feb 2026), a USSOCOM-focused hackathon they ran, and named defense customer work — 'L3Harris is modernizing code across multiple business units for memory safety and long-term maintainability' (homepage use cases).",
+  "disconnect_score": 0,
+  "subscores": {
+    "lab_language_intensity": 0,
+    "deployment_awareness_absence": 0,
+    "operator_absence": 0,
+    "hiring_profile_skew": 0,
+    "stage_pressure": 0
+  },
+  "score_evidence": [
+    "'It follows the company's $125M Series B at a $1.25B valuation' (news, June 25 2026) → no stage pressure whatsoever; ~110 employees and an acquisition completed, far outside the $5M–$10M band Barry's EDP is built for",
+    "'L3Harris is modernizing code across multiple business units' and 'A top 5 global automotive OEM is avoiding chip vendor lock-in and maintains an entire fleet of vehicle SKUs from a single source-of-truth codebase' (homepage) → named production customers in defense and automotive; they crossed the valley",
+    "'closing the gap between RF algorithms that work in a model and capabilities that work in the field' (news, Advanced RF Group launch) → they market Barry's own thesis as their product; this is a peer or a channel, not a prospect",
+    "Open roles include 'Forward Deployed Engineer' and 'Director of Quality Engineering' → the fielding and assurance functions are already staffed in-house",
+    "'Auto-generate a complete test suite with full functional and MCDC coverage... Seamlessly integrate automated compliance and verification checks' (homepage) → fluent in the certification vocabulary of safety-critical delivery"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "AI plus formal-verification platform that translates legacy or research code (e.g. Python) into verified, standards-compliant embedded code for a chosen target chip, sold into defense, automotive, and aerospace."
+}

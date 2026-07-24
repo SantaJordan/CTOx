@@ -245,61 +245,7 @@ Open source software has become the modern application development platform acro
 Open source software has become the modern application development platform across enterprises and governments. More than 90% of professional applications are created using open source components. Furthermore, open source software often comprises 70%+ of the code in any modern application. As software supply chain security makes front page news with the SolarWinds breach impacting multiple US federal agencies and departments, it is more important than ever that application development teams employ a comprehensive approach for managing the open source components that make up their applications. With the advent of programs like Platform One’s DoD Enterprise DevSecOps Services, that new reality is facing DoD application developers as well. DoD application development teams are already exposed to potential compromise by adversary teams through the open source packages they’re using today. Unmanaged third-party open source packages present a clear and immediate supply chain risk at all levels—potentially leading to a catastrophic loss of command and control systems in warfighting situations and a total mission compromise. Tidelift is the largest provider of commercial support and maintenance for community-led open source libraries and packages. By partnering with independent project maintainers through Tidelift, the DoD will get a safe, easy, and cost-effective approach to managing open source components. The Tidelift managed open source solution delivers customizable catalogs of software supply chain components that are actively maintained, secure, and accurately licensed, enabling developers to build and deploy faster and with confidence. Research demonstrates that the big three support challenges for open source software are: Maintenance - Guarantees that the packages they use are maintained Security - Protection from security issues Licensing - Open source license management Without a managed solution, DoD development teams face productivity drains, exposure to adversary attacks through unpatched security vulnerabilities, and intellectual property risks. For the military, assuming responsibility for the maintenance of mission-critical, open source-based systems and applications can be challenging because of the long lifespans of the systems involved andthe sheer effort required. Unfortunately, support may not always be readily available. For example, personnel often believe that “somebody out there” can help them address security issues as they arise – when this may not be the case. Open source community members aren’t on call 24/7 and do not deliver DoD Air Force X22.1 CSO Solicitation service level agreements to users. Fortunately, external vendors can help. Crucially, external vendors can also provide support, taking on responsibility for the open source maintenance piece – thereby enabling military IT to focus on higher-level activities that directly support the mission.
 
 ## News (Exa, top 3)
-- Award | SBIR () https://www.sbir.gov/awards/204394
-  Award | SBIR Skip to main content
-
-# Award
-
-Portfolio Data
-
-Back to Award Search
-
-## Tidelift - Open Source Software Supply Chain Management in an IL4 Environment
-
-### Awardee
-
-#### Tidelift, Inc.
-
-50 Milk StBoston, MA, 02109-5003USA
-
-Award Year: 2023
-
-UEI: C133QNJNE1M5
-
-HUBZone Owned: No
-
-Woman Owned: No
-
-Socially and Economically Disadvantaged: No
-
-Congressional District: 8
-
-Tagged as:
-
-SBIR
-
-Phase II
-
-### Awarding Agency
-
-DOD
-
-Branch: USAF
-
-Total Award Amount: $1,249,997
-
-Contract Number: FA8
-- Tidelift has been awarded a $3.5 million contract to secure software supply chains - SD Times (2023-05-24) https://sdtimes.com/security/tidelift-has-been-awarded-a-3-5-million-contract-to-secure-software-supply-chains/
-  Tidelift has been awarded a $3.5 million contract to secure software supply chains - SD Times
-
-Published: May 24th, 2023
-
--
-
-Security and resilience solution provider Tidelift has announced that it has been awarded three contracts with the U.S. government, equalling over $3.5 million. With this, the company intends to expand its public sector organization to meet the growing demand for improved cybersecurity supply chain risk management from the U.S. government.
-
-According to Tidelift, this effo
-- Tidelift Public Sector Momentum Increases as ... (2023-05-23) https://www.businesswire.com/news/home/20230523005240/en/Tidelift-Public-Sector-Momentum-Increases-as-Cybersecurity-Supply-Chain-Risk-Management-Becomes-Top-Government-Priority
+- Tidelift Public Sector Momentum Increases as Cybersecurity Supply ... (2023-05-23) https://www.businesswire.com/news/home/20230523005240/en/Tidelift-Public-Sector-Momentum-Increases-as-Cybersecurity-Supply-Chain-Risk-Management-Becomes-Top-Government-Priority
   Tidelift Public Sector Momentum Increases as Cybersecurity Supply Chain Risk Management Becomes Top Government Priority
 
 -
@@ -313,6 +259,20 @@ Share
 Tidelift awarded three U.S. government contracts worth over $3.5 million to meet federal research and development needs and stimulate technological innovation, expands public sector team to meet accelerating demand
 
 BOSTON--(BUSINESS WIRE)--
+- Tidelift has been awarded a $3.5 million contract to secure software supply chains - SD Times (2023-05-24) https://sdtimes.com/security/tidelift-has-been-awarded-a-3-5-million-contract-to-secure-software-supply-chains/
+  Tidelift has been awarded a $3.5 million contract to secure software supply chains - SD Times
+
+Published: May 24th, 2023
+
+-
+
+Security and resilience solution provider Tidelift has announced that it has been awarded three contracts with the U.S. government, equalling over $3.5 million. With this, the company intends to expand its public sector organization to meet the growing demand for improved cybersecurity supply chain risk management from the U.S. government.
+
+According to Tidelift, this effo
+- tidelift (2026-06-26) https://tidelift.com/
+  # Tidelift (Tidelift, Inc.)
+
+Tidelift is a Software Development company. Tidelift is a company that partners with open source maintainers to implement industry-leading secure software development practices and validate the practices they follow so organizations can have the same confidence in the security of their applications. Tidelift employs 6 people (-21.4% YoY, -3 people) and has an annual revenue of $4M, founded in 2017. Headquartered in Boston, Massachusetts, United States. Its workforce 
 
 ## Open roles
 (no jobs data found)

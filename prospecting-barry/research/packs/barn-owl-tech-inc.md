@@ -568,12 +568,6 @@ November 22, 2019, 09:45 pm
 ---
 
 Barn Owl Tech Inc. of Colorado Springs has received a $240,000 grant from the Colorado Office of Economic Development and International Trade to develop a camera that uses artificial intelligence to remote remote
-- barn owl tech, inc. (2026-06-25) https://barnowl.tech/
-  # Barn Owl Tech, Inc.
-
-Barn Owl Tech, Inc. is a IT Services and IT Consulting company. Barn Owl Tech is a company that provides off-grid cellular security cameras for farms, ranches, jobsites, and remote property. They offer solar-powered, no WiFi needed, free shipping, and a 45-day guarantee. Barn Owl Tech, Inc. employs 10 people (-18.8% YoY, -3 people), founded in 2016. Headquartered in Colorado Springs, Colorado, United States. Has $2.7M in total funding, with 2 prior funding rounds.
-
-## Abou
 - Cypress Growth Capital | Cypress Growth Capital Invests in Barn Owl (2024-06-10) https://www.cypressgrowthcapital.com/cypress-points/cypress-growth-capital-invests-in-barn-owl
   Cypress Growth Capital | Cypress Growth Capital Invests in Barn Owl
 
@@ -584,6 +578,12 @@ Back to All
 Cypress Growth Capital is pleased to announce our recent investment in Barn Owl, a Colorado Springs-based hardware and SaaS company that provides AI-enabled, camera-based remote monitoring solutions to ranchers, municipalities, and the military.
 
 Founded in 2016, Barn Owl monitors remote assets and resources within an integrated hardware and software platform. Customers
+- barn owl tech, inc. (2026-06-25) https://barnowl.tech/
+  # Barn Owl Tech, Inc.
+
+Barn Owl Tech, Inc. is a IT Services and IT Consulting company. Barn Owl Tech is a company that provides off-grid cellular security cameras for farms, ranches, jobsites, and remote property. They offer solar-powered, no WiFi needed, free shipping, and a 45-day guarantee. Barn Owl Tech, Inc. employs 10 people (-18.8% YoY, -3 people), founded in 2016. Headquartered in Colorado Springs, Colorado, United States. Has $2.7M in total funding, with 2 prior funding rounds.
+
+## Abou
 
 ## Open roles
 (no jobs data found)

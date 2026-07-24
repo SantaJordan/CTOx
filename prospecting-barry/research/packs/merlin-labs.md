@@ -256,7 +256,7 @@ Show All
 Merlin is an aerospace and defense technology company building the operating system of record for autonomous flight. Our aircraft-agnostic, AI-powered software is purpose-built for military and civil programs, and is powering an expanding range of missions and aircraft, proven through hundreds of autonomous flights from test facilities across the globe. With $100M+ total in awarded contracts from military customers, Merlin is helping to solve national security challenges through safe, reliable autonomy.
 
 ## News (Exa, top 3)
-- Merlin Awarded $105M Production Contract for USSOCOM Fixed-Wing Autonomy (2024-06-11) https://www.businesswire.com/news/home/20240611723182/en/Merlin-Awarded-%24105M-Production-Contract-for-USSOCOM-Fixed-Wing-Autonomy
+- Merlin Awarded $105M Production Contract for USSOCOM Fixed-Wing ... (2024-06-11) https://www.businesswire.com/news/home/20240611723182/en/Merlin-Awarded-%24105M-Production-Contract-for-USSOCOM-Fixed-Wing-Autonomy
   Merlin Awarded $105M Production Contract for USSOCOM Fixed-Wing Autonomy
 
 Jun 11, 2024 1:57 PM Eastern Daylight Time
@@ -294,58 +294,16 @@ Merlin Labs Logo / merlinlabs.com
 Merlin Labs has received a potential five-year,$105 million contract from U.S. Special Operations Command to design, test and integrate a system that could demonstrate reduced aircrew capability.
 
 T
-- Contract FA86492599001 Merlin Labs () https://www.highergov.com/contract/FA86492599001/
-  Contract FA86492599001 Merlin Labs
+- Special Operations Command Contracts Aircraft Design | AFCEA International () https://www.afcea.org/signal-media/special-operations-command-contracts-aircraft-design
+  Special Operations Command Contracts Aircraft Design | AFCEA International
 
-HigherGov
+Enable breadcrumbs token at /includes/pageheader.html.twig
 
-Pipeline
+# Special Operations Command Contracts Aircraft Design
 
-FOIA
+Jul 17, 2024
 
-Track
-
-Favorite
-
-No Bid
-
-Export
-
-- CSV
-- Excel
-
-Share
-
-- Copy URL
-- Email
-- Tweet
-
-# FA86492599001
-
-Other Transaction Agreement
-
-- List
-- Text
-
-## Overview
-
-Government Description
-
-Enhancing reduced-crew flight operations with Natural Language Processing (NLP)-driven real-time dynamic replanning
-
-Awardee
-
-Awarding / Funding Agency
-
-Air Force Research Laboratory (AFRL) [DoD - USAF - AFMC]
-
-NAICS
-
-Not Reported
-
-PSC
-
-AC32 - National Def
+Merlin Labs Inc., Boston, Massachusetts, is being awarded an indefinite-delivery/indefinite-quantity contract (H9240824R0003) with a contract ceiling of $105,000,000. This contract is being awarded to design, integrate and test an operationally relevant system that will demonstrate reduced air
 
 ## Open roles (Blitz, live)
 - Contract Recruiting Coordinator ({'city': 'Boston', 'country_code': 'US'})

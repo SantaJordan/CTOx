@@ -1,0 +1,26 @@
+{
+  "company": "Smack Technologies",
+  "slug": "smack-technologies",
+  "domain": "smacktechnologies.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own news page confirms prototyping contracts from the Joint Fires Network (JFN) and Marine Corps Warfighting Lab (MCWL) totaling seven figures, plus reported Air Force, Marine Corps, and Navy contracts per channel notes; Alpha edge product targets tactical/tablet decision support for fires and maneuver.",
+  "disconnect_score": 74,
+  "subscores": {"lab_language_intensity": 18, "deployment_awareness_absence": 18, "operator_absence": 6, "hiring_profile_skew": 15, "stage_pressure": 17},
+  "score_evidence": [
+    "\"Frontier AI Lab for National Security\", \"Cage 1.0\", \"Diet Cage 1.0\", trained via deep RL in \"proprietary synthetic warfare environments\" -> lab_language_intensity",
+    "zero mention of DDIL/ATO/RMF/CMMC/ITAR/STIG anywhere despite \"real-time COA updates in seconds\" for fires -> deployment_awareness_absence",
+    "\"Led by Warfighters, Built by Scientists and Engineers\", named Directors of Growth for USMC/USSOCOM, USAF, and Navy/USMC, hired a Navy/DIU veteran specifically to root RLHF in \"real warfighters\" -> operator_absence (low absence, operators are central to messaging)",
+    "open roles are Capture and Proposal Manager + Senior Backend Engineer, no field/compliance/ISSO roles -> hiring_profile_skew",
+    "$32M seed + Series A, prototype-status product, prototyping contracts with JFN/MCWL, small team (~23-34) -> stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Alpha's edge-level pitch is 'immediate decision making at the front lines' fusing multimodal sensor data for real-time strike packages, with no acknowledgment of degraded or denied comms at the actual edge.", "operator_reality": "A tactical fires-decision AI that assumes 'real-time COA updates in seconds' at the tactical edge hits the exact same wall as the 30fps crowd-detection failure — a contested theater often has bandwidth for a fraction of a frame per second, and a model architected for continuous multimodal fusion breaks the moment the link degrades, right when the decision matters most.", "why_likely_missing": "Product messaging is built around capability ('millions of wartime scenarios', 'in seconds') to win prototyping contracts and funding rounds, not around the comms-denied conditions those scenarios actually occur in.", "evidence_quote": "Fuse multimodal sensor data and generate optimized, multi-domain strike packages in minutes, with real-time COA updates in seconds.", "quote_source": "homepage"},
+    {"blind_spot": "No mention anywhere of ATO/RMF, IL4/IL5, CMMC, or ITAR despite processing intelligence feeds and kill-chain data intended for DoW networks.", "operator_reality": "An AI reasoning layer feeding fires and intelligence decisions has to clear an ATO before it ever runs on a government network; for a seed/Series-A company juggling multiple prototyping contracts (JFN, MCWL) simultaneously, an unaddressed ATO/CMMC gate is exactly the kind of delay that eats the funded months remaining before any of those prototypes transition.", "why_likely_missing": "The team's public identity is built around AI research pedigree and warfighter advisory credibility, not compliance operations — no compliance or ISSO role appears anywhere in the team bios or open roles.", "evidence_quote": "Process vast intelligence feeds to filter signal from noise, detect adversary patterns, and rapidly surface actionable, high-confidence assessments.", "quote_source": "homepage (product page)"},
+    {"blind_spot": "'Proprietary hardware' for the Alpha edge stack is named as a differentiator but never specified in size, weight, power, or cost terms for the tactical platforms it's supposed to run on.", "operator_reality": "Running an AI reasoning model at the tactical edge on a battery-powered platform is a real SWaP-C constraint; without published specs, there's no way to know if Alpha survives a field power budget or needs a laptop-class device an operator can't actually carry.", "why_likely_missing": "The hardware is described purely as a capability enabler for the model, not as a physical constraint the model has to design around.", "evidence_quote": "Smack's edge-level AI stack that features our lightweight models and proprietary hardware for campaign-informed decision making on tactical platforms and autonomous systems.", "quote_source": "homepage"}
+  ],
+  "opener_hook": "Smack's JFN and MCWL prototyping contracts fund real-time fires decisions at the tactical edge. How does Alpha perform once comms go intermittent?",
+  "confidence": "high",
+  "stage_band": "series_a",
+  "what_they_do": "AI decision-support models (Alpha edge stack, Omega command stack) for fires, logistics, intelligence, and force protection, sold into DoD via prototyping contracts with JFN, MCWL, and the services."
+}

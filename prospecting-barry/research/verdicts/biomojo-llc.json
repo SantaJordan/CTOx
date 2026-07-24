@@ -1,0 +1,50 @@
+{
+  "company": "BioMojo LLC",
+  "slug": "biomojo-llc",
+  "domain": "biomojo.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "2022 Defense Health Program SBIR Phase II ($2.2M, nXcomms) plus site client list naming ONR, NAVAIR, Army Futures Command, Womack Army Medical Center — sbir_abstract and homepage sections.",
+  "disconnect_score": 61,
+  "subscores": {
+    "lab_language_intensity": 16,
+    "deployment_awareness_absence": 15,
+    "operator_absence": 8,
+    "hiring_profile_skew": 10,
+    "stage_pressure": 12
+  },
+  "score_evidence": [
+    "\"nXcomms is a groundbreaking project that adds natural language processing and AI features to simulated patients\" → lab_language_intensity",
+    "\"Advancements in human-machine interfaces, artificial intelligence, wearable sensors... are revolutionizing fields\" → lab_language_intensity",
+    "\"Real-time digital representations incorporating physical, cognitive, emotional, and behavioral data\" — detailed product description with zero ATO/RMF/CMMC/DDIL/ITAR language anywhere on site → deployment_awareness_absence",
+    "No jobs data in pack → hiring_profile_skew set exactly 10 per rule",
+    "Phase II awarded 2022, so period of performance is at or past its end; 6-person team carrying a multi-project portfolio → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Human Digital Twin platform aggregates individual service members' physiological, cognitive, and behavioral data with no mention of the accreditation that data demands",
+      "operator_reality": "Per-soldier health and performance data is PII/PHI on DoD networks — it forces IL4/IL5 hosting, an RMF ATO, and DHA privacy review before a single medic's twin exists; that authorization timeline, not the AI, decides whether nXcomms fields before the Phase II money runs out",
+      "why_likely_missing": "Team background is software/XR/computational biology R&D funded by research grants; the site's compliance vocabulary is zero",
+      "evidence_quote": "Real-time digital representations incorporating physical, cognitive, emotional, and behavioral data for holistic individual assessment and predictive state monitoring",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "nXcomms leans on NLP/advanced-AI inference with no stated offline or on-prem architecture",
+      "operator_reality": "Military medical training happens at field hospitals, aboard ships, and at Role 2 sites where cloud AI endpoints are unreachable — same failure mode as the 30fps crowd-detection case: the architecture assumes connectivity the training environment denies",
+      "why_likely_missing": "The Phase II abstract frames success as demonstrating an 'Intelligent Patient Simulation software architecture,' not running it disconnected at a point of need",
+      "evidence_quote": "leveraging natural language processing and advanced Artificial Intelligence (AI) technologies",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "XR training hardware sustainment is absent — no training-the-trainer, spares, or GFE story",
+      "operator_reality": "An XR sim at a MEDCEN or field training site lives or dies on who recharges headsets, reflashes builds, and trains the NCO instructor after the contractor leaves; without a sustainment plan the demo stays a demo and DHA can't transition it",
+      "why_likely_missing": "Grant-funded project cadence rewards deliverable demos; 6 people cannot staff field support and the site never mentions sustainment",
+      "evidence_quote": "TRIAGE combines confidence-building and skills-enhancement with stress inoculation... through immersive 3D virtual and physical training environments",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "BioMojo's 2022 Defense Health Program Phase II funds an AI patient simulator whose per-soldier physiological data forces an IL4 ATO on DHA networks — the one word ('RMF') that appears nowhere on biomojo.com.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "6-person NC shop building AI/XR medical-training sims and human digital twins for military health customers on SBIR and research-grant funding."
+}

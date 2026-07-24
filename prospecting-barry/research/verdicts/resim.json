@@ -1,0 +1,16 @@
+{
+  "company": "ReSim",
+  "slug": "resim",
+  "domain": "resim.ai",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "Own-language (homepage, product, about) describes a general-purpose virtual testing platform for 'embodied AI'/autonomy companies integrating with GitHub, GitLab, Foxglove, Isaac SIM; no SBIR, no DoD/military customer language anywhere. The News section items (Saab, Cubic, a RAMS contract) are about unrelated companies per the pack's own mismatch warning and are disregarded. Only evidence of any defense proximity is appearing on a defense VC's portfolio list (sources: vc:shield), which per instructions is not sufficient alone.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "unknown",
+  "what_they_do": "Virtual/simulation testing platform (CI/CD for physical AI) that lets autonomy companies run their AI against thousands of simulated scenarios before shipping."
+}

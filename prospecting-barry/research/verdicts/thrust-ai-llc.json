@@ -1,0 +1,16 @@
+{
+  "company": "Thrust AI LLC",
+  "slug": "thrust-ai-llc",
+  "domain": "thrustai.com",
+  "verdict": "insufficient_evidence",
+  "drop_reason": "",
+  "dod_intent_evidence": "Genuine DoD motion is present (SBIR Phase II Air Force award 'Bird Brain' — 'Warfighters operating in forward-deployed and stateside airspace environments lack central situational awareness'), but own-language word count (~471) is under the ~500-word evidence-sufficiency threshold.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "low",
+  "stage_band": "unknown",
+  "what_they_do": "AI-based multimodal air-domain sensing (SAR/telemetry/voice/EO-IR fusion) and enterprise flight-ops software for aviation operators."
+}

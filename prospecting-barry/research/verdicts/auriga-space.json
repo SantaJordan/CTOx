@@ -1,0 +1,47 @@
+{
+  "company": "Auriga Space",
+  "slug": "auriga-space",
+  "domain": "aurigaspace.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Their own news feed carries \"Auriga Space and U.S. Army DEVCOM-AC Partner on Operationalizing Electromagnetic Launch Technology for Counter-Drone Defense\" (7/15/2026), \"Auriga Space Awarded Phase 1 STTR from the Missile Defense Agency\" (1/7/2026), and a $1.25M AFWERX Direct-to-Phase II SBIR (8/20/2024).",
+  "disconnect_score": 67,
+  "subscores": {"lab_language_intensity": 16, "deployment_awareness_absence": 12, "operator_absence": 12, "hiring_profile_skew": 12, "stage_pressure": 15},
+  "score_evidence": [
+    "\"Engineered to launch again and again, with no maintenance or downtime\" → lab_language_intensity: a sustainment claim no fielded launcher can make",
+    "\"At Auriga, innovation starts in the lab but lives in the field\" followed by \"From our vertically-integrated R&D facility in Orange County\" → lab_language_intensity: the field half of the sentence has no evidence behind it",
+    "\"price per launch $ vs $$$ / launch cadence high vs low\" comparison table with no energy-per-shot, recharge interval, or power draw figure → lab_language_intensity and deployment_awareness_absence",
+    "\"Platform-agnostic: suitable for airborne, ground, and maritime deployment\" → deployment_awareness_absence: mounting is asserted, never scoped against prime power, mass, or EMI on a host platform",
+    "No mention of ITAR/USML, safety release, EMI/EMC, ATO, or CMMC anywhere in ~800 words of unique own language covering missile defense and hypersonics → deployment_awareness_absence",
+    "Zero occurrences of operator, crew, soldier, warfighter, training, or CONOPS across homepage, technology, and products pages → operator_absence",
+    "Ten open roles are all design engineering (\"Senior Power Electronics Engineer\", \"FPGA Embedded Controls Engineer\", \"Senior Mechanical Design Engineer\") plus \"VP of Strategy\" and \"Business Development Manager - Space & Defense\", with no test, integration, field-service, quality, or compliance role → hiring_profile_skew",
+    "Founded 2023, 26 employees, ~$11M raised, running four declared mission areas (\"Hypersonic Testing / Launched Effects / Missile Defense / Space Access\") off an Aug-2024 D2P2 whose period of performance is running out → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Reusability is claimed as maintenance-free, which is the exact opposite of the number a sustainment review asks for",
+      "operator_reality": "Electromagnetic accelerators erode their rails or stress their coil stack and switching electronics on every shot — the Army's question at DEVCOM-AC will be shots-between-overhaul, who performs the rail or coil replacement, at what echelon, with what spares and what special tooling. Answering 'no maintenance' means the sustainment package does not exist yet, and a system without a maintenance concept cannot be typed classified or put on an Army property book. Publishing a real duty-cycle and consumables number, even an unflattering one, converts the conversation from marketing to program planning.",
+      "why_likely_missing": "Against solid rocket motors, which are single-use and hazardous to store, reusability is such a large genuine win that it gets rounded up to 'free' before anyone counts the wear items.",
+      "evidence_quote": "reusable : Engineered to launch again and again, with no maintenance or downtime",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Magazine depth is pitched without the energy and recharge budget that actually sets it in the field",
+      "operator_reality": "For counter-drone against a saturation attack, the meaningful figure is not how many interceptors are stacked but how many megajoules the site can deliver and how long the capacitor bank takes to recharge between shots. At an austere position that means generators, fuel, and a thermal load — the same class of constraint that killed the 30fps crowd-detection design, where the architecture assumed a resource the environment did not supply. If shot two is ninety seconds behind shot one, the swarm wins and the whole 'increased magazine depth' argument reverses.",
+      "why_likely_missing": "On a wall-powered test track in Garden Grove, recharge time is invisible, so it never enters the comparison table that the pitch is built around.",
+      "evidence_quote": "By removing reliance on solid rocket motors, we reduce cost, increase magazine depth, and provide a scalable response to saturation and swarm threats.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "A commercial hypersonic-testing service is being stood up on the same core that serves MDA interceptor work, with no export-control boundary described",
+      "operator_reality": "Hypersonic test articles and interceptor technology sit on the USML, and running a pilot commercial customer through the same facility, the same test data pipeline, and the same engineering staff is how a small company generates an unintentional export — or, more commonly, how it discovers mid-contract that it needs a technology control plan, a facility segregation scheme, badging, and separated data storage before MDA will let Phase II proceed. That plan takes weeks to write and months to retrofit, and it is due before the STTR follow-on, not after.",
+      "why_likely_missing": "The commercial testing line is the revenue diversification story the seed extension was raised on, so it is being pursued as a business-model move rather than as an export-control event.",
+      "evidence_quote": "Auriga Space Launches Industry-First Hypersonic Materials Testing Capability with Axiom Materials as Pilot Customer",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Auriga announced the DEVCOM-AC partnership on operationalizing electromagnetic launch for counter-drone on July 15, and the technology page still describes the launcher as reusable with no maintenance or downtime — in a transition review that sentence reads as a missing sustainment concept, which is usually what stalls a Phase II before the funded months run out.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Builds electric railgun-style launch tracks that accelerate payloads without propellant, aimed at ground hypersonic testing, launched effects, low-cost interceptors, and eventually space access."
+}

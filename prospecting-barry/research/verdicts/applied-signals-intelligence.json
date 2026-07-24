@@ -1,0 +1,43 @@
+{
+  "company": "Applied Signals Intelligence",
+  "slug": "applied-signals-intelligence",
+  "domain": "asigint.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Homepage leads with 'WARFIGHTER-READY — BRINGING RF ISR-T TO SMALL UAS IN DENIED ENVIRONMENTS' and their sbir.gov firm profile (portfolio/13802) shows 7 Phase I and 8 Phase II awards since 2010 plus a HigherGov awardee record describing them as a tactical DF provider for electronic warfare.",
+  "disconnect_score": 28,
+  "subscores": {"lab_language_intensity": 4, "deployment_awareness_absence": 6, "operator_absence": 6, "hiring_profile_skew": 2, "stage_pressure": 10},
+  "score_evidence": [
+    "'compact enough to fit in a 6-inch diameter x 7-inch long volume, weighing as little as 3.5 lbs. and operating at 40 Watts' — specs stated as SWaP against the host platform rather than as lab performance → very low lab_language_intensity",
+    "'This enables RF targeting in contested, degraded, denied environments, with high-latency, low-bandwidth operational conditions' and 'Platform Agnostic Integration with MOSA Interfaces' — fluent DDIL and open-architecture language → very low deployment_awareness_absence",
+    "Sole open role is 'Field Service Representative' in Sterling, VA — the exact fielding/sustainment hire whose absence drives this subscore up elsewhere → hiring_profile_skew 2",
+    "Founded 2007, 15-16 employees, 'Primarily contract and SBIR/STTR funded', and one aggregator record reads 'employs 9 people (-6.2% YoY, -1 person)' → stage_pressure (perpetual period-of-performance dependence, flat-to-shrinking headcount)"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The product is a targeting sensor, but nothing names where the track goes",
+      "operator_reality": "A line of bearing or a geolocation from a Group 2 UAS only becomes a target when it lands in a C2 or fires system in a format that system accepts — CoT into TAK, VMF or Link-16 into the fires chain, or a specific ingest at the ground control station. 'ISR-T' claims the T. Across the whole site there is no mention of TAK/ATAK, CoT, Link-16, or any mission-system hand-off, which is the seam where an integrated payload stalls at the unit even after the airframe integration works.",
+      "why_likely_missing": "Their engineering identity is RF and DSP (UWB vector sensors, geolocation without GPS); the message-format and C2-integration layer belongs to whichever integrator bolts them on, so it has never been their deliverable — and consequently has no owner when a unit asks for it.",
+      "evidence_quote": "ASI empowers you to know the unknown — detecting, and targeting RF threats from a single platform without mission crews or external coordination.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "SIGINT/COMINT collection with no classified-handling or accreditation path described",
+      "operator_reality": "COMINT and ELINT product is classified at the moment of collection. Getting it off the aircraft and to a user means a cross-domain path, an accredited ground segment, and cleared storage — plus company-level CMMC/NIST 800-171 and ITAR handling for the sensor's own performance parameters. None of that appears in ~1166 words. For a 15-person shop, a failed CMMC assessment or a missing cross-domain plan can stall a transition that the hardware has already earned.",
+      "why_likely_missing": "As a long-time SBIR performer they have delivered into government labs and integrators who already owned the classified enclave; the burden only becomes theirs when a unit wants the capability outside that arrangement.",
+      "evidence_quote": "SNITCH delivers single-ball / single platform, precision RF 3D DF and targeting of much larger platforms on Small UAS. Supports COMINT, SIGINT, and ELINT modalities.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Three-week concept-to-flight is an integration demo, not a fieldable configuration",
+      "operator_reality": "A payload flying on a contractor-owned Vanilla UAS in three weeks and the same payload flying on a unit's aircraft are separated by an airworthiness release for the modified configuration, an approved weight-and-balance and EMI/EMC case, GFE interface control on the host, and a training and spares plan for the crew that maintains it. That gap is measured in quarters, and it is where SBIR-funded hardware most often dies — the demo proved the physics and nobody funded the paperwork.",
+      "why_likely_missing": "Speed of integration is their best marketing asset and a genuine engineering achievement, so it gets published as the headline; the airworthiness and sustainment tail is invisible until a program office asks for the release.",
+      "evidence_quote": "Platform Aerospace and ASI Achieve Concept-to-Flight Integration of the SNITCH RF ISR-T Payload on Vanilla UAS in Under Three Weeks",
+      "quote_source": "news"
+    }
+  ],
+  "opener_hook": "ASI's sbir.gov profile shows 8 Phase II awards since 2010 against a 15-person company, and the SNITCH pages specify the payload down to 3.5 lbs and 40 W — but nowhere on asigint.com does an ISR-T product say where the track goes: no CoT, no TAK, no fires-cell hand-off named.",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Builds ultrawideband passive RF direction-finding and geolocation payloads small enough for Group 2 UAS, giving single-platform SIGINT targeting without GPS or datalinks."
+}

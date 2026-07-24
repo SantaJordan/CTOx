@@ -298,11 +298,11 @@ The work done by his medical center data workers is slowed down because of the m
 - praxi.ai (2026-06-21) https://praxi.ai/
   # PRAXI.AI (Praxi Data, Inc.)
 
-PRAXI.AI is a Information Services company. Link In Bio is a company that provides blog download executive guide, ebooks, and demo podcast services. PRAXI.AI employs 15 people (+5.6% YoY, +1 person), founded in 2018. Headquartered in San Mateo, California, United States, with presence in United Kingdom, Sri Lanka, and France. Has $2.7M in total funding, with 4 prior funding rounds.
+PRAXI.AI is a Information Services company. Link In Bio is a company that provides blog download executive guide, ebooks, and demo podcast services. PRAXI.AI employs 15 people (+5.6% YoY, +1 person), founded in 2018. Headquartered in San Mateo, California, United States. Its workforce is distributed across United States, United Kingdom, Sri Lanka, and France. Has $2.7M in total funding, with 4 prior funding rounds.
 
 ## About
 
-Turn dark data into actionable insights through automated curation of exp
+Turn dark data into actionable insights
 - Praxis to Help Navy Develop RF Signal Generation Methods Under $88M OASIS Task Order - GovCon Wire (2016-07-07) https://www.govconwire.com/articles/praxis-to-help-navy-develop-rf-signal-generation-methods-under-88m-oasis-task-order
   Praxis to Help Navy Develop RF Signal Generation Methods Under $88M OASIS Task Order - GovCon Wire
 

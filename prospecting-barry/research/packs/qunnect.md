@@ -3,7 +3,7 @@ slug: qunnect | domain: qunnect.inc | HQ: Nyc, New York US | employees(LI): 41 |
 sources: exa-agent:defense-cyber-more
 industry(LI): Telecommunications | specialties: 
 channel notes: Series A $10M Series A from Airbus Ventures and Cisco Investments. dom: cyber status: pilot dod: The U.S. Air Force awarded Qunnect an SBIR Phase II contract for quantum-networking technology for secure communications. hq: Brooklyn, NY emp: 28 src: https://www.qunnect.inc/press-releases/2025-10-09
-own-language word count: ~324
+own-language word count: ~253
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -79,21 +79,12 @@ see how it works
 ### News
 
 URL: https://qunnect.inc/how-it-works
-Qunnect | How It Works
 
-0%
+ 
+ Redirecting (308) 
+The document has moved
+ here 
 
-# How Are We Creating the Quantum Internet?
-
-Watch
-
-## Qubits are fragile
-
-Fibers impose exponential transmission loss making it impossible to connect quantum devices by directly sending qubits over long distances.
-
-## Take it to the limit.
-
-Quantum internet is all about scalability: modular units without any extreme cooling or vacuum, low loss and multiplexed. That’s the path we are taking to move from a quantum network to the quantum internet.
 
 ## LinkedIn about
 

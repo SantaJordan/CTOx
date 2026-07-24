@@ -3,7 +3,7 @@ slug: super-powers-mobility | domain: spm.fun | HQ: Pittsburgh,  US | employees(
 sources: vc:harpoon
 industry(LI): Motor Vehicle Manufacturing | specialties: embedded controls, high voltage batteries, high voltage motors, system integration, powertrain development
 channel notes: high-performance electric UTVs
-own-language word count: ~1481
+own-language word count: ~1332
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -13,8 +13,6 @@ SPM – Super Powers Mobility Inc
 ## HIGH PERFORMANCE ELECTRIC UTVs
 
 Scalable power options. Built for any platform.
-
-Pre-order Now
 
 ## designed to outperform traditional drivetrains.
 
@@ -29,8 +27,6 @@ Pre-order Now
 ## The EPEX
 
 Turn key, high performance electric UTV
-
-Pre-order now
 
 ## VEHICLE FEATURES
 
@@ -287,46 +283,38 @@ The SPM EPEX is a high-performance electric UTV designed for both recreational a
 | Track Width | 65 inches |
 | Wheelbase | 90.5 
 
-URL: https://spm.fun/collections/all
-Products – Super Powers Mobility Inc
+URL: https://spm.fun/collections/vehicle-products
+Vehicle Products – Super Powers Mobility Inc
 
-## Filter by:
+# EXPLORE OUR ELECTRIC VEHICLES
 
-Availability
+EXPLORE OUR ELECTRIC VEHICLES
 
-0 Selected
+## EPEX
 
-Price
+TURN KEY ELECTRIC VEHICLE
 
-Reset
+Our flagship model and what brought SPM to life.
 
-$ From
+- Demo Ride!
+- High performance electric UTV
+- Ride all day, charge in your garage overnight
+- Custom built to your specifications
 
-$ To
+## EVK
 
-The highest price is $100.00
+INSTALL IT YOURSELF KIT
 
-Sort by:
+For those who are mechanically inclined and enjoy the process of building. The EVK is the same drivetrain, battery, and electronics used in our EPEX turn key vehicle.
 
-Alphabetically, A-Z
+- Drop-in universal EV-KIT
+- No fabrication required
+- 165 HP, 162 LB-FT Torque
+- Based on the Polaris RZR XP1000
 
-Filter and sort Close
+## VEHICLES AND KITS
 
-Sort by:
-
-## Filter by:
-
-Availability
-
-Price
-
-$ From
-
-$ To
-
-The highest price is $100.00
-
-Clear Apply
+Currently offered turn key vehicles and install yourself kits for the platforms we love most.
 
 $00 Product Title 3 colors
 
@@ -334,153 +322,51 @@ $00 Product Title 3 colors
 
 $00 Product Title 3 colors
 
-### "Founding Team" Hoodie
+### SPM EVK - Pre-order
 
-Regular price $55.00 Regular priceSale price $55.00 Save $-55.00 (%) Unit price/ per in your cart 1 color
+$100.00 $100.00 Save $-100.00 (%) in your cart
 
 Quickshop
 
-$55.00
+$100.00
 
-$55.00 Save $-55.00 (%)
+$100.00 Save $-100.00 (%)
 
-"Founding Team" Hoodie
+SPM EVK - Pre-order
 
 in your cart
 
-1 color
-
-Quickshop
-
-Quantity must be 1 or more
-
-### "Less Subtle" SPM Hoodie
-
-Regular price $55.00 Regular priceSale price $55.00 Save $-55.00 (%) Unit price/ per in your cart 1 color
-
-Quickshop
-
-$55.00
-
-$55.00 Save $-55.00 (%)
-
-"Less Subtle" SPM Hoodie
-
-in your cart
-
-1 color
-
-Quickshop
-
-Quantity must be 1 or more
-
-### "Subtle" SPM Hoodie
-
-Regular price $55.00 Regular priceSale price $55.00 Save $-55.00 (%) Unit price/ per in your cart 1 color
-
-Quickshop
-
-$55.00
-
-$55.00 Save $-55.00 (%)
-
-"Subtle" SPM Hoodie
-
-in your cart
-
-1 color
-
-Quickshop
-
-Quantity must be 1 or more
-
-### SPM "Proof-of-Concept" RACING TEE
-
-Regular price $45.00 Regular priceSale price $45.00 Save $-45.00 (%) Unit price/ per in your cart 1 color
-
-Quickshop
-
-$45.00
-
-$45.00 Save $-45.00 (%)
-
-SPM "Proof-of-Concept" RACING TEE
-
-in your cart
-
-1 color
-
-Quickshop
-
-Quantity must be 1 or more
-
-### SPM Camo Trucker
-
-Regular price $32.00 Regular priceSale price $32.00 Save $-32.00 (%) Unit price/ per in your cart 1 color
-
-Add to cart Sold out
-
-Quantity must be 1 or more
-
-Go to cart
-
-$32.00
-
-$32.00 Save $-32.00 (%)
-
-SPM Camo Trucker
-
-in your cart
-
-1 color
-
-Add to cart
-
-Quantity must be 1 or more
-
-### SPM Defense Evaluator Tactical Tee — American Flag Sleeve Military-Inspired Shirt
-
-Regular price $45.00 Regular priceSale price $45.00 Save $-45.00 (%) Unit price/ per in your cart 1 color
-
-Quickshop
-
-$45.00
-
-$45.00 Save $-45.00 (%)
-
-SPM Defense Evaluator Tactical Tee — American Flag Sleeve Military-Inspired Shirt
-
-in your cart
-
-1 color
-
-Quickshop
-
-Quantity must be 1 or more
-
-### SPM DEFENSE TEE
-
-Regular price $29.99 Regular priceSale price $29.99 Save $-29.99 (%) Unit price/ per in your cart 1 color
-
-Quickshop
-
-$29.99
-
-$29.99 Save $-29.99 (%)
-
-SPM DEFENSE TEE
-
-in your cart
-
-1 color
-
-Quickshop
-
-Quantity must be 1 or more
+Quickshop Quantity must be 1 or more
 
 ### SPM EPEX - Pre-order
 
-Regular price $100.00 Regular priceSale price $100.00 Save $-100.00 (%) Unit
+$100.00 $100.00 Save $-100.00 (%) in your cart
+
+Quickshop
+
+$100.00
+
+$100.00 Save $-100.00 (%)
+
+SPM EPEX - Pre-order
+
+in your cart
+
+Quickshop Quantity must be 1 or more
+
+$00 Product Title 3 colors
+
+$00 Product Title 3 colors
+
+$00 Product Title 3 colors
+
+## don't see what you need?
+
+We’re currently engineering electric systems for select vehicle platforms. Have a platform in mind? Let’s talk about bringing it to life — get in touch through our contact page.
+
+Electrify My Vehicle!
+
+© 2026 Super Powers Mobility Inc. Powered by Shopify.
 
 ## LinkedIn about
 
@@ -501,16 +387,16 @@ Pittsburgh startup pitches EV kit to elite troops
 [Facebook](https://www.facebook.com/defencenewsblog/) [Patreon](https://www.patreon.com/defenceblog) [X](https://twitter.com/defence_blog) [Youtube](https://www.youtube.com/channel/UCh9ODc2DO4VYZIQHHvCg4Aw) [Bluesky](https://bsky.app/profile/defence-blog.com)
 
 - [Home](https://defence-blog.
+- Why Special Operations Forces Want This New Pittsburgh Elect — Fightcancer (2026-07-18) https://m.fightcancer.org/special-operations-forces-want-new-pittsburgh-electric-vehicle-kit
+  Why Special Operations Forces Want This New Pittsburgh Elect — Fightcancer
+
+Military operations depend heavily on stealth, but standard utility terrain vehicles sound like chainsaws tearing through the woods. When elite troops need to slip behind enemy lines unnoticed, a loud internal combustion engine is a massive liability. That is exactly the problem a Pittsburgh startup called Super Powers Mobility is tackling with its new hardware. Known as SPM, the company recently demonstrated its new sys
 - Partnering with Super Powers Mobility to Accelerate Dual-Use Military/Civilian Electric Off-Road Powertrains | Uma Ventures (2025-07-21) https://www.umaventures.com/2025/07/21/uma-ventures-invests-in-super-powers-mobility-electric-off-road-powertrains/
   Partnering with Super Powers Mobility to Accelerate Dual-Use Military/Civilian Electric Off-Road Powertrains | Uma Ventures
 
 Uma Ventures is thrilled to announce our investment in Super Powers Mobility (SPM), a pioneering startup developing the most reliable electric off-road vehicles for both military and civilian applications.
 
 SPM is redefining the off-road vehicle industry with its bespoke electric powertrain solutions, purpose-built for utility terrain vehicles (UTVs) and scalable for use o
-- Why Special Operations Forces Want This New Pittsburgh Elect — Fightcancer (2026-07-18) https://m.fightcancer.org/special-operations-forces-want-new-pittsburgh-electric-vehicle-kit
-  Why Special Operations Forces Want This New Pittsburgh Elect — Fightcancer
-
-Military operations depend heavily on stealth, but standard utility terrain vehicles sound like chainsaws tearing through the woods. When elite troops need to slip behind enemy lines unnoticed, a loud internal combustion engine is a massive liability. That is exactly the problem a Pittsburgh startup called Super Powers Mobility is tackling with its new hardware. Known as SPM, the company recently demonstrated its new sys
 
 ## Open roles
 (no jobs data found)

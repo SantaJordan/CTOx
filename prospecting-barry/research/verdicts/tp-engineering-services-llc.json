@@ -1,0 +1,26 @@
+{
+  "company": "TP Engineering Services, LLC",
+  "slug": "tp-engineering-services-llc",
+  "domain": "tpengin.net",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "SBIR Phase II award from the National Geospatial-Intelligence Agency for a flight-prototype electro-optic shutter (own-abstracts section), plus LinkedIn about stating they build for 'the US Government, US and NATO Defense Contractors'.",
+  "disconnect_score": 60,
+  "subscores": {"lab_language_intensity": 12, "deployment_awareness_absence": 6, "operator_absence": 14, "hiring_profile_skew": 14, "stage_pressure": 14},
+  "score_evidence": [
+    "\"pulsed laser systems with durations from 60 fsec to 20 nsec with Pulse Repetition Frequency from <0.1 Hz to more than 200 kHz\" → lab_language_intensity (pure spec talk, no operational framing)",
+    "\"Low SWaP - High Average Power Water Cooled Optical Mount\" / \"we will develop a fast Electro-optic cell... ruggedization necessary for high-altitude flight\" → deployment_awareness_absence (low; they are explicitly fluent in SWaP-C and flight-environment ruggedization)",
+    "\"the development, production and fielding of some of the most advanced laser and electrical optical systems in the world\" → operator_absence (fielding is mentioned but no operator/training/CONOPS language anywhere on the site)",
+    "\"Junior Electrical/Controls Engineer\" (only open role, Blitz live) → hiring_profile_skew (single junior engineering hire, no field/test/integration/compliance role)",
+    "\"The decision to become a hardware provider resulted in explosive growth that is an on-going challenge for the company\" → stage_pressure (small team stretched by growth, single active Phase II with follow-on flight-prototype milestones)"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Two Flight Prototype Range-Gate (FPRG) units must meet NGA-212-001's altitude, temperature, and pressure envelope, but Phase II language treats ruggedization as a 'second engineering cycle' still being designed, not a validated capability.", "operator_reality": "An aircrew depending on this shutter for sensor protection at operational altitude has zero tolerance for a unit that hasn't survived thermal/pressure qualification — 'if sufficient funds and schedule remain' is a valley-of-death tell, not a design footnote.", "why_likely_missing": "Small design-and-analysis-turned-hardware shop (15 employees) is still funding qualification testing out of the same Phase II budget meant to deliver flight units.", "evidence_quote": "\"a second engineering cycle will produce a EO shutter designed for the temperature range, pressure and ruggedization necessary for high-altitude flight\"", "quote_source": "sbir_abstract"},
+    {"blind_spot": "The EO Cell and Electric Power and Switching System (EPSS) are described purely as lab hardware deliverables — no mention of who calibrates or realigns the optical assembly once it's mounted on an actual aircraft.", "operator_reality": "Precision electro-optic shutters drift and need field alignment; without a documented sustainment/spares plan, the unit works in the lab and fails after the first hard landing or maintenance cycle in theater.", "why_likely_missing": "Company's entire public-facing language (site + SBIR abstract) is written for a program-office/engineering audience, never an end-operator or maintainer audience.", "evidence_quote": "\"Two Flight Prototype Range-Gate (FPRG) units will be provided\" — with no accompanying discussion of installation, calibration, or field maintenance", "quote_source": "sbir_abstract"},
+    {"blind_spot": "No ATO/RMF, CMMC, or ITAR language anywhere despite building sensor-protection hardware that will integrate with government aircraft electronics and control systems.", "operator_reality": "If the EPSS has any embedded firmware or interfaces with aircraft avionics networks, it needs a cybersecurity accreditation path before installation — silence on this in a company this small is a common cause of late-stage program delay.", "why_likely_missing": "Company's technical identity is rooted in optics/photonics engineering (15-year design-and-analysis consultancy background), not systems cybersecurity or acquisition compliance.", "evidence_quote": "(absence) — no ATO/RMF/CMMC/ITAR term appears anywhere in the ~1082 words of their own language", "quote_source": "homepage"}
+  ],
+  "opener_hook": "Your NGA Phase II abstract commits two Flight Prototype Range-Gate units to altitude, temperature, and pressure qualification in the same engineering cycle that's still being designed — what's the plan if flight ruggedization eats the schedule before delivery?",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Custom high-speed electro-optic shutters and pulsed-laser hardware for defense sensor-protection and range-gated imaging, transitioning a 15-employee design shop into a flight-hardware supplier."
+}

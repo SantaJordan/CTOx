@@ -1,0 +1,16 @@
+{
+  "company": "Unmanned Experts Inc.",
+  "slug": "unmanned-experts-inc",
+  "domain": "unmannedexperts.com",
+  "verdict": "drop",
+  "drop_reason": "sbir_mill",
+  "dod_intent_evidence": "13 SBIR/STTR awards since 2016 (6 Phase I, 7 Phase II, ~$8M total) across at least 4 concurrently-running named Air Force programs (AXIS, DROIDISH, WEB WEASELS, AC-DENIM) on an 8-person team — SBIR portfolio data and abstracts.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Subject-matter-expertise firm and RDT&E contractor (self-described 'world-leading provider of Subject Matter Expertise') running a continuous portfolio of Air Force SBIR programs in swarming, UTM/airspace management (BlueSkies, Air Commons), and collaborative autonomous munitions — 13 SBIR awards since 2016 on an 8-person team, with own-language deeply fluent in ATAK, TRL, Program of Record, and mesh-network deployment concepts."
+}

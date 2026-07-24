@@ -3,7 +3,7 @@ slug: psionic | domain: psionicnav.com | HQ: Hampton, Virginia US | employees(LI
 sources: vc:new-north|exa-agent:sbir-graduates-raising-more
 industry(LI): Defense and Space Manufacturing | specialties: perception, lidar, defense, aerospace, automotive, navigation
 channel notes: doppler LIDAR precision navigation || Series A Over $20M total reported venture funding from investors including 757 Angels and New North Ventures. dom: sensors status: prototype dod: Psionic received a 2025 Navy Phase II award for maritime lidar-based navigation in GPS-denied environments. hq: Hampton, VA emp: ~50 employees src: https://www.sbir.gov/awards/218177
-own-language word count: ~1273
+own-language word count: ~1275
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -207,6 +207,7 @@ SurePath is a breakthrough dual-use navigation technology that delivers precise,
 
 ## How SurePath is Different:
 
+- Media
 - Maintains real-time precision navigation, even during GPS outages or interference
 - Resistant to RF jamming and spoofing
 - Ideal for complex or GPS-denied environments, from urban areas to contested zones

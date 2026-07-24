@@ -308,6 +308,50 @@ Polaris Aero is an aviation software company specializing in risk analysis and s
 More than 6,000 U.S. non-combat military aviation mishaps occurred between 2013 and 2020, claiming 224 lives, destroying 186 aircraft, and costing more than $11.6 billion in damages. In addition, the same costly mishaps continue to occur year after year. Polaris Aero’s Small Business Innovation Research (SBIR) Phase II objective is to reduce aviation mishaps and increase Air Force safety and readiness by researching and developing military unique features for a commercial-off-the-shelf (COTS), automated, aviation safety risk assessment system and modernize inefficient Department of Defense (DoD) safety processes.  Phase I research determined the Air Force has a requirement for an improved aviation pre-flight risk assessment process and the need for a system to easily share aircrew’s experiences and corporate knowledge to increase safety and readiness. The current Air Force strategy for pre-flight risk assessments, collecting, analyzing, and sharing aviation-related data is outdated and inefficient. Phase I research revealed pre-flight risk assessments are not standardized and use a subjective numbering system, putting inexperienced pilots at an immediate disadvantage as they do not fully understand the risks and hazards associated with a subjective risk score. Also, the current risk assessment system does not provide pilots with risk mitigation recommendations, only a number the pilot must interpret to find the level of hazard severity. Pilot turnover is unavoidable in the Air Force, Polaris Aero’s proposed solution will fill in the knowledge gap when experienced pilots leave and inexperienced pilots join a new squadron. The SBIR Phase II effort requires research and development of Polaris Aero’s COTS FlightRisk application to provide the Air Force with a standardized, automated aviation risk assessment used prior to every flight. Phase II software modifications will include the development of military specific functions such as a mission phase of flight, end-user unique automated risk mitigation recommendations, military unique real-time refresher training aids, unique post flight reporting and feedback, integrations with Air Force authoritative data sources (e.g., Patriot Excalibur, Air Force Flight Regulations and Mission Design Series publications) and the required DoD cyber security for cloud-based software applications. Modifications to the COTS application will provide a unique framework where Air Force crew experiences and corporate knowledge can be easily captured and shared with the entire organization, increasing aviation safety and aircrew readiness.  Polaris Aero is a Veteran Owned Small Business, founded by two retired Air Force pilots who understand the pain points associated with military flight safety. Polaris Aero’s COTS Safety Intelligence Platform is currently in use by over 2,500 commercial, corporate and government flight organizations.
 
 ## News (Exa, top 3)
+- Award | SBIR () https://www.sbir.gov/awards/201277
+  Award | SBIR Skip to main content
+
+# Award
+
+Portfolio Data
+
+Back to Award Search
+
+## Polaris Aero's Aviation Safety Intelligence Platform
+
+### Awardee
+
+#### POLARIS AERO LLC
+
+33739 N SCOTTSDALE RD STE C101SCOTTSDALE, AZ, 85266-1561USA
+
+Award Year: 2022
+
+UEI: JCAJEHMXGFN7
+
+HUBZone Owned: No
+
+Woman Owned: No
+
+Socially and Economically Disadvantaged: No
+
+Congressional District: N/A
+
+Tagged as:
+
+SBIR
+
+Phase II
+
+### Awarding Agency
+
+DOD
+
+Branch: USAF
+
+Total Award Amount: $749,607
+
+Contract Number: FA
 - Polaris Aero Awarded Defense Dept. Contract To Add AI to Safety Platform (2025-10-20) https://www.ainonline.com/aviation-news/business-aviation/2025-10-12/polaris-gets-sbir-contract-add-ai-safety-platform
   Polaris Aero Awarded Defense Dept. Contract To Add AI to Safety Platform | Aviation International News
 
@@ -338,12 +382,6 @@ Aviation Week Staff October 23, 2025
 Polaris Aero, an aviation safety software company, was awarded a Small Business Innovation Research (SBIR) contract by the Office of the Under Secretary of Defense (OUSD) to develop generative artificial intelligence (AI) capabilities in the VOCUS Safety Intelligence platform. According to Polaris...
 
 ## Subscr
-- Polaris Aero LLC Awarded U.S. Air Force SBIR Phase II Contract | Polaris Aero () https://www.polarisaero.com/news/polaris-aero-llc-awarded-us-air-force-sbir-phase-ii-contract
-  Polaris Aero LLC Awarded U.S. Air Force SBIR Phase II Contract | Polaris Aero
-
-Adapting Polaris Aero’s Commercial Aviation Safety Software for Military Use
-
-SCOTTSDALE, AZ (September 6, 2022) – Polaris Aero LLC (polarisaero.com) announces it has been selected by AFWERX for a Small Business Innovation Research (SBIR) Phase II contract in the amount of $750,000, focused on the VOCUS Safety Intelligence Platform to investigate its potential to fill capability gaps in the Department of the Air Force
 
 ## Open roles (Blitz, live)
 - Customer Success Specialist ({'city': None, 'country_code': 'US'})

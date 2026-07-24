@@ -215,28 +215,22 @@ Parent
 Federal Capability Statement
 
 With average experience of an engineer over 20 plus years, iMetalx Group can help your organization solve your R&D engineering challenges quickly. We specialize in the fields of aerospace (from jet engines to drones) 
-- Nehal G. - CEO of iMetalx | Innovation | Mentor (2026-07-08) https://www.linkedin.com/in/nehalg
-  # Nehal G.
+- PSIONIC and iMETALX Announce Strategic Collaboration (2026-02-11) https://www.globenewswire.com/news-release/2026/02/11/3236628/0/en/PSIONIC-and-iMETALX-Announce-Strategic-Collaboration-Supporting-RPOD-Space-Control-and-Space-Battle-Management-for-U-S-Space-Force-and-SDA-Missions.html
+  PSIONIC and iMETALX Announce Strategic Collaboration
 
-CEO of iMetalx | Innovation | Mentor
+# PSIONIC and iMETALX Announce Strategic Collaboration Supporting RPOD, Space Control, and Space Battle Management for U.S. Space Force and SDA Missions
 
-San Francisco, California, United States (US)
+## Enabling autonomous decision advantage, distributed space control, and resilient command and control across contested orbital environments for multi-domain missions
 
-500 connections • 2,276 followers
+February 11, 2026 15:34 ET | Source: iMetalx, Inc. iMetalx, Inc.
 
-## About
+---
 
-As a results-driven, mission focused deeptech innovation leader, I perform discovery on the market, the breakthrough technologies landscape and the experts network with curiosity to formulate a strategy, raise funds, build unique teams and collaborations to demonstrate rapidly. A few of my selected accomplishments: ⭐ Founded 3 profitable startups in space,
-- iMetalX emerges from stealth with technology to model resident space objects - SpaceNews (2026-03-13) https://spacenews.com/imetalx-emerges-from-stealth-with-technology-to-model-resident-space-objects/
-  iMetalX emerges from stealth with technology to model resident space objects - SpaceNews
+Washington, D.C. , Feb. 11, 2026 (GLOBE NEWSWIRE) --
+- imetalx inc. (2026-06-26) https://imetalx.com/
+  # iMETALX Inc. (IMETALX GROUP, LLC)
 
-Home/ iMetalX emerges from stealth with technology to model resident space objects
-
-Startup iMetalX offers models designed to help customers characterize resident space objects. Credit: iMetalX
-
-SAN FRANCISCO – Northern California startup iMetalX Inc. emerged from stealth to announce a collaboration with Psionic, a Hampton, Virginia, company focused on autonomous navigation in GPS-denied environments.
-
-Pair
+iMETALX Inc. is a Space Research and Technology company. iMetalX is a Space Systems Company serving US Space Force, US Air Force and Commercial Customers. They provide in-space servicing and space environment management solutions for governments and businesses. They have a proven record of rapid development in extreme environment autonomous systems. They have expertise in sensors fusion, edge compute, interoperable communication gateways, datacenters, overlay
 
 ## Open roles (Blitz, live)
 - Senior-Principal Computer Vision Engineer ({'city': 'Sausalito', 'country_code': 'US'})

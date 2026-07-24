@@ -1,0 +1,16 @@
+{
+  "company": "TeraSense, Inc.",
+  "slug": "terasense-inc",
+  "domain": "terasense.net",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "Genuine DoD motion present (Air Force/Army/Navy SBIR awards, 8(a) contract vehicle) but the company's own language describes an engineering-services / DevSecOps-consulting firm, not a product company: 'TeraSense is an engineering services firm with an expertise in lifecycle systems engineering and integration... currently supports the ARMY, NAVY, National...' (HigherGov capability statement) and 'TeraSense provides mission support and information technology services' (homepage).",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "8(a)-certified federal IT/DevSecOps services firm doing cloud migration, cybersecurity, and software supply-chain security (e.g. Ocelot SBOM scanner) work for Army/Navy/Air Force customers — a services shop, not a product company with a fielding gap."
+}

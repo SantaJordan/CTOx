@@ -139,13 +139,7 @@ microdrones, smartplanes, horus aeronaves, civic drone
 Modalic builds AI-powered swarm motherships for autonomous long-range strike and sensing.
 
 ## News (Exa, top 3)
-- Pentagon Fast-Tracks AI Swarm Tech with Modalic Award - BriefGlance.com (2026-03-24) https://briefglance.com/articles/pentagon-fast-tracks-ai-swarm-tech-with-modalic-award
-  Pentagon Fast-Tracks AI Swarm Tech with Modalic Award - BriefGlance.com
-
-# Pentagon Fast-Tracks AI Swarm Tech with Modalic Award
-
-FAIRFAX, Va. – March 24, 2026 – The Department of War has given a significant green light to advanced autonomous swarm technology, granting Virginia-based Modalic, Inc. a coveted "Awardable" status for its AI-driven operating system. This designation, awarded through the Chief Digital and Artificial Intelligence Office's (CDAO) Tradewinds Solutions Marketplace, effect
-- Modalic, Inc. Assessed "Awardable" for Department of War ... () https://sg.finance.yahoo.com/news/modalic-inc-assessed-awardable-department-120500825.html
+- Modalic, Inc. Assessed "Awardable" for Department of War work in the CDAO's Tradewinds Solutions Marketplace () https://sg.finance.yahoo.com/news/modalic-inc-assessed-awardable-department-120500825.html
   Modalic, Inc. Assessed "Awardable" for Department of War work in the CDAO's Tradewinds Solutions Marketplace
 
 Something went wrong
@@ -155,6 +149,12 @@ This is a paid press release. Contact the press release distributor directly wit
 # Modalic, Inc. Assessed "Awardable" for Department of War work in the CDAO's Tradewinds Solutions Marketplace
 
 FAIRFAX, Va., March 24, 2026 /PRNewswire/ -- Modalic, the leader in autonomous swarm mothership platforms, today announced that its Modalic OS autonomy softwa
+- Pentagon Fast-Tracks AI Swarm Tech with Modalic Award - BriefGlance.com (2026-03-24) https://briefglance.com/articles/pentagon-fast-tracks-ai-swarm-tech-with-modalic-award
+  Pentagon Fast-Tracks AI Swarm Tech with Modalic Award - BriefGlance.com
+
+# Pentagon Fast-Tracks AI Swarm Tech with Modalic Award
+
+FAIRFAX, Va. – March 24, 2026 – The Department of War has given a significant green light to advanced autonomous swarm technology, granting Virginia-based Modalic, Inc. a coveted "Awardable" status for its AI-driven operating system. This designation, awarded through the Chief Digital and Artificial Intelligence Office's (CDAO) Tradewinds Solutions Marketplace, effect
 - modalic (2026-06-19) https://modalic.com/
   # Modalic
 

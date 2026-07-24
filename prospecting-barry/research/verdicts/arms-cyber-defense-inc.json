@@ -1,0 +1,44 @@
+{
+  "company": "ARMS Cyber Defense, Inc.",
+  "slug": "arms-cyber-defense-inc",
+  "domain": "armscyber.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Their own SBIR/STTR abstract: 'Zero Vulnerability Technology: Leveraging Micropatching and Intelligent Software Scrambling for Next Generation Northern Command Application Security' — Air Force 2022, $749,914, opening 'Homogeneous software applications employed throughout NORTHCOM and Platform One...', corroborated by a Vanderbilt ISIS notice of the $750K Air Force Phase II STTR.",
+  "disconnect_score": 65,
+  "subscores": {"lab_language_intensity": 16, "deployment_awareness_absence": 14, "operator_absence": 15, "hiring_profile_skew": 10, "stage_pressure": 10},
+  "score_evidence": [
+    "'From Invisible to Invincible' and 'Arms Cyber makes AI-driven attacks, ransomware, and data threats irrelevant... ensuring no breaches, no ransom payments, and no business disruption' — absolutist marketing claims with no operational or environmental framing anywhere → lab_language_intensity",
+    "A company funded specifically for 'NORTHCOM and Platform One' application security whose site now names zero accreditation concepts — no ATO, RMF, STIG, IL5, Iron Bank, FedRAMP, or CMMC — and whose Industries menu reads 'Critical Infrastructure, Finance, Healthcare, Technology' with no defense vertical at all → deployment_awareness_absence",
+    "'Your endpoints have blind spot. Let's close it... Boost compliance standards. Reduce false positives.' — the only user in the entire site is a commercial security buyer; no airman, no NORTHCOM watch floor, no government administrator, no training or sustainment language → operator_absence",
+    "No jobs data in pack: hiring_profile_skew set to exactly 10 as instructed",
+    "Founded 2020, 26-43 employees with 'workforce distributed across United States, Argentina, and Singapore', Phase II awarded 2022 and long expired with no follow-on defense artifact → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The Air Force money bought a NORTHCOM/Platform One capability, and no part of the current product has a path back onto a DoD endpoint",
+      "operator_reality": "To run on a government host the agent needs an ATO on that enclave, STIG-compliant configuration, and — if it ships the way Platform One ships things — a hardened container in Iron Bank with continuous vulnerability scanning and a signed SBOM. That work is 9-18 months and has to be funded by someone. Right now defense is not even one of the four industries listed in their own navigation, which means the $750K Phase II produced a commercial product and an unclaimed transition.",
+      "why_likely_missing": "The commercial anti-ransomware market pulled hard and paid immediately (Veeam integration, macOS support, Microsoft for Startups); the accreditation work pays nothing until it is finished, so it lost every prioritization argument.",
+      "evidence_quote": "Homogeneous software applications employed throughout NORTHCOM and Platform One pose a huge opportunity for adversaries to scale exploits within the defense ecosystem.",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "Concealment as a product mechanic collides with the government's own audit and incident-response requirements",
+      "operator_reality": "'Stealth directories' hide files from an attacker — and from the defender's tooling too. On a DoD endpoint, host-based security, asset inventory, and DFIR all require that the filesystem be enumerable and auditable by the government's own stack; an incident responder who cannot see a directory has an audit finding, not a feature. Fielding means deconflicting moving-target defense with ESS/HBSS agents, endpoint logging into the government SIEM, and forensic imaging procedures. That negotiation with the accreditor is the actual deployment work, and it is not a settings toggle.",
+      "why_likely_missing": "In a commercial environment the CISO owns both the concealment tool and the audit requirement, so the conflict is resolved in a meeting. In DoD the accreditor is a different authority with a veto and no incentive to accommodate.",
+      "evidence_quote": "Hide critical files from an attacker with stealth directories so they are never found or affected.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Foreign-distributed engineering on a privileged endpoint agent bound for defense hosts",
+      "operator_reality": "An agent with deep filesystem privilege on a government endpoint gets scrutinized for supply-chain provenance: who commits to it, where it is built, whether CUI touched a non-compliant system, and whether non-US persons had access to the technical data. A workforce spread across the US, Argentina, and Singapore turns CMMC/NIST 800-171 and a software provenance review into a structural problem rather than a paperwork exercise — and it is the kind of finding that arrives after the technical evaluation is already won.",
+      "why_likely_missing": "The distributed team is a cost and hiring advantage that has never cost them a commercial deal; the constraint only exists on the government side of the house they stopped selling to.",
+      "evidence_quote": "Its workforce is distributed across United States, Argentina, and Singapore.",
+      "quote_source": "linkedin_about"
+    }
+  ],
+  "opener_hook": "Arms Cyber's 2022 Air Force Phase II was written for NORTHCOM and Platform One application security, and today armscyber.com lists four industries — Critical Infrastructure, Finance, Healthcare, Technology — with no defense vertical and no mention of ATO, STIG, or Iron Bank anywhere on the site.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Sells an endpoint anti-ransomware platform that uses moving-target defense — hiding files in stealth directories, adapting to anomalous behavior, and restoring from concealed backups."
+}

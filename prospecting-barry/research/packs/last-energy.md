@@ -278,19 +278,6 @@ Privacy & Terms
 Last Energy's mission is to decarbonize global energy production and increase access to clean, affordable power. We are a full-service developer of micro modular nuclear power plants with the goal of finally scaling nuclear by dramatically reducing the time and cost of construction. 
 
 ## News (Exa, top 3)
-- Last Energy to advise NATO on micro nuclear reactors for military bases - Nuclear Engineering International (2024-06-05) https://www.neimagazine.com/news/last-energy-and-nato-announce-micro-nuclear-energy-partnership/
-  Last Energy to advise NATO on micro nuclear reactors for military bases - Nuclear Engineering International
-
-Share
-
-- Copy Link
-- Share on X
-- Share on Linkedin
-- Share on Facebook
-
-Image: A prototype of Last Energy’s reactor module (courtesy of Last Energy)
-
-US-based start-up Last Energy is partnering with the NATO Energy Security Centre of Excellence (ENSEC COE) to jointly research military applications for micro-nuclear power technologies and to explore opportunities for future deployment on 
 - US funding secured for Welsh microreactor project - Nuclear Engineering International (2024-12-17) https://www.neimagazine.com/news/last-energy-secures-us-funding-for-uk-microreactor-project/
   US funding secured for Welsh microreactor project - Nuclear Engineering International
 
@@ -306,20 +293,31 @@ Visualisation of the Llynfi Energy Project in Bridgend, South Wales (Photo credi
 US-based start-up Last Energy has received a letter of intent (LOI) from the US Export-Import for $103.7m in debt financing related to its planned microreactor project in South Wales.
 
 Last Energy says the LOI, from the bank’s structured and p
-- Last Energy's South Wales nuclear project gets US export bank boost - World Nuclear News (2024-12-13) https://world-nuclear-news.org/articles/last-energys-south-wales-nuclear-project-gets-us-export-bank-backing
-  Last Energy's South Wales nuclear project gets US export bank boost - World Nuclear News
+- Last Energy to advise NATO on micro nuclear reactors for military bases - Nuclear Engineering International (2024-06-05) https://www.neimagazine.com/news/last-energy-and-nato-announce-micro-nuclear-energy-partnership/
+  Last Energy to advise NATO on micro nuclear reactors for military bases - Nuclear Engineering International
 
-HOME/ NEW NUCLEAR
+Share
 
-# Last Energy's South Wales nuclear project gets US export bank boost
+- Copy Link
+- Share on X
+- Share on Linkedin
+- Share on Facebook
 
-Friday, 13 December 2024
+Image: A prototype of Last Energy’s reactor module (courtesy of Last Energy)
 
-Microreactor developer Last Energy says it has received a letter of intent from the Export-Import Bank of the United States for USD103.7 million debt financing relating to its project in South Wales in the UK.
+US-based start-up Last Energy is partnering with the NATO Energy Security Centre of Excellence (ENSEC COE) to jointly research military applications for micro-nuclear power technologies and to explore opportunities for future deployment on 
+- Last Energy partners with Nato to research military applications of micro-nuclear reactors | New Civil Engineer (2024-06-07) https://www.newcivilengineer.com/latest/last-energy-partners-with-nato-to-research-military-applications-of-micro-nuclear-reactors-07-06-2024/
+  Last Energy partners with Nato to research military applications of micro-nuclear reactors | New Civil Engineer
 
-A rendering of the Llynfi Clean Energy Project (Image: Last Energy)
+- LOGIN / FREE TRIAL
 
-The company sa
+- You are here: Latest
+
+# Last Energy partners with Nato to research military applications of micro-nuclear reactors
+
+Opportunities for the future deployment of micro-nuclear power technologies at military installations will be explored by Last Energy and Nato following the agreement of a new partnership.
+
+The partnership between Last Energy, a start-up based in 
 
 ## Open roles (Blitz, live)
 - Business Operations Lead ({'city': 'Austin', 'country_code': 'US'})

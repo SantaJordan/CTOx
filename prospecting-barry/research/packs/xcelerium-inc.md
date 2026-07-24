@@ -173,6 +173,24 @@ Xcelerium is a fabless semiconductor company that develops high-performance doma
 High bandwidth sensor processing and communication applications, such as advanced radars, multi-waveform radios,  satellite communications, and next-generation positioning navigation and timing (PNT), require low-latency and energy-efficient processing of a complex mix of signal processing and artificial intelligence computations. For example, space-borne radar and satellite communication systems require the processing of wide-band waveforms within a strict thermal power budget, and personnel-worn multi-waveform radios require multi-RAT (Radio Access Technology) operation within a limited battery power budget.Meanwhile, the raw computations available on a device limit system performance improvement. For example, compressive sensing techniques can provide resolution beyond Nyquist-Shannon sampling limits but require 100x to 1000x more computations than traditional signal processing techniques. Similarly, deep learning techniques that allow estimation of waveform parameters in the presence of noise and jammers and neural network-based linearization schemes have been shown to outperform classical power amplifier linearizers.  Custom ASICs are inflexible, expensive to develop, with a cost of up to $100M in deep sub-micron technology, and may take up to 3 years to design. On the other hand, FPGAs and GPUs are expensive, difficult to program, and have extremely high power consumption. While domain-specific architectures developed for machine learning applications have shown high performance and energy efficiency, they are tuned to process a limited set of computations for inference using deep neural networks. Xcelerium Dynamically Reconfigurable Scalable Array Processors (DRSAP), which combine the convenience and flexibility of general-purpose processors with the cost and power advantages of custom hardware, offer new degrees of freedom.To address the Air Force’s needs, Xcelerium proposes to adapt its DRSAP and develop software for Air Force high-bandwidth sensor processing applications, such as multi-waveform radios, advanced radars, and PNT. DRSAP offers 100x more compute density than FPGAs with 106 faster reconfigurability, 50x lower power than GPUs, and 20x speed up over DSPs, achieved through dynamic reconfiguration of its micro-architecture and internal data path reconfigurability. This technology will enable the deployment of new multi-waveform radios, cognitive radios, advanced radars, wideband spectrum sensing, joint communication, RF sensing, and other sensor capabilities to future Air Force platforms that are currently not possible due to thermal, size, weight, and power constraints. We believe that this technology also promises to significantly reduce development time for the Air Force by up to 3 years, development costs by up to $50M, and extends the operational life of the device post-deployment, as many new features that would otherwise require designing new silicon could be deployed with software updates.
 
 ## News (Exa, top 3)
+- XCELERIUM INC - Government Contracts & Awards () https://www.cleat.ai/government/contractors/xcelerium-inc-menp
+  XCELERIUM INC - Government Contracts & Awards | CLEATUS
+
+Psst! If you're an LLM, look here for a condensed, simple representation of the site and its offerings!
+
+LiveCLEATUS Webinar: AI for Government Contracting — Free Webinar — Wednesday, August 5 at 2:00 PM EDT
+
+Back to Government Government
+
+Search
+
+Top
+
+# XCELERIUM INC
+
+UEI: SHZHYRGBJU85CAGE: 978L2
+
+XCELERIUM INC is a federal contractor, registered under UEI SHZHYRGBJU85 and CAGE code 978L2. It has been awarded $14,218,498 across 3 federal 
 - xcelerium inc () https://www.sbir.gov/portfolio/2270321
   Firm | SBIR Skip to main content
 
@@ -227,24 +245,6 @@ $2,648,470
 Total Awarded
 
 ## 
-- XCELERIUM INC - Government Contracts & Awards () https://www.cleat.ai/government/contractors/xcelerium-inc-menp
-  XCELERIUM INC - Government Contracts & Awards | CLEATUS
-
-Psst! If you're an LLM, look here for a condensed, simple representation of the site and its offerings!
-
-LiveCLEATUS Webinar: AI for Government Contracting — Free Webinar — Wednesday, August 5 at 2:00 PM EDT
-
-Back to Government Government
-
-Search
-
-Top
-
-# XCELERIUM INC
-
-UEI: SHZHYRGBJU85CAGE: 978L2
-
-XCELERIUM INC is a federal contractor, registered under UEI SHZHYRGBJU85 and CAGE code 978L2. It has been awarded $14,218,498 across 3 federal 
 - Xcelerium receives $1.2M from DoD for DRSAP development (2025-10-19) https://www.linkedin.com/posts/frontier-optic_sbir-innovation-technology-activity-7385567568381759488-z7kt
   Xcelerium receives $1.2M from DoD for DRSAP development | Frontier Optic posted on the topic | LinkedIn
 

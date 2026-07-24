@@ -3,7 +3,7 @@ slug: knight-aerospace-medical-systems-llc | domain: knightaerospace.com | HQ: S
 sources: sbir
 industry(LI): Aviation & Aerospace | specialties: design and manufacturing, quick change "roll-on/roll-off"​ modular and palletized interiors for cargo aircraft, aircraft ground support equipment, medical evacuation solutions, biocontainment, aerospace, avation, manufacturing, custom products, v.i.p. module, ground support equipment, critical care,
 channel notes: SBIR PhII x1 [2022] Air Force latest: INTermodal Rocket CONtainer (INTRCON) hq: SAN ANTONIO,TX emp: 49
-own-language word count: ~1568
+own-language word count: ~1573
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -16,21 +16,13 @@ Menu
 
 # Expanding Mission Capabilities of Cargo Aircraft Through Modular Airworthy Solutions
 
-SEE Products
-
 ## Modular Systems
 
 Knight Aerospace is the world’s leading manufacturer of airworthy roll-on/roll-off modules, which are customizable to meet requirements, including DV/VIP transport, medical evacuation, medical transport, and other missions All of our products are made in the USA and can be scaled to fit any cargo aircraft and customer requirements. These modules are designed for the safety and comfort of passengers in military cargo aircraft such as the C-130, C-17.
 
 At Knight Aerospace, our mission is to modernize aerospace transportation with a focus on airworthy modular aircraft solutions. We aim to provide adaptable and customizable options for an ever-changing world, addressing current challenges and proactively preparing for future missions.
 
-DV/VIP/TRANSPORT MODULES
-
-MEDICAL MODULES
-
 NEXT-GENERATION AERO-MEDICAL MODULE (NGAM)
-
-READ MORE
 
 ## Palletized Systems
 
@@ -38,15 +30,9 @@ Knight Aerospace produces high-quality and durable Palletized Systems, which are
 
 Knight Aerospace produces high-quality and durable Palletized Systems, which are designed and manufactured entirely in-house. Our systems are considered to be the safest in the industry and have been approved for flight by military and civilian organizations, as well as aircraft OEMs.
 
-TRANSPORT PALLETS
-
 SPECIAL OPERATION PALLET
 
 NEXT GENERATION ATGL FOR MILITARY AIRCRAFT
-
-MEDEVAC PALLETS
-
-READ MORE
 
 ## Ground Support Equipment
 
@@ -64,15 +50,9 @@ P-3 ENGINE TRANSPORT & ENGINE BUILD-UP DOLLY​
 
 HOIST ASSEMBLY, UNIVERSAL
 
-READ MORE
-
 ## Upgrades & Refreshments
 
 Knight Aerospace offers interior blanket replacement kits, galley upgrades, lavatory upgrade and refurbishment, cockpit seating refurbishments, and GSE refurbishment.
-
-VIP MODULE
-
-READ MORE
 
 ##### About
 
@@ -81,8 +61,6 @@ READ MORE
 Located in San Antonio, Texas, Knight Aerospace leads the industry in the design, manufacture, and customization of modules, pallets, and more for military cargo aircraft. Since 1992, Knight Aerospace is an industry standard for specialty air transportation solutions, serving over 35 countries around the world.
 
 As a premiere provider of military and medical products, including our medical & VIP module systems, palletized systems, and ground support equipment, we offer solutions in moments of crisis and urgency.
-
-READ MORE
 
 ## Growth And Trajectory
 
@@ -96,15 +74,15 @@ In recent years, the aerospace field has seen steady expansion in terms of growt
 
 Trajectory, in the aerospace field, includes advancements in areas such as materials science, propulsion systems, autonomous and electric aircraft, and space exploration. The trajectory of the aerospace field is influenced by a range of factors, including technological innovation, market demand, and policy and regulatory frameworks.
 
-READ MORE
-
 ## Latest News
 
 SEE ALL NEWS
 
 #### Elevating Air Cargo Logistics: Knight Aerospace and Recoil’s Aircraft Palletized Solutions
 
-In a swift and agile response to address critical Air Force capability gaps in remote location logistics and transport, Knight Aerospace and Recoil have embarked on a groun
+In a swift and agile response to address critical Air Force capability gaps in remote location logistics and transport, Knight Aerospace and Recoil have embarked on a groundbreaking air cargo logistics team-up, introducing two revolutionary products: “Oasis” and “HARPS” (High-Capacity Aerial Replenishment Palletized System).
+
+### Elevating A
 
 URL: https://knightaerospace.com/knight-products/
 Knight-Products - Knight Aerospace
@@ -153,40 +131,38 @@ We’re passionate about providing airworthy, mission-critical solutions, and ou
 
 At Knight Aerospace, our mission is to modernize aerospace transportation with a focus on airworthy modular aircraft solutions. We aim to provide adaptable and customizable options for an ever-changing world, addressing current challenges and proactively preparing for future missions.
 
-READ MORE
-
 ## Palletized Systems
 
-Knight Aerospace produces high-quality and durable Palletized Systems, which are designed and manufactured entirely in-house. Our s
+Knight Aerospace produces high-quality and durable Palletized Systems, which are designed and manufactured entirely in-house. Our systems are 
 
-URL: https://knightaerospace.com/
-Home Page | Knight Aerospace - Knight Aerospace
+URL: https://knightaerospace.com/about-us/
+About Us - Knight Aerospace
 
 Menu
 
-##### Innovative Manufacturer of High Quality
+# ABOUT US
 
-# Expanding Mission Capabilities of Cargo Aircraft Through Modular Airworthy Solutions
-
-SEE Products
-
-## Modular Systems
-
-Knight Aerospace is the world’s leading manufacturer of airworthy roll-on/roll-off modules, which are customizable to meet requirements, including DV/VIP transport, medical evacuation, medical transport, and other missions All of our products are made in the USA and can be scaled to fit any cargo aircraft and customer requirements. These modules are designed for the safety and comfort of passengers in military cargo aircraft such as the C-130, C-17.
-
-At Knight Aerospace, our mission is to modernize aerospace transportation with a focus on airworthy modular aircraft solutions. We aim to provide adaptable and customizable options for an ever-changing world, addressing current challenges and proactively preparing for future missions.
-
-DV/VIP/TRANSPORT MODULES
-
-MEDICAL MODULES
-
-NEXT-GENERATION AERO-MEDICAL MODULE (NGAM)
+At Knight Aerospace, we are passionate about providing innovative and reliable solutions for the aerospace industry. With over 30 years of experience, we have established ourselves as a leading provider of customized aircraft solutions and specialized equipment for military, government, and commercial clients worldwide. Our commitment to quality and safety is unwavering, and we strive to exceed our clients’ expectations by delivering exceptional products and services.
 
 READ MORE
 
-## Palletized Systems
+From advanced medical systems to mobile command centers, we leverage our expertise and cutting-edge technology to design, engineer, and manufacture solutions that enable our clients to operate more efficiently, effectively, and safely. At Knight Aerospace, we are dedicated to enhancing the capabilities of the aerospace industry and improving the lives of those we serve.
 
-Knight Aerospace produces high-quality and durable Palletized Systems, which are designed and manufactured entirely in-house. Our systems are considered to be the safest in the industry and have been approved by major military and civilian organizations, as well as aircraft OEMs. These syste
+## Our History
+
+1992
+
+#### Bold Vision
+
+In 1992 we committed to building high quality products that exceed customer expectations, and we've been creating satisfied customers ever since. At Knight Aerospace, we’ve brought together the best and brightest to develop innovative technologies and to become the leaders in our field.
+
+1992
+
+2014
+
+#### Medical Systems
+
+In 2014, we took things to a whole new level by founding Knight Aerospace Medical Systems, LLC to foc
 
 ## LinkedIn about
 

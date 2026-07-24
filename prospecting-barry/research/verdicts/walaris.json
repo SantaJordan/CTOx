@@ -1,0 +1,36 @@
+{
+  "company": "Walaris",
+  "slug": "walaris",
+  "domain": "walaris.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "HigherGov federal awardee profile (News section) shows an active federal award record (most recent 2026-03-09) and channel notes describe Walaris supporting Honeywell in U.S. Air Force Global Strike Command / STRIKEWERX counter-UAS prototype testing; own-language LinkedIn-about names 'government' customers.",
+  "disconnect_score": 52,
+  "subscores": {"lab_language_intensity": 12, "deployment_awareness_absence": 12, "operator_absence": 8, "hiring_profile_skew": 10, "stage_pressure": 10},
+  "score_evidence": [
+    "'running billions of computations in real-time to identify known patterns or objects' / 'Novel artificial intelligence and computer vision algorithms' → lab_language_intensity",
+    "'seamlessly integrated with third-party sensors and command-and-control systems through its easy-to-use API' — no ATO/RMF/IL4-5/STIG/CMMC language anywhere despite protecting 'bases... government facilities' → deployment_awareness_absence (capped at 12: own-language word count ~966, under 1000)",
+    "own words repeatedly reference operators directly ('triggering real-time alerts to operators', 'with operator instruction', 'allowing operators to move confidently') — operators are not absent, so score is low"
+  ],
+  "blind_spots": [
+    {"blind_spot": "'Real-time' billions-of-computations sensor fusion assumes continuous sensor throughput to the processing node.",
+     "operator_reality": "Same failure mode as the canonical 30fps crowd-detection case: if AirScout's edge box loses link to a subset of its sensor array in a DDIL environment, the 'real-time fusion' claim has no described degraded mode.",
+     "why_likely_missing": "Marketing emphasizes raw AI throughput as the differentiator rather than graceful degradation under contested comms.",
+     "evidence_quote": "AirScout locally fuses data from deployed sensors, running billions of computations in real-time to identify known patterns or objects.",
+     "quote_source": "homepage"},
+    {"blind_spot": "Protects 'bases, borders, government facilities' with zero accreditation vocabulary in any public page.",
+     "operator_reality": "Sensor-fusion software touching base perimeter defense will need an ATO/RMF path onto government networks before it can go from prototype test to program of record; none of that language exists publicly.",
+     "why_likely_missing": "Company is EO/IR-detection-first and commercial-market-broad (marine, critical infrastructure, stadiums), so compliance messaging hasn't been built out for the DoD-specific buyer.",
+     "evidence_quote": "AirScout is utilized to protect sensitive locations across the globe, including bases, borders, government facilities, critical infrastructure, sports stadiums, and more.",
+     "quote_source": "homepage (about page)"},
+    {"blind_spot": "API-first integration story with third-party sensors and C2 systems never addresses GFE integration mechanics or prime flow-down structure, despite supporting Honeywell on a USAF program.",
+     "operator_reality": "Integrating into a prime's existing C2 stack under government data-rights and export-control terms is a different problem than a generic 'easy-to-use API' — ITAR handling for EO/IR targeting data isn't mentioned once.",
+     "why_likely_missing": "Language optimized for commercial system integrators as a channel, not for the specific mechanics of subcontracting under a prime on a DoD prototype effort.",
+     "evidence_quote": "AirScout's hardware-agnostic software can be rapidly upgraded or downgraded with different sensors or optics and seamlessly integrated with third-party sensors and command-and-control systems through its easy-to-use API.",
+     "quote_source": "homepage"}
+  ],
+  "opener_hook": "Walaris' AirScout supported Honeywell's STRIKEWERX counter-UAS prototype testing for Global Strike Command — the harder part after a successful demo is usually the ATO, not the detection accuracy.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "AI-driven EO/IR sensor-fusion software (AirScout) for counter-UAS detection, classification, and tracking at the edge, for airspace and perimeter defense."
+}

@@ -1,0 +1,26 @@
+{
+  "company": "Little Arms Studios Inc.",
+  "slug": "little-arms-studios-inc",
+  "domain": "littlearms.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Two Air Force SBIR Phase II awards in 2023 (~$1.23M each, part of $3.85M total Phase II funding across 3 awards) to adapt the commercial Zephyr drone simulator for Airmen sUAS operational proficiency training — SBIR abstract section.",
+  "disconnect_score": 48,
+  "subscores": {"lab_language_intensity": 14, "deployment_awareness_absence": 12, "operator_absence": 4, "hiring_profile_skew": 10, "stage_pressure": 8},
+  "score_evidence": [
+    "'the most accurate flight physics of any commercially available drone simulator' → lab_language_intensity",
+    "'introduce a safe, low-risk, and cost-effective virtual training capability that improves Airmen sUAS operational proficiency' (SBIR abstract) — no DDIL/ATO/RMF/CMMC/ITAR term anywhere in either abstract → deployment_awareness_absence held at the 12 cap (own-language word count 575, under 1000)",
+    "'grow skills for any level of operator or industry setting' / product explicitly built to train drone operators → operator_absence very low, operators are the entire point of the product",
+    "Open roles data ('The New Standard for Fire Training Excellence', 'Take Control. Take Flight') reads as marketing copy rather than real job titles — treated as effectively no usable hiring signal",
+    "3 Phase II SBIR awards totaling $3.85M on a 7-12 person, 13-year-old company with existing commercial/university/Carahsoft government revenue → stage_pressure moderate, not existential"
+  ],
+  "blind_spots": [
+    {"blind_spot": "No stated path to running on a government training network (ATO)", "operator_reality": "A simulator fielded at Air Force training sites still needs to run on a government network or standalone government hardware with an ATO; two Phase II awards adapt the commercial product with zero mention of network accreditation, STIGs, or how it gets installed on base IT.", "why_likely_missing": "The abstract language is nearly identical to their commercial pitch — the team appears to be scoping content/weather modules, not government network integration.", "evidence_quote": "Little Arms Studios (LAS) proposes to modify and adapt its commercial drone training simulator, ZEPHYR, to introduce a safe, low-risk, and cost-effective virtual training capability that improves Airmen sUAS operational proficiency.", "quote_source": "sbir_abstract"},
+    {"blind_spot": "Two Air Force Phase II awards are the same commercial pitch re-scoped for two different topic areas", "operator_reality": "Weather-training and facility-inspection-training abstracts open with identical boilerplate; without differentiated DoD-specific requirements engineering (SWaP-C for field kits, GFE hardware compatibility), the risk is shipping the same consumer-facing simulator twice rather than something purpose-built for an Air Force training environment.", "why_likely_missing": "Company's core business (13 years old) is commercial/hobbyist/university sales; SBIR appears to be a funding mechanism for incremental content additions rather than a DoD-specific engineering effort.", "evidence_quote": "Little Arms Studios (LAS) proposes to modify and adapt its commercial drone training simulator, ZEPHYR, to introduce a safe, low-risk, and cost-effective virtual training capability that improves Airmen sUAS operational proficiency.", "quote_source": "sbir_abstract"},
+    {"blind_spot": "No sustainment or IT-support model for fielding at scale across training sites", "operator_reality": "'Fly wherever and whenever you want' is a hobbyist convenience pitch; scaling a PC-based simulator across multiple Air Force training installations needs a hardware refresh cycle, help-desk support, and site IT ownership none of which is addressed publicly.", "why_likely_missing": "Marketing copy is written for individual hobbyist and small flight-academy buyers, not for a government training-infrastructure procurement audience.", "evidence_quote": "Fly without risking hardware, having to charge drone batteries, and worrying about weather. Users can train wherever and whenever they want.", "quote_source": "homepage"}
+  ],
+  "opener_hook": "Your two 2023 Air Force Phase II awards both open with the same commercial Zephyr pitch — worth comparing notes on what turns a hobbyist simulator into something DoD can field at scale.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Makes Zephyr, a commercial drone-flight simulator for training operators (hobbyists, universities, law enforcement, and now Airmen), adapted under Air Force SBIR Phase II funding for extreme-weather and facility-inspection training scenarios."
+}

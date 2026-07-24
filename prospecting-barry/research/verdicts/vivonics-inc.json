@@ -1,0 +1,16 @@
+{
+  "company": "Vivonics Inc.",
+  "slug": "vivonics-inc",
+  "domain": "vivonics.com",
+  "verdict": "drop",
+  "drop_reason": "sbir_mill",
+  "dod_intent_evidence": "Own-words site describes 'over a decade of Vivonics R&D' organized into project teams pulled from an internal/external network 'for each project at each stage of development,' spanning at least 14 disparate R&D topic tags (Combat Casualty Care, Physiological Monitoring, Transdermal Neurological, Advanced Prosthetics, Diabetic, TBI, etc.) and collaborations with Army Medical Research, Marine Corps System Command, Naval Research Lab, Air Force Research Lab, and NIH — a contract R&D house winning many unrelated federal/DoD SBIR awards, not a company fielding one capability.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "A 13-year-old Bedford, MA biomedical engineering R&D firm running many parallel DoD/NIH-funded medical device projects (TBI treatment, vestibular stimulation, prosthetics, physiological monitoring) as a project-team-for-hire model rather than fielding a single product."
+}

@@ -1,0 +1,20 @@
+{
+  "company": "ELEVAN LLC (dba Elevate Systems)",
+  "slug": "elevan-llc",
+  "domain": "elevatesystems.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "Real DoD motion — Air Force SBIR Phase II 2022 ($1.25M, E-3 AWACS EFB/ADS-B) plus multiple 2024 USAF/Navy STTR Phase I awards (SBIR/STTR section and news) — but the company itself is an 8(a) services/consulting firm, not a product company.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "'Elevan LLC dba Elevate Systems is a full-service organization providing engineering services, executive and professional consulting services; information technology services as well as senior program and project management support services' (linkedin_about) → services shop, disqualified type",
+    "LinkedIn specialties include 'makerbot reseller' and 'executive consulting' (pack header) → reseller/services, not a fielded product with a valley-of-death transition",
+    "'Elevate Systems launched Elevate Energy where they are providing lighting assessments and LED retrofits' (linkedin_about) → diversified services business, no single product transition at risk"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "San Antonio 8(a) engineering-services and IT-consulting firm doing 3D design/additive manufacturing for aging Air Force and Army airframes."
+}

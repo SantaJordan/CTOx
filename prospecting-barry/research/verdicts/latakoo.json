@@ -1,0 +1,49 @@
+{
+  "company": "latakoo",
+  "slug": "latakoo",
+  "domain": "latakoo.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own SBIR abstracts: two Air Force SBIR Phase I awards (2023 'Rapid Data and Sensor Fusion Solution', 2024 'Rapid Data Fusion for ISR Operations') plus a $1.22M Air Force Phase II (2023, 'Content-Dependent Enhancement During Live Video Transmission') explicitly for ISR operations and military intelligence video transfer.",
+  "disconnect_score": 56,
+  "subscores": {
+    "lab_language_intensity": 5,
+    "deployment_awareness_absence": 11,
+    "operator_absence": 14,
+    "hiring_profile_skew": 14,
+    "stage_pressure": 12
+  },
+  "score_evidence": [
+    "SBIR.org: 'Latakoo appears to be developing secure, rapid data transfer technology that compresses and syncs large video files across unreliable networks, potentially enabling military intelligence teams to move and process footage faster' — detailed ISR product description with zero ATO/RMF/CMMC/ITAR/STIG language anywhere in the corpus → deployment_awareness_absence",
+    "Entire commercial site frames users as 'broadcasters,' 'journalists,' 'producers,' 'reporters' — never operators, warfighters, or ISR analysts by role; SBIR abstract references 'ISR operations' only abstractly → operator_absence",
+    "Only open role: 'Senior CUDA Engineer – Video Codec Architecture' — pure codec/GPU R&D, no field integration, ISSO, or compliance hire → hiring_profile_skew",
+    "'Approximately $2.5M total funding reported' for a company founded in 2010 (15 years old, ~30 employees) now running two Phase I SBIRs plus a $1.22M Phase II simultaneously → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Markets 'regardless of bandwidth or file size' for civilian broadcasters, and the SBIR abstract for the military version repeats the same 'unreliable networks' framing without ever stating a bit-rate floor the codec actually guarantees under a genuinely denied tactical link.",
+      "operator_reality": "'Works over any connection' for a news crew filing from a hotel Wi-Fi is a different claim than surviving a true DDIL tactical link; without a stated minimum-throughput or store-and-forward mode, this is the same unstated-assumption failure as the 30fps crowd-detection case.",
+      "why_likely_missing": "The bandwidth-agnostic pitch was built for breaking-news journalism, and the SBIR language appears to be a direct port of that pitch into an ISR context rather than a redesign against DDIL.",
+      "evidence_quote": "With latakoo, journalists can send files instantly, from anywhere, without worrying about bandwidth or file size.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No ATO/RMF/CMMC/ITAR/STIG language anywhere despite a live Air Force Phase II contract enhancing video for ISR sensor networks.",
+      "operator_reality": "A cloud SaaS platform built for commercial broadcasters (public cloud storage, egress-based pricing, email support SLAs) needs a fundamentally different security and data-handling posture to touch actual ISR feeds — that gap is invisible in the public voice even as the Phase II clock runs.",
+      "why_likely_missing": "Company's public identity and go-to-market are still 100% commercial broadcast/production, with the DoD SBIR work as an unmarketed side line.",
+      "evidence_quote": "latakoo is a mission-critical cloud based video workflow and collaboration platform used by the world's largest broadcasters - the fastest, easiest and most secure way to get content from anywhere to anywhere regardless of connectivity or file size.",
+      "quote_source": "linkedin_about"
+    },
+    {
+      "blind_spot": "Only visible open req is deep codec/GPU R&D (Senior CUDA Engineer) while the company juggles two Phase I ISR SBIRs and a Phase II live-video-enhancement contract on ~$2.5M total funding raised over 15 years.",
+      "operator_reality": "The codec science may get built, but nobody is visibly hired to own the path from Phase II demo to an ATO'd, fieldable ISR deployment — the classic valley-of-death gap for a thinly capitalized company running multiple concurrent award threads.",
+      "why_likely_missing": "Company appears to still be staffing around its commercial broadcast product; the ISR SBIR work rides on the same small engineering bench.",
+      "evidence_quote": "Senior CUDA Engineer – Video Codec Architecture",
+      "quote_source": "job_post"
+    }
+  ],
+  "opener_hook": "latakoo's Phase II Air Force SBIR enhances live video for ISR sensor networks — what bit-rate floor does the codec actually guarantee once the link goes truly denied, not just 'unreliable'?",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Cloud video transfer/transcoding/collaboration SaaS built for broadcasters and journalists (bandwidth-agnostic upload, live transcription, translation), now applying its compression IP to ISR/military-intelligence video via multiple Air Force SBIR awards."
+}

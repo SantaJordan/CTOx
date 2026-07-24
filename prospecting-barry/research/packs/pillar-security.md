@@ -3,7 +3,7 @@ slug: pillar-security | domain: pillar.security | HQ: ,   | employees(LI): 31 | 
 sources: vc:shield
 industry(LI): Technology; Information and Internet | specialties: 
 channel notes: AI security platform
-own-language word count: ~1398
+own-language word count: ~1392
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -319,6 +319,16 @@ turn the SAIL risk catalog into a vendor RFP questionnaire for evaluating an AI 
 
 /sai
 
+URL: https://pillar.security/old/platform-old
+
+ 301 Moved Permanently 
+ 
+ 301 Moved Permanently 
+ openresty 
+ 
+ 
+
+
 URL: https://pillar.security/platform/ai-development
 Pillar Security Platform | Securing the Entire AI Software Lifecycle
 
@@ -380,11 +390,7 @@ With Pillar
 
 SHADOW AI
 
-"Unauthorized software detected on employee workstation."
-
-SHADOW AI
-
-Opencode with GPT-4 backend active on senior engi
+"Una
 
 ## LinkedIn about
 

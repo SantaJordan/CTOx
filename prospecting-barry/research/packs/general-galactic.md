@@ -416,14 +416,6 @@ Privacy Policy Terms & Conditions
 General Galactic is a deep-tech startup manufacturing platforms for space mobility and propellant generation.  
 
 ## News (Exa, top 3)
-- General Galactic Partners with NASA for Moon and Mars ... (2026-06-29) https://www.linkedin.com/posts/general-galactic-technologies_general-galactic-has-been-selected-by-nasa-activity-7477393570598121472-so1g
-  # General Galactic has been selected by NASA - National Aeronautics and Space Administration to partner for technology critical for building a base on the Moon and exploring Mars! | General Galactic · LinkedIn · 2026-06-29
-
-**General Galactic**: General Galactic has 10-20 employees (+70% YoY), founded in 2023. Headquartered in El Segundo, California, United States, with presence in France. Has $9.9M in total funding, with 3 prior funding rounds.
-
----
-
-[General Galactic](https://linkedin.com/comp
 - Hypergiant Galactic Systems Awarded $61.4 Million U.S. Air Force Contract - SiliconHills (2023-05-05) https://www.siliconhillsnews.com/2023/05/04/hypergiant-galactic-systems-awarded-61-4-million-u-s-air-force-contract/
   Hypergiant Galactic Systems Awarded $61.4 Million U.S. Air Force Contract - SiliconHills
 
@@ -434,6 +426,19 @@ Hypergiant Galactic Systems has received a $61.4 million Small Business Innovati
 The company, based in Blanco, received the contract to provide user interface and user experience development services for cloud-based command and control.
 
 Hypergiant will perform the work in Bla
+- General Galactic Raises $8M to Advance Fossil-Free Fuel Revolution (2024-11-12) https://www.businesswire.com/news/home/20241112893754/en/General-Galactic-Raises-%248M-to-Advance-Fossil-Free-Fuel-Revolution
+  General Galactic Raises $8M to Advance Fossil-Free Fuel Revolution
+
+Nov 12, 2024 7:00 AM Eastern Standard Time
+
+# General Galactic Raises $8M to Advance Fossil-Free Fuel Revolution
+
+Share
+
+---
+
+- Scalable solution for producing fossil-free hydrocarbon fuel from CO2 emissions has secured new funding from Harpoon Ventures, Refactor Capital and other investors
+- Founded by former SpaceX and Varda Space Industries engineers Halen Mattison and Luke Neise, bringing aerospace industry engineering princ
 - Umbra and Hypergiant among firms selected for Air Force JADC2 contract - SpaceNews (2021-07-16) https://spacenews.com/jadc2-idiq-950-million/
   Umbra and Hypergiant among firms selected for Air Force JADC2 contract - SpaceNews
 

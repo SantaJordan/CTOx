@@ -1,0 +1,16 @@
+{
+  "company": "Forward Edge-AI",
+  "slug": "forward-edge-ai",
+  "domain": "forwardedge.ai",
+  "verdict": "drop",
+  "drop_reason": "sbir_mill",
+  "dod_intent_evidence": "Genuine DoD paper trail (AF/SDA SBIR-STTR Phase IIs for Isidore space COMSEC and ICS-SCADA - SBIR record + news sections), but seven Phase II awards totaling ~$10M across scattered topics (quantum COMSEC, SCADA, contested-space routers) alongside a consumer robocall app (Gabriel) and a $799 handheld Raman spectrometer (Blaise) is the profile of a research house whose business is winning SBIRs, not fielding one defense product.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "San Antonio AI/security shop with a scattered portfolio: quantum-resistant encryption devices (SBIR-funded), a consumer robocall-blocking app, and a handheld spectrometer."
+}

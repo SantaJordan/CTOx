@@ -187,7 +187,7 @@ Calendly
 Autonomy for Every Spacecraft
 
 ## News (Exa, top 3)
-- Stanford spinoff EraDrive claims $1 million NASA contract (2025-07-28) https://spacenews.com/stanford-spinoff-eradrive-claims-1-million-nasa-contract/
+- Stanford spinoff EraDrive claims $1 million NASA contract - SpaceNews (2025-07-28) https://spacenews.com/stanford-spinoff-eradrive-claims-1-million-nasa-contract/
   Stanford spinoff EraDrive claims $1 million NASA contract - SpaceNews
 
 Home/ Stanford spinoff EraDrive claims $1 million NASA contract
@@ -195,6 +195,20 @@ Home/ Stanford spinoff EraDrive claims $1 million NASA contract
 EraDrive aims to enhance satellite performance and autonomy through on-board identification, tracking and orbit determination of resident space objects; position, navigation and timing based on resident space objects; and autonomous swarm coordination and control based on vision. Credit: EraDrive
 
 SAN FRANCISCO – EraDrive, a Stanford University spinoff, won a $1
+- Spacecraft Optical Navigation and Autonomy Modules | California Government Bid | GovCB () https://www.govcb.com/government-bids/SPACECRAFT-OPTICAL-NAVIGATION-AND-23690496.htm
+  Spacecraft Optical Navigation and Autonomy Modules | California Government Bid | GovCB
+
+# Spacecraft Optical Navigation and Autonomy Modules
+
+| Agency: | |
+| --- | --- |
+| State: | California |
+| Type of Government: | Federal |
+| FSC Category: | 66 - Instruments and Laboratory Equipment |
+| NAICS Category: | 334511 - Search, Detection, Navigation, Guidance, Aeronautical, and Nautical System and Instrument Manufacturing |
+| Set Aside: | No Set aside used |
+| Posted Date: | Jun 16, 2026 |
+| Due Da
 - Stanford spinoff EraDrive claims $1 million NASA contract | Space Enterprise Community () https://spaceenterprise.uk/news/2747722
   Stanford spinoff EraDrive claims $1 million NASA contract | Space Enterprise Community
 
@@ -205,16 +219,6 @@ Skip to content
 Published on July 28, 2025
 
 SAN FRANCISCO – EraDrive, a Stanford spinoff, won a $1 million NASA contract to detect, identify and track space objects. It was the first contract for the Palo Alto, California, startup founded earlier this year by Space Rendezvous Laboratory (SLAB) director Simone D’Amico, Justin Kruger, SLAB postdoctor
-- Stanford Spin-off EraDrive Lands $1 Million NASA Contract... (2025-06-30) https://opentools.ai/news/stanford-spin-off-eradrive-lands-dollar1-million-nasa-contract-a-giant-leap-for-ai-in-space
-  Stanford Spin-off EraDrive Lands $1 Million NASA Contract...
-
-Updated Jun 30
-
-From Stanford's Labs to NASA's Missions, AI Drives Into Space Exploration
-
-# Stanford Spin-off EraDrive Lands $1 Million NASA Contract - A Giant Leap for AI in Space!
-
-EraDrive, a visionary startup spun off from Stanford University, has announced a monumental $1 million contract with NASA, propelling its cutting‑edge AI technology into the forefront of space innovation. This marks a significant step in the fusion of ar
 
 ## Open roles (Blitz, live)
 - Hardware and Embedded Test Engineer ({'city': 'Palo Alto', 'country_code': 'US'})

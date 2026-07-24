@@ -162,53 +162,18 @@ Tactical NightSight Technologies is a Defense and Space Manufacturing company. T
 Tactical Nightsight Technologies (TACNST) | Defense Deep-Tech
 
 TACNST creates the future of battlefield mobility. We build Driver Vision Enhancement (DVE) systems featuring proprietary "We See Depth™" AI software, converting 2D thermal/IR imagery into predict
-- CONTRACT to NIGHT VISION DEVICES INC () https://www.usaspending.gov/award/CONT_AWD_W9127Q24F0289_9700_GS07F0022V_4730
+- CONTRACT to ELBIT SYSTEMS OF AMERICA - NIGHT VISION LLC () https://www.usaspending.gov/award/CONT_AWD_M6785421F1915_9700_M6785419D1501_9700
   USAspending.gov
+- DOD to award $50M to accelerate development of emerging tech ... (2024-12-07) https://defensescoop.com/2024/12/07/pentagon-apfit-awards-december-2024/
+  DOD to award $50M to accelerate development of emerging tech projects | DefenseScoop
 
-USAspending.gov
-- Nvts Night Vision Technology Solutions () https://www.highergov.com/awardee/nvts-night-vision-technology-solutions-inc-10440442/
-  Nvts Night Vision Technology Solutions
+Subscribe to our daily newsletter.
 
-HigherGov
+Subscribe
 
-Notify
+SIMI VALLEY, Calif. — The Pentagon announced Saturday that it selected five small, non-traditional defense contractors to receive funding to help move their emerging technologies into production.
 
-- New Contract Awards
-- New Grant Awards
-
-Favorite
-
-Export
-
-- CSV
-- Excel
-
-Claim
-
-Share
-
-- Copy URL
-- Email
-- Tweet
-
-Search Awardees Open Help Docs
-
-# Nvts Night Vision Technology Solutions
-
-UEI: YJA3Z984E7S4 &#x2022 CAGE: 6FCX4 &#x2022 SBA Certs: SDVOSB VOSB
-
-- List
-- Text
-
-## Overview
-
-Awardee Type
-
-Parent
-
-Federal Capability Statement
-
-NVTS designs & manufactures advanced mid-long range, EO/IR systems for border/coastal surveillance, 
+Each company will receive $10 million under the Accelerate the Procurement and Fielding of Innovative Technologies (APFIT) pilot program overseen by Heidi Shyu, undersecr
 
 ## Open roles
 (no jobs data found)

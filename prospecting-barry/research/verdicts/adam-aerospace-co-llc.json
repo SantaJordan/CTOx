@@ -1,0 +1,25 @@
+{
+  "company": "ADAM AEROSPACE CO., LLC",
+  "slug": "adam-aerospace-co-llc",
+  "domain": "adamaerocorp.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "USAF SBIR Phase II ($733K, 2022) for blockchain-based aircraft data loading, and site lists 'United States Air Force | Air Guard | Space Force | Department of Defense' as customers with a 'USAF Commander' quote (about page, SBIR record).",
+  "disconnect_score": 59,
+  "subscores": {"lab_language_intensity": 16, "deployment_awareness_absence": 10, "operator_absence": 9, "hiring_profile_skew": 10, "stage_pressure": 14},
+  "score_evidence": [
+    "Buzzword stacking: 'Artificial Intelligence Generative AI Large Language Models Advanced Cryptography Distributed Ledger Technology Blockchain' and '1,000,000s of datasets verified' → lab_language_intensity",
+    "'ADAM de-risks data in real-time, from source to use, across all domains, regardless of connectivity' — connectivity dismissed in one clause, no ATO/RMF/STIG/crypto-cert language anywhere → deployment_awareness_absence (capped: own-language ~683 words)",
+    "3-4 person team, 2022 Phase II period long past, selling contract-vehicle access ('bypass the arduous & slow bidding process') to keep revenue moving → stage_pressure",
+    "No jobs data in pack → hiring_profile_skew set exactly 10 per rule"
+  ],
+  "blind_spots": [
+    {"blind_spot": "A distributed ledger promised to work 'regardless of connectivity'", "operator_reality": "Ledger verification needs node consensus and sync; DDIL comms partition the network first, so 'real-time verification from source to use' fails exactly in the contested environment it's marketed for — same connectivity-assumption failure as the 30fps crowd-detection case", "why_likely_missing": "Tiny team demoing on connected lab networks; blockchain framing predates any austere-site test", "evidence_quote": "ADAM de-risks data in real-time, from source to use, across all domains, regardless of connectivity.", "quote_source": "homepage"},
+    {"blind_spot": "ECHO edge comms app/hardware with no accreditation or crypto-certification story", "operator_reality": "Fielding a comms and document-sharing device on government networks in contested environments requires ATO/RMF and certified cryptography; without that, ECHO never leaves the innovation-lab demo table", "why_likely_missing": "Their compliance mention is a GSA FASt Lane bullet ('Regulatory Compliance') — acquisition-vehicle compliance, not RMF", "evidence_quote": "Verified comms and document sharing at the edge. ECHO is the app and hardware your team needs in contested environments.", "quote_source": "homepage"},
+    {"blind_spot": "LLM-based 'trust layer' with no stated impact level or edge-compute footprint", "operator_reality": "Trident AI has to run somewhere: cloud inference needs IL4/IL5 accreditation, edge inference needs SWaP the aircraft data-loading environment doesn't have; neither path, nor who sustains ledger nodes in the field, is addressed", "why_likely_missing": "Product list grew by appending AI buzzwords to a data-integrity core; no ISSO or deployment engineering visible in a 3-person company", "evidence_quote": "Trident AI is the trust layer that plugs into your existing AI missions.", "quote_source": "homepage"}
+  ],
+  "opener_hook": "adamaerocorp.com promises data verification 'regardless of connectivity' — a distributed ledger's consensus is the first thing DDIL comms take away.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "3-4 person, customer-funded shop selling blockchain/ledger data-verification middleware (plus an edge comms app and AI trust layer) for aircraft and space data, reached via SBIR and direct-award vehicles."
+}

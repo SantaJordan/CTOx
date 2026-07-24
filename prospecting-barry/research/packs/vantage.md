@@ -294,12 +294,14 @@ Email
 Copy link
 
 The Air Force Research Laboratory has handed a Maryland small business a shot at building the physical experiments that test how new space technology survives orbit, awarding Vantage Analytical LLC a$499,000,000 ceiling indefinite-delivery/indefinite-quantity contract on July 8, 2026, according to the Defense Department's daily contracts announcement.
-- AFRL Awards $499M SSHINE Contract | Govly (2026-07-10) https://app.govly.com/public/signals/137202
-  AFRL Awards $499M SSHINE Contract | Govly
+- Vantage Systems Wins $9.2M Navy Contract for Spacecraft Engineering R&D | Contract Awards (2026-06-19) https://envzone.com/award-record/vantage-systems-wins-9-2m-navy-contract-for-spacecraft-engineering-rd/
+  Vantage Systems Wins $9.2M Navy Contract for Spacecraft Engineering R&D | Contract Awards
 
-🏛️ Physical Infrastructure 🛡️ Defense & Military
+Know who’s winning. Learn how to compete.
 
-The Air Force Research Laboratory (AFRL) awarded a potential 10-year, $499 million indefinite-delivery/indefinite-quantity (IDIQ) contract to Vantage Analytical, a joint venture of Analytical Mechanics Associates and Vantage Systems, to support the Space Systems and Hardware Integration for Novel Experiments (SSHINE) program. This contract, awarded in July 2026 and designated FA9453-26-D-X007, covers com
+# Vantage Systems Wins $9.2M Navy Contract for Spacecraft Engineering R&D
+
+Vantage Systems, Inc., Lanham, Maryland, is being awarded a $9,235,416 cost-plus-fixed-fee contract for spacecraft engineering, software, research, and development services. This contract includes options which, if exercised, would bring the cumulative value of this contract to $48,034,119.
 
 ## Open roles (Blitz, live)
 - Enterprise Account Executive ({'city': 'New York', 'country_code': 'US'})

@@ -111,11 +111,11 @@ Contract
 - simwerx (2026-06-22) https://simwerx.com/
   # SimWerx (SimWerx Inc.)
 
-SimWerx is a Software Development company. Simwerx provides AI & ML for operational medicine, optimizing workflow, enhancing decision-making, and providing data-driven instruction and instructor efficiency. SimWerx employs 6 people (-20.0% YoY, -2 people), founded in 2020. Headquartered in Denver, Colorado, United States, with presence in United Kingdom. Has $3.6M in total funding, with 3 prior funding rounds.
+SimWerx is a Software Development company. Simwerx provides AI & ML for operational medicine, optimizing workflow, enhancing decision-making, and providing data-driven instruction and instructor efficiency. SimWerx employs 6 people (-20.0% YoY, -2 people), founded in 2020. Headquartered in Denver, Colorado, United States. Its workforce is distributed across United States and United Kingdom. Has $3.6M in total funding, with 3 prior funding rounds.
 
 ## About
 
-At SimWerx, we specialize in AI-empowered clinica
+At SimWerx, 
 
 ## Open roles
 (no jobs data found)

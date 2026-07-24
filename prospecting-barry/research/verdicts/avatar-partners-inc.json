@@ -1,44 +1,47 @@
 {
-  "company": "AVATAR Partners Inc",
+  "company": "AVATAR PARTNERS INC",
   "slug": "avatar-partners-inc",
   "domain": "avatarpartners.com",
   "verdict": "keep",
   "drop_reason": "",
-  "dod_intent_evidence": "Two 2022 SBIR Phase IIs (Air Force NDE, Navy V-22 SIA QA) plus named USMC EOD, USCG, NSWC, and NAWCAD customers — SBIR record and homepage testimonials.",
-  "disconnect_score": 45,
-  "subscores": {"lab_language_intensity": 13, "deployment_awareness_absence": 7, "operator_absence": 3, "hiring_profile_skew": 10, "stage_pressure": 12},
+  "dod_intent_evidence": "Two 2022 SBIR Phase II awards in their own abstracts (Air Force $1,499,889 for AR-assisted nondestructive evaluation; Navy $1,079,827 for V-22 wiring-harness AR quality assurance), plus named testimonials from NSWC Port Hueneme, NAWCAD, USMC EOD, and USCG Force Readiness Command on their homepage.",
+  "disconnect_score": 41,
+  "subscores": {"lab_language_intensity": 13, "deployment_awareness_absence": 5, "operator_absence": 4, "hiring_profile_skew": 10, "stage_pressure": 9},
   "score_evidence": [
-    "'300% reduction in errors, 90% reduction in time to train and 98% reduction in waste and rework' — demo-metric bragging with no fielding path → lab_language_intensity (homepage testimonial they chose to feature)",
-    "'Develop custom XR at lightning speed through our patented AI-powered XR no-code authoring platform' → lab_language_intensity (homepage)",
-    "'We will review the architecting of SIA QA to ensure its resilience against future needs (RMF and on-ramping to government systems)' — RMF acknowledged but deferred to a future review, not engineered in → partial deployment awareness (sbir_abstract)",
-    "No jobs data in pack → hiring_profile_skew set to exactly 10 per rule",
-    "'SBIR PhII x2 [2022]' with 29 employees and no follow-on production vehicle anywhere in the pack — both Phase II periods of performance have run out by 2026 → stage_pressure (channel notes)"
+    "\"Better than 0.5 mm x, y, z accuracy has already been achieved in open spaces\" and \"Better than 3° orientation accuracy has already been achieved in open spaces\" on a topic titled \"...in Enclosed or Constrained Access Locations\" → lab_language_intensity: the headline numbers come from the environment the requirement excludes",
+    "\"AVATAR unites automation, agentic intelligence, and immersive learning to transform complexity into clarity and readiness into results\" and \"Develop custom XR at lightning speed\" → lab_language_intensity",
+    "\"Results you can measure. 0 Patents 0 K Users 0 % Faster Development\" → lab_language_intensity: the proof section renders as zeros",
+    "\"We will review the architecting of SIA QA to ensure its resilience against future needs (RMF and on-ramping to government systems)\" (sbir_abstract) → deployment_awareness_absence held LOW: real RMF literacy",
+    "\"we were able to maintain our impact level five sensitive CUI environment while bringing their team in\" (Parker Aerospace testimonial) → deployment_awareness_absence held LOW: IL5/CUI experience",
+    "\"SIA QA will empower maintainers & inspectors to wear an AR headset, approach a specific V-22 wiring harness\" → operator_absence held LOW: the maintainer is the design center",
+    "No jobs data in pack → hiring_profile_skew set to exactly 10 by rule",
+    "Founded 2003, 29 employees, nine declared industry verticals, 2022 Phase IIs now past period of performance with no program of record visible → stage_pressure"
   ],
   "blind_spots": [
     {
-      "blind_spot": "Build-once-deploy-anywhere assumes commercial device deployment paths; Navy flightline and shipboard networks don't accept COTS AR headsets without per-device-type accreditation",
-      "operator_reality": "A maintainer on a carrier deck or in a V-22 hangar can't pair a Wi-Fi-dependent headset to a SaaS backend; NMCI/RMF accreditation of the headset class and offline content delivery decide whether SIA QA ever leaves the demo room",
-      "why_likely_missing": "Their own abstract defers RMF to a Phase II 'review' of architecture rather than designing for it; testimonials all come from lab/warfare-center engagements, not fleet squadrons",
-      "evidence_quote": "Its build-once, deploy-anywhere capability streamlines the process and maximizes efficiency across platforms.",
-      "quote_source": "homepage"
+      "blind_spot": "The spatial-registration accuracy that carries the proposal was measured in open space, on a topic that is specifically about enclosed and constrained-access inspection",
+      "operator_reality": "Motion-capture reference balls and environment recognition need line of sight; inside a wing box, a fuel cell, or behind a bulkhead, half the markers are occluded and the AR overlay drifts off the part. The maintainer then does what maintainers always do — pulls the headset off and goes back to the paper tech order — and the evaluation records the capability as not ready. The fix is architectural and cheap if made now: degrade gracefully to a marker-on-part local frame with a stated accuracy floor for confined space, and publish that number instead of the open-space one.",
+      "why_likely_missing": "The open-space figures are genuinely impressive and already in hand, so they get reused as the proposal's proof rather than treated as the wrong test condition for this topic.",
+      "evidence_quote": "Better than 0.5 mm x, y, z accuracy has already been achieved in open spaces",
+      "quote_source": "sbir_abstract"
     },
     {
-      "blind_spot": "'SaaS and on-prem platforms' — the SaaS half assumes connectivity that afloat and expeditionary maintenance environments deny",
-      "operator_reality": "The 'Should-Be' database that SIA QA compares against in real time has to live and update on a disconnected local node; a ship underway gets intermittent SATCOM at best — same failure mode as the 30fps crowd-detection case, just with CAD-derived reference data instead of video",
-      "why_likely_missing": "Product description centers on authoring speed and cross-platform reach; not one mention of DDIL, offline sync, or disconnected content packaging in ~2,082 words of their own language",
-      "evidence_quote": "Our SaaS and on-prem platforms feature an AI-driven, no-code, platform agnostic XR authoring suite that integrates seamlessly with IoT and Digital Twins, supports remote assistance, and delivers valuable user analytics.",
-      "quote_source": "linkedin_about"
+      "blind_spot": "The entire capability rides on third-party AR headsets whose product lifecycles are shorter than a Navy sustainment cycle",
+      "operator_reality": "A V-22 wiring-harness inspection program lives for a decade; the headsets it was authored against get discontinued in two or three. When the display vendor exits, every authored procedure is stranded, the government owns content it cannot run, and the re-host is unfunded. On the flight line there is also nobody assigned to charge, sanitize, ESD-protect, or account for the devices, and no spares line — which is how a successful pilot quietly dies between the demo and the second squadron. Naming a hardware-abstraction layer and a device-refresh plan in the transition package is what keeps the content asset alive.",
+      "why_likely_missing": "Their own abstract flags a hardware trade study as a Phase II objective, which frames device choice as an optimization problem rather than as a decade-long obsolescence and sustainment risk the government has to fund.",
+      "evidence_quote": "The hardware upgrades will be a \"trade study\"-like objective for Phase II. With the increasing availability and deployment of new hardware supporting computer vision and AR, Team AVATAR needs to ensure that SIA QA works on the equipment and hardware most likely to be employed by maintenance crews.",
+      "quote_source": "sbir_abstract"
     },
     {
-      "blind_spot": "Their advocacy chain is operator-level fans, not program-office champions — 20+ years in and DoD wins are still SBIRs and pilots",
-      "operator_reality": "A company commander loving EOD AR is not adoption; without a PM/PEO champion and a transition vehicle (P-8/V-22 program office line item), the 2022 Phase IIs die at period-of-performance end and the fleet never sees the tool",
-      "why_likely_missing": "Every DoD quote they showcase is from an individual engineer, HPT manager, or company commander — none from an acquisition authority; the org has no visible BD/capture or transition function at 29 people",
-      "evidence_quote": "I'm a huge fan of EOD AR and the efforts your team is making.",
+      "blind_spot": "Every named champion is an engineer or unit-level user; no program office or PEO sponsor appears anywhere",
+      "operator_reality": "A branch engineer at NSWC Port Hueneme and an EOD company commander can get a capability tried; neither can put it on a POM line, and without POM money the work resets to the next SBIR topic every eighteen months. That is the mechanism behind twenty-three years, twenty-nine people, and repeated Phase IIs with no program of record — enthusiasm at the operator level substituting for an acquisition sponsor. Identifying the specific PMA or PEO that owns V-22 maintenance training, and getting a transition agreement signed while the Phase II is still funded, is the single highest-leverage move available.",
+      "why_likely_missing": "The testimonials are genuinely warm and they read like traction, so the missing layer above them is easy not to notice until the funding stops.",
+      "evidence_quote": "\"This project proves AVATAR's ability to provide XR training with different equipment and increases opportunities at the USCG.\" Ron Stark, Human Performance Technology Manager | Force Readiness Command, Training Division",
       "quote_source": "homepage"
     }
   ],
-  "opener_hook": "Both of Avatar's 2022 Phase IIs — the Air Force NDE tool and the Navy V-22 SIA QA — are past their period of performance with no follow-on production vehicle visible on the public record.",
-  "confidence": "medium",
+  "opener_hook": "The Air Force topic AVATAR won in 2022 is nondestructive evaluation in enclosed or constrained-access locations, and the proposal's tracking numbers — 0.5 mm position, 3 degrees orientation — are both qualified as achieved in open spaces, which is the gap that usually shows up at the first confined-space demo rather than in the lab.",
+  "confidence": "high",
   "stage_band": "revenue_stage",
-  "what_they_do": "29-person XR/AR company whose no-code authoring platform builds maintenance and training applications for Navy, USMC, USCG, and industrial customers."
+  "what_they_do": "Builds AI-assisted augmented and virtual reality maintenance and training software (XRcreate authoring platform) for Navy and Air Force maintainers, inspectors, and EOD teams, plus commercial aerospace and healthcare customers."
 }

@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 """Stage 4b: collect agent verdicts, validate, rank keeps by disconnect_score.
-
-Input : research/verdicts/*.json
-Output: data/ranked_companies.csv + sanity stats on stdout.
-
+Output: data/ranked_companies.csv + sanity stats.
 Usage: python3 s7_rank.py
 """
 import csv
@@ -41,7 +38,7 @@ def main():
         declared = int(v.get("disconnect_score") or 0)
         if abs(total - declared) > 2:
             problems.append(f"{p.name}: score mismatch declared={declared} sum={total}")
-        score = total  # trust the sum, not the declared number
+        score = total
         for k in SUBS:
             s = int(subs.get(k) or 0)
             if not (0 <= s <= 20):

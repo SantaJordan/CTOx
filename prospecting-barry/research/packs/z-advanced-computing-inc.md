@@ -292,18 +292,44 @@ ZAC’s disruptive Cognitive Explainable-AI (artificial intelligence) detailed 3
 ZAC’s disruptive Explainable-AI (artificial intelligence) detailed image recognition technology will be adapted to automatically and accurately recognize and extract detailed description of passenger vehicles in real-time from aerial images (e.g., from MQ
 
 ## News (Exa, top 3)
-- US Air Force awarded 25 million dollar contract to ZAC, the ... (2026-03-09) https://www.prnewswire.com/news-releases/us-air-force-awarded-25-million-dollar-contract-to-zac-the-pioneer-of-cognitive-explainable-ai-which-is-the-foundation-for-autonomous-driving-level-5-302708329.html
+- US Air Force awarded 25 million dollar contract to ZAC, the pioneer of Cognitive Explainable-AI, which is the foundation for Autonomous Driving Level-5 (2026-03-09) https://www.prnewswire.com/news-releases/us-air-force-awarded-25-million-dollar-contract-to-zac-the-pioneer-of-cognitive-explainable-ai-which-is-the-foundation-for-autonomous-driving-level-5-302708329.html
   US Air Force awarded 25 million dollar contract to ZAC, the pioneer of Cognitive Explainable-AI, which is the foundation for Autonomous Driving Level-5 Accessibility Statement Skip Navigation
 
 POTOMAC, Md., March 9, 2026 /PRNewswire/ -- Z Advanced Computing, Inc. (ZAC), the pioneer Cognitive Explainable Artificial Intelligence (CXAI) software startup, was awarded 25 million dollar sole-source contract from US Air Force. The brain-inspired CXAI is the foundation and a prerequisite for the human-l
-- Cognitive Explainable-AI (Artificial Intelligence) Image Recognition startup won a 3rd US Air Force contract, following breakthrough demos, using only few training samples on low power CPU (2022-05-11) https://www.prnewswire.com/news-releases/cognitive-explainable-ai-artificial-intelligence-image-recognition-startup-won-a-3rd-us-air-force-contract-following-breakthrough-demos-using-only-few-training-samples-on-low-power-cpu-301545234.html
-  Cognitive Explainable-AI (Artificial Intelligence) Image Recognition startup won a 3rd US Air Force contract, following breakthrough demos, using only few training samples on low power CPU Accessibility Statement Skip Navigation
+- Z Advanced Computing | Cognitive Explainable-AI () https://www.zadvancedcomputing.com/
+  Z Advanced Computing | Cognitive Explainable-AI
 
-POTOMAC, Md. , May 11, 2022 /PRNewswire/ -- Z Advanced Computing, Inc. (ZAC), the pioneer Cognitive Explainable-AI (Artificial Intelligence) (Cognitive XAI) software startup, has won its 3rd US Air Force (USAF) contract for its detailed 3D image recognition. For the USA
-- Cognitive Explainable-AI (Artificial Intelligence) 3D Image Recognition startup won a 2nd contract from US Air Force, following breakthrough demo, using only few training samples on low power CPU (2021-11-30) https://www.prnewswire.com/news-releases/cognitive-explainable-ai-artificial-intelligence-3d-image-recognition-startup-won-a-2nd-contract-from-us-air-force-following-breakthrough-demo-using-only-few-training-samples-on-low-power-cpu-301432546.html
-  Cognitive Explainable-AI (Artificial Intelligence) 3D Image Recognition startup won a 2nd contract from US Air Force, following breakthrough demo, using only few training samples on low power CPU Accessibility Statement Skip Navigation
+top of page
 
-POTOMAC, Md., Nov. 30, 2021 /PRNewswire/ -- Z Advanced Computing, Inc. (ZAC), the pioneer Cognitive Explainable-AI (Artificial Intelligence) (Cognitive XAI) software startup, has won a 2nd contract for the 3D image recognition from any angle, from the US Air Forc
+# Disruptive detailed 3D Image Recognition based on brain-inspired Cognitive Explainable-AI (CXAI)
+
+## The only company in the world to achieve AI training with only few samples (typically 5 to 50), similar to humans: The pathway to Level-5 Autonomous Driving & A fundamental element of Artificial General Intelligence (AGI)
+
+Home: Main_Page
+
+ZAC efficient algorithms need much less hardware (CPU / GPU), energy (Carbon footprint), and co
+- News | ZAC () https://www.zadvancedcomputing.com/news
+  News | ZAC
+
+top of page
+
+## News & Press Updates
+
+News
+
+# US Air Force awarded 25 million dollar contract to ZAC, the pioneer of Cognitive Explainable-AI, which is the foundation for Autonomous Driving Level-5
+
+https://www.prnewswire.com/news-releases/us-air-force-awarded-25-million-dollar-contract-to-zac-the-pioneer-of-cognitive-explainable-ai-which-is-the-foundation-for-autonomous-driving-level-5-302708329.html
+
+March 9, 2026
+
+PR Newswire
+
+The AI Journal
+
+Third News
+
+# ZAC’s Brain-Inspired AI 
 
 ## Open roles
 (no jobs data found)

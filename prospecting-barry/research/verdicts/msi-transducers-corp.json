@@ -1,0 +1,16 @@
+{
+  "company": "MSI Transducers Corp.",
+  "slug": "msi-transducers-corp",
+  "domain": "msitransducers.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "'For over 30 years, MSI is the recognized leader for providing high-performance piezocomposite transducers for the US Navy,' with 'Arrays provided for programs of record' and two SBIR Phase II awards (2020, 2023) per the Defense page.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "34-year-old custom transducer/array manufacturer (sonar, ACOMM, mine-hunting) that builds to spec or print for the US Navy and defense primes, already supplying programs of record."
+}

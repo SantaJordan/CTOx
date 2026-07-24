@@ -1,0 +1,44 @@
+{
+  "company": "Ubihere, Inc.",
+  "slug": "ubihere-inc",
+  "domain": "ubihere.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "2024 Army JPEO A&A Phase II SBIR award ($1,899,996) for 'Ubivision-C, an edge-based intelligent camera solution for Army operations' plus a prior Air Force Phase I/II SBIR line for GPS-denied navigation — SBIR/STTR record and timeline on About page.",
+  "disconnect_score": 71,
+  "subscores": {"lab_language_intensity": 15, "deployment_awareness_absence": 14, "operator_absence": 16, "hiring_profile_skew": 10, "stage_pressure": 16},
+  "score_evidence": [
+    "'88–96% confidence · ±2ft precision', '<100ms latency · live dashboards', '$10M+ R&D Investment' → lab_language_intensity (spec-brag framing, no operational context)",
+    "'No cloud. No internet. No compromise.' pitched as a customer-privacy feature for commercial facilities, with zero mention of ATO/RMF/CMMC/ITAR despite an active Army JPEO A&A Battlefield Automation award → deployment_awareness_absence",
+    "'Get a live walkthrough of UbiVision tailored to your operations' — customer/ops framing throughout, no mention of operator, warfighter, training, or CONOPS anywhere on the site → operator_absence",
+    "(no jobs data in pack — set exactly 10 per instructions)",
+    "'$1,899,996 Army Phase II SBIR contract' (2024) on a 15-person, seed-backed team → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "UbiVision's 'full identity graph' tracks individuals across cameras, time, and spaces for commercial security use cases",
+      "operator_reality": "Applied to an Army JPEO A&A Battlefield Automation deployment, continuous cross-camera personnel tracking is exactly the kind of PII/biometric data flow that triggers RMF/ATO review and CMMC data-handling controls — the site never addresses classification, access control, or data retention for that graph on a government network.",
+      "why_likely_missing": "Product materials are written for commercial buyers (retail, manufacturing, municipalities) where identity tracking is a feature, not a compliance liability.",
+      "evidence_quote": "Full identity graph — Track individuals across cameras, time, and spaces — not just faces.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The 'edge-first, cloud optional, works offline' architecture is marketed purely as a customer-choice privacy feature, not a DDIL requirement",
+      "operator_reality": "For a battlefield-automation deployment this isn't optional — it's the whole game (intermittent tactical network, no fixed workstation, multi-node relay). The materials never describe what happens when the 'workstation' tier itself is mobile or the link between edge and workstation drops.",
+      "why_likely_missing": "Framing throughout is 'your data never leaves the premises' — a privacy/compliance pitch aimed at retail and manufacturing customers with a fixed facility, not a contested or mobile tactical environment.",
+      "evidence_quote": "Edge → Workstation → Cloud — Flexible deployment; works offline; the customer controls the data path.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Founder's original DoD-funded work was GPS-denied navigation for austere/lunar conditions, but flagship messaging has drifted to soft commercial verticals",
+      "operator_reality": "'Defense' now sits as one line in a 6-item vertical list alongside hospitality and childcare security — suggests the org's center of gravity, hiring, and roadmap prioritization may not be built around hardening Ubivision-C for actual battlefield conditions, risking the same fielding gap that kills the fresh Army Phase II contract at transition.",
+      "why_likely_missing": "The pivot narrative is explicit in their own timeline ('Pivoted to commercial spatial intelligence platform', 2023) even though a new Army Phase II award followed in 2024.",
+      "evidence_quote": "12+ verticals, config only — Manufacturing, retail, transit, defense, community, hospitality — one backbone, configured per industry.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "The $1.9M JPEO A&A Battlefield Automation award funds Ubivision-C — does the identity-graph pipeline hold up over a DDIL tactical link the way it does across the 400+ municipal camera network?",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Edge AI computer-vision platform (UbiVision) turning existing camera networks into real-time spatial intelligence for security and operations, sold mainly to commercial verticals with defense as one of several use cases."
+}

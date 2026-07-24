@@ -1,0 +1,46 @@
+{
+  "company": "Diffraqtion",
+  "slug": "diffraqtion",
+  "domain": "diffraqtion.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "DARPA SBIR Phase 2 for space-domain awareness — their own Space Intelligence page ('Our tech was built with DARPA to improve Space Domain Awareness detecting objects beyond the diffraction limit') plus Breaking Defense, 2026-01-13, and their own release announcing $4.2M pre-seed combined with a DARPA SBIR Phase 2 contract.",
+  "disconnect_score": 76,
+  "subscores": {"lab_language_intensity": 19, "deployment_awareness_absence": 12, "operator_absence": 12, "hiring_profile_skew": 15, "stage_pressure": 18},
+  "score_evidence": [
+    "'identify objects 20x further than any camera known to humanity' → lab_language_intensity: superlative benchmark claim with no platform, aperture, atmosphere or duty-cycle qualifier",
+    "'1000x faster in object detection and classification than conventional GPU/VPU + CMOS sensor ... 1000x more energy efficient than current GPU/VPUs, using photonic computing' → lab_language_intensity: three round-number multipliers as the entire product page",
+    "'winning first prize out of 1000 startups at SLUSH 2025 with a prize money of $1.2M, and winning $100k Best Space Innovation of 2025 at TechConnect' → lab_language_intensity: demo-circuit validation stands in for operational validation",
+    "Product page's only integration language is 'Output of the classification in USB-C, M8/M12 or other custom integrations' and 'Safely train your classification models directly in our cloud platform' — no rad-hard, TVAC, ITAR, IL4/IL5 or ATO anywhere → deployment_awareness_absence (capped at 12, own-language ~511 words)",
+    "No mention of an operator, analyst, ground-station crew, tasking workflow or field feedback anywhere in the pack → operator_absence (capped at 12)",
+    "Open roles are 'Head of Engineering', 'Software Engineer - Optical Simulation', 'Office Operations Manager' — a 14-person company still hiring its first engineering lead, with zero test, integration, space-qual or compliance roles → hiring_profile_skew",
+    "Founded 2025, pre-seed, '$4.2 million in combined pre-seed funding and a DARPA SBIR Phase 2 contract' → stage_pressure: Phase II period-of-performance clock against a constellation-scale ambition"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The product's model-training and classification workflow is anchored to a company-run cloud, which is exactly the thing a DARPA SDA customer's network will not let them have.",
+      "operator_reality": "The government analyst running space-domain awareness works on a classified enclave with no route to a startup's SaaS. Cloud-tethered training means the model can never be retrained on the customer's own data, and the sensor arrives as a black box the mission owner cannot update — the same failure as the 30fps crowd-detection case, but at the model-lifecycle layer rather than the bandwidth layer.",
+      "why_likely_missing": "The team is a quantum-photonics spinout from MIT/UMD/Arizona shipping a commercial-style product page; nothing in the pack shows anyone who has taken a sensor through an IL5 enclave or an ATO.",
+      "evidence_quote": "Safely train your classification models directly in our cloud platform.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Every performance number is a bench comparison against CMOS/CCD with no environment attached — no thermal-vacuum, radiation, launch-vibration or on-orbit power-budget data for a photonic processor they intend to fly on a constellation.",
+      "operator_reality": "A photonic computing unit on a smallsat bus lives in a -40C to +80C swing, total-ionizing-dose accumulation, and a bus that may allot tens of watts orbit-average. '1000x more energy efficient' means nothing to a program office until it is a watts-at-the-connector number with a TVAC and TID test report behind it, and that testing is measured in quarters — quarters the Phase II clock does not have.",
+      "why_likely_missing": "Their only engineering hires are optical simulation and a not-yet-filled Head of Engineering; no environmental test, thermal, or spacecraft-integration engineer appears anywhere in the pack.",
+      "evidence_quote": "1000x more energy efficient than current GPU/VPUs, using photonic computing.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "A university-spinout staffing model collides with export control on space-domain-awareness sensor data — deemed export is never mentioned despite roots in three research universities.",
+      "operator_reality": "The moment SDA performance data becomes ITAR/EAR-controlled technical data, every non-US-person researcher on the team has to be walled off or licensed, and the company needs a technology control plan before it can take the next contract. Discovering that mid-Phase-II costs months and can force staff off the program that built the technology.",
+      "why_likely_missing": "The company presents itself through academic lineage and prize wins rather than as a defense contractor; there is no compliance, security, or contracts function visible and no ITAR/CMMC/NIST 800-171 language on the site.",
+      "evidence_quote": "Our startup has roots in MIT, University of Maryland, and University of Arizona.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Your product page offers model training 'directly in our cloud platform' while your DARPA Phase 2 is for space-domain awareness — those two live on networks that never touch, and the reconciliation usually eats a quarter no one budgeted.",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "MIT/University of Maryland spinout building a quantum camera and photonic processing unit that images past the optical diffraction limit, aimed at satellite constellations for space-domain awareness and Earth intelligence."
+}

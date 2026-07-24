@@ -260,7 +260,7 @@ Case Study
 L3Harris collaborated with MatrixSpace to demonstrate how the companies’ novel technologies can be combined to provide a ground-breaking, low-cost solution to detecting
 
 URL: https://matrixspace.com/products/ai-platform
-AI Platform for Sensor & Threat Intelligence | MatrixSpace 
+AI Platform for Sensor & Threat Intelligence | MatrixSpace
 
 # Experience AI Sensing. Gain Layered Confidence.
 
@@ -286,7 +286,7 @@ Built to simplify management of wide-area sensor networks, AiCloud layers above 
 
 ### Single Intelligent Pane of Glass
 
-AiCloud combines data feeds from multiple sensors — radar, optical, ADS-B, Remote I
+AiCloud combines data feeds from multiple sensors — radar, optical, ADS-B, Remote ID
 
 ## LinkedIn about
 

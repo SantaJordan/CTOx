@@ -3,7 +3,7 @@ slug: regscale-inc | domain: regscale.com | HQ: Tysons, Virginia US | employees(
 sources: sbir
 industry(LI): Computer and Network Security | specialties: 
 channel notes: SBIR PhII x1 [2022] Air Force latest: Leveraging a Real-Time Compliance Automation Platform with Machine Learning Techniques to Deliver Self-Updating Document hq: Tysons,VA emp: 9
-own-language word count: ~1472
+own-language word count: ~1462
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -173,29 +173,23 @@ Extend our platform to integrate with any technology
 URL: https://regscale.com/products-ccm/
 RegScale CCM Products for Intelligent GRC Automation
 
-Read More RegScale Recognized in the 2026 Gartner® Market Guide for DevOps Continuous Compliance Automation Tools
+RegScale Recognized in the 2026 Gartner® Market Guide for DevOps Continuous Compliance Automation Tools
 
-Read More IT Services Faster to Market with Rapid FedRAMP Submission
+IT Services Faster to Market with Rapid FedRAMP Submission
 
-Read More IT Services Faster to Market with Rapid FedRAMP Submission
+IT Services Faster to Market with Rapid FedRAMP Submission
 
-Read More Speeding up FedRAMP Compliance for Cloud Services
+Speeding up FedRAMP Compliance for Cloud Services
 
-Read More Speeding up FedRAMP Compliance for Cloud Services
+Speeding up FedRAMP Compliance for Cloud Services
 
-Learn More
+15 tough cybersecurity questions every CISO must answer
 
-Learn More
+RegScale raises USD $30 million in oversubscribed Series B
 
-Learn More
+When compliance isn’t continuous, that’s a security risk
 
-Read More 15 tough cybersecurity questions every CISO must answer
-
-Read More RegScale raises USD $30 million in oversubscribed Series B
-
-Read More When compliance isn’t continuous, that’s a security risk
-
-Read More Watch RegScale Co-Founder and CEO on the NYSE show Floor Talk
+Watch RegScale Co-Founder and CEO on the NYSE show Floor Talk
 
 Products
 
@@ -215,11 +209,9 @@ RegScale’s Continuous Controls Monitoring (CCM) platform streamlines GRC with 
 
 Enable rapid certification for frameworks like FedRAMP, SOC 2, CMMC, and NIST CSF with policy and compliance. By harnessing technology to streamline the entire process, RegScale reduces the mean time to compliance. It uses an AI-powered system and NIST OSCAL for building compliance programs, gathering evidence, assessing controls, and managing risks, all while ensuring ongoing vigilance through continuous monitoring.
 
-Learn More
-
 ### Simplified Risk
 
-Continuously monitor controls for effectiveness and ensure that risk management is not a periodic or reactive process but rather a continuous guard against potential threats and vulnerabilities. Get visibility across your enterprise risk, third-party
+Continuously monitor controls for effectiveness and ensure that risk management is not a periodic or reactive process but rather a continuous guard against potential threats and vulnerabilities. Get visibility across your enterprise risk, third-party interactions, quantifiable risk, business impact analysis, vulnerability management, and investment portfolios for a consistent gauge of 
 
 URL: https://regscale.com/gartner-cool-vendors-ai-report/
 Gartner Cool Vendor in AI-Powered Technologies for Assurance Leaders
@@ -274,12 +266,6 @@ RegScale is a continuous controls monitoring (CCM) platform that enables faster,
 Strategic Capability: Rapid, Effective Decision Making Focus Area: Cybersecurity; Network Command, Control, & Communications Technology Area: Information Systems Department of Defense (DoD) networks and systems are subject to a litany of cybersecurity reg
 
 ## News (Exa, top 3)
-- RegScale secures Phase II SBIR award from AFWERX - Teknovation.biz (2022-07-29) https://www.teknovation.biz/regscale-secures-phase-ii-sbir-award-from-afwerx/
-  RegScale secures Phase II SBIR award from AFWERX - Teknovation.biz
-
-## RegScale secures Phase II SBIR award from AFWERX
-
-Following its previous selection for a Phase I Small Business Innovation Research (SBIR) award from the U.S. Air Force’s AFWERX program, RegScale has announced that the start-up has been selected for a follow on Phase II SBIR Award for up to $750,000. The additional R&D funding will support the ongoing R&D efforts as well as determination of the applications where the technolo
 - RegScale | Contracts, Set-Asides, Vendors & News () https://govtribe.com/topic-insights/regscale-1
   RegScale | Contracts, Set-Asides, Vendors & News
 
@@ -310,6 +296,12 @@ Due
 7/23/25, 2:00 PM
 
 Federal Ag
+- RegScale secures Phase II SBIR award from AFWERX - Teknovation.biz (2022-07-29) https://www.teknovation.biz/regscale-secures-phase-ii-sbir-award-from-afwerx/
+  RegScale secures Phase II SBIR award from AFWERX - Teknovation.biz
+
+## RegScale secures Phase II SBIR award from AFWERX
+
+Following its previous selection for a Phase I Small Business Innovation Research (SBIR) award from the U.S. Air Force’s AFWERX program, RegScale has announced that the start-up has been selected for a follow on Phase II SBIR Award for up to $750,000. The additional R&D funding will support the ongoing R&D efforts as well as determination of the applications where the technolo
 - Leidos, RegScale to improve digital security for Department of War and federal agencies (2026-02-05) https://www.prnewswire.com/news-releases/leidos-regscale-to-improve-digital-security-for-department-of-war-and-federal-agencies-302679909.html
   Leidos, RegScale to improve digital security for Department of War and federal agencies Accessibility Statement Skip Navigation
 

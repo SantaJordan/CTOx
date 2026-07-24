@@ -489,16 +489,6 @@ NASA
 Total Award Amount: $149,966
 
 Contrac
-- Meroxa To Develop Real-Time Data Architecture For Space, Air Forces - Potomac Officers Club (2022-12-14) https://www.potomacofficersclub.com/news/meroxa-to-develop-real-time-data-architecture-for-space-air-forces/
-  Meroxa To Develop Real-Time Data Architecture For Space, Air Forces - Potomac Officers Club
-
-## Space
-
-SBIR contract award
-
-# Meroxa to Develop Real-Time Data Architecture for Space, Air Forces
-
-Meroxa has won a $1.3 million Small Business Innovation Research Phase II contract to develop a real-time event streaming data architecture meant to support the integration of sensor data into the Unified Data Library, a repository program co-managed by the U.S. Space Force’s Space and Missile Systems Ce
 - Data contract with Space Systems Command garners Meroxa $1.25 million - Military Embedded Systems () https://militaryembedded.com/cyber/cybersecurity/data-contract-with-space-systems-command-garners-meroxa-125-million
   Data contract with Space Systems Command garners Meroxa $1.25 million - Military Embedded Systems
 
@@ -513,6 +503,16 @@ Assistant Managing Editor
 Military Embedded Systems
 
 ## SAN FRANCISCO. Data application platform-as-a-service (DAPaaS) company Meroxa was chosen to receive a $1.25 million Small Business Innovation and Research (SBIR) Phase II contract through AFWERX -- a program of the U.S. Air Force focusing on innovative technology development -- under which Meroxa wil
+- Meroxa To Develop Real-Time Data Architecture For Space, Air Forces (2022-12-14) https://www.potomacofficersclub.com/news/meroxa-to-develop-real-time-data-architecture-for-space-air-forces/
+  Meroxa To Develop Real-Time Data Architecture For Space, Air Forces - Potomac Officers Club
+
+## Space
+
+SBIR contract award
+
+# Meroxa to Develop Real-Time Data Architecture for Space, Air Forces
+
+Meroxa has won a $1.3 million Small Business Innovation Research Phase II contract to develop a real-time event streaming data architecture meant to support the integration of sensor data into the Unified Data Library, a repository program co-managed by the U.S. Space Force’s Space and Missile Systems Ce
 
 ## Open roles
 (no jobs data found)

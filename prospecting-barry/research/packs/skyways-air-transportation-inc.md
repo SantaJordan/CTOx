@@ -181,58 +181,22 @@ Share
 ---
 
 AUSTIN, Texas--(BUSINESS WIRE)-- Skyways, a designer and manufacturer of long-range autonomous unmanned cargo aircraft systems, announced today it has received an award for a total amount of $37 million from the U.S. Air Force's (USAF) AFWERX to transition it
-- skyways air transportation inc () https://www.sbir.gov/portfolio/1542801
-  Firm | SBIR Skip to main content
+- Skyways wins $37M Air Force contract - Austin Business Journal (2025-06-09) https://www.bizjournals.com/austin/news/2025/06/09/austin-defense-tech-startup-wins-contract.html
+  Skyways, Air Force strike $37M deal - Austin Business Journal
 
-# Company
+Manage your consent preferences
 
-Portfolio Data
+We use cookies and similar methods to recognize visitors and remember their preferences. We may also use them to measure ad campaign effectiveness, target ads, and analyze site traffic. Depending on your location, you may opt-in or opt out of the use of these technologies.
 
-Back to Company Search
+OK
 
-## SKYWAYS AIR TRANSPORTATION INC
+Manage preferences
 
-### Address
+Consent powered by Ethyca
 
-500 Center Ridge Dr Ste 200Austin, TX, 78753-1033USA
+Preview this article 1 min
 
-UEI: DATMBHX83MN7
-
-Number of Employees: 20
-
-HUBZone Owned: No
-
-Woman Owned: No
-
-Socially and Economically Disadvantaged: No
-
-#### SBIR/STTR Involvement
-
-Year of first award: 2021
-
-1
-
-Phase I Awards
-
-2
-
-Phase II Awards
-
-200%
-
-Conversion Rate
-
-$47,775
-
-Phase I Dollars
-
-$4,300,324
-
-Phase II Dollars
-
-$4,348,099
-
-Tot
+An Austin-based defense tech startup that makes au
 
 ## Open roles (Blitz, live)
 - QA Engineering Manager ({'city': 'Austin', 'country_code': 'US'})

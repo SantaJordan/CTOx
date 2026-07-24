@@ -121,8 +121,22 @@ ASEI proudly operates engineering and testing facilities in Niceville, FL and Tu
 Current military navigation systems are heavily reliant on Global Positioning System (GPS) signals. Advances in adversaries jamming techniques can compromise GPS capabilities and has placed our military forces at risk. Thus, there is a need to maintain mid/course navigation and precision terminal guidance in a GPS Contested Environment. The focus of this problem is on the Stand Off Precision Guided Munitions (SOPGM) in a GPS contested environment, such as AGM/176 Griffin and GBU/69/B Small Glide Munition (SGM). The objective of the Phase II effort is to develop and demonstrate mid/course navigation and precision terminal guidance in a GPS contested environment using Captive Carry Contractor provided SOPGM prototypes. The prototype mid/course navigation system uses GPS and other non/GPS navigation aiding sources, and the terminal guidance system is a multi/mode seeker. A captive carry flight demonstration will be conducted in a contested environment to ensure the prototype meets the requirements as specified in the Statement of Objectives (SOO). Applied Systems Engineering Inc (ASEI) will leverage the Advanced Tactical Navigator (ATACNAV), developed and produced by ASEI. ATACNAV is a resilient navigation system that enables mission operation in denied or degraded GPS environments. It produces a pseudo/GPS signal to enable continued operation of on/board GPS/based system elements with an architecture that enables mission/specific aiding sources. ASEI specializes in navigation solutions and missiles and has experience with the SOPGM Common Launch Tube (CLT) and the Battle Management Systems (BMS). ASEI’s proposed solution uses the Mission Computer and Autopilot (MCAP), a navigation and guidance system for low SWAP applications. The system includes a modular architecture that is adaptable to existing and future SOPGM munitions and can host various navigation receivers. This effort will modify the MCAP to include VBN capability. Using Scientific Systems Company Inc.’s (SSCI) ImageNav™ software, a non/GPS precision navigation software that uses inertial navigation system information to match onboard camera imagery, against stored geo/registered digital terrain elevation data to determine the precise location of a missile in flight. The modified MCAP or Guidance Electronic Unit (GEU) prototype integration into the SOPGM munition will be similar for Dynetics’ Small Glide Munition (SGM) and Raytheon Technologies’ Griffin missile. The GEU prototype, which is form fit and function compatible with SGM or Griffin, will replace the existing GEU and GPS/INS subsystem. In addition, a downward looking thermal camera will be integrated into the missile’s airframe. The aircraft integration of the prototype for Captive Carry Flight demonstrations, will be mounted in a way that there is no interference with the satellite communication to the upward looking antennas and the downward facing sensor has a clear line of site to the ground.
 
 ## News (Exa, top 3)
-- APPLIED SYSTEMS ENGINEERING INC | Federal Award Recipient Profile () https://www.usaspending.gov/recipient/55f04b14-21a8-13e0-0db2-5923f05b49a2-C/latest
-  USAspending.gov
+- ASEI Awarded $48640357 Contract with Naval Surface ... () https://www.aseifl.com/ASEI-Awarded--48-640-357-Contract-with-Naval-Surface-Warfare-Center-1-7051.html
+  ASEI Awarded $48,640,357 Contract with Naval Surface Warfare Center
+
+Header Menu Main Content Footer
+
+News
+
+News
+
+# ASEI Awarded $48,640,357 Contract with Naval Surface Warfare Center
+
+Applied Systems Engineering, Niceville, Florida, is awarded a $48,640,357 indefinite- delivery/indefinite-quantity, firm-fixed-price delivery orders contract with a five-year ordering period to provide Selective Availability Anti-Spoofing Module (SAASM) Advanced Tactical Navigator (ATACNAV) units, SAASM ATACNAV-Hi
+- applied systems engineering, inc (2026-06-24) https://aseifl.com/
+  # Applied Systems Engineering, Inc
+
+Applied Systems Engineering, Inc is a Aviation and Aerospace Component Manufacturing company. ASEI is a leader in GPS/INS engineering, munition design, analysis, integration, and testing. They have been serving the defense industry for over 20 years and offer munition design, analysis, integration, and testing services. Applied Systems Engineering, Inc employs 23 people (+8.3% YoY, +3 people) and has an annual revenue of $5M-$25M, founded in 1993. Headquartere
 - Applied Systems Engineering () https://www.highergov.com/awardee/applied-systems-engineering-inc-10016547/
   Applied Systems Engineering
 
@@ -164,10 +178,6 @@ Parent
 Federal Capability Statement
 
 High Power Amplifiers and Transmitters. Helix, Coupled Cavity Traveling Wave Tubes, Pulsed/CW and Dual Mode Amplifiers, Grid Pulsed and CW. Klystron pulsed /CW 
-- applied systems engineering, inc (2026-06-24) https://aseifl.com/
-  # Applied Systems Engineering, Inc
-
-Applied Systems Engineering, Inc is a Aviation and Aerospace Component Manufacturing company. ASEI is a leader in GPS/INS engineering, munition design, analysis, integration, and testing. They have been serving the defense industry for over 20 years and offer munition design, analysis, integration, and testing services. Applied Systems Engineering, Inc employs 23 people (+8.3% YoY, +3 people) and has an annual revenue of $5M-$25M, founded in 1993. Headquartere
 
 ## Open roles (Blitz, live)
 - Systems Engineer ({'city': 'Niceville', 'country_code': 'US'})

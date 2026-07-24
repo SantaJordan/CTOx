@@ -1,0 +1,46 @@
+{
+  "company": "Image Insight, Inc.",
+  "slug": "image-insight-inc",
+  "domain": "imageinsightinc.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Their own About page lists current DoD IDIQ vehicles — 'JE-RDAP (counter-WMD efforts), AFLCMC/XA..., Missile Defense Agency - (support to Golden Dome...)' — plus two Air Force 2022 SBIR Phase IIs in the pack ('Dirty Bomb (Radiological Dispersal Device) Detection for EOD Robots', $1,250,000; 'Low-cost Widespread Security Camera Based C-UAS Detection', $750,000).",
+  "disconnect_score": 35,
+  "subscores": {"lab_language_intensity": 6, "deployment_awareness_absence": 3, "operator_absence": 3, "hiring_profile_skew": 10, "stage_pressure": 13},
+  "score_evidence": [
+    "'GammaPix applications feed data to the GammaPix Command Center, or optionally ATAK, JWARN, COT servers, COPERS, Nett Warrior devices, and other Common Operating Picture (COP) products.' → deployment_awareness_absence scored very LOW: they name the actual integration surfaces, TAK included",
+    "'Under an Air Force Air Combat Command A29-sponsored project, this capability was incorporated into an NSA ATO (DARKWING/SIGNUS), and we are credentialed to process data in GovCloud.' → deployment_awareness_absence: specific, verifiable authorization language most companies at this size cannot produce",
+    "'Border regions are vast, and often incompletely monitored since most dedicated detectors are too expensive and too fragile to survive in the field.' → deployment_awareness_absence: SWaP-C and field-survivability reasoning is the core of the value proposition",
+    "'Our integrated live-virtual reality training simulator enables personnel to train in their local areas against virtual threats in a real-world scenario. These training sessions have been successfully employed by military, police, and other frontline r[esponders]' → operator_absence scored very LOW: training and sustainment are already productized",
+    "'This proven and commercially available (TRL-9) video analysis software technology is sold to military, public safety, and medical research sectors' (sbir_abstract) → lab_language_intensity low; TRL is cited at the fielded end of the scale, not as a lab brag",
+    "Blitz shows no jobs data → hiring_profile_skew set to exactly 10, per rule",
+    "'Image Insight Inc. employs 3 people (-9.1% YoY, -1 person), founded in 2010. ... Has $40K in total funding.' (news) → stage_pressure: sixteen years, 100+ contracts and task orders, and headcount shrinking on essentially no equity capital"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The COTS-device advantage is also a recertification treadmill nobody funds",
+      "operator_reality": "GammaPix maps CMOS sensor noise to a dose rate, which means the calibration is specific to a sensor stack — a given phone model, a given CCTV camera, a given firmware and OS patch level. Their pitch is that the hardware is disposable and instantly replaceable, but every fleet refresh, every camera model swap, and every Android security patch potentially moves the characterization and re-opens the accreditation of the build that was authorized. For a radiation product this is not cosmetic: a dose rate that reads low because the device changed is a safety call, not a UX bug. Three people cannot sustain a per-device characterization pipeline across an EUD fleet that turns over every few years.",
+      "why_likely_missing": "'COTS equipment can be easily and quickly replaced' is written as a procurement benefit; the calibration and re-accreditation cost of that replacement lands on the vendor, not the buyer, so it never shows up in the value proposition.",
+      "evidence_quote": "GammaPix uses unmodified COTS devices such as smartphones, tablets, and CCTV security cameras, which reduces hardware cost and alleviates supply chain constraints. COTS equipment can be easily and quickly replaced.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Riding inside someone else's ATO is being read as being authorized",
+      "operator_reality": "Being incorporated into the NSA ATO for DARKWING/SIGNUS under a specific ACC A29 project is real and rare — but it is an authorization for that system, on that boundary, for that sponsor. It does not carry to the JE-RDAP counter-WMD work, to AFLCMC/XA, or to anything under the MDA Golden Dome vehicle; each of those program offices runs its own RMF package with its own ISSO, its own POA&M, and its own timeline. Every new task order therefore re-incurs the months-to-authorize cost, and on a short period of performance that is the line item that eats the transition.",
+      "why_likely_missing": "One hard-won ATO is a legitimate credential and gets reused as the answer to every security question in every capture; the fact that authorizations do not transfer across boundaries only surfaces when a new program office asks for the package.",
+      "evidence_quote": "this capability was incorporated into an NSA ATO (DARKWING/SIGNUS), and we are credentialed to process data in GovCloud",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "100+ contracts and task orders, no program office that owns the capability as a line item",
+      "operator_reality": "The pattern in their own numbers — sixteen years, more than a hundred contracts and task orders, DHS SAFETY Act QATT twice, three IDIQ vehicles, and still under ten people with roughly no outside capital — is the signature of a capability that operators and EOD teams like but that no one above them has written into a POM line. Radiation detection on cameras does not map cleanly to an existing program of record, so it gets bought as one-off task orders forever and never becomes a sustained requirement with fielding, spares, and training funded behind it. That is an advocacy-chain problem, not a technology problem, and it is the reason the company is not larger.",
+      "why_likely_missing": "Every individual award validates the technology, so the absence of a champion at the requirements level reads as steady business rather than as the ceiling it actually is.",
+      "evidence_quote": "Our team has been awarded more than 100 contracts and task orders from leading U.S. agencies including the Department of Defense and the Department of Homeland Security.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Image Insight sits on three DoD IDIQ vehicles and inside the NSA ATO for DARKWING/SIGNUS, and is still a company of under ten people after more than 100 contracts and task orders — that shape usually means no program office owns the capability as a line item.",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Sells patented software (GammaPix, LookOut/LaUDS) that turns unmodified smartphones, EOD-robot cameras, and CCTV into ionizing-radiation detectors and nighttime drone detectors."
+}

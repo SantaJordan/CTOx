@@ -1,0 +1,26 @@
+{
+  "company": "Luminous Cyber Corp",
+  "slug": "luminous-cyber-corp",
+  "domain": "luminouscyber.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Air Force SBIR Phase II ($849,902, 2022) for an unspoofable GPS alternative, explicitly endorsed by AFLCMC/WIIZ and AFRL/RYZC/RYZN, followed by a $2M AFWERX TACFI award in March 2026 — SBIR abstract section and news section.",
+  "disconnect_score": 45,
+  "subscores": {"lab_language_intensity": 4, "deployment_awareness_absence": 2, "operator_absence": 14, "hiring_profile_skew": 10, "stage_pressure": 15},
+  "score_evidence": [
+    "'uncertainties as low as 10 cm...1000 times per second' is a precision claim, but it's embedded in jamming/spoofing/contested-environment framing throughout → lab_language_intensity kept low",
+    "'Designed for MOSA environments, compatible with SOSA-aligned sensor...CMOSS-style modular subsystem frameworks' plus explicit 'low SWAP-C software defined radio' → deployment_awareness_absence very low, this team is fluent in DoD open-systems and SWaP-C standards",
+    "'This proposal specifically addresses the needs of, and is endorsed by, AFLCMC/WIIZ, Medium Altitude UAS Special Projects Branch, AFMC AFRL/RYZC and AFMC AFRL/RYZN' — institutional endorsement chain named, but no field operator, warfighter, or CONOPS ever appears → operator_absence",
+    "No jobs data found in pack → hiring_profile_skew set to 10",
+    "'$2 million in gover[nment funding]...with $2 million in Matching Strategic Investment' TACFI award (March 2026), four years after the 2022 Phase II, on a 4-9 person team → stage_pressure (TACFI is structurally a transition-or-die funding mechanism)"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Public LinkedIn profile still describes an unrelated VPN-detection product, not the current Alt-PNT business", "operator_reality": "Not a product-engineering blind spot but a resourcing one: a 4-9 person team whose most-viewed public profile misrepresents what they actually build signals thin BD/marketing bandwidth exactly when TACFI's matching-investment clock is running — advocacy and capture work compete with core engineering for the same tiny headcount.", "why_likely_missing": "The company appears to have pivoted from commercial VPN/geolocation detection to Alt-PNT and never updated LinkedIn to match, likely because engineering effort went into the SBIR/TACFI technical work instead.", "evidence_quote": "Luminous Cyber has invented machine learning based, credible, real-time VPN detection and geolocation that works without IP addresses, software installs or access to user data.", "quote_source": "linkedin_about"},
+    {"blind_spot": "Position accuracy depends on Mobile Ad-Hoc Mesh Network density, which is itself vulnerable to the jamming that denies GPS in the first place", "operator_reality": "TDOA multilateration needs enough networked reference nodes in range to compute a fix; in a fully contested RF environment (not just GPS-denied but comms-denied), the same adversary that jams GPS could degrade the mesh LIS depends on, creating a second point of failure the marketing doesn't address.", "why_likely_missing": "The SBIR abstract sells LIS as the alternative to a single point of failure (GPS) without examining whether its own network dependency reintroduces one under the same threat model.", "evidence_quote": "LIS combines state of the art Time Difference of Arrival (TDOA) location determination algorithms... works hand in glove with Mobile Ad-Hoc Mesh Networks", "quote_source": "sbir_abstract"},
+    {"blind_spot": "Fluent in MOSA/SOSA/CMOSS technical standards but silent on ATO/RMF/CMMC accreditation", "operator_reality": "Conforming to an open-systems architecture standard is a technical interoperability question; getting onto a government network or fielded platform still requires a separate ATO/RMF package — a team this deep in standards-speak but silent on accreditation risks assuming standards conformance substitutes for the paperwork gate that actually determines fielding timeline.", "why_likely_missing": "Founders' expertise (per their own bio) is PNT, networking, security, and ML — deep technical domain knowledge, with no visible compliance/ISSO function called out anywhere in 1704 words of site copy.", "evidence_quote": "Designed for MOSA environments, compatible with SOSA-aligned sensor...and supports integration into CMOSS-style modular subsystem frameworks.", "quote_source": "homepage"}
+  ],
+  "opener_hook": "Your March 2026 AFWERX TACFI required $2M in matching strategic investment on top of the government award — worth comparing notes on what actually closes the gap from TACFI to a program of record before that private capital runs out.",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Builds resilient alternative Position, Navigation, and Timing (Alt-PNT) infrastructure — a Temporal Resilience Engine that preserves accurate timing and location for navigation and mission systems when GPS is jammed, spoofed, or unavailable."
+}

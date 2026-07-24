@@ -1,0 +1,44 @@
+{
+  "company": "Salient Motion",
+  "slug": "salient-motion",
+  "domain": "salientmotion.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own-site language explicitly names military platforms as a target market ('critical actuation systems for commercial aviation and defense'; separate 'Defence' page in nav) — but the only evidenced production contract to date (Reuters/AeroOnline news) is 100% commercial (Aviointeriors business-class seats), so the DoD motion is real but still aspirational, not yet a named defense customer.",
+  "disconnect_score": 63,
+  "subscores": {"lab_language_intensity": 9, "deployment_awareness_absence": 14, "operator_absence": 16, "hiring_profile_skew": 11, "stage_pressure": 13},
+  "score_evidence": [
+    "\"10x faster lead times... up to 10x reductions in cost and lead time for certifiable products\" — business/speed claims, not lab-spec bragging → lab_language_intensity kept low",
+    "\"We develop and certify our core motor control software to DO-178C standards as a modular, reusable library\" — fluent in FAA/aviation certification but zero mention of DDIL/ATO/RMF/CMMC/ITAR anywhere despite naming military platforms as a market → deployment_awareness_absence",
+    "\"Salient Motion designs, manufactures, and supports advanced electromechanical actuation systems for both commercial and military platforms\" — no operator, warfighter, training, or CONOPS language anywhere in the pack → operator_absence",
+    "Open roles include a Quality Manager but no field/deployment/compliance/ISSO role tied to defense accreditation → hiring_profile_skew",
+    "\"Salient Motion said on Wednesday it had secured its first production contract\" (Feb 2026) against \"$4,000,000... Seed Round (2024-10-01)\" — fresh seed, first-ever production win, tiny team → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "DO-178C is aviation software certification (FAA-lineage), not a DoD authority-to-operate — the company treats 'certification-centric engineering' as solved without addressing that military platforms require separate RMF/CMMC accreditation.",
+      "operator_reality": "A DO-178C-certified actuator can be airworthy and still be years from an ATO on a DoD network or program; conflating the two is exactly the kind of assumption that stalls a defense transition even after the engineering is done.",
+      "why_likely_missing": "Team's certification playbook was built for the commercial aviation customers they've actually closed (Aviointeriors), then generalized to 'military platforms' without a distinct DoD compliance narrative.",
+      "evidence_quote": "\"Our systems are designed with certification in mind from day one. All reusable components follow a strict design assurance process, enabling rapid safety case development and up to 10x reductions in cost and lead time for certifiable products.\"",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "'Forward-deployed engineers' is pitched as premium customer support for OEMs and MROs, with no mention of spares, power/battery logistics, or field-repair training for an actuator that fails on a fielded military platform at an austere site.",
+      "operator_reality": "A commercial-aviation support model (call the vendor, get an engineer flown out) does not survive contact with an OCONUS operating environment where the actuator failure has to be fixed by the E-5 on hand, not a company engineer on a plane.",
+      "why_likely_missing": "The support model is built around their one evidenced customer type — commercial OEMs/MROs with normal logistics access — not a deployed military unit.",
+      "evidence_quote": "\"We're always ready to go above and beyond for our customers, including providing forward-deployed engineers as needed.\"",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No prime/flow-down or advocacy-chain language anywhere — the entire go-to-market pitch is a commercial supply-chain disruption story (faster/cheaper than legacy suppliers) with zero discussion of how a two-year-old actuator supplier gets qualified onto an existing DoD platform.",
+      "operator_reality": "Getting designed into a fielded military aircraft or ground system typically runs through a prime integrator's qualification process and GFE integration — a story about beating OEM markup on price doesn't address who champions them past that gate, and their only closed deal so far is commercial.",
+      "why_likely_missing": "The founding team's pitch (ex-Anduril engineers per Reuters) leans on manufacturing speed and cost as the wedge, which is a real differentiator for commercial aviation but doesn't map to how DoD platform integration actually happens.",
+      "evidence_quote": "\"We provide high-quality, certified actuation solutions without the overhead costs of legacy providers. By offering competitive pricing and transparent support, we empower OEMs and MROs with true choice in the marketplace.\"",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Salient's actuator software is DO-178C certified for commercial aircraft — is there a separate ATO path mapped for the military platforms on the roadmap?",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Designs and manufactures certified electromechanical actuation systems (with a software-first, DO-178C-certified control architecture) for commercial aircraft and, per their site, military platforms."
+}

@@ -227,68 +227,28 @@ WireScreen applies more than 100 automated risk flags—including more than 20 s
 WireScreen provides the world\'s most powerful open-source intelligence (OSINT) on corporate ownership, investment, and relationships in China. We serve public sector missions in national security, enforcement, and policy across a variety of agencies along with law firms, think tanks, and private-sector compliance teams. With detailed, high-quality profiles on millions of corporations, investors, executives, and business relationships, WireScreen’s data and technology is an essential tool for thousands of investigators, regulators, and policy professionals tasked with understanding China’s com
 
 ## News (Exa, top 3)
+- WireScreen Software License Subscriptions (2025-07-30) https://sam.gov/opp/870cabd689624db4adae3aca4c1953d2/view
+  SAM.gov --
+
+You have 2 new alerts
+
+Show / Hide Alerts
+
+Scheduled SAM Maintenance
+
+Show Details Feb 6, 2026 SAM.gov will undergo planned maintenance on Saturday, February 14th, 2026 from 8:00 AM to 1:00 PM EST. Users in SAM.gov will be unable to complete Entity Registrations and Exclusions during this window. Thank you for your understanding.
+
+Revolutionary FAR Overhaul Impacts to SAM.gov
+
+Show Details Aug 15, 2025 The Revolutionary FAR Overhaul (RFO) is streamlining the FAR to its statutory root
 - We’re excited to share that WireScreen has been awarded a spot on a $919 million contract vehicle that aims over the next decade to help the US government strengthen its visibility into … | David Barboza (2025-04-25) https://www.linkedin.com/posts/david-barboza-7bba4325_were-excited-to-share-that-wirescreen-has-activity-7321625876004065281-N2DC
   # We’re excited to share that WireScreen has been awarded a spot on a $919 million contract vehicle that aims over the next decade to help the US government strengthen its visibility into … | David Barboza · LinkedIn · 2025-04-25
 
 **David Barboza**: Co-Founder, WireScreen at WireScreen with 29 years 1 month of experience. Previous roles include Business Correspondent at The New York Times, Shanghai Business Correspondent and Shanghai Bureau Chief at The New York Times, and Chicago Business Corre
-- WireScreen Achieves “Awardable” Status on DoW ... (2026-04-28) https://wirescreen.ai/press/tradewinds
-  Press Announcement
+- Definitive Contract HQ003422C0097 () https://govtribe.com/award/federal-contract-award/definitive-contract-hq003422c0097
+  Definitive Contract HQ003422C0097
 
-# WireScreen Achieves “Awardable” Status on DoW Tradewinds Solutions Marketplace
-
-New York, NY – April 23, 2026 – WireScreen, the premier China-focused risk intelligence platform, today announced that it has been designated “Awardable” through the Department of War’s (DoW) Chief Digital and Artificial Intelligence Office (CDAO) Tradewinds Solutions Marketplace.
-
-‍
-
-The Tradewinds Solutions Marketplace is a digital repository of post-competition, readily awardable solutions de
-- Contract 2032H525F00049 Thundercat Technology () https://www.highergov.com/contract/NNG15SD26B-2032H525F00049/
-  Contract 2032H525F00049 Thundercat Technology -- --
-
-HigherGov
-
-Pipeline
-
-FOIA
-
-Track
-
-Favorite
-
-No Bid
-
-Export
-
-- Excel
-- CSV
-
-Share
-
-- Tweet
-- Email
-- Copy URL
-
-Search Prime Contracts
-
-# NNG15SD26B-2032H525F00049
-
-Delivery Order
-
-- Text
-- List
-
-## Overview
-
-Government Description
-
-Wirescreen data feed bundle base and 1 option year COR: diago D. Stinson [email] [phone]
-
-Awardee
-
-Thundercat Technology
-
-Awarding Agency
-
-IRS Office of the Chief Procurement Officer (OCPO) [
+Definitive Contract HQ003422C0097
 
 ## Open roles (Blitz, live)
 - Partnerships Manager ({'city': 'Utica-Rome Area', 'country_code': 'US'})

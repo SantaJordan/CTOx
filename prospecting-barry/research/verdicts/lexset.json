@@ -1,0 +1,49 @@
+{
+  "company": "Lexset",
+  "slug": "lexset",
+  "domain": "lexset.ai",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own SBIR abstract: $1.5M Air Force 2023 Phase II 'Spacehaven Synthetic Data Generation Software for Autonomous Space Domain Awareness and In-Space Servicing, Assembly, and Manufacturing (ISAM)'; homepage explicitly lists 'Defense & ISR' as a configured domain with KLV/CoT/Firestorm integration and offline capability.",
+  "disconnect_score": 32,
+  "subscores": {
+    "lab_language_intensity": 8,
+    "deployment_awareness_absence": 6,
+    "operator_absence": 4,
+    "hiring_profile_skew": 2,
+    "stage_pressure": 12
+  },
+  "score_evidence": [
+    "'Runs where the mission is: Cloud, on-prem, or edge hardware when the network isn't an option — including Jetson-class devices. Plugs into the systems operators already run: Firestorm, CoT, GIS, BIM, CMMS' — MISB KLV/CoT/Firestorm and offline-capable framing shows deep TAK/DDIL fluency → deployment_awareness_absence (scored very low)",
+    "'Operators get a decision-ready answer in the form they can act on' and 'handing operators decision-ready intelligence' appear repeatedly in the core product pitch → operator_absence (scored very low)",
+    "Only open role: 'Full-Stack Product & Field Engineer – AI Systems' — explicitly tasked to 'deploy, configure, and troubleshoot AI systems in operational and field environments' and 'travel to customer locations, military installations, and test events' → hiring_profile_skew (scored very low, this IS a field-deployment hire)",
+    "'We're a small team solving hard problems at the intersection of AI, perception, and real-world deployment' — one hybrid field/product/AI hire covering two live product lines (Sentinel + Seahaven) and an active Air Force Phase II SBIR → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "No ATO/RMF/CMMC/ITAR/STIG language anywhere despite explicitly targeting 'defense ISR' and integrating with Firestorm/CoT military systems, and despite claiming Sentinel is already 'fielded.'",
+      "operator_reality": "A perception system ingesting ISR sensor feeds and drafting SALUTE reports needs an Authority to Operate before it touches a real government network; the deployment-architecture story here is unusually mature everywhere except this one gate, which is the gate that actually kills transitions.",
+      "why_likely_missing": "Public site voice is built around edge/offline engineering maturity (a genuinely rare strength), which may be masking that the compliance/paperwork side hasn't kept pace.",
+      "evidence_quote": "Configures per domain: defense ISR, infrastructure inspection, long-dwell monitoring.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Claims offline/edge operation 'when the network isn't an option, including Jetson-class devices,' but never states the SWaP-C budget for running the full agentic reasoning stack (working memory, tool use, multi-skill library) on that hardware.",
+      "operator_reality": "An agent that reasons across frames, calls tools, and maintains working memory is compute- and power-hungry; without a stated thermal/power envelope, 'runs on Jetson-class devices' could mean a rack-mounted Jetson cluster or a single low-power module — the difference decides whether it fits the platform an operator actually carries.",
+      "why_likely_missing": "Marketing emphasizes capability breadth (the reasoning pipeline) over the hardware constraints that would let a buyer size an actual deployment.",
+      "evidence_quote": "Edge · On‑prem · Cloud Runs where the mission runs",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "One open req (Full-Stack Product & Field Engineer) is asked to cover software development, AI engineering, customer engagement, and field deployment across military installations and test events simultaneously, for a 13-person team running two live products plus an active Phase II SBIR.",
+      "operator_reality": "That single hybrid hire is the entire feedback loop between what breaks in the field and what gets fixed in the code — if that person is unavailable during a critical test event or installation, there's no visible backup, which is exactly the kind of single point of failure that turns a funded-months clock into a missed transition.",
+      "why_likely_missing": "Team is intentionally lean and generalist by design ('we're a small team solving hard problems'), which is a strength for iteration speed but a risk for sustained field support at scale.",
+      "evidence_quote": "One day you may be implementing a new product feature, the next analyzing model performance on a large dataset, debugging a deployment at a customer site, or supporting an operational exercise.",
+      "quote_source": "job_post"
+    }
+  ],
+  "opener_hook": "Sentinel already ingests MISB KLV, CoT, and Firestorm and runs offline on Jetson-class edge hardware — where's the ATO/RMF conversation for putting that on an actual ISR network?",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Sentinel is an agentic computer-vision perception system that ingests ISR/drone/sensor feeds (KLV/CoT/Firestorm), geolocates detections, and drafts SALUTE reports for operators, edge-deployable and offline-capable; Seahaven is a companion synthetic 3D training-data engine. Used for defense ISR, space domain awareness (Air Force SBIR Phase II), infrastructure inspection, and industrial robotics."
+}

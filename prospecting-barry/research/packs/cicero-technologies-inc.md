@@ -313,7 +313,7 @@ Branch: USAF
 Total Award Amount: $1,245,431
 
 Contr
-- SRCTec of Cicero wins $90 million Air Force contract for drone defenses (2020-08-25) https://www.syracuse.com/politics/cny/2020/08/srctec-of-cicero-wins-90-million-air-force-contract-for-drone-defenses.html
+- SRCTec of Cicero wins $90 million Air Force contract for ... (2020-08-25) https://www.syracuse.com/politics/cny/2020/08/srctec-of-cicero-wins-90-million-air-force-contract-for-drone-defenses.html
   SRCTec of Cicero wins $90 million Air Force contract for drone defenses - syracuse.com
 [Skip to Article](#main)
 Set weather
@@ -323,16 +323,26 @@ Quick Look
 Change your current location »Current![Mostly Sunny](https://www.syracuse.com/pf/resources/images/common/weather/small/02.png?d=1543)-Mostly Sunny
 Tonight![Mostly Sunny](https://www.syracuse.com/pf/resources/images/common/weather/small/02.png?d=1543)Low-Mostly Sunny
 Tomorrow![Mostly Sunny](https://www.syracuse.com/pf/resources/images/comm
-- Army extends deal with SRC of Cicero for technology to battle small drones - syracuse.com (2020-01-30) https://www.syracuse.com/news/2020/01/army-extends-deal-with-src-of-cicero-for-technology-to-battle-small-drones.html
-  Army extends deal with SRC of Cicero for technology to battle small drones - syracuse.com
+- SRCTec awarded more than $99M U.S. Army contract – Central New York Business Journal (2023-03-04) https://www.cnybj.com/srctec-awarded-more-than-99m-us-army-contract/
+  SRCTec awarded more than $99M U.S. Army contract – Central New York Business Journal
 
-Summer Sale - $1 for 3 months - Expires 8/2/26
+## Get our email updates
 
-# Army extends deal with SRC of Cicero for technology to battle small drones
+Stay up-to-date on the companies, people and issues that impact businesses in Syracuse, Central New York and beyond.
 
-- Published: Jan. 30, 2020, 11:41 a.m.
+Email
 
-SRC Inc. of Cicero has developed counter-drone systems for the military similar to the one shown in this rendering provided by the company. The system uses radar, cameras and jamming technology to detect, track and defeat small, low-flying dro
+Sign Up
+
+### What's New
+
+A Message to the Central New York Business Community
+
+Slocum-Dickson physician to serve as educator for Diabetes Fellowship Program at MVHS
+
+Harris Beach Murtha AI industry team starts
+
+New York manufacturing index begins 2026 in positive
 
 ## Open roles (Blitz, live)
 - Forward Deployed Engineer - Eudia for Government ({'city': 'Washington', 'country_code': 'US'})

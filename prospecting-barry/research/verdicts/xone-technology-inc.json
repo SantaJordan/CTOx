@@ -1,0 +1,16 @@
+{
+  "company": "XONE Technology, Inc.",
+  "slug": "xone-technology-inc",
+  "domain": "xonetechnology.com",
+  "verdict": "insufficient_evidence",
+  "drop_reason": "",
+  "dod_intent_evidence": "$4.7M OTA with PEO Aviation plus multiple federal contract awards (govtribe/highergov records) and own-site language 'force protection in defense and intelligence missions' — passes DoD-intent gate, but evidence volume gate fails next.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "low",
+  "stage_band": "preseed_seed",
+  "what_they_do": "RF geolocation sensors for signal reconnaissance and force protection, marketed for small UAS/UxS platforms; own-language pack is only ~495 words, below the ~500-word evidence-sufficiency threshold."
+}

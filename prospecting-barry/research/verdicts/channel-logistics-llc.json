@@ -1,0 +1,52 @@
+{
+  "company": "Channel Logistics, LLC (Space-Eyes)",
+  "slug": "channel-logistics-llc",
+  "domain": "space-eyes.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "SBIR section: Air Force Phase II 2022, $749,636, 'Maritime Moving Target Indicator (MMTI) Global Integrated Intelligence, Surveillance, and Reconnaissance (GIISR) Analytics Engine', and the homepage claims '25+ years serving national security' with Defense and Intelligence listed as industries. (The three news hits are name collisions — Acquisition Logistics LLC, Applied Solutions Logistics LLC and Connected Logistics are different companies.)",
+  "disconnect_score": 68,
+  "subscores": {
+    "lab_language_intensity": 17,
+    "deployment_awareness_absence": 16,
+    "operator_absence": 10,
+    "hiring_profile_skew": 14,
+    "stage_pressure": 11
+  },
+  "score_evidence": [
+    "'Built with cognitive AI. Powered by quantum efficiency. Designed for sovereignty.' -> lab_language_intensity: three unfalsifiable claims in one line, none of them an operational statement",
+    "'automatically classifies drone threats with unprecedented accuracy' and '500+ Satellites Integrated / 2PB+ Sensor Data Fused / 290k+ Vessels Monitored' -> lab_language_intensity: scale and accuracy bragging with no fielded unit or site named",
+    "'quantum-resistant security' -> deployment_awareness_absence: a cryptographic claim made with no FIPS 140, no CMMC, no ATO/RMF, no IL level and no ITAR language anywhere in ~1098 words",
+    "'Where all layers converge. Multi-sensor data is fused, analyzed, and delivered as one coherent operational picture' -> deployment_awareness_absence: a bespoke C2 layer described in a situational-awareness product that never names TAK/CoT, Link-16, or FAAD C2",
+    "'Predictive alerts that inform operators before a threat materializes' and 'This allows commanders to posture sensors and response assets proactively' -> operator_absence held mid; operators and commanders are named, but no training, CONOPS, sustainment or field feedback appears",
+    "Open roles, live: 'Certified Public Accountant GAAP' and 'Customer Success Manager', both Miami -> hiring_profile_skew: a company advertising RF signal processing and drone takeover has only back-office roles open, with no RF, field, test or security-compliance hiring",
+    "Three product lines (Morpheus, SeaWatch, FireWatch) across counter-UAS, maritime and wildfire on a team listed between 15 and 40 people, with a single 2022 Phase II and no newer award visible -> stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Selling counter-UAS mitigation capabilities that almost no customer is legally allowed to use",
+      "operator_reality": "Detection is unregulated; mitigation is not. In the United States, non-kinetic drone defeat — jamming, spoofing, protocol takeover — is limited to a short list of federal authorities (DoD under 10 USC 130i, plus DOE, DHS and DOJ), and every other buyer, including a domestic airport, a stadium or a utility, is barred by the Communications Act. Even inside DoD, transmitting on those bands requires a spectrum supportability determination (DD Form 1494) and a host-nation or installation frequency assignment. A vendor without that package can only ever demo inside a shielded enclosure, which is exactly the shape of a prototype that never fields: the capability works, and the paperwork that would let anyone press the button does not exist.",
+      "why_likely_missing": "Takeover and spoofing are the most impressive things to put on a capability slide, and in a demo environment nobody asks who is authorized to radiate — so the constraint only surfaces when a real site visit gets scheduled and then cancelled.",
+      "evidence_quote": "Core Capabilities: Multi-Spectrum SIGINT / Active Drone Takeover / Predictive Analytics / GPS Spoofing / Cyber Infiltration and Deception / Swarm Detection and Defense",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "A proprietary common operational picture competing with the one the unit already uses",
+      "operator_reality": "Their architecture terminates in their own C2 layer — 'one coherent operational picture'. The unit already has a picture: TAK on the tablet, FAAD C2 or a service equivalent for air defense, and a watch floor that will not add a second screen with a separate login. In practice the winning move is to stop being a display and become a feed — publish Cursor-on-Target into TAK, push tracks into the existing air picture, and let the operator keep the tool they were trained on. That is a small engineering decision made early and a re-architecture made late, and which one it is decides whether the Phase III has a user.",
+      "why_likely_missing": "The commercial and foreign-government maritime customers they also serve have no incumbent COP, so building the whole stack has always been the right answer for the buyer in front of them.",
+      "evidence_quote": "Every layer contributes to one unified operational picture, from orbit to command.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Fusing 500+ satellites' worth of third-party data without visible data-rights or accreditation boundaries",
+      "operator_reality": "Their value proposition is aggregation — commercial EO, SAR, RF, hyperspectral, VIIRS/MODIS, AIS — through a 'satellite operator data partner network'. Each of those feeds arrives with a license that governs derivative products and onward distribution, and some operators are foreign. A government customer that wants to act on a track has to know it can retain and share the derived product, and a classified customer needs the whole pipeline to run inside an accredited boundary rather than in the vendor's cloud. Neither question is a technology question, and both of them are answered during contracting, not during the demo — which is where the schedule goes.",
+      "why_likely_missing": "In the commercial and ESG-facing side of the business — shipping, insurers, sanctions compliance — imagery licensing is routine and the customer never asks where the pipeline physically runs.",
+      "evidence_quote": "Through our satellite operator data partner network, we can tailor historical surveys and monitoring campaigns towards virtually any threat type.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "The Morpheus page lists Active Drone Takeover and GPS Spoofing as core capabilities, and in the US only four federal authorities can lawfully employ either one — which usually means the DD-1494 spectrum package, not the software, is what sets the demo date.",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Miami intelligence-fusion company (Space-Eyes) selling three platforms — counter-UAS RF detection, maritime dark-vessel tracking, and wildfire prediction — built on fused commercial satellite, drone and AIS data."
+}

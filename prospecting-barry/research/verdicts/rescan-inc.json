@@ -1,0 +1,42 @@
+{
+  "company": "REscan Inc.",
+  "slug": "rescan-inc",
+  "domain": "rescan360.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Three USAF/Space Force SBIR Phase II awards (2022 x2, 2024/2025 for Patrick SFB Fire Dept and Security Forces Squadron AR/VR training) plus a dedicated /government/ page describing Force Protection, Range Operations, and TAK/GeoBase/ESRI integration.",
+  "disconnect_score": 51,
+  "subscores": {"lab_language_intensity": 14, "deployment_awareness_absence": 8, "operator_absence": 6, "hiring_profile_skew": 10, "stage_pressure": 13},
+  "score_evidence": [
+    "'1000x Faster AI Labeling' / '250,000 sq.ft. per hour' / '19+ Patents' — stat-brag homepage language → lab_language_intensity",
+    "'We're a small team solving hard problems' (Careers page) plus three separate Phase II SBIR topics run 2022-2025 without evidence of a scaled/fielded program → stage_pressure",
+    "no jobs data found in pack → hiring_profile_skew set to 10 per instructions"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Product markets 'Real-time adaptive streaming for environments of any size' as a mobile-app feature with no acknowledgment of denied/degraded connectivity.",
+      "operator_reality": "A DDIL site (forward base, contested facility) won't sustain live streaming of a 3D mesh; the same failure mode as the 30fps crowd-detection case — the whole interaction model breaks the moment bandwidth drops.",
+      "why_likely_missing": "Company's commercial DNA (CRE, airports, schools) built the product around always-on cloud/mobile connectivity; the DoD SBIR work has been facility-digitization pilots, not contested-environment operations.",
+      "evidence_quote": "Real-time adaptive streaming for environments of any size",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Zero mention anywhere in their language of ATO/RMF, IL4/IL5, CMMC, or NIST 800-171 despite the product mapping Security Forces Squadron facilities and base infrastructure.",
+      "operator_reality": "Digitized base security layouts and fire/emergency infrastructure are exactly the kind of data that triggers an ATO/IL4 requirement before it can touch a government network — silence on this means the compliance clock likely hasn't started while the SBIR period of performance is.",
+      "why_likely_missing": "Team composition described as 'computer vision engineers, programmers, mechanical engineers, commercial real estate entrepreneurs, and veterans of the video game industry' — no compliance/ISSO role represented.",
+      "evidence_quote": "REscan is made up of computer vision engineers, programmers, mechanical engineers, commercial real estate entrepreneurs, and veterans of the video game industry.",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "3D models are described as embedding 'WIFI and GPS signal strength' as a core data layer, with no acknowledgment that GPS is degraded or denied in the exact contested environments Force Protection cares about.",
+      "operator_reality": "GPS-denied/jammed conditions are standard in the operational spaces REscan is targeting (base perimeters, Security Forces training); a pipeline built around GPS tagging needs a fallback geolocation method that isn't mentioned anywhere.",
+      "why_likely_missing": "The GPS/WIFI signal-strength feature reads as a commercial facility-management add-on (asset tracking, IoT) carried over into the government pitch without adaptation.",
+      "evidence_quote": "The resulting 3D models can also include WIFI and GPS signal strength, the position of IoT sensors in a space",
+      "quote_source": "sbir_abstract"
+    }
+  ],
+  "opener_hook": "REscan's Patrick SFB Fire Safety SBIR names automated equipment detection but not how the digital twin stays usable if the base network drops. How's it handled today?",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "SRI spinoff building a helmet-mounted 3D/LiDAR scanner plus AI pipeline that turns large indoor/outdoor spaces into searchable digital twins, sold to commercial real estate and, via three Air Force/Space Force SBIRs, to base fire safety and Security Forces."
+}

@@ -1,0 +1,44 @@
+{
+  "company": "Rogue Space Systems",
+  "slug": "rogue-space-systems",
+  "domain": "rogue.space",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Awarded MDA SHIELD IDIQ contract, $2M SpaceWERX TACFI modification (24-mo PoP), AFWERX Direct-to-Phase-II, and an active DOD/USAF SBIR Phase II ($1.249M) — all in News/SBIR sections.",
+  "disconnect_score": 71,
+  "subscores": {"lab_language_intensity": 17, "deployment_awareness_absence": 16, "operator_absence": 14, "hiring_profile_skew": 10, "stage_pressure": 14},
+  "score_evidence": [
+    "\"TRL 9 on OTP-2 heritage — onboard inference, payload-data triage, compression, and mission-specific processing\" → lab_language_intensity",
+    "\"SCP Gen 3 — a 248 TOPS space-qualified micro data center\" → lab_language_intensity",
+    "\"Every Orbot™ integrates AI-enabled onboard processing, multi-spectral imaging, autonomous proximity operations capability, and extensible payload bays\" (full technology page, zero DDIL/ATO/RMF/ITAR/STIG mention) → deployment_awareness_absence",
+    "\"we design and develop Orbots, maneuverable vehicles for rendezvous and proximity operations, payload hosting, inspection, and in-space logistics\" (LinkedIn about — no operator, warfighter, training, or CONOPS language anywhere in pack) → operator_absence",
+    "\"awarded a $2,000,000.00 contract modification by SpaceWERX under the Tactical Funding Increase (TACFI) initiative, with a 24-month period of performance\" → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Scalable Compute Platform hosts third-party 'hardware and software payloads' on-orbit with no mention of an accreditation path for DoD data.",
+      "operator_reality": "The moment a DoD program (MDA SHIELD, SpaceWERX) wants to run classified or CUI workloads on shared orbital compute, someone needs an ATO/IL4-equivalent for that multi-tenant environment — same failure mode as any shared-infrastructure product that skips RMF until the contract stalls.",
+      "why_likely_missing": "Team is optimizing for flight heritage and TOPS benchmarks, not for the accreditation process that gates actual DoD payload hosting.",
+      "evidence_quote": "\"It provides a full Linux high-performance computing environment, so you can containerize and move terrestrial software workflows to the point where they're most effective: your satellite in orbit.\"",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "OTP-2B is built around 'Ka-band uplink/downlink' for a 248 TOPS compute node, implying a persistent, high-bandwidth ground link.",
+      "operator_reality": "A contested space domain (the exact mission MDA SHIELD is for) assumes adversary jamming/ASAT threats to that link — DDIL-equivalent for space is denied/degraded satcom, and nothing in the product language addresses graceful degradation when Ka-band is contested.",
+      "why_likely_missing": "On-orbit compute is marketed as solving a bandwidth problem for data processing, but the tasking/telemetry link itself is still treated as always-available.",
+      "evidence_quote": "\"deploy a Gen 3 SCP micro data center with 248 TOPS of AI compute and Ka-band uplink/downlink, designed for a 5-year operational life\"",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No mention anywhere in the pack of who operates, trains on, or sustains this system inside a DoD SDA/missile-defense architecture — no CONOPS, no integration language with existing Space Force command-and-control.",
+      "operator_reality": "SHIELD is a layered-defense IDIQ; winning the contract is not the same as an operator/advocacy chain above program level actually integrating Rogue's sensor fusion into live decision loops — 'operators loving the demo' isn't adoption, and there's zero public language showing they've thought past the award.",
+      "why_likely_missing": "Company's public voice is investor/commercial-customer facing (missions, TOPS, flight heritage) rather than program-office facing.",
+      "evidence_quote": "\"Rogue Space Systems is pleased to announce that it has been awarded a contract for the Missile Defense Agency Scalable Homeland Innovative Enterprise Layered Defense (SHIELD)\"",
+      "quote_source": "news"
+    }
+  ],
+  "opener_hook": "Rogue's SCP touts TRL 9 flight heritage and 248 TOPS on-orbit compute — has an ATO path for hosting DoD payloads been defined yet?",
+  "confidence": "high",
+  "stage_band": "series_a",
+  "what_they_do": "Builds autonomous orbital robots (Orbots) and an on-orbit compute platform (SCP) for payload hosting, space domain awareness, and in-space logistics."
+}

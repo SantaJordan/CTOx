@@ -1,0 +1,43 @@
+{
+  "company": "Code 13 Security (dba Dark Sky Technology)",
+  "slug": "code-13-security",
+  "domain": "darkskytechnology.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "DARPA SBIR Phase II 2023 ($1.5M, Bulletproof Code C/C++-to-Rust translation — SBIR abstract); site cites CDAO and Air Force Platform One 'awardable' assessments; May 2026 news shows a competitive position on the Army's $49M NCODE cybersecurity IDIQ.",
+  "disconnect_score": 32,
+  "subscores": {"lab_language_intensity": 6, "deployment_awareness_absence": 3, "operator_absence": 5, "hiring_profile_skew": 10, "stage_pressure": 8},
+  "score_evidence": [
+    "'# TRL9 ... Deployed and Battle Tested' — readiness-level brag, though wrapped in genuinely operational framing → lab_language_intensity",
+    "Fluent deployment language throughout: 'deployable in sensitive air-gapped environments', 'Pre-canned policies for FDA, EU CRA, DoD, NIST', 'deployed by government entities... in SaaS, on-prem, private-cloud, and air-gapped environments' — they get it, which per calibration scores LOW → deployment_awareness_absence",
+    "No jobs data in pack — hiring_profile_skew set to exactly 10 per rule",
+    "DARPA Phase II product is still 'TRL 5 technology' being productized ('We aim to productize this Phase I capability into Bulletproof Code®, a TRL 9 product') on a 6-person team — that clock is the residual pressure → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Bulletproof Code has no named path out of DARPA — and DARPA does not field anything",
+      "operator_reality": "The Phase II abstract promises to lift a 'TRL 5' Rust-translation capability to TRL 9, but names no service program of record, prime, or transition partner; when the DARPA period of performance ends, a translation engine without a transition agreement joins the valley of death regardless of how fielded the SBOM product is.",
+      "why_likely_missing": "The team's commercial SBOM traction (Tradewinds, Platform One) makes transition feel solved company-wide, but the DARPA product line has a different customer and a different acquisition path.",
+      "evidence_quote": "Code 13 Security (doing business as Dark Sky Technology) has developed a Technical Readiness Level (TRL) 5 technology to translate type-unsafe source and binary software into the type-safe language Rust.",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "Air-gapped deployment of a product whose value is fresh threat intelligence",
+      "operator_reality": "A supply-chain risk platform inside an air-gapped enclave only knows the vulnerabilities and contributor intel it was carried in with; their language sells the air-gap but never the update logistics — data-diode or sneakernet refresh cadence, who carries it, and how stale intel is flagged. In a SCIF, last month's threat feed is a false sense of security.",
+      "why_likely_missing": "Intel-community founders know enclaves exist, but a 6-person product team's language stays at 'you don't have to share anything with us' rather than sustainment mechanics.",
+      "evidence_quote": "Bulletproof Trust can deploy in air-gapped environments, so you don't have to share anything with us.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Six cleared people against an eight-firm $49M Army IDIQ plus SaaS/on-prem/air-gapped instances",
+      "operator_reality": "An NCODE position only pays if you can staff task orders — on-site installs in classified spaces, instance-by-instance sustainment, and RMF evidence for every deployment model they advertise. With '100% US citizens, cleared or clearable' as the whole bench, one won task order can consume the company and stall the DARPA productization at the same time.",
+      "why_likely_missing": "Winning marketplace assessments (CDAO, Platform One) proves awardability, not delivery capacity; capacity gaps only surface after award.",
+      "evidence_quote": "Bulletproof Trust is a 100% US owned and operated company developed by 100% US citizens, cleared or clearable.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Dark Sky's DARPA Phase II calls Bulletproof Code a TRL 5 capability being productized to TRL 9 — the public record shows the Army NCODE seat for the SBOM line, but no named transition path for the Rust-translation engine when the DARPA money stops.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Six-person Colorado firm selling Bulletproof Trust, an SBOM management and software supply-chain risk platform for defense and regulated industries, plus a DARPA-funded C/C++-to-Rust code translation product."
+}

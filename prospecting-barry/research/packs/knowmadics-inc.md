@@ -379,7 +379,39 @@ Knowmadics empowers national security operators to predict threats, act decisive
 The benefits that small unmanned systems (UMS) afford are increasingly salient to dismounted Operators. UMS can be employed to provide a truly flexible range of benefits that serve to enhance situational awareness, preserve survivability, and/or increase lethality. Despite these potential benefits, there are still no proven commercial UMS platforms that have become the trusted standard for squad-level operations, largely due to: (1) the fractured market of commercial UMS OEMs; (2) a lack of objective and quantified data comparing UMS performance under military contexts; (3) a lack of proven UMS TTPs for achieving different classes of mission objectives; and (4) an evolving understanding of how advancing UMS technology can be applied to impact mission outcomes. To address these gaps, Knowmadics' proposed Phase II effort will focus on design, prototyping, T&E, and application of the DEVILS RANGE (Demonstration, Evaluation, and Validation via an Instrumented Live Unmanned Systems Range). The DEVILS RANGE will address the challenges of trusting and relying on commercial UMS technologies by providing a contextualized demonstration, testing, vulnerability assessment, and evaluation range that will enable objective assessment and characterization of the most performant UMS platforms and payloads available to support US Forces mission requirements.
 
 ## News (Exa, top 3)
-- Knowmadics Awarded an Other Transaction Agreement ... (2024-03-13) https://knowmadics.com/knowmadics-awarded-an-other-transaction-agreement-by-u-s-special-operations-command/
+- Award | SBIR () https://www.sbir.gov/awards/208798
+  Award | SBIR Skip to main content
+
+# Award
+
+Portfolio Data
+
+Back to Award Search
+
+## Baseline for Artificial Intelligence Learning of Indications and Warnings from a Cellular Kit - Data Access (BAILIWICK: DA)
+
+### Awardee
+
+#### KNOWMADICS, INC.
+
+https://www.sbir.gov/portfolio/1658973 13873 PARK CENTER RD STE 202SHERNDON, VA, 20171-3223USA
+
+Award Year: 2024
+
+UEI: KB84PWSQTDK4
+
+HUBZone Owned: No
+
+Woman Owned: No
+
+Socially and Economically Disadvantaged: No
+
+Congressional District: 10
+
+Tagged as:
+
+
+- Knowmadics Awarded an Other Transaction Agreement by U.S. ... (2024-03-13) https://knowmadics.com/knowmadics-awarded-an-other-transaction-agreement-by-u-s-special-operations-command/
   Knowmadics Awarded an Other Transaction Agreement by U.S. Special Operations Command | Knowmadics
 
 Knowmadics Awarded an Other Transaction Agreement by U.S. Special Operations Command | Knowmadics
@@ -396,21 +428,6 @@ Mar 13, 2024
 * [World](https://www.yahoo.com/news/world/)
 * [Tech](https://www.yahoo.com/tech/)
 * * [Reviews and deals](https://www.yahoo.com/tech/reviews-deals/
-- Zero Trust Commitment Leads to Record Growth (2022-06-29) https://knowmadics.com/zero-trust-commitment-leads-to-record-growth/
-  Zero Trust Commitment Leads to Record Growth | Knowmadics
-
-Zero Trust Commitment Leads to Record Growth | Knowmadics
-[![](https://knowmadics.com/wp-content/uploads/2025/09/Logo2.svg)](https://knowmadics.com/)
-# Zero Trust Commitment Leads to Record Growth
-Jun 29, 2022
-![Knowmadics Momentum and Growth](https://knowmadics.com/wp-content/uploads/2022/06/momentum_growth_blog.png "momentum_growth_blog")
-Share via:
-* [**](#)
-* [**](#)
-* [**](#)
-* [**More
-](#)
-[vc\_row pix\_particles\_check=””][vc\_col
 
 ## Open roles (Blitz, live)
 - UI/UX Designer ({'city': 'Wichita', 'country_code': 'US'})

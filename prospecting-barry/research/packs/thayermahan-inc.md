@@ -401,26 +401,12 @@ Press Release.
 2 Nov. 2023
 
 GROTON, Conn. , Nov. 2, 2023 -- ThayerMahan, a world leader in providing autonomous maritime surveillance solutions for the defense, research, and offshore wind energy sectors, has been awarded a $19.3 million contract by the federal Department of Defense to continue its work developing sp
+- A--Thayer Mahan Inc. () https://sam.gov/opp/83fedb27263d46cdb4b96688e0570a81/view
+  SAM.gov --
 - ThayerMahan wins $19M federal contract (2023-11-02) https://www.prnewswire.com/news-releases/thayermahan-wins-19m-federal-contract-funding-to-support-continued-work-on-autonomous-maritime-sensing-technology-301975989.html
   ThayerMahan wins $19M federal contract; funding to support continued work on autonomous maritime sensing technology Accessibility Statement Skip Navigation
 
 GROTON, Conn. , Nov. 2, 2023 /PRNewswire/ -- ThayerMahan, a world leader in providing autonomous maritime surveillance solutions for the defense, research, and offshore wind energy sectors, has been awarded a $19.3 million contract by the federal Department of Defense to continue its work developing specialized autonomous maritime sensing te
-- ThayerMahan wins Office of Naval Research contract to ... (2023-11-01) https://www.thayermahan.com/press-and-media/thayermahan-wins-office-of-naval-research-contract-to-expand-capability-of-autonomous-usv
-  ThayerMahan wins Office of Naval Research contract to expand capability of autonomous USV
-
-# Press & Media
-
-In The News.
-
-## ThayerMahan wins Office of Naval Research contract to expand capability of autonomous USV
-
-1 Nov 2023 | Shephard Media
-
-By: Damien Kemp
-
-Outpost USV will form the basis of development work being carried out by ThayerMahan.
-
-US company ThayerMahan has been awarded $19.2 million by the US Office of Naval Research to continue with development of systems for underwater and sea
 
 ## Open roles (Blitz, live)
 - Accounts Payable Specialist ({'city': 'Groton', 'country_code': 'US'})

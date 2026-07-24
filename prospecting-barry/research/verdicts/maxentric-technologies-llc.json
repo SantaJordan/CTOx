@@ -1,0 +1,16 @@
+{
+  "company": "MaXentric Technologies LLC",
+  "slug": "maxentric-technologies-llc",
+  "domain": "maxentric.com",
+  "verdict": "drop",
+  "drop_reason": "sbir_mill",
+  "dod_intent_evidence": "Genuine DoD motion is present (multiple active SBIR/STTR awards: STRETCH Phase II 2024/Army, SWING STTR Phase II 2025/Navy, Ultra-Low SWaP Phase I 2024/DOW, EMB-RCSUS SRT 2023/Army) but the pattern disqualifies rather than qualifies the company — see drop_reason.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "unknown",
+  "what_they_do": "20-year-old defense R&D/consulting shop running a broad, disconnected portfolio of SBIR/STTR-funded prototypes (wearable biosensors, radar, SDR, power amplifiers, RF) across Army, Navy, and DARPA."
+}

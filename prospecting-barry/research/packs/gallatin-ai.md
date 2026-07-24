@@ -252,12 +252,18 @@ To address that challenge, Gallatin AI has been awarded a contract by the Defens
 WASHINGTON, June 11, 2026 /PRNewswire/ -- Gallatin AI today announced it has been awarded a contract by the US Army's III Armored Corps to deploy and refine Navigator, its AI-native logistics decision support suite, in direct support of III Corps exercises and operational planning over the next 18 months.
 
 The award addresses a capability gap at the corps echelon where Army ground combat units la
-- Gallatin AI Awarded Army PORTAL Contract to Bring Predictive Logistics to Contested Operations (2026-03-11) https://www.prnewswire.com/news-releases/gallatin-ai-awarded-army-portal-contract-to-bring-predictive-logistics-to-contested-operations-302710753.html
-  Gallatin AI Awarded Army PORTAL Contract to Bring Predictive Logistics to Contested Operations Accessibility Statement Skip Navigation
+- Gallatin AI Awarded Army PORTAL Contract to Bring ... () https://www.gallatin.ai/news/gallatin-ai-army-portal-contract
+  Gallatin AI Awarded Army PORTAL Contract to Bring Predictive Logistics to Contested Operations
 
-Gallatin's Navigator platform has been selected for Army PORTAL Direct to Phase II SBIR —using AI/ML to forecast demand and optimize sustainment faster than adversaries can disrupt it.
+Back to News
 
-AUSTIN, Texas, March 11, 2026 /PRNewswire/ -- Sustainment planners facing contested environments don't just need better data, they need the ability to predict what's coming and a
+# Gallatin AI Awarded Army PORTAL Contract to Bring Predictive Logistics to Contested Operations
+
+Gallatin PR
+
+Gallatin’s Navigator platform has been selected for Army PORTAL Direct to Phase II SBIR — using AI/ML to forecast demand and optimize sustainment faster than adversaries can disrupt it.
+
+AUSTIN, TX, March 11, 2026 // PR Newswire// Sustainment planners facing contested environmen
 
 ## Open roles (Blitz, live)
 - Senior Manager, Marketing Communications ({'city': 'Austin', 'country_code': 'US'})

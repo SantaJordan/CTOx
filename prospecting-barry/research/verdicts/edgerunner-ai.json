@@ -1,0 +1,43 @@
+{
+  "company": "EdgeRunner AI",
+  "slug": "edgerunner-ai",
+  "domain": "edgerunnerai.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Navy IL6 ATO for EdgeRunner OS (June 2026), Space Force contract for IL-5 deployment, dual CRADAs with Army and AF research labs, CDAO Tradewinds 'Awardable' — news section and homepage.",
+  "disconnect_score": 30,
+  "subscores": {"lab_language_intensity": 4, "deployment_awareness_absence": 2, "operator_absence": 6, "hiring_profile_skew": 10, "stage_pressure": 8},
+  "score_evidence": [
+    "'enabling AI in disconnected, remote, and contested environments' → deployment_awareness_absence scored near zero: they are fluent in DDIL and hold a Navy IL6 ATO",
+    "'On-Device AI Agents, LLMs, and Computer Vision for Warfighters in DDIL Environments' → lab_language_intensity low: operational framing dominates",
+    "hiring_profile_skew set at exactly 10 per rule: no jobs data in pack",
+    "$12M Series A (2025) on a ~30-person team racing to convert CRADAs and ATOs into fielded programs → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Sustained on-device generative AI inference has no stated power budget for the end-user device that carries it",
+      "operator_reality": "An E-5 running continuous SLM inference on an EUD or laptop at an austere OCONUS site drains the battery mid-patrol; battery logistics, not model quality, becomes the reason the tool stays in the pouch. Their site brags latency and locality but never states watts, thermal, or duty-cycle on carried hardware.",
+      "why_likely_missing": "Team pedigree is LLM research and logistics/policy (Army officer, Congress, Amazon/Google) — model builders optimize tokens/sec, not the battery resupply chain of a dismounted unit.",
+      "evidence_quote": "EdgeRunner runs directly on laptops, mobile devices, vehicles, and edge hardware - with or without connectivity",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The product's value proposition assumes user personalization time that operators do not have",
+      "operator_reality": "A sergeant who got 20 minutes of training will never configure a 'hyper-personalized' assistant; the demo shines because the demo-giver tuned it, and the fielded unit ships generic — same demo-vs-fielded gap Barry's EDP names. No mention anywhere of operator training, CONOPS, or who sustains it in theater.",
+      "why_likely_missing": "Free-tier DoW self-serve rollout ('available for DoW users at no cost') is a SaaS adoption motion, not a fielding motion with a training and sustainment tail.",
+      "evidence_quote": "Your personalized, on-device Generative AI assistant for increased productivity and operational effectiveness",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "They process drone footage and feed situational awareness yet never mention the TAK ecosystem where tactical SA actually lives",
+      "operator_reality": "If detections and analysis don't land in ATAK on the operator's EUD, they land in a second screen nobody carries; SA products that ignore TAK get demoed at the lab and left at the FOB.",
+      "why_likely_missing": "Assistant/chat UX heritage — the interface metaphor is a conversation window, not a CoT plugin feeding the map every operator already runs.",
+      "evidence_quote": "an edge-based SLM could process satellite images or drone footage on-site, detecting troop movements, vehicles, or other threats in real time",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "EdgeRunner's June 2026 Navy IL6 ATO solved the accreditation half of fielding; the unsolved half is turning two research-lab CRADAs into funded programs before the $12M Series A clock does.",
+  "confidence": "high",
+  "stage_band": "series_a",
+  "what_they_do": "Air-gapped, on-device small language models and AI agents for military users in disconnected environments."
+}

@@ -1,0 +1,26 @@
+{
+  "company": "ZeroMark, Inc.",
+  "slug": "zeromark",
+  "domain": "zeromark.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "U.S. Army xTech SBIR Phase II contract extending ZeroMark's Vanguard tech to U.S. Army Pacific (USARPAC) for unmanned underwater/surface vehicle defense, plus a $7M a16z/Ground Up Ventures-led seed round explicitly for AI-powered auto-aim counter-drone tech — see News section.",
+  "disconnect_score": 64,
+  "subscores": {"lab_language_intensity": 14, "deployment_awareness_absence": 16, "operator_absence": 8, "hiring_profile_skew": 10, "stage_pressure": 16},
+  "score_evidence": [
+    "'Neutralizes drone threats in under 2 seconds' / 'Installs in minutes' / 'Millisecond aim adjustment' — bold performance claims with no field-test evidence or named deployment site → lab_language_intensity",
+    "'Streams live detection and engagement data... Feeds directly into existing C2 systems' assumes persistent connectivity, with zero mention of ATO/RMF/CMMC/ITAR/DDIL anywhere in the site → deployment_awareness_absence",
+    "operator language is unusually present — 'AI-Powered Targeting for the Individual Operator,' 'Reduces cognitive load on operators,' and a team bio naming a former Naval Aviator/F/A-18 test program lead — so operator_absence scores low, not high",
+    "no jobs data found → hiring_profile_skew set to 10 per instructions",
+    "14-15 employees, founded 2022, now juggling an Army xTech Phase II (USARPAC) atop a $7M seed plus a much smaller ~$235K follow-on round while claiming battlespace-wide C2 integration → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "'Streams live detection and engagement data... Feeds directly into existing C2 systems' presented as a continuous real-time capability", "operator_reality": "a DDIL forward-deployed environment denies the persistent link a handheld or turret-mounted device needs to stream engagement data to C2 in real time — same failure mode as the 30fps crowd-detection case, with the added stakes of a live-fire decision loop", "why_likely_missing": "the pitch treats C2 integration as a plug-in capability ('feeds directly into') rather than a comms-constrained problem", "evidence_quote": "Streams live detection and engagement data / Feeds directly into existing C2 systems", "quote_source": "homepage"},
+    {"blind_spot": "IFF display (FRIENDLY / ENEMY DRONE / Neutralized / Unidentified) with no mention of ATAK/TAK integration", "operator_reality": "battlespace-awareness and target-ID tools are increasingly expected to plug into the TAK ecosystem rather than run a standalone C2 feed; a bespoke IFF/targeting display outside TAK risks becoming an isolated tool that doesn't generalize across units", "why_likely_missing": "the product is architected as its own closed 'intelligence layer' (Nexus) rather than as a TAK plugin, per the checklist's flag that any SA-touching tool silent on ATAK/TAK deserves scrutiny", "evidence_quote": "Nexus connects every deployment through a unified targeting software layer.", "quote_source": "homepage"},
+    {"blind_spot": "'Installs in minutes... requires no new infrastructure' pitched as the whole deployment story for a weapon-mounted AI targeting system", "operator_reality": "getting an AI fire-control add-on onto Army networks and into a unit's C2 loop needs an ATO/RMF package and likely CMMC compliance before Phase III/program-of-record transition — 'bolt-on, installs in minutes' addresses the hardware mount, not the accreditation gate", "why_likely_missing": "the company's entire go-to-market message is speed-of-fielding as a product feature, with no visible compliance roadmap alongside the USARPAC SBIR expansion", "evidence_quote": "Bolt-On Enhancement / Installs in under a minute / Requires no new weapons or infrastructure", "quote_source": "homepage"}
+  ],
+  "opener_hook": "ZeroMark's Army xTech SBIR Phase II now extends Vanguard to USARPAC for maritime unmanned-vehicle defense, on top of a $7M a16z-led seed round for the handheld auto-aim system.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "AI-powered auto-aiming counter-drone fire-control system (bolt-on to existing rifles and turret-mounted platforms) for individual operators, extending via an Army SBIR Phase II to USARPAC maritime counter-UAS defense."
+}

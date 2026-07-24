@@ -1,0 +1,37 @@
+{
+  "company": "Xcelerium Inc",
+  "slug": "xcelerium-inc",
+  "domain": "xcelerium.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "SBIR/STTR record: Air Force Phase II ($1,249,972, 2023) 'Dynamically Reconfigurable Scalable Array Processor (DRSAP)' explicitly targets Air Force high-bandwidth sensor processing (radars, PNT, multi-waveform radios); News section confirms $14,218,498 across 3 federal contracts (CLEATUS) and a further $1,248,562 DoD/Air Force award (LinkedIn, 2025-10-19).",
+  "disconnect_score": 68,
+  "subscores": {"lab_language_intensity": 18, "deployment_awareness_absence": 10, "operator_absence": 16, "hiring_profile_skew": 14, "stage_pressure": 10},
+  "score_evidence": [
+    "'up to 50× lower power than embedded GPUs, up to 50× faster real-time processing than SIMD architectures, and up to 100× smaller silicon area than FPGAs' → lab_language_intensity",
+    "Applications page explicitly claims 'GNSS-denied operation' and 'designed for the toughest SWaP constraints' (real SWaP-C/DDIL-adjacent awareness), but zero mention of ATO/RMF/CMMC/ITAR/STIG anywhere despite handling radar/SATCOM waveform IP → deployment_awareness_absence scored moderate, not maximal",
+    "Entire pack frames the subject as machines, never people: 'Intelligent machines are reshaping industries from humanoid robots to autonomous vehicles to drones and defense systems. They perceive, decide, and act in real time' — no operator/warfighter/training/CONOPS language anywhere → operator_absence",
+    "10 open roles are 100% chip-design/software (Senior Software Engineer - AI Compiler & Runtime, ASIC RTL Design Engineer x2, Digital Design Engineer x2, Signal Processing Engineer x2, New Grad Software Engineer x2) — domain engineering hires are neutral per rule, but zero field/test/integration/compliance roles exist relative to an active DoD SBIR → hiring_profile_skew"
+  ],
+  "blind_spots": [
+    {"blind_spot": "SBIR abstract describes processing 'space-borne radar and satellite communication systems' waveforms with zero mention of ITAR/export-control handling anywhere in the pack.",
+     "operator_reality": "Radar and SATCOM waveform processing IP is squarely ITAR-controlled territory — a company this deep into the technical specifics without a public export-control posture risks a compliance surprise right when a program wants to move the chip from lab to platform.",
+     "why_likely_missing": "Team (per LinkedIn) comes from Qualcomm/Broadcom/Intel commercial semiconductor backgrounds; export-control-specific staffing/process for defense IP appears not yet built out.",
+     "evidence_quote": "space-borne radar and satellite communication systems require the processing of wide-band waveforms within a strict thermal power budget, and personnel-worn multi-waveform radios require multi-RAT (Radio Access Technology) operation within a limited battery power budget",
+     "quote_source": "sbir_abstract"},
+    {"blind_spot": "Benchmarking is entirely chip-vs-chip (vs. FPGAs, GPUs, DSPs) with no description of how DRSAP actually integrates into a fielded Air Force radar or radio program — no GFE integration mechanics or prime flow-down structure mentioned.",
+     "operator_reality": "Winning the compute-density argument doesn't get a chip qualified onto an existing radar or radio platform's form factor, thermal budget, and government back-end — that integration path is invisible in public materials.",
+     "why_likely_missing": "Messaging is optimized for a semiconductor-industry audience (compute density, power, latency) rather than for the specific mechanics of a DoD platform integration.",
+     "evidence_quote": "DRSAP offers 100x more compute density than FPGAs with 106 faster reconfigurability, 50x lower power than GPUs, and 20x speed up over DSPs, achieved through dynamic reconfiguration of its micro-architecture and internal data path reconfigurability",
+     "quote_source": "sbir_abstract"},
+    {"blind_spot": "SBIR abstract promises the chip will 'enable the deployment of new multi-waveform radios, cognitive radios, advanced radars... to future Air Force platforms,' but no field, test, or deployment-facing role appears among the company's open positions.",
+     "operator_reality": "A chip that reduces development time and extends operational life post-deployment still needs someone who owns getting it validated and sustained on an actual platform — right now that function isn't visible in the hiring plan.",
+     "why_likely_missing": "Company is at the stage of proving the core silicon/architecture works; deployment-support hiring typically comes after design freeze, which may not have happened yet.",
+     "evidence_quote": "This technology will enable the deployment of new multi-waveform radios, cognitive radios, advanced radars, wideband spectrum sensing, joint communication, RF sensing, and other sensor capabilities to future Air Force platforms",
+     "quote_source": "sbir_abstract"}
+  ],
+  "opener_hook": "Xcelerium's DRSAP claims 100x FPGA compute density for Air Force radar and PNT platforms — worth asking what the export-control story looks like once that IP leaves the SBIR lab.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Fabless semiconductor company building a reconfigurable real-time AI processor (X2PU/DRSAP) for sensor fusion, signal processing, and autonomy at the edge — targeting drones, robotics, vehicles, and defense platforms."
+}

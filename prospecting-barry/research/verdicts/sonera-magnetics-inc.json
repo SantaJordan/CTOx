@@ -1,0 +1,24 @@
+{
+  "company": "Sonera Magnetics, Inc.",
+  "slug": "sonera-magnetics-inc",
+  "domain": "sonera.io",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "SBIR/STTR record shows a $1,249,968 Air Force Phase II (2023) for 'Human-Machine Teaming Biomagnetic Sensor' plus a 2024 STTR Phase I ('Physiological Monitoring Via Biomagnetic Sensor Application') — SBIR record section.",
+  "disconnect_score": 65,
+  "subscores": {"lab_language_intensity": 20, "deployment_awareness_absence": 12, "operator_absence": 12, "hiring_profile_skew": 10, "stage_pressure": 11},
+  "score_evidence": [
+    "\"We're building wearable sensors that can detect biomagnetic fields... capturing the clearest picture yet of our bodies, health, feelings, and even our thoughts.\" → lab_language_intensity",
+    "\"Built on modern semiconductor processes, the S1 can be produced at a scale and price-point that is perfect for consumer wearables.\" → deployment_awareness_absence / operator_absence (entirely consumer-market framing, zero mention of DDIL/ATO/RMF/CMMC/ITAR/operators despite an active AF award)",
+    "own-language word count ~889 (<1000) → caps applied to deployment_awareness_absence and operator_absence per calibration rule"
+  ],
+  "blind_spots": [
+    {"blind_spot": "S1 sensor is marketed as 'contact free' for weather/sweat/sleeve-proof consumer wearables, with no mention of gloves, helmets, or combat gear obstructing sensor placement.", "operator_reality": "An operator in full PPE at an austere site has hands and head covered by tactical gear; the biomagnetic sensor needs proximity to specific body sites the gear will block — not addressed anywhere in their materials.", "why_likely_missing": "Product was designed for consumer health/HCI wearables market; the AF award appears to be a narrow research add-on to that core roadmap.", "evidence_quote": "The S1 operates without the need for direct contact to the skin, making it easy to integrate into wearables that need to be weather, sweat and sleeve-proof for people on the go.", "quote_source": "homepage"},
+    {"blind_spot": "'Low power & cost' framing is scoped entirely to consumer-wearable mass production economics, with no mention of ruggedization, MIL-STD environmental testing, or field battery/spares logistics.", "operator_reality": "Sustained field deployment requires battery replacement and spares logistics in DDIL conditions; consumer low-power framing doesn't address ruggedization for dust, shock, or temperature extremes.", "why_likely_missing": "The company's entire public roadmap (Early Access Program, consumer signup form) targets a civilian product launch, not a fielded military unit.", "evidence_quote": "Built on modern semiconductor processes, the S1 can be produced at a scale and price-point that is perfect for consumer wearables.", "quote_source": "homepage"},
+    {"blind_spot": "No mention of ATO/RMF or controlled-data handling for biometric/neural telemetry, despite marketing the platform's ability to capture 'thoughts' data and holding an active Air Force Human-Machine Teaming award.", "operator_reality": "Collecting and transmitting neural/biometric data from operators on a DoD network requires an Authority to Operate and likely CMMC/ITAR review before any fielded use — none evidenced despite the funded program.", "why_likely_missing": "Team is composed of neuroscience/semiconductor researchers and consumer-product operators, not deployment or compliance engineers.", "evidence_quote": "capturing the clearest picture yet of our bodies, health, feelings, and even our thoughts.", "quote_source": "homepage"}
+  ],
+  "opener_hook": "Sonera's $1.25M Air Force Phase II funds a biomagnetic sensor for Human-Machine Teaming — every public spec on the underlying S1 chip is optimized for consumer wearables instead.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Makes chip-scale contactless biomagnetic sensors for consumer neural/muscle-activity wearables, with a separate Air Force-funded human-machine-teaming variant."
+}

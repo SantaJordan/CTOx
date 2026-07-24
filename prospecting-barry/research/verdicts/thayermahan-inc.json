@@ -1,0 +1,16 @@
+{
+  "company": "ThayerMahan Inc.",
+  "slug": "thayermahan-inc",
+  "domain": "thayermahan.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Genuine and mature DoD motion (Navy SBIR Phase II, $19.3M DoD contract won Nov 2023) but the company's own language explicitly states it has crossed the valley of death: 'Operationally Proven. Ready Now... Tested and proven in real-world deployments' and 'Unlike conceptual systems still years from deployment, ThayerMahan's solutions are: Fully operational and field-tested... Manufacturable at scale,' backed by a June 2026 press release on opening a new array manufacturing facility.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Autonomous maritime/undersea surveillance systems (Outpost, SeaPicket, SeaGuard) for anti-submarine warfare and critical infrastructure security, already fielded at scale with 130 employees, a $19.3M DoD contract, and a new manufacturing facility."
+}

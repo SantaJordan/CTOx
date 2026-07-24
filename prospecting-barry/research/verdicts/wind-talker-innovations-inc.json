@@ -1,0 +1,38 @@
+{
+  "company": "Wind Talker Innovations Inc",
+  "slug": "wind-talker-innovations-inc",
+  "domain": "windtalker.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "SBIR/STTR record: Air Force Phase II STTR ($1,073,401, 2023) for 'Osmosis Cognitive Mesh Network for Global Strike Operations'; own abstract also cites completed Phase I/II with USAF/OSD/DHS, an active Army xTech Phase II, and an IDIQ (all seven categories) with AFLCMC/CAIO for the Advanced Battle Management System; News section shows a HigherGov 'Intent to sole source' opportunity.",
+  "disconnect_score": 38,
+  "subscores": {"lab_language_intensity": 10, "deployment_awareness_absence": 2, "operator_absence": 2, "hiring_profile_skew": 10, "stage_pressure": 14},
+  "score_evidence": [
+    "'Zero-Touch Maintenance', 'Self-Healing Networks', 'self-architecting' — commercial marketing buzzwords, but framed around ease-of-use not lab-demo bragging → lab_language_intensity",
+    "SBIR abstract explicitly names satellite-denied environments, multi-level security, and Joint/Coalition integration: 'Osmosis will facilitate each node's ability to report precise positioning information, even in satellite-denied environments' → deployment_awareness_absence scored very low (they get it)",
+    "'This allows mission planners and operators to manage the self-healing thresholds and priorities of the network during pre-mission, execution, and will provide a replay for post-mission analysis' → operator_absence scored very low",
+    "no jobs data found in pack → hiring_profile_skew set to exactly 10 per rule",
+    "'We have completed a SBIR Phase I & II with the USAF, OSD, and DHS... and have started a Phase II with the Army's xTech incubator' — juggling multiple concurrent SBIR/xTech cycles 7+ years after founding (2016), plus a live sole-source contract opportunity pending → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "The public commercial site never mentions DoD, ATO, RMF, or CMMC anywhere — it is branded entirely around DIY rural/off-grid WiFi for villages and businesses, despite holding a live ABMS IDIQ.",
+     "operator_reality": "A program office vetting Wind Talker via public search finds 'DIY WiFi for Alaskan villages,' not evidence of accreditation readiness — the compliance story a contracting officer needs isn't visible anywhere the DoD-specific SBIR language lives.",
+     "why_likely_missing": "The commercial WISP/broadband brand (windtalker.com) and the DoD program narrative (SBIR abstract) appear to be maintained as two entirely separate tracks with no public crossover.",
+     "evidence_quote": "A software solution for OEMs and network challenges.",
+     "quote_source": "homepage"},
+    {"blind_spot": "'Zero-Touch Provisioning: DIY installation for non-technical users' is pitched as a universal advantage, with no distinction for GFE integration or prime flow-down mechanics on a program like ABMS.",
+     "operator_reality": "A DIY consumer-install model doesn't map to how a mesh node gets fielded under a prime's C2 architecture with government-furnished equipment and configuration control — 'plug-and-play for non-technical users' is a civilian-market claim, not an integration plan for ABMS.",
+     "why_likely_missing": "Commercial go-to-market messaging (ease of DIY setup) was written for WISPs and rural communities, then reused without adaptation for the DoD IDIQ context.",
+     "evidence_quote": "Zero-Touch Provisioning: DIY installation for non-technical users reduces costs and simplifies management.",
+     "quote_source": "homepage"},
+    {"blind_spot": "Winning a spot on the ABMS IDIQ across all seven categories is described with no accompanying staffing signal (no jobs data at all in this pack) to actually deliver, sustain, or accredit task orders under it.",
+     "operator_reality": "An IDIQ slot is eligibility to bid, not a fielded system — without visible field-support, ISSO, or delivery-focused hiring, task orders risk stalling exactly where months-to-field outruns the funded period of performance.",
+     "why_likely_missing": "Company appears resourced for R&D/SBIR execution (proving the tech works) rather than for program delivery and sustainment at IDIQ scale.",
+     "evidence_quote": "we were one of only a handful of companies selected for all seven categories of an indefinite-delivery, indefinite-quantity (IDIQ) contract by AFLCMC/CAIO to participate in development of the Advanced Battle Management System (ABMS)",
+     "quote_source": "sbir_abstract"}
+  ],
+  "opener_hook": "Wind Talker holds a spot on the ABMS IDIQ across all seven categories, yet windtalker.com markets DIY WiFi for Alaskan villages with no mention of CMMC or ATO anywhere.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Self-healing, multi-spectral mesh networking firmware (Osmosis) sold commercially as rural/off-grid WiFi and separately pursued for DoD tactical mesh networking under an Air Force SBIR and an ABMS IDIQ."
+}

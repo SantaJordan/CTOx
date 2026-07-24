@@ -350,14 +350,18 @@ Add Axios on Google
 Illustration: Aïda Amer/Axios
 
 Laser-turret maker Aurelius Systems plans to hire more people, build out its production lines and continue participating in U.S. military tests on t
-- Aurelius Secures $10M to Advance Laser Defense (2025-09-03) https://www.aureliussystems.com/newsroom/mjshnft6iytjccma0fd1cig0d7l8q1
-  Aurelius Secures $10M to Advance Laser Defense | Aurelius Systems
+- Aurelius Systems Raises $10 Million to Bring Autonomous Laser Defense ... (2025-09-03) https://www.businesswire.com/news/home/20250902984268/en/Aurelius-Systems-Raises-%2410-Million-to-Bring-Autonomous-Laser-Defense-to-the-Battlefield-In-Round-Led-by-General-Catalyst-Draper-Associates
+  Aurelius Systems Raises $10 Million to Bring Autonomous Laser Defense to the Battlefield In Round Led by General Catalyst & Draper Associates
 
-# Aurelius Secures $10M to Advance Laser Defense
+Sep 3, 2025 7:11 AM Eastern Daylight Time
 
-Sep 3
+# Aurelius Systems Raises $10 Million to Bring Autonomous Laser Defense to the Battlefield In Round Led by General Catalyst & Draper Associates
 
-San Francisco, CA – Today – Aurelius Systems, a defense technology company developing low-cost, high-powered laser systems that neutralize drone threats, announced today the close of its $10 million seed round, co-led by General Catalyst and Draper Associates. This funding will enable Aurelius to scale operations and accelerate development of its next-generation laser platf
+Share
+
+---
+
+Aurelius Systems Raises $10 Million to Bring Autonomous Laser Defense to the Battlefield. Co-Led by General Catalyst and Draper Associates. Also investors fr
 
 ## Open roles (Blitz, live)
 - Digital Marketing Specialist ({'city': 'San Francisco', 'country_code': 'US'})

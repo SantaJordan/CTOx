@@ -229,15 +229,7 @@ Branch: DARPA
 Total Award Amount: $5,480,522
 
 Contract Nu
-- RYDBERG TECHNOLOGIES INC | Federal Award ... () https://www.usaspending.gov/recipient/177c7954-7c11-2699-93f7-64ebe89bf981-P/latest
-  USAspending.gov
-
-# --
-
----
-
-Loading
-- Rydberg Technologies () https://www.highergov.com/awardee/rydberg-technologies-inc-327741598/
+- Rydberg Technologies - HigherGov () https://www.highergov.com/awardee/rydberg-technologies-inc-327741598/
   Rydberg Technologies
 
 HigherGov
@@ -284,6 +276,14 @@ Rydberg Technologies
 Website
 
 Hea
+- RYDBERG TECHNOLOGIES INC | Federal Award Recipient Profile () https://www.usaspending.gov/recipient/177c7954-7c11-2699-93f7-64ebe89bf981-P/latest
+  USAspending.gov
+
+# --
+
+---
+
+Loading
 
 ## Open roles (Blitz, live)
 - Software Engineer (Quantum and Photonics) ({'city': 'Ann Arbor', 'country_code': 'US'})

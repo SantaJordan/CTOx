@@ -1,0 +1,16 @@
+{
+  "company": "Third Coast Federal, Inc.",
+  "slug": "third-coast-federal-inc",
+  "domain": "thirdcoastfederal.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "Genuine DoD motion present (multiple SBIRs, $2M Navy STTR) but the company is a federal consultancy/accelerator business, not a product company with its own fielding gap: 'Third Coast Federal is a consultancy that helps companies build, grow and maintain a federal contracting business and drive R&D by leveraging Federal funds, laboratories, and personnel' (LinkedIn about) and 'helps teams from DoD, industry, and academia develop innovative dual use solutions to complex operational and sustainment challenges' via SBIR|STTR Accelerators (homepage).",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Federal consultancy and SBIR/STTR accelerator that helps other companies win defense contracts and navigate the federal marketplace, with an internal AI market-intelligence tool (iScout) supporting that consulting business."
+}

@@ -1,0 +1,37 @@
+{
+  "company": "Whisper Aero Inc",
+  "slug": "whisper-aero-inc",
+  "domain": "whisper.aero",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "SBIR/STTR record: two Air Force Phase II STTRs (2022, ~$750K each) for UAS propulsor design explicitly targeting DoD stand-off-detectability requirements; News section confirms a 2025 DoD-facing Collaborative Logistics Aircraft (JetFoil) reveal at SOF Week for 'contested logistics,' with FlyingMag reporting Air Force investment and flight testing scheduled for 2027.",
+  "disconnect_score": 48,
+  "subscores": {"lab_language_intensity": 14, "deployment_awareness_absence": 6, "operator_absence": 12, "hiring_profile_skew": 6, "stage_pressure": 10},
+  "score_evidence": [
+    "'20% More efficient / 20 dB Quieter / 40 to 400 kts Speed' spec-sheet callouts with no operational framing → lab_language_intensity",
+    "Own SBIR abstract explicitly discusses 'contested logistics,' reducing 'stand-off detectability distance... from 2,000 ft on a ScanEagle to less than 200 ft,' and the News CLA reveal happened at SOF Week — real deployment fluency, hence a low absence score → deployment_awareness_absence",
+    "Commercial-facing site addresses 'OEMs' and 'airframe partners,' never field operators/maintainers/CONOPS: 'We're looking for airframe partners to make regional air mobility a reality. OEMs, look no further.' → operator_absence",
+    "Open roles include Business Development Manager (Defense), Senior Mechanical Test Engineer, Test Technician — field/test/defense-advocacy roles present, not just researchers/ML → hiring_profile_skew scored low"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Public materials sell propulsor performance specs (thrust, noise, speed) with no mention of battery/charging logistics or spares tail for an electric system deployed OCONUS.",
+     "operator_reality": "An E-5 sustaining a CLA aircraft at an austere site needs battery logistics, charging infrastructure, and field-replaceable spares — none of that is addressed alongside the '20% more efficient / 20 dB quieter' spec sheet.",
+     "why_likely_missing": "Company culture is propulsion-engineering-first (aerodynamics, acoustics); sustainment planning for the full aircraft system is a downstream concern typically owned by the airframe integrator, not yet visible in their own materials.",
+     "evidence_quote": "5–500 lbs Scalable thrust / 20 dB Quieter / 40 to 400 kts Speed",
+     "quote_source": "homepage"},
+    {"blind_spot": "Open roles show a general 'Head of IT/Security' hire but nothing RMF/ATO/ISSO-titled, despite pursuing a DoD Collaborative Logistics Aircraft program that will need its own accreditation path for onboard avionics/flight computer.",
+     "operator_reality": "Propulsor hardware clearing DoD test doesn't get the CLA onto a government network or into a program of record — the flight computer and any data links need a separate RMF/ATO track that a generic IT/security hire won't own.",
+     "why_likely_missing": "Team composition (structures, mechanical test, aerothermal, CNC) skews hardware-manufacturing, suggesting the software/avionics compliance function is still nascent relative to the propulsion IP.",
+     "evidence_quote": "Head of IT/Security (Nashville)",
+     "quote_source": "job_post"},
+    {"blind_spot": "The customer-facing pitch is entirely to OEMs and airframe partners — no description of who trains or sustains the CLA once it's in a unit's hands.",
+     "operator_reality": "Winning the airframe integration deal is not the same as an operator-level advocacy chain; without a champion above the pilot/loadmaster level describing training and field support, a successful SOF Week demo can still die in transition.",
+     "why_likely_missing": "Company is mid-pivot from a consumer/commercial RAM narrative (regional air mobility, passenger travel) to a DoD contested-logistics narrative, and the sustainment story hasn't caught up to the new DoD-specific product line.",
+     "evidence_quote": "We're looking for airframe partners to make regional air mobility a reality. OEMs, look no further.",
+     "quote_source": "homepage (aviation page)"}
+  ],
+  "opener_hook": "Whisper Aero's Collaborative Logistics Aircraft is slated for 2027 flight testing — the propulsor spec sheet is public, but the RMF path for the onboard flight computer isn't.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Electric ducted-fan propulsion (UltraQuiet propulsors) for drones and, now, a DoD contested-logistics cargo aircraft (Collaborative Logistics Aircraft)."
+}

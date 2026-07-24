@@ -113,32 +113,27 @@ Omniscient Labs is building geospatial image intelligence.
 Omniscient Labs provides software that automates satellite image analysis using computer vision to enable persistent monitoring of regions of interest, with applications to maintaining Orders of Battle, establishing baseline Patterns of Life, and generati
 
 ## News (Exa, top 3)
-- OMNI Fed LLC Wins $10 Million Space Force Software Development Contract | TheDefenseWatch.com (2026-04-21) https://thedefensewatch.com/defense-contracts/omni-fed-llc-wins-10-million-space-force-software-development-contract/
-  OMNI Fed LLC Wins $10 Million Space Force Software Development Contract | TheDefenseWatch.com
+- GB-Bristol: Project OMNISCIENT | Defence Contracts International (2018-12-11) https://dcidev-oz1f6.projectbeta.co.uk/gb-bristol-project-omniscient/
+  GB-Bristol: Project OMNISCIENT | Defence Contracts International
 
-Search
+## News
 
-Generic selectors
+# GB-Bristol: Project OMNISCIENT
 
-Exact matches only
+- Last Updated - June 15, 2023
+- 6:37 am
+- Published - December 11, 2018
+- Mario Jaconelli
 
-Search in title
+Type of document: Contract award Country: United Kingdom
 
-Search in content
+MOD Competitive Contract Award GB-Bristol: Project OMNISCIENT
 
-Post Type Selectors
+Associated Parent Notice ModVoluntaryTransparencyNotice – GB-Bristol: Project OMNISCIENT
 
-Friday, July 17, 2026
+Region Codes: UKK1
 
-Top Posts
-
-Germany Evaluates MQ-28 Ghost Bat As Loyal Wingman To Support Eurofighter...
-
-ArianeGroup And Thales Develop FLP-T 150 Rocket Artillery System For France’s...
-
-Top 10 Most Powerful Navies in the World : Gauging Maritime...
-
-Top 10 Most Advanced Fighter Jets in 2026: 
+Section I: Contract Title Contract Title: GB-Bristol: Project OMNISC
 - OMNI | SHIELD Contract Award (2025-12-19) https://omnifederal.com/omni-contract-shield/
   OMNI | SHIELD Contract Award
 

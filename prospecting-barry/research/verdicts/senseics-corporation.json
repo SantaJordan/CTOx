@@ -1,0 +1,45 @@
+{
+  "company": "SenseICs Corporation",
+  "slug": "senseics-corporation",
+  "domain": "senseics.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "U.S. Navy SBIR Phase II contract to develop an MWIR infrared-imaging ASIC for defense applications, plus an $850K NASA SBIR Phase II for a radiation-hardened LiDAR ASIC — News section and channel notes.",
+  "disconnect_score": 68,
+  "subscores": {"lab_language_intensity": 18, "deployment_awareness_absence": 12, "operator_absence": 12, "hiring_profile_skew": 10, "stage_pressure": 16},
+  "score_evidence": [
+    "\"SenseICs is dedicated to reimagining the status quo, designing and building next-generation integrated circuits\" -> lab_language_intensity",
+    "\"Complete characterization of the chip and test system to conclude final chip specifications and design limitations\" -> lab_language_intensity",
+    "\"We combine decades of engineering expertise designing custom, turnkey microelectronic solutions for defense and commercial needs\" -> deployment_awareness_absence (capped at 12: word count <1000; zero DDIL/ATO/RMF/CMMC/ITAR mention across the whole site)",
+    "\"delivering the best possible solutions to meet the needs of our customers in the defense, energy, automotive, and medical industries\" -> operator_absence (capped at 12: customers only, never operators/warfighters/training/CONOPS)",
+    "no jobs data found in pack -> hiring_profile_skew set to exactly 10 per instructions",
+    "Navy SBIR Phase II (MWIR infrared) running concurrently with $850K NASA SBIR Phase II (radiation-hardened LiDAR ASIC) on a 14-person team -> stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The chip design process is described entirely in fab/bench-test terms (tape-out, wafer probe, characterization) with no mention of how the resulting ASIC survives the platform's actual power, thermal, and vibration envelope once mounted.",
+      "operator_reality": "A chip that passes bench characterization in a controlled test rig still has to survive the SWaP-C budget of the actual airframe or sensor pod it ships in; that gap between 'chip works on the bench' and 'chip works in the system' is where many ASIC development programs stall between Phase II and Phase III.",
+      "why_likely_missing": "A 14-person fabless IC house is still in the tape-out/characterization phase of two parallel SBIR Phase IIs, not yet at system integration.",
+      "evidence_quote": "Test System Development: Test bench circuit boards and periphery products to ensure the designed chip technology functions correctly and meets specifications",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "'Trusted Microelectronics' is marketed as a silicon-level security feature of the chip itself, with no mention anywhere of the company-level CMMC/NIST 800-171 or ITAR compliance a Navy Phase III production award will require.",
+      "operator_reality": "Tamper-resistance built into an IC doesn't substitute for the company holding CMMC/ITAR compliance as an entity; the Navy won't move controlled defense IP and production dollars to a subcontractor that hasn't cleared that bar, regardless of how secure the chip design is.",
+      "why_likely_missing": "Compliance infrastructure is typically the last thing a small engineering-led team builds, and the site's language stays entirely at the product/chip level.",
+      "evidence_quote": "Our technology is designed with trust and assurance at their core, ensuring your hardware is secure.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Two SBIR Phase II clocks (Navy MWIR imaging, NASA radiation-hardened LiDAR ASIC) are running in parallel on a 14-person team with no named Phase III transition partner or prime mentioned anywhere.",
+      "operator_reality": "Phase II funds engineering, not fielding; without an advocacy chain — a program office or prime already committed to carrying the chip into Phase III production — the classic SBIR-mill failure mode is two technically successful Phase IIs and zero fielded programs.",
+      "why_likely_missing": "The company's public materials are entirely engineering-capability focused (what they can design/fab), never acquisition-pathway focused (who takes it to production).",
+      "evidence_quote": "SenseICs Corporation has been awarded an $850K NASA... SBIR Phase II contract to develop a radiation-hardened FMCW Signal Processing ASIC (FASIC) for next-generation LiDAR sensors.",
+      "quote_source": "news"
+    }
+  ],
+  "opener_hook": "You're running Navy and NASA SBIR Phase II clocks in parallel on a 14-person team — does either have a named Phase III transition partner yet?",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Fabless semiconductor company designing custom ASICs and ICs for imaging (ROIC, LiDAR), high-speed communications, radiation-hardened, and trusted/tamper-resistant microelectronics, currently under Navy and NASA SBIR Phase II contracts."
+}

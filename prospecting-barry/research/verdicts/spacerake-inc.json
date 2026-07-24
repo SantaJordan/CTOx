@@ -1,0 +1,25 @@
+{
+  "company": "SpaceRake, Inc.",
+  "slug": "spacerake-inc",
+  "domain": "spacerake.net",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "SpaceRake won a $1.8M direct-to-Phase II SBIR from the Space Development Agency (Nov 2023) to build laser comm terminals, and its homepage nav explicitly lists 'Deployable networks Defense' — News + SBIR abstract sections.",
+  "disconnect_score": 75,
+  "subscores": {"lab_language_intensity": 20, "deployment_awareness_absence": 12, "operator_absence": 12, "hiring_profile_skew": 15, "stage_pressure": 16},
+  "score_evidence": [
+    "\"SpaceRake believes that Optical Orbital Hotspots will fundamentally change the nature of small satellite and constellation mission design\" → lab_language_intensity",
+    "own-language word count ~616 (<1000) → caps applied to deployment_awareness_absence and operator_absence per calibration rule",
+    "Open roles: Optomechanical Engineer, Senior Software Engineer x2 — all hardware/software build roles, zero field/integration/compliance roles → hiring_profile_skew",
+    "2-year, direct-to-Phase II SDA SBIR awarded Nov 2023 on an 8-person team (Blitz), now ~2.5 years into the period of performance → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "SBIR abstract frames the product around extending 'edge and cloud computing architectures' to LEO, explicitly comparing the goal to how ISPs provide continuous terrestrial internet access.", "operator_reality": "A DDIL warfighter downlink cannot assume ISP-grade continuous access; optical links are also line-of-sight and weather-limited — SpaceRake's 'always-on Hotspot' model needs an explicit contested/degraded-link failure mode it hasn't articulated.", "why_likely_missing": "Team is MIT-lab-spinout engineers optimizing for bandwidth and constellation architecture, not for denied-environment failure modes.", "evidence_quote": "Recent and planned efforts to integrate edge and cloud computing architectures are expected to extend Low Earth Orbit (LEO) capabilities well beyond the familiar archetype of downlinking remote sensing data via bandwidth-limited RF communication links.", "quote_source": "sbir_abstract"},
+    {"blind_spot": "Product pitch is built entirely around 'high bandwidth, low latency' throughput metrics — a bandwidth-race framing with no mention of graceful degradation or handoff to RF when the optical link is denied.", "operator_reality": "For a defense backbone node, the interesting engineering problem is what happens when the link drops, not how fast it goes when it works — SpaceRake's public materials never address this.", "why_likely_missing": "SBIR abstract and website messaging both target satellite operators buying bandwidth as a commercial-style service.", "evidence_quote": "SpaceRake will give satellite operators and mission designers options for periodic or continuous high bandwidth connectivity with their vehicles.", "quote_source": "sbir_abstract"},
+    {"blind_spot": "No SWaP-C, ATO/RMF, ITAR, or GFE-integration language anywhere despite pitching directly into SDA's Transport Layer program (a program of record), and the company markets the same terminal to 'Industrial IoT' and drones alongside defense.", "operator_reality": "SDA's Transport Layer requires government back-end integration and security accreditation before any terminal is added to the mesh — none of that appears in SpaceRake's own materials.", "why_likely_missing": "Small (8-person) engineering team focused on getting the optical terminal working; compliance/accreditation work typically comes later and isn't yet staffed for.", "evidence_quote": "Deployable networks Defense / Deployable networks Industrial IoT", "quote_source": "homepage"}
+  ],
+  "opener_hook": "SpaceRake's SDA Phase II award funds 'Optical Orbital Hotspots' pitched with ISP-style 'continuous connectivity' language — worth asking how that holds up against a denied link.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Builds small laser-communication terminals ('Optical Orbital Hotspots') to give satellites high-bandwidth optical connectivity, funded by a direct-to-Phase II SDA SBIR."
+}

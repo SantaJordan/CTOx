@@ -1,0 +1,16 @@
+{
+  "company": "Rune Technologies",
+  "slug": "rune-technologies",
+  "domain": "runetech.co",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Genuine and strong DoD intent (TyrOS logistics software built explicitly for contested/tactical environments), but the news section shows they just crossed the valley of death: a $99M, five-year Army enterprise agreement 'establishes a streamlined path for Army and joint-force units to deploy Rune's TyrOS platform' — this is a program-of-record-scale deployment, not a stuck prototype.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "AI-enabled predictive military logistics software (TyrOS) built offline-first with DDIL awareness for tactical/operational sustainment; just won a $99M Army enterprise agreement."
+}

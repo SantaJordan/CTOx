@@ -1,0 +1,21 @@
+{
+  "company": "Immersive Wisdom Inc",
+  "slug": "immersive-wisdom-inc",
+  "domain": "immersivewisdom.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Own site (news/homepage) documents SOCOM SBIR Phase II, a $25MM sole-source Air Combat Command Phase III IDIQ through 2029, PACAF/AFSOC contracts, and an MDA SHIELD IDIQ award — unambiguous DoD motion.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "\"Immersive Wisdom (TRL-9)... Available on NIPR/SIPR/JWICS with shareable documentation in eMASS\" → crossed the valley; ATO/RMF fluency is explicit",
+    "\"delivers Communications and Deep Collaboration between distributed sites in Denied, Degraded, Intermittent, and Limited-Bandwidth (DDIL) / Contested Environments at 100 kilobits/sec/user\" → DDIL is the product thesis, not a blind spot",
+    "\"Key U.S. Special Operations Customer Renews Immersive Wisdom for THIRD Consecutive Year\" → sustained fielded program, no transition risk",
+    "Open roles include \"Field Support Engineer\" and \"Trainer / Instructor with Security Clearance\" → deployment/sustainment hiring already in place"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Windows-based collaborative ops-center software that lets dispersed DoD units share maps, sensor feeds and voice in shared digital rooms at 8-100 kbps, including fully offline."
+}

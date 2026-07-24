@@ -1,0 +1,25 @@
+{
+  "company": "Spectrabotics, LLC",
+  "slug": "spectrabotics-llc",
+  "domain": "spectrabotics.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "$749,044 Air Force Phase II SBIR (2022) explicitly tasked to support Department of the Air Force Humanitarian Assistance and Disaster Response (HADR) missions — SBIR abstract section.",
+  "disconnect_score": 67,
+  "subscores": {"lab_language_intensity": 14, "deployment_awareness_absence": 15, "operator_absence": 12, "hiring_profile_skew": 10, "stage_pressure": 16},
+  "score_evidence": [
+    "\"Spectral Analysis that sees deep within your imagery to find hidden insights using advanced Deep Learning algorithms.\" → lab_language_intensity",
+    "\"Our proposed HSI technologies were initially built for the Precision Agriculture and Smart City markets for real-time, in situ collection, processing, analysis and dissemination to the user for rapid decision-making.\" → deployment_awareness_absence (civilian-market sensor architecture repurposed for DAF HADR with no re-engineering language)",
+    "\"Other uses-cases for the technology include the location and identification of items of clothing and injured personnel (Search and Rescue)\" → operator_absence (some mission/responder awareness present but framed generically, not centered on the operator)",
+    "employees(LI): 3, company founded ~2015, still SBIR/R&D-stage on this line 11 years later → stage_pressure (chronically small team, single-grant dependency)"
+  ],
+  "blind_spots": [
+    {"blind_spot": "HSI sensors were built for precision agriculture and smart-city 'real-time, in situ' cloud dissemination, then pitched for DAF disaster-response missions with no re-engineering language.", "operator_reality": "Sensor architecture optimized for row-crop imaging over a farm doesn't survive rotor wash, dust, and dirty power on an eVTOL platform in an actual disaster zone — no SWaP-C adaptation is described for the new use case.", "why_likely_missing": "Tiny 3-4 person team is repurposing an existing commercial product line for a new SBIR opportunity rather than building a purpose-built defense platform.", "evidence_quote": "Our proposed HSI technologies were initially built for the Precision Agriculture and Smart City markets for real-time, in situ collection, processing, analysis and dissemination to the user for rapid decision-making.", "quote_source": "sbir_abstract"},
+    {"blind_spot": "Commercial product tiers ($20-$70/month, 10GB-250GB cloud storage) assume standard internet-connected cloud access.", "operator_reality": "HADR and DoD missions frequently operate in exactly the disconnected/degraded conditions a consumer cloud-storage subscription tier can't serve — no edge/on-device processing story is described anywhere.", "why_likely_missing": "Core commercial product (Spectralytics) was built as a SaaS analytics platform for civilian customers, not a field-deployed sensor payload.", "evidence_quote": "$20/Month... 10GB Storage... Unlimited Analysis Per Day", "quote_source": "homepage"},
+    {"blind_spot": "SBIR abstract names the mission (stand-off HAZMAT detection for DAF HADR, logistical support response planning) but never names or describes who operates or interprets the sensor output in the field.", "operator_reality": "A stand-off detection capability is only as good as the operator's ability to interpret and act on it in real time — the abstract never identifies that operator or how they're trained on the tool.", "why_likely_missing": "Team background (agriculture/geospatial data science) is centered on the sensing and analytics pipeline, not on end-user operations.", "evidence_quote": "Hyperspectral imaging is the most effective remote sensing technology for stand-off HAZMAT detection.", "quote_source": "sbir_abstract"}
+  ],
+  "opener_hook": "Spectrabotics' $749K Air Force Phase II repurposes precision-agriculture hyperspectral sensors for disaster-response missions — the same sensor architecture built for real-time cloud dissemination on a farm.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Small hyperspectral-imaging and geospatial-analytics shop; repurposing agriculture/smart-city sensor tech for an Air Force-funded disaster-response (HADR) drone payload."
+}

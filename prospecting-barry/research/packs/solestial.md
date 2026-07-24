@@ -245,10 +245,6 @@ We value your privacy
 We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking "Accept All", you consent to our use of cookies.
 Customize Reject All Accept All
 Powered by [](https://www.cookieyes.com/product/cookie-consent/?ref=cypbcyb&utm_source=cookie-banner&utm_medium=fl-br
-- Solestial Awarded $1.2M by SpaceWERX for Space Solar ... (2025-07-16) https://www.prnewswire.com/news-releases/solestial-awarded-1-2m-by-spacewerx-for-space-solar-development-302503572.html
-  Solestial Awarded $1.2M by SpaceWERX for Space Solar Development Accessibility Statement Skip Navigation
-
-TEMPE, Ariz., July 16, 2025 /PRNewswire/ -- Solestial, Inc. ("Solestial"), the solar energy company for space, today announced that it has been selected by SpaceWERX for a Direct-to-Phase II contract in the amount of $1.2 million dollars to develop a novel, fast to manufacture, multiorbital solar array wing concept for small satellites. The award enables Solestial to optimize its low-mass, r
 - Solestial wins $1.2 million SpaceWERX contract (2025-07-16) https://spacenews.com/solestial-wins-1-2-million-spacewerx-contract/
   Solestial wins $1.2 million SpaceWERX contract - SpaceNews
 
@@ -259,6 +255,10 @@ Solestial intends to supply solar panels for spacecraft and space-based infrastr
 SAN FRANCISCO – Solar energy startup Solestial won a $1.2 million Space Force contract to develop novel arrays for small satellites.
 
 Under a SpaceWerx award announced July 16, Solestial will optimize silicon solar cells and power modules for speedy integration and assembly. In 
+- Solestial Awarded $1.2M by SpaceWERX for Space Solar ... (2025-07-16) https://www.prnewswire.com/news-releases/solestial-awarded-1-2m-by-spacewerx-for-space-solar-development-302503572.html
+  Solestial Awarded $1.2M by SpaceWERX for Space Solar Development Accessibility Statement Skip Navigation
+
+TEMPE, Ariz., July 16, 2025 /PRNewswire/ -- Solestial, Inc. ("Solestial"), the solar energy company for space, today announced that it has been selected by SpaceWERX for a Direct-to-Phase II contract in the amount of $1.2 million dollars to develop a novel, fast to manufacture, multiorbital solar array wing concept for small satellites. The award enables Solestial to optimize its low-mass, r
 
 ## Open roles (Blitz, live)
 - Senior Technical Program Manager ({'city': 'Tempe', 'country_code': 'US'})

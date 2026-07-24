@@ -1,11 +1,7 @@
 #!/usr/bin/env python3
 """Stage 5c: assemble the final deliverable — one row per person, companies sorted
 by disconnect_score (most lab-blind first).
-
-In : data/ranked_companies.csv, output/people.csv, checkpoints/enrich.jsonl
-Out: output/barry_final.csv (full, incl. mobiles — gitignored)
-     output/barry_final_public.csv (no mobiles)
-
+Out: output/barry_final.csv (with mobiles) + output/barry_final_public.csv (without)
 Usage: python3 s10_assemble.py [--qa]
 """
 import csv
@@ -59,6 +55,7 @@ def main():
         if not plist:
             rows.append({**base, "person": "(none found)", "role": "", "title": "",
                          "best_email": "", "all_emails": "", "mobile": "",
+                         "email_domain_match": "",
                          "person_linkedin": "", "location": ""})
         for p in plist:
             e = fe.get(p["linkedin_url"], {})
@@ -68,12 +65,14 @@ def main():
                          "best_email": e.get("fe_email", ""),
                          "all_emails": e.get("fe_all_emails", ""),
                          "mobile": e.get("fe_phone", ""),
+                         "email_domain_match": e.get("email_domain_match", ""),
                          "person_linkedin": p["linkedin_url"],
                          "location": p.get("location", "")})
 
     cols = ["rank", "disconnect_score", "company", "domain", "what_they_do",
             "stage_band", "confidence", "dod_evidence", "person", "role", "title",
-            "best_email", "all_emails", "mobile", "person_linkedin", "location",
+            "best_email", "all_emails", "mobile", "email_domain_match",
+            "person_linkedin", "location",
             "blind_spot_1", "blind_spot_2", "blind_spot_3", "opener_hook"]
     OUT.parent.mkdir(exist_ok=True)
     for path, strip in ((OUT, False), (OUT_PUB, True)):

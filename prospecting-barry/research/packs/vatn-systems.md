@@ -337,7 +337,61 @@ Vatn's ATAK plugin gives operators real-time control of the entire fleet via And
 Vatn Systems is a company pioneering next-generation attritable autonomous underwater vehicles (AUVs) for defense, research, and commercial maritime missions. Combining cutting-edge autonomy, modular design, and scalable swarming capabilities, Vatn delivers affordable systems built for today’s dynamic maritime environments. 
 
 ## News (Exa, top 3)
-- South Korea's Hanwha, US defense startup Vatn to build ... (2025-12-10) https://www.reuters.com/business/aerospace-defense/south-koreas-hanwha-us-defense-startup-vatn-build-underwater-drones-2025-12-10/
+- IDC N0017825D7977 Vatn Systems () https://www.highergov.com/idv/N0017825D7977/
+  IDC N0017825D7977 Vatn Systems -- --
+
+HigherGov
+
+Pipeline
+
+FOIA
+
+Notify
+
+- New Contract Awards
+
+Track
+
+Favorite
+
+No Bid
+
+Export
+
+- Excel
+- CSV
+
+Share
+
+- Tweet
+- Email
+- Copy URL
+
+Search IDVs
+
+# N0017825D7977
+
+Indefinite Delivery Contract
+
+'Game Changing Market Intel' HigherGov subscribers won more than $120 Billion in government awards last year Free Trial Schedule Demo --
+
+- Text
+- List
+
+## Overview
+
+Government Description
+
+SEAPORT-NXG
+
+Government Project
+
+NAVY SEAPORT-NXG
+
+Awardee
+
+Vatn System
+- South Korea's Hanwha, US defense startup Vatn to build underwater ... (2025-12-10) https://www.reuters.com/business/aerospace-defense/south-koreas-hanwha-us-defense-startup-vatn-build-underwater-drones-2025-12-10/
   South Korea’s Hanwha, US defense startup Vatn to build underwater drones | Reuters
 
 Skip to main content
@@ -347,16 +401,12 @@ Exclusive news, data and analytics for financial market professionalsLearn more 
 The VATN autonomous Skelmir S6 undersea drones, which can be used for surveillance or strike missions and can move in swarms, in this handout picture taken in Bristol, Rhode Island, U.S., June... Purchase Licensing Rights, opens new tab Read more
 
 NEW YORK, Dec 10 (Reuters) - South Korean shipping
-- Vatn Systems Raises $60 Million Series A to Redefine Underwater Naval Warfare at Scale (2025-12-10) https://www.prnewswire.com/news-releases/vatn-systems-raises-60-million-series-a-to-redefine-underwater-naval-warfare-at-scale-302637203.html
+- Vatn Systems Raises $60 Million Series A to Redefine Underwater ... (2025-12-10) https://www.prnewswire.com/news-releases/vatn-systems-raises-60-million-series-a-to-redefine-underwater-naval-warfare-at-scale-302637203.html
   Vatn Systems Raises $60 Million Series A to Redefine Underwater Naval Warfare at Scale Accessibility Statement Skip Navigation
 
 Leading defense tech company strengthens position as the largest AUV manufacturer in the US with record-breaking funding round
 
 PORTSMOUTH, R.I., Dec. 10, 2025 /PRNewswire/ -- Vatn Systems, a defense technology company building autonomous underwater vehicles (AUVs) for the US military, allied nations, and commercial customers, today announced it has raised $60 million i
-- Vatn Systems, Inc. () https://govtribe.com/vendors/vatn-systems-inc-dot-9kj70
-  Vatn Systems, Inc.
-
-Vatn Systems, Inc.
 
 ## Open roles (Blitz, live)
 - Perception Engineer ({'city': 'Bristol', 'country_code': 'US'})

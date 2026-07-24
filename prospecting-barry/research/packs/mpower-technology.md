@@ -324,14 +324,20 @@ Military Embedded Systems
 Photo courtesy of Reuters.
 
 ## ALBUQUERQUE, N.M. Solar technology startup, mPower Technology, announced that it won a Phase II Small Business Innovation Research (SBIR) contract by the U.S. Army Combat Capabilities Development Command Soldier Center. The award builds on a Phase I SBIR program and enables mPower Technology to d
-- mPower Technology Wins Landmark Solar Power Modules Contract – mPower Technology () https://wp.mpowertech.com/mpower-technology-wins-landmark-solar-power-modules-contract/
-  mPower Technology Wins Landmark Solar Power Modules Contract – mPower Technology
+- mPower wins Airbus contract for solar power modules - mPower Technology (2024-10-03) https://mpowertech.com/blog/mpower-wins-airbus-contract-for-solar-power-modules
+  mPower wins Airbus contract for solar power modules - mPower Technology
 
-## mPower Technology Wins Landmark Solar Power Modules Contract
+In The News
 
-Agreement with Airbus to Supply over 1.1MW of solar modules for the wings of MDA AURORATM satellites
+# mPower wins Airbus contract for solar power modules
 
-ALBUQUERQUE, N.M., Oct. 3, 2024 – mPower Technology, Inc., the emerging solar provider of choice for Space 2.0, today announced its selection by Airbus Netherlands B.V. to provide Solar Power Modules (SPMs) for the Sparkwing solar arrays that Airbus i
+October 3, 2024
+
+SAN FRANCISCO – New Mexico startup mPower Technology announced a contract Oct. 3 with Airbus Netherlands B.V. to provide solar power modules for more than 200 satellites.
+
+“It’s one of the largest space power module contracts ever announced, and clearly the largest for mPower,” Kevin Hell, mPower president and CEO, told SpaceNews.
+
+The valu
 
 ## Open roles (Blitz, live)
 - Director of Quality Assurance ({'city': 'Carlsbad', 'country_code': 'US'})

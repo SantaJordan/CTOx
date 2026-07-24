@@ -331,7 +331,7 @@ Your de
 Lineaje's full-lifecycle software supply chain security is designed to meet the specific compliance, governance and automation needs of companies that source, build, deploy, sell or buy critical software. Its technology allows organizations to autonomously and effectively source safe software, contextualize risks, auto-secure builds, and manage risk and compliance. Customers use Lineaje to know what is in their software, eliminate vulnerability exposure, deploy self-healing containers, auto-fix all vulnerabilities and comply with global regulations. The company is trusted by top technology, fi
 
 ## News (Exa, top 3)
-- Lineaje Secures U.S. Air Force Phase II Contract for Self- ... (2025-07-15) https://www.prnewswire.com/news-releases/lineaje-secures-us-air-force-phase-ii-contract-for-self-healing-software-supply-chain-innovations-302504647.html
+- Lineaje Secures U.S. Air Force Phase II Contract for Self-Healing Software ... (2025-07-15) https://www.prnewswire.com/news-releases/lineaje-secures-us-air-force-phase-ii-contract-for-self-healing-software-supply-chain-innovations-302504647.html
   Lineaje Secures U.S. Air Force Phase II Contract for Self-Healing Software Supply Chain Innovations Accessibility Statement Skip Navigation
 
 Company earns maximum $1.8 million award, following Phase I success
@@ -357,18 +357,20 @@ Talk to Us
 #### Know your application Lineaje, self-heal issues and stay compliant, autonomously and at scale​.
 
 Source Safe Software Ensure open-source software is free of vulnerabi
-- Lineaje Secures U.S. Air Force Phase II Contract for Self-Healing Software Supply Chain Innovations (2025-07-15) https://finance.yahoo.com/news/lineaje-secures-u-air-force-130000404.html
-  Lineaje Secures U.S. Air Force Phase II Contract for Self-Healing Software Supply Chain Innovations
+- Lineaje Awarded Coveted Contract by the Department of the U.S. Air Force (2024-07-10) https://www.businesswire.com/news/home/20240710851988/en/Lineaje-Awarded-Coveted-Contract-by-the-Department-of-the-U.S.-Air-Force
+  Lineaje Awarded Coveted Contract by the Department of the U.S. Air Force
 
-Oops, something went wrong
+Jul 10, 2024 9:00 AM Eastern Daylight Time
 
-This is a paid press release. Contact the press release distributor directly with any inquiries.
+# Lineaje Awarded Coveted Contract by the Department of the U.S. Air Force
 
-# Lineaje Secures U.S. Air Force Phase II Contract for Self-Healing Software Supply Chain Innovations
+Share
 
-Company earns maximum $1.8 million award, following Phase I success
+---
 
-SARATOGA, Calif., July 15, 2025 /PRNewswire/ -- Lineaje, the full-lifecycle software supply chain sec
+Lineaje’s SBOM360 will create and provide innovative capabilities within the software supply chain to strengthen the U.S. national defense
+
+SARATOGA, Calif. & SANTA CLARA, Calif.--(BUSINESS WIRE)-- Lineaje, a leader in continuous software supply chain security management, today announced that 
 
 ## Open roles (Blitz, live)
 - Product Builder / AI Product Manager ({'city': 'San Francisco', 'country_code': 'US'})

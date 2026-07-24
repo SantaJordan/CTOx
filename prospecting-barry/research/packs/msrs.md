@@ -186,16 +186,6 @@ Colorado-based Sierra Space was awarded a federal Department of Defense contract
 The contract is for the design, manufacturing and delivery of 18 missile warning/missile tracking /missile defense space vehicles for the “Golden Dome,” a federal national missile defense system.
 
 The Space Development Agency a
-- TOTE Services and Hanwha Philly Shipyard selected to build next-generation tracking ships for Missile Defense Agency (2026-07-17) https://defence-industry.eu/tote-services-and-hanwha-philly-shipyard-selected-to-build-next-generation-tracking-ships-for-missile-defense-agency/
-  # TOTE Services and Hanwha Philly Shipyard selected to build next-generation tracking ships for Missile Defense Agency
-
-Published: 2026-07-17T22:13:38+02:00
-Source: defence-industry.eu (defence-industry.eu)
-Language: en
-
-## Story
-
-TOTE Services and Hanwha Philly Shipyard have been selected to deliver the Missile Defense Agency’s Missile Range Instrumentation Vessels, the companies said in a statement. TOTE Services will act as vessel construction manager, while Hanwha Philly Shipyard will build 
 - Defense-Technology News: DTN News: IAI/ELTA Systems Awarded $33 Million (USD) In Contracts For Airborne Maritime Surveillance Radars (MSR) (2010-06-07) http://defense-technologynews.blogspot.com/2010/06/dtn-news-iaielta-systems-awarded-33.html
   Defense-Technology News: DTN News: IAI/ELTA Systems Awarded $33 Million (USD) In Contracts For Airborne Maritime Surveillance Radars (MSR)
 
@@ -206,6 +196,18 @@ DTN News: IAI/ELTA Systems Awarded $33 Million (USD) In Contracts For Airborne M
 Source: DTN News / Israel Aerospace Industries' (IAI) June 7, 2010
 
 (NSI News Source Info) TEL AVIV, Israel - June 8, 2010: Israel Aerospace Industries' (IAI) ELTA Systems Ltd. (IAI/ELTA), an IAI Group and Subsidi
+- - Cyprus Shipping News (2025-02-17) https://cyprusshippingnews.com/2025/02/17/hefring-marines-imas-to-enhance-msrs-maritime-navigation-technology/
+  - Cyprus Shipping News
+
+# Hefring Marine’s IMAS to enhance MSRS maritime navigation technology
+
+Technical, Technical newsletter
+
+February 17, 2025
+
+Hefring Marine and MSRS Navigation have announced a strategic partnership, with MSRS set to leverage Hefring’s advanced IMAS System to drive the development of cutting-edge GPS-denied navigation solutions for the maritime industry.
+
+This collaboration brings together two leading innovators in maritime technology to address the growing global challeng
 
 ## Open roles (Blitz, live)
 - Senior System Software Engineer ({'city': None, 'country_code': 'US'})

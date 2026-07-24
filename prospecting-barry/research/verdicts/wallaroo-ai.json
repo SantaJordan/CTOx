@@ -1,0 +1,16 @@
+{
+  "company": "Wallaroo.AI",
+  "slug": "wallaroo-ai",
+  "domain": "wallaroo.ai",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Own SBIR/STTR abstracts (2022) describe an AFWERX Phase II ML Factory award for the Air Force; News section confirms an AFWERX STTR award (2023-08-15) and a $1.5M Space Force contract extension for on-orbit edge AI (2023-08-16).",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "series_a",
+  "what_they_do": "General-purpose enterprise AI/ML inference orchestration platform (cloud-to-edge model deployment and MLOps), with DoD as one contract line among many."
+}

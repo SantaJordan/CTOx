@@ -111,6 +111,14 @@ Holocron builds AI-driven global domain awareness solutions for national securit
   Holocron Technologies Raises $1.5 Million Pre-Seed Round as Investors Back AI-Driven Security Intelligence - VC Tavern
 
 Holocron Technologies, the Washington, D.C.-based artificial intelligence startup building tools to monitor science and technology trends, has captured investor attention with its early-stage funding efforts, underscoring rising interest in AI and cybersecurity platforms that enhance domain awareness and risk mitigation. The company’s $1.5 million pre-seed funding round marks a
+- holocron technologies (2026-06-22) https://holocron.tech/
+  # Holocron Technologies (HOLOCRON TECHNOLOGIES LLC)
+
+Holocron Technologies is a Software Development company. Holocron Technologies builds digital solutions to ensure America's democracy and the digital arsenal of democracy. Holocron Technologies employs 6 people (-25.0% YoY, -2 people) and has an annual revenue of $1M, founded in 2022. Headquartered in Washington, District of Columbia, United States. Has $1.6M in total funding, with 1 prior funding round.
+
+## About
+
+Holocron builds AI-driven gl
 - Holocron has raised $1.5M in funding to develop its platform further - Founder Lodge Latest News (2023-05-07) https://founderlodge.com/latest-news/holocron-has-raised-1-5m-in-funding-to-develop-its-platform-further/
   Holocron has raised $1.5M in funding to develop its platform further - Founder Lodge Latest News
 
@@ -119,14 +127,6 @@ Holocron Technologies, the Washington, D.C.-based artificial intelligence startu
 May 7, 2023
 
 Holocron Technologies is revolutionizing the way governments and military agencies leverage data for intelligence purposes. Leveraging artificial intelligence, this pre-seed startup has developed a platform that can organize massive amounts of open-source data, allowing for global domain awareness solutions in scien
-- holocron technologies (2026-06-22) https://holocron.tech/
-  # Holocron Technologies (HOLOCRON TECHNOLOGIES LLC)
-
-Holocron Technologies is a Software Development company. Holocron Technologies builds digital solutions to ensure America's democracy and the digital arsenal of democracy. Holocron Technologies employs 6 people (-25.0% YoY, -2 people) and has an annual revenue of $1.0M, founded in 2022. Headquartered in Washington, District of Columbia, United States. Has $1.6M in total funding, with 1 prior funding round.
-
-## About
-
-Holocron builds AI-driven 
 
 ## Open roles
 (no jobs data found)

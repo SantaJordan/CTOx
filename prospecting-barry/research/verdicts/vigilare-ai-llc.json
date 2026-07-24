@@ -1,0 +1,16 @@
+{
+  "company": "Vigilare AI, LLC",
+  "slug": "vigilare-ai-llc",
+  "domain": "vigilare.ai",
+  "verdict": "insufficient_evidence",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own-words site: TitanControl is 'ideal for critical missions in military, defense, and infrastructure sectors' and 'particularly in connectivity-limited environments like military and defense sectors' — genuine DoD-framed language, but pack has only ~393 words of own language, under the ~500-word evidence-sufficiency floor.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "low",
+  "stage_band": "preseed_seed",
+  "what_they_do": "A 2024-founded, 3-person startup building an LLM-based 'AI co-pilot' (TitanControl) for natural-language, offline-capable drone control marketed at military/defense and commercial UxV operators."
+}

@@ -1,0 +1,20 @@
+{
+  "company": "Sicura",
+  "slug": "sicura",
+  "domain": "sicura.us",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Own site's Government & Defense Contractors page and a named production testimonial from Army DEVCOM C5ISR ('Sicura's SCM solution gives us full visibility and control over our entire infrastructure') show a real, already-deployed defense customer, not a pending prototype.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "'Sicura was born in the intelligence community...Originally developed within the NSA, our Security Control Management platform enables continuous Authorization to Operate (cATO)' → product is purpose-built and already sold on ATO/RMF sophistication, not blind to it",
+    "'Mark Fitch, Army DEVCOM, C5ISR' customer testimonial → real, named, in-production Army deployment, not a stuck prototype",
+    "'ATO Solutions for Air-Gapped Environments...Automated DISA STIGs and CIS Benchmarks compliance' → their entire product is deployment/compliance-acceleration expertise, the opposite of the blindness Barry sells into"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "STIG/CIS/CMMC compliance automation platform (born out of NSA) with production customers including Army DEVCOM C5ISR, sold across federal, defense, and regulated commercial industries."
+}

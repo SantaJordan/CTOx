@@ -358,7 +358,7 @@ see open positions
 ZeroMark empowers US and allied forces with cutting-edge defense technology, elevating mission success and safeguarding personnel. Our forte lies in a unique counter-drone solution, manifested through an AI-enabled auto-aiming system. By adapting commercial firearms with our convergence of computer vision and precision robotics, we transform handheld weapons into potent tools for automatically detecting, tracking, and neutralizing drones effortlessly. We recognize that prevailing C-UAS strategies often leave dismounted personnel inadequately prepared to confront the swiftly advancing drone men
 
 ## News (Exa, top 3)
-- ZeroMark Wins SBIR Phase II Contract with US Army (2026-05-01) https://www.zeromark.com/news/sbir-phase-ii-contract
+- ZeroMark () https://www.zeromark.com/news/sbir-phase-ii-contract
   ZeroMark
 
 ## ZeroMark Wins SBIR Phase II Contract with U.S. Army
@@ -368,7 +368,7 @@ ZeroMark empowers US and allied forces with cutting-edge defense technology, ele
 The U.S. Army has taken another step toward securing maritime defense against autonomous vehicles.
 
 Last week, ZeroMark, Inc. was awarded a U.S. Army xTech Small Business Innovation Research (SBIR) program Phase II contract to provide our Vanguard technology to U.S. Army Pacific (USARPAC). This award will enhance the USARPAC’s defense against unmanned underwater and surface 
-- ZeroMark Secures $7M in Seed Funding for “Handheld ... (2024-05-29) https://www.businesswire.com/news/home/20240529043192/en/ZeroMark-Secures-%247M-in-Seed-Funding-for-Handheld-Iron-Dome
+- ZeroMark Secures $7M in Seed Funding for “Handheld Iron Dome” (2024-05-29) https://www.businesswire.com/news/home/20240529043192/en/ZeroMark-Secures-%247M-in-Seed-Funding-for-Handheld-Iron-Dome
   ZeroMark Secures $7M in Seed Funding for “Handheld Iron Dome”
 
 -
@@ -382,7 +382,7 @@ Share
 AI-powered auto-aim tech to combat drones, other threats
 
 NEW YORK--(BUSINESS WIRE)--ZeroMark, a pioneering defense technology startup, has announced a $7 million seed funding round led by prominent venture capital firms Ground Up Ventures and Andreessen Horowitz. This investment accelerates the development of ZeroMark's groundbreaking AI-powered auto-aim
-- a16z-backed ZeroMark wants to give soldiers guns that don't miss against drones | TechCrunch (2024-05-31) https://techcrunch.com/2024/05/31/a16z-backed-zeromark-wants-to-give-soldiers-guns-that-dont-miss-against-drones/
+- a16z-backed ZeroMark wants to give soldiers guns that don't miss against ... (2024-05-31) https://techcrunch.com/2024/05/31/a16z-backed-zeromark-wants-to-give-soldiers-guns-that-dont-miss-against-drones/
   a16z-backed ZeroMark wants to give soldiers guns that don't miss against drones | TechCrunch
 
 Robotics

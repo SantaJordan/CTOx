@@ -1,0 +1,49 @@
+{
+  "company": "Advanced Navigation & Positioning Corporation",
+  "slug": "advanced-navigation-positioning-corporation",
+  "domain": "anpc.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Three Air Force SBIR Phase II awards in 2023 (Mode 5 TLS for Agile Combat Employment, roll-on/roll-off ATC, autonomous voice-over-localizer) plus a Jan-2024 AFWERX Phase 2 announcement on their own site — SBIR record and news sections.",
+  "disconnect_score": 23,
+  "subscores": {
+    "lab_language_intensity": 3,
+    "deployment_awareness_absence": 5,
+    "operator_absence": 5,
+    "hiring_profile_skew": 3,
+    "stage_pressure": 7
+  },
+  "score_evidence": [
+    "\"Designed for use at temporary or remote airfields, often in austere environments\" → deployment_awareness_absence scored low; language is operational, not lab",
+    "\"To pilots, TLS is indistinguishable from a standard ILS—requiring no new avionics or training\" → operator_absence scored low; training burden explicitly engineered away",
+    "Open roles include \"Field Service Technician\" and \"Configuration Management Manager\" → hiring_profile_skew scored low; field and sustainment roles are being hired",
+    "Three concurrent 2023 Phase II periods of performance (SBIR record) → stage_pressure moderate; three transition clocks running at once on one mature small business"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Three simultaneous Phase II transition clocks with no visible transition partner or program-of-record path named anywhere in their language",
+      "operator_reality": "ACE deployments need the eTLS to move from SBIR demo to a funded sustainment and fielding pipeline; when the 2023 periods of performance lapse, all three efforts hit the valley at once",
+      "why_likely_missing": "A 30-year commercial ILS vendor is fluent in civil aviation certification, not DoD transition mechanics — SBIR is a new motion for them (first Phase IIs 2023)",
+      "evidence_quote": "ANPC announces it has been selected by AFWERX for a SBIR Phase 2 contract",
+      "quote_source": "news"
+    },
+    {
+      "blind_spot": "No ATO/RMF or cybersecurity accreditation language anywhere despite selling a system that must plug into USAF air traffic control and Mode 5 IFF infrastructure",
+      "operator_reality": "A transportable ATC system at a contingency airfield connects to government networks and crypto (Mode 5); without an accreditation story the box sits in a conex while the ATO paperwork ages",
+      "why_likely_missing": "Their civil-aviation heritage is FAA/ICAO certification — a different regulatory language than RMF/STIGs, and their site never bridges the two",
+      "evidence_quote": "Fully compliant with ICAO and FAA Category I ILS requirements",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Sustainment at austere sites is asserted (\"setup to full operational capacity in a manner of hours\") but the who-fixes-it chain is silent — spares, battery logistics, and the airman who maintains eTLS after the ANPC tech goes home",
+      "operator_reality": "An expeditionary ILS that fails at a bare base with no ANPC Field Service Technician in theater grounds the approach capability the whole ACE concept depends on",
+      "why_likely_missing": "Commercial airport customers buy installation plus service contracts; ACE dispersal assumes organic military maintenance they have not publicly addressed",
+      "evidence_quote": "transported by land, air and sea and setup to full operational capacity in a manner of hours",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "ANPC is running three Air Force Phase II clocks from 2023 at once — Mode 5 TLS, roll-on/roll-off ATC, and the autonomous voice-over-localizer all reach the same transition wall together.",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Transponder-based instrument landing and airfield surveillance systems for terrain-challenged and austere airfields, now being adapted for USAF Agile Combat Employment."
+}

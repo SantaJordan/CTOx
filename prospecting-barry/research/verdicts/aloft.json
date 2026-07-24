@@ -1,0 +1,17 @@
+{
+  "company": "Aloft",
+  "slug": "aloft",
+  "domain": "aloft.ai",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "None in their own artifacts: the entire site is FAA/LAANC/B4UFLY civil airspace and public-safety fleet management; the only 'defense' item is a 2020 blog tag page. No SBIR, no DoD customer, no defense contract record in the pack.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "unknown",
+  "what_they_do": "FAA-approved drone airspace/UTM and fleet-management platform (LAANC, B4UFLY) for commercial and public-safety operators.",
+  "notes": "Defense-VC sourced (decisive-point) but membership alone is insufficient per the gate. Additionally the homepage states 'Aloft is Now Part of Versaterm' — an acquired subsidiary is not a fractional-CTO prospect regardless."
+}

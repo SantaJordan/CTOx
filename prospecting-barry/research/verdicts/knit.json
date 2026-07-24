@@ -1,0 +1,16 @@
+{
+  "company": "Knit.ai",
+  "slug": "knit",
+  "domain": "knitit.ai",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "None — Knit.ai is an enterprise IT/vendor-performance-management SaaS product with zero defense/military language anywhere on the site; the three News hits are about an unrelated Brooklyn apparel manufacturer ('Karlas and Emmas Knits') that happens to share the word 'Knits', not about this company.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "unknown",
+  "what_they_do": "Enterprise SaaS platform that analyzes vendor/IT support ticket data to hold technology vendors accountable to SLAs — no defense connection."
+}

@@ -1,0 +1,44 @@
+{
+  "company": "Matrix Industries, Inc.",
+  "slug": "matrix-industries-inc",
+  "domain": "matrixindustries.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Channel-notes metadata cites an Army SBIR award (sbir.gov/awards/211035) for 'self-powered, on-body wearable physiological sensors for military applications' — a contract record distinct from the unrelated 'Matrix Research'/'Matrix Solutions' entities that dominate the News section.",
+  "disconnect_score": 64,
+  "subscores": {"lab_language_intensity": 16, "deployment_awareness_absence": 12, "operator_absence": 12, "hiring_profile_skew": 10, "stage_pressure": 14},
+  "score_evidence": [
+    "'24/7 tracking', 'Bluetooth LE, full color LED and haptic motor', '50m water resistance' — consumer product-spec bragging with zero operational/military framing → lab_language_intensity",
+    "zero mentions of DDIL/ATO/RMF/CMMC/ITAR/STIG across ~623 words (capped at 12 per <1000-word rule) → deployment_awareness_absence",
+    "product framed entirely around 'eldercare in nursing homes' and generic 'security' customers, no mention of operators/warfighters/training (capped at 12 per <1000-word rule) → operator_absence",
+    "no jobs data found in pack → hiring_profile_skew set to 10 per rule",
+    "SBIR Phase I is inherently a short, small, period-of-performance-limited award → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Perceptive, the wearable that shares its physiological-sensing core with the Army SBIR effort, is described as needing constant cloud connectivity with no field-connectivity fallback discussed.",
+      "operator_reality": "'Automatically connects to the cloud to deliver important health metrics' assumes constant uplink — the same failure mode as the 30fps crowd-detection case if this is meant to report a warfighter's vitals from a DDIL environment with no reliable connection.",
+      "why_likely_missing": "Core product and marketing are built for consumer eldercare, not defense deployment.",
+      "evidence_quote": "Perceptive automatically connects to the cloud to deliver important health metrics without the need for an app or cell phone.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Proximity, the buried perimeter sensor, is marketed as standalone early-warning security with no mention of how an alert reaches a command post or common operating picture.",
+      "operator_reality": "A buried sensor that detects but never states how it feeds a unit's TAK/C2 picture stays a local gadget — 'operators loving it is not adoption.'",
+      "why_likely_missing": "Product is pitched at commercial/civilian perimeter-security buyers, not built into a military C2 integration story.",
+      "evidence_quote": "Buried underground, it acts as an early-warning perimeter security system.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No visible hiring toward compliance, ITAR, or field-test roles despite holding a military-applications SBIR, and no jobs data in the pack at all.",
+      "operator_reality": "Without a credible team building toward Phase II transition support (test, compliance, field integration), a small Phase I award risks lapsing before the product ever reaches an operator.",
+      "why_likely_missing": "Small, long-running company (founded 2011, 11-50 employees) likely running lean on core hardware/firmware rather than adding new compliance headcount.",
+      "evidence_quote": "(no jobs data found)",
+      "quote_source": "job_post"
+    }
+  ],
+  "opener_hook": "Matrix Industries holds an Army SBIR for self-powered wearable physiological sensors — how does Perceptive's cloud-dependent design hold up in a DDIL field environment?",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Self-powered (body-heat/solar/thermal energy-harvesting) sensors — a health wearable (Perceptive) and a buried perimeter-detection sensor (Proximity) — sold commercially, with an Army SBIR exploring military physiological-monitoring use."
+}

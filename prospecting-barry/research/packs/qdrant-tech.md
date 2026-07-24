@@ -3,7 +3,7 @@ slug: qdrant-tech | domain: qdrant.tech | HQ: ,   | employees(LI): 147 | founded
 sources: jobs:ashby
 industry(LI): Software Development | specialties: deep tech, search engine, open-source, vector search, rust, vector search engine, vector similarity, artificial intelligence, machine learning, vector database
 channel notes: jobs fit=0.8653 n=6 open=14 does: open-source vector search engine for AI applications stage: growth_startup best: VP of Engineering
-own-language word count: ~896
+own-language word count: ~1288
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -62,19 +62,13 @@ Explore Hybrid Search
 
 Set new standards for relevance; make the retrieval layer more expressive, flexible, and multimodal with multiple vectors per object.
 
-See Documentation
-
 ### Efficient, One-Stage Filtering
 
 Filters are applied during HNSW traversal — no pre- or post-filtering. High recall with low latency, even under complex conditions.
 
-See Documentation
-
 ### Full-Spectrum Reranking
 
 Infuse business logic with score boosting, achieve token-level precision with late interaction models (e.g. ColBERT), diversify results with Maximum Marginal Relevance (MMR)
-
-See Documentation
 
 ## One Engine, Endless Applications
 
@@ -119,8 +113,6 @@ Talk to our Team
 SOC 2 · GDPR-aligned Options
 
 Prometheus · Grafana · Datadog
-
-SSO (SAML/OIDC)
 
 Multitenancy & Granular RBAC
 
@@ -208,13 +200,101 @@ RAG & GenAI AI Agents Semantic Search Recommendation Systems Data Analysis & Ano
 
 ### RAG & GenAI
 
-Deliver con
+Deliver context-rich answers with hybrid dense – sparse retrieval, metadata filters, 
 
 URL: https://qdrant.tech/enterprise-solutions/
 # Enterprise Search Solutions for Your Business | Qdrant
 
 URL: https://qdrant.tech/vector-space-day-sf-26/
+Vector Space Day - Qdrant
+
+The Midway, San Francisco
+
+Thursday, June 11
+
+8:30 am until happy hour
+
 # Vector Space Day
+
+Get Your Ticket
+
+Join us
+
+Founders
+
+Product Builders
+
+Search Experts
+
+AI Researchers
+
+Data Scientists
+
+Founders
+
+Product Builders
+
+Search Experts
+
+AI Researchers
+
+Data Scientists
+
+## Why Attend Vector Space Day
+
+A single-track, full-day conference for engineers and researchers building with vector search and AI
+
+What’s on the
+
+## Agenda
+
+Get Your Ticket
+
+Search& AI Retrieval
+
+Agents & Memory
+
+Edge & Robotics
+
+Happy Hour
+
+## Meet the Speakers
+
+We've built a handpicked lineup of technical talks across 3 agenda tracks:Search & AI Retrieval, Agents & Memory, and Edge & Robotics AI.
+
+- Mem0 Taranjeet Singh, CEO, Co-Founder Continual Learning Starts with Memory
+- Adobe Murthy Chandrapaty, Principal EngineerAnkush Gumber, Software Engineer Using GraphRAG to Improve Enterprise Governance
+- Google DeepMind Paige Bailey, Developer Relations Lead Literal Skill Issue: Are SKILLS.md Holding Your Agents Back?
+- Neo4j Stephen Chin, VP of Developer Relations Free Your Agent's Mind...with Context Graphs
+- Hubspot Oleg Tereshin, Sr Software Engineer & Xin Liu, Tech Lead Building the Infra Behind 20 Billion+ Vectors
+- Slack Avirek Ghatia, Staff Software Engineer Scaling to Billions: Lessons from Slack’s Semantic Search Indexing
+- Vultr Gabriel Lebow, Sr GPU Solutions Engineer Building Distributed, Enterprise-ready Agentic AI
+- LlamaIndex Preston Carlson, AI Engineer The Document Harness: What Your AI Misses in the 90%
+- Arize Laurie Voss, Head of Developer Relations Stop Vibe Shipping: Evaluate Your Retrieval
+- Twelve Labs James Le, Head of Dev Experience Beyond the Single API Call: Agentic Video Intelligence
+- Cognee Dave Nielsen, Head of Developer Relations The Long and the Short of AI Memory
+- Qualcomm Alan Zhu, Senior Product Manager When Latency Is the Product: Practical Patterns for On-Device GenAI
+- AWS Sandhya Subramani, Sr. Dev Advocate, GenAI Tell the Robot What You Want
+
+Sponsors
+
+Community Sponsor
+
+Sept 2025
+
+## Last year’s inaugural edition in Berlin drew 400+ attendees and 20+ speakers including:
+
+With Builders From
+
+## FAQs
+
+###### When and where is Vector Space Day?
+
+Vector Space Day takes place on Thursday, June 11, 2025 at The MidWay San Francisco. Doors open at 8:30 AM PDT and the event runs until 6:00 PM PDT.
+
+###### How do I get to The MidWay?
+
+The MidWay is located at 900 Marin St in San Francisco. We recommend arriving by rideshare (Ub
 
 URL: https://qdrant.tech/qdrant-vector-database/
 # Qdrant High-Performance Vector Search Engine
@@ -229,12 +309,10 @@ Qdrant is an open-source vector search engine. It deploys as an API service prov
 Make the most of your Unstructured Data!
 
 ## News (Exa, top 3)
-- We Raised $50M to Build Composable Vector Search as ... (2026-03-12) https://qdrant.tech/blog/series-b-announcement/
-  Today we're announcing $50 million in Series B funding, led by AVP, with participation from Bosch Ventures, Unusual Ventures, Spark Capital, and 42CAP.
+- Announcing Qdrant's $28M Series A Funding Round (2024-01-23) https://qdrant.tech/blog/series-a-funding-round/
+  Today, we are excited to announce our $28M Series A funding round, which is led by Spark Capital with participation from our existing investors Unusual Ventures and 42CAP.
 
-### Retrieval Is on the Critical Path of Every AI System
-
-Every serious AI workload — RAG, agents, multimodal search — depends on retrieving the right information, at the right time, under real constraints. Teams prototype with whatever is convenient, then hit walls in production: indexes that stall under writes, filtering applied after search i
+We have seen incredible user growth and support from our open-source community in the past two years - recently exceeding 5M downloads. This is a testament to our mission to build the most efficient, scalable, high-performance vector database on the market. We are excited to further accelerate this trajectory with our new par
 - Qdrant raises $50M in funding to fuel vector database growth | TechTarget (2026-03-12) https://www.techtarget.com/searchdatamanagement/news/366640132/Qdrant-raises-50M-in-funding-to-fuel-vector-database-growth
   Qdrant raises $50M in funding to fuel vector database growth | TechTarget
 
@@ -249,22 +327,20 @@ Published: 12 Mar 2026
 Startup vector database specialist Qdrant not only has plans to grow, but now has the funding to do so.
 
 On Thursday, the vendor secured $50 million in Series B financing, nearly doubling the $28 million it raised in its Series A round in 2024 and bringing its total funding to $87.8 million. Advance Venture Partners led the Series B r
-- Announcing Qdrant's $28M Series A Funding Round (2024-01-23) https://qdrant.tech/blog/series-a-funding-round/
-  Today, we are excited to announce our $28M Series A funding round, which is led by Spark Capital with participation from our existing investors Unusual Ventures and 42CAP.
-
-We have seen incredible user growth and support from our open-source community in the past two years - recently exceeding 5M downloads. This is a testament to our mission to build the most efficient, scalable, high-performance vector database on the market. We are excited to further accelerate this trajectory with our new par
+- Qdrant for Startups () https://qdrant.tech/qdrant-for-startups/
+  # Qdrant for Startups
 
 ## Open roles (Blitz, live)
 - Senior Software Engineer Platform ({'city': 'Amsterdam', 'country_code': 'NL'})
+- Senior Software Engineer Platform ({'city': 'Paris', 'country_code': 'FR'})
 - Senior Software Engineer Platform ({'city': None, 'country_code': 'DE'})
 - Senior Software Engineer Platform ({'city': 'Madrid', 'country_code': 'ES'})
 - Senior Software Engineer - Platform and Reliability (EMEA) ({'city': None, 'country_code': 'DE'})
 - Senior Software Engineer - Platform and Reliability (EMEA) ({'city': 'Amsterdam', 'country_code': 'NL'})
 - Senior Software Engineer - Platform and Reliability (EMEA) ({'city': 'Madrid', 'country_code': 'ES'})
+- Senior Software Engineer - Platform and Reliability (EMEA) ({'city': 'Paris', 'country_code': 'FR'})
 - Technical Success Manager (US) ({'city': 'San Francisco', 'country_code': 'US'})
 - Technical Success Manager ({'city': 'San Francisco', 'country_code': 'US'})
-- Software Engineer - Cloud Platform Infrastructure (EMEA) ({'city': 'Metropolregion Berlin/Brandenburg', 'country_code': 'DE'})
-- Software Engineer - Cloud Platform Infrastructure (EMEA) ({'city': 'Amsterdam Area', 'country_code': 'NL'})
 
 ## Matched JDs from jobs corpus (barry-hess signal match)
 

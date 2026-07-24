@@ -1,0 +1,16 @@
+{
+  "company": "Space Systems Research Corporation",
+  "slug": "space-systems-research-corporation",
+  "domain": "spacesystemsresearch.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "Own 'About Us' page confirms DoD as a customer, but the entire business is engineering/management services, not a fielded product — homepage and about-ssrc sections.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Professional engineering, program management, and mission-assurance services firm supporting NASA/NOAA/DoD space science payloads — a services shop, not a product company with a prototype to field."
+}

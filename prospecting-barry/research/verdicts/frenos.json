@@ -1,0 +1,16 @@
+{
+  "company": "Frenos",
+  "slug": "frenos",
+  "domain": "frenos.io",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "No SBIR, no DoD contract, no DIU/AFWERX engagement anywhere in the pack; the only defense reference is one word in LinkedIn boilerplate ('purpose built for critical infrastructure, defense, and industrial control environments') while their own site's Industries list (airports, utilities, healthcare, mining, rail, retail...) contains no defense sector - commercial critical-infrastructure motion, not DoD motion.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Digital-twin-based simulated penetration testing and attack-path analysis for OT/critical-infrastructure networks."
+}

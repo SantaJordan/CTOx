@@ -356,24 +356,30 @@ Capital FactoryAll Access Fund 2025
 About
 
 EigenQ is a disruptive U.S.-based quantum technology company advancing quantum cybersecurity, quantum internet, and quantum computing. EigenQ’s PQC+™ solutions, the first NIST-certified, accelerate government, defense, and space organizations 
-- EigenQ Announces Post-Quantum Security Readiness Capabilities for Existing In-Field Intel Xeon-Based Systems | Morningstar (2026-07-06) https://www.morningstar.com/news/pr-newswire/20260706la98015/eigenq-announces-post-quantum-security-readiness-capabilities-for-existing-in-field-intel-xeon-based-systems
-  EigenQ Announces Post-Quantum Security Readiness Capabilities for Existing In-Field Intel Xeon-Based Systems | Morningstar
+- Company Leadership () https://www.eigenq.com/about
+  EigenQ | Market-Ready Quantum Security for a Connected Future
 
-Sign In
+top of page
 
-EigenQ Announces Post-Quantum Security Readiness Capabilities for Existing In-Field Intel Xeon-Based Systems
+# About
 
-## EigenQ Announces Post-Quantum Security Readiness Capabilities for Existing In-Field Intel Xeon-Based Systems
+## Key Management Team
 
-PR Newswire
+## Company Leadership
 
-COLUMBIA, Md., July 6, 2026
+### Dr. José R. Rosas-Bustos
 
-Solution provides a practical, cost-effective and secure pathway for federal, defense, space, critical
-- EigenQ and WNC Announce Strategic Collaboration to Deliver FIPS-Certified Quantum-Safe Hardware at HPE Discover 2025 (2025-07-15) https://www.prnewswire.com/news-releases/eigenq-and-wnc-announce-strategic-collaboration-to-deliver-fips-certified-quantum-safe-hardware-at-hpe-discover-2025-302505260.html
-  EigenQ and WNC Announce Strategic Collaboration to Deliver FIPS-Certified Quantum-Safe Hardware at HPE Discover 2025 Accessibility Statement Skip Navigation
+CEO
 
-LAS VEGAS, July 15, 2025 /PRNewswire/ -- EigenQ Inc., the first company to ship Enterprise and Military level FIPS 203/204-certified post-quantum security systems, and WNC Corporation (WNC), a global leader in advanced enterprise, service provider, automotive, and IoT product development and manufacturing, today announced a collaboration to
+Dr. José R. Rosas-Bustos is the CEO of EigenQ, where he leads the company’s strategy to build quantum-resilient trust infrastructure for governments, enterprises, technology platforms, and critical systems. He combines more than two decades of cybersecurity and secure-systems experience with doctoral research in quantum communicati
+- eigenq (2026-06-19) https://eigenq.com/
+  # EigenQ (EigenQ, Inc)
+
+EigenQ is a Computer and Network Security company. EigenQ employs 12 people (+1000.0% YoY), founded in 2025. Headquartered in Columbia, Maryland, United States. Its workforce is distributed across 5 countries (including Canada, United States, Chile, Israel, and Netherlands). Has $5.1M in total funding, with 1 prior funding round.
+
+## About
+
+EigenQ is a cutting-edge quantum technology company focused on solving critical cybersecurity and national security challenges as the
 
 ## Open roles
 (no jobs data found)

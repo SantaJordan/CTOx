@@ -1,0 +1,20 @@
+{
+  "company": "Glyphic Biotechnologies",
+  "slug": "glyphic-biotechnologies",
+  "domain": "glyphic.bio",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "None. The only federal record in the pack is an HHS/NIH SBIR Phase I ('Awarding Agency: HHS, Branch: NIH', 2023) plus 5 Phase I / 0 Phase II awards; the site's stated purpose is 'the development of critical first-in-class therapies' with no DoD, military, or warfighter reference anywhere.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "'Awarding Agency: HHS / Branch: NIH' → the SBIR motion is health, not defense",
+    "'Glyphic Biotechnologies exists to fundamentally rewrite the rules of proteomics' → life-science research instrument, no defense customer",
+    "All ten open roles are Berkeley assay-development scientists and automation staff → pure R&D company, no government program motion"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Developing a single-molecule de novo protein sequencing platform (ProSE) that expands peptides for nanopore readout."
+}

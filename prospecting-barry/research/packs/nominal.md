@@ -394,16 +394,6 @@ Share
 ---
 
 LOS ANGELES, April 14, 2026 (GLOBE NEWSWIRE) -- Nominal announced it has been awarded a sole-source, multi-year Indefinite Delivery, Indefinite Quantity (IDIQ) contract by the Air Force Test Center (AFTC). The contract, which carries a ceiling 
-- Nominal Awarded $53 Million IDIQ Contract to Support Modernization of ... (2026-04-14) https://nominal.io/blog/aftc-idiq
-  Nominal Awarded $53 Million IDIQ Contract to Support Modernization of Air Force Test Center Data Infrastructure | Nominal - Unified Industrial Data Stack
-
-https://nominal.io/blog
-
-Copy page URL
-
-Figure 1
-
-LOS ANGELES, April 14, 2026 — Nominal announced it has been awarded a sole-source, multi-year Indefinite Delivery, Indefinite Quantity (IDIQ) contract by the Air Force Test Center (AFTC). The contract, which carries a ceiling of $53 million, represents a Small Business Innovation Research (SBIR
 - Nominal Inks $53M Deal with the Air Force Test Center (2026-04-15) https://www.tectonicdefense.com/nominal-inks-53m-deal-with-the-air-force-test-center/
   Nominal Inks $53M Deal with the Air Force Test Center
 
@@ -414,6 +404,18 @@ The data nerds over at Nominal are on a bit of a heater.
 Yesterday, the testing startup announced a sole-source $53M, five-year Indefinite Delivery/Indefinite Quantity (IDIQ) contract with the Air Force Test Center to bring its increasingly popular testing software to help get the service’s next-gen platforms up and running—and fast.
 
 Those platforms include the F-47, B-21 bomber, Collaborative Combat Ai
+- Nominal Selected as Data Backbone for DARPA’s CyPhER Forge Program to Revolutionize Defense Test and Evaluation | Nominal - Unified Industrial Data Stack () https://nominal.io/blog/DARPA-CyPhER-Forge-program-selection
+  Nominal Selected as Data Backbone for DARPA’s CyPhER Forge Program to Revolutionize Defense Test and Evaluation | Nominal - Unified Industrial Data Stack
+
+https://nominal.io/blog
+
+Copy page URL
+
+Figure 1
+
+LOS ANGELES — [May, 26 2026] — Nominal announced it has been selected for a contract to serve as the foundational data architecture for the Defense Advanced Research Projects Agency (DARPA) CyPhER Forge program. The contract is executed through Nominal’s Air Force Test Center (AFTC) IDIQ.
+
+The 
 
 ## Open roles (Blitz, live)
 - Contracts Strategy Lead, U.S. Government ({'city': 'Washington', 'country_code': 'US'})

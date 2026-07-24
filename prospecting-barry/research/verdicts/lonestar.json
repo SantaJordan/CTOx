@@ -1,0 +1,16 @@
+{
+  "company": "Lonestar Space",
+  "slug": "lonestar",
+  "domain": "lonestarlunar.com",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "No SBIR/STTR record, contract, or DoD-specific customer language anywhere in the pack — the site pitches sovereign lunar/orbital data storage to 'National, State, and City Governments' and 'Regulated Industries' generically; the three news hits are false-positive matches for unrelated companies (Day & Zimmermann Lone Star, an ammunition-primers Army contractor, and Lonestar Defense And Logistics LLC), not this company.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "unknown",
+  "what_they_do": "Builds StarVaults, space-based (Earth-orbit and lunar) sovereign data storage and AI inference platforms, sold commercially to governments and regulated industries."
+}

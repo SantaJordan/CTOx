@@ -131,16 +131,16 @@ Light Steering Technologies Multi-Axis Scanner is a magnetic joint designed to p
 SAN FRANCISCO –New Hampshire startup Light Steering Technologies won a $1.25 million U.S. Air Force contract for angular pointing technology with small satellite applications.
 
 
-- Aerospace Industry Startup Receives US Air Force Contract For On-Orbit Pointing Tech - Potomac Officers Club (2023-04-28) https://www.potomacofficersclub.com/news/startup-receives-us-air-force-contract-for-on-orbit-pointing-tech/
-  Aerospace Industry Startup Receives US Air Force Contract For On-Orbit Pointing Tech - Potomac Officers Club
+- Light Steering Technologies Lands $1.25 Million Research ... (2024-02-06) https://www.gophotonics.com/news/details/5648-light-steering-technologies-lands-1-25-million-research-contract-from-u-s-air-force
+  Light Steering Technologies Lands $1.25 Million Research Contract from U.S. Air Force
 
-## Space
+# Light Steering Technologies Lands $1.25 Million Research Contract from U.S. Air Force
 
-Multi-Axis Scanner
+Posted Feb 06, 2024 by GoPhotonics Editorial Team
 
-# Aerospace Industry Startup Receives US Air Force Contract for On-Orbit Pointing Tech
+https://cdn.gophotonics.com/news/1706893681156_638427832270667713.jpg712370
 
-Light Steering Technologies, an aerospace manufacturer headquartered in New Hampshire, has secured a $1.3 million contract from the U.S. Air Force’s AFWERX to enhance the Multi-Axis Scanner, a magnetic joint affixed to mirror with three linear actuators. Its intended func
+Light Steering Technologies, a technology startup, announces it has been selected by AFWERX for a Direct-to-Phase II in the amount of $1.25 million focused on compact laser communication. This con
 
 ## Open roles
 (no jobs data found)

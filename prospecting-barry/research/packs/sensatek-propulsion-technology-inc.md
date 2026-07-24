@@ -333,6 +333,14 @@ Save
 BETA
 This is a BETA experience. opt-outhere
 [Innovation](https://www.forbes.com/innovation/)[AI](https://www.forbes.
+- Sensatek Propulsion Technology - NSF I-Corps () https://www.nsf.gov/funding/initiatives/i-corps/sensatek-propulsion-technology
+  Sensatek Propulsion Technology - NSF I-Corps™ | NSF - U.S. National Science Foundation
+
+# Sensatek Propulsion Technology
+
+Team: Sensatek Propulsion Technology, Inc. | Origin: Florida | Participation: NSF I-Corps, 2017
+
+Sensatek Propulsion Technology develops ceramic materials derived from fused polymers for wireless sensors on the most extreme parts of an engine. This technology, led by a Marine Corps veteran, may be used for aircraft such as F-18s or Air Force One. These passive resonant freque
 - Sensatek receives award from National Science Foundation () https://news.prfree.org/@wellonscomm/sensatek-receives-award-from-national-science-foundation-qak7pw87ymy3
   Sensatek receives award from National Science Foundation
 
@@ -351,15 +359,6 @@ Feature News
 A New Cozy Fantasy Invites Readers to Discover Roadstand Hollow
 
 New Research Platform Br
-- Sensatek receives award from National Science Foundation -- Wellons Communications | PRLog () https://www.prlog.org/12871896-sensatek-receives-award-from-national-science-foundation.html
-  Sensatek receives award from National Science Foundation -- Wellons Communications | PRLog
-
-| Press Release Distribution |
-| --- |
-
-| Will Wellons Communications PRs |
-| --- |
-| Valor Bluffs to celebrate grand opening with community event UCP of Central Florida celebrates major milestones at new Osceola campus C-BATT joins Defense Industrial Base Consortium to advance U.S.-made battery anode materials Step Inside OneLife's Stunning New Wellness Destination with design by Anna Woodman UCP Charter
 
 ## Open roles
 (no jobs data found)

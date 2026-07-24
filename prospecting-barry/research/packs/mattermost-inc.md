@@ -3,7 +3,7 @@ slug: mattermost-inc | domain: mattermost.com | HQ: Palo Alto, California US | e
 sources: sbir
 industry(LI): Software Development | specialties: 
 channel notes: SBIR PhII x1 [2022] Air Force latest: Integrating AFRL's Tactical Assault Kit with Intuitive Chat Feature from Mattermost hq: Palo Alto,CA emp: 200
-own-language word count: ~1277
+own-language word count: ~1440
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -36,8 +36,6 @@ Parlez à un spécialiste NATO & Défense européenne
 
 Sprechen Sie mit einem Bundeswehr- & NATO-Spezialisten
 
-日本の防衛・セキュリティ専門家に相談
-
 Speak with a Canadian Government & Defence specialist
 
 (Other) Speak with an Allied Government specialist
@@ -66,19 +64,13 @@ Mattermost is used by mission-critical, intelligence, and critical infrastructur
 
 Customer Story
 
-Read more
-
 Customer Story
 
 ## European public agency chooses Mattermost & Pexip for secure collaboration, replacing Skype for Business
 
 “These are modern tools that not only support effective communication but also new, more asynchronous and sustainable ways of working.”
 
-Read more
-
 Customer Story
-
-Read more
 
 Customer Story
 
@@ -86,11 +78,7 @@ Customer Story
 
 “One of the advantages is that being able to manage Mattermost ourselves makes it easier to investigate when a problem occurs.”
 
-Read more
-
 Customer Story
-
-Read more
 
 Customer Story
 
@@ -98,19 +86,13 @@ Customer Story
 
 “We found Mattermost to be the most stable, flexible, and competitively priced platform available.”
 
-Read more
-
 Customer Story
-
-Read more
 
 Customer Story
 
 ## Air Mobility Command uses ChatOps to support largest-ever readiness exercise
 
 ChatOps provides secure access to communication channels, data, and technology tools in a centralized collaboration environment.
-
-Read more
 
 ## Purpose-built for critical infrastructure use cases:
 
@@ -122,6 +104,7 @@ Challenge: Organizations need to adapt to evolving international data control la
 
 Mattermost Benefit:
 
+- Contact Sales
 - Faster, better decisions and results
 - Maintain GDPR compliance under Schrems II
 - Ensure long-term commitment to self-hosting
@@ -196,7 +179,8 @@ Challenge: The pace of digital transformation is growing exponentially as are th
 
 Mattermost Benefit:
 
-- Elevate effic
+- Elevate efficiency and resilience
+- Integrate operations across legacy systems, modern SaaS and advanced 
 
 URL: https://mattermost.com/blog/introducing-mattermost-enterprise-advanced/
 Introducing Mattermost Enterprise Advanced
@@ -230,6 +214,59 @@ To make Zero Trust scalable, we’ve designed both central and decentralized pol
 
 The product includes data spillage handling features that help organizations maintain strong operationa
 
+URL: https://mattermost.com/platform-overview/
+Mattermost Platform Overview
+
+# The Intelligent Mission Environment
+
+DevSecOps
+
+Mission-Critical Workflows
+
+Security Operations
+
+Incident Response
+
+Enterprise & Regulated Industries
+
+Maintain full control over communications, workflows, and infrastructure in a connected world.
+
+Talk to an Expert
+
+## Purpose-built for operational workflows
+
+Designed for the world’s most critical operations—from command centers to corporate control rooms.
+
+Mission Operations
+
+Achieve alignment from Command & Control to tactical edge, mission partner environments, and joint operations
+
+DevSecOps
+
+Accelerate productivity for CI/CD, platform engineering, app development, and ITSM workflows
+
+Cyber Defense
+
+Enhance SOC/CERT operations, out-of-band incident response, Red Team/Blue Team and Incident Response CSIRTs.
+
+Enterprise & Regulated Industries
+
+Ensure compliance, auditability, and coordination across financial services, SaaS, and global enterprise operations.
+
+#### Trusted by the world’s leading organizations
+
+From defense and aerospace to financial services, SaaS, and technology innovators
+
+Mattermost Channels
+
+## Secure Messaging & Collaboration
+
+Secure, persistent messaging for operational and enterprise teams. Streamline communication across connected, hybrid, or sovereign networks with complete data control.
+
+Learn more
+
+Mattermost Play
+
 ## LinkedIn about
 
 Mattermost is the leading collaboration platform for mission-critical work. We serve national security, government, and critical infrastructure enterprises, from the U.S. Department of Defense, to global tech giants, to utilities, banks and other vital services. We accelerate out-of-band incident response, DevSecOps workflows, mission operations, and self-sovereign collaboration to bolster the focus, adaptability, and resilience of the world’s most important organizations. 
@@ -252,7 +289,7 @@ October 2, 2024
 ### Mattermost releases new audio and visual capabilities to support enhanced Command and Control efforts for the U.S. Air Force Advanced Battle Management Systems (ABMS)
 
 Palo Alto, Calif., Oct. 02, 2024 (GLOBE NEWSWIRE) — Mattermost, Inc., a leader in delivering the secure, real-time collaboration and workflow 
-- Mattermost Completes Contract with U.S. Air Force 618th Air Operations Center to Deliver Real-Time, Mission-Critical Communications - Mattermost (2024-03-05) https://mattermost.com/newsroom/press-releases/mattermost-completes-contract-with-u-s-air-force-618th-air-operations-center-to-deliver-real-time-mission-critical-communications/
+- Mattermost Completes Contract with U.S. Air Force 618th ... (2024-03-05) https://mattermost.com/newsroom/press-releases/mattermost-completes-contract-with-u-s-air-force-618th-air-operations-center-to-deliver-real-time-mission-critical-communications/
   Mattermost Completes Contract with U.S. Air Force 618th Air Operations Center to Deliver Real-Time, Mission-Critical Communications - Mattermost
 
 March 5, 2024

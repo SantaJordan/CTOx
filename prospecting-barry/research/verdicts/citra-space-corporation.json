@@ -1,0 +1,27 @@
+{
+  "company": "Citra Space Corporation",
+  "slug": "citra-space-corporation",
+  "domain": "citra.space",
+  "verdict": "insufficient_evidence",
+  "drop_reason": "",
+  "dod_intent_evidence": "Unproven from this pack. The only defense signal is channel metadata ('sources: vc:scout', 'defense-tech space startup by former military space officers') and a $15M Series A led by Washington Harbour Partners (news section) — both explicitly ruled insufficient by the gate. Their own site never names DoD, Space Force, a military customer, or a contract; the closest is 'Large aperture multispectral systems for hard-to-track and camouflaged objects to avoid operational surprise' (homepage). No SBIR/STTR record and no contract award appear anywhere in the pack.",
+  "disconnect_score": 0,
+  "subscores": {
+    "lab_language_intensity": 0,
+    "deployment_awareness_absence": 0,
+    "operator_absence": 0,
+    "hiring_profile_skew": 0,
+    "stage_pressure": 0
+  },
+  "score_evidence": [
+    "The header's '~1180' own-language word count is wrong: roughly three quarters of the captured text is Google's Privacy Policy and Google Terms of Service, pulled in because the contact form embeds reCAPTCHA. Their actual own language is on the order of 250 words.",
+    "Everything Citra says about its product fits in three service blurbs — 'Fused all-source external data and native internal observations to deliver actionable insights on demand', 'Unique optical, orbital, and radio frequency signatures for space objects to enable positive identification', 'Large aperture multispectral systems for hard-to-track and camouflaged objects to avoid operational surprise' — plus a one-line mission statement. No architecture, no deployment surface, no customer.",
+    "There is no LinkedIn about section ('## LinkedIn about' is empty) and no SBIR abstracts, so the two sections that normally carry technical self-description are both blank.",
+    "Absence of deployment awareness cannot be scored here: the product is never described in enough detail for DDIL, ATO, SWaP-C, or operator topics to naturally arise. Scoring this would be scoring a crawl failure, not the company."
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "series_a",
+  "what_they_do": "Builds sensors and software for space domain awareness — detecting, tracking, and fingerprinting objects in orbit — sold through an 'SDA Dashboard' web app; $15M Series A announced April 2026, ~14 people in Colorado Springs."
+}

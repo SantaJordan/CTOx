@@ -1,0 +1,16 @@
+{
+  "company": "Oso",
+  "slug": "oso",
+  "domain": "osohq.com",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "No DoD/military/warfighter language anywhere in the company's own words (site, product, customer, LinkedIn about); customers named are Webflow, Brex, Vanta, Duolingo, Productboard, Oyster, Intercom, Wayfair, Roblox, Spring Health, 1Password — all commercial. The two 'News' hits (Chenega/FBI HigherGov contract, Oshkosh Defense truck orders) are unrelated companies pulled in by generic keyword overlap, not about Oso.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "unknown",
+  "what_they_do": "Authorization-as-a-service and AI agent security/permissions platform for enterprise engineering teams (Polar DSL, RBAC/ReBAC/ABAC)."
+}

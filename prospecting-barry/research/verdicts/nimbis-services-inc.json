@@ -1,0 +1,16 @@
+{
+  "company": "Nimbis Services, Inc.",
+  "slug": "nimbis-services-inc",
+  "domain": "nimbisservices.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Genuine and extensive DoD motion, but already fielded at scale: 'Since 2008... trusted partner of government agencies and the Defense Industrial Base', '15 year track record' with '300 projects and 150 organizations', a separate Air Force IDC contract with $36.7M obligated against a $200M ceiling, and multiple SBIR Phase II awards (MDA SCAIE $1.7M, FAME-RH) — this is a mature, 24-49 person technology-transition contractor, not a stuck early prototype.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Runs the Trusted Stratus cloud/digital-twin platform that transitions DoD microelectronics and manufacturing tech from R&D through acquisition and sustainment."
+}

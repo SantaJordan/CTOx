@@ -327,31 +327,41 @@ Updated
 Due
 
 10/
-- HavocAI raises $85M to sell autonomous boats to the U.S. military | Fortune (2025-10-09) https://fortune.com/2025/10/09/havocai-85-million-autonomous-vessels-funding/
+- HavocAI raises $85M to sell autonomous boats to the U.S. ... (2025-10-09) https://fortune.com/2025/10/09/havocai-85-million-autonomous-vessels-funding/
   HavocAI raises $85M to sell autonomous boats to the U.S. military | Fortune
 
 # Trendingnow
 
 # 1
 
-U.S. companies have finally gotten $71 billion in tariff refunds, but they’re using it to offset inflation caused by the Iran war
+The millennial generation has split, new Fed research shows: Those over 35 are edging toward boomer-style wealth, while everyone else falls behind
 
 # 2
 
-FedEx CEO says we are in the middle of the biggest supply chain shift he’s seen in 35 years: ‘We are the referendum’
+Mark Cuban says he has the solution to growing income inequality, and it's to reward every employee—from CEO to janitor—with company stock
 
 # 3
 
-Buffett says AI giants are ‘playing a game they don’t want to play’ in the AI race, reveals he was behind Berkshire’s $31 billion bet on Google
+Scott Bessent casually says the U.S. has more than $1 trillion in gold—and that it doesn’t matter for the
+- Hanwha, HavocAI to develop 200' autonomous surface ... () https://www.workboat.com/shipbuilding/hanwha-havocai-to-develop-200-autonomous-surface-vessels
+  January 9, 2026
 
-- HavocAI Raises $85M to Scale (2025-10-10) https://www.tectonicdefense.com/havocai-raises-85m-to-scale/
-  HavocAI Raises $85M to Scale
+# Hanwha, HavocAI to develop 200' autonomous surface vessels
 
-Image: HavocAI
+ 
 
-Remember when we said maritime autonomy is all the rage? Well, some heavy-hitting investors have just proved our point.
+ WorkBoat Staff 
 
-Yesterday, USV company HavocAI announced that they’ve raised $85M in new capital from B Capital, In-Q-Tel, Lockheed Martin, Hanwha, Taiwania, Vanderbilt University, Up Partners, Island Green Capital, and Zero Infinity Partners—all new investors. Scout Ventures and Outlander Ventures, and “other early funders,” also returned to the 
+- Shipbuilding
+- Government
+- Marine Tech
+- News
+
+SHARE
+
+HavocAI, a builder of maritime swarm autonomy, has been entering partnerships with U.S. shipbuilders, notable Metal Shark and now Hanwhat Defense USA. Metal Shark photo.
+
+Hanwha Defense USA, Hanwha Systems Co., and U.S.-based collaborative autonomy company HavocAI announced Jan. 8 they will jointly develop 200' autonomous surface vessels (AS
 
 ## Open roles (Blitz, live)
 - Facility Security Officer (FSO) ({'city': 'North Kingstown', 'country_code': 'US'})

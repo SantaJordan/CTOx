@@ -1,0 +1,43 @@
+{
+  "company": "Unstructured",
+  "slug": "unstructured",
+  "domain": "unstructured.io",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Three fresh, distinct DoD awards within weeks of each other (Jan-Feb 2026): a $1M DAF DTO contract for a GenAI data layer 'at the Tactical Edge,' a $2M AFWERX TACFI, and a NAVSEA contract for fleet AI access — News section.",
+  "disconnect_score": 78,
+  "subscores": {"lab_language_intensity": 19, "deployment_awareness_absence": 18, "operator_absence": 19, "hiring_profile_skew": 14, "stage_pressure": 8},
+  "score_evidence": [
+    "'14x Higher Retrieval Accuracy', '85% Fewer Agent Turns', '10x Lower Costs', 'Trusted by 87% of the Fortune 1000' — pure SaaS-metric marketing, zero operational framing anywhere on the site → lab_language_intensity",
+    "'Security and compliance? Built in. Role-based access? Handled.' — the only compliance language on the entire site, with zero ATO/RMF/CMMC/ITAR/STIG vocabulary despite a contract explicitly titled 'at the Tactical Edge' → deployment_awareness_absence",
+    "'One call in Claude Code, Cursor, or Codex, and structured data lands in context' — developer/agent framing throughout, no mention of operators, warfighters, training, or CONOPS anywhere → operator_absence",
+    "Open roles: 'AI Engineer - Public Sector', 'Software Engineer - Public Sector', 'Navy Account Executive - Public Sector' present, but no ISSO/RMF/compliance or field-deployment role despite three concurrent fresh DoD contracts → hiring_profile_skew"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The DAF DTO contract is explicitly framed around 'GenAI at the Tactical Edge,' but the product's own architecture description is pure cloud SaaS with '24/7 maintenance' keeping '1,250+ pipelines' reliable",
+      "operator_reality": "A cloud-orchestrated pipeline model that depends on continuous maintenance and connectivity has no described degraded/offline mode — at the tactical edge, the exact scenario the contract name promises, this is the same 'assumed connectivity' failure mode as the canonical 30fps crowd-detection case.",
+      "why_likely_missing": "The company's core commercial product was built for Fortune 1000 enterprise IT environments where always-on connectivity is a given; the tactical-edge framing appears only in the DoD press releases, not in the product architecture pages.",
+      "evidence_quote": "With 30+ connectors and 1,250+ pipelines, we seamlessly integrate with any database, data lake, or enterprise system. And because connections should, you know, stay connected, our 24/7 maintenance ensures your pipelines stay reliable as systems evolve.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The flagship MCP integration promises 'One call in Claude Code, Cursor, or Codex, and structured data lands in context'",
+      "operator_reality": "This call pattern assumes a live connection to an agent runtime and, typically, a cloud-hosted LLM provider (OpenAI, Anthropic) — at a tactical-edge node with intermittent comms, there's no described local/cached inference fallback, meaning the promised 'agentic search for enterprise data' likely just stops working exactly when the operator needs it most.",
+      "why_likely_missing": "MCP and agent-tooling framing is aimed at developer workflows (Claude Code, Cursor, Codex users), not disconnected field operations.",
+      "evidence_quote": "Document parsing built for agents. One call in Claude Code, Cursor, or Codex, and structured data lands in context.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Three separate, freshly won DoD contracts (DAF, AFWERX, NAVSEA) each sit on different networks and almost certainly require separate authorization processes",
+      "operator_reality": "Public-sector hiring is sales- and engineering-led (Navy Account Executive, AI/Software Engineer - Public Sector) with no visible compliance or ISSO hire — landing three contracts faster than compliance staffing can catch up is exactly the mismatch that stalls a fielded transition once each program's ATO clock starts running.",
+      "why_likely_missing": "The public-sector build-out reads as a land-and-expand sales motion layered onto an existing enterprise SaaS org, not a ground-up defense-compliance build.",
+      "evidence_quote": "Navy Account Executive - Public Sector",
+      "quote_source": "job_post"
+    }
+  ],
+  "opener_hook": "The DAF DTO contract calls out GenAI 'at the Tactical Edge' — does the 1,250-pipeline cloud orchestration model degrade gracefully when the edge loses its connection back to that pipeline?",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Enterprise cloud SaaS ETL platform that transforms unstructured documents (PDFs, docs, etc.) into AI-ready data for GenAI/RAG pipelines, recently expanding into DoD tactical-edge deployments via DAF, AFWERX, and NAVSEA contracts."
+}

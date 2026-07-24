@@ -232,7 +232,7 @@ Oops! Something went wrong while submitting the form.
 Vector exists to arm America’s warfighters with operationally proven, combat-ready War Tech at speed and scale. Built by warfighters for warfighters, we serve the War Department directly — integrating battlefield-hardened systems, tactics, and sustainment so our forces are ready to fight and win the next war. We are seasoned professionals, led by former military special operators and combined with expert engineers, who know first-hand what it takes to succeed under fire. No buzzwords. No bureaucracy. Just relentless, mission-focused capability that keeps warriors lethal and alive. RUN WITH US.
 
 ## News (Exa, top 3)
-- Vector Lands Major SOCOM Contract, Accelerates Military (2025-10-24) https://www.tfvector.com/news/vector-lands-major-socom-contract-accelerates-military-drone-innovation
+- Vector Lands Major SOCOM Contract, Accelerates Military Drone Innovation (2025-10-24) https://www.tfvector.com/news/vector-lands-major-socom-contract-accelerates-military-drone-innovation
   Vector Lands Major SOCOM Contract, Accelerates Military
 
 ## Keep up-to-date ON THE LATEST TECH INTELLIGENCE WITH OUR bi‑weekly newsletter.
@@ -278,16 +278,16 @@ Bluffdale, Utah — October 24, 2025
 Former Army aviator Andy Yakulis leads Vector’s mission to deliver drones “at the speed of the modern battlefield.”
 
 Utah’s defense innovation scene continues to gain altitude. Vector, a recently-founded and fast-growing drone manufacturer headquartered in Bluffdale, UT, has secured a multi-year, mu
-- VECTOR ANNOUNCES MULTI-MILLION DOLLAR ... () https://presswire.com/release/vector-announces-multi-million-dollar-contract-with-special-operations-command/
-  VECTOR ANNOUNCES MULTI-MILLION DOLLAR CONTRACT WITH SPECIAL OPERATIONS COMMAND – Presswire
+- Vector Wins Multi-Million Dollar Contract with U.S. Special ... (2025-09-14) https://talkaboutfuture.com/2025/09/14/vector-wins-multi-million-dollar-contract-with-u-s-special-operations-command/
+  Vector Wins Multi-Million Dollar Contract with U.S. Special Operations Command – Talk About Future
 
-- Business, Company News, Defence, Technology
+## Vector Wins Multi-Million Dollar Contract with U.S. Special Operations Command
 
-- Vector
+September 14, 2025
 
-### VECTOR ANNOUNCES MULTI-MILLION DOLLAR CONTRACT WITH SPECIAL OPERATIONS COMMAND
+1–2 minutes
 
-- [PRESSWIRE] SALT LAKE CITY, Utah — 12.09.25 — Vector, a modern-warfare capability provider, today announced a multi-year, multi-million dollar contract with the Special Operations Command (SOCOM) to provide drones, critical integration, and broader capability deliv
+Vector, a defense technology company, has announced that it has secured a multi-year, multi-million dollar contract with the U.S. Special Operations Command (SOCOM). According to the announcement, the agreement involves providing drones, integration services, and other capability del
 
 ## Open roles
 (no jobs data found)

@@ -1,0 +1,44 @@
+{
+  "company": "EMPOWER EQUITY INC (EMPEQ)",
+  "slug": "empower-equity-inc",
+  "domain": "empeq.co",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Air Force SBIR Phase II 2023, 'Rapid Counterfeit Part Detection,' $1,202,738 (contract FA8649-23-P-1032) plus an AFWERX Phase I for 'Fast Site Survey for a Greener Air Force' — SBIR/STTR section and their own press release.",
+  "disconnect_score": 62,
+  "subscores": {"lab_language_intensity": 12, "deployment_awareness_absence": 12, "operator_absence": 10, "hiring_profile_skew": 15, "stage_pressure": 13},
+  "score_evidence": [
+    "'Turn fragmented infrastructure data into real-time, reliable insights' and 'Feed AI models, digital twins, and analytics with verified inputs' (homepage) → lab_language_intensity: pure commercial-SaaS abstraction, no operational framing",
+    "'a secure handheld device such as an iPhone, iPad, tablet, or Android' (sbir_abstract) → deployment_awareness_absence: the word 'secure' is doing all the work; no ATO, RMF, IL level, MDM, CUI, or ITAR language anywhere in the pack (own-language <1000 words, so capped at 12)",
+    "'designed specifically for engineers, auditors, and analysts in the field' (about page) → operator_absence: the 'field' they mean is commercial rooftops and boiler rooms; no airman, depot technician, training, or CONOPS appears (capped at 12)",
+    "Live roles are 'Senior Strategic Account Executive' x2 and nothing else (open roles, Blitz) → hiring_profile_skew: hiring commercial sales while a $1.2M Phase II sits mid-performance; zero deployment, integration, or compliance hires",
+    "2023 Phase II with LinkedIn headcount 24 against channel-note headcount 4 (pack header) → stage_pressure: period-of-performance clock running on a small team with an unresolved commercial-vs-defense split"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The capture device is a commercial phone, on installations where commercial phones with cameras are the problem",
+      "operator_reality": "Photographing electronic parts inside an Air Force depot bay or supply warehouse means a camera-enabled device in a controlled area, and the resulting images of part markings, lot codes, and vendor stamps are CUI and often export-controlled. In practice the app has to live on a government-issued, MDM-enrolled device with an ATO and an IL-appropriate backend — a 12-to-18-month path that has nothing to do with building the model.",
+      "why_likely_missing": "In the commercial energy-audit business the auditor's own iPhone IS the device and the photos are nobody's controlled data; the entire product was born from that assumption ('Photos were on Herb's phone').",
+      "evidence_quote": "EMPEQ is proposing a solution that uses machine learning to identify electronic parts through a secure handheld device such as an iPhone, iPad, tablet, or Android.",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "Enrichment and 'single source of truth' assume a live round trip to their cloud",
+      "operator_reality": "The places counterfeit parts actually get inspected — a hangar bay, a warehouse deep in a hardened structure, a shipboard storeroom, a forward supply point — are RF holes with no usable connectivity. If identification requires the phone to reach the enrichment backend, the technician gets a spinner instead of a verdict, and the whole workflow reverts to the legal pad the founders were trying to kill. On-device inference with deferred, conflict-safe sync is a different architecture than the pipeline they built.",
+      "why_likely_missing": "Commercial buildings have WiFi and LTE; nothing in 200 rooftop audits ever forced them to design for a denied or disconnected capture session.",
+      "evidence_quote": "Turn fragmented infrastructure data into real-time, reliable insights. EMPEQ meets your data where it is—and transforms it into action.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "A counterfeit call is a quality record, not an insight",
+      "operator_reality": "When the app says a part is counterfeit, that output enters a supply-chain quality process — the lot gets quarantined, a GIDEP alert may follow, a vendor gets challenged, and someone signs their name to the determination. That demands a stated false-positive/false-negative rate, model-version traceability on every call, an audit trail that survives a discrepancy investigation, and a named government authority who owns the disposition. Their language treats output as decision support ('insights', 'confidence'), which is exactly the framing that stalls at the transition review.",
+      "why_likely_missing": "For an energy model, a wrong SEER rating costs a re-visit; the product's whole design point is speed over evidentiary rigor, and no commercial customer ever asked them to defend a call.",
+      "evidence_quote": "EMPEQ powers the shift from manual guesswork to verified, structured insights—ready for automation, compliance, and strategic planning.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Your Phase II proposes counterfeit-part identification on 'an iPhone, iPad, tablet, or Android' — and the only two roles open on empeq.co right now are Senior Strategic Account Executives.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "SaaS that turns photos and messy spreadsheets of physical equipment into structured, enriched asset records; adapting the same capture tech to Air Force counterfeit-part detection."
+}

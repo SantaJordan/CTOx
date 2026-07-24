@@ -3,7 +3,7 @@ slug: pilogic | domain: pilogic.ai | HQ: Los Angeles, California US | employees(
 sources: vc:scout
 industry(LI): Software Development | specialties: 
 channel notes: efficient AI models for aerospace
-own-language word count: ~1469
+own-language word count: ~1468
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -60,6 +60,8 @@ Minimal compute required, allowing operation at the edge on all relevant devices
 
 “PiLogic has found a way to break this exponential growth in calculation complexity for many problems.”
 
+Press Inquiries
+
 ---
 
 # Backed by Leading investors
@@ -104,7 +106,7 @@ PiLogic has built an inference engine that uses problem structure in novel ways.
 
 ### Will you expand deeper into aerospace?
 
-PiLogic’s initial focus is on electrical diagnostics, radar, and sensor fusion. The platform and engine do have the capability to tackle additional challenges in the aerospace sector. If you have a challenge that y
+PiLogic’s initial focus is on electrical diagnostics, radar, and sensor fusion. The platform and engine do have the capability to tackle additional challenges in the aerospace sector. If you have a
 
 URL: mailto:[email]?
 PiLogic
@@ -195,14 +197,6 @@ Validated with satellites on the ground through work with NASA, PiLogic’s “e
 AI reasoning engines (Automated Reasoning & Probabilistic Inference) and tools for reasoning within Aerospace & Cyber Security.
 
 ## News (Exa, top 3)
-- PiLogic partners with Air Force lab to test satellite fault-prediction software - SpaceNews (2026-06-16) https://spacenews.com/pilogic-partners-with-air-force-lab-to-test-satellite-fault-prediction-software/
-  PiLogic partners with Air Force lab to test satellite fault-prediction software - SpaceNews
-
-Home/ PiLogic partners with Air Force lab to test satellite fault-prediction software
-
-The Air Force Research Laboratory Space Vehicles Directorate spaceflight experiment Recurve was launched July 2, 2022. Credit: AFRL
-
-WASHINGTON — PiLogic, a startup developing artificial intelligence software to identify faults and predict failures in satellites, has signed an agreement with the U.S. Air Force Research
 - PiLogic wins AFRL contract (2026-06-17) https://intelligencecommunitynews.com/pilogic-wins-afrl-contract/
   PiLogic wins AFRL contract - Intelligence Community News
 
@@ -215,6 +209,14 @@ By Loren Blinde June 17, 2026
 On June 16, PiLogic, the company building explainable artificial intelligence for complex space systems, announced that it has entered into a Cooperative Research and Development Agreement (CRADA) with the U.S. Air Force Research Laboratory (AFRL) to apply its AI technology to diagnosing and predicting electrical and power failures on spacecraft platforms.
 
 The colla
+- PiLogic partners with Air Force lab to test satellite fault-prediction software (2026-06-16) https://spacenews.com/pilogic-partners-with-air-force-lab-to-test-satellite-fault-prediction-software/
+  PiLogic partners with Air Force lab to test satellite fault-prediction software - SpaceNews
+
+Home/ PiLogic partners with Air Force lab to test satellite fault-prediction software
+
+The Air Force Research Laboratory Space Vehicles Directorate spaceflight experiment Recurve was launched July 2, 2022. Credit: AFRL
+
+WASHINGTON — PiLogic, a startup developing artificial intelligence software to identify faults and predict failures in satellites, has signed an agreement with the U.S. Air Force Research
 - PiLogic Partners with AFRL on AI Anomaly Detection Tech (2026-06-16) https://payloadspace.com/pilogic-partners-with-afrl-on-ai-anomaly-detection-tech/
   PiLogic Partners with AFRL on AI Anomaly Detection Tech
 

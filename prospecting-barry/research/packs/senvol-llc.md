@@ -282,7 +282,11 @@ Senvol provides data to help companies implement additive manufacturing (AM). Se
 Redacted
 
 ## News (Exa, top 3)
-- Senvol wins U.S. Navy funding for AM sensor data project (2026-01-13) https://www.engineering.com/senvol-wins-u-s-navy-funding-for-am-sensor-data-project/
+- Senvol Receives Funding from U.S. Navy and U.S. Air Force for Machine Learning Software | Senvol (2021-03-08) http://senvol.com/2021/03/08/senvol-receives-funding-from-u-s-navy-and-u-s-air-force-for-machine-learning-software/
+  Senvol Receives Funding from U.S. Navy and U.S. Air Force for Machine Learning Software | Senvol
+
+New York, NY – March 8, 2021 – Senvol has publicly announced that it has received further funding from the U.S. Navy and U.S. Air Force to develop additional capabilities for its additive manufacturing (AM) machine learning software, Senvol ML. Funding from the U.S. Navy is being provided by the Office of Naval Research (ONR), Naval Sea Systems Command (NAVSEA), and Naval Air Systems Command (NAVAIR
+- Senvol wins U.S. Navy funding for AM sensor data project - Engineering.com (2026-01-13) https://www.engineering.com/senvol-wins-u-s-navy-funding-for-am-sensor-data-project/
   Senvol wins U.S. Navy funding for AM sensor data project - Engineering.com https://www.engineering.com/cdn-cgi/content?id=RRjVuN52MhkmOhEC6fO9AFtUobe4qQdHQ7gr7n.L_pE-1783938308.7396584-1.2.1.1-4XdrtIcYQ4uEafJEn7IWUhkt7w_rJPO3MtNUH370MpU
 
 ### 3D-Printed Swag Ideas for Your Next Trade Show
@@ -300,10 +304,6 @@ The effort runs July 2025 to July 2027 and targets metal wire DED, using multi-
 Share this Article
 
 The additive manufacturing (AM) industry is well-positioned to benefit from increased incorporation of AI and machine learning (ML) into its core processes, and 2026 should provide plenty of opportunities for testing that potential. One f
-- Senvol Receives Funding from U.S. Navy and U.S. Air Force for Machine Learning Software | Senvol (2021-03-08) http://senvol.com/2021/03/08/senvol-receives-funding-from-u-s-navy-and-u-s-air-force-for-machine-learning-software/
-  Senvol Receives Funding from U.S. Navy and U.S. Air Force for Machine Learning Software | Senvol
-
-New York, NY – March 8, 2021 – Senvol has publicly announced that it has received further funding from the U.S. Navy and U.S. Air Force to develop additional capabilities for its additive manufacturing (AM) machine learning software, Senvol ML. Funding from the U.S. Navy is being provided by the Office of Naval Research (ONR), Naval Sea Systems Command (NAVSEA), and Naval Air Systems Command (NAVAIR
 
 ## Open roles
 (no jobs data found)

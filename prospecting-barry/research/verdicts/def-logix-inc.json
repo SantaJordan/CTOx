@@ -1,0 +1,20 @@
+{
+  "company": "Def-Logix, Inc.",
+  "slug": "def-logix-inc",
+  "domain": "def-logix.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "Genuine DoD motion is present (homepage: '15 years of experience supporting the Department of Defense', plus USAspending FA830716D0025 Air Force Cyber Multiple Award IDIQ with $84.6M obligated) — but the motion is as a services contractor, not a product company.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "'We specialize in AI-enhanced cybersecurity research and development, offensive and defensive cyber operations, and custom software engineering' → services menu, not a product crossing the valley of death",
+    "'$84.6M in obligations to date with a ceiling value of $1,000M' on a 2015 Air Force IDIQ → already an established federal contract vehicle holder, no prototype-to-fielded gap",
+    "Open roles are billable-seat services roles ('Senior Penetration Testing, Software Assurance and Vulnerability with Security Clearance', 'Program / Project Manager') → staffing a contract, not fielding a product"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Veteran-owned San Antonio federal cybersecurity R&D and custom software services shop working AI/ML, offensive cyber ops, and DevSecOps for DoD and DHS under IDIQ contract vehicles."
+}

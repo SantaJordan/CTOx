@@ -1,0 +1,44 @@
+{
+  "company": "PiLogic",
+  "slug": "pilogic",
+  "domain": "pilogic.ai",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "June 2026 news: PiLogic signed a Cooperative Research and Development Agreement (CRADA) with AFRL to apply its fault-prediction AI to spacecraft electrical/power systems and is 'already testing its AI on two terrestrial based flat sats with AFRL, with hopes of expanding the military partnership into orbit' (News section) — genuine but pre-monetary, ground-test-stage DoD motion.",
+  "disconnect_score": 74,
+  "subscores": {"lab_language_intensity": 18, "deployment_awareness_absence": 16, "operator_absence": 14, "hiring_profile_skew": 10, "stage_pressure": 16},
+  "score_evidence": [
+    "'EXACT AI WHEN YOU NEED IT MOST', 'Precise Answers with zero hallucinations', 'Up to 10,000x faster than current market leading models' → lab_language_intensity (pure speed/accuracy brag, zero operational framing)",
+    "no mention of DDIL, ATO/RMF, CMMC, ITAR, or STIG anywhere on the site or in news despite CRADA with AFRL → deployment_awareness_absence",
+    "site names only 'the operator' once in a generic satellite-diagnostics sentence and never discusses training, CONOPS, or field feedback → operator_absence",
+    "no jobs data found in pack → hiring_profile_skew set to 10 per instructions",
+    "'$4 million in seed funding' with ~9 employees and a CRADA that 'has no monetary value' while a satellite 'is slated to launch this year for an undisclosed customer' → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "No ATO/RMF or CMMC language despite a stated ambition to move from ground flat-sats into an actual military orbital platform.",
+      "operator_reality": "A no-monetary-value CRADA gets you lab access, not an ATO — 'hopes of expanding the military partnership into orbit' glosses over the accreditation gauntlet that sits between a terrestrial flat-sat demo and flying government hardware.",
+      "why_likely_missing": "Messaging is built entirely around the model's mathematical properties (probabilistic inference, zero hallucinations), not the acquisition/accreditation path to fielding it on a DoD bus.",
+      "evidence_quote": "'PiLogic is already testing its AI on two terrestrial based flat sats with AFRL, with hopes of expanding the military partnership into orbit.'",
+      "quote_source": "news"
+    },
+    {
+      "blind_spot": "'Minimal compute required, allowing operation at the edge on all relevant devices' is a marketing claim, not an engineered SWaP-C spec for radiation-hardened, power-budgeted spacecraft compute.",
+      "operator_reality": "'All relevant devices' means nothing to a satellite bus with a fixed power and thermal envelope and no field technician to swap hardware if the assumption is wrong — flight qualification requires actual numbers, not a marketing adjective.",
+      "why_likely_missing": "The efficiency claim is pitched as a general product differentiator (versus LLMs) rather than derived from a specific spacecraft's SWaP-C budget.",
+      "evidence_quote": "'Efficient — Minimal compute required, allowing operation at the edge on all relevant devices.'",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No ITAR/export-control mention despite building diagnostic models trained on detailed spacecraft electrical/power-system engineering data for a dual-use aerospace/defense customer base.",
+      "operator_reality": "Fault-diagnosis models built on 'detailed knowledge of engineering principles and the satellite's parts' are exactly the kind of technical data ITAR was written for — a company betting its first launch on 'an undisclosed customer' with no visible export-control posture risks a program-killing compliance surprise post-launch.",
+      "why_likely_missing": "Team bio emphasizes ML/AI pedigree (Google, NASA collaboration) over regulatory/compliance experience.",
+      "evidence_quote": "'The software would integrate onboard sensor data with detailed knowledge of engineering principles and the satellite's parts, enabling the operator to predict component health and potentially resolve issues autonomously.'",
+      "quote_source": "news"
+    }
+  ],
+  "opener_hook": "Your AFRL CRADA has you testing fault-prediction on two ground flat-sats with no monetary value attached yet — what's the accreditation plan before the orbital jump?",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Probabilistic 'exact AI' models for satellite electrical diagnostics, radar, and sensor fusion in aerospace and defense."
+}

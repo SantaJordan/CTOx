@@ -1,0 +1,27 @@
+{
+  "company": "Cicero Technologies Inc. (Eudia)",
+  "slug": "cicero-technologies-inc",
+  "domain": "eudia.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Genuine DoD motion exists — USAF SBIR Phase II ($1,245,431, 'ACR: Augmented Contract Review Application', news section) plus a dedicated /gov page — but the same page carries a live production testimonial from a serving customer ('We've cut our procurement administrative lead time in half with Eudia.' — U.S. Military Acquisition Officer) alongside enterprise-scale commercial deployment (ServiceNow, Cargill, Toshiba, Ecolab, Bayer via the Microsoft collaboration release).",
+  "disconnect_score": 0,
+  "subscores": {
+    "lab_language_intensity": 0,
+    "deployment_awareness_absence": 0,
+    "operator_absence": 0,
+    "hiring_profile_skew": 0,
+    "stage_pressure": 0
+  },
+  "score_evidence": [
+    "'We've cut our procurement administrative lead time in half with Eudia.' — U.S. Military Acquisition Officer → already fielded with a government user, not stuck at demo",
+    "'Ambitious enterprises including ServiceNow, Cargill, Toshiba, Ecolab, and Bayer already run Eudia inside Microsoft 365' → operating at commercial scale, ~190 employees, $100M+ raised",
+    "'Secure, FedRAMP-Ready — Built for the security and compliance requirements of DOW legal environments' and 'TS-cleared FDLs embed to drive adoption' → fluent compliance and adoption language; they are not blind to deployment",
+    "Open roles include 'Forward Deployed Engineer - Eudia for Government' and 'Forward Deployed Lawyer - Eudia for Government' (Washington, DC) → already staffing the fielding function Barry sells"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Enterprise AI that encodes a company's top legal experts into governed 'digital twin' agents inside Microsoft 365, with a government arm aimed at OGC/JAG legal work and FAR/DFARS acquisition drafting."
+}

@@ -1,0 +1,41 @@
+{
+  "company": "SensorOps",
+  "slug": "sensorops",
+  "domain": "sensorops.io",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "2025 Phase II SBIR for an AI/ML battle-damage-assessment system for the Department of the Air Force, plus DIU selection of SynDOJO for the Blue UAS Refresh with NDAA-compliance verification underway — channel notes and News section.",
+  "disconnect_score": 34,
+  "subscores": {"lab_language_intensity": 4, "deployment_awareness_absence": 2, "operator_absence": 3, "hiring_profile_skew": 10, "stage_pressure": 15},
+  "score_evidence": [
+    "no jobs data found in pack -> hiring_profile_skew set to exactly 10 per instructions",
+    "\"Two prior funding rounds reported; amounts undisclosed\" on a ~13-18 person team simultaneously fielding three product lines (TargetModeler, SynDOJO, TacOS), plus SBIR portfolio showing 2 Phase I / 1 Phase II awards at a 50% conversion rate -> stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The marketing repeatedly promises 'operator-controlled' field updates but never addresses who trains that operator, what happens on unit rotation, or how tuning knowledge transfers when the trained soldier PCSs out.",
+      "operator_reality": "A field-level model-tuning capability is only as durable as the training pipeline behind it; without a named train-the-trainer program, the capability degrades to whatever the last operator happened to learn informally.",
+      "why_likely_missing": "The company's public materials are written from the product-capability side (what the software can do), not the sustainment/handoff side (who keeps it working after fielding).",
+      "evidence_quote": "Field-Level Updates: Operators tune and update models at the point of use.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Despite marketing fluency in DDIL/edge deployment language, the actual product documentation for the two questions that matter most operationally — 'How are SensorOps systems deployed?' and 'Can SensorOps integrate with existing systems?' — is unwritten lorem-ipsum placeholder text on the live site.",
+      "operator_reality": "This is a documentation/integration-engineering debt hiding behind strong deployment marketing copy: an evaluator (or a prime doing integration diligence) who clicks past the homepage into product-information finds the exact deployment-mechanics answers missing.",
+      "why_likely_missing": "A ~13-18 person team building three product lines at once (TargetModeler, SynDOJO, TacOS) plausibly ran out of bandwidth to finish integration-specific documentation even while the marketing narrative got polished.",
+      "evidence_quote": "How are SensorOps systems deployed ? Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The company markets simultaneously into DoD components, CBP/border security, law enforcement/EMS/SWAT, and critical infrastructure/industrial operators — four different compliance regimes (DoD ATO/RMF, CJIS for law enforcement, industrial/OT security) — and never names any of them by their specific framework.",
+      "operator_reality": "A small team spreading across defense, public-safety, and industrial verticals at once risks under-resourcing the specific compliance path (ATO for DoD networks vs. CJIS for police data vs. OT security for pipelines) that any one buyer actually requires before procurement can close.",
+      "why_likely_missing": "Multi-vertical go-to-market is a growth strategy for a small, well-funded team; compliance-framework-specific engineering typically lags the sales narrative.",
+      "evidence_quote": "Serving: Department of Defense (DoD) components, U.S. Customs and Border Protection (CBP), intelligence and surveillance units, and maritime and border security teams.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Your product-information page's 'How are SensorOps systems deployed?' answer is still lorem-ipsum placeholder text — an odd gap for a platform whose whole pitch is solving deployment.",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "AI platform for autonomous systems (TargetModeler for synthetic training data, SynDOJO for simulation/rehearsal, TacOS for edge deployment) built explicitly for offline, low-bandwidth, GPS-denied defense and public-safety environments."
+}

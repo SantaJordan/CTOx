@@ -1,0 +1,17 @@
+{
+  "company": "Legionarius",
+  "slug": "legionarius",
+  "domain": "legionari.us",
+  "verdict": "insufficient_evidence",
+  "drop_reason": "",
+  "dod_intent_evidence": "Genuine DoD motion is present (SBIR Phase I/II per channel notes and sbir.gov links, ATAK/TIC/BATDOK integration described on homepage, goTenna/Forterra partnership, USAF TACP smart-uniform program) but the pack's own-language corpus is too thin to score.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "medium",
+  "stage_band": "unknown",
+  "what_they_do": "3-10 person startup building a smart garment that senses penetrating wounds/hemorrhaging and auto-generates ATAK/TIC medevac alerts for combat casualties.",
+  "note": "Pack header states ~1095 own-language words, but the majority of that is Google's Privacy Policy/Terms of Service text accidentally captured by the crawl, not Legionarius's own language. The company-specific content (mission statement, product overview, LinkedIn about) totals roughly 190 words — well under the ~500-word evidence-sufficiency threshold, and the pack contains no SBIR abstract text or direct company/founder quotes to supplement it. Re-pull with a cleaner crawl before scoring."
+}

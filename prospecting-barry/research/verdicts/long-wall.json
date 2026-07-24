@@ -1,0 +1,26 @@
+{
+  "company": "Long Wall",
+  "slug": "long-wall",
+  "domain": "lwall.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Explicit self-described mission is missile defense for homeland/regional defense against near-peer threats, with a named interceptor product (Cyclops) announced Dec 2025 — homepage 'Mission' section and news section (ABL Space rebrand to focus on defense).",
+  "disconnect_score": 47,
+  "subscores": {"lab_language_intensity": 6, "deployment_awareness_absence": 9, "operator_absence": 10, "hiring_profile_skew": 8, "stage_pressure": 14},
+  "score_evidence": [
+    "'Cyclops will provide high-performance, low-cost magazine depth for homeland and regional missile defense' → lab_language_intensity low, language is fielding/cost-framed not lab-metric framed",
+    "'Ironwood systems have been deployed in four seasons in the most demanding environments' shows some deployment awareness for GSE, but no ATO/RMF/CMMC/ITAR anywhere → deployment_awareness_absence held below the 12 cap (word count 681, under 1000)",
+    "'growing our team of exceptional engineers, technicians, operators, and business people' uses 'operators' for internal company staff, not the DoD end-user who would crew a fielded interceptor battery → operator_absence",
+    "Open roles include 'Director, Test and Operations', 'Lead Test Engineer', 'Sr. Integration Technician' — real field/test/integration hiring present, not researcher-only → hiring_profile_skew lower",
+    "'ABL Space, once an emerging contender in the commercial launch industry, is rebranding as Long Wall as it pivots away from launching small satellites to focus on defense applications' (Feb 2025) followed by Cyclops announcement 10 months later (Dec 2025) with zero disclosed flight-test history → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Fielded track record is test/launch support infrastructure (Ironwood GSE), not the actual interceptor", "operator_reality": "'Deployed in four seasons' describes ground support equipment used to test rockets, not an operational missile defense interceptor surviving contested conditions, seeker jamming, or basing logistics — Cyclops itself has zero disclosed flight history at announcement.", "why_likely_missing": "The 'About Us' section borrows Ironwood/RSX's real deployment credibility to frame Cyclops, a brand-new product announced the same page, without distinguishing test-support maturity from weapon-system maturity.", "evidence_quote": "Ironwood systems have been deployed in four seasons in the most demanding environments.", "quote_source": "homepage"},
+    {"blind_spot": "No mention of who operates, loads, or maintains a fielded interceptor battery", "operator_reality": "'Magazine depth' implies mass deployment at operational sites, which means launch crews, maintainers, and logistics for a weapon that has to sit ready for years — none of that operator/sustainment chain is addressed publicly despite it being the actual determinant of whether magazine depth translates into real defense capacity.", "why_likely_missing": "The public narrative is still at the 'announce the product' stage (10 months post-rebrand); crew/sustainment planning likely hasn't been externalized yet.", "evidence_quote": "Cyclops will provide high-performance, low-cost magazine depth for homeland and regional missile defense.", "quote_source": "news"},
+    {"blind_spot": "No stated integration path into existing missile-defense C2/BMDS architecture", "operator_reality": "An interceptor is worthless without cueing from existing radar and fire-control networks; the company describes C2 only for its own ground support equipment (Ironwood), never how Cyclops itself talks to the missile-defense kill chain it needs to plug into.", "why_likely_missing": "Team has deep launch-vehicle DNA (ex-ABL Space) but the public site hasn't yet addressed the weapons-integration side of the pivot, which is a different discipline than launch.", "evidence_quote": "Modern GSE to support global launch and test with advanced C2, power, and comms.", "quote_source": "homepage"}
+  ],
+  "opener_hook": "Ironwood has four seasons of deployed launch-support history behind it — Cyclops was announced ten months after the ABL-to-Long-Wall pivot with none of that field record yet.",
+  "confidence": "medium",
+  "stage_band": "unknown",
+  "what_they_do": "A missile-defense company (rebranded from launch-vehicle maker ABL Space in 2025) building Cyclops, a mass-producible exoatmospheric interceptor, alongside RSX flight-test boosters and Ironwood ground support equipment."
+}

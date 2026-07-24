@@ -1,0 +1,50 @@
+{
+  "company": "Blue Storm Associates Inc. (dba PEMDAS Technologies & Innovations)",
+  "slug": "blue-storm-associates-inc",
+  "domain": "pemdastechnologies.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Navy 2023 sequential SBIR Phase II DMO-EI ($1.5M), $49.5M Air National Guard environmental-intelligence IDIQ (2017), EI suite deployed at Arctic Edge 2025 — sbir_abstract, news, and homepage sections.",
+  "disconnect_score": 36,
+  "subscores": {
+    "lab_language_intensity": 8,
+    "deployment_awareness_absence": 5,
+    "operator_absence": 3,
+    "hiring_profile_skew": 10,
+    "stage_pressure": 10
+  },
+  "score_evidence": [
+    "\"Revolutionary Technologies\" and \"ground breaking research\" marketing gloss, but paired with \"radar-denied, data-sparse Arctic environment\" operational framing → lab_language_intensity kept low",
+    "\"delivering critical atmospheric intelligence in a radar-denied, data-sparse Arctic environment. These capabilities directly supported UAS and real-world mission operations\" → deployment_awareness_absence low — they demonstrably operate in degraded environments",
+    "\"provide real threat warnings and displays to pilots and operators\" and 80% veterans employed → operator_absence very low",
+    "No jobs data in pack → hiring_profile_skew set exactly 10 per rule",
+    "Sequential Phase II awarded 2023 — the transition clock on DMO-EI is running now"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "DMO-EI promises real-time machine-to-machine weather push to distributed maritime platforms — the one fleet that fights radio-silent",
+      "operator_reality": "Distributed Maritime Operations doctrine is EMCON: ships and unmanned platforms minimize RF emissions and connectivity, so 'real-time cloud and icing layers' delivered over live links is exactly the data path a contested Pacific fight denies — the frame-rate-decoupling problem in weather form",
+      "why_likely_missing": "The team's fluency is atmospheric science and cockpit display integration; the abstract specifies products and altitudes but never an EMCON/DDIL delivery architecture",
+      "evidence_quote": "The prototype DMO-EI will employ machine-to-machine processing to derive Navy mission decision products to improve success and enhance survivability.",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "Platform integration targets were still undetermined inside the Phase II period",
+      "operator_reality": "\"Determined based on availability of Navy/Marine Corps/Coast Guard assets\" means the schedule's critical path is GFE access the company doesn't control — waiting on government aircraft availability is precisely how months-to-field exceeds funded months remaining",
+      "why_likely_missing": "Sequential-SBIR habit: prior Army effort supplied the pattern, so asset availability reads as an admin detail rather than the program-killing dependency it is",
+      "evidence_quote": "The specific systems the prototype DMO-EI system will integrate will be determined based on availability of Navy/Marine Corps/Coast Guard assets.",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "Eight years of demos, exercises, and sequential SBIRs with no visible program of record or named transition sponsor",
+      "operator_reality": "Arctic Edge and cockpit demos prove operators like it — but operators loving it is not adoption; without a resourced champion above the squadron level (PEO, program office, POM line) the EI suite stays an exercise guest, and each sequential SBIR restarts the clock",
+      "why_likely_missing": "Deep operator empathy (80% veterans) makes exercise success feel like traction; the advocacy-chain gap is invisible from inside the demo loop",
+      "evidence_quote": "PEMDAS deployed its Environmental Intelligence (EI) suite during Arctic Edge 2025, delivering critical atmospheric intelligence in a radar-denied, data-sparse Arctic environment.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "PEMDAS's DMO-EI Phase II promises real-time weather pushed machine-to-machine across a distributed fleet — the same fleet whose doctrine is EMCON, where real-time links are the first thing commanders turn off.",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Veteran-heavy 47-person environmental-intelligence firm turning atmospheric sensing into cockpit and mission decision tools for DoD, cycling through SBIRs and exercises toward an elusive program of record."
+}

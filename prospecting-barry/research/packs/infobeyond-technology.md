@@ -140,20 +140,6 @@ Redacted
 The U.S. Army GVSC continues utilizing Controller Area Network (CAN Bus) communication standards for embedded systems in the Army's manned, unmanned, electric, and autonomous vehicles (EVs, UGVs, UAVs). The existing CAN Bus security solutions require the hardware add-on and a centralized security measure, creating a single point of failure. InfoBeyond advocates VehChain: Blockchain Cryptography Decentralized Distributed Validating and Resiliency of Vehicle Control Systems. VehChain can be easily integrated into the CAN Bus through firmware revisions. No additional CAN hardware or data frame alternation is needed. To reduce communication overhead and latency, VehChain is designed based on the nature of CAN Bus, i.e., messages are broadcasted, nodes have no identifiers, and the frame identifier determines the specified node. Our VehChain provides a distributed and decentralized message validation scheme for intra-vehicle communication networks. Distributed message validation at each node secures the CAN bus through MAC, encryption, and key generation reminiscent of Blockchain technology. Each cryptographic key is tied to the CAN frame's identifier, hash (plain-text payload), and hash (previous key). To provide resiliency from corrupting messages, a reboot-based recovery approach utilizes CAN's built-in error handling mechanism. Hence, it mitigates the effect of attack propagation bus for ensuring operational safety, security, and continuity.
 
 ## News (Exa, top 3)
-- CONTRACT to INFOBEYOND TECHNOLOGY LLC () https://www.usaspending.gov/award/CONT_AWD_W5170123C0126_9700_-NONE-_-NONE-
-  USAspending.gov
-
-# --
-
----
-
-Loading
-- U.S. Navy Awards InfoBeyond to Advance Multi-Spectral Object Detection for Aegis and Naval Platforms () https://infobeyondtech.com/news/navy-award-msobjdet
-  U.S. Navy Awards InfoBeyond to Advance Multi-Spectral Object Detection for Aegis and Naval Platforms InfoBeyond: U.S. Navy Awards InfoBeyond to Advance Multi-Spectral Object Detection for Aegis and Naval Platforms
-
-# U.S. Navy Awards InfoBeyond to Advance Multi-Spectral Object Detection for Aegis and Naval Platforms - MsObjDET
-
-The United States Navy and other Department of Defense (DOD) agencies rely on advanced sensor systems to maintain maritime situational awareness, track threats, and guide
 - Award | SBIR () https://www.sbir.gov/awards/205530
   Award | SBIR Skip to main content
 
@@ -182,6 +168,18 @@ Woman Owned: No
 Socially and Economically Disadvantaged: Yes
 
 Congressional
+- U.S. Navy Awards InfoBeyond to Advance Multi-Spectral Object Detection for Aegis and Naval Platforms () https://infobeyondtech.com/news/navy-award-msobjdet
+  U.S. Navy Awards InfoBeyond to Advance Multi-Spectral Object Detection for Aegis and Naval Platforms InfoBeyond: U.S. Navy Awards InfoBeyond to Advance Multi-Spectral Object Detection for Aegis and Naval Platforms
+
+# U.S. Navy Awards InfoBeyond to Advance Multi-Spectral Object Detection for Aegis and Naval Platforms - MsObjDET
+
+The United States Navy and other Department of Defense (DOD) agencies rely on advanced sensor systems to maintain maritime situational awareness, track threats, and guide
+- InfoBeyond is awarded to develop AI technology to Revolutionize Atom Trap Trace Analysis () https://infobeyondtech.com/news/dtra-award-atta
+  InfoBeyond is awarded to develop AI technology to Revolutionize Atom Trap Trace Analysis InfoBeyond: InfoBeyond is awarded to develop AI technology to Revolutionize Atom Trap Trace Analysis
+
+# InfoBeyond is awarded to develop AI technology to Revolutionize Atom Trap Trace Analysis
+
+The detection and analysis of radioisotopes play a vital role in diverse scientific research and technological applications, spanning fields like archaeology, hydrology, cosmochemistry, biomedicine, and nuclear monito
 
 ## Open roles (Blitz, live)
 - Ph.D. Senior Student Intern ({'city': 'Louisville', 'country_code': 'US'})

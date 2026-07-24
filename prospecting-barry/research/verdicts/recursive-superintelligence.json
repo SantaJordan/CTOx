@@ -1,0 +1,16 @@
+{
+  "company": "Recursive Superintelligence, Inc.",
+  "slug": "recursive-superintelligence",
+  "domain": "recursive.com",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "No mention anywhere of DoD, military, warfighter, defense, or government customer; site/news describe a $650M general AI-research lab building recursively self-improving AI benchmarked on ML training/GPU kernel tasks with no defense angle at all.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "series_a",
+  "what_they_do": "General-purpose AI research lab building recursively self-improving AI to automate scientific/ML research."
+}

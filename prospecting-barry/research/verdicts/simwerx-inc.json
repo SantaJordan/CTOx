@@ -1,0 +1,16 @@
+{
+  "company": "SimWerx Inc.",
+  "slug": "simwerx-inc",
+  "domain": "simwerx.com",
+  "verdict": "insufficient_evidence",
+  "drop_reason": "",
+  "dod_intent_evidence": "Three Air Force SBIR awards (BEAST Phase II 2022 $740,614, Guardian Twin Phase II 2023, BioScent Phase I 2024) per own abstracts and SBIR.gov records, explicitly aligned to DOD TCCC/human-performance training gaps.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "low",
+  "stage_band": "unknown",
+  "what_they_do": "AI-empowered clinical decision support and skills-evaluation training for prehospital/combat casualty care; own-language pack is only ~217 words, too thin to score deployment awareness."
+}

@@ -1,0 +1,42 @@
+{
+  "company": "VIRTUVIA LLC (CoachMePlus)",
+  "slug": "virtuvia-llc",
+  "domain": "coachmeplus.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "SBIR abstract: 'CoachMePlus platform has been tailored for the DoD as the Warrior Performance Platform (WP2)' with 'a series of pilots and active programs spanning USN, USAF, Army Reserves, and the Army Recovery Care Program,' plus an Army Phase II H2F award and a Navy SBIR success story — genuine, ongoing DoD motion layered onto an established commercial product.",
+  "disconnect_score": 66,
+  "subscores": {"lab_language_intensity": 18, "deployment_awareness_absence": 16, "operator_absence": 8, "hiring_profile_skew": 14, "stage_pressure": 10},
+  "score_evidence": [
+    "'Trusted by Champions in Every Field'... 'trusted by elite NCAA programs around the country, as well as the NFL, NBA, NHL, MLB' → lab_language_intensity (pure commercial-brag framing, zero operational/military framing anywhere on the marketing site)",
+    "'we can integrate with Army data fabric by both ingesting data (such as Soldier lists and unit IDs) and by exporting human performance data... via API or file import/export' with no mention of ATO, RMF, CMMC, or STIG anywhere in the corpus → deployment_awareness_absence",
+    "'Open roles (Blitz, live): Marketing Internship' — the only visible hire is non-technical; no field, deployment, ISSO, or compliance role posted despite active multi-service DoD pilots → hiring_profile_skew"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "WP2's data collection leans on consumer wearable integrations (Garmin, Whoop, Oura, Apple, FitBit) and 'web-enabled devices' with no discussion of what happens when a unit is at a field training exercise or austere site without reliable connectivity to sync that data.",
+      "operator_reality": "A gym-born architecture assumes near-continuous connectivity to push wearable and app data to a central dashboard; in garrison that's fine, but the H2F use case explicitly spans deployed/field training contexts where a Soldier's Whoop band has nothing to sync to for days — the platform's value (real-time readiness dashboards) silently degrades exactly when leadership needs it most.",
+      "why_likely_missing": "The product's DNA and 200+ commercial team install base are built for gym/facility environments with wifi; the DoD tailoring (WP2) appears to be a data-integration overlay on the same architecture rather than a redesign for intermittent connectivity.",
+      "evidence_quote": "WP2 operates on web-enabled devices and through native iOS and Android apps and optionally integrates with enterprise and consumer personal wearable fitness and physical activity tracking devices.",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "The platform proposes bidirectional exchange of identifiable Soldier data (Soldier lists, unit IDs, human performance/health data) with the Army data fabric via API, but the entire own-language corpus never mentions ATO, RMF, CMMC, or NIST 800-171 for handling that data.",
+      "operator_reality": "Soldier PII/PHI flowing in and out of Army systems requires an authorization package before it can touch a real Army network at scale; a commercial SaaS company used to storing gym-member data under normal privacy law has a different compliance bar than one handling H2F records inside DoD's data fabric, and nothing in their public language shows that gap has been closed.",
+      "why_likely_missing": "The abstract is written to a sports-science/human-performance audience emphasizing data fusion capability, not to a security/authorizing-official audience — the compliance mechanics that actually gate DoD network access aren't the story they're telling.",
+      "evidence_quote": "In collaboration with... TIAG... the CoachMePlus platform has been tailored for the DoD as the Warrior Performance Platform (WP2)... we can integrate with Army data fabric by both ingesting data (such as Soldier lists and unit IDs)",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "The product's advocacy model is built around a 'coach' with direct daily authority over the athlete's schedule and workload — the abstract just says 'alerts are routed to the proper person' without naming who in an Army chain of command has that same standing authority to act.",
+      "operator_reality": "In a gym, the strength coach owns the athlete's day; in a garrison unit, the champion for a Soldier's H2F alert competes with a commander's mission priorities, training schedule, and a much thinner ratio of practitioners to Soldiers than any pro sports team — the abstract itself flags this ratio problem but doesn't say who has the standing authority to act on an alert when it fires.",
+      "why_likely_missing": "The alert-routing language was written generically to cover both commercial and military customers without specifying the military-specific advocacy chain, because the underlying product logic (route to 'the proper person') doesn't change between a college weight room and an Army post.",
+      "evidence_quote": "Alerts are routed to the proper person according to the severity and nature of the situation.",
+      "quote_source": "sbir_abstract"
+    }
+  ],
+  "opener_hook": "WP2 pulls Soldier readiness data through consumer wearables like Whoop and Garmin — how does that sync at a field training exercise with no wifi?",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "CoachMePlus, an established commercial athlete-management SaaS (220+ pro/NCAA teams) that has repackaged its platform as 'Warrior Performance Platform' for Army/Navy/Air Force Holistic Health and Fitness pilots via multiple SBIR Phase II awards."
+}

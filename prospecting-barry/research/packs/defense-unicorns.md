@@ -277,16 +277,50 @@ Share
 ---
 
 COLORADO SPRINGS, Colo.--(BUSINESS WIRE)-- Defense Unicorns, a veteran-owned startup providing open-source software and Artificial Intelligence (AI) capabilities for National Security systems, announced a $15 million U.S. Space Force Strategic Funding Increase (STRATFI) in partnership with Program Executive Office
-- Space Force selects startup Defense Unicorns to update software at ... (2024-03-13) https://spacenews.com/space-force-selects-startup-defense-unicorns-to-update-software-at-launch-ranges/
-  Space Force selects startup Defense Unicorns to update software at launch ranges - SpaceNews
+- Award | SBIR () https://www.sbir.gov/awards/205243
+  Award | SBIR Skip to main content
 
-Home/ Space Force selects startup Defense Unicorns to update software at launch ranges
+# Award
 
-A SpaceX Falcon 9 rocket launches the SES-22 satellite from Cape Canaveral Space Force Station in Florida. Credit: SES
+Portfolio Data
 
-WASHINGTON — A startup named Defense Unicorns has won a $15 million contract to update IT systems and software applications used to support rocket launches at U.S. Space Force ranges.
+Back to Award Search
 
-The company, 
+## Lula
+
+### Awardee
+
+#### DEFENSE UNICORNS, INC.
+
+https://www.sbir.gov/portfolio/1903667 555 E PIKES PEAK AVE STE 114COLORADO SPRINGS, CO, 80903-3612USA
+
+Award Year: 2023
+
+UEI: VVNBQBAWMBG8
+
+HUBZone Owned: No
+
+Woman Owned: No
+
+Socially and Economically Disadvantaged: No
+
+Congressional District: 5
+
+Tagged as:
+
+SBIR
+
+Phase I
+
+### Awarding Agency
+
+DOW
+
+Branch: USAF
+
+Total Award Amount: $74,775
+
+Contract Number: FA864
 
 ## Open roles (Blitz, live)
 - Senior Software Engineer - UDS Fleet Team ({'city': None, 'country_code': 'US'})

@@ -1,0 +1,16 @@
+{
+  "company": "VulnCheck",
+  "slug": "vulncheck",
+  "domain": "vulncheck.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "News: partnered with Carahsoft as its 'Public Sector distributor' for 'VulnCheck for Government' (2024), then raised a $25M Series B in 2026 'to address surging demand' — a 93-employee, multi-round-funded (In-Q-Tel-backed) cyber threat intelligence vendor already selling to government agencies at scale via an established public-sector channel, not a prototype stuck pre-fielding.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "A 93-employee, Series-B-funded ($25M+) exploit and vulnerability intelligence SaaS platform, already distributed to government agencies through a Carahsoft public-sector partnership alongside large commercial enterprise customers."
+}

@@ -134,25 +134,18 @@ image: https://xcmr.co/wp-content/uploads/2024/01/us-airforce.jpg
 * [ News Feed ](https://xcmr.co/news-feed)
 * [ January 18, 2024 ](https://xcmr.co/2024/01/18/)
 * [A
-- XCMR Secures $784,502 AFWERX Phase 2 Award to Advance Next-Generation PPE Development - XCMR (2022-06-29) https://xcmr.co/xcmr-secures-784502-afwerx-phase-2-award-to-advance-next-generation-ppe-development/
-  XCMR Secures $784,502 AFWERX Phase 2 Award to Advance Next-Generation PPE Development - XCMR
+- XCMR INC - Far UV-C Light Device May Help Prevent Surgical and Battlefield Wound Infections Award | SBIR.org () https://sbir.org/awards/dod-FA8649-24-P-0393-1
+  XCMR INC - Far UV-C Light Device May Help Prevent Surgical and Battlefield Wound Infections Award | SBIR.org
 
-- Announcements, Awards
-- June 29, 2022
-- News Feed
-- News Feed
+Phase II $1249822 Department of Defense
 
-## XCMR Awarded Department of Defense AFWERX Phase 2 Grant to Develop Next-Generation PPE
+# Far UV-C Light Device May Help Prevent Surgical and Battlefield Wound Infections
 
-## Award: Department of Defense (AFWERX) Phase 2 Award
+XCMR INC· January 2024
 
-## Amount: $784,502
+XCMR is developing a Far UV-C light device that appears capable of killing bacteria and viruses in surgical wounds and combat injuries, potentially reducing infection rates that currently reach 34% in battlefield casualties.
 
-## Duration: 15 months
-
-## Summary
-
-Following the success of its Phase 1 project, XCMR has been awarded a $784,502 Phase 2 AFWERX award by the Department of Defense. This fu
+## What is this
 
 ## Open roles
 (no jobs data found)

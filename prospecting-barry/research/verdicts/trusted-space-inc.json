@@ -1,0 +1,19 @@
+{
+  "company": "Trusted Space, Inc.",
+  "slug": "trusted-space-inc",
+  "domain": "trustedspace.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "Genuine DoD/IC motion via a USSF SBIR Phase II (xGEO NSTV threat modeling) plus multiple SBIR/STTR awards (2023-2025), but the company self-identifies as a professional-services firm, not a product company.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "\"Trusted Space, Inc. is a differentiated professional services company focused on providing modeling, simulation & analysis services; custom software and algorithm development services... and subject matter expertise for space systems and missions\" (LinkedIn about) → disqualified_type (services-only)",
+    "\"Our staff leverages decades of experience and expertise supporting both classified and unclassified space missions for NASA, DoD/IC, and commercial satellite acquirers\" (site) → staff-augmentation/SME support model, not a fielded product"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Professional-services firm providing space mission engineering, modeling/simulation, and custom software/algorithm development to NASA, DoD/IC, and commercial satellite customers."
+}

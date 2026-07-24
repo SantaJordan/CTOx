@@ -156,14 +156,6 @@ Valitus Technologies, LLC is a Defense and Space Manufacturing company. Valitus 
 ## About
 
 Making our Nation a safer place through the design, development and production of unique energy efficient LED area illumination with integrated radiological threat detection, high definition 360º situation aware security video, ballistic triangulation, emergency alert public
-- Contracts for June 16, 2026 (2026-06-16) https://www.war.gov/News/Contracts/Contract/Article/4518945/contracts-for-june-16-2026/
-  Contracts for June 16, 2026 > U.S. Department of War > Contract | U.S. Department of War
-
-Skip to main content (Press Enter).
-
-DEFENSE ADVANCED RESEARCH PROJECTS AGENCY
-
-SecuriGence LLC, Leesburg, Virginia, has been awarded a $121,521,288 modification (P00081) to previously awarded task order HR001121F0006 for information technology multi-network support services. The modification brings the total cumulative face value of the task order to $816,412,874 from $694,891,586. Work will be performed i
 - victus technologies, inc. (2026-06-25) https://getvictus.ai/
   # VICTUS Technologies, Inc.
 
@@ -172,6 +164,16 @@ VICTUS Technologies, Inc. is a Software Development company. VICTUS Technologies
 ## About
 
 VICTUS builds resilient navigation and contested-environment autonomy for unmanned, manned, and robotic systems. Our flagship PhantomNAV software keeps platforms operating when GPS, comms, and visuals fail—across air, sea, land, and space. MIT-born,
+- valtius (2026-06-04) https://valtius.com/
+  # Valtius
+
+Valtius is a IT Services and IT Consulting company. Valtius employs 2 people, founded in 2025. Headquartered in North Macedonia.
+
+## About
+
+Valtius is a software engineering and technology consulting company partnering with ambitious businesses to build, scale, and modernize digital products through high-performing engineering teams and reliable delivery.
+
+We work with software companies, telecom operators, fintech organizations, and enterprises across Europe and the United States, he
 
 ## Open roles
 (no jobs data found)

@@ -1,0 +1,45 @@
+{
+  "company": "Anno.Ai",
+  "slug": "anno-ai",
+  "domain": "anno.ai",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "USAF SBIR record in their own award pages — EchoDome Phase II (2025), EchoGuard cUAS Phase I (2025), base-protection Phase I (2024) — plus site language on defense-ecosystem testing and a Camp Grafton 'UAS battlefield readiness demonstration' (sbir/news + homepage).",
+  "disconnect_score": 68,
+  "subscores": {"lab_language_intensity": 14, "deployment_awareness_absence": 13, "operator_absence": 13, "hiring_profile_skew": 15, "stage_pressure": 13},
+  "score_evidence": [
+    "'If you are looking to accelerate your TLR and MLR paths for autonomous systems, we are here to help' — leads with TRL acceleration (and typos it as 'TLR') -> lab_language_intensity",
+    "Homepage still contains live placeholder copy: 'Lorem ipsum dolor sit amet consectetur...' under 'Why The Arena and LSTR?' -> lab_language_intensity",
+    "~1,100 words describing test ranges, sensors, and cUAS products with zero mention of ATO/RMF, CMMC, ITAR, or how range/sensor data gets accredited onto government networks -> deployment_awareness_absence",
+    "No operators, warfighters, training, or CONOPS anywhere in their own language; closest is a news headline about a Camp Grafton demo -> operator_absence",
+    "Only two open roles, both 'Senior ML Engineer' — no field, test, sustainment, or compliance hires despite claiming fielded detection products and a physical test range -> hiring_profile_skew",
+    "13 employees, fresh 2025 Phase I/II awards, and a visible pivot (Reston, VA ISR software to Duluth, MN test-range operator) -> stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "cUAS detection products with no path into the common operating picture",
+      "operator_reality": "EchoDome/EchoGuard alerts that don't publish to ATAK/TAK or the base defense operations center are a screen nobody watches; a passive acoustic warning that can't cue the counter-UAS kill chain in low-bandwidth conditions is a demo, not a defense — and TAK never appears in their materials.",
+      "why_likely_missing": "Team heritage is CV/ML software (Anno Vision) and their two open roles are both ML engineers; nobody owns tactical-network integration.",
+      "evidence_quote": "EchoGuard - cUAS Passive Drone Detection Platform",
+      "quote_source": "news"
+    },
+    {
+      "blind_spot": "TRL acceleration equated with fielding",
+      "operator_reality": "A TRL-7 demonstration on Lake Superior does not survive contact with RMF: connecting range telemetry, sensor feeds, and labeled data to any DoD network needs an ATO package their language never acknowledges — the transition dies in accreditation months, not testing weeks.",
+      "why_likely_missing": "Their business model is selling readiness-level progression, so readiness level is the metric they think in; acquisition-side gates aren't their customer conversation yet.",
+      "evidence_quote": "consist of testing and monitoring infrastructure to accelerate the Technical Readiness Level (TRL) of new autonomous UV platforms",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Advertising harsh-environment testing with no sustainment staffing",
+      "operator_reality": "Shore, surface, and lakebed sensor infrastructure through a Duluth winter needs field technicians, spares, and recovery crews on payroll; a 13-person company hiring only ML engineers will watch its own range instrumentation go dark in exactly the 'extreme cold and wind conditions' it sells.",
+      "why_likely_missing": "The pivot to physical infrastructure is recent; the org chart still reflects the software company they were.",
+      "evidence_quote": "Provides rigorous testing in extreme cold and wind conditions.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Anno's EchoGuard won a USAF Phase I in 2025, yet both open roles are ML engineers — nobody is posted for the field work of keeping passive acoustic arrays alive through the Duluth winters the site advertises as a feature.",
+  "confidence": "medium",
+  "stage_band": "series_a",
+  "what_they_do": "Runs autonomous-vehicle test ranges (Lake Superior Test Range) and builds passive acoustic drone/threat detection sensors under USAF SBIRs."
+}

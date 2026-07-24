@@ -137,59 +137,6 @@ The main objective of this effort is to provide a secure and lightweight framewo
 ## News (Exa, top 3)
 - CONTRACT to THINKSENSE INC. () https://www.usaspending.gov/award/CONT_AWD_HR001123C0161_9700_-NONE-_-NONE-
   USAspending.gov
-- Thinksense Profile () https://www.highergov.com/awardee/thinksense-inc-363322315/
-  Thinksense Profile -- --
-
-HigherGov
-
-Notify
-
-- New Grant Awards
-- New Contract Awards
-
-Favorite
-
-Export
-
-- Excel
-- CSV
-
-Claim
-
-Share
-
-- Tweet
-- Email
-- Copy URL
-
-Search Awardees
-
-# Thinksense
-
-UEI: K1G2TUL6GJU3 &#x2022 CAGE: 9GG80
-
-'Game Changing Market Intel' HigherGov subscribers won more than $120 Billion in government awards in the last year Free Trial Schedule Demo --
-
-- Text
-- List
-
-## Overview
-
-Awardee Type
-
-Parent
-
-Name
-
-Thinksense
-
-Website
-
-https://www.thinksense.com
-
-Headquarters
-
-Fair
 - thinksense inc. (2026-06-04) https://thinksense.com/
   # ThinkSense Inc.
 
@@ -209,6 +156,17 @@ ThinkSense Inc. is a Research Services company. ThinkSense Inc. employs 3 people
 - Employees: 3 (1-10 employees)
 - Key Executives:
   - Daliborka Stanojevic
+- thinksense (2026-06-10) https://linkedin.com/company/thinksense
+  # thinkSense
+
+thinkSense is a IT Services and IT Consulting company. Founded in 2013. Headquartered in The Hague, South Holland, Netherlands.
+
+## About
+
+thinkSense levert diensten op het gebied van IT management in het algemeen, met daarbij project- en informatiemangement in het bijzonder.
+
+Op het vlak van projectmanagement ligt de specialisatie met name op agile/scrum, Microsoft projecten (SharePoint, BizTalk, maatwerk, Dynamics CRM, Office 365), ERP, portals, DMS en integratie (ESB). 
+De tw
 
 ## Open roles
 (no jobs data found)

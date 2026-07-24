@@ -341,10 +341,14 @@ Share this
 - Facebook
 
 Impact Observatory is building an artificial intelligence-powered mapping prototype designed to help accelerate the identification of multiple classes of land cover in near real-time under a Small Business Innovation Research contract with the National Geospatial-Intell
-- impact observatory (2026-06-23) https://impactobservatory.com/
-  # Impact Observatory (Impact Observatory, Inc.)
+- Impact Observatory raises $5.9 million to apply AI to satellite imagery (2023-03-29) https://spacenews.com/impact-observatory-raises-5-9-million-to-apply-ai-to-satellite-imagery/
+  Impact Observatory raises $5.9 million to apply AI to satellite imagery - SpaceNews
 
-Impact Observatory is a Technology, Information and Internet company. Impact Observatory provides revolutionary ai-powered geospatial monitoring and on-demand data. They offer land cover maps, real-time mapping and change monitoring of populations, infrastructure, and natural resources. Impact Observatory employs 10 people (-25.0% YoY, -4 people) and has an annual revenue of $1M, founded in 2020. Headquartered in Washington, District of Columbia, 
+Home/ Impact Observatory raises $5.9 million to apply AI to satellite imagery
+
+Impact Observatory applies deep learning algorithms to imagery obtained by the European Space Agency Copernicus Sentinel satellites to update maps and monitor change. Credit: Impact Observatory
+
+SAN FRANCISCO – Impact Observatory, a company that applies artificial intelligence to satellite imagery for mapping and monitoring, raised $5
 
 ## Open roles
 (no jobs data found)

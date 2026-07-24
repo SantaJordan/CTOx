@@ -302,30 +302,26 @@ Download White Paper
 Teradar is a Boston-based startup pioneering the use of terahertz technology to launch a new generation of life-saving sensors for automotive, defense, and emerging industries.
 
 ## News (Exa, top 3)
-- Teradar Completes SBIR Phase II Contract with the U.S. ... (2026-03-03) https://www.prnewswire.com/news-releases/teradar-completes-sbir-phase-ii-contract-with-the-us-army-to-apply-terahertz-sensing-technology-for-threat-detection-302699674.html
-  Teradar Completes SBIR Phase II Contract with the U.S. Army to Apply Terahertz Sensing Technology for Threat Detection Accessibility Statement Skip Navigation
+- Award | SBIR () https://www.sbir.gov/awards/209650
+  Award | SBIR Skip to main content
 
-- The goal of the $1,899,778 contract is to deploy new terahertz sensing capabilities to heighten battlefield situation awareness and protect U.S. and allied troops.
-- Teradar's new high‑resolution terahertz vision system detects threats in low-visibility and degraded visual conditions where conventional sensors fail.
-- Testing with partn
-- TeraDar, Inc. () https://www.sbir.gov/portfolio/1953529
-  Firm | SBIR Skip to main content
-
-# Company
+# Award
 
 Portfolio Data
 
-Back to Company Search
+Back to Award Search
 
-## TeraDar, Inc.
+## Terahertz Sensing for Situation Awareness
 
-### Address
+### Awardee
 
-88 Black Falcon Ave Suite 188Boston, MA, 02210USA
+#### TeraDar, Inc.
+
+https://www.sbir.gov/portfolio/1953529 88 Black Falcon Ave Suite 188Boston, MA, 02210USA
+
+Award Year: 2024
 
 UEI: HWVMYRFJQLH8
-
-Number of Employees: 48
 
 HUBZone Owned: No
 
@@ -333,35 +329,29 @@ Woman Owned: No
 
 Socially and Economically Disadvantaged: No
 
-#### SBIR/STTR Involvement
+Congressional District: 8
 
-Year of first award: 2023
+Tagged as:
 
-2
+SBIR
 
-Phase I Awards
+Phase II
 
-4
+### Awarding Agency
 
-Phase II Awards
+DOW
 
-200%
+Branch: ARMY
 
-Conversion Rate
+Total Award Amount: $1,899,778
 
-$324,020
+Cont
+- Teradar Completes SBIR Phase II Contract with the U.S. Army to Apply ... (2026-03-03) https://www.prnewswire.com/news-releases/teradar-completes-sbir-phase-ii-contract-with-the-us-army-to-apply-terahertz-sensing-technology-for-threat-detection-302699674.html
+  Teradar Completes SBIR Phase II Contract with the U.S. Army to Apply Terahertz Sensing Technology for Threat Detection Accessibility Statement Skip Navigation
 
-Phase I Dollars
-
-$6,098,715
-
-Phase II Dollars
-
-$6,422,735
-
-Total Awarded
-
-## Awar
+- The goal of the $1,899,778 contract is to deploy new terahertz sensing capabilities to heighten battlefield situation awareness and protect U.S. and allied troops.
+- Teradar's new high‑resolution terahertz vision system detects threats in low-visibility and degraded visual conditions where conventional sensors fail.
+- Testing with partn
 - Teradar Completes US Army SBIR Phase II Contract, Demonstrating THz Sensing for Threat Detection (2026-03-26) https://www.everythingrf.com/News/details/21749-teradar-completes-us-army-sbir-phase-ii-contract-demonstrating-thz-sensing-for-threat-detection
   Teradar Completes US Army SBIR Phase II Contract, Demonstrating THz Sensing for Threat Detection
 

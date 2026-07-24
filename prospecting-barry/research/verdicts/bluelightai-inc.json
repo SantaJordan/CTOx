@@ -1,0 +1,52 @@
+{
+  "company": "BluelightAI Inc",
+  "slug": "bluelightai-inc",
+  "domain": "bluelightai.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "SBIR section: DARPA Phase II, $1,687,309 (2023), 'Network-Based Visualization Algorithms for Improved Feature Engineering, Analysis, and Modeling', whose abstract names 'important DoD applications'; the homepage independently lists defense as a served vertical and carries a 'Mission & Intelligence' application block.",
+  "disconnect_score": 75,
+  "subscores": {
+    "lab_language_intensity": 16,
+    "deployment_awareness_absence": 16,
+    "operator_absence": 15,
+    "hiring_profile_skew": 18,
+    "stage_pressure": 10
+  },
+  "score_evidence": [
+    "'Co-invented by our founder, Dr. Gunnar Carlsson, at Stanford' and 'Our cross-layer transcoders for Qwen3 models reveal interpretable concepts inside an LLM's mind' -> lab_language_intensity: the proof offered is academic provenance and open-model research, not a fielded result",
+    "Blog is thirteen consecutive research posts ('Circuit Tracing with the Qwen3 Cross-Layer Transcoders', 'Graph Modeling for Mechanistic Interpretability', 'Signal Processing for AI') -> lab_language_intensity",
+    "'We work from the test and production traces your systems already record, using your existing evaluation and observability tools. No new instrumentation, and no change to your stack.' -> deployment_awareness_absence: a data-egress-shaped delivery model described in ~1961 words that never once say ATO, RMF, IL5, STIG, CMMC, ITAR, air gap or enclave",
+    "'Built for the data science, risk, and engineering teams responsible for models in production' -> operator_absence: the named user is an enterprise data scientist; no analyst, no operator, no CONOPS, no field feedback loop anywhere",
+    "'Mission & Intelligence — For models assessed before deployment in high-stakes settings' -> operator_absence: the one defense-facing block is the vaguest text on the site",
+    "Open roles, live: a single posting, 'BluelightAI Research Fellowship' -> hiring_profile_skew: the only hire on the board is a research fellowship, with zero deployment, integration, security or compliance roles",
+    "HigherGov profile in news section: 'Most Recent Award — July 25, 2023' -> stage_pressure: nine-person team, no federal follow-on visible in three years, commercial pivot toward banking and credit risk underway"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The delivery model assumes the traces can come to them",
+      "operator_reality": "Their entire method starts by reading the customer's existing test and production traces. In a mission or intelligence setting those traces inherit the classification of the workload — prompts, retrieved documents, target names, sensor context. Nothing leaves the enclave, ever, and no vendor SaaS reads it. That means the analysis engine has to run inside an accredited boundary as an offline, dependency-pinned, STIG-checked build with no callback telemetry, and the findings have to come out through a review process rather than a dashboard. 'No change to your stack' is exactly backwards on a government network, where the stack is the constraint.",
+      "why_likely_missing": "Every commercial vertical they lead with — banking, insurance, lending, collections — solves this with a BAA or a VPC and lets the vendor touch the data, so the assumption has never been tested against a customer who legally cannot hand anything over.",
+      "evidence_quote": "We work from the test and production traces your systems already record, using your existing evaluation and observability tools. No new instrumentation, and no change to your stack.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Interpretability compute budgets that only exist on commercial cloud",
+      "operator_reality": "Topological data analysis over high-dimensional activations plus cross-layer transcoders is GPU-hungry and iterative — it is a research workflow priced at elastic cloud GPU. Inside a classified enclave GPU is a fixed, scheduled, contested resource shared with the mission model itself, and requesting more is a procurement action measured in quarters. A tool whose runtime is 'however long the analysis takes' becomes unusable when the analyst gets a four-hour window on shared hardware. The architecture decision — bounded, incremental, checkpointable analysis with a hard compute ceiling — has to be made before the pilot, not after the first enclave run times out.",
+      "why_likely_missing": "The public artifacts benchmark against Qwen3, an open model on open hardware, where scaling up is a billing decision rather than an accreditation and logistics decision.",
+      "evidence_quote": "Cobalt is our TDA-powered engine for AI interpretability. It helps data teams discover, inspect, and verify what a model is doing across test runs and production.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No advocacy chain above the analyst",
+      "operator_reality": "They aim at 'data science, risk, and engineering teams' — in a bank that team owns budget, in DoD it does not. The people who would love this tool are contractors and government civilians inside a program office with no procurement authority; the money and the requirement sit with the program manager and the test-and-evaluation authority who must certify a model before fielding. Unless the pitch is reframed as evidence for a T&E artifact — the thing that lets an authorizing official sign — an interpretability subscription is the first line cut in a budget drill. Analysts loving it is not adoption.",
+      "why_likely_missing": "In regulated commercial industries the risk function is both the user and the buyer, so the champion and the check-writer are the same person and the advocacy problem never appears.",
+      "evidence_quote": "We go deepest with teams in banking, financial services, insurance, healthcare, and defense, where an automated decision carries real consequences and has to hold up under scrutiny.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "HigherGov shows your most recent federal award as July 25, 2023 — the DARPA Phase II — and the only role open on your site today is a research fellowship, which is a fair description of where interpretability companies usually stall on the government side.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Uses topological data analysis and mechanistic interpretability to read a customer's model traces and show which production behaviors their eval suite never covered — sold to banking, insurance, healthcare and, nominally, defense."
+}

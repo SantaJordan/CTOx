@@ -1,0 +1,44 @@
+{
+  "company": "Everalbum, Inc. (d/b/a Paravision)",
+  "slug": "everalbum-inc",
+  "domain": "paravision.ai",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "USAF PLASMA TACFI Phase IIB SBIR, $3,323,650 (2022): their own abstract promises 'a converged identity capability' for 'USAF personnel' (SBIR/STTR record section) — genuine defense motion, but the fielding path for it appears nowhere in their public materials.",
+  "disconnect_score": 58,
+  "subscores": {"lab_language_intensity": 17, "deployment_awareness_absence": 14, "operator_absence": 13, "hiring_profile_skew": 8, "stage_pressure": 6},
+  "score_evidence": [
+    "'Consistently ranked at the top of NIST FRTE benchmarks, including 1:1 Verification, 1:N Identification' → lab_language_intensity",
+    "'Through rapid software iterations, Paravision reached the top of the National Institute of Science and Technology (NIST) leaderboards' (their own SBIR abstract) → lab_language_intensity",
+    "'Runs on Kubernetes, supports REST and gRPC interfaces, and is cloud-ready' — detailed deployment description with zero ATO/RMF/STIG/IL or DDIL language anywhere → deployment_awareness_absence",
+    "SBIR abstract mentions Airmen only as mission rhetoric ('the safety and security of our nation's Airmen') — no training, CONOPS, or field-feedback language on any product page → operator_absence",
+    "Only live role is 'Senior Solutions Engineer (London Area, GB)' — commercial deployment hiring, no ISSO/compliance/US-gov field role → hiring_profile_skew"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Cloud-native container architecture with no visible ATO/RMF path for an Air Force base security system",
+      "operator_reality": "PLASMA has to run on a government network at an installation — that means RMF accreditation, STIGs, and an IL4/IL5 hosting decision before a single camera goes live; a Kubernetes/gRPC 'cloud-ready' stack scoped for commercial partners restarts that clock from zero, and the TACFI period of performance is the only funding covering it.",
+      "why_likely_missing": "Their entire commercial motion sells SDKs and containers to integration partners who own deployment; nobody on the public roster owns government accreditation.",
+      "evidence_quote": "Runs on Kubernetes, supports REST and gRPC interfaces, and is cloud-ready.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "'Real time analytics' across base security domains assumes bandwidth and connectivity a flightline or gate installation may not have",
+      "operator_reality": "1:N face search with live video feeds across 'multiple security system domains' is exactly the 30fps-crowd-detection failure mode — constrained base networks and edge enclaves throttle streaming, and without frame-rate/match-rate decoupling the demo that worked in the Presidio lab times out at the gate shack.",
+      "why_likely_missing": "NIST and DHS rally benchmarks — their entire brag sheet — are run on curated data with unconstrained compute, never over degraded links.",
+      "evidence_quote": "Through multi-factor authentication and real time analytics, USAF personnel are presented with a converged identity capability",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "No operator training or sustainment story for the airmen who actually run entry control",
+      "operator_reality": "The user of a base identity system is an E-3/E-4 security forces airman with minutes of training, enrolling faces in dust, glare, and gloves — enrollment quality in those conditions is what breaks 'ultra-accurate' claims, and nobody in their language trains, fixes, or sustains the system after install.",
+      "why_likely_missing": "Their customers are solution providers ('Built with Paravision'), so the end operator is two contractual hops away and invisible to them.",
+      "evidence_quote": "Ultra-accurate face recognition across environments, demographics, and user angles.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Paravision's $3.3M PLASMA TACFI abstract promises USAF personnel real-time converged identity across base security domains, yet every deployment word on paravision.ai is Kubernetes-and-cloud — with no ATO, RMF, or IL-level path mentioned anywhere public.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Commercial face recognition, liveness, and deepfake-detection SDKs, with a USAF TACFI project to field a converged identity system on Air Force installations."
+}

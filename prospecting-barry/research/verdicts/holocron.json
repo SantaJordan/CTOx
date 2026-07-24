@@ -1,0 +1,20 @@
+{
+  "company": "Holocron Technologies",
+  "slug": "holocron",
+  "domain": "holocron.tech",
+  "verdict": "insufficient_evidence",
+  "drop_reason": "",
+  "dod_intent_evidence": "Only soft national-security positioning — LinkedIn about says 'Holocron builds AI-driven global domain awareness solutions for national security' and the mission page cites advisors 'including a former Secretary of Defense' — but no SBIR record, no contract record, and no named DoD customer anywhere in the pack.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "Own-language word count is ~357, below the ~500-word evidence floor — the entire site is slogans ('WE DELIVER THE UNKNOWN', 'THE DIGITAL ARSENAL OF DEMOCRACY') with no product description",
+    "'We've engineered AI and software trusted in the most austere environments' is the only operational claim and it is unfalsifiable — no product, no customer, no capability named",
+    "No jobs data in pack, so hiring skew cannot be assessed"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Seven-person DC pre-seed startup applying AI/NLP to open-source science and technology data for national-security domain awareness; product details are not public."
+}

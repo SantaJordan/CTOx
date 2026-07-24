@@ -243,26 +243,6 @@ At GelSight, we’re creating breakthrough solutions that unlock the unlimited p
 GelSight was born from leading-edge academic research. Our co-founders were research scientists at the Massachusetts Institute of Technology (MIT), developing new technologies in the fields of 3D imaging, perceptual modeling and signal processing, building a rich IP estate. All of us at GelSight share their drive to push the boundaries of what’s possible.
 
 ## News (Exa, top 3)
-- GelSight Awarded $2M by Department of Defense for Digital ... (2025-12-06) https://www.linkedin.com/posts/frontier-optic_gelsight-has-been-awarded-2000000-by-the-activity-7403039747700326400-XlmU
-  GelSight Awarded $2M by Department of Defense for Digital Tactile Sensors | Frontier Optic posted on the topic | LinkedIn
-
-Agree & Join LinkedIn
-
-By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy.
-
-# GelSight Awarded $2M by Department of Defense for Digital Tactile Sensors
-
-This title was summarized by AI from the post below.
-
-Frontier Optic
-
-1,445 followers
-
-3mo
-
-- Report this post
-
-GelSight has been awarded $2,000,000 by the Depa
 - GelSight Awarded U.S. Air Force Phase II SBIR to Advance Compact ... (2026-03-10) https://www.gelsight.com/gelsight-air-force-sbir-robotic-tactile-sensors/
   GelSight Awarded U.S. Air Force Phase II SBIR to Advance Compact Tactile Fingertip Sensors for Intelligent Robotic Grasping and Dexterity - GelSight
 
@@ -283,6 +263,14 @@ Share
 Flexible and powerful inspection technology commercializes at scale, validating dual-use potential of Army-funded R&D
 
 Named for the modular probe architecture that emerged from Army requirements, the Modulus was originally developed under Contract W911W6-23-C-0002 with DEVCOM Aviation & Missile Center (DEVC
+- From Army depot to factory floor: GelSight's Modulus reaches 100-units sold milestone - Defense and Munitions (2026-05-20) https://www.defenseandmunitions.com/news/from-army-depot-to-factory-floor-gel-sight-modulus-reaches-100-units-sold-milestone/
+  From Army depot to factory floor: GelSight's Modulus reaches 100-units sold milestone - Defense and Munitions
+
+# From Army depot to factory floor: GelSight's Modulus reaches 100-units sold milestone
+
+Flexible and powerful inspection technology commercializes at scale, validating dual-use potential of Army-funded R&D
+
+Named for the modular probe architecture that emerged from Army requirements, the Modulus was originally developed under Contract W911W6-23-C-0002 with DEVCOM Aviation & Missile Cen
 
 ## Open roles (Blitz, live)
 - Director of Quality & Compliance ({'city': 'Waltham', 'country_code': 'US'})

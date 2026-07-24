@@ -1,0 +1,44 @@
+{
+  "company": "Dragoon Technology LLC",
+  "slug": "dragoon-technology-llc",
+  "domain": "dragoon.tech",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Multiple contract records plus their own posts — DARPA SBIR Phase II 'High Endurance Attritable Hybrid Electric Drone' ($1,499,263, 2023), USAF SBIR Phase II 'Air Launched High Endurance UAS for RSTA Operations' (2024), an OSD Other Transaction Agreement HQ08452590044 'Long Range One-way Platform', and their own 2025-03-14 post 'Dragoon Awarded DIU Artemis Contract'.",
+  "disconnect_score": 69,
+  "subscores": {"lab_language_intensity": 12, "deployment_awareness_absence": 13, "operator_absence": 15, "hiring_profile_skew": 13, "stage_pressure": 16},
+  "score_evidence": [
+    "'a single endurance test aircraft demonstrating 14.7 hours of continuous flight covering over 916 miles (1,467 km). This endurance demonstration validates Dragoon's ability to deploy multiple long-range UAS in coordinated operations' → lab_language_intensity: a benign-range test flight is presented as validation of a coordinated operational capability",
+    "No mention of ITAR, DFARS, NDAA Section 848 / Blue UAS, CMMC, GPS denial, jamming or spoofing anywhere on the site despite an OSD one-way-platform OTA → deployment_awareness_absence",
+    "Nothing in the pack names an operator, launch crew, maintainer, training pipeline or CONOPS; the closest is 'Aircraft can be launched from fixed sites and controlled remotely' → operator_absence",
+    "Only open role is a single 'Software Engineer' in Tucson — no production, quality, field-test, integration or compliance hiring behind an attritable platform that must reach high rate → hiring_profile_skew",
+    "'manufacturing processes to bridge the gap between prototype and high-rate production are being implemented at the earliest stage possible' (DARPA Phase II abstract) against 3-10 employees running DARPA PhII, USAF PhII, a DIU Artemis award and an OSD OTA concurrently → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Their demonstrated comms and control architecture is satcom plus remote piloting, with no stated behavior under GPS denial or satcom jamming — on a program DIU scoped explicitly for contested electromagnetic environments.",
+      "operator_reality": "A one-way long-range platform flying into a contested area loses both satcom and GPS well before terminal; without on-board PNT fallback (visual/terrain-referenced navigation, INS drift budget, time-on-target tolerance) the aircraft either aborts or misses. The 916-mile Gulf flight proves airframe endurance under perfect PNT and never exercises the failure mode the mission is defined by — the same shape as the 30fps crowd-detection case, where the demo environment quietly supplied a resource the deployed one denies.",
+      "why_likely_missing": "The team's stated edge is powertrain and cost economics ('novel hybrid powertrain and tightly integrated technology stack'), and their only engineering opening is a generalist Software Engineer — no navigation, EW, or autonomy hire visible.",
+      "evidence_quote": "exercising NOAA's Beyond Visual Line of Sight (BVLOS) Certificate of Authority (COA) from the Federal Aviation Administration and satellite communications capability over the Gulf of America with the Coriolis UAS",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "An attritable UAS sold to DoD lives or dies on NDAA Section 848 / Blue UAS supply-chain compliance and DFARS flow-downs, and neither the site nor the SBIR abstract mentions component provenance at all — while the cost story depends on vertically integrating cheap subcomponents.",
+      "operator_reality": "The cheapest path to low marginal cost on motors, ESCs, radios, cameras and flight controllers runs through covered-foreign-entity suppliers. A unit cannot procure or fly a non-compliant airframe regardless of how good the endurance is, and re-sourcing the bill of materials after the design freezes costs a redesign cycle the Phase II clock does not have.",
+      "why_likely_missing": "Their explicit strategy is to collapse 'expensive black box subcomponents' into their own low-cost integrated stack — a cost-engineering frame in which supplier nationality is an afterthought, and there is no supply-chain, compliance, or contracts hire anywhere in the pack.",
+      "evidence_quote": "Traditionally, UAS platform cost is largely driven by a small number of expensive \"black box\" subcomponents. Dragoon's approach to vertically integrating all of these components into a tightly coupled system architecture results in very low total system cost.",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "The hybrid powertrain's headline benefit is liquid fuel, but nothing states which fuel, who services the engine, or what the field maintenance burden is — the site markets it as 'ease of use' with no sustainment content.",
+      "operator_reality": "DoD's single-fuel-forward policy means the fuel actually available at an austere site is JP-8/JP-5, not pump gasoline. A small spark-ignition engine that wants avgas or premium unleaded creates a class-III supply problem no forward unit will solve, and an ICE also brings oil, plugs, filters, cold-start behavior in dust and heat, and a maintainer MOS that does not exist for Group 1 UAS. Battery-powered competitors have none of this, which is why 'ease of use of batteries' is the claim that will be tested hardest.",
+      "why_likely_missing": "The company frames itself around 'the challenging economics of the unmanned aircraft industry' — unit cost and endurance — and there is no logistics, product-support, or field-service function represented among 10 employees.",
+      "evidence_quote": "Dragoon's novel hybrid powertrain combines the ease of use of batteries with the superior energy density of liquid fuels.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Your January post logs 14.7 hours and 916 miles over the Gulf under a NOAA BVLOS COA, while the DIU Artemis award you announced is scoped to contested electromagnetic environments — those two flight profiles test almost nothing in common.",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Tucson team building low-cost, long-endurance Group 1 unmanned aircraft (Coriolis) around a hybrid battery-plus-combustion powertrain for attritable long-range military missions and NOAA hurricane reconnaissance."
+}

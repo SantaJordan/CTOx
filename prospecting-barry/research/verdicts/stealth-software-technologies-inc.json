@@ -1,0 +1,16 @@
+{
+  "company": "Stealth Software Technologies, Inc.",
+  "slug": "stealth-software-technologies-inc",
+  "domain": "stealthsoftwareinc.com",
+  "verdict": "drop",
+  "drop_reason": "sbir_mill",
+  "dod_intent_evidence": "DoD-funded SCARIE Phase II SBIR ($1.5M, 2022) exists and is genuine, but the company's 20-year pattern — 'more than 20 government programs,' DARPA/IARPA/NSF/NIST 'seedling' funding, a team dominated by PhD 'Research Scientist' titles, and testing partners that are themselves research orgs (MIT Lincoln Lab, RAND, JHU APL) rather than deployed units — shows a research house whose business model is winning government R&D awards, not fielding products.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Applied-cryptography research house (secure multiparty computation, zero-knowledge proofs, searchable encryption) performing on dozens of DARPA/IARPA/NSF/NIST/DoD grants over 20 years; no visible fielded product or named end customer."
+}

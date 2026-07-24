@@ -1,0 +1,16 @@
+{
+  "company": "Durin",
+  "slug": "durin",
+  "domain": "durin.com",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "Homepage mentions defense only rhetorically ('We rely heavily on China for minerals that power our defense.') — no SBIR, no DoD/DIU/AFWERX engagement, no defense contract; all customer language is mineral exploration and mining companies (website section 'Solvingexistentialproblems' and 'Our Plan').",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Builds and operates remotely operated, semi-autonomous drill rigs for mineral exploration."
+}

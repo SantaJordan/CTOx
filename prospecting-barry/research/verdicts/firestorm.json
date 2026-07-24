@@ -1,0 +1,16 @@
+{
+  "company": "Firestorm Labs",
+  "slug": "firestorm",
+  "domain": "launchfirestorm.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Deep genuine DoD motion (news: '$100 Million IDIQ Contract by U.S. Air Force', '$30M APFIT Award to Scale Expeditionary Manufacturing and Tempest UAS production for the Indo-Pacific'), but APFIT is a production-scaling award on top of an $82M Series B and 208 employees — they have crossed the valley and are fielding at scale, not stuck between demo and deployment.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "3D-printed modular UAS (Tempest, Squall) plus containerized expeditionary manufacturing cells (xCell) for forward-deployed production."
+}

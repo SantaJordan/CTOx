@@ -1,0 +1,44 @@
+{
+  "company": "Matter Intelligence, Inc.",
+  "slug": "matter-intelligence-inc",
+  "domain": "matter.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Channel-notes metadata: 'Matter received a Department of the Air Force Direct-to-Phase-II SBIR for EARTH, a fused-imaging sensor system for real-time ISR, edge processing, and space-based environmental monitoring' (src: sbir.gov/awards/216904) — a specific contract record, though never mentioned on the company's own site.",
+  "disconnect_score": 66,
+  "subscores": {"lab_language_intensity": 19, "deployment_awareness_absence": 12, "operator_absence": 12, "hiring_profile_skew": 13, "stage_pressure": 10},
+  "score_evidence": [
+    "'Superintelligent Vision for the Physical World', 'Breakthrough Imaging + Large World Model', 'leaps ahead of current available capabilities' — pure lab hype language, zero operational framing → lab_language_intensity",
+    "zero mentions of DDIL/ATO/RMF/CMMC/ITAR/STIG in ~695 words (capped at 12 per <1000-word rule) → deployment_awareness_absence",
+    "zero mentions of operators, warfighters, training, or CONOPS anywhere in own language (capped at 12 per <1000-word rule) → operator_absence",
+    "open roles split between hardware/test (neutral: Test Engineer, Testbed Engineer, Senior Systems Engineer) and a commercial 'Insurance' product line (Product Manager - Insurance, Product Researcher - Insurance) — no compliance/ISSO/field-deployment role for the DoD ISR use case → hiring_profile_skew",
+    "$47.9M raised ($12M seed Oct 2024, $35.9M Series A Apr 2026), 33 employees — well-capitalized but Direct-to-Phase-II SBIR clock is still running → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The site's own language never mentions ISR, DoD, or military use at all — it frames the sensor purely around 'Aerospace' and now hires for an 'Insurance' product line, despite holding an Air Force Direct-to-Phase-II SBIR for real-time ISR.",
+      "operator_reality": "If commercial roadmap investment (insurance risk assessment) is where hiring and messaging attention is actually going, the DoD ISR use case risks becoming an afterthought exactly while the SBIR Phase II clock runs — the company's real attention moving to the easier commercial buyer.",
+      "why_likely_missing": "Company is prioritizing a broader 'Large World Model for the physical world' commercial vision (insurance, industrial monitoring) over messaging to a defense buyer.",
+      "evidence_quote": "Product Manager - Insurance / Product Researcher - Insurance (open roles); site copy discusses only 'Aerospace,' never ISR or defense.",
+      "quote_source": "job_post"
+    },
+    {
+      "blind_spot": "EARTH-1's headline capability ('imaging the entire globe with more than 500 times the information density', 'minutes-long, high frames-per-second video') is presented purely as a resolution/bandwidth flex, with no discussion of downlink or processing under real-time ISR dissemination constraints.",
+      "operator_reality": "A payload boasting '500x the information density' is the mirror image of the 30fps crowd-detection failure — if a tactical ISR consumer can't pull that much data over a DDIL link, the headline spec becomes a liability, not a feature.",
+      "why_likely_missing": "Marketing is written for investors and commercial remote-sensing buyers who care about resolution and density, not for a bandwidth-constrained tactical ISR consumer.",
+      "evidence_quote": "EARTH-1 will create the first global encyclopedia of Earth's material composition, imaging the entire globe with more than 500 times the information density of today's hyperspectral sensors.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No mention anywhere of ITAR/export-control handling for a space-based imaging sensor explicitly sold to both commercial (insurance) and DoD ISR customers — a classic dual-use export tension.",
+      "operator_reality": "A sensor company selling the same 'extreme-resolution' capability to commercial insurance and the Air Force for ISR needs an explicit answer on export-controlled data segregation; without it, DoD contracting officers will stall the Phase II transition on a compliance question the company hasn't publicly addressed.",
+      "why_likely_missing": "Early-stage team (33 employees, first Series A just closed) likely hasn't built out an ITAR/export-compliance function yet.",
+      "evidence_quote": "Matter received a Department of the Air Force Direct-to-Phase-II SBIR for EARTH, a fused-imaging sensor system for real-time ISR (channel notes, sbir.gov/awards/216904) — no ITAR language anywhere in own site copy.",
+      "quote_source": "sbir_abstract"
+    }
+  ],
+  "opener_hook": "Matter's Air Force Direct-to-Phase-II SBIR is for real-time ISR, but your open roles are Product Manager/Researcher for Insurance — which buyer gets EARTH-1 first?",
+  "confidence": "medium",
+  "stage_band": "series_a",
+  "what_they_do": "Space-based ultraspectral imaging sensors paired with a foundation model that identifies material composition, for Earth observation, aerospace, and (per SBIR) real-time ISR."
+}

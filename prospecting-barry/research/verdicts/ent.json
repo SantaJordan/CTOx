@@ -1,0 +1,22 @@
+{
+  "company": "Ent",
+  "slug": "ent",
+  "domain": "ent.ai",
+  "verdict": "insufficient_evidence",
+  "drop_reason": "",
+  "dod_intent_evidence": "Nothing judgeable: website returned a 500 error in both crawls, own language is a ~100-word LinkedIn one-liner about enterprise endpoint security; only defense tie is IQT portfolio membership (insufficient per gate) and the news section is unrelated AeroVironment coverage.",
+  "disconnect_score": 0,
+  "subscores": {
+    "lab_language_intensity": 0,
+    "deployment_awareness_absence": 0,
+    "operator_absence": 0,
+    "hiring_profile_skew": 0,
+    "stage_pressure": 0
+  },
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "unknown",
+  "what_they_do": "Intent-aware endpoint security for the enterprise (founded by RiskIQ founders); site down, essentially no own-language available."
+}

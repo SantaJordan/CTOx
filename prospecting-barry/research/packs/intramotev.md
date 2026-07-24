@@ -257,20 +257,6 @@ Intramotev builds autonomous, battery-electric railcars designed to power the ne
 
 
 ## News (Exa, top 3)
-- Army Assesses Autonomous Railcar Tech from Intramotev (2026-06-25) https://www.railwayage.com/freight/army-assesses-autonomous-railcar-tech-from-intramotev/
-  Army Assesses Autonomous Railcar Tech from Intramotev - Railway Age
-
-# Army Assesses Autonomous Railcar Tech from Intramotev
-
-Written by Marybeth Luczak, Executive Editor
-
-(Courtesy of Intramotev)
-
-St. Louis, Mo.-based Intramotev on June 24 reported that soldiers recently used its TugVolt autonomous battery-electric freight railcar to move military cargo at the Camp Shelby Joint Forces Training Center in Mississippi.
-
-(Courtesy of Intramotev)
-
-The technology assessment was held during Operation 
 - Autonomous Railcar Company Looks to Gain Traction in ... (2025-11-06) https://www.nationaldefensemagazine.org/articles/2025/11/6/autonomous-railcar-company-looks-to-gain-traction-in-defense-market
   Autonomous Railcar Company Looks to Gain Traction in Defense Market
 
@@ -287,6 +273,20 @@ Intramotev photo
 FORT WORTH, Texas — St. Louis-based startup Intramotev is transforming railcars into autonomous platforms, and the company believes the technology can provide major benefits to the Defense Department.
 
 To construct its TugVolt system, the company takes an
+- U.S. Army tests autonomous railcars by Intramotev | Latest Railway News (2026-06-26) https://en.railmarket.com/news/technology-innovation/59129-intramotev-tests-tugvolt-autonomous-railcar-with-u-s-army?region=cis
+  U.S. Army tests autonomous railcars by Intramotev | Latest Railway News
+
+# Intramotev tests TugVolt autonomous railcar with U.S. Army
+
+Published: June 26, 2026 at 3:00 AM
+
+© Intramotev
+
+The assessment took place during a U.S. Army Reserve training exercise and included soldier operation of the railcar for military rail movements.
+
+Intramotev has demonstrated its TugVolt autonomous railcar during Operation Sentinel Justice at Camp Shelby Joint Forces Training Center in Mississippi.
+
+The TugVolt u
 - Army Tests Intramotev's Autonomous Railcar to Enhance Logistics Efficiency | SamSearch (2026-06-30) https://samsearch.co/government-contracting-news/army-tests-intramotevs-autonomous-railcar-to-enhance-logistics-efficiency-126109
   Army Tests Intramotev's Autonomous Railcar to Enhance Logistics Efficiency | SamSearch
 

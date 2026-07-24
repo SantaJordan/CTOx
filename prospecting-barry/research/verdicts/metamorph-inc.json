@@ -1,0 +1,16 @@
+{
+  "company": "MetaMorph Inc",
+  "slug": "metamorph-inc",
+  "domain": "metamorphsoftware.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "One DARPA SBIR ($1,491,242, 2023, 'Side Channel Overwatch for Microelectronics') is real, but the company's own site describes an MBSE tool-integration professional-services consultancy ('we work with clients to develop custom...versions of the software', 'we build the glue') — homepage + software-development page.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Model-based systems engineering (MBSE) tooling and integration consultancy (OpenMETA) serving aerospace/defense clients like Airbus, with one DARPA SBIR for a lab-based microelectronics side-channel detection research tool. Note: unrelated to 'Metamorphosis Group / TMG (part of CACI)' which surfaced in search noise under a similar name."
+}

@@ -1,0 +1,21 @@
+{
+  "company": "Balance Theory",
+  "slug": "balance-theory",
+  "domain": "balancetheory.io",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "None in the company's own artifacts or any contract record — the only defense association is a 2022 seed press release describing intelligence-community founder backgrounds (channel notes/News), while the current site sells cybersecurity budget management to enterprise CISOs with no SBIR, DoD customer, DIU/AFWERX engagement, or defense contract anywhere in the pack.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "\"Security programs succeed or fail at the budget layer. Balance theory manages security investment events end-to-end\" (homepage) → the product is enterprise procurement and spend rationalization, not a defense capability",
+    "Named verticals are \"Manufacturing, Technology, Healthcare, Energy, Public Sector, Financial Services\" with no military, DoD, or IC customer anywhere in ~1000 words of own language → no_dod_motion",
+    "\"Balance Theory integrates with Email, Teams, Jira, ServiceNow, IdPs, ERPs, CLMs\" and \"Never miss a renewal window and maximize leverage as you navigate the best path to transaction\" → commercial CISO tooling, procurement workflow",
+    "Only funding events in the pack are a $3M seed (2022) and a $500,000 TEDCO SSBCI state investment (2025-07-07) — no SBIR, OTA, or federal contract record"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "AI-assisted platform for CISOs and procurement teams to track, benchmark, and renegotiate cybersecurity tool spend across their vendor portfolio."
+}

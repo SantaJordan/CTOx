@@ -1,0 +1,17 @@
+{
+  "company": "Qunnect",
+  "slug": "qunnect",
+  "domain": "qunnect.inc",
+  "verdict": "insufficient_evidence",
+  "drop_reason": "",
+  "dod_intent_evidence": "Air Force Research Laboratory contract announced 2025-10-09 to advance Qunnect's quantum networking tech for national defense applications — News section.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "low",
+  "stage_band": "series_a",
+  "what_they_do": "Builds room-temperature, field-deployable quantum networking hardware (entangled photon sources) to turn existing fiber telecom infrastructure into quantum networks.",
+  "note": "Own-language word count ~253, under the ~500-word evidence-sufficiency floor; site is nearly all marketing tagline with almost no product/deployment detail to judge."
+}

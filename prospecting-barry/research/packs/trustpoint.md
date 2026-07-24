@@ -336,7 +336,15 @@ May 12, 2026
 TrustPoint
 
 WASHINGTON--(BUSINESS WIRE)--TrustPoint, a pioneer in next-generation space-based positioning and navigation solutions, today announced it has been awarded a $4 million Tactical Funding Increase (TACFI) contract to demonstrate a first-o
-- TrustPoint Secures U.S. Space Force TACFI Contract to ... (2026-05-12) https://www.businesswire.com/news/home/20260512853671/en/TrustPoint-Secures-U.S.-Space-Force-TACFI-Contract-to-Demonstrate-End-to-End-GPS-Independent-PNT
+- Space Force awards TrustPoint $4 million for LEO navigation ... (2026-05-12) https://spacenews.com/space-force-awards-trustpoint-4-million-for-leo-navigation-demonstration/
+  Space Force awards TrustPoint $4 million for LEO navigation demonstration - SpaceNews
+
+Home/ Space Force awards TrustPoint $4 million for LEO navigation demonstration
+
+TrustPoint's low Earth orbit navigation system ground station. Credit: TrustPoint
+
+WASHINGTON — TrustPoint, a Virginia startup developing a low-Earth-orbit navigation system intended to complement or back up GPS, said May 12 it received a $4 million contract from the U.S. Space Force to demonstrate a GPS-independent positioning, n
+- TrustPoint Secures U.S. Space Force TACFI Contract to Demonstrate End- ... (2026-05-12) https://www.businesswire.com/news/home/20260512853671/en/TrustPoint-Secures-U.S.-Space-Force-TACFI-Contract-to-Demonstrate-End-to-End-GPS-Independent-PNT
   TrustPoint Secures U.S. Space Force TACFI Contract to Demonstrate End-to-End GPS-Independent PNT
 
 May 12, 2026 9:00 AM Eastern Daylight Time
@@ -348,14 +356,6 @@ Share
 ---
 
 WASHINGTON--(BUSINESS WIRE)--TrustPoint, a pioneer in next-generation space-based positioning and navigation solutions, today announced it has been awarded a $4 million Tactical Funding Increase (TACFI) contract to demonstrate a first-of-its-kind
-- Space Force awards TrustPoint $4 million for LEO ... (2026-05-12) https://spacenews.com/space-force-awards-trustpoint-4-million-for-leo-navigation-demonstration/
-  Space Force awards TrustPoint $4 million for LEO navigation demonstration - SpaceNews
-
-Home/ Space Force awards TrustPoint $4 million for LEO navigation demonstration
-
-TrustPoint's low Earth orbit navigation system ground station. Credit: TrustPoint
-
-WASHINGTON — TrustPoint, a Virginia startup developing a low-Earth-orbit navigation system intended to complement or back up GPS, said May 12 it received a $4 million contract from the U.S. Space Force to demonstrate a GPS-independent positioning, n
 
 ## Open roles (Blitz, live)
 - Satellite Operations Engineer ({'city': 'Dulles', 'country_code': 'US'})

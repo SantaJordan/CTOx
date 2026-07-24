@@ -1,0 +1,16 @@
+{
+  "company": "Zeus Research and Technology, Inc.",
+  "slug": "zeus-research-and-technology-inc",
+  "domain": "zeusrt.com",
+  "verdict": "insufficient_evidence",
+  "drop_reason": "",
+  "dod_intent_evidence": "LinkedIn about: 'Providing navigation solutions for DoD ground, air and weapon platforms'; plus an Air Force Phase II SBIR (VIPR, $1,206,428, 2023) and multiple contract awards (POSEIDON Navy SBIR 2025, USAspending contract) — passes DoD-intent gate, but evidence volume gate fails next.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "low",
+  "stage_band": "revenue_stage",
+  "what_they_do": "GNSS-denied vision-based positioning/navigation solutions for DoD ground, air, and weapon platforms; own-language pack is only ~288 words (mostly nav-menu boilerplate), well below the ~500-word evidence-sufficiency threshold."
+}

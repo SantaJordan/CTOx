@@ -295,6 +295,14 @@ LEARN MORE
 At Salvus, we’re focused on providing innovative, user-friendly detection solutions that are deployable at the point-of-concern to enable faster, more informed decisions. Founded in 2018 and based on the Latin word for “safe,” Salvus leverages technology incubated at the Georgia Tech Research Institute to answer the demands for rapid, onsite detection. The Salvus Detection Platform is the world’s first handheld, advanced-detection device using interferometry to rapidly identify and quantify chemical and biological substances in liquid, air, and surface environments. Adaptable, deployable, and 
 
 ## News (Exa, top 3)
+- Solvus Global’s High-Deposition 3D Printing Set to Transform U.S. Defense Industry in $90M Deal | Contract Awards (2025-05-14) https://envzone.com/award-record/solvus-globals-high-deposition-3d-printing-set-to-transform-u-s-defense-industry-in-90m-deal/
+  Solvus Global’s High-Deposition 3D Printing Set to Transform U.S. Defense Industry in $90M Deal | Contract Awards
+
+Know who’s winning. Learn how to compete.
+
+# Solvus Global’s High-Deposition 3D Printing Set to Transform U.S. Defense Industry in $90M Deal
+
+Solvus Global LLC,* Worcester, Massachusetts, was awarded a $90,000,000 firm-fixed-price contract to apply high-deposition rate additive manufacturing technology to a wide range of defense applications. Bids were solicited via the internet wit
 - Army SBIR CATALYST Award Ignites New Era of Innovation and Collaboration – Army SBIR|STTR Program () https://armysbir.army.mil/news/catalyst-award-ignites-new-era-innovation-collaboration/
   Army SBIR CATALYST Award Ignites New Era of Innovation and Collaboration – Army SBIR|STTR Program
 
@@ -307,68 +315,14 @@ At Salvus, we’re focused on providing innovative, user-friendly detection solu
 By Daniel Smoot, Office of Army Innovation Programs, including xTech and the Army SBIR|STTR Program
 
 WASHINGTON – The U.S. Army Small Business Innovation Research (SBIR) and Small Business Technology Transfer (STTR) Program announces that Solvus Global, LLC is the Army SB
-- Solvus Global’s High-Deposition 3D Printing Set to Transform U.S. Defense Industry in $90M Deal | Contract Awards (2025-05-14) https://envzone.com/award-record/solvus-globals-high-deposition-3d-printing-set-to-transform-u-s-defense-industry-in-90m-deal/
-  Solvus Global’s High-Deposition 3D Printing Set to Transform U.S. Defense Industry in $90M Deal | Contract Awards
+- salvus llc (2026-06-18) https://salvusdetect.com/
+  # Salvus LLC
 
-Know who’s winning. Learn how to compete.
+Salvus LLC is a Manufacturing company. Salvus LLC employs 7 people, founded in 2018. Headquartered in Valdosta, Georgia, United States.
 
-# Solvus Global’s High-Deposition 3D Printing Set to Transform U.S. Defense Industry in $90M Deal
+## About
 
-Solvus Global LLC,* Worcester, Massachusetts, was awarded a $90,000,000 firm-fixed-price contract to apply high-deposition rate additive manufacturing technology to a wide range of defense applications. Bids were solicited via the internet wit
-- STTR
-  
-  Computationally Driven Reliability & Repeatability for Wire Arc Additive Manufacturing of High Strength Maraging 250 Steel () https://www.highergov.com/contract/W56HZV23C0038/
-  STTR Computationally Driven Reliability & Repeatability for Wire Arc Additive Manufacturing of High Strength Maraging 250 Steel
-
-HigherGov
-
-Pipeline
-
-FOIA
-
-Track
-
-Favorite
-
-No Bid
-
-Export
-
-- CSV
-- Excel
-
-Share
-
-- Copy URL
-- Email
-- Tweet
-
-Search Prime Contracts Open Help Docs
-
-# W56HZV23C0038
-
-Definitive Contract
-
-- List
-- Text
-
-## Overview
-
-Government Description
-
-Ph II STTR
-
-Awardee
-
-Solvus Global
-
-Awarding / Funding Agency
-
-ACC Detroit (DTA) [DoD - USA - AMC - ACC]
-
-NAICS
-
-541715 - Research a
+At Salvus, we’re focused on providing innovative, user-friendly detection solutions that are deployable at the point-of-concern to enable faster, more informed decisions. Founded in 2018 and based on the Latin word for “safe,” Salvus leverages technology incubated at the Georgia Tech Research Institute to answer the demands for rapid, on
 
 ## Open roles
 (no jobs data found)

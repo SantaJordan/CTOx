@@ -1,0 +1,16 @@
+{
+  "company": "AC Global Risk, Inc. (Clearspeed)",
+  "slug": "ac-global-risk-inc",
+  "domain": "clearspeed.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Site states Clearspeed is 'DoW-validated and deployed with U.S. Special Operations Command' with a '95% reduction in vetting cycle time — SOCOM' metric, plus a USAF SBIR Phase II (homepage, SBIR abstract).",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "107-person, $60M-Series-D voice-analytics risk-screening platform already deployed with SOCOM and major insurers — crossed the valley; no prototype-to-fielded gap for Barry to fix."
+}

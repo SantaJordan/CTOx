@@ -1,0 +1,40 @@
+{
+  "company": "NUTS Technologies",
+  "slug": "nuts-technologies",
+  "domain": "nutstechnologies.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "2025 Navy Phase II SBIR (TALON2D) plus multiple USAF Phase I SBIR awards (Insider Threat Defense, SDFT/PQC) per sbir.gov records; site cites CDAO Tradewinds Award and DoD Tradewinds Awardable status.",
+  "disconnect_score": 43,
+  "subscores": {"lab_language_intensity": 9, "deployment_awareness_absence": 3, "operator_absence": 5, "hiring_profile_skew": 10, "stage_pressure": 16},
+  "score_evidence": [
+    "Navy Phase II SBIR for TALON2D awarded 2025, layered on 3+ prior Phase I awards (SBIR record), run by a 1-10 person team per channel notes -> stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Nut Capsules are marketed as operating in 'degraded, disconnected, and denied environments' but the pack never addresses the compute/power cost of per-object multi-layered encryption on constrained tactical-edge hardware.",
+      "operator_reality": "Object-level crypto-agile encryption applied to every data object is not free -- on a handheld or embedded SWaP-constrained device, per-object encrypt/decrypt overhead can burn through a battery budget the operator doesn't have, especially with PQC algorithms that tend to be larger and slower than classical ones.",
+      "why_likely_missing": "The company's differentiation story is architectural (no-perimeter, cryptographic self-governance) and has not yet been forced through a SWaP-C-constrained integration.",
+      "evidence_quote": "\"Nut Capsules operate in degraded, disconnected, and denied environments. Data assurance does not depend on network connectivity, centralized key management, or trusted infrastructure being available.\"",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Specialties list name-checks CUI/CMMC and ITAR/EAR as keywords, but nothing in the site or capability sheet walks through an actual ATO/RMF/STIG/IL4-IL5 accreditation pathway for running Nut Capsules on a government network.",
+      "operator_reality": "A data-security product destined to sit inside classified or CUI systems needs its own ATO before a program office can deploy it -- keyword fluency on a specialties tag list is not the same as a defined accreditation story, and that gap is exactly what stalls transition after the SBIR money runs out.",
+      "why_likely_missing": "Company is still SBIR Phase I/II stage across multiple awards; the accreditation conversation typically only becomes forced once a program office commits to a pilot.",
+      "evidence_quote": "specialties: \"...cui cmmc, key management...ear/itar solution...\"",
+      "quote_source": "linkedin_about"
+    },
+    {
+      "blind_spot": "The entire pitch is technical/architectural (SDFT, Nut Capsules, cipher-agility) with no mention of who integrates this into an existing prime's system, what the flow-down subcontract mechanics look like, or who the advocacy champion above the insider-threat operator is.",
+      "operator_reality": "Even a technically superior data-security layer needs a program-office champion and a defined prime-integration path (whose GFE does the capsule sit inside?) -- 'operators loving it' or DAF SBIR validation is not the same as a funded transition path.",
+      "why_likely_missing": "Small team (1-10 employees) still executing multiple parallel SBIR awards; business-development/integration story likely hasn't been built out yet.",
+      "evidence_quote": "\"Zero Trust MLS Classified Environments DAF SBIR Validated\"",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "You've stacked 4+ Phase I SBIRs plus a 2025 Navy Phase II for TALON2D -- what's Nut Capsule's power draw on a handheld?",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Builds a data-centric cryptographic security product (Nut Capsules) that embeds encryption, access control, and provenance directly into data objects for zero-trust, cross-domain, and insider-threat defense."
+}

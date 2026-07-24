@@ -298,18 +298,16 @@ By clicking “Continue” to join or sign in, you agree to LinkedIn User Agreem
 # MacroVation Awarded $139,900 by Department of Defense for STTR Research
 
 ht
-- Macrovey has been awarded the Air Force SBIR X247-PCSO1 award for an advanced logistics solution using Macrovey technology () https://www.defence-industries.com/pressreleases/macrovey-has-been-awarded-the-air-force-sbir-x247-pcso1-award
-  Macrovey has been awarded the Air Force SBIR X247-PCSO1 award for an advanced logistics solution using Macrovey technology
+- MacroVation — From molecule to mission () https://www.macrovation.com/
+  MacroVation — From molecule to mission
 
-## Press releases
+Funded defense R&D · Prototype systems
 
-Publish Your PressRelease
+# Hardware-and-chemistry systems engineered for defense missions.
 
-## Macrovey has been awarded the Air Force SBIR X247-PCSO1 award for an advanced logistics solution using Macrovey technology
+From molecule to mission
 
-4 February 2025
-
-Macrovey LLC announces it has been selected by AFWERX for a SBIR Phase I contract in the amount of $74,686 focused on developing and demonstrating an advanced logistics solution tailored
+We build chemistry, delivery hardware, and performance validation as one integrated path — from early formulation through prototype demonstration — for controlled material effects, composite tooling, and warfighter recovery systems. Sponsors evaluate prototype hardware, measured performance, and program-ready data built aroun
 
 ## Open roles (Blitz, live)
 - Research And Development Chemist ({'city': 'Radford', 'country_code': 'US'})

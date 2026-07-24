@@ -1,0 +1,20 @@
+{
+  "company": "TMGcore, Inc.",
+  "slug": "tmgcore-inc",
+  "domain": "tmgcore.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "SBIR Phase II (Air Force 2022) plus an active LP-CRADA with Naval Postgraduate School for combat-ready liquid-immersion HPC/edge computing — genuine DoD motion, but the company has since been acquired and rebranded, i.e. it scaled past the prototype stage.",
+  "disconnect_score": 14,
+  "subscores": {"lab_language_intensity": 4, "deployment_awareness_absence": 4, "operator_absence": 8, "hiring_profile_skew": 10, "stage_pressure": 2},
+  "score_evidence": [
+    "\"TMGcore is becoming Airedale\" / \"Modine Invests in Liquid Immersion Cooling Tech\" (homepage banner) → already_operational (acquired by Modine/Airedale)",
+    "\"TMGcore's commercially proven technology addresses these data challenges by providing a deployable, combat-ready high performance computing (HPC) solution\" → deployment_awareness_absence (low; explicitly deployment/field-framed)",
+    "\"reducing its global footprint, energy consumption, hardware maintenance, and digital signature\" → SWaP-C awareness present, not absent"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Liquid-immersion cooling hardware for high-density/edge data centers, including a combat-ready HPC variant for the Air Force; acquired by Modine (rebranding as Airedale)."
+}

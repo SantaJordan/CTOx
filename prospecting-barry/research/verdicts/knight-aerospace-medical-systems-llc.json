@@ -1,0 +1,50 @@
+{
+  "company": "Knight Aerospace Medical Systems, LLC",
+  "slug": "knight-aerospace-medical-systems-llc",
+  "domain": "knightaerospace.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Air Force SBIR Phase II 'INTermodal Rocket CONtainer (INTRCON)' ($1,249,677, 2022) with a follow-on AFRL definitive contract FA865023C9315 for the Rocket Payload Transport Structure signed 4 April 2025, alongside site language about modules 'designed for the safety and comfort of passengers in military cargo aircraft such as the C-130, C-17'.",
+  "disconnect_score": 38,
+  "subscores": {
+    "lab_language_intensity": 5,
+    "deployment_awareness_absence": 8,
+    "operator_absence": 8,
+    "hiring_profile_skew": 9,
+    "stage_pressure": 8
+  },
+  "score_evidence": [
+    "'Our systems are considered to be the safest in the industry and have been approved for flight by military and civilian organizations, as well as aircraft OEMs' → lab_language_intensity very low: their proof is flight approval, which is the hardest artifact in this cohort to obtain",
+    "'Expanding Mission Capabilities of Cargo Aircraft Through Modular Airworthy Solutions' → deployment_awareness_absence held at 8: airworthiness fluency is real, but sustainment, spares, field maintenance and training never appear in 1,573 words",
+    "'These modules are designed for the safety and comfort of passengers' and 'perfect for transporting critically ill patients by air' → operator_absence moderate: the patient is considered, the aeromedical crew who runs the module and the maintainer who keeps it flying are not",
+    "Ten open roles — Contracts Administrator, Senior BD Manager Defense & Aerospace, Director of International BD, CNC Machinist III, Sheet Metal Tech Lead, Electrical Engineer II, Stress Engineer II, Mechanical Engineer III, Cabinet Technician III x2 → hiring_profile_skew moderate: for a hardware firm these domain hires are neutral, but two business-development directors and no systems, test, or program-management hire for an active AFRL rocket-cargo effort is the tell",
+    "'At the end of the Phase II, Knight Aerospace will deliver an INTRCON prototype for further testing and evaluation' with the AFRL follow-on signed April 2025 → stage_pressure low-moderate: a 34-year-old, 68-person manufacturer with commercial revenue in 35 countries, but the rocket-cargo line still has to find a transition owner"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Rocket-delivered containers land where none of the cargo ecosystem exists",
+      "operator_reality": "Everything Knight builds today moves through a mature handling chain: 463L pallets, rollers, K-loaders, a ramp, and trained loadmasters. A container delivered by rocket to an austere or contested point arrives at a site with none of that — no material handling equipment, possibly no forklift, a handful of soldiers, and a recovery window measured in minutes under observation. The design question is what a four-person team can open, unload and disperse by hand, and how they find it if GPS-cued recovery is degraded.",
+      "why_likely_missing": "Thirty-four years of design experience assumes a cargo aircraft on a runway with ground support equipment they themselves manufacture, so the unloading environment has never been a variable.",
+      "evidence_quote": "This system will also include sub-container systems that can be deployed from the main INTRCON system to support a diverse set of payload delivery use cases.",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "A self-contained powered medical module is also a networked-device and sustainment problem",
+      "operator_reality": "The Aeromedical Bio-Containment Module carries patient monitoring, environmental control and filtration in an aircraft. On a real mission that means EMI compatibility with the airframe, patient data leaving the module to somewhere, filter and consumable logistics on a deployed rotation, and a specific answer to who repairs it at the forward location when a blower fails at 0300. A module that is airworthy on paper but has no spares kit or trained maintainer becomes hangar queen equipment within one deployment cycle.",
+      "why_likely_missing": "Their commercial buyers across 35 countries take delivery and own sustainment themselves, so the sustainment tail has never been Knight's contractual responsibility.",
+      "evidence_quote": "the Aeromedical Bio-Containment Module (ABCM) – a revolutionary, quick-change roll-on/roll-off aerospace medical module that's completely self-contained and airworthy",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The rocket-cargo prototype has no named transition owner",
+      "operator_reality": "Delivering a prototype 'for further testing and evaluation' at the end of a Phase II is precisely where programs die: AFRL funds the science, but fielding requires a program office with a requirement, a line of funding, and an advocate above the researcher who wrote the topic. Without that named sponsor identified before the period of performance closes, the hardware sits in a hangar and the follow-on never gets written — and here the follow-on RPTS contract is already the second bite.",
+      "why_likely_missing": "Their commercial muscle is international business development and direct sales, which is why the two most senior open roles are BD directors rather than a program manager who works the requirements and PPBE cycle.",
+      "evidence_quote": "Based on system integration and testing with a rocket, Knight Aerospace will develop a plan for future production and commercialization of the INTRCON technology in Phase III.",
+      "quote_source": "sbir_abstract"
+    }
+  ],
+  "opener_hook": "Your AFRL follow-on for the Rocket Payload Transport Structure was signed in April 2025, and the INTRCON abstract ends with delivering a prototype for further test and evaluation — which leaves the hardest question downstream: who unloads that container at a site with no K-loader.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Designs and builds airworthy roll-on/roll-off modules, pallets and ground support equipment for military cargo aircraft — medical evacuation, biocontainment, VIP transport — and is now developing a rocket-delivered cargo container for the Air Force."
+}

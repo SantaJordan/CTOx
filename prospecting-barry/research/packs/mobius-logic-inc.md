@@ -388,16 +388,62 @@ DOW
 Branch: USAF
 
 Total Award Amoun
--  () https://www.mobiuslogic.com/news/mobius-logic-inc.-wins-3.2m-tacfi-award
-  # Mobius Logic Inc. Wins $3.2M TACFI Award
+- mobius logic, inc () https://www.sbir.gov/portfolio/1543415
+  Firm | SBIR Skip to main content
 
-5 min read
+# Company
 
-Sep 10, 2024
+Portfolio Data
 
-Mobius Logic will continue working with AFWERX to advance space missions with cutting-edge AI for superior defense capabilities.
+Back to Company Search
 
-**Tysons, VA **– Mobius Logic, Inc. announces it has been selected by AFWERX for a Tactical Fund Increase (“TACFI”) contract in the amount of $3.2 million dollars focused on developing AI and reinforcement learning tools catering to an asymmetric autonomous space fleet and augmenting the existing ma
+## MOBIUS LOGIC, INC
+
+### Address
+
+1775 TYSONS BLVD FL 5TYSONS, VA, 22102USA
+
+UEI: L1B5EBMFCNJ7
+
+Number of Employees: 22
+
+HUBZone Owned: No
+
+Woman Owned: No
+
+Socially and Economically Disadvantaged: No
+
+#### SBIR/STTR Involvement
+
+Year of first award: 2019
+
+3
+
+Phase I Awards
+
+6
+
+Phase II Awards
+
+200%
+
+Conversion Rate
+
+$209,709
+
+Phase I Dollars
+
+$8,313,099
+
+Phase II Dollars
+
+$8,522,808
+
+Total Awarded
+
+## Awards
+
+
 
 ## Open roles (Blitz, live)
 - Chief of Staff ({'city': 'Washington', 'country_code': 'US'})

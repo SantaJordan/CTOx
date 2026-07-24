@@ -366,7 +366,7 @@ Copy Share Link
 Finding new sources of critical minerals is a costly business. Worldwide, companies spent $12 to $13 billion on exploration in 2023.
 
 The upshot: Mining is the definition of a hit-or-miss business. Companies today use advanced m
-- Durin • It's Time to Mine () https://www.durin.com/
+- Durin • It's Time to Mine () https://durin.com/
   Durin • It's Time to Mine
 
 LocatingEarth'sResources

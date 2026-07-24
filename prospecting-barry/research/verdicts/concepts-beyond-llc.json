@@ -1,0 +1,16 @@
+{
+  "company": "Concepts Beyond, LLC",
+  "slug": "concepts-beyond-llc",
+  "domain": "conceptsbeyond.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "One Navy SBIR Phase II (ACTER air-traffic training game, 2023 — sbir_abstract) and a 'Marine Fire Support Team (FiST) SME' job at Fort Sill, but their own site is a capability-area consultancy menu ('systems engineering... program management... bring innovative solutions to our customers' needs') serving mainly FAA/NAS — a services/SI shop, not a defense product company.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "FAA/aviation-focused systems-engineering and consulting firm (air traffic management, data analytics, cyber, simulation) with occasional DoD training SBIRs."
+}

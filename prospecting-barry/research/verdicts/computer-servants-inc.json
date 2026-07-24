@@ -1,0 +1,16 @@
+{
+  "company": "Computer Servants Inc",
+  "slug": "computer-servants-inc",
+  "domain": "computerservants.net",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "Air Force SBIR Phase IIs 2022/2024/2025 (sbir_abstract + news), but the company's own words are 'We provide engineering services and staff augmentation to commercial and government entities' — a 5-person services/staff-aug shop, not a product company. Own-language ~304 words would also fail the sufficiency gate.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "unknown",
+  "what_they_do": "Tallahassee engineering-services and staff-augmentation firm that also wins Air Force depot SBIRs (paint-cart monitoring, depot robotics)."
+}

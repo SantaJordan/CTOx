@@ -326,54 +326,8 @@ Test series of different sized motors where the stati
 Firehawk manufactures rocket motors and propellants for missile and artillery systems, expanding U.S. industrial capacity for energetics production.
 
 ## News (Exa, top 3)
-- Award | SBIR () https://www.sbir.gov/awards/210228
-  Award | SBIR Skip to main content
-
-# Award
-
-Portfolio Data
-
-Back to Award Search
-
-## 3D printed propellant-based propulsion systems for superior mission capability and affordability
-
-### Awardee
-
-#### FIREHAWK AEROSPACE INC.
-
-4550 EXCEL PKWY STE 200ADDISON, TX, 75001-5713USA
-
-Award Year: 2024
-
-UEI: FKWJD9HL5931
-
-HUBZone Owned: No
-
-Woman Owned: No
-
-Socially and Economically Disadvantaged: No
-
-Congressional District: 8
-
-Tagged as:
-
-SBIR
-
-Phase II
-
-### Awarding Agency
-
-DOD
-
-Branch: USAF
-
-Total Awar
-- Firehawk Aerospace Awarded 4.9M U.S. Air Force Contract to Advance Hybrid Rocket Engine Development (2025-06-02) https://www.prnewswire.com/news-releases/firehawk-aerospace-awarded-4-9m-us-air-force-contract-to-advance-hybrid-rocket-engine-development-302468786.html
-  Firehawk Aerospace Awarded 4.9M U.S. Air Force Contract to Advance Hybrid Rocket Engine Development Accessibility Statement Skip Navigation
-
-DALLAS, June 2, 2025 /PRNewswire/ -- Firehawk Aerospace ("Firehawk"), a leading developer and manufacturer of advanced energetics systems for defense applications, was awarded a two-year, firm-fixed, $4.9 million contract by the U.S. Air Force Test Center to support the Air Force Research Laboratory's (AFRL) initiatives to accelerate the development of next
-- Firehawk Aerospace Awarded $1.25 Million AFWERX Phase II SBIR Contract to Advance Next-Generation Rocket Propellant Technology | Firehawk Defense (2025-04-21) https://firehawkdefense.com/news/afwerx-phase-ii-sbir/
-  Firehawk Aerospace Awarded $1.25 Million AFWERX Phase II SBIR Contract to Advance Next-Generation Rocket Propellant Technology | Firehawk Defense
+- Firehawk Aerospace Secures $4M to Push the Boundaries of 3D Printed Propellant for Extended Range Rockets | Firehawk Defense (2025-09-22) https://firehawkdefense.com/news/firehawk-aerospace-secures-4m-to-push-the-boundaries-of-3d-printed-propellant-for-extended-range-rockets/
+  Firehawk Aerospace Secures $4M to Push the Boundaries of 3D Printed Propellant for Extended Range Rockets | Firehawk Defense
 
 Back
 
@@ -387,13 +341,19 @@ Contact
 
 Intel
 
-# Firehawk Aerospace Awarded $1.25 Million AFWERX Phase II SBIR Contract to Advance Next-Generation Rocket Propellant Technology
+# Firehawk Aerospace Secures $4M to Push the Boundaries of 3D Printed Propellant for Extended Range Rockets
 
-April 21, 2025
+September 22, 2025
 
-Image: Michael Stark, Firehawk President and George Liddell, Director of Operations
+DALLAS — Firehawk Aerospace (“Firehawk”), a defense technology leader specializing in advanced energetics and propulsion, today announced it has been awarded a $4 million TACFI 
+- Firehawk Aerospace Awarded 4.9M U.S. Air Force Contract to Advance Hybrid Rocket Engine Development (2025-06-02) https://www.prnewswire.com/news-releases/firehawk-aerospace-awarded-4-9m-us-air-force-contract-to-advance-hybrid-rocket-engine-development-302468786.html
+  Firehawk Aerospace Awarded 4.9M U.S. Air Force Contract to Advance Hybrid Rocket Engine Development Accessibility Statement Skip Navigation
 
-DALLAS, Texas—April 21, 2025—Firehawk Aerospace (“Fire
+DALLAS, June 2, 2025 /PRNewswire/ -- Firehawk Aerospace ("Firehawk"), a leading developer and manufacturer of advanced energetics systems for defense applications, was awarded a two-year, firm-fixed, $4.9 million contract by the U.S. Air Force Test Center to support the Air Force Research Laboratory's (AFRL) initiatives to accelerate the development of next
+- Firehawk Aerospace Secures $4M to Push the Boundaries ... (2025-09-22) https://www.prnewswire.com/news-releases/firehawk-aerospace-secures-4m-to-push-the-boundaries-of-3d-printed-propellant-for-extended-range-rockets-302561591.html
+  Firehawk Aerospace Secures $4M to Push the Boundaries of 3D Printed Propellant for Extended Range Rockets Accessibility Statement Skip Navigation
+
+DALLAS, Sept. 22, 2025 /PRNewswire/ -- Firehawk Aerospace ("Firehawk"), a defense technology leader specializing in advanced energetics and propulsion, today announced it has been awarded a $4 million TACFI contract by AFWERX to develop extended range optimization of solid rocket motors using 3D printed thermoplastic-based propellant. Under this contr
 
 ## Open roles (Blitz, live)
 - Polymer Engineer (Research and Development) ({'city': 'Addison', 'country_code': 'US'})

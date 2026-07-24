@@ -1,0 +1,44 @@
+{
+  "company": "AnySignal",
+  "slug": "anysignal",
+  "domain": "anysignal.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "News section: 'United States Space Force Awards AnySignal to Fortify MILSATCOM Against Electronic Warfare' (2026-03-25), selecting them to field the Resilient, Agile, and Interference-Defiant Network for MILSATCOM and the Space Data Network — and their own homepage carries the matching line 'A resilient, agile, and interference-defiant network for American freedom.'",
+  "disconnect_score": 70,
+  "subscores": {"lab_language_intensity": 15, "deployment_awareness_absence": 15, "operator_absence": 16, "hiring_profile_skew": 12, "stage_pressure": 12},
+  "score_evidence": [
+    "'Spectrum Supremacy... Dominate Every Domain... One platform. Zero compromises.' — superlatives with no fielding specifics; the only quantified claim on the entire site is 'Save 12 Months' → lab_language_intensity",
+    "Across ~1035 words describing a MILSATCOM terminal and ground modem there is no mention of NSA crypto certification, a named waveform standard, ATO/RMF, IL5, ITAR, or CMMC — the closest artifact is an open req for 'Head of IT & Security' → deployment_awareness_absence",
+    "'giving space explorers and allied forces the decisive edge they need' is the only user reference; both testimonials are commercial space CEOs (Max Haot, Ben Nowack) and no SATCOM operator, training, sustainment, or field-feedback language appears → operator_absence",
+    "Ten open roles: Power Electronics, Digital Electrical, Senior RF Hardware, Electrical, RF Hardware, Radio Frequency, RF Design, plus Technical Recruiter and Head of IT & Security — no test/integration, mission assurance, field service, or program/compliance engineering → hiring_profile_skew",
+    "Founded 2022, 58 people, and a March 2026 USSF award whose own language is to 'accelerate the fielding of a combat-ready architecture' → stage_pressure (fielding milestone on the clock at a company that has never fielded on a government network)"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Sells a 'waveform agile' MILSATCOM terminal with no crypto or waveform certification path named",
+      "operator_reality": "A terminal that touches protected MILSATCOM carries NSA-certified crypto and certified waveforms; each certification runs through a government lab queue measured in years, not sprints, and the queue does not care that the radio is software-defined. 'One Radio, Multiple Missions' is a commercial claim — on the USSF side every additional mission is another certification artifact, and that timeline routinely outlasts the contract that funded the terminal.",
+      "why_likely_missing": "Their proof points are commercial spacecraft radios (the two testimonials are commercial space CEOs), where waveform agility genuinely is a software change and no one has ever asked them for a crypto certification schedule.",
+      "evidence_quote": "USX Terminal — Mission-Grade Reliability, Multi-Band & Waveform Agile, One Radio, Multiple Missions",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "'Plug-and-play' integration into government ground infrastructure",
+      "operator_reality": "At a USSF ground site the 'existing test infrastructure' is a GFE baseline inside an accredited boundary. Dropping a new modem into it is a configuration change requiring a security impact analysis, STIG compliance for anything with an OS, and in many cases re-accreditation before a single bit moves. The month you assumed for install becomes two quarters, and the fielding milestone slips past the funded period.",
+      "why_likely_missing": "The TerraModem's install base is commercial ground stations and test benches where plug-and-play is literally true; nobody on a team hiring only RF and power engineers owns an RMF package.",
+      "evidence_quote": "TerraModem — TT&C Modem & High-Rate Payload Reception, Seamless Integration with Existing Test Infrastructure, Plug-and-Play",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Schedule compression is priced in RF integration, while the real schedule risk is accreditation and sustainment",
+      "operator_reality": "On a fielded MILSATCOM capability the lost year is not RF integration — it is the crypto/ATO stack plus the sustainment tail nobody scoped: who holds spares, who repairs a terminal at a remote site, what the training pipeline looks like for the SATCOM operator, and which O-6 owns the requirement when the OTA ends. A company that markets 'Save 12 Months' on the wrong 12 months arrives at the transition decision with no answer to the question the program office actually asks.",
+      "why_likely_missing": "Their differentiator is genuine and technical (single-vendor end-to-end RF), so the schedule story got written from the engineering bottleneck they solved rather than from the acquisition bottleneck they will hit.",
+      "evidence_quote": "Save 12 Months — Streamline RF testing and integration across platforms to accelerate timelines and keep your mission on track.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "The March 25, 2026 Space Force announcement says AnySignal was selected to field the RAIN architecture for MILSATCOM, while the only schedule claim on anysignal.com is 'Save 12 Months' on RF testing and integration — on a protected MILSATCOM terminal the year that actually disappears sits in crypto certification and ATO, and it disappears after the RF works.",
+  "confidence": "medium",
+  "stage_band": "series_a",
+  "what_they_do": "Builds an end-to-end software-defined RF stack — terminals, ground modems, antennas, and network orchestration — for space and defense communications, EW, and radar."
+}

@@ -1,0 +1,16 @@
+{
+  "company": "VISIMO LLC",
+  "slug": "visimo-llc",
+  "domain": "visimo.ai",
+  "verdict": "drop",
+  "drop_reason": "sbir_mill",
+  "dod_intent_evidence": "Own-words About/Capabilities pages explicitly position the company as a federal SBIR/STTR R&D shop ('SBIR/STTR R&D: Focused feasibility work built around scoped prototypes, baselines, evaluation plans, and transition evidence') with a portfolio of disconnected Phase I/II awards spanning Air Force legal review (AILA), Air Force image forensics (Aletheia), Navy maintenance forms (AIM-FE), DoD scholarly-knowledge tooling (ASTERISK OSI), and DOE carbon-capture forecasting (EmiFor) — the business model is winning scoped SBIRs across unrelated domains, not fielding one capability.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "A Pittsburgh-area federal AI R&D consultancy whose business is winning and delivering scoped SBIR/STTR prototypes across many unrelated federal domains (Air Force legal review, image forensics, Navy maintenance forms, DOE carbon capture) rather than fielding a single defense product."
+}

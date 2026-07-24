@@ -58,6 +58,17 @@ The Navy has identified a need for External Payload Deployment Systems (EPADS) f
 # ARMADA Marine Robotics Wins Navy Phase II Contract
 
 ARMADA Marine Robotics is pleased to announce that it has won a SBIR Phase II contract from the US Navy to continue development of an External Payload Delivery System (EPADS) for cylindrical Unmanned Underwater Vehicles (UUVs). The contract is for $1M over 2 years with an Option for another $1M over 2 additional years. The project extends work previously performed by ARMADA under a SBIR Phase I 
+- ARMADA Marine Robotics Wins Navy Phase II Contract (2023-03-02) https://oceannews.com/news/defense/armada-marine-robotics-wins-navy-phase-ii-contract/
+  ARMADA Marine Robotics Wins Navy Phase II Contract
+
+# ARMADA Marine Robotics Wins Navy Phase II Contract
+
+- 2 March 2023
+- Edited By: Ocean News
+
+ARMADA Marine Robotics has won a SBIR Phase II contract from the US Navy to continue development of an External Payload Delivery System (EPADS) for cylindrical Unmanned Underwater Vehicles (UUVs). The contract is for $1M over 2 years with an Option for another $1M over 2 additional years.
+
+The project extends work previously performed by ARMADA under a
 - SBIR 
   
   External Payload Deployment System for Cylindrical UUVs () https://www.highergov.com/contract/N6833523C0142/
@@ -114,17 +125,6 @@ Office of Naval Research (ONR) [DoD - USN - SECNAV]
 NAICS
 
 541715 - Research
-- ARMADA Marine Robotics Wins Navy Phase II Contract (2023-03-02) https://oceannews.com/news/defense/armada-marine-robotics-wins-navy-phase-ii-contract/
-  ARMADA Marine Robotics Wins Navy Phase II Contract
-
-# ARMADA Marine Robotics Wins Navy Phase II Contract
-
-- 2 March 2023
-- Edited By: Ocean News
-
-ARMADA Marine Robotics has won a SBIR Phase II contract from the US Navy to continue development of an External Payload Delivery System (EPADS) for cylindrical Unmanned Underwater Vehicles (UUVs). The contract is for $1M over 2 years with an Option for another $1M over 2 additional years.
-
-The project extends work previously performed by ARMADA under a
 
 ## Open roles
 (no jobs data found)

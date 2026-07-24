@@ -1,0 +1,16 @@
+{
+  "company": "Signos Inc",
+  "slug": "signos-inc",
+  "domain": "signos.com",
+  "verdict": "insufficient_evidence",
+  "drop_reason": "",
+  "dod_intent_evidence": "Won a $1,247,557 Air Force SBIR Phase II for PERFORM-AI (physiological readiness/fitness monitoring) per their own SBIR abstract, but the abstract is truncated to one generic sentence and the entire rest of the ~1573-word own-language pack is 100% consumer weight-loss/GLP-1 marketing with zero mention of the military product.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "low",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Consumer continuous-glucose-monitoring (CGM) weight-management platform; separately holds one Air Force SBIR Phase II to adapt the tech for airman physiological readiness (PERFORM-AI), but no own-language exists describing that defense product specifically."
+}

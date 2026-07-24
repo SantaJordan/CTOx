@@ -3,30 +3,14 @@ slug: chaos-industries | domain: chaosinc.com | HQ: Los Angeles, California US |
 sources: vc:silent
 industry(LI): Defense and Space Manufacturing | specialties: 
 channel notes: defense sensing and detection systems
-own-language word count: ~583
+own-language word count: ~539
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
 URL: https://chaosinc.com
 Redefining modern defense | CHAOS Industries
 
-# Redefining modern defense
-
-Los Angeles
-
-Washington DC
-
-San Francisco
-
-San Diego
-
-London
-
-Amman
-
 Delivering domain dominance both near and far
-
-## TECHNOLOGIES
 
 Sense 10 minutes sooner
 
@@ -35,8 +19,6 @@ Track up to 250 km
 Protect at $100/km2
 
 Learn more
-
-## NEWS
 
 CNBC
 
@@ -56,13 +38,9 @@ By Cal Biesecker
 
 More news
 
-## TEAM
-
 Solve the world’s most urgent problems
 
 Join us
-
-## Contact
 
 General
 
@@ -72,26 +50,10 @@ Investors
 
 Careers
 
-URL: https://chaosinc.com/
+URL: https://www.chaosinc.com/
 Redefining modern defense | CHAOS Industries
 
-# Redefining modern defense
-
-Los Angeles
-
-Washington DC
-
-San Francisco
-
-San Diego
-
-London
-
-Amman
-
 Delivering domain dominance both near and far
-
-## TECHNOLOGIES
 
 Sense 10 minutes sooner
 
@@ -100,8 +62,6 @@ Track up to 250 km
 Protect at $100/km2
 
 Learn more
-
-## NEWS
 
 CNBC
 
@@ -121,13 +81,9 @@ By Cal Biesecker
 
 More news
 
-## TEAM
-
 Solve the world’s most urgent problems
 
 Join us
-
-## Contact
 
 General
 
@@ -137,7 +93,7 @@ Investors
 
 Careers
 
-URL: https://chaosinc.com/technologies
+URL: https://www.chaosinc.com/technologies
 Air defense systems that sense, track, and protect | CHAOS Industries
 
 CH001
@@ -196,7 +152,7 @@ Redefining the future of sensing, detection, and effects
 
 →Interoperability with larger command and control (C2) systems
 
-URL: https://chaosinc.com/newsroom
+URL: https://www.chaosinc.com/newsroom
 Press release and media | CHAOS Industries Newsroom
 
 Featured
@@ -328,7 +284,7 @@ By Julie Fine
 CHAOS Industries is redefining modern defense with a multi-product portfolio that gives the ultimate advantage—domain dominance. CHAOS Industries’ products are powered by Coherent Distributed Networks (CDN™), empowering warfighters, commercial air operators, and border protection teams to act faster, adapt rapidly, and stay ahead of evolving threats. 
 
 ## News (Exa, top 3)
-- CHAOS Industries Awarded AFWERX TACFI Funding to Advance Next-Generation Radar Capabilities | CHAOS Industries (2025-09-17) https://www.chaosinc.com/news/chaos-industries-awarded-afwerx-tacfi-funding-to-advance-next-generation-radar-capabilities
+- CHAOS Industries Awarded AFWERX TACFI Funding to Advance Next- ... (2025-09-17) https://www.chaosinc.com/news/chaos-industries-awarded-afwerx-tacfi-funding-to-advance-next-generation-radar-capabilities
   CHAOS Industries Awarded AFWERX TACFI Funding to Advance Next-Generation Radar Capabilities | CHAOS Industries
 
 CHAOS Industries has raised $510 million in Series D funding at a $4.5 billion valuation. Read more →
@@ -342,88 +298,33 @@ CHAOS Industries has raised $510 million in Series D funding at a $4.5 billion v
 By
 
 LOS ANGELES--(BUSINESS WIRE)--CHAOS Industries, the leader in coherent distributed networking (CDN) multi-static radar, today announced it was selected for a $
-- Phase II Small Business Innovation Research (SBIR) Developing Multi-Static Radar Technology | CHAOS Industries (2025-09-17) https://www.chaosinc.com/news/phase-ii-small-business-innovation-research-sbir-developing-multi-static-radar-technology
-  Phase II Small Business Innovation Research (SBIR) Developing Multi-Static Radar Technology | CHAOS Industries
+- CHAOS Industries Selected for U.S. Army G‑TEAD Marketplace, Expanding Counter‑UAS Support to U.S. and NATO Forces (2025-12-16) https://www.businesswire.com/news/home/20251216208447/en/CHAOS-Industries-Selected-for-U.S.-Army-GTEAD-Marketplace-Expanding-CounterUAS-Support-to-U.S.-and-NATO-Forces
+  CHAOS Industries Selected for U.S. Army G‑TEAD Marketplace, Expanding Counter‑UAS Support to U.S. and NATO Forces
 
-CHAOS Industries has raised $510 million in Series D funding at a $4.5 billion valuation. Read more →
+Dec 16, 2025 8:00 AM Eastern Standard Time
 
-# Press release
+# CHAOS Industries Selected for U.S. Army G‑TEAD Marketplace, Expanding Counter‑UAS Support to U.S. and NATO Forces
 
-9.17.25
+Share
 
-## Phase II Small Business Innovation Research (SBIR) Developing Multi-Static Radar Technology
+---
 
-By
+Addition to the marketplace satisfies competition requirements and enables rapid acquisition of CHAOS systems across U.S. and NATO commands
 
-LOS ANGELES--(BUSINESS WIRE)--CHAOS Industries, the leader in coherent distributed networking (CDN) multi-static radar, announced today that The House of Repre
-- Chaos Nabs Two Contracts - Los Angeles Business Journal (2025-09-29) https://labusinessjournal.com/technology/chaos-nabs-two-contracts/
-  Chaos Nabs Two Contracts - Los Angeles Business Journal
+LOS ANGELES--(BUSINESS WIRE)--CHAOS Industries, the defense technology 
+- CHAOS Industries Awarded AFWERX TACFI Funding to Advance Next-Generation Radar Capabilities (2025-09-17) https://finance.yahoo.com/news/chaos-industries-awarded-afwerx-tacfi-102500219.html
+  CHAOS Industries Awarded AFWERX TACFI Funding to Advance Next-Generation Radar Capabilities
 
-Search
+Oops, something went wrong
 
-Los Angeles Business Journal
+This is a paid press release. Contact the press release distributor directly with any inquiries.
 
-Logout
+# CHAOS Industries Awarded AFWERX TACFI Funding to Advance Next-Generation Radar Capabilities
 
-Login
+LOS ANGELES, September 17, 2025--(BUSINESS WIRE)--CHAOS Industries, the leader in coherent distributed networking (CDN) multi-static radar, today announced it was selected for a $1.9 mil
 
-Subscribe
-
-Los Angeles Business Journal
-
-67.4 F
-
-Los Angeles
-
-Thursday, Jul 23, 2026
-
-Twitter
-
-Youtube
-
-Logout
-
-Login
-
-Subscribe
-
-THE COMMUNITY OF BUSINESS™
-
-Special Editions
-
-Los Angeles Business Journal
-
-Technology
-
-# Chaos Nabs Two Contracts
-
-Hawthorne-based Chaos Industries lands two federal contracts.
-
-Keerthi Vedantam
-
-By Keerthi Vedantam
-
-September 29, 2025
-
-1080
-
-Email
-
-Print
-
-Ch
-
-## Open roles (Blitz, live)
-- HIL Engineer ({'city': 'El Segundo', 'country_code': 'US'})
-- Technical Operations Team Lead ({'city': 'El Segundo', 'country_code': 'US'})
-- Digital Signal Processing Engineer ({'city': 'El Segundo', 'country_code': 'US'})
-- Radar Signal Processing Engineer ({'city': 'El Segundo', 'country_code': 'US'})
-- Staff Radar Systems Development Engineer ({'city': 'El Segundo', 'country_code': 'US'})
-- Warehouse Supervisor ({'city': 'El Segundo', 'country_code': 'US'})
-- Technical Operations Team Lead (US) ({'city': 'El Segundo', 'country_code': 'US'})
-- Field Operations Specialist (UAE) ({'city': None, 'country_code': 'AE'})
-- Field Operations Specialist (UK) ({'city': 'London', 'country_code': 'GB'})
-- Backend Software Engineer ({'city': 'San Francisco', 'country_code': 'US'})
+## Open roles
+(no jobs data found)
 
 ---
 # Context for the scoring agent (do not re-search)

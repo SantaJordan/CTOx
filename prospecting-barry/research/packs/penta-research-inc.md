@@ -251,6 +251,8 @@ Penta Research was founded for our team to enjoy the life-long satisfaction of a
 Penta Research proposes to leverage its SME knowledge and successful experience in analysis, software development, and scenario design to develop an Artificial Intelligence and Machine Learning capability that provides automated scenario designs at a significantly accelerated pace. Penta's prototype will automate the complex decision-making steps involved with designing scenarios and provide a highly intuitive means for expressing the vast constraints and requirements to the AI/ML system. The prototype can be easily integrated into the existing scenario design process for minimum fielding timeline. Approved for Public Release | 22-MDA-11340 (16 Dec 22)
 
 ## News (Exa, top 3)
+- CONTRACT to PENTA RESEARCH INC () https://www.usaspending.gov/award/CONT_AWD_HQ086025C7101_9700_-NONE-_-NONE-
+  �         ���V[S�8~�_��;ű�@ �.���.�vv&#[Ƕ�-g%9����Є����-�˧s��ÊHW �γ�}�&I`��p���)�R*�����w�9U�k�a6)��HT �f��4`0����לfm� �.��B����'����U`��@[V ��,ź�q�A#*��*��j�Q����4yN�9��"S��H.U���K��3B5����K2�_s�����Ტ}�!�g\|%2Ę�עR����+x��1���/t��$�hBU%"�Y`�c`c*�%k�XD�(�R�'j���N<��i�V�e�F�)H��?�j`�CA�J�H�Ϲ���{t���`turx���p�?�ިt�e &=��AQo�� [ <�}�$�|�+#� AN��n�0�y��od�A��Krq9"��O�!G'g�_��Ϗ����� y��gE����$-�}�y�TF�P�1.���z�t�I������K���� ������KU#�\`�
 - Award | SBIR () https://www.sbir.gov/awards/215862
   Award | SBIR Skip to main content
 
@@ -293,8 +295,6 @@ DOW
 Branch: MDA
 
 Total A
-- CONTRACT to PENTA RESEARCH INC () https://www.usaspending.gov/award/CONT_AWD_HQ086025C7101_9700_-NONE-_-NONE-
-  �         ���V[S�8~�_��;ű�@ �.���.�vv&#[Ƕ�-g%9����Є����-�˧s��ÊHW �γ�}�&I`��p���)�R*�����w�9U�k�a6)��HT �f��4`0����לfm� �.��B����'����U`��@[V ��,ź�q�A#*��*��j�Q����4yN�9��"S��H.U���K��3B5����K2�_s�����Ტ}�!�g\|%2Ę�עR����+x��1���/t��$�hBU%"�Y`�c`c*�%k�XD�(�R�'j���N<��i�V�e�F�)H��?�j`�CA�J�H�Ϲ���{t���`turx���p�?�ިt�e &=��AQo�� [ <�}�$�|�+#� AN��n�0�y��od�A��Krq9"��O�!G'g�_��Ϗ����� y��gE����$-�}�y�TF�P�1.���z�t�I������K���� ������KU#�\`�
 - Award | SBIR () https://www.sbir.gov/awards/211829
   Award | SBIR Skip to main content
 

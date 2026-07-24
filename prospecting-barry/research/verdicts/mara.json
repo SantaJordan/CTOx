@@ -1,0 +1,44 @@
+{
+  "company": "Mara",
+  "slug": "mara",
+  "domain": "mara.inc",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "CEO 'landing their first DoD contract at 22' and CTO 'delivered solutions to Anduril, the US Air Force, NOAA, and the Ukrainian army' (About page); 1st Cavalry Division testing Golden Shield and NATO DIANA 2026 selection (News section).",
+  "disconnect_score": 37,
+  "subscores": {"lab_language_intensity": 4, "deployment_awareness_absence": 3, "operator_absence": 2, "hiring_profile_skew": 10, "stage_pressure": 18},
+  "score_evidence": [
+    "'20x cheaper than the next best interceptor' and '1 minute' reload are operational/cost specs, not lab vanity metrics → lab_language_intensity low",
+    "'Designed from the ground up for RF-contested, GPS-denied environments... Don't emit. Don't die. Unlike EW systems, Spotter keeps you radio-silent' — explicit DDIL-equivalent design language → deployment_awareness_absence low",
+    "'Spike minimizes cognitive load for the warfighter with hands-free detection' and direct Ukrainian commander testimonials → operator_absence low",
+    "open roles are AI engineer, robotics simulation ('Wargamer'), embedded/electrical ('Bitcaster') — hardware domain-engineering hires are neutral per checklist, no compliance/BD hire visible → hiring_profile_skew",
+    "7-11 employees, founded 2024, a16z Speedrun cohort (pre-seed accelerator) → stage_pressure high"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Spotter's sensor-fusion track data has no stated path into a higher command's C2/TAK picture — the product is described purely as a standalone find-fix-finish loop.",
+      "operator_reality": "A counter-drone sensor that can't format its detections for the battalion's TAK/C2 picture stays a gadget the truck crew loves but the S2 never adopts into the broader air-picture — 'operators loving it is not adoption.'",
+      "why_likely_missing": "Team of 7-11 is focused on core kinetic and perception R&D, not yet on software/C2 integration.",
+      "evidence_quote": "Spotter tracks FPV drones in all directions using passive sensor fusion and optional W-band low-emission radar.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No mention of a spares/resupply/battery-logistics pipeline for an attritable, mass-expended interceptor system.",
+      "operator_reality": "A '48 Seeker' magazine of 250g attritable interceptors implies theater-scale consumption; without a stated manufacturing/resupply plan, sustainment collapses exactly when the fight is heaviest — the same gap that kills a fielded system after the demo.",
+      "why_likely_missing": "Pre-seed team still proving the core kill-chain, not yet at production/sustainment scale.",
+      "evidence_quote": "Spike can be fitted with up to 48 Seeker interceptors. Reload each launchpad in under 1 minute.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Hiring is 100% core R&D (AI, robotics sim, embedded/electrical) with no capture/BD/advocacy hire, despite the company already having glowing Ukrainian-operator praise but only a U.S. Army test ('trialled'), not a funded program of record.",
+      "operator_reality": "Operator love from Ukrainian brigade commanders is not a funded U.S. champion above the operator level — without someone driving that conversion, the 1st Cav test risks staying a demo while the seed clock runs out.",
+      "why_likely_missing": "Tiny team (7-11) at pre-seed stage still building the product itself.",
+      "evidence_quote": "Wargamer (Robotics Simulation Engineer) ... Bitcaster (Embedded Systems / Electrical)",
+      "quote_source": "job_post"
+    }
+  ],
+  "opener_hook": "1st Cavalry Division just tested Spike under the Golden Shield layered-defense trial — what's the funded path from that test to a program of record?",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Portable autonomous counter-drone hardware — a passive sensor (Spotter) paired with attritable kinetic interceptors (Seeker) — built for RF-contested, GPS-denied battlefield defense."
+}

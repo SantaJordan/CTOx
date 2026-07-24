@@ -1,0 +1,16 @@
+{
+  "company": "Fermata Discovery",
+  "slug": "fermata-discovery",
+  "domain": "fermatadiscovery.com",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "Own artifacts show law-enforcement/corrections/legal customers only ('Investigative Sgt., Northeast Sheriff's Office' testimonial; use cases: Corrections Intelligence, Law Enforcement, Risk Diligence — homepage) — no DoD/military/warfighter customer language, no SBIR or defense contract record; New North Ventures portfolio membership alone does not qualify.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "AI-assisted investigation and case-management platform (VIXN) for law enforcement, corrections, and corporate diligence."
+}

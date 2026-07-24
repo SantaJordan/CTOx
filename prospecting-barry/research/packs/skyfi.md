@@ -277,7 +277,7 @@ SkyFi is an Earth intelligence company delivering satellite imagery, SAR, AIS, a
 US Special Operations Command currently uses the ATAK mobile application for missions such as blue-force tracking. (US Army photo by Spc. Joshua Cofield)
 
 WASHINGTON ― US Special Operations Command (SOCOM) has contracted Texas startup SkyFi to test a software platform built to deliver unclassified commercial satellite imagery directly to warfighters ― including a capability for commanders in the field to task a satelli
-- SkyFi Secures SOCOM Contract, Explores Asia-Pacific ... (2026-05-13) https://aviationweek.com/space/satellites/skyfi-secures-socom-contract-explores-asia-pacific-shared-imagery-platform
+- SkyFi Secures SOCOM Contract, Explores Asia-Pacific Shared Imagery Platform | Aviation Week (2026-05-13) https://aviationweek.com/space/satellites/skyfi-secures-socom-contract-explores-asia-pacific-shared-imagery-platform
   SkyFi Secures SOCOM Contract, Explores Asia-Pacific Shared Imagery Platform | Aviation Week
 
 ## Share

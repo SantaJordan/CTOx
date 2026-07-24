@@ -253,18 +253,12 @@ FIG.01 · USA Illustration. Generated key image, not a photo of the event.
 A Kansas City-launched firm cleared a gate in the Pentagon's search for a container that launches, recovers and refits drone fleets with a crew of two, the bottleneck sitting between the Army's million-drone plan and the air.
 
 Tesseract Ventures will advance in the Defense Innovation Unit's Containerized Autonomous Drone Delivery System prototype project, the company 
-- Tesseract Ventures Selected by Defense Innovation Unit for Containerized Autonomous Drone Delivery System (CADDS) Prototype Project | Soldier Systems Daily Soldier Systems Daily (2026-07-18) https://soldiersystems.net/2026/07/18/tesseract-ventures-selected-by-defense-innovation-unit-for-containerized-autonomous-drone-delivery-system-cadds-prototype-project/
-  # Tesseract Ventures Selected by Defense Innovation Unit for Containerized Autonomous Drone Delivery System (CADDS) Prototype Project | Soldier Systems Daily Soldier Systems Daily
+- Tesseract Ventures Announces Revolutionary SWARM Drone Technology for Special Operations Forces (2024-04-30) https://www.prnewswire.com/news-releases/tesseract-ventures-announces-revolutionary-swarm-drone-technology-for-special-operations-forces-302132148.html
+  Tesseract Ventures Announces Revolutionary SWARM Drone Technology for Special Operations Forces Accessibility Statement Skip Navigation
 
-Published: 2026-07-18T17:00:00+00:00
-Source: soldiersystems.net (soldiersystems.net)
-Language: en
+OVERLAND PARK, Kan., April 30, 2024 /PRNewswire/ -- Tesseract Ventures is excited to announce that it has been awarded an Other Transaction Agreement (OTA) from the U.S. Special Operations Command (USSOCOM). This contract will fund the development of the company's next-generation drone, the SWARM (Special Warfighter Assistive Robotic Machine).
 
-## Story
-
-Tesseract Ventures Selected by Defense Innovation Unit for Containerized Autonomous Drone Delivery System (CADDS) Prototype Project | Soldier Systems Daily Soldier Systems Daily
-
-[![Soldier Systems](https://sol
+Continue Reading
 
 ## Open roles
 (no jobs data found)

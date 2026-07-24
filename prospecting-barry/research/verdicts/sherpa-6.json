@@ -1,0 +1,20 @@
+{
+  "company": "Sherpa 6",
+  "slug": "sherpa-6",
+  "domain": "sherpa6.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "Genuine DoD motion is not in question (TAKPro ATAK plugin for Army Nett Warrior, $239.6M Phase III Army chem/bio detection award) but the company self-describes as a full-service engineering/staffing firm, not a product startup.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "'We're a full service firm that can take any concept from inception to completion, supporting all phases of a project. Our Services Include Systems Engineering, UX/UI Design, Mobile Development ... Sensor Integration, Field Support and Product Sustainment.' → services/staffing firm, not a product company",
+    "'Approved OASIS+ SDVSOB Contract Holder' → OASIS+ is a government-wide professional-services contract vehicle, reinforcing the staffing/services model",
+    "$239.6M Phase III Army award for chemical/biological detection tech (2026-06-05, envzone.com/clearancejobs.com) and 158-196 employees → also already past valley-of-death scale, reinforcing the drop independent of type"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "unknown",
+  "what_they_do": "Veteran-owned full-service defense engineering and staffing firm (systems engineering, mobile/software dev, sensor integration, field support) serving the dismounted Soldier market."
+}

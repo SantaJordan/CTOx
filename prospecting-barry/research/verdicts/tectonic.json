@@ -1,0 +1,26 @@
+{
+  "company": "Tectonic",
+  "slug": "tectonic",
+  "domain": "tectonic.xyz",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Homepage banner states 'Member of the NIST PQC Consortium • U.S. Navy SBIR Awardee • DARPA ERIS Marketplace Awardable'; Chief Strategy Officer 'served as the Chief Technical Officer for the United States Special Operations Command (USSOCOM/J6)' — concrete DoD program and personnel evidence, independent of the mismatched news (three unrelated companies also named Tectonic/similar).",
+  "disconnect_score": 42,
+  "subscores": {"lab_language_intensity": 8, "deployment_awareness_absence": 4, "operator_absence": 8, "hiring_profile_skew": 10, "stage_pressure": 12},
+  "score_evidence": [
+    "Copy is threat/mission-framed ('harvest now, decrypt later', 'your adversaries are recording your encrypted data right now') rather than lab-metric brag, though team-pedigree brag is heavy → lab_language_intensity kept moderate-low",
+    "'Works over radio, satellite, and regular internet, even in disconnected environments' and 'From server rooms to submarines... satellite, radio, tactical edge, and standard IT, including denied and disconnected environments' — explicit DDIL/tactical-edge fluency, unusual for this stage → deployment_awareness_absence scored low",
+    "Team framed as 'Operators, cryptographers, and scientists' and CSO is a former USSOCOM CTO, but there is no CONOPS or field-feedback detail beyond team pedigree → operator_absence moderate",
+    "'no jobs data found' → hiring_profile_skew set to 10 per rule",
+    "7 employees, early-stage ('backed by' angel investors and national-security VCs, no disclosed round), SBIR/DARPA-marketplace stage rather than a fielded program, and attention split across a parallel Web3/crypto product line (tectoniclabs.xyz) → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "'Automatically upgrade to new security standards as they come out... even in disconnected environments' does not explain how a truly isolated node receives that upgrade", "operator_reality": "A DDIL node can be out of contact for weeks; 'automatic' upgrades still require some sync window, and the pitch never says what happens to a node that misses it — the same class of assumption that broke the 30fps crowd-detection case", "why_likely_missing": "the marketing claim is meant to sound seamless; the sync-window mechanics are an engineering detail not surfaced publicly", "evidence_quote": "Your networks automatically upgrade to new security standards as they come out. Works over radio, satellite, and regular internet, even in disconnected environments.", "quote_source": "homepage"},
+    {"blind_spot": "No ATO/RMF/IL5 accreditation pathway named for crypto software claimed to run 'from server rooms to submarines'", "operator_reality": "Encryption infrastructure on a Navy platform needs an authorization to operate before it touches classified or even unclassified DoD networks; claiming submarine-to-server-room reach without naming the accreditation route is the gap that typically stalls a Navy SBIR before Phase III", "why_likely_missing": "marketing emphasizes breadth of environments, not the certification process to actually reach them", "evidence_quote": "Works Everywhere: From server rooms to submarines. Our tools operate across satellite, radio, tactical edge, and standard IT, including denied and disconnected environments.", "quote_source": "homepage"},
+    {"blind_spot": "Nearly identical homepage narrative and product framing is reused verbatim between the defense site (tectonic.xyz) and a parallel Web3/crypto site (tectoniclabs.xyz), and the team's public pedigree is dominated by crypto companies (Polygon, Hedera, TRON, Ethereum Foundation, Coinbase, Consensys) rather than defense deployment experience", "operator_reality": "A team culture built around Web3 launch cycles doesn't automatically transfer to the sustainment, training, and advocacy-chain work a Navy program needs; the defense pitch reads as a repackaging of the crypto pitch rather than a purpose-built defense product", "why_likely_missing": "the same 3-person founding/eng core is running two go-to-markets, and only one team member (the CSO) has direct DoD experience", "evidence_quote": "Securing The World's Migration To Post-Quantum Encryption / Securing Web3's Migration To Post-Quantum Encryption", "quote_source": "homepage"}
+  ],
+  "opener_hook": "Tectonic claims automatic security-standard upgrades even in disconnected environments — what happens to a node that's been off the grid for weeks when the standard changes?",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Post-quantum encryption infrastructure (key management, secure routing, DDIL-capable communications) marketed to both defense/national-security customers and, in parallel, Web3/blockchain projects, with a U.S. Navy SBIR award and DARPA ERIS marketplace listing."
+}

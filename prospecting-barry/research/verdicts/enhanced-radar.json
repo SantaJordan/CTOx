@@ -1,0 +1,22 @@
+{
+  "company": "Enhanced Radar",
+  "slug": "enhanced-radar",
+  "domain": "enhancedradar.com",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "None in their own artifacts: entire site is civil aviation (FAA/ATC, runway incursions at LGA/ATL, United Airlines and Initialized as investors). Only defense tie is Decisive Point on the investor list, which the gate says is insufficient; the news section is irrelevant Raytheon radar coverage.",
+  "disconnect_score": 0,
+  "subscores": {
+    "lab_language_intensity": 0,
+    "deployment_awareness_absence": 0,
+    "operator_absence": 0,
+    "hiring_profile_skew": 0,
+    "stage_pressure": 0
+  },
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "AI models and sensors for civil air traffic control safety (pilot-controller comms understanding, runway incursion detection)."
+}

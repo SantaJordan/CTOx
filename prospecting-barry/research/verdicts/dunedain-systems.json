@@ -1,0 +1,45 @@
+{
+  "company": "Dunedain Systems",
+  "slug": "dunedain-systems",
+  "domain": "dunedainsystems.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Their own homepage states 'Warmind's first prototype field-test with 19th Special Forces Group demonstrated a 4x increase in operational artifact generation', and their LinkedIn about addresses 'Soldiers, Sailors, Airmen, and Guardians' directly — a named unit field test, not just a VC portfolio line. (The two ESA/Phi-Lab news items in this pack belong to a different, Netherlands-based 'Dunedain Space' and were disregarded.)",
+  "disconnect_score": 64,
+  "subscores": {"lab_language_intensity": 15, "deployment_awareness_absence": 12, "operator_absence": 4, "hiring_profile_skew": 17, "stage_pressure": 16},
+  "score_evidence": [
+    "'Warmind runs the Military Decision Making Process and other operational processes with your staff, collapsing days of planning into a single afternoon' → lab_language_intensity: a speed multiplier as the headline claim with no environment attached",
+    "'Warmind's first prototype field-test with 19th Special Forces Group demonstrated a 4x increase in operational artifact generation' → lab_language_intensity: a single prototype event carries the entire proof burden",
+    "The site is a commercial web app ('Log in / Sign up', 'try our open Beta') handling OPORDs, FRAGOs and overlays with no mention of IL4/IL5/IL6, ATO, RMF, NIPR/SIPR, CUI handling or CMMC anywhere → deployment_awareness_absence (capped at 12; own-language ~772 words)",
+    "'Software by Warfighters, for Warfighters. We build alongside the units that use Warmind.' → operator_absence is LOW: veteran founders, a named SF unit, and field feedback are central to how they describe themselves",
+    "All four open roles are 'ML/NLP Research Engineering Intern', 'AI & ML Engineering Intern', 'Frontend Software Engineer', 'AI Software Engineer, Frontend-Focus' — research and frontend only, with no security, infrastructure, ISSO, compliance or deployment engineer → hiring_profile_skew",
+    "Pre-seed (2025, Outlander VC, amount undisclosed) at 11-16 people, staffing partly with interns while chasing a prototype-to-program transition → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Their stated delivery cadence is a commercial SaaS pipeline, which cannot survive contact with an accredited government network.",
+      "operator_reality": "On an RMF-accredited enclave, a code push is a configuration change: it goes through the ISSM, the STIG'd baseline, and a change control board, not through their CI/CD. The same-day loop that made the 19th SFG test feel magical becomes a quarterly release train the moment the software lives on NIPR, and the unit that fell in love with the responsiveness experiences the fielded version as a different, slower product.",
+      "why_likely_missing": "The founding team's software pedigree is consumer and B2B scale ('platforms reaching 100M+ monthly users', 'optimized CI/CD pipelines'), and they are hiring frontend and ML people rather than anyone who has carried a system through RMF.",
+      "evidence_quote": "Feedback from the field on Monday morning ships to prod by Monday night.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The product ingests and generates the exact artifacts that are classified or CUI by default, yet nothing they publish names an impact level, an accredited hosting environment, or where inference runs.",
+      "operator_reality": "An OPORD, a FRAGO and a graphic overlay for a real mission are minimum CUI and usually SECRET. That means the model has to run inside an IL5/IL6 boundary — an on-prem or GovCloud-hosted, accredited deployment — because no staff officer can paste the scheme of maneuver into a commercially hosted LLM. 'LLM-agnostic' is the right instinct but only pays off if the accredited enclave version exists; until it does, the product can only ever be used on unclassified training problems, which is precisely how a promising prototype gets labeled a demo tool.",
+      "why_likely_missing": "They are running an open public beta and a sign-up funnel, a go-to-market that assumes users can reach the product from an ordinary browser — a model that never forces the classification question.",
+      "evidence_quote": "Our secure, LLM-agnostic technology stack - built by Warfighters, for Warfighters - tackles this problem by empowering Soldiers, Sailors, Airmen, and Guardians to accelerate and improve workflows",
+      "quote_source": "linkedin_about"
+    },
+    {
+      "blind_spot": "Planning does not stay in garrison — a deployed TOC runs on an intermittent satellite link, and there is no stated behavior for Warmind when that link is down or when the output has to reach the element in the field.",
+      "operator_reality": "The SF team planning at a forward site loses bandwidth exactly when the FRAGO has to be cut. If generation requires a round trip to a hosted model, the tool is unavailable at the moment of highest demand, and the staff reverts to the PowerPoint template they already trust. The overlays the product generates also need to arrive as CoT into ATAK on the team's EUDs rather than as a document — a situational-awareness product that never mentions TAK is leaving the last mile to the user.",
+      "why_likely_missing": "The 19th SFG test measured artifact generation rate, a metric that is indifferent to connectivity, so the degraded-link case never appeared in the result they are marketing on.",
+      "evidence_quote": "Special operations units are beset by admin that slows down mission execution. Operations orders, FRAGOs, overlays and risk assessments are required before any operation.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Your homepage promises field feedback Monday morning ships to prod by Monday night — on an RMF-accredited network that push stops being your pipeline's decision and becomes the ISSM's.",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Austin pre-seed startup building Warmind, an AI assistant that runs the Military Decision Making Process and drafts operations orders, FRAGOs and overlays for special operations staffs."
+}

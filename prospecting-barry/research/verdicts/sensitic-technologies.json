@@ -1,0 +1,41 @@
+{
+  "company": "Sensitic Technologies",
+  "slug": "sensitic-technologies",
+  "domain": "sensitictech.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "U.S. Air Force SBIR Phase I recipient, preparing flight hardware for test under Air Force-supported work — channel notes.",
+  "disconnect_score": 51,
+  "subscores": {"lab_language_intensity": 8, "deployment_awareness_absence": 8, "operator_absence": 6, "hiring_profile_skew": 12, "stage_pressure": 17},
+  "score_evidence": [
+    "\"Multiple Engineering Positions\" is the only job title in the pack, too generic to show a clear research-vs-field skew -> hiring_profile_skew",
+    "4-5 person team on a Phase I SBIR (the shortest, riskiest stage before Phase II eligibility), \"preparing flight hardware for test\" -> stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Autonomous ground/drone tracking products are described purely by capability ('autonomous target detection and tracking') with no mention of how tracks/alerts get relayed when the tactical network is degraded or intermittent.",
+      "operator_reality": "The same DDIL failure mode as the canonical crowd-detection case: an autonomous tracker that assumes a continuous link back to command breaks the moment comms go intermittent, unless it's architected for on-device inference and store-and-forward from day one.",
+      "why_likely_missing": "A 4-person team at Phase I is focused on getting the sensor and tracking algorithm working at all, not yet on the tactical-network integration layer.",
+      "evidence_quote": "Ground Systems: Deployable custom sensor suites and ground mobility platforms including integrated processing, AI systems, and autonomous target detection and tracking capabilities.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The product catalog references 'security requirements' affecting lead times but never names ITAR, export control, or CMMC explicitly, despite selling flight hardware and biometric facility-access/security systems — both controlled-technology categories.",
+      "operator_reality": "A 4-person company without a named ITAR/CMMC compliance path risks exactly the paperwork-kills-the-program failure mode Barry targets, especially once flight hardware and facility biometric systems move past prototype.",
+      "why_likely_missing": "Compliance infrastructure is typically the last thing a 4-person engineering-led team builds while still proving the hardware works.",
+      "evidence_quote": "Lead times vary by supply chain conditions and security requirements.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "'Operator readiness' is mentioned once, in the context of simulation/synthetic test environments, with no elaboration on who trains the actual field operator or how sustainment (spares, repair, GFE integration) works once hardware is fielded.",
+      "operator_reality": "Simulation-based operator readiness is not the same as field sustainment — a jammed optical tracker or dead battery at an austere site needs a named person and spares pipeline, which is exactly the gap this language papers over.",
+      "why_likely_missing": "The company's public materials stop at 'rapid validation,' i.e. pre-deployment testing, and don't yet extend to post-fielding sustainment.",
+      "evidence_quote": "Scenario-based modeling and synthetic test environments for rapid validation and operator readiness.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Your Phase I flight hardware is heading to test — is CMMC/ITAR compliance already lined up for the Phase II transition, or still ahead of you?",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Builds electro-optical sensor payloads, ground/space tracking systems, and facility-security sensors for defense and space customers, currently under an Air Force SBIR Phase I preparing flight hardware for test."
+}

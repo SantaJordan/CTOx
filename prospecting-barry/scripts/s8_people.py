@@ -1,14 +1,7 @@
 #!/usr/bin/env python3
 """Stage 5a: find CEO + CTO for the top-N ranked companies via Blitz waterfall-ICP.
-
-In : data/ranked_companies.csv (top TOP_N by disconnect_score)
-     checkpoints/blitz_verify.jsonl (company LinkedIn URLs already resolved)
+In : data/ranked_companies.csv (top TOP_N), checkpoints/blitz_verify.jsonl (LI urls)
 Out: checkpoints/people.jsonl (resumable) + output/people.csv
-
-Two buckets per company (max 2 each): CEO (CEO/Founder/President) and CTO
-(CTO/VP Eng/Head of Eng/Technical Director). EXCL keeps fractional/interim/
-advisors out — never hand Barry his competitors.
-
 Usage: python3 s8_people.py [--top N]
 """
 import csv

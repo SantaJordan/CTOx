@@ -1,44 +1,36 @@
 {
-  "company": "Red 6",
+  "company": "Red 6 (Red Six Aerospace, Inc.)",
   "slug": "red-6",
   "domain": "red6ar.com",
   "verdict": "keep",
   "drop_reason": "",
-  "dod_intent_evidence": "AFWERX STRATFI award ($30M matched by $30M private), 2025 USAF contract to integrate ATARS on the F-16, and an AFSOC MC-130J STRATFI SBIR — news section.",
-  "disconnect_score": 37,
-  "subscores": {"lab_language_intensity": 12, "deployment_awareness_absence": 10, "operator_absence": 3, "hiring_profile_skew": 4, "stage_pressure": 8},
+  "dod_intent_evidence": "AFWERX STRATFI $30M+$30M match award (2024), SBIR Phase II ~$12M for ATARS Integration on AFSOC MC-130J (2025, sbir.gov), and a direct U.S. Air Force contract via Air Combat Command to integrate ATARS into the F-16 (Aug 2025 press release) — deep, repeated DoD motion in the company's own press.",
+  "disconnect_score": 20,
+  "subscores": {"lab_language_intensity": 4, "deployment_awareness_absence": 6, "operator_absence": 2, "hiring_profile_skew": 3, "stage_pressure": 5},
   "score_evidence": [
-    "'Don't be surprised when our technology goes from a concept to a flying prototype in only a few days' — prototype-velocity as the brand → lab_language_intensity (careers page)",
-    "'fully immersive, data-driven, AI-enabled 3D synthetic training worlds' → lab_language_intensity (homepage)",
-    "In ~1,590 own words there is no airworthiness, flight-clearance, ATO, or certification language at all for a device flying inside a fighter cockpit — the fielding path is invisible in their story → deployment_awareness_absence (homepage/vision)",
-    "Operators are central: 'Modern Flight Training for Modern Warfighters'; leadership is F-22 pilots and a retired Major General → operator_absence scored low",
-    "Hiring 'Trade Compliance/Export Controls Manager', 'Configuration Management (CM) Manager', 'Contract Proposal Manager - Department of Defense', 'Manufacturing Test Engineer' → deployment/compliance hiring, skew scored low (job_post list)"
+    "'We are warfighters, engineers and technologists... driven by the personal passion of our founder and CEO to solve a national security problem that is threatening the readiness of our warfighters' → operator_absence low, operators central to identity",
+    "Open roles include 'Trade Compliance/Export Controls Manager' and 'Configuration Management (CM) Manager' → hiring_profile_skew low, they are hiring deployment/compliance roles not just lab researchers",
+    "Site copy is entirely mission/vision language ('A revolutionary approach to military flight training is urgently needed') with zero accuracy%/fps/TRL bragging → lab_language_intensity low"
   ],
   "blind_spots": [
-    {
-      "blind_spot": "The site sells synthetic-world immersion; nothing in their language addresses the airworthiness and flight-clearance gauntlet between the F-16 award and fleet-wide fielding",
-      "operator_reality": "Putting an AR headset with recording sensors and RF links inside a fleet F-16 requires a military flight clearance (SEEK EAGLE process), egress/ejection-safety qualification against the ACES II seat, and integration testing per tail configuration — a multi-year serial process that eats the STRATFI period of performance regardless of how fast the demo iterated",
-      "why_likely_missing": "Culture is prototype-speed ('concept to a flying prototype in only a few days'); flight clearance is the opposite tempo and lives with the government, so it never shows up in a startup's self-narrative until it becomes the schedule",
-      "evidence_quote": "Don't be surprised when our technology goes from a concept to a flying prototype in only a few days.",
-      "quote_source": "homepage"
-    },
-    {
-      "blind_spot": "No squadron-level sustainment story for a helmet-mounted hardware product",
-      "operator_reality": "At a training squadron, ATARS competes for life-support-shop time with HGU-55 helmets and JHMCS: fit checks per pilot, spares and battery logistics, fault isolation by an E-5 aircrew flight equipment tech with 20 minutes of training — none of which appears in their language, which stops at the immersive experience",
-      "why_likely_missing": "Team DNA is pilots, VFX artists, and game-engine engineers; testimonial energy is about what the pilot sees, and sustainment planning is invisible until the first squadron owns broken units",
-      "evidence_quote": "We are warfighters, engineers and technologists. We are MBAs, visual artists, creatives and lawyers.",
-      "quote_source": "homepage"
-    },
-    {
-      "blind_spot": "'Data-driven... synthetic training worlds... at scale' presumes range connectivity and an accredited data pipeline they never describe",
-      "operator_reality": "Multi-ship synthetic adversaries need low-latency datalinks across a training range and a security-accredited path for training data that mixes with real aircraft telemetry; range network accreditation and spectrum coordination are controlled by the government, and a cloud-synced training world degrades exactly like the 30fps crowd-detection case when the range link is intermittent",
-      "why_likely_missing": "Their proof points are single-aircraft and small-formation demos where a local link suffices; scale-and-frequency claims outrun the network and accreditation reality of operational training ranges",
-      "evidence_quote": "fully immersive, data-driven, AI-enabled 3D synthetic training worlds that allow humans and machines to train together safely, frequently, and at scale in realistic threat environments",
-      "quote_source": "homepage"
-    }
+    {"blind_spot": "ATARS is pitched as an 'AI-enabled 3D synthetic training world' that lets 'humans and machines train together...at scale in realistic threat environments' with no mention anywhere on-site of how the system performs when comms are degraded at a remote or forward training range.",
+     "operator_reality": "A live-rendered AR overlay in a cockpit depends on continuous low-latency data; if the training range's network drops or degrades, the pilot loses the synthetic threat picture mid-sortie — the same DDIL failure mode as the 30fps crowd-detection case, just airborne.",
+     "why_likely_missing": "Company narrative is built around the AR/training-realism vision and the founder's fighter-pilot story, not network architecture, so DDIL resilience isn't part of the public pitch even if solved internally.",
+     "evidence_quote": "'a fully immersive, data-driven, AI-enabled 3D synthetic training world that allows humans and machines to train together safely, frequently, and at scale'",
+     "quote_source": "homepage"},
+    {"blind_spot": "No public discussion of SWaP-C for the AR hardware actually worn/mounted in an F-16 or MC-130J cockpit, despite now having live integration contracts on both airframes.",
+     "operator_reality": "Cockpit space, power budget, and weight margins on legacy fighter/transport platforms are notoriously tight; an AR headset or HUD-injection system that isn't co-designed against those constraints from day one risks integration rework late in the contract.",
+     "why_likely_missing": "Public materials are aimed at recruiting and press, not engineering disclosure, so SWaP-C tradeoffs on specific airframes stay internal.",
+     "evidence_quote": "'Red 6 Secures U.S. Air Force Contract to Revolutionize F-16 Pilot Training with World-First Augmented Reality Training System'",
+     "quote_source": "news"},
+    {"blind_spot": "Company-level CMMC/NIST 800-171 posture is never mentioned on-site, despite handling ITAR-controlled flight-training and avionics-integration data across multiple USAF programs.",
+     "operator_reality": "One Air Force contracting officer's CMMC audit finding can freeze a payment milestone regardless of how well the product itself performs — the compliance posture, not the tech, becomes the valley-of-death risk at this stage.",
+     "why_likely_missing": "The hiring of a Trade Compliance/Export Controls Manager shows they're aware of the ITAR side, but CMMC/NIST 800-171 readiness isn't surfaced publicly the way it is for pure-software vendors.",
+     "evidence_quote": "'Trade Compliance/Export Controls Manager (Denver, CO)'",
+     "quote_source": "job_post"}
   ],
-  "opener_hook": "Red 6's F-16 ATARS award from ACC starts a flight-clearance and per-tail integration clock that runs at government speed while the STRATFI period of performance runs at calendar speed.",
-  "confidence": "high",
-  "stage_band": "revenue_stage",
-  "what_they_do": "Builds ATARS, an augmented-reality system that puts synthetic adversaries and training environments into real fighter cockpits during live flight."
+  "opener_hook": "Red 6 just added an F-16 integration contract via Air Combat Command to its MC-130J STRATFI award — two different airframe integrations running in parallel is exactly where deployment architecture debt compounds fastest.",
+  "confidence": "medium",
+  "stage_band": "series_a",
+  "what_they_do": "Augmented-reality synthetic flight training system (ATARS) that overlays live threat simulations into a pilot's real cockpit view, now being integrated into F-16 and AFSOC MC-130J programs."
 }

@@ -330,44 +330,24 @@ Our team of security-cleared engineers and specialists excels in instructional s
 Wireless Acoustic Viable Electricity (WAVE) technology is an innovative Wireless Power Transfer (WPT) approach that can enhance our military readiness while reducing logistics burdens and risks. The technological advancements over the past decade led to various WPT technologies, but many limitations affect the practical utility of WPT efficiency or range. Currently, there is no commercial technology with underwater wireless power transfer (UWPT) capability for long-distance power transfer. A breakthrough, highly efficient, and long-range WPT, especially performed in water, has vast potential DoD and commercial market opportunity and value. In Phase I, TSI proposed to conduct preliminary proof-of-the-concept tests, utilizing Model Based System Engineering (MBSE), to study the feasibility of WAVE technology, a concept developed from literature review and research. TSI accomplished the Phase I effort by developing, fabricating, and testing WAVE breadboard prototypes fabricated from commercial off-the-shelf (COTS) components and successfully evaluating and demonstrating their performance in both air and water transmission mediums verifying the performance estimates of its WPT capabilities. The WPT in air, despite low power output limited by the sensor power rating, provided insight on beam forming and steering which can be validated by computational fluid dynamics (CFD) modeling. The study verified the unique UWPT capability up to ~1 meter with high efficiency potential through simple breadboard demonstrations. The data was used to establish a simple performance model which showed that a simple 100-receiver array is capable of producing up to 186 W at 100 meters underwater distance, and the power output can be scaled with properly designed receiver arrays. The power output at range of above 100 meters is plausible and can be achieved with advance circuitry and component designs.  In Phase II, TSI proposes to develop a 100W TRL 6 WAVE prototype to demonstrate its UWPT capability up to 20 meters distance underwater. The design will leverage the results and lessons learned during the Phase I research. This large size of the prototype will be tested in both a swimming pool as well as in open water environments. The results will be analyzed and used to optimize the prototype performance, and to develop an advanced performance model for long range UWPT in the open water environment. This is a significant step above the breadboard prototype and the result will pave the way for further development of a commercial WAVE system with UWPT capability of more than 100 meters underwater.
 
 ## News (Exa, top 3)
-- CONTRACT to TECHNICAL SYSTEMS INTEGRATION, INC ... () https://www.usaspending.gov/award/CONT_AWD_N6134024F0049_9700_N6134024D0005_9700
-  USAspending.gov
-- Technical Systems Integration (TSI) wins $15M NAVAIR and NAVSEA ... () https://orangeslices.ai/technical-systems-integration-tsi-wins-15m-navair-and-navsea-systems-logistics-and-technical-support-task/
+- Technical Systems Integration (TSI) wins $15M NAVAIR ... () https://orangeslices.ai/technical-systems-integration-tsi-wins-15m-navair-and-navsea-systems-logistics-and-technical-support-task/
   Technical Systems Integration (TSI) wins $15M NAVAIR and NAVSEA Systems Logistics and Technical Support task | OrangeSlices AI
 
 Search
 
 Award details were recently posted showing that this SBA-certified Service Disabled Veteran Owned Small Business (SDVOSB) provider of program management, technical, logistics, and mission support services to government and commercial clients, secured a 5-year SeaPort-NxG task order, outbidding 2 competitors, to provide logistics and technical support for Naval A
-- $35M Naval Education and Training Command (NETC) Support Services () https://orangeslices.ai/contract-award-35m-naval-education-and-training-command-netc-support-services/
-  Contract Award: $35M Naval Education and Training Command (NETC) Support Services | OrangeSlices AI
+- technical systems integration, inc. (2026-06-23) https://tecsysint.com/
+  # Technical Systems Integration, Inc.
 
-Opportunities
+Technical Systems Integration, Inc. is a Defense & Space company. Technical Systems Integration, Inc. (TSI) is a service-disabled veteran-owned small business that provides professional program management, technical, logistics, and mission support services to government and commercial clients. They ensure success for their customers by approaching complex problems with logic, expertise, and confidence gained from decades of experience. Technical Systems Int
+- Contracts for June 10, 2026 (2026-06-10) https://www.war.gov/News/Contracts/Contract/Article/4513990/contracts-for-june-10-2026/
+  Contracts for June 10, 2026 > U.S. Department of War > Contract | U.S. Department of War
 
-Agency Intel
+Skip to main content (Press Enter).
 
-Department of Defense
+ARMY
 
-- Defense Health Agency
-- US Air Force
-- US Army
-- US Navy
-
-Federal Citizen Services
-
-Federal Health
-
-- Centers for Medicare & Medicaid Services
-- Department of Health & Human Services
-- Defense Health Agency
-- Department of Veterans Affairs
-
-Federal Financial
-
-- Treasury Department
-- Securities and Exchange Commission
-
-- Department of Energy
-- 
+AECOM Technical Services Inc., Los Angeles, California (W912DR-26-D-A011); Burns & McDonnell Engineering Co. Inc., Arlington, Virginia (W912DR-26-D-A012); HDR Architecture Inc., Omaha, Nebraska (W912DR-26-D-A013); Stantec Consulting Services Inc., Denver, Colorado (W912DR-26-D-A014); Whitman Requardt & Associates LLP, Baltimore, Maryland (W912DR-26-D-A015); Wiley W
 
 ## Open roles (Blitz, live)
 - Quality Assurance Analyst ({'city': 'Panama City Beach', 'country_code': 'US'})

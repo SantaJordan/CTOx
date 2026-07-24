@@ -3,7 +3,7 @@ slug: stratagem-group-inc-the | domain: stratagemgroup.com | HQ: Aurora, Colorad
 sources: sbir
 industry(LI): Defense and Space Manufacturing | specialties: devsecops, satcom, space domain awareness, sar, artificial intelligence, software development, geoint, algorithm development, cloud native applications, opir, sigint
 channel notes: SBIR PhII x1 [2023] National Geospatial-Intelligence Agency latest: CHATMAN Phase II hq: Aurora,CO emp: 53
-own-language word count: ~1551
+own-language word count: ~970
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -16,7 +16,7 @@ Home | ARKA
 
 Purpose-built to solve the most difficult and compelling problems in space and defense
 
-Explore All Positions
+ARKA IS NOW CACI
 
 ## Lighting the Path to the Future
 
@@ -24,10 +24,9 @@ From Sanskrit, ARKA’s definition “lighting the path” is how we approach ou
 
 ## The Arka Difference
 
-- Empowering our people to produce stunning solutions
-- Meeting our customers’ missions with trust and integrity
 - Leading innovation by confronting the hardest problems
-- Contact Us
+- Meeting our customers’ missions with trust and integrity
+- Empowering our people to produce stunning solutions
 
 Learn More about Who We Are
 
@@ -35,195 +34,130 @@ Learn More about Who We Are
 
 Beyond Begins Here. Get in touch to learn how ARKA is engineering beyond the ordinary, and collaborates with partners beyond barriers for performance beyond question.
 
-* indicates required fields
-
-First name*
-
-Last name*
-
-Email*
-
-Interested In
-
-SelectPartnershipNew BusinessCareerMedia InquiryCustomer Support
-
-Business Area
-
-SelectAdvanced CommunicationsDefense SystemsModern Software Mission ApplicationsOptical Network InstrumentationSpace Systems
-
-Message
-
-Comments
-
-This field is for validation purposes and should be left unchanged.
+[gravityform id="1" title="false"]
 
 Search
 
-URL: https://arka.org/events?utm_source=banner&amp;utm_medium=top_banner&amp;utm_campaign=Website+Banner&amp;utm_id=1
-Events | ARKA
+URL: https://arka.org/space-symposium/
+Events - Space Symposium | ARKA
 
-# Upcoming Events
+### APRIL 13 - 16
 
-ARKA is on the move! Connect with one of our experts at an upcoming event.
+# WE're ATTENDING SPACE SYMPOSIUM!
 
-The Advanced Maui Optical and Space Surveillance Technologies (AMOS) Conference is the premier technical conference in the nation devoted to space situational awareness/space domain awareness.
+Join us April 13-16 at The Broadmoor in Colorado Springs, CO for Space Symposium.
 
-## April
+## Let's connect at space symposium!
 
-- Space Symposium
-- | April 13-16
+ARKA’s experts will be onsite to discuss our products, services and collaboration opportunities. Whether you’re tackling advanced communications, sensing or mission management challenges, we’re ready to help.
 
-Space Symposium is the premier event uniting global space professionals from all sectors, providing a unique platform to explore critical space issues, foster dialogue, and drive innovation across the space industry.
+#### Booth 1451
 
-- Army Aviation Association Of America
-- | April 15 - 17
+## Learn more about arka
 
-Nashville is set to host the AAAA Summit again in 2026, promising an even more dynamic and inspiring experience.
+ARKA is a trusted partner in sensing, sensemaking and weapons & platforms. We provide remote sensing payloads, along with EO/IR optical systems and other advanced capabilities. We pioneered innovative software and hardware solutions that “make sense” of the data they collect. Our products see over the horizon to track and characterize the next threat.
 
-## MAY
+#### Explore our capabilities:
 
-- GEOINT
-- | May 3-6
+### What We Do
 
-Join us at the GEOINT Symposium 2026, where we delve into the critical role of geospatial intelligence in building a secure future in Aurora, Colorado.
+### What we do
 
-Explore the intersection of technology and security as we address the challenges and opportunities in today’s complex geopolitical landscape. Engage with industry experts, government leaders, and innovators to discover how geospatial intelligence is shaping a safer world for tomorrow.
+ARKA brings its 60-year legacy of innovation and execution to solve our customers' hardest problems. Learn More
 
-## AUGUST
+### See Our Datasheets
 
-- SmallSat
-- | August 23-26
+### Our Datasheets
 
-The 40th Annual Small Satellite Conference will spotlight the technologies driving constellation success and celebrate the thousands of people whose vision and collaboration have propelled the industry forward over the past four decades. Join us as we celebrate the past, examine the present, and shape the future of small satellites.
+We are trusted and innovative partner in the evolution of mission-critical communications. Our solutions enable the links our customers use to communicate with vital assets around the globe and in space. Learn More
 
-## September
+## ARKA IS AtTENDING...
 
-- ISS (Intelligence Support SysTems) World Asia
-- | September 1-3
+View our events page to see what other events ARKA is attending.
 
-ISS World Asia is the world’s largest gathering of Regional Law Enforcement, Intelligence and Homeland Security Analysts, Telecoms as well as Financial Crime Investigators responsible for Cyber Crime Investigation, Electronic Surveillance and Intelligence Gathering.
+our events
 
-- AMOS Conference
-- | September 15-18
+## Let's Get In Touch
 
-The Advanced Maui Optical and Space Surveillance Technologies (AMOS) Conference is the premier technical conference in the nation devoted to space situational awareness/space domain awareness.
+[gravityform id="1" title="false"]
 
-## October
+Search
 
-- Annual AUSA Meeting and Expo
-- | October 12-14
+URL: https://arka.org/
+Home | ARKA
 
-Join us at AUSA 2025, the premier annual event for the Association of the United States Army! This year’s meeting promises to be an unparalleled gathering of military professionals, defense industry leaders, and policy makers.
+# Beyond Begins Here
 
-- SWE Conference
-- | October 24-26
+# Beyond Begins Here
 
-WE24: T
+Purpose-built to solve the most difficult and compelling problems in space and defense
 
-URL: https://arka.org/who-we-are/
-Who We Are | ARKA
+ARKA IS NOW CACI
 
-# Who We Are
+## Lighting the Path to the Future
 
-We’re a team of highly collaborative and endlessly curious leaders in the space and defense industry.
+From Sanskrit, ARKA’s definition “lighting the path” is how we approach our mission – with leadership and innovative thinking.
 
-## Mission • Vision • Values
+## The Arka Difference
 
-Mission
+- Leading innovation by confronting the hardest problems
+- Meeting our customers’ missions with trust and integrity
+- Empowering our people to produce stunning solutions
 
-Purpose-built to address the hardest problems, with a relentless focus on innovation, agile development, and trusted partnership.
+Learn More about Who We Are
 
-Vision
+## Contact Us
 
-To be the partner of choice, providing the ideal combination of people, ideas, and innovation to the customer to make a lasting impact.
+Beyond Begins Here. Get in touch to learn how ARKA is engineering beyond the ordinary, and collaborates with partners beyond barriers for performance beyond question.
 
-Values
+[gravityform id="1" title="false"]
 
-- Careers
-- Performing to ensure mission success.
-- Acting with integrity and doing what’s right.
-- Building mutual respect.
+Search
 
-## What Drives ARKA
+URL: https://arka.org/what-we-do/
+What We Do | ARKA
 
-### Endless curiosity and innovation
+# What We Do
 
-### Grounded in integrity and excellence
+ARKA brings its 60-year legacy of innovation and execution to solve our customers’ hardest problems.
 
-### Designed to make a lasting impact
+## The ARKA Difference
 
-## Testimonials
+### Unmatched Execution
 
-Why I like working at ARKA:ARKA has provided career diversity and growth. Starting as an intern I worked in Accounting, moved on to Program Controls and into Program Management. Leadership invests in my career growth and provides a flexible schedule! Most importantly, I really enjoy working with an extremely talented team of people!
+We have a distinguished record of trusted performance on our country’s most critical missions.
 
-KatherineProject Manager
+### Lead the Change
 
-ARKA encourages me to learn new skills and further my career. Managers work with me to develop a professional growth pathway and open opportunities. Our team has great diversity, and they collectively make for a great place to work and perform at a high level.
+We develop cutting edge approaches to solve our customers’ most difficult challenges.
 
-CodyShipping and Receiving
+### Outpace the Adversary
 
-I enjoy working at ARKA because we have interesting products and an emerging industry. There are countless opportunities to learn and grow within the company as you get acquainted with product line. The people at ARKA are also fantastic. We have a great group that shows mutual respect across all levels and everyone is willing to lend a helping hand.
+We produce critical hardware & operational software for the most important missions.
 
-MarkoEngineering
+### Hire and Empower Top Talent
 
-I enjoy working at ARKA because of my many amazing coworkers who make every day exciting. Being at a small company has helped foster my growth and knowledge that would have been difficult to find elsewhere. ARKA has not only been a great place to work but has been an amazing place to enter the aerospace industry.
+We hire the best and brightest at every level, empowering them to create unrivaled results.
 
-MilesOperations
+## Your mission. Our Technology.
 
-ARKA has given me the opportunity to grow both professionally and personally. The atmosphere in the office is spectacular and we all feel like a fundamental part of the company. Working in a sector that I love with super talented people around me is something that anyone who loves their profession wishes to have.
+### Sensing
 
-EnriqueEngineering
+### Sensing
 
-## Beyond Begins Here
+ARKA provides remote sensing payloads, along with EO/IR optical systems and other advanced capabilities. ARKA’s sensing solutions range from centimeters to multiple meters across orbits, domains and missions. Our solutions enable proliferation and persistence for national security space missions across any architecture. Learn More
 
-Ready to join the ARKA mission? Discover yo
+### Sensemaking
 
-URL: https://arka.org/our-culture/
-Our Culture | ARKA
+### Sensemaking
 
-# A Culture of Innovation and Excellence
+ARKA provides innovative software and hardware solutions that “make sense” of the data they collect. Our scalable communication solutions offer our customers software-based open architectures for data transport. ARKA’s intelligent ground and cognitive systems solutions include data fabric, sensor processing, mission management and Agentic AI. Together, we provide the ability to leverage data in real-time on ‘a single pane of glass,’ as future constellations require. Learn More
 
-ARKA is driven by the hardest problems facing our customers. We bring unmatched expertise and energy to our cutting-edge solutions. In space, on the ground and in between, ARKA’s technology provides critical capability that is foundational to inventing the future.
+Weapons & Platforms
 
-ARKA’s core values are at the heart of all that we do:
+Weapons & Platforms From aircraft to missiles, to ground vehicles and ships, our survivability solutions, avionics and optical subsystems are installed across numerous platforms and environments. A leader in laser-guided weapon threat detection, we have over 50 years of experience protecting U.S. and allied warfighters in every operational theater. We are also an industry-leader in the development of optically resilient coatings, and an innovator in the directed energy market with novel beam director designs. Learn More
 
-- Acting with integrity and doing what’s right
-- Building mutual trust and respect
-- Performing to ensure mission success
-
-## Building a Strong Community
-
-At each ARKA site around the world, we are leaders in our communities. We volunteer our time and resources supporting local food banks, environmental efforts and other community initiatives. Our workforce represents the best in our community and we bring their energy and expertise to help our communities thrive.
-
-## Supporting our Nation's Veterans
-
-ARKA proudly supports our veterans and their families. We welcome veterans to join our talented workforce, bringing their valuable leadership skills and commitment to our key missions. We volunteer with veterans groups and dedicate time and effort to honoring every veterans service.
-
-## Building the Workforce of the Future
-
-ARKA proudly supports local educational initiatives dedicated to science, technology, engineering and math. We mentor students in our communities and partner with local schools to provide unique learning opportunities for young minds.
-
-## Employee Spotlights
-
-Tom is a member of ARKA’s finance team in Danbury, Connecticut.
-
-“Give every day your best effort, and when opportunities arise, crush it. Our culture embraces the importance of the mission and empowers the people who make the impossible happen.”
-
-Tom
-
-Finance
-
-Kayti is an HR Associate at ARKA in Bothell, Washington.
-
-“I’ve been working at ARKA for just over four years now! During my time here, I’ve held a variety of positions and had a number of responsibilities. I’m super grateful for the opportunity to constantly try and learn new things, every day has been different. I’m also very lucky to have had the opportunity to work with people at all of our different sites – everyone at ARKA is helpful, kind, excellent at their jobs, and I’ve learned so much from everyone!”
-
-Kayti
-
-HR Associate
-
-Michael “Mikey” Davies is ARKA’s managing director at Lumacron in Scotland.
-
-“I find the industry and technology fascinating and love that there’s opportunity to travel to meet colleagues and customers. I also love the cha
+Search
 
 ## LinkedIn about
 

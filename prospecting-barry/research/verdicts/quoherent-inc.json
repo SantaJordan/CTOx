@@ -1,0 +1,39 @@
+{
+  "company": "Quoherent, Inc.",
+  "slug": "quoherent-inc",
+  "domain": "quoherent.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Multiple DoD SBIR/STTR awards (Navy STTR 2025, MDA STTR 2023) on record, plus channel notes citing a 2025 Phase II award for edge quantum processing supporting AI-enabled electronic warfare and GPS-denied navigation (sbir.gov/awards/216876) — News/channel-notes sections.",
+  "disconnect_score": 70,
+  "subscores": {"lab_language_intensity": 20, "deployment_awareness_absence": 12, "operator_absence": 12, "hiring_profile_skew": 10, "stage_pressure": 16},
+  "score_evidence": [
+    "'Quoherent is a cutting-edge startup pioneering the next frontier in quantum computing... a visionary spirit' → lab_language_intensity",
+    "'a beacon guiding us towards a future where quantum computing is not only powerful but also accessible' → lab_language_intensity",
+    "zero mention of DDIL/ATO/RMF/CMMC/ITAR/STIG across ~760 words of own language → deployment_awareness_absence (capped 12, word count <1000)",
+    "zero mention of operators/warfighters/training/CONOPS across the site and team page (all roles are Scientist I/II/Senior Quantum Scientist) → operator_absence (capped 12)",
+    "no jobs data in pack → hiring_profile_skew set to 10 per rule",
+    "tiny team (10-14 people), $4.7M total seed funding, running on Phase I awards of $139K-149K plus one 2025 Phase II → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Claims 'mobile quantum computing' and portability with no SWaP-C specifics",
+     "operator_reality": "Room-temperature qubits solve one lab constraint, but a system meant to ride on a vehicle or operator for GPS-denied navigation needs real power draw, weight, thermal, and ruggedization numbers — a bench prototype 'accessible and portable' in marketing terms is not the same as fieldable",
+     "why_likely_missing": "site language stays at the physics-breakthrough level ('eliminates the need for extreme cooling') and never quantifies size, weight, power, or packaging",
+     "evidence_quote": "propels quantum computing into a realm of unprecedented accessibility and portability",
+     "quote_source": "homepage"},
+    {"blind_spot": "No ITAR/export-control awareness despite an EW/GPS-denied-nav application",
+     "operator_reality": "Electronic warfare and PNT payloads are classic ITAR/export-controlled categories; a company whose public language talks about empowering 'individuals and industries' broadly, with no mention of controlled-technology handling, risks building an architecture that has to be re-engineered once export classification hits",
+     "why_likely_missing": "mission language is aimed at commercial/academic accessibility, not defense-controlled deployment",
+     "evidence_quote": "quantum computing is not confined to specialized laboratories but empowers individuals and industries to harness the immense computational power",
+     "quote_source": "homepage"},
+    {"blind_spot": "Team page shows an entirely research-scientist bench, no integration/field/test engineers",
+     "operator_reality": "A GPS-denied-nav payload destined for a vehicle or aircraft needs engineers who own vibration/shock qualification, platform power-bus integration, and GFE compatibility — a team of Scientist I/II and a Senior Quantum Scientist alone typically stalls exactly at the demo-to-fielded transition",
+     "why_likely_missing": "leadership/technical team list is scientists and executives (CEO, COO, CFO, CTO, CIO) with no named deployment or hardware-integration engineer",
+     "evidence_quote": "Sinan Bugu, Senior Quantum Scientist; Daniel Multer, Scientist II; Gabe Marcus, Scientist II; Scott McGuire, Scientist II",
+     "quote_source": "homepage"}
+  ],
+  "opener_hook": "Your 2025 Navy Phase II SBIR is funding edge quantum processing for GPS-denied navigation — what's the SWaP-C budget for whatever it rides in?",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Developing room-temperature, topological-material qubits for mobile/portable quantum computing, with DoD SBIR/STTR funding aimed at edge quantum processing for electronic warfare and GPS-denied navigation."
+}

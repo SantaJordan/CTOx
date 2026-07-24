@@ -1,0 +1,22 @@
+{
+  "company": "Inhance Digital Corporation",
+  "slug": "inhance-digital-corporation",
+  "domain": "inhance.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "There is real DoD work — an Air Force 2022 SBIR Phase II ($744,901) for a Virtual Health/Combat Care Platform, plus portfolio entries for \"F-35 XR Flight Simulator\", \"CJADC2 - High Fight and Low Fight\" and \"AFRL Aircraft MRO In Hololens\" — but it is delivered as agency project work, not as a product.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "\"Inhance is a Los Angeles-based interactive software agency specializing in immersive digital experiences\" → self-identified agency, i.e. a services business",
+    "\"Inhance is a cutting-edge creative agency... Our team of visionary strategists, innovative designers, skilled programmers, and experienced producers\" → creative-agency staffing model, LinkedIn industry is Media Production",
+    "Portfolio is client project work across unrelated sectors — \"Honeywell Interactive Mural\", \"FM LPGA VR Golf Simulator\", \"Otis Elevator Simulator\", \"Illumina Skywalker Virtual Tour\", \"MasterCraft Virtual Showroom\", \"Amgen MRD AR Game\" → no owned product with a transition to defend",
+    "Every open role is sales — \"Business Development Director – Experiential & Immersive\", \"Sales Development Representative - Meeting Booker\" → they are buying pipeline for billable project work, the economics of an agency",
+    "Founded 1997, ~$17M annual revenue per the aggregator note → an established agency, not a $5-10M startup on a period-of-performance clock"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "A 30-year-old Los Angeles interactive/creative agency that builds AR/VR/XR experiences, simulators, executive briefing centers and training content on contract for brands, primes and government customers."
+}

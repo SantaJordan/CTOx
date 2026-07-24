@@ -1,0 +1,25 @@
+{
+  "company": "SettleTop",
+  "slug": "settletop",
+  "domain": "settletop.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Won a $1.25M AFWERX Phase II SBIR (July 2023) to build a software-contributor and social-network mapping platform for Air Force software-supply-chain security — per News section and channel notes.",
+  "disconnect_score": 55,
+  "subscores": {"lab_language_intensity": 8, "deployment_awareness_absence": 7, "operator_absence": 14, "hiring_profile_skew": 10, "stage_pressure": 16},
+  "score_evidence": [
+    "'Nothing leaves your machines - no server, no network calls, just local provenance data you control and can trust.' → deployment_awareness_absence (shows some DDIL-adjacent instinct, keeping the subscore low rather than zero)",
+    "'Compliance readiness (e.g., CMMC) as required by governmental agencies.' → deployment_awareness_absence (explicit CMMC awareness pulls this subscore down from a naive-company baseline)",
+    "'Everyone Wins ... Leadership ... Engineering Teams ... Developers' → operator_absence (personas are corporate roles, never operators/warfighters/CONOPS)",
+    "7 employees, seed-stage since 2020, SBIR Phase II awarded 2023 with no visible Phase III/production contract follow-up in the pack → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Claims a fully local, zero-network architecture but never explains how provenance data rolls up for leadership reporting or ATO evidence across a distributed, disconnected DoD dev workforce.", "operator_reality": "A DDIL-friendly local-only design sounds right, but without a described sync/aggregation path, the 'leadership sees ROI at a glance' promise and the 'no network calls' promise directly contradict each other the moment this needs to serve more than one disconnected site.", "why_likely_missing": "Product was built for commercial enterprise dev teams first; the disconnected multi-site DoD rollup problem wasn't the design constraint.", "evidence_quote": "Nothing leaves your machines - no server, no network calls, just local provenance data you control and can trust.", "quote_source": "homepage"},
+    {"blind_spot": "Deep CVE/CWE/KEV/EPSS vocabulary but zero mention of the platform's own ATO/RMF/IL4-IL5 path for running on a DoD network.", "operator_reality": "A tool that inventories AI/software risk for an Air Force customer will itself need to sit inside the accreditation boundary it reports on — without ATO/RMF language, this looks like a tool built to sell risk data, not to survive the accreditation gate that determines whether it's ever actually installed.", "why_likely_missing": "Team is fluent in software supply-chain security concepts (their product domain) but the pack shows no evidence they've internalized that their own product is a system requiring its own authorization.", "evidence_quote": "Cross-link CVEs, CWEs, KEV and EPSS.", "quote_source": "homepage"},
+    {"blind_spot": "The workflow implicitly assumes live, ongoing capture of AI-tool API calls, but the personas and messaging never address the classified, air-gapped dev environment that is exactly where the AFWERX-funded 'software-contributor mapping' use case would run.", "operator_reality": "In a SCIF or IL5 dev environment, there often is no outbound API call to log, no consumer AI tool to instrument, and no continuous 'ROI dashboard' feed — the product's core loop (capture AI activity, then converse with it via an LLM interface) needs exactly the connectivity a classified DoD dev shop won't have.", "why_likely_missing": "Positioning is aimed at commercial engineering orgs (Leadership/Engineering Teams/Developers) rather than the classified software factory their SBIR customer actually represents.", "evidence_quote": "Everyone Wins ... Leadership ... Engineering Teams ... Developers", "quote_source": "homepage"}
+  ],
+  "opener_hook": "SettleTop's AFWERX Phase II SBIR ($1.25M, awarded July 2023) funded a software-contributor mapping platform for Air Force supply-chain security — that period of performance is now roughly two years past its start.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "AI/software provenance and governance SaaS (CodeRoot) that traces AI-assisted code contributions for risk, compliance, and ROI reporting."
+}

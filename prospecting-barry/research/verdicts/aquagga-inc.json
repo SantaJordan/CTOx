@@ -1,0 +1,48 @@
+{
+  "company": "Aquagga, Inc.",
+  "slug": "aquagga-inc",
+  "domain": "aquagga.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Completed a PFAS destruction demonstration for the DoD ESTCP program with DIU, USAF, and Navy (news, 2025-06-02), holds an AF SBIR PhII, and lists 'Military & Defense' as a named market on its own site.",
+  "disconnect_score": 34,
+  "subscores": {
+    "lab_language_intensity": 8,
+    "deployment_awareness_absence": 6,
+    "operator_absence": 5,
+    "hiring_profile_skew": 10,
+    "stage_pressure": 5
+  },
+  "score_evidence": [
+    "'99% to 99.99% destruction and defluorination of PFAS' plus a homepage award wall (WEF, EPA challenge, GeekWire) → lab_language_intensity",
+    "'PLC based industrial control and automation... Operator and 24/7 system support... Deployable to most industrial sites... Operates using either temporary generator or grid power' → deployment fluency for industrial sites, which is why deployment_awareness_absence and operator_absence stay low",
+    "Single open role 'Director of Engineering' — an engineering-leadership hire, no field-service or government-compliance roles while DoD demos are converting → hiring_profile_skew held at 10"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Treats the successful ESTCP demonstration as the finish line; no language anywhere about the acquisition path from demo to funded base remediation contracts",
+      "operator_reality": "ESTCP demos that lack an advocacy chain and transition plan die in the gap between certification and procurement — the environmental office at a base cannot buy a Stampede unit off a demo report",
+      "why_likely_missing": "Company is commercial-market led (semis, pharma, landfill); DoD is one of four markets and they appear to assume demo success self-converts",
+      "evidence_quote": "Aquagga... has successfully completed a PFAS destruction demonstration for the Department of Defense (DoD) Environmental Security Technology Certification Program",
+      "quote_source": "news"
+    },
+    {
+      "blind_spot": "Service model assumes reachable, connected, grid-adjacent sites",
+      "operator_reality": "AFFF stockpiles and contaminated-site work sit on remote installations and fire training areas where 480V/3P power, 12,000 lb rigging, and a vendor's remote '24/7 system support' link are not givens; on-base networks also can't just host a vendor telemetry feed without accreditation",
+      "why_likely_missing": "All deployment language is calibrated to industrial customers ('Deployable to most industrial sites'), not installations",
+      "evidence_quote": "Operator and 24/7 system support ... Optional service for periodic automated sample collection",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No CMMC/NIST 800-171 or prime flow-down language despite selling into DoD environmental remediation",
+      "operator_reality": "DoD remediation work flows through environmental services primes with cyber and contract flow-downs; a hardware vendor without CMMC posture gets carved out of the teaming arrangement regardless of demo results",
+      "why_likely_missing": "Their compliance vocabulary is environmental (EPA, ASME), not defense contracting",
+      "evidence_quote": "System designed and manufactured in accordance with ASME codes",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Aquagga's ESTCP demo with DIU, the Air Force, and Navy wrapped in June 2025 — the certification-to-procurement gap after an ESTCP success is where most PFAS-destruction fieldings on installations stall.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Builds hydrothermal alkaline treatment units that destroy PFAS in wastewater, sold to industrial, municipal, and defense remediation customers."
+}

@@ -320,12 +320,6 @@ It brings sensors, systems, operators, organizations, and missions into a single
 UNIFY.C2 is an operationally deployed, sensor agnostic Counter UAS software platform built to integrate the widest range of military grade and Commercial Off The Shelf sensors and effectors in a single operational picture. The system fuses radar, RF, EO and IR, acoustic, telemetry, and vendor API feeds to deliver real time detection, tracking, classification, and defeat of Group 1 and Group 2 unmanned aircraft. UNIFY.C2 is designed for interoperability at scale and supports interagency Counter UAS initiatives across the Department of Defense and more than twenty two state, local, and federal p
 
 ## News (Exa, top 3)
-- UNIFY.C2 Selected to Deliver Integrated Counter-UAS Common Operating Picture at Beale Air Force Base (2026-06-18) https://www.prnewswire.com/news-releases/unifyc2-selected-to-deliver-integrated-counter-uas-common-operating-picture-at-beale-air-force-base-302804358.html
-  UNIFY.C2 Selected to Deliver Integrated Counter-UAS Common Operating Picture at Beale Air Force Base Accessibility Statement Skip Navigation
-
-Open architecture platform will consolidate drone detection, airspace surveillance and Counter-UAS data into a single operational environment while supporting future sensors, response capabilities and mission requirements.
-
-BEALE AIR FORCE BASE, Calif., June 18, 2026 /PRNewswire/ -- UNIFY.C2 announced today that it has been selected as the Common Operating
 - UNIFY.C2 SELECTED TO DELIVER INTEGRATED COUNTER-UAS COMMON OPERATING PICTURE AT BEALE AIR FORCE BASE (2026-06-18) https://www.unifyc2.com/post/unify-c2-selected-to-deliver-integrated-counter-uas-common-operating-picture-at-beale-air-force-base
   UNIFY.C2 SELECTED TO DELIVER INTEGRATED COUNTER-UAS COMMON OPERATING PICTURE AT BEALE AIR FORCE BASE
 
@@ -334,7 +328,13 @@ top of page
 Open architecture platform will consolidate drone detection, airspace surveillance and Counter-UAS data into a single operational environment while supporting future sensors, response capabilities and mission requirements.
 
 BEALE AIR FORCE BASE, Calif., June 17, 2026 – UNIFY.C2 announced today that it has been selected as the Common Operating Picture platform for Counter-UAS and dro
-- UNIFY.C2 Selected to Deliver Integrated Counter-UAS Common ... (2026-06-18) https://www.morningstar.com/news/pr-newswire/20260618ph87149/unifyc2-selected-to-deliver-integrated-counter-uas-common-operating-picture-at-beale-air-force-base
+- UNIFY.C2 Selected to Deliver Integrated Counter-UAS Common Operating Picture at Beale Air Force Base (2026-06-18) https://www.prnewswire.com/news-releases/unifyc2-selected-to-deliver-integrated-counter-uas-common-operating-picture-at-beale-air-force-base-302804358.html
+  UNIFY.C2 Selected to Deliver Integrated Counter-UAS Common Operating Picture at Beale Air Force Base Accessibility Statement Skip Navigation
+
+Open architecture platform will consolidate drone detection, airspace surveillance and Counter-UAS data into a single operational environment while supporting future sensors, response capabilities and mission requirements.
+
+BEALE AIR FORCE BASE, Calif., June 18, 2026 /PRNewswire/ -- UNIFY.C2 announced today that it has been selected as the Common Operating
+- UNIFY.C2 Selected to Deliver Integrated Counter-UAS Common Operating Picture at Beale Air Force Base | Morningstar (2026-06-18) https://www.morningstar.com/news/pr-newswire/20260618ph87149/unifyc2-selected-to-deliver-integrated-counter-uas-common-operating-picture-at-beale-air-force-base
   UNIFY.C2 Selected to Deliver Integrated Counter-UAS Common Operating Picture at Beale Air Force Base | Morningstar
 
 Sign In

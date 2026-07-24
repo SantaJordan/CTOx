@@ -260,60 +260,22 @@ Colorado-based Sierra Space was awarded a federal Department of Defense contract
 The contract is for the design, manufacturing and delivery of 18 missile warning/missile tracking /missile defense space vehicles for the “Golden Dome,” a federal national missile defense system.
 
 The Space Development Agency a
-- Warfighter Integration Program Information Technology (WIPIT) (FA875021D1002-FA875024FB008) () https://www.highergov.com/contract/FA875021D1002-FA875024FB008/
-  Warfighter Integration Program Information Technology (WIPIT) (FA875021D1002-FA875024FB008) -- --
+- Agile Defense Wins $100M for Workforce AI Prototype to Support Combatant Commands  | WashingtonExec (2026-07-16) https://washingtonexec.com/2026/07/agile-defense-wins-100m-for-workforce-ai-prototype-to-support-combatant-commands/
+  Agile Defense Wins $100M for Workforce AI Prototype to Support Combatant Commands | WashingtonExec
 
-HigherGov
+Close Menu
 
-Pipeline
-
-FOIA
-
-Track
-
-Favorite
-
-No Bid
-
-Export
-
-- Excel
-- CSV
+Subscribe To The Daily
 
 Share
 
-- Tweet
-- Email
-- Copy URL
+Mike Pansky, Agile Defense
 
-Search Prime Contracts
+Agile Defense has won a $100 million Other Transaction Authority agreement through the Tradewinds Solutions Marketplace to fund the prototyping of its Force Deployed Engineering and Training, a delivery model that combines embedded AI instruction with engineering support at the directorate level.
 
-# FA875021D1002-FA875024FB008
-
-Delivery Order
-
-- Text
-- List
-
-## Overview
-
-Government Description
-
-Warfighter Integration Program Information Technology (WIPIT). This contract provides research and operational systems development to identify, decode, and exploit sign
-- Agile Defense awarded $100 million for AI prototype supporting combatant commands (2026-07-15) https://www.prnewswire.com/news-releases/agile-defense-awarded-100-million-for-ai-prototype-supporting-combatant-commands-302826389.html
-  # Agile Defense awarded $100 million for AI prototype supporting combatant commands
-
-Author: Agile Defense
-Published: 2026-07-15T09:00:00-04:00
-Source: prnewswire.com (prnewswire.com)
-Language: en
-
-## Story
-
-Agile Defense awarded $100 million for AI prototype supporting combatant commands [Accessibility Statement](https://www.cision.com/about/accessibility/) Skip Navigation
-
-- [Resources](https://www.prnewswire.com/resources/)
-- [Investor Relations](https://www.prnewswire.com/investor-relations-
+This workforce AI tool will su
+- CONTRACT to AGILE DEFENSE, LLC () https://www.usaspending.gov/award/CONT_AWD_W900KK18F0001_9700_GS06F0626Z_4730
+  USAspending.gov
 
 ## Open roles
 (no jobs data found)

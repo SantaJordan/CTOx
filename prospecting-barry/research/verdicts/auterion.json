@@ -1,0 +1,22 @@
+{
+  "company": "Auterion",
+  "slug": "auterion",
+  "domain": "auterion.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "DoD motion is overwhelming — a $50M OSD/A&S Other Transaction Agreement (contract HQ08452590045, \"Long Range One-way Platform\") and a July 2025 contract to deliver 33,000 Skynode strike kits to Ukraine (News section) — but that is a company past the valley, not in it.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "\"Auterion Secures Contract to Deliver 33,000 Skynode Drone Strike Kits to Ukraine\" (news, 2025-07-28) → already_operational: production-scale delivery of combat systems",
+    "\"Nominated by the US Government as the standard for its future drone program\" (homepage) → already_operational: standard-setting position, not a stalled prototype",
+    "\"Auterion Airlogix Joint Venture Receives First Contract from Germany for Thousands of Autonomous Strike Systems\" (homepage news) → multinational production contracts",
+    "Open roles include \"Forward Deployed Engineer, Software\" (Arlington), \"E2E Logistics & Safety Coordinator\", \"Supply Chain Specialist\" and a \"Floor Manager\" → they already staff fielding, sustainment, and manufacturing; the disconnect Barry sells against is absent",
+    "190 employees and a pack header of LATE(151-300) → well outside the $5M-$10M company size in Barry's niche"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Vendor-independent drone operating system, autopilot/mission-computer hardware, and swarm autonomy software, shipping strike kits at production scale to Ukraine and NATO customers."
+}

@@ -162,6 +162,8 @@ Quantum Interface is an independent startup from Austin Texas that creates techn
 Quantum Interface (QI) has successfully created a leading training product for and with the USAF – QIVX - currently used across multiple squadrons and wings, that allows the SME to create immersive, interactive lessons in minutes using their own content,
 
 ## News (Exa, top 3)
+- CONTRACT to QUANTUM INTERFACE, LLC () https://www.usaspending.gov/award/CONT_AWD_FA481422P0046_9700_-NONE-_-NONE-
+  USAspending.gov
 - Award | SBIR () https://www.sbir.gov/awards/210950
   Award | SBIR Skip to main content
 
@@ -212,12 +214,6 @@ Contract Number: FA864
 Binary code on a phone screen and microchip and are seen in this illustration photo taken in Krakow, Poland on July 19, 2023. (Photo by Jakub Porzycki/NurPhoto via Getty Images)
 
 WASHINGTON — As the US and China race to build the first practical quantum computer, the Air Force Research Laboratory (AFRL) has issued a $10.8 million contract to quantum chip-maker PsiQuantum, the company announced this
-- IonQ Selected to Support Missile Defense Agency SHIELD IDIQ Contract | Morningstar (2026-02-23) https://www.morningstar.com/news/business-wire/20260223400381/ionq-selected-to-support-missile-defense-agency-shield-idiq-contract
-  IonQ Selected to Support Missile Defense Agency SHIELD IDIQ Contract | Morningstar
-
-IonQ Selected to Support Missile Defense Agency SHIELD IDIQ Contract
-
-IonQ (NYSE: IONQ) is pleased to announce it was awarded a contract under the Missile Defense Agency Scalable Homeland Innovative Enterprise Layered Defense (SHIELD) indefinite-delivery/indefinite-quantity (IDIQ) contract with a ceiling of $151 billion. This contract encompasses a broad range of work areas that allows for the rapid delivery of i
 
 ## Open roles
 (no jobs data found)

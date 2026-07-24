@@ -1,0 +1,38 @@
+{
+  "company": "WingXpand Inc.",
+  "slug": "wingxpand-inc",
+  "domain": "wingxpand.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "SBIR/STTR record: Air Force Phase II ($1,249,496, 2023) 'Rucksack Portable Fixed-Wing sUAS Streamlines Logistics and CONOPS'; News section confirms two additional sbir.gov award records — an Army Phase I (2024, 'Expeditionary Edge AI Enabled Battle Network') and an Army Phase I (2023, droppable payload) — three concurrent DoD SBIR efforts total.",
+  "disconnect_score": 36,
+  "subscores": {"lab_language_intensity": 12, "deployment_awareness_absence": 6, "operator_absence": 4, "hiring_profile_skew": 2, "stage_pressure": 12},
+  "score_evidence": [
+    "'1 sec AI Detect to Alert Speed / 2 Hrs Max Flight Time / 7 lbs Max Custom Payload / 2 min Time to Deploy' spec-sheet bragging → lab_language_intensity",
+    "'Radio Silent Mode: Improved communication reliability in sensitive or hostile environments and failsafe if connectivity lapses' and 'Edge AI: ...without reliance on internet connectivity' show real DDIL/edge-constraint fluency → deployment_awareness_absence scored low",
+    "'Our experts are ready to train your team to operate our smart planes' plus LinkedIn's 'keep soldiers safe' → operator_absence scored low",
+    "Open roles are dominated by field/defense roles: two 'UAS/Drone Pilot & Training Specialist | Defense,' 'UAV/Drone Pilot and Defense Operations Specialist,' three 'Customer Success Specialist - Defense' pilot roles → hiring_profile_skew scored very low (they're hiring exactly the field/deployment profile Barry's ideal blind-spot company is missing)",
+    "three concurrent Army/Air Force SBIR Phase I/II efforts (2023-2024) running on what LinkedIn lists as a ~10-19 person team → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "'NDAA Compliant System' covers supply-chain component compliance, but the 'Smart AI Software' mission-planning platform has no mention of RMF/ATO/IL4-5 for the software layer if it ever touches a government network.",
+     "operator_reality": "Passing NDAA on camera/radio components doesn't get the mission-planning software an ATO — a program office will ask about the software accreditation path separately, and that path isn't visible anywhere in public materials.",
+     "why_likely_missing": "Compliance messaging is built around hardware supply-chain provenance (a well-understood box to check) rather than software-side government-network accreditation, which is a newer and less standardized ask.",
+     "evidence_quote": "NDAA Compliant System",
+     "quote_source": "homepage (xRAI product page)"},
+    {"blind_spot": "Product is sold direct-to-checkout at fixed price points ($14,990 / $49,990 / $83,990) with a 'Get started' button — no description of prime/flow-down mechanics for integrating as a subcontractor on a program of record.",
+     "operator_reality": "A DoD acquisition rarely buys off a public price list; a unit purchased this way outside a contract vehicle or prime relationship can stall the moment a program office needs FAR-compliant procurement, GFE integration, or a subcontract structure.",
+     "why_likely_missing": "Commercial e-commerce motion (agriculture, public safety, inspection buyers) is the company's primary revenue engine, and the DoD-specific acquisition pathway hasn't been separately built out in public messaging.",
+     "evidence_quote": "$83,990 Ultimate Multi-Mission Smart Plane. ... Get started",
+     "quote_source": "homepage (xRAI product page)"},
+    {"blind_spot": "Three concurrent Army/Air Force SBIR Phase I/II efforts are running on a small team with no visible mention of an advocacy champion above the operator/pilot level to convert any one of them into a transition before funded months run out.",
+     "operator_reality": "Operators loving the backpack-deployable plane at a demo is not the same as a program office committing budget past Phase II — with three SBIR clocks running at once, a single missed transition on a $5-10M-scale company is existential.",
+     "why_likely_missing": "SBIR abstract language (truncated in pack) focuses on the technical capability of the system, not on named transition partners or a program-of-record path.",
+     "evidence_quote": "What if an airplane could fit within a rucksack, deploy in less than two minutes, fly for hours, and automatically detect threats in real time? Now it can with the highly capable and easy to use WingXpand™ small unmanned aerial system (sUAS)",
+     "quote_source": "sbir_abstract"}
+  ],
+  "opener_hook": "WingXpand is running three concurrent Army/Air Force SBIR efforts on a roughly 15-person team — worth comparing funded months remaining against time-to-transition on each.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Backpack-portable fixed-wing/eVTOL sUAS with onboard edge-AI detection, sold to defense, agriculture, public safety, and infrastructure-inspection customers."
+}

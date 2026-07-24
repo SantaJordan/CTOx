@@ -1,0 +1,16 @@
+{
+  "company": "VelocityX",
+  "slug": "velocityx",
+  "domain": "velocityxinc.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "Own words describe custom cloud/data/blockchain consulting services for defense and intelligence customers ('Our engineers provide cloud architecture, solution migration, and development services'; 'custom solutions built specifically for your organization') — a services/staffing shop, not a fielded product company. Site itself now redirects to darkwolf.io ('Velocity-X is brought to you by Dark Wolf Solutions'), a known USG IT-services integrator. News section is entirely about V2X, Inc. (NYSE: VVX), an unrelated large-cap services company with a similar name — disregarded per pack caveat.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "unknown",
+  "what_they_do": "Custom cloud architecture, data management, and blockchain-storage consulting/development services for defense and intelligence community customers; a subsidiary/brand of Dark Wolf Solutions."
+}

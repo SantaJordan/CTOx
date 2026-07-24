@@ -1,0 +1,16 @@
+{
+  "company": "Seatrec",
+  "slug": "seatrec",
+  "domain": "seatrec.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Genuine DoD motion (Naval Postgraduate School CRUSER collaboration, infiniTE float built for 'naval situational awareness'), but they've crossed the valley: a $30.8M Department of War APFIT award (July 2026) explicitly to 'Accelerate Persistent Undersea Monitoring Capabilities,' with CEO quoted 'we're delivering PSAP systems immediately to warfighters to meet their requirements' — production/fielding acceleration funding, not a stuck prototype.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Builds thermal-powered (ocean-temperature energy harvesting) subsea profiling floats/drones for persistent ocean monitoring; just won a $30.8M APFIT award to accelerate fielding for the Navy."
+}

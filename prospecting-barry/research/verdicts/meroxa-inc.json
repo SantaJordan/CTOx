@@ -1,0 +1,37 @@
+{
+  "company": "Meroxa, Inc.",
+  "slug": "meroxa-inc",
+  "domain": "meroxa.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Three AF SBIR Phase II awards in 2022 (JADC2 test data, DAF space domain awareness/Unified Data Library, multi-domain ops) plus a $1.25M Space Systems Command/AFWERX contract and a 2023 NASA Phase I — SBIR/STTR section + News section, in Meroxa's own abstract language.",
+  "disconnect_score": 80,
+  "subscores": {"lab_language_intensity": 20, "deployment_awareness_absence": 16, "operator_absence": 20, "hiring_profile_skew": 10, "stage_pressure": 14},
+  "score_evidence": [
+    "'Cloud Agnostic Deployment... without the event streaming platform maintenance', 'Reduced Infra Costs... Eliminate significant capital expenses on hardware' → lab_language_intensity",
+    "'Say goodbye to batch delays. Welcome instant insights and real-time analytics' with zero ATO/IL5/DDIL language on the public site despite building for JADC2 → deployment_awareness_absence",
+    "'Empowering Data Teams: Data Analysts, Data Scientists, Software Developers, DevOps Engineers' — zero mention of operators/warfighters/training/CONOPS anywhere → operator_absence",
+    "No jobs data found in pack → hiring_profile_skew set to 10 per instructions"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Conduit Platform is marketed as 'Cloud Agnostic Deployment' with 'Reduced Infra Costs' by eliminating on-prem hardware, while the SBIR work is explicitly for JADC2 and DAF space domain awareness.",
+     "operator_reality": "JADC2 data has to run at IL4/IL5 or on disconnected tactical edge nodes — a pitch built around eliminating hardware and living in the cloud is the opposite of what a Space Force ground terminal or contested-comms sensor feed needs.",
+     "why_likely_missing": "The commercial-facing site was written for enterprise SaaS buyers (Hotels Network testimonial), not for the DAF/Space Force audience the SBIRs target.",
+     "evidence_quote": "Cloud Agnostic Deployment...without the event streaming platform maintenance",
+     "quote_source": "homepage"},
+    {"blind_spot": "'Real-Time Data Streaming: Say goodbye to batch delays' is the core value prop, with no mention of a batch/resync fallback mode.",
+     "operator_reality": "This is the canonical 30fps-crowd-detection failure mode restated for data pipelines — a sensor feed integrating 'US and Allied Partner Sensor Data' (their own SBIR title) into the Unified Data Library will hit exactly the bandwidth-denial conditions that break a real-time-only architecture.",
+     "why_likely_missing": "Product was built and marketed as a generic real-time streaming tool first, defense funding came later as a use case, not an architecture constraint.",
+     "evidence_quote": "Say goodbye to batch delays. Welcome instant insights and real-time analytics into your decision-making process",
+     "quote_source": "homepage"},
+    {"blind_spot": "The SBIR abstract title is literally 'Real-Time Data Transformation to Accelerate Integration of US and Allied Partner Sensor Data' — cross-national sensor data — yet the commercial site never mentions ITAR, export control, or data classification handling anywhere.",
+     "operator_reality": "Allied-partner sensor data integration is a textbook ITAR/foreign-disclosure minefield; a company that pitches '100+ pre-built connectors' and 'connect anything anywhere' without a word on controlled-data handling is building the plumbing before the compliance gate, which is exactly what kills a Phase II-to-Phase III transition.",
+     "why_likely_missing": "Team appears focused on connector breadth and commercial GTM rather than government compliance posture.",
+     "evidence_quote": "Real-Time Data Transformation to Accelerate Integration of US and Allied Partner Sensor Data into the Unified Data Library",
+     "quote_source": "sbir_abstract"}
+  ],
+  "opener_hook": "Meroxa's three 2022 AF SBIR Phase IIs (JADC2 test data, DAF space domain awareness, multi-domain ops) and the $1.25M Space Systems Command award are public — the commercial site built from that work has no ATO or IL5 language anywhere.",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Sells Conduit, a low-code real-time data streaming/integration platform, commercially — funded in part by three 2022 Air Force SBIR Phase IIs for JADC2 and space domain awareness data pipelines."
+}

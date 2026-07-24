@@ -1,0 +1,52 @@
+{
+  "company": "Gambit AI",
+  "slug": "gambit-ai",
+  "domain": "gambit.us",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "USAF STTR Phase II of $1,788,872 to Gambit Defense, Inc. (UEI XC2HQCWYPMW4) for 'Dedicated Counter UAS Opposing Forces Utilizing AI/ML: CORTEX' on sbir.gov, plus two multi-million-dollar USAF contracts announced April 2026 and an Army GVSC OTA (News + newsroom).",
+  "disconnect_score": 64,
+  "subscores": {
+    "lab_language_intensity": 17,
+    "deployment_awareness_absence": 12,
+    "operator_absence": 9,
+    "hiring_profile_skew": 10,
+    "stage_pressure": 16
+  },
+  "score_evidence": [
+    "\"Gambit is the highest level of autonomy, that can learn, collaborate, and adapt as a single brain\" — a self-authored maturity ladder with the company placed at its own top rung, repeated four times on the page → lab_language_intensity",
+    "\"Not automation. Adaptation. Not control, but coordination. Not isolation, but orchestration.\" → lab_language_intensity (the product section is entirely abstraction; the primary CTA is 'watch the demo')",
+    "\"Validated in defense. Designed for scale.\" is the only proof claim on the site and it names no exercise, no platform, no unit, no range → lab_language_intensity",
+    "No DDIL, EW, link-budget, SWaP-C, ATO, airworthiness, ITAR or DoDD 3000.09 language anywhere in the product description of a multi-domain swarm-coordination system → deployment_awareness_absence (capped at 12: the stated ~1,363-word count is heavily inflated by the autonomy-spectrum block repeating four times and by investor/employer/partner logo lists, so unique prose is well under 1,000)",
+    "\"Human intent to collective action\" and \"We know what it takes to make hard tech work in the field\", plus an advisory board naming a USSOCOM Acquisition Executive → operator_absence MID (advocacy chain is unusually strong; operator training, CONOPS and field feedback are absent)",
+    "No jobs data in pack → hiring_profile_skew set to exactly 10",
+    "Founded Feb 2023, emerged from stealth Jan 2026, $9.8M total seed across one round, headcount growing (19 → 37 reported), with an STTR Phase II period of performance and two USAF contracts running concurrently → stage_pressure high"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "A swarm that 'learns behaviors across missions' cannot be handed a frozen test baseline, and every certification gate assumes one",
+      "operator_reality": "Test and evaluation, safety release, and the DoDD 3000.09 senior review for autonomy in weapon systems all certify a specific configuration. A system whose behavior is defined by models that update from mission experience is, by construction, not the thing that was tested — so either the learning is frozen at delivery (which deletes the differentiator) or someone has to invent an accepted re-certification cadence for a changing model, which no program office has a template for. This is the single hardest gate between a compelling adaptive-autonomy demo and a fielded capability, and it is answered by process design, not by better models.",
+      "why_likely_missing": "Adaptation is the entire investment thesis and the top rung of their own maturity ladder; treating it as a certification liability rather than an advantage is a reframe that only happens after a T&E authority says no.",
+      "evidence_quote": "Model — Learn behaviors across missions. Adapt — Real-time multi-robot control.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Multi-platform coordination is a link problem before it is an intelligence problem, and the contested environment they cite is precisely where the link goes away",
+      "operator_reality": "'Real-time multi-robot control' across air, land and sea presumes a mesh that survives jamming, terrain masking, and node loss. In a contested EW environment the interesting states are the partitioned ones: half the swarm can hear the other half, nobody can hear the operator, and the picture each node holds is minutes stale and mutually inconsistent. The design decision that matters is whether commander's intent is pushed down and held locally so each node can act coherently alone, versus a central brain that stops thinking when the mesh breaks. Their own blog names contested environments; their product language names real-time control, and those two things pull in opposite directions.",
+      "why_likely_missing": "Simulation and demonstration environments — including the Army GVSC simulation integration they were awarded — have perfect comms by default, so the partitioned case is never the case being demonstrated.",
+      "evidence_quote": "Gambit is a software-first, platform-agnostic intelligence stack that enables teams to build, deploy, and evolve autonomous behaviors across any hardware environment.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "'Platform-agnostic across any hardware environment' is a marketing property; in the field each platform is a separate, permissioned integration",
+      "operator_reality": "Every airframe or ground vehicle they want to run on belongs to a prime or the government, arrives with its own flight-control stack, its own compute and power budget, its own safety case, and its own cyber authorization for anything running on the bus. Putting third-party autonomy on it requires a flight-worthiness release, a payload cyber authorization, and a prime willing to open an interface it has no commercial reason to open. Each of those is a months-long serial dependency owned by someone else — so 'agnostic' converts in practice into N separate integration programs, and the period of performance is spent on the first one.",
+      "why_likely_missing": "The team's pedigree is building whole vehicles (SpaceX, Virgin Hyperloop) where they owned the platform; being a software layer inside someone else's certified system is a fundamentally different set of dependencies.",
+      "evidence_quote": "operate — Cross-platfrom execution (air, land, sea).",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "SBIR.gov lists Gambit Defense holding a $1,788,872 USAF STTR Phase II for CORTEX — counter-UAS opposing forces using AI/ML — and gambit.us defines the top of its own autonomy ladder as systems that 'learn, collaborate, and adapt as a single brain', which is the same sentence that makes a T&E baseline impossible to freeze for a 3000.09 review.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Hardware-agnostic software layer for coordinating multiple autonomous robots as one adaptive system across air, land and sea, sold into defense counter-UAS and swarm programs."
+}

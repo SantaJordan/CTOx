@@ -1,0 +1,16 @@
+{
+  "company": "Cybera",
+  "slug": "cybera",
+  "domain": "cybera.io",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "None. Entire site, LinkedIn about, and news are commercial fintech fraud prevention for banks/crypto platforms; only source is a defense VC portfolio list (vc:new-north), which is insufficient by itself. News hits are unrelated Canadian 'Cybera ShareIT' tenders (different entity).",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "AI-powered mule-account intelligence and scam-victim response service for financial institutions and crypto platforms."
+}

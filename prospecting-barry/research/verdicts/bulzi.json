@@ -1,0 +1,16 @@
+{
+  "company": "Bulzi",
+  "slug": "bulzi",
+  "domain": "bulzi.com",
+  "verdict": "insufficient_evidence",
+  "drop_reason": "",
+  "dod_intent_evidence": "DoD motion is real ($1.5M Air Force 'Base of the Future' award and warfighter language on the homepage), but the pack holds only ~312 words of the company's own language — under the ~500-word evidence floor.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "unknown",
+  "what_they_do": "9-person Newport Beach IoT/edge-AI company with three thin product pages (SAFER passive C5ISR situational awareness, z-BASE base access control, BioSCOUT health monitoring); site text is a repeated brochure with no product detail, so absence of deployment language cannot be scored."
+}

@@ -236,12 +236,10 @@ Nico has over a decade of experience in propulsion and manufacturing across Blue
 Orbital Operations is developing a high thrust space vehicle that will be stationed in orbit for satellite defense.
 
 ## News (Exa, top 3)
-- Orbital Operations Raises $8.8M For High Thrust Orbital Vehicle (2025-08-07) https://payloadspace.com/orbital-operations-raises-8-8m-for-high-thrust-orbital-vehicle/
-  Orbital Operations Raises $8.8M For High Thrust Orbital Vehicle
+- orbital operations (2026-06-24) https://orbitalops.tech/
+  # Orbital Operations (Orbital Operations Incorporated)
 
-The latest concept vehicle for the Space Force has arrived: A high-thrust, cryogenic platform that can loiter on-orbit for years at a time, as a tool for interception and space domain awareness.
-
-Orbital Operations, founded by former Relativity engineers Ben Schleuniger and Ross Doherty, is working to solve a problem that has plagued high-performance space vehicles for years: Limiting the boil-off of the most powerful propellants, 
+Orbital Operations is a Defense and Space Manufacturing company. Orbital Operations is a pioneering in-space cryo management tech company that unlocks high thrust, high performance engines beyond earth’s atmosphere. Their vehicle is designed to operate permanently in space to transport customers from leo to meo, geo, and the moon. Their capabilities also put them ahead of the competition for rapid threat assessment in orbit. Orbital Operati
 - Orbital Operations Raises $8.8M to Build High-Thrust Vehicle for ... (2025-08-19) https://www.orbitalops.tech/orbital-operations-raises-8-8m-to-build-high-thrust-vehicle-for-satellite-defense/
   Orbital Operations Raises $8.8M to Build High-Thrust Vehicle for Satellite Defense - Orbital Ops
 
@@ -262,10 +260,8 @@ https://www.orbitalops.tech/newsroom/?e-filter-9be65ac-category=defence
 Payload: Orbital Operations Raises $8.8M For High Thrust Orbital Vehicle
 
 Space News: Orbital Operations raises seed round for orbital vehicle us
-- orbital operations (2026-06-24) https://orbitalops.tech/
-  # Orbital Operations (Orbital Operations Incorporated)
-
-Orbital Operations is a Defense and Space Manufacturing company. Orbital Operations is a pioneering in-space cryo management tech company that unlocks high thrust, high performance engines beyond earth’s atmosphere. Their vehicle is designed to operate permanently in space to transport customers from leo to meo, geo, and the moon. Their capabilities also put them ahead of the competition for rapid threat assessment in orbit. Orbital Operati
+- Orbital Operations - Space Company Profile () https://www.currentlyinspace.com/companies/orbital-operations
+  Orbital Operations - Space Company Profile | Currently In Space | Currently In Space
 
 ## Open roles (Blitz, live)
 - Head of Business Development ({'city': 'Long Beach', 'country_code': 'US'})

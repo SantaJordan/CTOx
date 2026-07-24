@@ -1,0 +1,48 @@
+{
+  "company": "AeroCine Ventures (Vermeer)",
+  "slug": "aerocine-ventures-vermeer",
+  "domain": "getvermeer.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Multiple Air Force SBIR Phase II awards (AFSOC AR drone navigation, 2020) and a company press release announcing a $950M ceiling USAF IDIQ — SBIR record and news sections, on their own site.",
+  "disconnect_score": 20,
+  "subscores": {
+    "lab_language_intensity": 5,
+    "deployment_awareness_absence": 4,
+    "operator_absence": 4,
+    "hiring_profile_skew": 2,
+    "stage_pressure": 5
+  },
+  "score_evidence": [
+    "\"NO GPS. NO COMMS. VISION SOLUTIONS AT THE EDGE.\" and \"a full time operational team deployed in Ukraine\" → deployment_awareness_absence scored very low; DDIL is literally the product premise and they field a team in theater",
+    "Team page lists \"Test Pilot Lead\", \"Director of Testing & Integrations\", \"Director of IT, CyberSec & Compliance\"; open roles are UAS Flight Test Operators and a Director of UAS Flight Operations → hiring_profile_skew scored low",
+    "\"Battle-Tested Versatility: Proven on Group 1-4 UAS platforms and manned aircraft\" → operator/fielding framing dominates over lab metrics"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The $950M number is a ceiling IDIQ, not funded work — task orders must still be won one at a time, and the maturation-across-platforms scope means every task order has its own months-to-field clock",
+      "operator_reality": "A ceiling award converts to fielded capability only through per-platform integration, airworthiness, and GFE/prime flow-down work on each task order; the IDIQ headline can outpace the delivery machinery of a ~31-person team",
+      "why_likely_missing": "Press-release framing rewards the ceiling figure; the transition mechanics underneath it are unglamorous and unstaffed relative to the scope claimed",
+      "evidence_quote": "Vermeer has been awarded a $950,000,000 ceiling indefinite-delivery/indefinite quantity contract for the maturation, demonstration and proliferation of capability across platforms and domains",
+      "quote_source": "news"
+    },
+    {
+      "blind_spot": "VPS depends on \"a locally stored 2.5D or 3D map database\" — the map logistics chain (who builds, updates, classifies, and pushes theater map data to each platform) is never addressed",
+      "operator_reality": "At an austere site, stale or missing map tiles for the operating area turn a jam-proof navigator into a paperweight; map currency becomes a sustainment task some E-5 owns with no published workflow",
+      "why_likely_missing": "The engineering story centers on the vision algorithm; data sustainment is a fielding problem that only surfaces after the demo",
+      "evidence_quote": "the system maps real-time video to a locally stored 2.5D or 3D map database to generate an accurate location signal",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Testimonials are operator- and general-level enthusiasm (\"Every warfighter needs this\") with no named program of record — enthusiasm without a funded advocacy chain is the classic pre-transition trap",
+      "operator_reality": "Operators loving a capability in Ukraine does not move a US program office; without a PM champion each SBIR-to-IDIQ step still has to clear acquisition gates on someone else's timeline",
+      "why_likely_missing": "Demand-side pull has been strong enough that the company may not yet feel the gap between endorsement and programmed dollars",
+      "evidence_quote": "“This is very impressive technology. Every warfighter needs this.” General J. Poss, U.S. Air Force",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Vermeer's $950M USAF award is a ceiling IDIQ — the fielding math happens task order by task order, where a 31-person team's months-to-field is the binding constraint, not the ceiling.",
+  "confidence": "high",
+  "stage_band": "series_a",
+  "what_they_do": "Vision-based GPS-denied navigation (VPS) for drones and aircraft in contested, jammed, and spoofed environments."
+}

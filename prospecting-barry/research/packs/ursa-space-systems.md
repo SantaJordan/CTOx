@@ -329,25 +329,30 @@ New Airstrip Detection Airstrip Activity Monitor
 Ursa Space Systems is building an AI-native geospatial insights platform that guides the acquisition, analysis, and integration of satellite and geospatial data into customer workflows, giving decision makers an edge. Leveraging hundreds of data sources, AI agents, and advanced analytics, Ursa Space provides fast, actionable information to a range of industries, including finance, energy, and defense. Our customers receive contextual, comprehensive reporting that goes beyond surface-level observations. It is change explained®.
 
 ## News (Exa, top 3)
-- Ursa Space Systems Selected for Missile Defense Agency ... (2025-12-19) https://www.prnewswire.com/news-releases/ursa-space-systems-selected-for-missile-defense-agency-shield-idiq-contract-302647262.html
+- Ursa Space Systems Selected for Missile Defense Agency SHIELD IDIQ Contract (2025-12-19) https://www.prnewswire.com/news-releases/ursa-space-systems-selected-for-missile-defense-agency-shield-idiq-contract-302647262.html
   Ursa Space Systems Selected for Missile Defense Agency SHIELD IDIQ Contract Accessibility Statement Skip Navigation
 
 ITHACA, N.Y., Dec. 19, 2025 /PRNewswire/ -- Ursa Space Systems, a leading provider of satellite-based analytic solutions, is pleased to announce it was awarded a contract for the Missile Defense Agency Scalable Homeland Innovative Enterprise Layered Defense (SHIELD) indefinite-delivery/indefinite-quantity (IDIQ) contract with a ceiling of $151B.
 
 This contract encompasses a broad 
-- Ursa Space Systems selected for $200M Luno B IDIQ (2025-01-16) https://www.prnewswire.com/news-releases/ursa-space-systems-selected-for-200m-luno-b-idiq-302353741.html
-  Ursa Space Systems selected for $200M Luno B IDIQ Accessibility Statement Skip Navigation
+- Ursa Space, NV5 Nab First Luno B Awards By NGA - Defense Daily (2025-07-02) https://www.defensedaily.com/ursa-space-nv5-nab-first-luno-b-awards-by-nga/intelligence-community/
+  Ursa Space, NV5 Nab First Luno B Awards By NGA - Defense Daily
 
-ITHACA, N.Y., Jan. 16, 2025 /PRNewswire/ -- Ursa Space Systems was selected by the National Geospatial-Intelligence Agency as one of the vendors for the $200 million Luno B commercial data indefinite delivery, indefinite quantity contract.
+:
 
-The selected vendors are:
+Search
 
-- Airbus U.S. Space & Defense, Inc.
-- BAE Systems, Inc.
-- Booz Allen Hamilton Holding Corporation
-- BlackSky Geospatial Solutions, Inc.
-- Blu
-- MDA Taps Sidus, Ursa Space for $151 Billion 'Golden Dome ... (2025-12-22) https://satnews.com/2025/12/22/mda-taps-sidus-ursa-space-for-151-billion-golden-dome-shield-contract/
+- Space
+- Army
+- Navy/USMC
+- Air Force
+- Business/Financial
+- Commentary
+
+Satellite image of Izyum, Ukraine. Satellite image (c) Maxar Technologies
+
+The National Geospatial-Intelligence Agency (NGA) last Wednesday announced its first awards under its Luno B commercial analytics services contract with orders to Ursa Space Systems and NV5 Geospatial. Under a $21 million award dubbed TrueSight, Ursa will provide commercial a
+- MDA Taps Sidus, Ursa Space for $151 Billion 'Golden Dome' SHIELD ... (2025-12-22) https://satnews.com/2025/12/22/mda-taps-sidus-ursa-space-for-151-billion-golden-dome-shield-contract/
   MDA Taps Sidus, Ursa Space for $151 Billion ‘Golden Dome’ SHIELD Contract – SatNews
 
 - Skip to primary navigation

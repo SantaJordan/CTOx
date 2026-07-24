@@ -293,8 +293,6 @@ Glint products beautifully illuminate spaces for improved well-being, while cons
 Optical power beaming systems have the potential to revolutionize energy supply for airborne military platforms, allowing networks of unmanned aircraft to operate aloft indefinitely. To ensure safe and efficient optical power transfer, receiving optics must be designed to provide rigorous photon containment. Stray reflections and scattered light must be minimized in order to ensure safety for personnel in the vicinity of the systems. In this program, Glint will develop optical designs for the high-flux receivers with an emphasis on strict control of reflected and scattered light. The optical designs make use of a novel technology for producing high-performance polarization-independent antireflective surfaces for injection-molded optics. The surfaces utilize a dense array of sub-wavelength protrusions to produce an effective graded index, a biomimicry approach known as “motheye” antireflective surfaces that has been extensively studied in recent years. Optimized motheye surfaces have extremely low reflectivity values and better broad-spectrum and wide-angle antireflective properties than provided by conventional vacuum-deposited technologies. Glint’s proprietary technology embeds a nanostructured pattern into the mold used to fabricate optical parts, resulting in molded optics with inherent motheye properties. The approach is unique in allowing motheye surfaces to be produced on curved and faceted surfaces, and also substantially reduces the cost of implementing motheye antireflectivity in optics. In Phase II, Glint and the University of North Carolina at Charlotte will develop optimized antireflective surfaces for optical power beaming formed via multiple process paths, and will test their optical performance and environmental durability.
 
 ## News (Exa, top 3)
-- CONTRACT to GLINT PHOTONICS, INC. () https://www.usaspending.gov/award/CONT_AWD_140D0423C0113_1406_-NONE-_-NONE-
-  USAspending.gov
 - Lossless Beam-Width Adjustment with Low-Cost Mechanics | Department of Energy () https://www.energy.gov/eere/ssl/articles/lossless-beam-width-adjustment-low-cost-mechanics
   Lossless Beam-Width Adjustment with Low-Cost Mechanics | Department of Energy
 
@@ -311,28 +309,60 @@ Lead Performer: Glint Photonics Inc. – Burlingame, CA Partner: None DOE Total 
 #### PROJECT OBJECTIVE
 
 New functionalities such as lossless beam width adjustment, beam shaping, an
-- Production Scale-Up of High Efficiency Adjustable Lighting ... () https://www.energy.ca.gov/sites/default/files/2024-02/CEC-500-2024-002.pdf
-  ENERGY RESEARCH AND DEVELOPMENT DIVISION
+- Self-Tracking Concentrator Photovoltaics for Distributed Generation | CEC () https://www.energizeinnovation.fund/projects/self-tracking-concentrator-photovoltaics-distributed-generation
+  Self-Tracking Concentrator Photovoltaics for Distributed Generation | CEC
 
-#### FINAL PROJECT REPORT
+keyboard_arrow_left Back to Project Showcase
 
-### Production Scale-Up of High Efficiency Adjustable Lighting Products
+# Self-Tracking Concentrator Photovoltaics for Distributed Generation
 
-##### Month Year | CEC-500-2024-002
+Demonstration of a low-cost, high-efficiency self-tracking concentrator PV for distributed generation
 
-PREPARED BY:
+Glint Photonics, Inc.
 
-Peter Kozodoy, Andrew Kim Glint Photonics, Inc. 1520 Gilbreth Road Burlingame CA 94010 [phone] www.glintlighting.com Primary Authors
+Recipient
 
-Michael Ferreira 
-Project Manager 
-California Energy Commission 
+Burlingame, CA
 
-Agreement Number: EPC-18-020
+Recipient Location
 
-Anthony Ng 
-Office Manager 
-ENERGY DEPLOYMENT AND MARKET FACILITATION OF
+13th
+
+Senate District
+
+21st
+
+Assembly District
+
+beenhere
+
+$999,939
+
+Amount Spent
+
+closed
+
+Completed
+
+Project Status
+
+$999,940
+
+Award Am
+- glint inc (2026-06-08) https://linkedin.com/company/glint-inc
+  # Glint Inc
+
+Glint Inc is a Technology, Information and Internet company. Headquartered in Los Angeles, California, United States.
+
+## Company Details
+- Industry: Technology, Information and Internet
+- Headquarters: Los Angeles, United States
+- Aliases: glint inc
+- LinkedIn: linkedin.com/company/glint-inc
+- Linkedin Followers: 4 (Yearly: +33.3%)
+
+## Workforce
+- Company Size: 1-10 employees
 
 ## Open roles
 (no jobs data found)

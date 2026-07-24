@@ -252,18 +252,6 @@ Share
 TACFI to Advance SuperJammer Vehicle for Demonstration in Operational Environment
 
 SOMERVILLE, Mass.--(BUSINESS WIRE)--RISE Robotics announces it has been selected by AFWERX for a Tactical Funding Increase (TACFI) in the amount of $3M focused on refining and fielding the RISE Beltdraulic SuperJammer Vehicle platform for testing and dem
-- RISE Robotics Selected for U.S. Air Force’s $46 Billion EWAAC Contract Vehicle (2025-04-16) https://www.businesswire.com/news/home/20250416687921/en/RISE-Robotics-Selected-for-U.S.-Air-Forces-%2446-Billion-EWAAC-Contract-Vehicle
-  RISE Robotics Selected for U.S. Air Force’s $46 Billion EWAAC Contract Vehicle
-
--
-
-# RISE Robotics Selected for U.S. Air Force’s $46 Billion EWAAC Contract Vehicle
-
-Share
-
----
-
-SOMERVILLE, Mass.--(BUSINESS WIRE)-- RISE Robotics, the creator of Beltdraulic™ Systems and leader in next-generation industrial actuation, has been selected to join the U.S. Air Force’s Eglin Wide Agile Acquisition Contract (EWAAC) On-Ramp IV. This milestone enables RISE to compete for future USAF delivery orders as part
 - We are selected for $3M AFWERX Tactical Funding Increase! — RISE®Robotics (2025-08-19) https://www.riserobotics.com/press/we-are-selected-for-3m-afwerx-tactical-funding-increase
   We are selected for $3M AFWERX Tactical Funding Increase! — RISE®Robotics
 
@@ -272,6 +260,18 @@ SOMERVILLE, Mass.--(BUSINESS WIRE)-- RISE Robotics, the creator of Beltdraulic�
 Aug 19
 
 RISE has been selected by AFWERX for a Tactical Funding Increase (TACFI) in the amount of $3M focused on refining and fielding the RISE Beltdraulic SuperJammer Vehicle platform for testing and demonstration in an operational environment. This development will address one of the more pressing challenges in the Department of the Air Force (DAF): modernizin
+- RISE Robotics Awarded U.S. Army Phase I Contract to Explore Advanced Collapsible Lightweight Crane Technology (2025-05-20) https://www.businesswire.com/news/home/20250520139952/en/RISE-Robotics-Awarded-U.S.-Army-Phase-I-Contract-to-Explore-Advanced-Collapsible-Lightweight-Crane-Technology
+  RISE Robotics Awarded U.S. Army Phase I Contract to Explore Advanced Collapsible Lightweight Crane Technology
+
+-
+
+# RISE Robotics Awarded U.S. Army Phase I Contract to Explore Advanced Collapsible Lightweight Crane Technology
+
+Share
+
+---
+
+SOMERVILLE, Mass.--(BUSINESS WIRE)--RISE Robotics, a leader in next-generation actuation technologies, today announced it has been awarded a Phase I Small Business Innovation Research (SBIR) contract from the U.S. Army to explore the feasibility of developing c
 
 ## Open roles (Blitz, live)
 - Principal Mechanical Design Engineer ({'city': 'Somerville', 'country_code': 'US'})

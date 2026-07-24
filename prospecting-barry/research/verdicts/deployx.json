@@ -1,0 +1,45 @@
+{
+  "company": "DeployX",
+  "slug": "deployx",
+  "domain": "deployx.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Homepage 'Trusted By' block lists an 'Army Phase I SBIR contract / To enable secure, real-time, long-distance transmission for ground vehicles', 'DARPA ERIS — Awardable on the ERIS marketplace', and 2026 NATO DIANA cohort, plus an Office of Naval Research program officer endorsement — company's own artifacts, not just a VC portfolio listing.",
+  "disconnect_score": 74,
+  "subscores": {"lab_language_intensity": 17, "deployment_awareness_absence": 13, "operator_absence": 15, "hiring_profile_skew": 12, "stage_pressure": 17},
+  "score_evidence": [
+    "'99.99% Size and Weight Reduction / Ultra Wideband Capability / Low Power Requirements / 100x Stronger Signal Strength' → lab_language_intensity: bench spec claims with no TRL, test range, platform or qualification framing",
+    "'Project Keryx is a patent-pending plasma antenna shattering the size and power limitations of traditional antenna technology' → lab_language_intensity: patent-pending is the maturity claim; nothing about environmental qual or integration",
+    "Entire site contains no mention of MIL-STD-810, ITAR/export control, ATO/RMF, or platform integration despite being an exportable RF hardware product → deployment_awareness_absence",
+    "Quotes come from a retired Vice Chairman of the Joint Chiefs, a retired Colonel, and a Deputy Chief of Staff G-6 — not one operator, radio maintainer, or field-test account → operator_absence",
+    "Only open role is 'Principal Radio Frequency (RF) Engineer' (Torrance) — a domain hire, with no test/integration, environmental qual, or compliance role behind it → hiring_profile_skew",
+    "'Army Phase I SBIR contract' plus a 'Federal Capture Manager' on a ~2-7 person Red Cell venture-studio team → stage_pressure: Phase I-to-II clock with no production organization"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "A plasma aperture's headline size/weight win is stated with no environmental-qualification path — the ionized-gas element has to survive MIL-STD-810 shock, vibration, sand/dust, humidity and -40C cold start on the ground vehicle they name.",
+      "operator_reality": "On a HMMWV or JLTV the antenna eats road shock and blowing dust every mile; a gas-discharge element that needs a strike voltage at -40C after a night parked outside either fails to light or draws a surge the vehicle's power system was never sized for. The Phase II source-selection package asks for that data, not for a 99.99% weight number.",
+      "why_likely_missing": "The team is a venture-studio build with one Principal RF Engineer and a Federal Capture Manager — deep aperture physics and strong advocacy, but no environmental-test or platform-integration engineer anywhere on the About page.",
+      "evidence_quote": "99.99% Size and Weight Reduction",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No mention anywhere of the government radios and platforms the antenna must mate to — an aperture only fields through GFE integration (radio, feed, tuner, EMI/EMC and antenna-pattern qual on the actual vehicle) under a prime's flow-down.",
+      "operator_reality": "The unit does not buy an antenna; it buys a radio system. If Keryx cannot be shown to work with the fielded handheld/vehicular radios and pass EMC on a vehicle already crowded with emitters, the capability stalls at 'interesting demo' regardless of how good the aperture is.",
+      "why_likely_missing": "The site is organized around spectrum-dominance strategy and the aperture breakthrough; there is no products, integration, interfaces, or partners page — no prime relationship or platform is named.",
+      "evidence_quote": "DeployX delivers advanced communications solutions with the frequency, agility, low-detectability, and survivability to enable reliable beyond-line-of-site technology in contested electromagnetic environments.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Sustainment of a novel aperture is unaddressed — no spares, no field-replaceable-unit story, no maintainer training, where a whip antenna is a five-dollar item a soldier swaps in the motor pool.",
+      "operator_reality": "When a plasma element cracks at an austere OCONUS site there is no supply-class-IX line item, no 63-series maintainer trained on it, and no depot repair path; the vehicle reverts to its old antenna and the new capability quietly stops being used, which reads to the program office as 'no operational demand'.",
+      "why_likely_missing": "The About page is built from 'elite military leadership, deep technology expertise, and executive-level government relations' — capture and advocacy skills, with no logistics, sustainment, or product-support function represented.",
+      "evidence_quote": "Our team brings together 70+ years of elite military leadership, deep technology expertise, and executive-level government relations.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Your Keryx page leads with a 99.99% size-and-weight reduction and an Army Phase I SBIR for ground vehicles — in my experience the Phase II package turns on MIL-STD-810 and vehicle EMC data, not aperture performance.",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Red Cell-backed startup building a patent-pending plasma electrically-small antenna (Project Keryx) for low-detectability, wideband military communications across ground, air, sea and space platforms."
+}

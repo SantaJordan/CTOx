@@ -1,0 +1,44 @@
+{
+  "company": "Manifest Cyber",
+  "slug": "manifest",
+  "domain": "manifestcyber.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "News section: $1.8M Air Force contract (2024-02), DOD CIO award of four pilots across DoD components (2024-09), and 'major DOD contract' (2025-09).",
+  "disconnect_score": 76,
+  "subscores": {"lab_language_intensity": 14, "deployment_awareness_absence": 17, "operator_absence": 18, "hiring_profile_skew": 15, "stage_pressure": 12},
+  "score_evidence": [
+    "'90 seconds ... all the time it takes to deploy Manifest' / '2 clicks... streamline your entire SBOM generation' → lab_language_intensity",
+    "no mention of ATO, RMF, STIG, CMMC, IL4/IL5, ITAR, or DDIL anywhere in ~1384 words of own-language despite naming 'Defense & Gov't contractors' as a target vertical → deployment_awareness_absence",
+    "'Your platform is incredible... reporting was so intuitive' — testimonial from a 'Senior GRC Analyst' at a healthcare company, not an operator/warfighter; zero mentions of operators, training, or CONOPS → operator_absence",
+    "only open role is 'Senior Backend Application Engineer' (New York) — no compliance, ISSO, or field-deployment hire visible → hiring_profile_skew",
+    "37 employees, founded 2022, still running pilots (not program-of-record) as of the most recent 2025 news item → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Their own product is pitched as continuous, always-on monitoring with no acknowledgment of how it functions for software running on disconnected/DDIL government networks.",
+      "operator_reality": "'SBOMs should be generated continuously... real-time SBOM monitoring' assumes constant connectivity to Manifest's cloud backend — the same failure mode as the 30fps crowd-detection case if the systems it's meant to secure sit on a disconnected tactical network.",
+      "why_likely_missing": "Team is building enterprise SaaS for connected corporate/HQ security teams, not tactical-edge deployment.",
+      "evidence_quote": "SBOMs should be generated continuously, not just when a product is released. Manifest supports real-time SBOM monitoring, enrichment, and vulnerability tracking",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No articulation of the product's own path to an ATO/RMF authorization on government networks, despite naming Defense & Gov't as a core vertical and running DOD CIO pilots.",
+      "operator_reality": "Four DOD pilots (2024) risk the classic valley-of-death outcome: they never convert to production because the tool itself lacks a stated path to run on the actual IL4/IL5 network it's meant to protect.",
+      "why_likely_missing": "Language centers on customers' compliance frameworks (EO 14028, NIST 800-218) rather than the vendor's own network authorization.",
+      "evidence_quote": "has been awarded a contract with the United States Department of Defense Chief Information Officer (DOD CIO) to execute on four pilots throughout DOD",
+      "quote_source": "news"
+    },
+    {
+      "blind_spot": "Hiring is entirely product-engineering (backend application engineer) with no compliance, ISSO, or government-deployment role despite regulated-industry pilots already underway.",
+      "operator_reality": "Nobody on the visible team is dedicated to walking the four DOD pilots through accreditation or on-network integration — that work either isn't happening or is being improvised.",
+      "why_likely_missing": "Early-stage team prioritizing core product build over compliance/deployment headcount.",
+      "evidence_quote": "Senior Backend Application Engineer",
+      "quote_source": "job_post"
+    }
+  ],
+  "opener_hook": "Manifest ran four DOD CIO pilots on SBOM management in 2024 — how many of those crossed into a funded, ATO'd production deployment?",
+  "confidence": "medium",
+  "stage_band": "unknown",
+  "what_they_do": "Automated SBOM generation and software/AI supply-chain risk platform sold to regulated industries including defense."
+}

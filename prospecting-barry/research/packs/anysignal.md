@@ -334,7 +334,7 @@ At AnySignal, we’re on a mission to empower space explorers and allied forces 
   United States Space Force Awards AnySignal to Fortify MILSATCOM Against Electronic Warfare Accessibility Statement Skip Navigation
 
 LOS ANGELES, March 25, 2026 /PRNewswire/ -- AnySignal announced it has been selected by the United States Space Force (USSF) to field their Resilient, Agile, and Interference-Defiant Network for Secure Military Satellite Communications (MILSATCOM) and Space Data Network (SDN). This contract will accelerate the fielding of a combat-ready architecture designed to ensu
-- AnySignal wins USSF contract - Intelligence Community News (2026-03-25) https://intelligencecommunitynews.com/anysignal-wins-ussf-contract/
+- AnySignal wins USSF contract (2026-03-25) https://intelligencecommunitynews.com/anysignal-wins-ussf-contract/
   AnySignal wins USSF contract - Intelligence Community News
 
 # AnySignal wins USSF contract

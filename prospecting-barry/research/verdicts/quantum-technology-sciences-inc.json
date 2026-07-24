@@ -1,0 +1,16 @@
+{
+  "company": "Quantum Technology Sciences, Inc.",
+  "slug": "quantum-technology-sciences-inc",
+  "domain": "geospace.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "SBIR abstract explicitly states the underlying system is 'TRL-9 land-based SADAR' and LinkedIn about states 'nearly three decades as a US Federal Contractor supporting DoD, DHS, DOE'; a live DHS/CBP definitive contract for a 'Persistent Surveillance And Detection System' is also on record.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Subsidiary of publicly traded Geospace Technologies (NASDAQ: GEOS) building TRL-9, already-fielded seismic-acoustic border/perimeter surveillance systems for DoD/DHS, now adapting the tech to littoral seabed monitoring under a DARPA Phase II."
+}

@@ -1,0 +1,21 @@
+{
+  "company": "Authentic8",
+  "slug": "authentic8",
+  "domain": "authentic8.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Real government motion — a 2025 DHS/US Secret Service licensing award, a five-year NASA SEWP task supplying Silo licenses and O&M to the Treasury CIO, and direct USAspending contract records (News section) — but Silo is a fielded, procurement-vehicle-resident product, not a prototype stuck before deployment.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "\"Trusted by 750+ leading intelligence teams\" (homepage) → already_operational: installed base, not a demo",
+    "\"This is a 5-year NASA SEWP task to provide Authentic8 Silo software licenses along with ongoing operations and maintenance support to the Department of the Treasury's Chief Information Officer\" (news) → already on federal procurement vehicles with O&M, the far side of the valley",
+    "Founded 2010, 127 employees, and their language is entirely tradecraft-fluent — \"Maintain compliance with encrypted audit logs for post-fact review\", \"evidentiary defensibility\" — the opposite of deployment blindness",
+    "Open roles are growth marketing, SDRs, product management, and \"Governance & Operations Administration Specialist\" → a scaling commercial software company, not a transition-stalled prototype shop"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Cloud-isolated browser and investigation workspace (Silo) that lets intelligence, law-enforcement, and fraud analysts research the dark web and social platforms under managed attribution without exposing their identity or network."
+}

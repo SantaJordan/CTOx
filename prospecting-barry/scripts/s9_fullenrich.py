@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 """Stage 5b: FullEnrich bulk waterfall for work email + mobile on every s8 person.
-
-Submits all batches up front (<=100 rows each), polls until finished.
 In : output/people.csv        Out: checkpoints/enrich.jsonl
 Usage: python3 s9_fullenrich.py
 """

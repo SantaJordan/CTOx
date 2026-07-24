@@ -1,0 +1,42 @@
+{
+  "company": "NightWare, Inc.",
+  "slug": "nightware-inc",
+  "domain": "nightware.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own About page: 'We began by focusing on the needs of veterans and active duty service members'; AFWERX/Air Force SBIR abstract ($1,249,919, 2022) titled 'Advanced Digital Therapeutic for Force Resilience and Force Readiness' citing active-duty sleep-clinic data.",
+  "disconnect_score": 62,
+  "subscores": {"lab_language_intensity": 10, "deployment_awareness_absence": 16, "operator_absence": 8, "hiring_profile_skew": 10, "stage_pressure": 18},
+  "score_evidence": [
+    "'NightWare uses the Apple Watch® heart monitor sensor and other biometric sensors to determine when someone is having a nightmare... This highly detailed information is monitored in real time' — detailed product description with zero mention of ATO/RMF/CMMC/network authorization despite selling to 'Government customers' → deployment_awareness_absence",
+    "No jobs data in pack → hiring_profile_skew set to exactly 10 per scoring instructions",
+    "'Minneapolis Investment Firm and FDA-Cleared Digital Therapeutic Company Join Forces to Advance Treatment... Across the VA, First Responders, and Beyond' (April 2026) alongside a company reported at 7 employees, -8.3% YoY headcount decline → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The therapeutic runs entirely on a personal Apple Watch/App-Store-adjacent stack with no discussion of provisioning, data flow, or authorization on government health networks.",
+      "operator_reality": "A VA or base clinic can't build a standard-of-care pathway around a device tied to a service member's personal Apple ID with an undocumented path into a DoD/VA EHR — the ATO and health-IT integration question is exactly what determines if this ever leaves the pilot-partner stage.",
+      "why_likely_missing": "The consumer/patient-facing site describes the sensor and real-time monitoring purely as a clinical feature, never as an institutional deployment dependency.",
+      "evidence_quote": "NightWare uses the Apple Watch® heart monitor sensor and other biometric sensors to determine when someone is having a nightmare.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Adoption messaging is a consumer email-capture funnel, not an institutional training/sustainment program for scaling across VA or base clinics.",
+      "operator_reality": "Reaching a fleet of VA facilities needs a train-the-trainer plan, device replacement/fitting logistics, and a clinical champion above the individual prescriber — 'sign up for alerts' is patient marketing, not the adoption infrastructure a 7-person company (headcount down 8.3% YoY) needs to survive its own scaling ambition.",
+      "why_likely_missing": "The company has spent its resources on FDA clearance and one partner deal (First Nation Group, 2020); the April 2026 capital raise announcement itself signals the scaling plan still doesn't exist yet.",
+      "evidence_quote": "If you would like to receive news and alerts from the company, please provide your email below and we will keep you informed of important developments.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The SBIR abstract's entire barrier narrative is clinical underreporting/underdiagnosis; it never engages the government-acquisition or health-IT compliance barrier that actually gates base-clinic rollout.",
+      "operator_reality": "Even a clinically validated, FDA-cleared device needs an Authority to Operate on military health networks and EHR interoperability before a base clinic can prescribe it at scale — a completely different obstacle from the diagnosis-underreporting problem the abstract spends its whole argument on.",
+      "why_likely_missing": "The abstract is written to justify the clinical need for the therapy, not to plan the acquisition pathway that gets it into a treatment room.",
+      "evidence_quote": "Patients under-report nightmares to their physicians and it remains underdiagnosed... 60% of patients with recurrent nightmares do not discuss it with their health care providers.",
+      "quote_source": "sbir_abstract"
+    }
+  ],
+  "opener_hook": "Your AFWERX Force Resilience abstract cites 31.2% of active-duty patients at military sleep clinics reporting weekly nightmares — your April 2026 release says you're now raising capital to reach the VA at scale.",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "FDA-cleared prescription digital therapeutic that uses an Apple Watch to detect and interrupt PTSD-related nightmares with haptic feedback."
+}

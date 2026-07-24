@@ -1,0 +1,51 @@
+{
+  "company": "Equitus Corporation",
+  "slug": "equitus-corporation",
+  "domain": "equitus.us",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "SOCOM SBIR Phase II 2022 ($1,224,900) for low/no-code data manipulation for SOF, plus USAF/AFRL R&D contract and CDAO Tradewinds 'Awardable' assessment (SBIR section + News).",
+  "disconnect_score": 49,
+  "subscores": {
+    "lab_language_intensity": 13,
+    "deployment_awareness_absence": 14,
+    "operator_absence": 7,
+    "hiring_profile_skew": 10,
+    "stage_pressure": 5
+  },
+  "score_evidence": [
+    "\"90% Fewer False Alarms\" / \"< 60 Seconds Alert Delivery\" / \"50+ Cameras Per Operator\" → lab_language_intensity (benchmark bragging with no operational framing)",
+    "\"Cut the time to ingest, structure, and build knowledge graphs by up to 80%\" → lab_language_intensity",
+    "\"engineered to support organizations working toward NERC CIP, CJIS, CFATS, and HIPAA compliance\" → deployment_awareness_absence (entirely commercial compliance vocabulary; zero ATO/RMF/IL5/STIG/CMMC/ITAR across ~1,496 words of own language)",
+    "\"SOF operators have a need to merge data of different types from disparate sources without the assistance of a Data scientist\" → operator_absence scored LOW (operators are named and central in the SBIR abstract)",
+    "No jobs data in pack → hiring_profile_skew set to exactly 10",
+    "MDA SHIELD prime position (Dec 2025) + 17-year-old company, 35 employees, distributor channel → low stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The install floor is a rack server plus a Kubernetes control plane — the opposite of the SOF edge their SBIR sells into",
+      "operator_reality": "The SOCOM analyst the Phase II describes sits at a forward site with a generator, a power budget, and nobody to run OpenShift. An IBM Power1022 or Dell XR7620 with Rancher/OpenShift and an Active Directory join is a data-center install with a sustainment tail (spares, patching, cluster upkeep) that no ODA-level unit owns. The delta between 'drag-and-drop for operators' and 'minimum hardware requirement: server' is the months-to-field gap.",
+      "why_likely_missing": "The product was hardened for enterprise and state/federal on-prem buyers who have IT staff; the SBIR customer was written to the same architecture without re-costing the edge.",
+      "evidence_quote": "Minimum hardware requirement: IBM Power1022 or Dell XR7620 server (via our distributors) ... Compatible with RedHat OpenShift or SUSE Rancher orchestrator ... Authentication and integration with your Active Directory",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Compliance language is 100% commercial; the DoD accreditation path is invisible in their own words despite having run on USAF Cloud One",
+      "operator_reality": "On MDA SHIELD and any SOCOM transition, what sets the schedule is the ATO package — STIGs on the OpenShift layer, IL5 boundary, POA&Ms, CMMC at the company level — not the graph engine. A container platform plus AD integration plus a data-ingest layer is one of the heaviest RMF packages a 35-person company can take on, and the site names NERC CIP and HIPAA instead.",
+      "why_likely_missing": "The 2021 AFRL work rode someone else's Cloud One authorization, so accreditation never became their engineering problem or their marketing vocabulary.",
+      "evidence_quote": "Built for critical infrastructure, Equitus Video Sentinel delivers automated threat awareness for public safety, transportation, defense, healthcare, and more. EVS is engineered to support organizations working toward NERC CIP, CJIS, CFATS, and HIPAA compliance.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "EVS is architected around indexing every frame of every camera continuously — a bandwidth and storage assumption a contested or expeditionary site cannot meet",
+      "operator_reality": "'Auto-indexes every frame from every camera' plus sub-60-second alert delivery and 50+ cameras per operator presumes a fat, always-up local network and a persistent operator console. This is the 30fps crowd-detection failure mode at scale: on a DDIL link the analytic has to decouple frame rate from detection, buffer and forward summaries rather than frames, and keep alerting when the console is dark. Nothing in their language shows a degraded mode.",
+      "why_likely_missing": "The design center is a fixed critical-infrastructure camera plant (transportation, healthcare, utilities) where bandwidth is a given.",
+      "evidence_quote": "EVS auto-indexes every frame from every camera, turning raw footage into searchable, auditable intelligence ... < 60 Seconds Alert Delivery",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Your SOCOM Phase II abstract sells analysis to operators who don't have a data scientist, while the KGNN implementation page sets the install floor at an IBM Power1022 or Dell XR7620 running OpenShift with an Active Directory join — and across ~1,500 words of site copy the compliance words are NERC CIP, CJIS and HIPAA, never RMF or IL5.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "On-prem/edge platform that auto-builds knowledge graphs from disparate data (KGNN) plus a real-time video analytics product (EVS) for defense, government and critical-infrastructure customers."
+}

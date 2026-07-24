@@ -1,0 +1,16 @@
+{
+  "company": "Reveal Technology",
+  "slug": "reveal-technology",
+  "domain": "revealtech.ai",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "May 2026 press: 'Identifi Adoption as Program of Record for USSOCOM'; also $33.6M AFVentures STRATFI award, $3.2M MCWL contract, and explicit 'Network Certified, With Authority To Operate (ATO)' on the product page.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Veteran-founded defense tech company building tactical-edge AI products (Farsight 3D/GEOINT mapping, Identifi biometrics) for offline, comms-denied battlefield use, integrated with ATAK/DoD platforms."
+}

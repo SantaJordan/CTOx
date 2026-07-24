@@ -1,0 +1,16 @@
+{
+  "company": "CyCognito",
+  "slug": "cycognito",
+  "domain": "cycognito.com",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "None in their own language. Site and LinkedIn target commercial enterprise CISOs ('Trusted by leading global enterprises'); news shows a Carahsoft public-sector reseller partnership (2021) and an NHS Scotland (UK) contract — no DoD/military/warfighter customer language, SBIR, or DIU/AFWERX engagement anywhere. Also 116 employees, founded 2017, revenue-stage market leader — outside the $5M-$10M valley-of-death profile regardless.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "External attack surface management (ASM/exposure management) platform for large commercial enterprises."
+}

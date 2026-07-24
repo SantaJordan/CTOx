@@ -320,6 +320,50 @@ DOD
 Branch: ARMY
 
 Total Award Am
+- Award | SBIR () https://www.sbir.gov/awards/211832
+  Award | SBIR Skip to main content
+
+# Award
+
+Portfolio Data
+
+Back to Award Search
+
+## SWING - SWItches using a Nitrogen polar (N-polar) Gallium nitride (GaN)
+
+### Awardee
+
+#### MAXENTRIC TECHNOLOGIES LLC
+
+2071 LEMOINE AVE STE 302FORT LEE, NJ, 07024-6007USA
+
+Award Year: 2025
+
+UEI: JL9DW4GMNJ53
+
+HUBZone Owned: No
+
+Woman Owned: No
+
+Socially and Economically Disadvantaged: No
+
+Congressional District: 5
+
+Tagged as:
+
+STTR
+
+Phase II
+
+### Awarding Agency
+
+DOD
+
+Branch: NAVY
+
+Total Award Amount: $999,716
+
+
 - Award | SBIR () https://www.sbir.gov/awards/209407
   Award | SBIR Skip to main content
 
@@ -360,52 +404,6 @@ Phase I
 DOW
 
 Bran
-- Award | SBIR () https://www.sbir.gov/awards/207330
-  Award | SBIR Skip to main content
-
-# Award
-
-Portfolio Data
-
-Back to Award Search
-
-## HERMES
-
-### Awardee
-
-#### MAXENTRIC TECHNOLOGIES LLC
-
-2071 LEMOINE AVE STE 302FORT LEE, NJ, 07024-6007USA
-
-Award Year: 2023
-
-UEI: JL9DW4GMNJ53
-
-HUBZone Owned: No
-
-Woman Owned: No
-
-Socially and Economically Disadvantaged: No
-
-Congressional District: 5
-
-Tagged as:
-
-SBIR
-
-Phase II
-
-### Awarding Agency
-
-DOD
-
-Branch: NAVY
-
-Total Award Amount: $1,749,675
-
-Contract Number: N68335-23-C-0676
-
-Agency Tracking Number: F2D-
 
 ## Open roles (Blitz, live)
 - Sr. Embedded Software Engineer ({'city': 'San Diego', 'country_code': 'US'})

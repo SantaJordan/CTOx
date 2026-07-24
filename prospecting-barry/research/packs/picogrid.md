@@ -435,40 +435,6 @@ Today, crucial large-scale infrastructure is typically monitored by manual patro
 The goal of this project is to design, produce, test and deliver Bomber Security in a Box (BSIB), a flyaway kit adaptation for securing the aircraft and its surroundings during ground operations in austere conditions (e.g., foreign partner-operated Forward Operating Locations, emergency diversions). BSIB will provide enhanced situational awareness and automated threat detection to the aircrew, giving them increased time and space to make a decision and remove the cognitive burden of continuous monitoring. Picogrid will deliver BSIB as an adaptation of the commercially-available Picogrid Platform through miniaturization for transportation in the physical space available in the aircraft, development of improved threat detection for ground-based objects and enabling global operational coverage. The mission impact of the project will be improved force protection effectiveness.
 
 ## News (Exa, top 3)
-- Picogrid Wins a $9.3M Air Force Award for Its Open ... (2026-02-03) https://picogrid.com/newsroom/picogrid-wins-a-usd9-3m-air-force-award-for-its-open-integration-layer
-  Picogrid Wins a $9.3M Air Force Award for Its Open Integration Layer | Picogrid
-
-Picogrid
-
-## Read theDocs
-
-Picogrid SDK & DocsPicogrid SDK & DocsPicogrid SDK & Docs
-
-## PartnerProgram
-
-Picogrid Partner NetworkPicogrid Partner NetworkPicogrid Partner Network
-
-## ContactUs
-
-Contact PicogridContact PicogridContact Picogrid
-
-©2026
-- Picogrid Awarded XVIII Airborne Corps Contract to Accelerate Integration of Battlefield Systems | Picogrid (2026-04-15) https://picogrid.com/newsroom/picogrid-awarded-xviii-airborne-corps-contract-to-accelerate-integration-of-battlefield-systems
-  Picogrid Awarded XVIII Airborne Corps Contract to Accelerate Integration of Battlefield Systems | Picogrid
-
-April 15th, 2026
-
-# Picogrid Awarded XVIII Airborne Corps Contract to Accelerate Integration of Battlefield Systems
-
-Picogrid
-
-El Segundo, CA
-
-Award supports real-time coordination of sensors, autonomous systems, and mission software in the field
-
-Award supports real-time coordination of sensors, autonomous systems, and mission software in the field
-
-FORT BRAGG, NC – April 16, 2026 – Picog
 - Award | SBIR () https://www.sbir.gov/awards/215853
   Award | SBIR Skip to main content
 
@@ -515,6 +481,30 @@ Total Award Amount: $1,999,958
 Contract Number: W51701-25-C-A285
 
 Agency Tra
+- Picogrid Wins a $9.3M Air Force Award for Its Open ... (2026-02-03) https://picogrid.com/newsroom/picogrid-wins-a-usd9-3m-air-force-award-for-its-open-integration-layer
+  Picogrid Wins a $9.3M Air Force Award for Its Open Integration Layer | Picogrid
+
+Picogrid
+
+## Read theDocs
+
+Picogrid SDK & DocsPicogrid SDK & DocsPicogrid SDK & Docs
+
+## PartnerProgram
+
+Picogrid Partner NetworkPicogrid Partner NetworkPicogrid Partner Network
+
+## ContactUs
+
+Contact PicogridContact PicogridContact Picogrid
+
+©2026
+- Picogrid wins $9M Air Force contract for counter-drone software written by AI - Breaking Defense (2026-02-03) https://breakingdefense.com/2026/02/picogrid-wins-9m-air-force-contract-for-counter-drone-software-written-by-ai/
+  Picogrid wins $9M Air Force contract for counter-drone software written by AI - Breaking Defense
+
+A US Air Force client system technician types on his computer at Maxwell Air Force Base, Alabama, Feb.19, 2025. (U.S. Air Force photo by Senior Airman Elizabeth Figueroa.)
+
+WASHINGTON — Up-and-coming software company Picogrid has won a $9.3 million Small Business Innovation Research(SBIR) Phase III contract, the small firm’s largest to date, to connect disparate counter-drone systems and other defen
 
 ## Open roles (Blitz, live)
 - Strategy & Operations Manager ({'city': 'El Segundo', 'country_code': 'US'})

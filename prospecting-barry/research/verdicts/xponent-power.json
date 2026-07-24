@@ -1,0 +1,16 @@
+{
+  "company": "XPonent Power",
+  "slug": "xponent-power",
+  "domain": "xponentpower.com",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "No genuine DoD motion: the only reference is a single marketing phrase 'commercial and military vehicles' in the products blurb; the SAM.gov record in News is for an unrelated/inactive 2019 notice titled 'XP Power' (a different, well-known power-supply company), not an XPonent Power contract or SBIR award — company sells consumer RV/trailer solar awnings.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "unknown",
+  "what_they_do": "Consumer/commercial retractable rooftop solar awning (Xpanse) for RVs, trailers, and service vehicles."
+}

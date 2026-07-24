@@ -1,0 +1,16 @@
+{
+  "company": "Primer Federal Inc",
+  "slug": "primer-federal-inc",
+  "domain": "primer.ai",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Multiple SBIR Phase II awards (SOCOM 2022 $3M, Air Force 2023) plus own-language claims of years of deployment inside secure mission environments across IL5/IL6 — homepage and SBIR record.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "AI analytic platform for intelligence/defense/civilian agencies (Primer Enterprise, Primer Command) that is already fielded at scale in classified/DDIL/air-gapped mission environments, 118-145 employees, hiring Forward Deployed Engineers in Germany and Singapore."
+}

@@ -1,0 +1,26 @@
+{
+  "company": "TeamWorx Security, Inc.",
+  "slug": "teamworx-security-inc",
+  "domain": "teamworxsecurity.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Channel-notes/SBIR source: 'TeamWorx is developing the RCyP AI-driven cyber-triage prototype for the 16th Air Force' (sbir.gov/awards/216865); own LinkedIn about confirms 'a proven track record across the defense and intelligence communities.'",
+  "disconnect_score": 34,
+  "subscores": {"lab_language_intensity": 8, "deployment_awareness_absence": 6, "operator_absence": 6, "hiring_profile_skew": 5, "stage_pressure": 9},
+  "score_evidence": [
+    "'3,500+ Community Partners', '5.9M+ Hours of Human Analysis Saved', '8.4M+ Conversations turned into actionable intelligence' — scale/impact metrics, not pure lab brags → lab_language_intensity kept moderate-low",
+    "'Cyber Risk Assessments: ...system categorization assessments...document controls in line with Federal, state, and NIST requirements' is essentially RMF/ATO-adjacent language offered as a service line → deployment_awareness_absence scored low, they clearly get RMF/NIST",
+    "Copy centers on 'malware experts, vulnerability researchers, hunt, cyber intelligence, and cyber defense professionals' as the community → operator_absence scored low",
+    "Multiple 'DoD SkillBridge' postings (Software Developer, Systems Administrator/Cybersecurity Specialist, Project Manager-Cyber x2, Cyber Intelligence Analyst) plus a Fort Meade-based Cyber Exercise Planner — hiring skews toward operational/military-transition roles, not pure research → hiring_profile_skew scored low",
+    "21 employees, $500K TEDCO seed (June 2025), still 'prototype' stage for RCyP per channel notes, but also just won a $20M GSA PBS BPA diversifying revenue away from the DoD prototype → stage_pressure moderate"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Hive-IQ's 'collective defense' community intelligence platform is delivered as 'fully managed cloud private instances' with no stated offline/degraded mode", "operator_reality": "Forward-deployed or isolated cyber defense units (exactly the kind 16th Air Force fields) can lose reachback to a cloud-hosted hive when networks are contested; a community-intelligence tool that requires persistent cloud access goes dark for the units most likely to need shared threat data urgently", "why_likely_missing": "product is architected around a SaaS community model, not an edge/disconnected node model", "evidence_quote": "TeamWorx Security provides fully managed cloud private instances for all products available in our collective defense suite.", "quote_source": "homepage"},
+    {"blind_spot": "No public detail on an ATO/IL5 accreditation pathway or SOC/GFE integration plan for the RCyP AI-driven cyber-triage prototype built for 16th Air Force", "operator_reality": "An AI triage tool touching cyber-operations data needs an authorization to operate before an analyst can run it on a government network; without a stated accreditation timeline, a funded Phase-equivalent prototype can sit unused while the clock on its period of performance runs out", "why_likely_missing": "the 16th Air Force prototype is only referenced via SBIR/channel metadata, not detailed on the public site, suggesting the accreditation story isn't a marketed asset yet", "evidence_quote": "TeamWorx is developing the RCyP AI-driven cyber-triage prototype for the 16th Air Force.", "quote_source": "news"},
+    {"blind_spot": "Site markets a broad menu of consulting/staff-aug 'Expert Service offerings' (governance, curriculum, project management) more prominently than the RCyP product, and names no program-office champion for the 16th AF transition", "operator_reality": "Without a champion above the operator level actively sponsoring RCyP toward a program of record, a 21-person company pulled toward a newly won $20M GSA services BPA risks letting the DoD prototype stall — team bandwidth follows revenue, and the services book is bigger and less risky than a single Air Force prototype", "why_likely_missing": "services revenue (GSA BPA) is safer and already flowing, so the marketing site naturally foregrounds it over an unproven prototype", "evidence_quote": "TeamWorx Security offers a range of services that help organizations operationalize and mature their information and cybersecurity programs.", "quote_source": "homepage"}
+  ],
+  "opener_hook": "TeamWorx's RCyP cyber-triage prototype for 16th Air Force sits next to a fully cloud-hosted Hive-IQ community platform — what happens to triage when a unit can't reach the cloud?",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "A dual-use AI/software company running Hive-IQ, a cloud community threat-intelligence platform for cyber defenders, plus cybersecurity consulting services and an AI cyber-triage prototype (RCyP) for 16th Air Force."
+}

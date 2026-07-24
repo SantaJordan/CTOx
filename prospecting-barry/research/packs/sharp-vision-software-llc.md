@@ -205,13 +205,11 @@ Software Development Services, Software P
 - sharp vision software (2026-02-21) https://sharpvisionsoftware.com/
   # Sharp Vision Software (Sharp Vision Software LLC)
 
-Sharp Vision Software is a Software Development company. Sharp Vision Software employs 13 people (-5.6% YoY, -1 person). Headquartered in Houston, United States, with presence in China.
+Sharp Vision Software is a Software Development company. Sharp Vision Software employs 13 people (-5.6% YoY, -1 person). Headquartered in Houston, United States. Its workforce is distributed across United States and China.
 
 ## About
 
-SVS develops software solutions for the oil & gas, power, and healthcare industries. We combine high quality standards and engineering domain knowledge to reassure customers that we understand their business, and add value to project work. 
-
-Our solu
+SVS develops software solutions for the oil & gas, power, and healthcare industries. We combine high quality standards and engineering domain knowledge to reassure customers that we understand their business, and 
 - sharp vision inc (2026-06-07) https://sharp-vision.com/
   # SHARP VISION INC
 

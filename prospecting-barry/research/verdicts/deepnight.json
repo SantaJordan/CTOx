@@ -1,0 +1,17 @@
+{
+  "company": "DeepNight",
+  "slug": "deepnight",
+  "domain": "deepnight.ai",
+  "verdict": "insufficient_evidence",
+  "drop_reason": "",
+  "dod_intent_evidence": "Army/Air Force SBIR Phase II for neural-network night vision (news: sbir.gov award), Army xTech Search 9 winner and '$12M contracts' on their About page; Army/USAF evaluating at SOF Week 2026 (news).",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "medium",
+  "stage_band": "series_a",
+  "what_they_do": "AI-on-edge digital night vision cameras that beat Gen 3 image-intensifier tubes using commodity CMOS sensors.",
+  "note": "Own-language word count ~370, under the ~500-word evidence-sufficiency floor. DoD motion is genuine and product looks squarely in Barry's zone (prototype under military evaluation, embedded/Android hiring, no deployment/compliance language visible) — worth a re-crawl with more site/JD text before final ranking."
+}

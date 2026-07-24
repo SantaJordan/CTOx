@@ -146,58 +146,16 @@ Phase I
 ### Awarding Agency
 
 DO
-- Polaron Technologies Inc. () https://www.sbir.gov/portfolio/1424093
-  Firm | SBIR Skip to main content
+- POLARON TECHNOLOGIES, INC. - AI System Predicts Fire Safety of Navy Composite Materials Award | SBIR.org () https://sbir.org/awards/dod-N68335-24-C-0124-1
+  POLARON TECHNOLOGIES, INC. - AI System Predicts Fire Safety of Navy Composite Materials Award | SBIR.org
 
-# Company
+Phase I $146415 Department of Defense
 
-Portfolio Data
+# AI System Predicts Fire Safety of Navy Composite Materials
 
-Back to Company Search
+POLARON TECHNOLOGIES, INC.· December 2023
 
-## POLARON TECHNOLOGIES, INC.
-
-### Address
-
-9059 SPRINGBORO PIKE STE CMIAMISBURG, OH, 45342-5063USA
-
-UEI: X3EVW996V971
-
-Number of Employees: 6
-
-HUBZone Owned: No
-
-Woman Owned: No
-
-Socially and Economically Disadvantaged: Yes
-
-#### SBIR/STTR Involvement
-
-Year of first award: 2019
-
-4
-
-Phase I Awards
-
-1
-
-Phase II Awards
-
-25%
-
-Conversion Rate
-
-$871,206
-
-Phase I Dollars
-
-$1,499,982
-
-Phase II Dollars
-
-$2,371,188
-
-Tota
+Polaron Technologies is building a machine learning tool that may help predict how flammable polymer composite materials (mixtures of polymers and reinforcing fibers) will be based on their chemical structure, potentially assisting the Navy in design
 
 ## Open roles
 (no jobs data found)

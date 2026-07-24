@@ -1,0 +1,44 @@
+{
+  "company": "PhasorLab Inc",
+  "slug": "phasorlab-inc",
+  "domain": "phasorlab.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "2022 AFRL SBIR Phase II abstract names Major Devin Beckwith of US Special Forces as target end user and Raj Malhotra of AFRL as TPOC, developing a GPS-denied PNT/navigation module for a Blue-sUAS drone fleet (SBIR/STTR record section).",
+  "disconnect_score": 38,
+  "subscores": {"lab_language_intensity": 10, "deployment_awareness_absence": 6, "operator_absence": 4, "hiring_profile_skew": 10, "stage_pressure": 8},
+  "score_evidence": [
+    "'sub-nanosecond time synchronization and better than 1 part-per-billion frequency synchronization' → lab_language_intensity (precision-brag framing, no ops context on the homepage)",
+    "'HSN can be quickly deployed as a mobile wireless solution capable of self-organizing, self-healing, and operating under jamming attacks... without any advance onsite pre-planning' → deployment_awareness_absence (low; they show real DDIL/jamming awareness)",
+    "'collaborating with Major Devin Beckwith of US Special Forces (our target end user)' → operator_absence (low; named specific operator)",
+    "no jobs data found in pack → hiring_profile_skew set to 10 per instructions",
+    "founded 2014, 10-16 employees, still SBIR/grant-funded a decade in, 2023 NTIA grant and 2022 AF Phase II delivery → stage_pressure (moderate, no acute funding-cliff signal visible)"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "No mention anywhere of ATO/RMF, STIGs, or IL4/IL5 despite selling a PNT module meant to plug into government drone/comms networks.",
+      "operator_reality": "A hardware module that talks PNT/timing data into a Blue-sUAS platform still needs to cross an ATO before it touches a program-of-record network — 'plug and play module compatible with blue-SUAS certified drones' assumes an integration path that skips this entirely.",
+      "why_likely_missing": "Team is RF/PNT engineering-heavy (digital signal processing, RTOS, embedded) with no visible compliance or field-integration hire.",
+      "evidence_quote": "'This module will enable drones to use HSN-based PNT solution when GPS is jammed or unavailable, and go back to using GPS again when available.'",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "No mention of ATAK/TAK ecosystem despite building position/timing data explicitly meant to feed situational-awareness and C2 pictures.",
+      "operator_reality": "PNT data that isn't natively pipeable into ATAK means an operator has to bridge it manually in the field — exactly the kind of last-mile integration gap that kills a transition when nobody funded the adapter.",
+      "why_likely_missing": "Product framing is 'PNT services to mobile units' at the RF-network level, not at the C2-display level where TAK lives.",
+      "evidence_quote": "'network-wide PNT services to all the mobile units as part of a highly secure mobile communication network'",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Zero language on who trains an operator to deploy/troubleshoot a 'self-expanding mesh network' node in the field, or battery/spares logistics for the mesh hardware.",
+      "operator_reality": "A self-organizing mesh still needs someone to physically place, power, and diagnose a dead node at 0300 in a GPS-denied site — 'no limit on the number of nodes' says nothing about who services node #14 when it drops.",
+      "why_likely_missing": "Messaging is pitched at the RF/network-engineering layer (self-organizing, self-healing) which implicitly assumes the hardware just works, not at the sustainment layer.",
+      "evidence_quote": "'Hyper Sync Net's Self-Expanding capabilities allows nodes to seamlessly join the mesh network and there is no limit on the number of nodes (Infinity Mesh) joining the network.'",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Your 2022 AFRL Phase II names Maj. Devin Beckwith's SOF unit as the target end user for HSN-based drone PNT — how's the ATO clock tracking against their fielding window?",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "GPS-denied position/navigation/timing and wireless mesh time-sync hardware for drones and tactical comms."
+}

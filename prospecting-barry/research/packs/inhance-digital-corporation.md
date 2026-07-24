@@ -293,22 +293,30 @@ Inhance Digital Corporation
 
 Website
 
+- Radiance Technologies Wins $151B SHIELD Contract for ... (2025-12-19) https://www.linkedin.com/posts/radiance-technologies_radiance-technologies-inc-is-pleased-to-activity-7407904706351493120-C1Ys
+  Radiance Technologies Wins $151B SHIELD Contract for Missile Defense Agency | Radiance Technologies posted on the topic | LinkedIn
+
+Agree & Join LinkedIn
+
+By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy.
+
+# Radiance Technologies Wins $151B SHIELD Contract for Missile Defense Agency
+
+https://www.linkedin.com/company/radiance-technologies
+
+Radiance Technologies
+
+20,172 followers
+
+7mo
+
+- Report this post
+
+Radiance Technologies, Inc.
 - inhance (2026-06-26) https://inhance.com/
   # Inhance
 
 Inhance is a Media Production company. Inhance Digital is an interactive agency that provides content generation, visual effects, physical brand activation/immersive experiences, and virtual brand exhibits and events. They offer custom, cutting-edge interactive experiences for both in-person brand activations as well as virtual and online customer engagement. Inhance employs 17 people (-1.7% YoY, -1 person) and has an annual revenue of $17M, founded in 1997. Headquartered in Los Angel
-- INHANCE DIGITAL CORPORATION VS JULANDER BROWN BOLLARD, LLP, ET AL. () https://unicourt.com/case/ca-la23-inhance-digital-corporation-vs-julander-brown-bollard-llp-et-al-607716
-  INHANCE DIGITAL CORPORATION VS JULANDER BROWN BOLLARD, LLP, ET AL | Court Records - UniCourt
-Search**
-[Search All](javascript:void(0))[Parties](javascript:void(0))[Attorneys](javascript:void(0))[Judges](javascript:void(0))
-![Error Icon](https://cdn.unicourt.com/seo_resources/case/1.0.2505060405/images/error_icon.png)
-This case was last updatedfrom**Los Angeles County Superior Courts**on 07/24/2021 at 19:44:44 (UTC).**Update This Case
-* **
-* **
-* **
-* **
-* **
-# INHANCE DIGITAL CORPORATION VS JULA
 
 ## Open roles (Blitz, live)
 - Sales and Business Development Director – Government Sector ({'city': 'Los Angeles', 'country_code': 'US'})

@@ -214,18 +214,10 @@ Branch: NAVY
 Total Award Amount: $138,985
 
 Contract Number: N6
-- Defense Tech Startup Tercero Technologies Awarded New Navy ... (2024-08-05) https://www.tercero.ai/news/2024-08-05-defense-tech-startup-tercero-awarded-new-us-navy-sbir-contract/
+- Defense Tech Startup Tercero Technologies Awarded New ... (2024-08-05) https://www.tercero.ai/news/2024-08-05-defense-tech-startup-tercero-awarded-new-us-navy-sbir-contract/
   �      �Y�rܶ�_O�afzҌp<+V�XwמϮ�[�H�ۤ�ɀ$HB  u��y���^]�Y�����1��N��/�4�$���t��B� �',��9�}��<�%.��ȈV`Rj�H����h �\�<���X� 0x7���̸��J�i)�h��������h���H�&(&&-�b���F�h�g�(\���� �<��T��3�0�NL�����)c��Q�@���yt��̘#��3�c~��O�f<��h�KM ����Ɉ�D�S�� �֖6jk �U�V��K�)�3�_,�D�D _��U�Pf~�c�N��"W�o�����_���c��6���P�`�T��L�9VZ� ~�c0𧻶t��l�u��kHy7�H����G{FOG��{���Ά��Gj���݁m� ��dtJ ���4^�F�4v\DJMr���+�x��w=c �Gr1���oh�L6�>~�����]#�6�`�x�VpX�:=�*)3tO��ܮq��;
-- Edge AI Startup Tercero Technologies Awarded Defense Contract Worth Up to $1.5M, Moves to Chicago | Tercero Technologies (2021-06-30) https://www.tercero.ai/news/2021-06-30-tercero-awarded-defense-contract-moves-to-chicago/
-  Edge AI Startup Tercero Technologies Awarded Defense Contract Worth Up to $1.5M, Moves to Chicago | Tercero Technologies
-
-news
-
-## Edge AI Startup Tercero Technologies Awarded Defense Contract Worth Up to $1.5M, Moves to Chicago
-
-June 30, 2021
-
-CHICAGO - June 30, 2021 - Edge artificial intelligence startup Tercero Technologies announced that it was awarded a U.S. Department of Defense contract to further develop and commercialize its tactical edge AI inference platform for realtime sensor proces
+- Chicago-Based Defense AI Tech Startup Tercero Receives ... (2023-04-18) https://www.tercero.ai/news/2023-04-18-defense-ai-tech-startup-tercero-receives-additional-dod-funding/
+  �      �Y�r�����آ�J���lŪE��%�֌%yl9m��d�<�C��9qf���g��I�{ A�"i;I�� ����������;�>����s��\�v�/�a �`��+�'��� �C<�� 7 *�����U�\ �{)��6.�XNH:��� q/c����B:��1Wbxx vbdqǜf�t�B��Y:���􆰦v�)1:�Șg�=�V$p.RQX� ���:n\U⋉���F�B� �$�$�+8���UU$���CKI�V:������៨��ˋ��k`0.�Tpxr G��G������W�0>m �)�5�/���KH�ΑY�;t� �ş���8☣����������0�1a21"!�Q6�yF�I��{"�E������y&BZ�ʲn����V%*���)F#� �s��晥F�0�6�J�rY���s����~r�8:��$:�^ �d��[�p;+b�&�J�4 ��i/�:S>Y� ���b������O(�{}|�ǿ]��
 
 ## Open roles
 (no jobs data found)

@@ -1,0 +1,20 @@
+{
+  "company": "Slingshot Aerospace Inc",
+  "slug": "slingshot-aerospace-inc",
+  "domain": "slingshot.space",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Real, extensive DoD motion — Navy SBIR Phase II for USNO, a $27M Space Force contract, and a $69.2M Space Force contract (their largest ever) delivering AI-powered mission rehearsal to Space Force Guardians, all confirmed by their own newsroom and Businesswire/Via Satellite.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "216 employees, founded 2017 (9 years), $69.2M single Space Force contract called 'the largest in its history' -> already_operational",
+    "full enterprise SaaS motion: pricing/licensing/seats FAQ, demo requests, sign-in portal, Marketplace, Developer Suite, named to Fast Company's Most Innovative Companies 2026 -> already_operational",
+    "delivering live capability to end users ('AI-powered mission rehearsal and operational training capabilities to Space Force Guardians') not a prototype in transition -> already_operational"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Mature space-domain-awareness and AI mission-rehearsal SaaS platform for defense, civil, and commercial space operators, already fielded under multiple large Space Force contracts."
+}

@@ -1,0 +1,22 @@
+{
+  "company": "Interactive Aptitude LLC",
+  "slug": "interactive-aptitude-llc",
+  "domain": "intaptai.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "Real DoD motion exists — an Air Force 2023 SBIR Phase II ($1,249,955) for RAISR tied to ABMS, plus 2024 Phase I SBIR/STTR awards (ASTROEDGE, BASE-TWIN) — but the company sells engineering hours, not a product.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "\"We provide comprehensive software engineering services for multi-domain command and control, platform-level autonomy, and data management\" → services business, stated on the homepage headline",
+    "\"We provide comprehensive consulting services to implement AI-enabled hardware and software solutions.\" → LinkedIn about, and LinkedIn industry is Professional Services",
+    "Their pricing page sells labor, not software: \"we are happy to provide a free 1-hour consultation... our Solution Prototype Starter Package for $800, where we: Match you with a senior engineer dedicated for a full day\"",
+    "The \"Products\" page is actually headed \"Products and Past Projects\" and every entry is a past engagement description (\"We have a history of deploying decentralized C2...\", \"We addressed critical challenges in Electronic Warfare (EW) modeling, simulation, and hardware test\") → no owned product with a transition at stake",
+    "\"The prototypes created have helped guide reliable software implementations into the DoD\" → they hand prototypes to others to implement; nine people across six states, a distributed consulting bench"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "A nine-person distributed software-engineering consultancy that prototypes multi-domain C2, autonomy and sensor-processing solutions for Air Force and Space Force customers under SBIR and services contracts."
+}

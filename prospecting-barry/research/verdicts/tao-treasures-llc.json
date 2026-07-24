@@ -1,0 +1,26 @@
+{
+  "company": "Tao Treasures, LLC (dba NanoBioFab)",
+  "slug": "tao-treasures-llc",
+  "domain": "nanobiofab.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "SBIR record: two Defense Health Program Phase II awards ($1.1M and $1.65M, 2023) from DOD/DHA for the RAPID-iNose wound-infection sensor, explicitly written for 'military personnel' and combat wound infection — own SBIR abstracts section.",
+  "disconnect_score": 58,
+  "subscores": {"lab_language_intensity": 18, "deployment_awareness_absence": 8, "operator_absence": 6, "hiring_profile_skew": 10, "stage_pressure": 16},
+  "score_evidence": [
+    "'>97% Sensitivity & Specificity', '23+ Patents Filed', '13+ Pathogens Identified', '~1 Min. Rapid Detection' — pure lab-metric brag on homepage → lab_language_intensity",
+    "SBIR abstract explicitly addresses field-vs-hospital suitability, size/weight ('small, lightweight'), and training burden ('Reduced training time and qualification requirements for laboratory personnel') — real deployment reasoning even without ATO/RMF/CMMC vocabulary → deployment_awareness_absence kept low",
+    "'expediting the implementation of this technology in military healthcare settings' and repeated framing around 'military personnel' and clinicians shows operators are central to the abstract → operator_absence kept low",
+    "'no jobs data found' → hiring_profile_skew set to 10 per rule",
+    "6 employees(LI), only $1.15M in non-SBIR funding across 5 tiny rounds, still 'refining the alpha version prototype' and building a 'commercialization plan' in Phase II → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "'Telemedicine capable for real-time' data sharing back to clinicians assumes a live comms link from point of injury", "operator_reality": "A combat casualty at point of injury or in a MEDEVAC chain is often in a DDIL environment with no persistent uplink; a device built around continuous real-time telemedicine sync needs a store-and-forward fallback or it goes dark exactly when it matters most", "why_likely_missing": "the product narrative is built around continuous AI monitoring, not intermittent-comms resilience", "evidence_quote": "utilizes a patented nanosensor array and artificial intelligence algorithms that is telemedicine capable for real-time and rapid detection", "quote_source": "sbir_abstract"},
+    {"blind_spot": "No mention of FDA regulatory clearance status or DoD medical-device/ATO pathway for a wireless sensor handling patient health data on military networks", "operator_reality": "A wearable diagnostic that wirelessly transmits patient data needs both an FDA pathway and, for DoD use, a data-handling/ATO review before it can touch a military health record system — skipping this is a common reason funded Phase II medtech never reaches a unit", "why_likely_missing": "team is focused on sensor accuracy and clinical validation milestones, not the regulatory/network-authorization track", "evidence_quote": "Data can be shared with medical professionals in real-time to realize more accurate and appropriate treatment.", "quote_source": "sbir_abstract"},
+    {"blind_spot": "No battery/spares/durability plan for a coin-sized wearable across the evacuation chain (point of injury through hypothermia bag through transport chamber)", "operator_reality": "A device meant to track a casualty continuously from field to transport needs a charging/battery-swap logistics plan and ruggedization spec; without it, the sensor is dead by the time the patient reaches definitive care", "why_likely_missing": "marketing emphasizes form factor ('as small as a coin') over power/sustainment logistics", "evidence_quote": "The RAPID-iNose is small, lightweight, and integrates into wound dressing systems, hypothermia bags, or transport chambers with wirelessly tracking and monitoring of infection development", "quote_source": "sbir_abstract"}
+  ],
+  "opener_hook": "RAPID-iNose's Phase II abstract calls the device 'telemedicine capable for real-time' data sharing — what's the fallback when the evacuation chain has no uplink back to a clinician?",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "AI-powered wearable nanosensor that detects wound-infection pathogens in real time from gaseous signatures, originally developed for combat wound monitoring under DoD SBIR funding."
+}

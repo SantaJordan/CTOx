@@ -114,10 +114,6 @@ Radical is assembling a team of world-class innovators. Join us and build the fu
 Radical builds StratoSats. Our autonomous platforms deliver high-performance connectivity and observation from the stratosphere, offering flexibility without orbital constraints.
 
 ## News (Exa, top 3)
-- Radical raises $4.5M to rev up development of solar airplanes (2024-04-24) https://www.geekwire.com/2024/radical-raises-funds-solar-airplanes/
-  Radical raises $4.5M to rev up development of solar airplanes
-
-We use essential cookies to make our site work. With your consent, we may also use non-essential cookies to improve user experience, personalize advertisements, and analyze website traffic. For these reasons, we may share your site usage data with our social media, advertising, and analytics partners. By clicking “Accept,” you agree to our website's cookie use as described in our Cookie Policy. You can change your cookie settings at 
 - Radical Aero’s Evenstar Stratospheric Aircraft Takes Flight (2025-10-29) https://www.tectonicdefense.com/radical-aeros-evenstar-stratospheric-aircraft-takes-flight/
   Radical Aero’s Evenstar Stratospheric Aircraft Takes Flight
 
@@ -126,6 +122,10 @@ Radical’s Evenstar during a recent test flight. Image: Radical
 There’s a lot of hype around both drones and space-based tech, and Radical Aero wants to capitalize on both.
 
 The Seattle-based stratospheric aircraft startup emerged from stealth after a $4.5M seed round last April and is making autonomous solar-powered drones that fly at high altitudes for months at a time. And on Wednesday, the company took a big step towards that goal,
+- Radical raises $4.5M to rev up development of solar airplanes (2024-04-24) https://www.geekwire.com/2024/radical-raises-funds-solar-airplanes/
+  Radical raises $4.5M to rev up development of solar airplanes
+
+We use essential cookies to make our site work. With your consent, we may also use non-essential cookies to improve user experience, personalize advertisements, and analyze website traffic. For these reasons, we may share your site usage data with our social media, advertising, and analytics partners. By clicking “Accept,” you agree to our website's cookie use as described in our Cookie Policy. You can change your cookie settings at 
 - Former Amazon Prime Air employees raise $4.5M for stealthy solar airplane startup (2024-04-24) https://tech.yahoo.com/science/articles/former-amazon-prime-air-employees-120000268.html
   Former Amazon Prime Air employees raise $4.5M for stealthy solar airplane startup
 

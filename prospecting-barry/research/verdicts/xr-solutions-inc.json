@@ -1,0 +1,26 @@
+{
+  "company": "XR Solutions, Inc (Future Sight AR)",
+  "slug": "xr-solutions-inc",
+  "domain": "futuresightar.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "SBIR Phase II from the Air Force (2022, $749,985) for a mixed-reality mission-planning/debrief app for the 349th Air Refueling Squadron; LinkedIn about explicitly names 'Air Force, Space Force' as customers — see SBIR/STTR record and LinkedIn about sections.",
+  "disconnect_score": 65,
+  "subscores": {"lab_language_intensity": 15, "deployment_awareness_absence": 12, "operator_absence": 11, "hiring_profile_skew": 10, "stage_pressure": 17},
+  "score_evidence": [
+    "'LEVEL-UP YOUR WORKFORCE... Replace reams of paper with frictionless access to what you need to get the job done right the first time' — generic commercial MR pitch with zero operational/defense framing → lab_language_intensity",
+    "SBIR abstract describes 'adapted user interfaces and the corresponding software application licenses for the 349th Air Refueling Squadron' with no mention of DDIL/ATO/RMF/ITAR anywhere on site or in the abstract → deployment_awareness_absence (capped at 12, own-language <1000 words)",
+    "'Deploy our mixed reality application on your work front and bring your team the data they need when they need it' — 'team,' never operator/warfighter/CONOPS/training → operator_absence (capped at 12, own-language <1000 words)",
+    "no jobs data found → hiring_profile_skew set to 10 per instructions",
+    "Phase II Air Force SBIR was awarded in 2022 for $749,985; four years later (2026) the company is still 4-5 employees with no news of Phase III or program-of-record transition → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "'Use any smartphone, tablet or wearable that works for your project' — device-agnostic, consumer-app deployment model", "operator_reality": "GFE-approved hardware only, no app-store OTA updates, and no assumption of continuous connectivity to push app/content updates in a DDIL AF network environment", "why_likely_missing": "the app was built for commercial industrial workforce training (Schneider Electric partnership) and ported to a single AF squadron pilot without re-architecting for military network constraints", "evidence_quote": "Use any smartphone, tablet or wearable that works for your project.", "quote_source": "homepage"},
+    {"blind_spot": "Mission-planning/debrief MR tool for the 349th ARS is described purely as 'software application licenses'", "operator_reality": "Licenses don't get you onto an Air Force network — an ATO/RMF package, STIGs, and IL4/IL5 accreditation are the actual gate between demo and fielded use, and there's no sign that work has started", "why_likely_missing": "the SBIR abstract is framed around integrating XR into 'current mission planning and mission d[ebrief]' workflow, not around the compliance path to get there", "evidence_quote": "XR Solutions, Inc. will provide adapted user interfaces and the corresponding software application licenses for the 349th Air Refueling Squadron.", "quote_source": "sbir_abstract"},
+    {"blind_spot": "A mission-planning/situational tool for Air Force operators never mentions ATAK/TAK integration", "operator_reality": "AF and joint programs increasingly expect situational-awareness tools to plug into the TAK ecosystem rather than stand alone; building a bespoke MR app outside that ecosystem risks becoming a one-squadron pilot that never generalizes to a program of record", "why_likely_missing": "the product architecture appears to be a proprietary commercial MR app repurposed for one squadron rather than designed for the AF SA tooling ecosystem", "evidence_quote": "This will accelerate DAF requirements to integrate XR technology into current mission planning and mission d[ebrief]", "quote_source": "sbir_abstract"}
+  ],
+  "opener_hook": "Your 2022 Air Force Phase II SBIR ($749,985) built a mixed-reality mission-planning app for the 349th Air Refueling Squadron — four years on, the team is still sized at 4-5 with no public sign of a Phase III transition.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Mixed/augmented reality workforce app (Future Sight AR) with a commercial industrial partnership (Schneider Electric) and a 2022 Air Force Phase II SBIR for mission-planning/debrief with the 349th Air Refueling Squadron."
+}

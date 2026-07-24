@@ -1,0 +1,16 @@
+{
+  "company": "Merlin Labs",
+  "slug": "merlin-labs",
+  "domain": "merlinlabs.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "$105M USSOCOM production/IDIQ contract (H9240824R0003) for C-130J fixed-wing autonomy, publicly traded (NYSE: MRLN), 224 employees — homepage + News section.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Publicly traded (NYSE: MRLN) autonomous flight software company with a $105M USSOCOM production contract to automate the C-130J fleet — already past the prototype/valley-of-death stage."
+}

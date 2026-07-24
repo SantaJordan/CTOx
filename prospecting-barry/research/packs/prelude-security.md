@@ -443,24 +443,20 @@ FinSMEs The Website About Venture Capital News
 Search
 
 Home USA Prelude Security Raises Additional $16M i
-- Prelude raises $24M to help organizations harden their cybersecurity defenses | TechCrunch (2022-04-12) https://techcrunch.com/2022/04/12/prelude-series-a-cybersecurity-defenses/
-  Prelude raises $24M to help organizations harden their cybersecurity defenses | TechCrunch
+- Continuing the Prelude Mission Through our $24mm ... (2022-04-22) https://www.preludesecurity.com/blog/continuing-the-prelude-mission-through-our-24mm-series-a-financing
+  Looking for Prelude Security? You're looking for Origin.
 
-Image Credits:Prelude
+# Looking for Prelude Security?
 
-Copy Share Link
+You found the right page. We are now Origin, the endpoint AI observability platform for the agent workforce running today.
 
-# Prelude raises $24M to help organizations harden their cybersecurity defenses
+Already running Prelude Monitor? Nothing changes for you. Same product. Same team. Same way of getting in touch with us.
 
-Carly Page
+Contact us
 
-5:20 AM PDT · April 12, 2022
+Whether you’re running Prelude Monitor today or sizing up Origin for the first time, we look forward to hearing from you.
 
-Copy Share Link
-
-Prelude, a Washington, D.C-based startup that helps organizations harden their cyber defenses through the use of autonomous red-teaming, has secured $24 million in Series A funding.
-
-Prelude— which describes itself as the first 
+I agree to Origin’s Privacy 
 
 ## Open roles (Blitz, live)
 - Sales Operations ({'city': None, 'country_code': 'US'})

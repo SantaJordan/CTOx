@@ -436,6 +436,20 @@ Incerta Intelligence is an AI engineering defense technology firm building the S
   # Incerta Intelligence
 
 Incerta Intelligence is a Software Development company. Incerta Strategy Partners is a company that provides executive advisory and consulting services to help organizations navigate uncertainty and accelerate execution. They integrate AI-driven insights and asset-based consulting to help government navigate uncertainty and accelerate execution. Their team specializes in risk assessment, strategic planning, and decision science to support executives in making high-stakes 
+- CDAO Announces Partnerships with Frontier AI ... (2025-07-14) https://www.ai.mil/latest/news-press/pr-view/article/4242822/cdao-announces-partnerships-with-frontier-ai-companies-to-address-national-secu/
+  CDAO Announces Partnerships with Frontier AI Companies to Address National Security Mission Areas > Chief Digital and Artificial Intelligence Office > PR-View
+
+An official website of the United States government
+
+Here's how you know
+
+Official websites use .mil
+
+A .mil website belongs to an official U.S. Department of Defense organization in the United States.
+
+Secure .mil websites use HTTPS
+
+A lock ( ) or https:// means you’ve safely connected to the .mil website. Share sensitive information onl
 - Startup Obviant wins $99M from DIU for AI acquisition data analytics - Breaking Defense (2025-11-07) https://breakingdefense.com/2025/11/startup-obviant-wins-99m-from-diu-for-ai-acquisition-data-analytics/
   Startup Obviant wins $99M from DIU for AI acquisition data analytics - Breaking Defense
 
@@ -444,14 +458,6 @@ Inside of the digital data and network connection on a dark blue background. (Ge
 WASHINGTON — The Defense Innovation Unit, the Pentagon’s outreach arm to the tech industry, has hired AI startup Obviant to help the military make sense of its own spending, according to a company announcement.
 
 The first user planned is DIU itself, but if Obviant’s prototype proves successful, the contract includes 
-- Army awards 'Team Anduril' nearly $100M to lead NGC2 prototype for 4th Infantry Division - Breaking Defense (2025-07-18) https://breakingdefense.com/2025/07/army-awards-team-anduril-nearly-100m-to-lead-ngc2-prototype-for-4th-infantry-division/
-  Army awards 'Team Anduril' nearly $100M to lead NGC2 prototype for 4th Infantry Division - Breaking Defense
-
-A sign for Anduril at the AFA 2022 Air, Space and Cyber Conference. (Justin Katz/Breaking Defense)
-
-WASHINGTON — The Army announced today that it is awarding Anduril, along with “several teamed industry partners,” an other transaction authority (OTA) award worth nearly $100 million for the service’s sprawling Next Generation Command and Control(NGC2) initiative.
-
-The OTA, for $99.6 millio
 
 ## Open roles
 (no jobs data found)

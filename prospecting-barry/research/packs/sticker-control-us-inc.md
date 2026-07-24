@@ -3,7 +3,7 @@ slug: sticker-control-us-inc | domain: sctech.io | HQ: Louisville, Colorado US |
 sources: sbir
 industry(LI): Software Development | specialties: 
 channel notes: SBIR PhII x1 [2022] Air Force latest: Process Automation and Asset Management Solution hq: Boulder,CO emp: 13
-own-language word count: ~536
+own-language word count: ~623
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -120,6 +120,44 @@ Close Menu
 Open Menu
 Close Menu
 
+URL: https://stickercontrolusinc.sharepoint.com/:b:/s/sctechinternal/IQBRtTF8hN2UTZGZgy_FScz1AR8gpz-XaJRC71lOxhe_Jek?e=wIQVJJ
+SC Tech - Capability Statement - June 2026
+
+Download this file to your device
+
+View file details
+
+More
+
+Show comments
+
+Close
+
+Rename file
+
+SC Tech - Capability Statement - June 2026**
+**
+**
+**
+**
+**
+![File type indicator icon](https://res-1.public.onecdn.static.microsoft/files/fabric-cdn-prod_20260506.001/assets/item-types/32/pdf.svg)
+SC Tech - Capability...tatement - June 2026.pdf
+**
+**Open**
+**Share**
+**
+Previewing SC Tech - Capability Statement - June 2026.pdf
+SC Tech - Capability Statement - June 2026.pdf
+**
+Download this file to your device
+View file details
+More
+Show comments
+Close
+Rename file
+**
+
 ## LinkedIn about
 
 SC Tech’s OPERA™ software system uses digital forms and any type of sensor to make it easy for organizations to capture data in order to have real-time visibility into operations. OPERA provides our customers: • The ability to manage resources more effectively and efficiently • Minimize operational surprises and mitigate risk • Keep small problems small
@@ -162,54 +200,26 @@ $35.4M
 Vendor
 
 JOHNSON CONTROLS BUILDING A
-- Contract N6449825P2214 Staco Systems () https://www.highergov.com/contract/N6449825P2214/
-  Contract N6449825P2214 Staco Systems
+- DOD Contract Awards — Defense Spending Tracker (2026-07-20) https://forcedalpha.com/tools/dod-contracts/
+  DOD Contract Awards — Defense Spending Tracker | ForcedAlpha
 
-HigherGov
+### How to Read This Data
 
-Pipeline
+AWARD
 
-FOIA
+New contract awards — actual dollars committed for specific work. This is real spending.
 
-Track
+MOD
 
-Favorite
+Contract modifications — changes to existing contracts. Can add scope, extend timelines, or increase funding.
 
-No Bid
+IDIQ
 
-Export
+IDIQ ceiling — maximum possible value over the contract life. Not guaranteed spend — actual task orders are issued against this ceiling over time.
 
-- CSV
-- Excel
+TICKER
 
-Share
-
-- Copy URL
-- Email
-- Tweet
-
-# N6449825P2214
-
-Purchase Order
-
-- List
-- Text
-
-## Overview
-
-Government Description
-
-Procurement of bridge manual pump controller and switches for lha 6 scd 14052 from staco systems on a sole source basis.
-
-Awardee
-
-Awarding / Funding Agency
-
-NSWC Philadelphia Division [DoD - USN - NAVSEA - NSWC]
-
-NAICS
-
-335314 - Relay and Industrial Control Manufact
+Green left border = publicly traded 
 
 ## Open roles
 (no jobs data found)

@@ -1,0 +1,16 @@
+{
+  "company": "Sweep360",
+  "slug": "sweep360",
+  "domain": "sweep360.ai",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "No SBIR award, no explicit DoD/military/warfighter customer language, and no DIU/AFWERX/SOFWERX/NSIN engagement anywhere in the pack; their own stated customer list is 'Olympic delegations, F1 paddocks, halftime shows, global tours, studio productions, senior government officials, and executive protection units' — dignitary/event physical security, not a stated DoD customer. The one 'Countermeasure Engineer (CEMA)' job title and 'may involve export-controlled data' note (job postings) are suggestive of RF/counter-drone work but do not by themselves evidence a DoD customer or contract, and the News section is about an unrelated company (HawkEye 360) per the pack's own mismatch warning.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Pre-Series A cyber-physical/counter-drone security startup ('the ubiquitous defense layer for the AI age') deploying hardware and countermeasure systems alongside Olympic delegations, F1, entertainment productions, and executive-protection/dignitary-security details."
+}

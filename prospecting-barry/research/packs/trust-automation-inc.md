@@ -3,7 +3,7 @@ slug: trust-automation-inc | domain: trustautomation.com | HQ: San Luis Obispo, 
 sources: sbir
 industry(LI): Industrial Machinery Manufacturing | specialties: defense, semiconductor, medical research equipment, industrial automation, green technology, electrical power management
 channel notes: SBIR PhII x1 [2023] Air Force latest: Spectrally Responsible and Adaptive Counter-PNT system hq: San Luis Obispo,CA emp: 125
-own-language word count: ~941
+own-language word count: ~937
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -17,14 +17,6 @@ Trust Automation: Motion, Motor Control & Power Management Solutions | Trust Aut
 ❚❚
 
 ## Industries
-
-Defense
-
-cUAS
-
-Semiconductor
-
-Industrial
 
 ## Technologies
 
@@ -249,7 +241,7 @@ With 36 years of experience, Trust Automation designs and manufactures custom mo
 The availability of autonomous vehicles (i.e. unmanned air systems) is creating a growing need for a portfolio of C-UAS solutions.  Of particular importance is the need to mitigate autonomous threats by Counter Position and Timing (C-PNT) techniques.  Alt
 
 ## News (Exa, top 3)
-- Trust Automation Secures $490 Million Contract from U.S. ... (2025-12-17) https://trustautomation.com/press-releases/trust-automation-secures-490-million-contract-from-us-air-force-to-deliver-counter-drone-technologies/
+- Trust Automation Secures $490 Million Contract from U.S. Air Force to ... (2025-12-17) https://trustautomation.com/press-releases/trust-automation-secures-490-million-contract-from-us-air-force-to-deliver-counter-drone-technologies/
   Trust Automation Secures $490 Million Contract from U.S. Air Force to Deliver Counter-Drone Technologies | Trust Automation
 
 # Press Releases
@@ -269,48 +261,13 @@ A**.gov**website belongs to an official government organization in the United St
 **Secure .gov websites use HTTPS**
 A**lock (lock)**or**https://**means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
 * [](https://tw
-- UAS And C-UAS Technology Enhancement And Commercialization (FA875025DB002) () https://www.highergov.com/idv/FA875025DB002/
-  UAS And C-UAS Technology Enhancement And Commercialization (FA875025DB002)
-
-HigherGov
-
-Pipeline
-
-FOIA
-
-Notify
-
-- New Contract Awards
-
-Track
-
-Favorite
-
-No Bid
-
-Export
-
-- CSV
-- Excel
-
-Share
-
-- Copy URL
-- Email
-- Tweet
-
-# FA875025DB002
-
-Indefinite Delivery Contract
-
-- List
-- Text
-
-## Overview
-
-Government Description
-
-To rapidly enhance and commercialize the technology developed to support rapid research, development, prototyping, demonstration, evaluation, production, and transition of Unmanned Air
+- Trust Automation Secures $490 Million Contract from U.S. Air Force to Deliver Counter-Drone Technologies. () https://trustautomation.com/press-releases/Trust_PR_C-UAS_Air_Force_Contract.pdf
+  San Luis Obispo, CA, December 17, 2025 – Trust Automation, Inc., a leader in motion control, power 
+management, and electric systems for defense and commercial applications announces the award of a 
+$490-million indefinite delivery, indefinite quantity (IDIQ) contract from the U.S. Air Force for the rapid research, 
+development, prototyping, demonstration, evaluation, production and transition of unmanned and counter 
+unmanned aircraft system (CUAS) capabilities. 
+As Trust Automation looks ahead
 
 ## Open roles (Blitz, live)
 - Manufacturing Engineer ({'city': 'San Luis Obispo', 'country_code': 'US'})

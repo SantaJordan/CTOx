@@ -1,0 +1,38 @@
+{
+  "company": "WISER Systems, Inc.",
+  "slug": "wiser-systems-inc",
+  "domain": "wisersystems.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "SBIR/STTR record: SOCOM Phase II ($1,298,434, 2023) 'Radio Location Tracker Mobile Mesh System,' whose own abstract states the objective is to build 'a field testable-prototype for in-field military use'; News section confirms a 2021 U.S. Navy NIWC Atlantic PNT prize predating the SBIR.",
+  "disconnect_score": 44,
+  "subscores": {"lab_language_intensity": 8, "deployment_awareness_absence": 6, "operator_absence": 6, "hiring_profile_skew": 10, "stage_pressure": 14},
+  "score_evidence": [
+    "Commercial site leans on real deployed-customer proof points ('productivity has increased by 12 times... reached ROI in three months' — GE Aviation) rather than lab-demo bragging → lab_language_intensity scored low",
+    "SBIR abstract explicitly addresses GPS-denial: 'positioning, navigation, and timing (PNT) for tagged objects, vehicles, or personnel without access to or sole reliance on military or commercial satellites... in GPS-occluded settings' → deployment_awareness_absence scored low",
+    "SBIR abstract: 'greatly enhance situational awareness for military operations, warfighters, and supply chain/support' names warfighters directly; commercial testimonials name real end users (gauge inspector, Site Digital Leader) → operator_absence scored low",
+    "no jobs data found in pack → hiring_profile_skew set to exactly 10 per rule",
+    "SOCOM Phase II awarded 2023 (~2-year period of performance typical) with company still 10-13 employees per channel notes 18 years after founding (2007) → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Commercial product offers 'On-Premises or Cloud Based Deployments' with only vague 'security needs' language, and no ATO/RMF/CMMC path is described for either option applied to the military PNT variant.",
+     "operator_reality": "Getting the RRLT mesh's server software onto a government network for the SOCOM use case requires an accreditation story the commercial product page doesn't tell — 'meet your security needs' is not RMF/ATO language a program office can act on.",
+     "why_likely_missing": "The deployment-flexibility messaging was built for industrial/commercial IT buyers, not adapted yet for the government-accreditation conversation the military variant will need.",
+     "evidence_quote": "WISER has the flexibility to be deployed either on-premises or in the cloud providing flexibility to meet your security and deployment needs.",
+     "quote_source": "homepage"},
+    {"blind_spot": "SBIR abstract promises 'secure textual communication for military users' over the mesh network but never mentions ITAR/export control handling or GFE integration with existing tactical radios/ATAK.",
+     "operator_reality": "A comms capability riding alongside a PNT mesh is exactly the kind of feature that gets flagged for export control and needs explicit GFE/ATAK integration mechanics before a unit will trust it in the field — neither is addressed.",
+     "why_likely_missing": "The Phase II effort is framed around extending existing RRLT positioning tech; the communications add-on reads as a late-stage feature addition without its own compliance/integration plan yet.",
+     "evidence_quote": "it will offer limited and secure textual communication for military users connected via the wireless RRLT mesh network",
+     "quote_source": "sbir_abstract"},
+    {"blind_spot": "Installation model is pitched as requiring 'no special training' with 'facility crews' managing setup — a commercial-facility assumption that doesn't survive an austere OCONUS deployment with no facility crew and no equivalent Ethernet/power infrastructure.",
+     "operator_reality": "A unit fielding this in a GPS-occluded urban or underground environment doesn't have a 'facility crew' to daisy-chain antennas over Ethernet — sustainment, spares, and battery logistics for a tag fleet at scale aren't described anywhere.",
+     "why_likely_missing": "The installation and support model was built and proven for industrial manufacturing floors (their core 18-year business), and hasn't yet been re-specified for tactical field deployment.",
+     "evidence_quote": "No special training is required and facility crews can generally manage the install.",
+     "quote_source": "homepage (platform page)"}
+  ],
+  "opener_hook": "WISER's SOCOM Phase II is adapting its industrial RTLS tech into a GPS-denied PNT mesh for warfighters — the accreditation path for the 'cloud based' deployment option isn't public yet.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Ultra-wideband real-time location system (RTLS) for industrial asset tracking, now adapting its GPS-denial-resilient positioning tech (RRLT) into a mobile mesh PNT system for military users under a SOCOM SBIR."
+}

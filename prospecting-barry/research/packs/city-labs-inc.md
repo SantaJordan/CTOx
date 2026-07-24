@@ -314,6 +314,46 @@ Branch: USAF
 Total Award Amount: $3,800,000
 
 Contract Numb
+- Award | SBIR () https://www.sbir.gov/awards/204440
+  Award | SBIR Skip to main content
+
+# Award
+
+Portfolio Data
+
+Back to Award Search
+
+## Tritium-Powered Nanowatt Crypto Key Retention and Security COMSEC System that Requires No Battery Replacement for Life of Equipment
+
+### Awardee
+
+#### CITY LABS, INC.
+
+12217 SW 131ST AVEMIAMI, FL, 33186-6401USA
+
+Award Year: 2023
+
+UEI: LD55BB3D8EM7
+
+HUBZone Owned: No
+
+Woman Owned: No
+
+Socially and Economically Disadvantaged: No
+
+Congressional District: 26
+
+Tagged as:
+
+SBIR
+
+Phase II
+
+### Awarding Agency
+
+DOD
+
+Bra
 - Award | SBIR () https://www.sbir.gov/awards/204398
   Award | SBIR Skip to main content
 
@@ -356,46 +396,6 @@ DOW
 Branch: USAF
 
 Total Award Amount: 
-- Award | SBIR () https://www.sbir.gov/awards/204440
-  Award | SBIR Skip to main content
-
-# Award
-
-Portfolio Data
-
-Back to Award Search
-
-## Tritium-Powered Nanowatt Crypto Key Retention and Security COMSEC System that Requires No Battery Replacement for Life of Equipment
-
-### Awardee
-
-#### CITY LABS, INC.
-
-12217 SW 131ST AVEMIAMI, FL, 33186-6401USA
-
-Award Year: 2023
-
-UEI: LD55BB3D8EM7
-
-HUBZone Owned: No
-
-Woman Owned: No
-
-Socially and Economically Disadvantaged: No
-
-Congressional District: 26
-
-Tagged as:
-
-SBIR
-
-Phase II
-
-### Awarding Agency
-
-DOD
-
-Bra
 
 ## Open roles
 (no jobs data found)

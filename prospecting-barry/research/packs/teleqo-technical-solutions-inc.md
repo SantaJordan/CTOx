@@ -288,6 +288,42 @@ At Teleqo Tech, we’re transforming the mobile mapping landscape through relent
 Teleqo Tech proposes to research and develop a platform to fuse existing, non-proprietary LiDAR, imagery and Radio Frequency (RF) data sets from mobile and static sources to map out smart cities devices and networks in urban, clustered environments.  This
 
 ## News (Exa, top 3)
+- Award | SBIR () https://www.sbir.gov/awards/204541
+  Award | SBIR Skip to main content
+
+# Award
+
+Portfolio Data
+
+Back to Award Search
+
+## Multi-Sensor Fusion for Smart Cities Mapping & Visualization for Global Persistent Awareness
+
+### Awardee
+
+#### TELEQO TECHNICAL SOLUTIONS INC.
+
+https://www.sbir.gov/portfolio/1824685 3104 OLIN DRFALLS CHURCH, VA, 22044-2620USA
+
+Award Year: 2023
+
+UEI: H16LAPSCRHE4
+
+HUBZone Owned: No
+
+Woman Owned: Yes
+
+Socially and Economically Disadvantaged: Yes
+
+Congressional District: 8
+
+Tagged as:
+
+SBIR
+
+Phase II
+
+### Awardin
 - Award | SBIR () https://www.sbir.gov/awards/220057
   Award | SBIR Skip to main content
 
@@ -332,42 +368,6 @@ Branch: USAF
 Total Award Amount: $74,939
 
 Contract Number: FA
-- Award | SBIR () https://www.sbir.gov/awards/204541
-  Award | SBIR Skip to main content
-
-# Award
-
-Portfolio Data
-
-Back to Award Search
-
-## Multi-Sensor Fusion for Smart Cities Mapping & Visualization for Global Persistent Awareness
-
-### Awardee
-
-#### TELEQO TECHNICAL SOLUTIONS INC.
-
-https://www.sbir.gov/portfolio/1824685 3104 OLIN DRFALLS CHURCH, VA, 22044-2620USA
-
-Award Year: 2023
-
-UEI: H16LAPSCRHE4
-
-HUBZone Owned: No
-
-Woman Owned: Yes
-
-Socially and Economically Disadvantaged: Yes
-
-Congressional District: 8
-
-Tagged as:
-
-SBIR
-
-Phase II
-
-### Awardin
 - Award | SBIR () https://www.sbir.gov/awards/205737
   Award | SBIR Skip to main content
 

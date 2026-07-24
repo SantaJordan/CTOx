@@ -1,0 +1,25 @@
+{
+  "company": "Synthetaic, Inc. (RAIC Labs)",
+  "slug": "synthetaic",
+  "domain": "raiclabs.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Three separate DOD SBIR awards on record (USAF 2022 Phase II RAIC-ATR, SCO 2024 Phase I 'Visual Data Machine Learning Via Generative AI' $150K, USAF 2025 Phase II 'Analyzing Commercial Satellite Imagery...for Indications of Foreign Launch Activity') plus a USAspending contract award — see SBIR/STTR record and News sections.",
+  "disconnect_score": 69,
+  "subscores": {"lab_language_intensity": 15, "deployment_awareness_absence": 18, "operator_absence": 14, "hiring_profile_skew": 10, "stage_pressure": 12},
+  "score_evidence": [
+    "'Trillions of pixels searched. Billions of sq km explored. Millions of hours of video analyzed. Thousands of classified datasets' → lab_language_intensity (scale-brag stat wall, zero operational/fielding framing)",
+    "'Step 1: Ingest — Upload your image, geospatial or video data directly to the RAIC cloud' is the stated core workflow, with zero mention anywhere in ~1,589 words of DDIL/ATO/RMF/CMMC/ITAR/STIG despite claiming to process 'thousands of classified datasets' → deployment_awareness_absence",
+    "Positioning is desk-analyst-centric ('accelerate analyst decisions', 'The user's subject matter expertise... allows them to iterate on the AI in real-time') rather than field-operator-centric; no mention of warfighters, training, CONOPS, or field sustainment → operator_absence",
+    "Three SBIR awards across three different agencies/branches (USAF, SCO, USAF) from 2022-2025 against a ~14-29 person team → stage_pressure (continual pursuit of new small awards is a mild but real signal of funding-cliff risk between contracts)"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Core workflow is 'Upload your image, geospatial or video data directly to the RAIC cloud' with no on-prem/air-gapped alternative mentioned", "operator_reality": "An ISR/GEOINT analyst in a SCIF or forward element handling the 'thousands of classified datasets' the company brags about cannot simply upload that data to a commercial cloud; without an on-prem or air-gapped deployment path, the product's entire value proposition breaks at the classification boundary — the same failure mode as the 30fps crowd-detection case, just at the data-ingestion layer instead of the video layer", "why_likely_missing": "Product was built cloud-first for speed and ease of use (their own stated differentiator is zero data prep, zero technical skill required), which is fundamentally in tension with classified/air-gapped environments", "evidence_quote": "Upload your image, geospatial or video data directly to the RAIC cloud", "quote_source": "homepage"},
+    {"blind_spot": "Company claims to work with 'Thousands of classified datasets' but never mentions an ATO, IL5/IL6 accreditation, or any classified-network handling process", "operator_reality": "Processing classified imagery legitimately requires an Authority to Operate on the appropriate government network/impact level; the total absence of that language despite the explicit classified-data claim is exactly the kind of gap that kills a contract transition when the program office finally asks 'where does this run?'", "why_likely_missing": "Small 14-29 person team spread across commercial verticals (agriculture, energy, conservation) as well as defense likely lacks a dedicated compliance/ISSO function", "evidence_quote": "Trillions of pixels searched...Thousands of classified datasets", "quote_source": "homepage"},
+    {"blind_spot": "'No technical skills' / 'even non-technical users' self-service design optimizes for an analyst at a workstation, not a fielded, rotating military user base", "operator_reality": "There is no mention anywhere of who retrains or maintains model performance once the tool is fielded outside an analyst center, who handles software updates in a disconnected environment, or how a deploying unit sustains the tool between SBIR-funded engagements", "why_likely_missing": "Product-market validation so far (testimonials from Carbon Yield, TNC conservation, an astronomer) is all desk-analyst commercial use, not field-deployed military use", "evidence_quote": "The intuitive RAIC platform allows users with little to no technical skills to harness the full power of AI", "quote_source": "homepage"}
+  ],
+  "opener_hook": "RAIC Labs found and tracked the 2023 Chinese spy balloon 13 times across 18 trillion pixels, and now has three SBIR awards across three agencies since 2022 — is there an on-prem or air-gapped path yet for the classified datasets that workflow currently ingests straight to the cloud?",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "AI/computer-vision platform (RAIC) that searches, monitors, and analyzes unlabeled imagery, video, and geospatial data at scale for government (ISR/GEOINT via SBIR) and commercial (agriculture, energy, conservation) customers using image embeddings."
+}

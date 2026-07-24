@@ -1,0 +1,19 @@
+{
+  "company": "DYNAMIC OBJECT LANGUAGE LABS INC.",
+  "slug": "dynamic-object-language-labs-inc",
+  "domain": "dollabs.com",
+  "verdict": "drop",
+  "drop_reason": "sbir_mill",
+  "dod_intent_evidence": "Two DARPA Phase II SBIRs in 2023 (~$1.8M each) per the SBIR/STTR section — DoD motion is real, but it is the entire business model.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "'DOLL provides consulting and contract research and development services' (LinkedIn about) → classic contract-research house, not a product company",
+    "'The testbeds produced will allow for the experimental development and testing of agents' (sbir_abstract) → research deliverables, not a fielded product"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "32-year-old 2-5 person contract R&D shop doing DARPA-funded AI/story-understanding agent research, now trying to commercialize a pilot-assistant tool."
+}

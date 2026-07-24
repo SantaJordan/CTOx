@@ -1,0 +1,50 @@
+{
+  "company": "JITX",
+  "slug": "jitx",
+  "domain": "jitx.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Homepage names defense customers directly — 'Trusted by Honeywell Aerospace, Lockheed Martin, and OpenAI' — and the news section shows a Northrop Grumman-JITX team building an automated layout generator under DARPA's Electronics Resurgence Initiative.",
+  "disconnect_score": 55,
+  "subscores": {
+    "lab_language_intensity": 13,
+    "deployment_awareness_absence": 10,
+    "operator_absence": 8,
+    "hiring_profile_skew": 10,
+    "stage_pressure": 14
+  },
+  "score_evidence": [
+    "'Here optimizing a 56 GHz Nyquist PCIe-gen7 BGA launch and deskew to -30dB return loss, and -40dB common to differential mode conversion. The optimization needed 5 total HFSS simulations.' → lab_language_intensity: the hero claim is a benchmark result, framed as simulation count",
+    "'Air gapped installation' and 'JITX runs on your infrastructure with your approved AI' → deployment_awareness_absence scored moderate (10), not high: they understand the enclave, but ITAR/EAR, CUI and CMMC never appear despite holding prime-owned design data",
+    "'The time and effort to complete this cycle was greatly reduced.' — Joshua Pearson, Director of Engineering, Honeywell Aerospace → operator_absence LOW (8): they do cite real user feedback, though the user is an SI engineer at a desk, never anyone downstream of the hardware",
+    "No jobs data in pack — hiring_profile_skew set to exactly 10 per instruction",
+    "'We are a rapidly growing series-A startup' on the about page against a Series A announced 18 September 2022 and 15 employees on LinkedIn → stage_pressure: a $12M round now roughly four years old with a headcount that has not compounded"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "No export-control or CUI posture for the design data the tool ingests",
+      "operator_reality": "A Lockheed or Northrop board stackup, pin assignment and fab rule set is ITAR-controlled technical data. The moment a tool touches it, the prime's export-control officer and security team ask where the part-optimization database lives, what the AI sends off the machine, and whether JITX holds NIST 800-171/CMMC at the company level. That review, not the engineering value, is what sets the calendar — and it is the same clock that eats the funded months on a program.",
+      "why_likely_missing": "The team's center of gravity is compilers, geometry and optimization research; their own bios are Berkeley/MIT algorithm pedigree with no acquisition or security-review experience.",
+      "evidence_quote": "Part optimization database ... Air gapped installation",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "'Your approved AI' assumes a capable model exists inside the customer's enclave",
+      "operator_reality": "In an air-gapped or classified design environment the approved model is not a frontier model — it is whatever an ATO'd, on-prem deployment allows, often a quantized open-weights model years behind. If the optimization loop's edit quality was demonstrated with a connected frontier model, the same loop inside the enclave produces worse candidate designs and more HFSS iterations, which is precisely the schedule argument they are selling against.",
+      "why_likely_missing": "Demos run on customer compute during evaluation, where the buyer's connected corporate model is available; the degraded classified case only shows up after the deal, during rollout.",
+      "evidence_quote": "JITX runs on your infrastructure with your approved AI.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No design-assurance provenance story for generated hardware",
+      "operator_reality": "Boards that fly on aerospace or defense platforms carry qualification and design-assurance obligations — reviewed schematics, traceable rule application, signature authority on what changed and why. 'AI proposes edits' has to survive a design review board that wants to know which human accepted each geometry decision and how it maps to the requirement. Without a generated-artifact audit trail tied to requirements, the tool stalls at the CAD organization rather than at the engineer who loved it.",
+      "why_likely_missing": "The go-to-market is bottom-up ('Start for free', per-engineer trials) while adoption at a prime is a tools-qualification decision above the engineer's level — the classic missing advocacy chain.",
+      "evidence_quote": "Express requirements, constraints, stackups, and engineering rules in Python. AI proposes edits. Engineers can read, review, and run the code.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Your plans page puts 'air gapped installation' and a shared 'part optimization database' on the same tier, which is the first thing a prime's export-control officer will pull on — and Lockheed is already listed on your homepage.",
+  "confidence": "medium",
+  "stage_band": "series_a",
+  "what_they_do": "Code-based PCB design automation: requirements become Python, an AI edits the code, and JITX generates and simulation-checks the board."
+}

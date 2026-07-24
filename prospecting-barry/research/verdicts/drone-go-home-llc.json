@@ -1,0 +1,45 @@
+{
+  "company": "Drone Go Home, LLC (DBA AeroDefense)",
+  "slug": "drone-go-home-llc",
+  "domain": "aerodefense.tech",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Two 2023 Air Force SBIR Phase II awards in their own abstracts — 'Wearable RF Drone Detection' ($1,127,620) and 'small Uncrewed Aerial Systems (UAS) Global Persistent Awareness' ($1,795,000) — plus a USAspending contract (FA864923P1013) and the U.S. Air Force displayed as a customer logo on their homepage.",
+  "disconnect_score": 58,
+  "subscores": {"lab_language_intensity": 7, "deployment_awareness_absence": 13, "operator_absence": 11, "hiring_profile_skew": 14, "stage_pressure": 13},
+  "score_evidence": [
+    "'AirWarden Essentials is a highly scalable, wide-area drone monitoring solution starting at just $9,987/year... it can be fully deployed in minutes' → lab_language_intensity is LOW: pricing, install time and legal limits, not accuracy percentages or TRL",
+    "'The AirWarden Essentials system delivers drone detection using Remote ID, the FAA's digital \"license plate\" for drones' → deployment_awareness_absence: strong FAA/SAFETY Act/FCC fluency, zero ATO/RMF, IL4-5, CMMC, ITAR, DDIL or TAK language anywhere",
+    "'Multiple Remote ID receivers can be linked into a wider network, allowing operators to monitor activity across wide areas... from a single screen' → deployment_awareness_absence: architecture presumes continuous backhaul to one pane of glass",
+    "Site language centers 'security teams' and 'businesses and government agencies'; the only warfighter framing sits inside the SBIR abstract ('adversaries use to identify troop locations, drop munitions, or target artillery'), never on the product pages → operator_absence",
+    "Only open role is 'Salesperson' — no engineering, field-test, integration or compliance hiring while two Air Force Phase II efforts are in flight → hiring_profile_skew",
+    "Two Phase II awards both dated 2023 against a 20-person company simultaneously pushing a low-price commercial SKU → stage_pressure: period-of-performance clocks converging with a commercial revenue push"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The product line they are actively scaling detects Remote ID — a cooperative broadcast — while the Air Force effort that funds them is about drones whose entire purpose is to not be cooperative.",
+      "operator_reality": "The sUAS that spots for artillery has Remote ID disabled or was never built with it; a system tuned around the FAA's digital license plate returns a clean screen at exactly the moment it matters. Their own Spectrum line handles non-broadcasting drones, but the momentum, pricing, roadmap and demos on the site all point at Essentials, so what the Air Force sees demonstrated may not be what the Air Force needs to buy.",
+      "why_likely_missing": "Their commercial base is stadiums, universities and corrections — venues where hobbyist Remote ID traffic is the real threat model — and the company is currently hiring a Salesperson, not an engineer, which points to commercial pull setting the roadmap.",
+      "evidence_quote": "The AirWarden Essentials system delivers drone detection using Remote ID, the FAA's digital \"license plate\" for drones. It pinpoints the pilot's location along with the drone's make, model, location, altitude, speed, and serial number—providing full situational awareness.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "This is a situational-awareness product with no TAK story and a single-pane, always-networked delivery model.",
+      "operator_reality": "At an austere site the alert has to land in ATAK on the sergeant's EUD as a CoT message, not in a browser dashboard reachable over a link that drops for hours. Without a CoT feed the detection lives in a system nobody in the fight is looking at, and without local-first store-and-forward the sensor network degrades to isolated receivers with no shared picture — a fixable architecture problem that becomes a program-killer once it surfaces during operational assessment.",
+      "why_likely_missing": "Every deployment they describe is a fixed venue or campus with facility IP backhaul, so continuous connectivity has never been a design constraint they had to break.",
+      "evidence_quote": "Multiple Remote ID receivers can be linked into a wider network, allowing operators to monitor activity across wide areas - such as large facilities, regions or even the entire US - from a single screen.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "A wearable sensor is a SWaP-C and sustainment product, but everything the company publishes about buying and owning AirWarden is an annual software subscription.",
+      "operator_reality": "A dismounted soldier's kit is scored in ounces, watts and whether it charges off the same battery as everything else on the vest; nobody in the field renews a $9,987/year license, and the unit needs an NSN, spares, and a maintainer, not an invoice. A subscription-shaped commercial offering does not convert into a fielded item of equipment without a different pricing, packaging and logistics construct — and that construct has to exist before the Phase II ends, not after.",
+      "why_likely_missing": "Ten years of commercial and municipal sales have trained the whole company around recurring-revenue packaging; there is no product-support, logistics, or government-contracts function visible among 20 employees.",
+      "evidence_quote": "AeroDefense proposes to miniaturize existing man-portable sUAS detect",
+      "quote_source": "sbir_abstract"
+    }
+  ],
+  "opener_hook": "Your Air Force Phase II abstract targets drones adversaries use to 'identify troop locations, drop munitions, or target artillery,' while the product you're scaling detects Remote ID — the one broadcast that adversary turns off.",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "New Jersey manufacturer of passive RF drone-and-pilot detection sensors (AirWarden) sold to stadiums, universities and corrections, now running two Air Force SBIR Phase IIs to miniaturize the same detection for troops."
+}

@@ -3,7 +3,7 @@ slug: kirkwall | domain: kirkwall.io | HQ: Sioux Falls, South Dakota US | employ
 sources: exa-agent:defense-cyber-more
 industry(LI): Computer and Network Security | specialties: risk management, risk mitigation, iot monitoring, critical infrastructure, operational security
 channel notes: Seed $565K total funding reported. dom: cyber status: fielded dod: Kirkwall markets cybersecurity work for defense and critical infrastructure, and has a DOE CESER cybersecurity subcontract. hq: Sioux Falls, SD emp: 8 src: https://kirkwall.io/
-own-language word count: ~1170
+own-language word count: ~1191
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -283,27 +283,53 @@ Search
 
 ## Reflections from SOFWeek 2025
 
+https://www.kirkwall.io/post/reflections-from-sofweek-2025
+
+EVENTS
+
 May 16, 2025
 
 ## FARGO Inc! Profiles Our CTO Ujjwal Adhikari
+
+https://www.kirkwall.io/post/fargo-inc-profiles-our-cto-ujjwal-adhikari
+
+MEDIA ROOM
 
 Mar 5, 2025
 
 ## Sara Vosberg Joins Kirkwall as VP of Operations
 
+https://www.kirkwall.io/post/sara-vosberg-joins-kirkwall-as-vp-of-operations
+
+COMPANY UPDATES
+
 Feb 2, 2025
 
 ## Kirkwall CEO profiled by FARGO INC!
+
+https://www.kirkwall.io/post/kirkwall-ceo-profiled-by-fargo-inc
+
+MEDIA ROOM
 
 Jan 30, 2025
 
 ## Governor’s Giant Vision winners announced | Kirkwall named winner
 
+https://www.kirkwall.io/post/governor-s-giant-vision-winners-announced-kirkwall-named-winner
+
+MEDIA ROOM
+
 Aug 12, 2024
 
 ## A Reckoning Day for Securing America’s Critical Infrastructure
 
+https://www.kirkwall.io/post/a-reckoning-day-for-securing-america-s-critical-infrastructure
+
+KIRKWALL INSIGHTS
+
 Jul 24, 2024
+
+1 2 Next page
 
 bottom of page
 
@@ -327,6 +353,20 @@ Section I: Contracting entity
 I.1) Name and addresses
 Highlands and Islands Airports Limited
 Head Office, Inverness
+- ABOUT | Kirkwall Defense () https://www.kirkwall.io/about
+  ABOUT | Kirkwall Defense
+
+top of page
+
+DOWNLOAD OUR SPEC SHEET
+
+Click here to download
+
+# About Us
+
+Founded by security experts with a history of protecting national infrastructure
+
+Kirkwall is an operational security software company dedicated to preserving the integrity of the systems that keep critical industries running. Built by former intelligence and national security professionals, Kirkwall helps manufacturers, energy cooperatives, agricultural co-ops, and critical infrastructure operato
 - 40-bed Kirkwall Care Facility, Orkney - Find a Tender () https://www.find-tender.service.gov.uk/Notice/024877-2022
   40-bed Kirkwall Care Facility, Orkney - Find a Tender
 
@@ -357,28 +397,6 @@ Watch this notice
 ---
 
 --
-- Orkney Harbours Masterplan Phase 1 - Scapa Deep Water Quay (SDWQ) - Find a Tender () https://www.find-tender.service.gov.uk/Notice/014391-2025
-  Orkney Harbours Masterplan Phase 1 - Scapa Deep Water Quay (SDWQ) - Find a Tender
-
-Skip to main content
-
-Help us improve Find a Tender Close
-
-Sign up for user testing
-
-BETA Contact the Find a Tender team (opens in new tab) if you have feedback, questions or suggestions.
-
-Contract
-
-# Orkney Harbours Masterplan Phase 1 - Scapa Deep Water Quay (SDWQ)
-
-- Orkney Islands Council (Harbour Authority)
-
-F06: Contract award notice – utilities
-
-Notice identifier: 2025/S 000-014391
-
-Procurement identifier (O
 
 ## Open roles
 (no jobs data found)

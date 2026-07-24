@@ -1,0 +1,16 @@
+{
+  "company": "Sensor Creations, Inc.",
+  "slug": "sensor-creations-inc",
+  "domain": "sensorcreations.com",
+  "verdict": "drop",
+  "drop_reason": "sbir_mill",
+  "dod_intent_evidence": "Air Force SBIR Phase II ($745,564, 2022) for a ROIC infrared focal-plane-array design — SBIR/STTR record section.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "unknown",
+  "what_they_do": "Fabless semiconductor R&D house doing custom CMOS image sensor and ROIC design/fabrication process work, founded 2010 and still 3-7 employees, structured around recurring SBIR/contract research awards rather than a fielded product."
+}

@@ -132,48 +132,6 @@ Swarmbotics AI is a low-cost, swarm robotics company for industry and defense. W
 Swarmbotics AI is a low-cost, swarm robotics company for industry and defense. We see a world of ubiquitous low-cost robots transforming almost all aspects of society with an urgent need in the defense industry. We focus on a low-cost BOM, an autonomous stack optimized for off the shelf components, and a global planner that enables swarm capabilities for groups of robots to accomplish sophisticated tasks.
 
 ## News (Exa, top 3)
-- Award | SBIR () https://www.sbir.gov/awards/208728
-  Award | SBIR Skip to main content
-
-# Award
-
-Portfolio Data
-
-Back to Award Search
-
-## Attritable, Networked, Tactical Ground Robotic Systems
-
-### Awardee
-
-#### Swarmbotics AI, Inc.
-
-https://www.sbir.gov/portfolio/2459079 21402 N 7th AvenuePhoenix, AZ, 85027USA
-
-Award Year: 2024
-
-UEI: FX2TN3JT5RD1
-
-HUBZone Owned: No
-
-Woman Owned: No
-
-Socially and Economically Disadvantaged: No
-
-Congressional District: N/A
-
-Tagged as:
-
-SBIR
-
-Phase I
-
-### Awarding Agency
-
-DOW
-
-Branch: SOCOM
-
-Total Award Amount: $174
 - Swarmbotics Wins US Army Contract for Swarming Ground ... (2026-02-09) https://thedefensepost.com/2026/02/09/swarmbotics-us-army/
   Swarmbotics Wins US Army Contract for Swarming Ground Robots
 
@@ -184,18 +142,30 @@ Swarmbotics AI has won a US Army contract to build swarming, attritable small un
 The award stems from Swarmbotics’ performance at last year’s xTechOverwatch competition, where its autonomous ground robotics technology competed against dozens of innovative small business teams.
 
 Designed to operate as swarms, the sUGVs aim 
-- Swarmbotics AI: Why the US Army is betting on robotic mass - Calibre Defence (2026-02-06) https://www.calibredefence.co.uk/swarmbotics-ai-why-the-us-army-is-betting-on-robotic-mass/
-  Swarmbotics AI: Why the US Army is betting on robotic mass - Calibre Defence
+- US Army Awards Swarmbotics Contract for Robotic Swarm Systems - globaldefencemagazine.com (2026-02-09) https://globaldefencemagazine.com/us-army-awards-swarmbotics-contract-for-robotic-swarm-systems/
+  US Army Awards Swarmbotics Contract for Robotic Swarm Systems - globaldefencemagazine.com
 
-Today is : July 23, 2026
+- February 9, 2026
+- Admin
+- 0
 
-# Swarmbotics AI: Why the US Army is betting on robotic mass
+Swarmbotics AI has been awarded a U.S. Army contract to develop attritable, swarming small unmanned ground vehicles in support of the 1st Cavalry Division.
 
-The US Army has awarded Swarmbotics AI a contract to integrate autonomous ground robot swarms into the 1st Cavalry Division. The move aims to provide affordable mass and create tactical dilemmas through high-volume, low-cost robotic formations.
+The contract follows the company’s performance in the Army’s xTechOverwatch innovation competition, where its autonomous ground systems were evaluated alongside technologies from dozens of competing small businesses. Ope
+- Swarmbotics Clinches Army Contract to Develop Swarming UGVs - latestdefencenews.com (2026-02-09) https://latestdefencenews.com/swarmbotics-clinches-army-contract-to-develop-swarming-ugvs/
+  Swarmbotics Clinches Army Contract to Develop Swarming UGVs - latestdefencenews.com
 
-By Sam Cranny-Evans, published on February 6, 2026.
+Procurement & Contracts
 
-The US Army has selected Swarmbotic
+Unmanned Systems
+
+- February 9, 2026
+- Admin
+- 0
+
+The U.S. Army has awarded Swarmbotics AI a contract to deliver swarming, expendable small unmanned ground vehicles for operational evaluation with the 1st Cavalry Division.
+
+The award stems from Swarmbotics’ successful showing at the xTechOverwatch competition, where its autonomous robotics technology competed against dozens of innovative
 
 ## Open roles (Blitz, live)
 - Production Technician ({'city': 'Phoenix', 'country_code': 'US'})

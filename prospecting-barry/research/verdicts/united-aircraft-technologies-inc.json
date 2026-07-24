@@ -1,0 +1,17 @@
+{
+  "company": "United Aircraft Technologies, Inc.",
+  "slug": "united-aircraft-technologies-inc",
+  "domain": "uairtek.com",
+  "verdict": "insufficient_evidence",
+  "drop_reason": "",
+  "dod_intent_evidence": "Air Force Phase II SBIR ($746,780, 2022) for Digital Twin Modeling of CNC Wiring Failures plus an Army STTR Phase I and prior Army/DoD contracts — SBIR record and news section.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "low",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Develops electrical health & usage monitoring (eHUMS) and AI/ML-based wiring-integrity and maintenance-monitoring technology for aircraft.",
+  "note": "Own-language word count ~34, well under the 500-word evidence-sufficiency threshold — pack contains no site content, only LinkedIn snippet and SBIR abstract."
+}

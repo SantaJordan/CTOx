@@ -1,0 +1,16 @@
+{
+  "company": "SWIR Vision Systems",
+  "slug": "swir-vision-systems",
+  "domain": "swirvisionsystems.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Genuine DoD motion exists (2024 Army Phase II SBIR, $1.89M, SEEQD2 laser-detector sensor, plus a dedicated 'Security and Defense' product page showing a NATO test-target laser-spot detection image) but the company text now opens with 'SWIR Vision Systems is now part of onsemi' and its Careers page redirects to onsemi's corporate career site — it has been fully acquired by a large public semiconductor manufacturer and sells commercial products globally with data sheets and a standing sales team, not a $5-10M company stuck in the prototype-to-fielded gap.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Develops and sells Acuros CQD shortwave-infrared (SWIR) cameras and sensors for industrial, scientific, and defense imaging markets; now a business unit of onsemi following acquisition."
+}

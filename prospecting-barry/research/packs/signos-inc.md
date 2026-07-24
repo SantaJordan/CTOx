@@ -412,12 +412,6 @@ Reach decision-makers before renewal with competitive intel
 ✓
 
 Our customers win 3x more contract renewals and replacement
-- signosis inc. (2026-06-28) https://signosisinc.com/
-  # Signosis Inc.
-
-Signosis Inc. is a Biotechnology Research company. Signosis is a leading international global molecular bioassay biotech research provider enabling research institutions including Stanford Medicine, National Institute of Mental Health, Stratech, Genentech and Harvard with their pioneering and innovative research discoveries. Signosis Inc. employs 2 people (+44.4% YoY) and has an annual revenue of $14.3M, founded in 2007. Headquartered in Santa Clara, California, United States.
-
-
 - Significance Inc. Selected as Awardee under the $151 B Missile Defense Agency (MDA) SHIELD IDIQ Contract – Significance Inc. (2025-12-05) https://significanceinc.com/headlines/significance-inc-selected-as-awardee-under-the-151-b-missile-defense-agency-mda-shield-idiq-contract/
   Significance Inc. Selected as Awardee under the $151 B Missile Defense Agency (MDA) SHIELD IDIQ Contract – Significance Inc.
 
@@ -429,6 +423,12 @@ Signosis Inc. is a Biotechnology Research company. Signosis is a leading interna
 Kate Yuan, Significance, Inc., [phone] or [email]
 
 Annapolis, MD —December 5, 2025 — Significance Inc. is proud to announce its selection as one of the first contractors awarded a contract under the $151 bill
+- signosis inc. (2026-06-28) https://signosisinc.com/
+  # Signosis Inc.
+
+Signosis Inc. is a Biotechnology Research company. Signosis is a leading international global molecular bioassay biotech research provider enabling research institutions including Stanford Medicine, National Institute of Mental Health, Stratech, Genentech and Harvard with their pioneering and innovative research discoveries. Signosis Inc. employs 2 people (+44.4% YoY) and has an annual revenue of $14.3M, founded in 2007. Headquartered in Santa Clara, California, United States.
+
+
 
 ## Open roles (Blitz, live)
 - Marketing Manager ({'city': None, 'country_code': 'US'})

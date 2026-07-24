@@ -1,0 +1,20 @@
+{
+  "company": "Genesis Molecular AI",
+  "slug": "genesis-molecular-ai",
+  "domain": "genesistherapeutics.ai",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "None. Across ~1,225 words of their own site language, the About page, AI Research page and LinkedIn about, every customer reference is pharma ('our major pharma partners', Incyte, Gilead); the only appearance in a defense context is the `sources: vc:harpoon` metadata line, which the gate explicitly does not accept.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "'Genesis pairs leading AI researchers and simulation experts with world-class drug hunters' → commercial pharma only",
+    "'Incyte, Genesis Expand AI Collaboration to $1B+' (news, 2026-06-03) → revenue-stage pharma partnership, no DoD customer",
+    "172 employees and $120M upfront consideration → far outside the $5M-$10M defense-tech band Barry targets"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Builds foundation models (GEMS, Pearl) for small-molecule drug discovery, run for its own pipeline and for pharma partners."
+}

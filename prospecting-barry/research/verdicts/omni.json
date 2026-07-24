@@ -1,0 +1,16 @@
+{
+  "company": "Omni Instrument",
+  "slug": "omni",
+  "domain": "omniinstrument.com",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "None -- the SBIR/contract news in the pack (ChemBio Mission Extender Device, USAF Phase I) belongs to 'OMNI DEFENSE TECHNOLOGIES CORP' in Colchester, VT, an unrelated company. This Omni Instrument (San Francisco, ex-Tesla founders, Shield/Afore-backed) builds manufacturing QA robotics with zero defense language anywhere on its own site (about/news/careers all automotive/manufacturing-recall focused).",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Builds edge-AI manufacturing robotics for factory-floor quality assurance (fastener torque verification, traceability) to prevent recalls and field failures."
+}

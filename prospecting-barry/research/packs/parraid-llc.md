@@ -252,8 +252,6 @@ A small products-oriented business, Parraid is wholly devoted to design, enginee
 Parraid is excited to provide this Outside with Linux (O.W.L) concept proposal to the Navy in support of a direct to Phase II Small Business Innovative Research (SBIR) effort. The resulting prototype will provide data interfaces and data connections with legacy systems that are taxing end user devices and edge computing systems. The resulting prototype will provide the users with a low Size, Weight, and Power (SWaP) computing solution.  The added benefit to our novel approach is that we will pass not only data but we will be able to support the distribution of power to attached devices. Current systems used today leave power distribution and data distribution for separate devices and cable sets.  Our concept will combine power and data distribution in one device which will allow less capable modern field computing to achieve Joint All Domain Command and Control (JADC2) goals and vision with less hardware. The prototype will provide the government with a  new platform that will allow for future growth and new capability and situational awareness.
 
 ## News (Exa, top 3)
-- CONTRACT to PARRAID LLC () https://www.usaspending.gov/award/CONT_AWD_N0042120P0266_9700_-NONE-_-NONE-
-  USAspending.gov
 - Notice of Award Notice to Parraid for the Omega-NExT Software Renewal for FY25 () https://www.governmentcontracts.us/government-contracts/opportunity-details/00641496990100159.htm?searchText=river
   Notice of Award Notice to Parraid for the Omega-NExT Software Renewal for FY25
 
@@ -268,6 +266,10 @@ Search
 # PARRAID WINS NAVY ONR PHASE II SBIR AWARD FOR OUTSIDE WITH LINUX (OWL) DEVELOPMENT EFFORT
 
 HOLLYWOOD, Maryland – (August 02, 2022) – Parraid, LLC, a small products-oriented business, wholly devoted to design, manufacturing, sales, and support of telemetry data systems and tactically oriented mission-critical communications solutions, announced today that it has been awarded a Na
+- Award Notice to Parraid for Omega NExT Software Modifications – Configuration API Upgrades () https://www.governmentcontracts.us/government-contracts/opportunity-details/31106221750300159.htm?searchText=river
+  Award Notice to Parraid for Omega NExT Software Modifications – Configuration API Upgrades
+
+All States Alabama Alaska Arizona Arkansas California Colorado Connecticut Delaware District of Columbia Florida Georgia Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada New Hampshire New Jersey New Mexico New York North Carolina North Dakota Ohio Oklahoma Oregon Pennsylvania Rhode Island South Carolin
 
 ## Open roles
 (no jobs data found)

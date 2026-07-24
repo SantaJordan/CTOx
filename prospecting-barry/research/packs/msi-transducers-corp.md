@@ -227,20 +227,18 @@ For over 30 years, MSI is the recognized leader for providing high-performance p
 
 - SAS
 - ACOM
-- MSI Delivers 500th UUV Sonar Array in Support of US Navy Programs | www.inknowvation.com () https://www.inknowvation.com/sbir/story/msi-delivers-500th-uuv-sonar-array-support-us-navy-programs?keywords=
-  MSI Delivers 500th UUV Sonar Array in Support of US Navy Programs | www.inknowvation.com -- -- -- -- -- -- -- -- -- -- -- https://gasparesganga.com/labs/jquery-loading-overlay/#examples -- -- https://gasparesganga.com/labs/jquery-loading-overlay/#examples -- -- -- -- -- --
+- Custom Defense and Commercial Transducers () https://www.msitransducers.com/custom-defense.html
+  Custom Defense and Commercial | MSI Transducers
 
-Skip to main content
+- For Challenging Defense and Commercial Applications
 
-# News Article
+# Custom Defense and Commercial Transducers
 
-MSI Delivers 500th UUV Sonar Array in Support of US Navy Programs
+MSI Transducers specializes in custom transducers and arrays for both commercial and defense markets. MSI’s broad design and manufacturing capabilities has enabled us to build everything from state-of-the-art synthetic aperture sonars, to low cost commercial arrays.
 
-Date: Apr 25, 2013 Author: press release Source: Company Data (click here to go to the source)
+## Defense
 
----
-
-Featured firm in th
+MSI is a leader in custom piezo composite transducers and arrays in the
 
 ## Open roles
 (no jobs data found)

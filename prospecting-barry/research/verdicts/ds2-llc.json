@@ -1,0 +1,22 @@
+{
+  "company": "DS2 LLC (Dynamic Software Solutions)",
+  "slug": "ds2-llc",
+  "domain": "ds2.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "Extensive and genuine — two 2022 Air Force SBIR Phase II abstracts (NOMS mission planning, $1,376,015; geospatial/AR/VR integration, $746,358), a three-year $4.9M SBIR Phase III for USAF Next-Gen Mission Planning, and a 5-year SBIR Phase III for Rapid Airfield Damage Repair, all posted on their own news page.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "'DS2 is a small business providing full spectrum software engineering and application development ... for DoD, federal, and commercial clients' and 'Get started on your custom software journey with DS2' → a custom software services firm, a disqualified type; they sell engineering hours, not a product crossing the valley of death",
+    "'Leading solution developer for the TAK ecosystem, including ATAK, WinTAK, TAK Server, and TAK-X' → maximal TAK fluency; this is the ecosystem Barry's own background sits in",
+    "News item 'DS2 Achieves CMMC Level 2 Accreditation' (2026-05-18) → company-level compliance already closed out",
+    "'DS2 has developed RADR solutions for the last 11 years and is proud to be awarded a new 5-year SBIR 3 contract' → sustained Phase III transition work over a decade; 76 employees, founded 2011, no transition cliff",
+    "Ten open roles, all mission-systems software engineering plus Skillbridge internships → staffing billable programs, not building a product organization"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Niceville, FL custom software engineering firm building USAF weapons mission planning (NOMS/JMPS), airfield damage repair, modeling and simulation, and TAK-ecosystem software under SBIR Phase III and services contracts."
+}

@@ -1,0 +1,27 @@
+{
+  "company": "De-Ice (De-Ice Technologies, Inc.)",
+  "slug": "de-ice",
+  "domain": "deice.com",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "None. No SBIR/STTR record, no DIU/AFWERX/SOFWERX engagement, no defense contract, and no DoD customer language. The word 'military' appears exactly once and only as market description — 'Today all commercial and military aircraft use sprays made with propylene glycol or ethylene glycol' (homepage). The advisory board lists 'Robert Nolan, General, USAF, Ret.' and 'Russ Arena, Former Chief Pilot, Raytheon', but advisors are not defense motion. The only defense item in the news section (Dewberry's MDA SHIELD award) belongs to an unrelated company, as does the second result (de-ice.co.uk, a UK gritting service).",
+  "disconnect_score": 0,
+  "subscores": {
+    "lab_language_intensity": 0,
+    "deployment_awareness_absence": 0,
+    "operator_absence": 0,
+    "hiring_profile_skew": 0,
+    "stage_pressure": 0
+  },
+  "score_evidence": [
+    "'De-Ice is first applying this technology to on-ground aircraft de-icing in order to eliminate chemical spraying... The company will then apply its technology to other applications such as wind turbines.' (about-us / linkedin_about) → the stated roadmap is commercial aviation then wind energy; defense is not on it",
+    "'We're proud to have Air Canada as our launch customer' (homepage) → a commercial airline, not a government program",
+    "Every named benefit is commercial-airline economics: 'Improve on-time performance', 'Eliminate glycol spraying costs and delays', 'Reduce idling fuel burn and other sources of CO₂ emissions'",
+    "Their open roles — 'Director of Certification', 'Director of Integration', 'Aerospace Engineer' — point at FAA/EASA type certification and airframe integration, not at any defense acquisition path"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "MIT spin-out with an electric surface-heating method built into aircraft skin panels that melts ice on the ground without glycol spray, with Air Canada as launch customer."
+}

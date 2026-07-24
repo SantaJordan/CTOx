@@ -1,0 +1,16 @@
+{
+  "company": "Prelude Security (now Origin)",
+  "slug": "prelude-security",
+  "domain": "preludesecurity.com",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "No DoD/military language anywhere in the pack — company rebranded to Origin, an endpoint AI-agent observability product pitched at commercial engineering orgs (Claude Code, Cursor, Copilot, GitHub, Slack, secrets vaults); LinkedIn about and news sections describe commercial security-control validation with VC backing (Sequoia, Insight Partners), no SBIR/DIU/AFWERX/contract record.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "unknown",
+  "what_they_do": "Rebranded from Prelude Security to Origin — an endpoint AI-agent observability platform that tracks Claude Code/Cursor/Copilot/MCP-server usage across a company's commercial engineering fleet."
+}

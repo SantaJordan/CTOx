@@ -307,50 +307,6 @@ A light flashes, you flex your wrist. Y
 Pison is advancing the frontier of human potential with the world’s first AI-infused, neural biosensing platform. Patented, non-invasive electroneurography (ENG) algorithms create life-changing applications in cognitive performance, disease diagnostics and management, and ongoing care. Pison began in 2016 with funding from the Massachusetts Institute of Technology, National Science Foundation and the ALS Association to help patients with neurodegenerative disorders better navigate the world made smaller by their diseases. Investors and partners include First Round DRF, Oculus, MIT, Draper, HHS
 
 ## News (Exa, top 3)
-- Award | SBIR () https://www.sbir.gov/awards/195854
-  Award | SBIR Skip to main content
-
-# Award
-
-Portfolio Data
-
-Back to Award Search
-
-## Minimalist Operator Tactile Alerting for Universal Reconnaissance (MINOTAUR)
-
-### Awardee
-
-#### PISON TECHNOLOGY INC
-
-179 SOUTH ST FL 4BOSTON, MA, 02111-2721USA
-
-Award Year: 2022
-
-UEI: EVMCKM9G1Y65
-
-HUBZone Owned: No
-
-Woman Owned: No
-
-Socially and Economically Disadvantaged: No
-
-Congressional District: 7
-
-Tagged as:
-
-STTR
-
-Phase II
-
-### Awarding Agency
-
-DOD
-
-Branch: USAF
-
-Total Award Amount: $749,890
-
-Contract N
 - SBIR 
   
   ISLE Platform: Immersive Simulation of Lifelike Experience () https://www.highergov.com/contract/N6833521C0217/
@@ -419,6 +375,8 @@ Pison Technology
 Phase III Small Business Innovation Research contract will integrate Pison's neural biosensing and AI technology for improved situational awareness and combat effectiveness
 
 Boston, Nov. 16, 2023 (GLOBE NEWSWIRE)
+- GRANT to PISON TECHNOLOGY, INC. () https://www.usaspending.gov/award/ASST_NON_70NANB21H026_1341
+  USAspending.gov
 
 ## Open roles
 (no jobs data found)

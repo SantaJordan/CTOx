@@ -1,0 +1,17 @@
+{
+  "company": "ALL.SPACE",
+  "slug": "all-space",
+  "domain": "all.space",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Own products page: 'Field proven with USG and other NATO forces'; Hydra terminals 'purpose-built to meet the rigorous demands of defense operations' — plus ESA contracts in news.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Multi-orbit, multi-link SATCOM terminals (Hydra range) for defense comms-on-the-move.",
+  "notes": "223 LinkedIn employees (LATE 151-300 band), terminals claimed field-proven with USG/NATO, certified on SES O3b mPOWER, roles for Service Delivery Manager and Satellite Terminal Support Engineers — a fielded hardware vendor with a sustainment org, far past Barry's $5M-$10M valley-of-death profile. Language is also deployment-fluent ('Fully MIL-Standard', 'Industry-Leading Size, Weight and Power Per Link'), so they would score near the bottom even as a keep."
+}

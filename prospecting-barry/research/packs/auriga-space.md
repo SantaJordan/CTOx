@@ -365,30 +365,6 @@ We enable interceptors without rocket motors, unlocking a new class of compact, 
 Auriga Space is redefining propulsion with electromagnetic launch technology for hypersonics, missile defense, and space access. Our fully reusable systems are powered by electricity, not fuel, thereby reducing costs and unlocking rapid, repeatable launch capability.
 
 ## News (Exa, top 3)
-- Auriga Space Awarded Phase 1 STTR from the Missile Defense Agency () https://www.aurigaspace.com/news/auriga-space-awarded-phase-1-sttr-from-the-missile-defense-agency
-  Auriga Space Awarded Phase 1 STTR from the Missile Defense Agency
-
-MENU
-
-CLOSE
-
-Auriga Space Awarded Phase 1 STTR from the Missile Defense Agency
-
-[BACK]
-
-0%
-
-[ share ]
-
-1/7/2026
-
-# Auriga Space Awarded Phase 1 STTR from the Missile Defense Agency
-
-Top view of one of Auriga's electromagnetic accelerators: Prometheus
-
-#### INTRODUCTION
-
-Auriga was recently awarded a Phase 1 Small Business Technology Transfer (STTR) contract from the US Missile Defense Agency (MDA) to advance its electromagnetic a
 - Award | SBIR () https://www.sbir.gov/awards/209047
   Award | SBIR Skip to main content
 
@@ -429,6 +405,30 @@ Phase II
 DOW
 
 Branch
+- Auriga Space Awarded Phase 1 STTR from the Missile Defense Agency () https://www.aurigaspace.com/news/auriga-space-awarded-phase-1-sttr-from-the-missile-defense-agency
+  Auriga Space Awarded Phase 1 STTR from the Missile Defense Agency
+
+MENU
+
+CLOSE
+
+Auriga Space Awarded Phase 1 STTR from the Missile Defense Agency
+
+[BACK]
+
+0%
+
+[ share ]
+
+1/7/2026
+
+# Auriga Space Awarded Phase 1 STTR from the Missile Defense Agency
+
+Top view of one of Auriga's electromagnetic accelerators: Prometheus
+
+#### INTRODUCTION
+
+Auriga was recently awarded a Phase 1 Small Business Technology Transfer (STTR) contract from the US Missile Defense Agency (MDA) to advance its electromagnetic a
 - Auriga Space Awarded $1.25 Million Direct-to-Phase II SBIR (2024-08-20) https://www.aurigaspace.com/news/auriga-space-awarded-1-25-million-direct-to-phase-ii-sbir
   Auriga Space Awarded $1.25 Million Direct-to-Phase II SBIR
 

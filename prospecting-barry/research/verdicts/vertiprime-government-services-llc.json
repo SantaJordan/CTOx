@@ -1,0 +1,16 @@
+{
+  "company": "VertiPrime Government Services, LLC",
+  "slug": "vertiprime-government-services-llc",
+  "domain": "vertiprime.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "LinkedIn about: 'manufactures precision structural parts for the aerospace industry... two CNC Machining facilities... primary focus is to be a prime contractor to the Department of Defense for the U.S. Military's aging aviation fleet' — a hardware machine shop, not a prototype-to-fielded software/systems company; the SBIR AI-procurement-platform abstract is a side R&D effort layered on a CNC parts manufacturer.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "A veteran-owned Oklahoma CNC machine shop making aerospace structural parts, with a side SBIR-funded AI market-research tool for DoD manufacturer sourcing."
+}

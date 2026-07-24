@@ -78,26 +78,6 @@ Titus Sports Academy LLC is a Wellness and Fitness Services company. TITUS Human
 ## About
 
 Titus Sports Academy LLC is a health, wellness and fitness company
-- Titus SPORTS ACADEMY () https://www.titussportsdelaware.com/
-  HOME | Titussportsdelaware
-
-top of page
-
-SCROLL
-
-## titus Sports Academy Delaware
-
-Titus was built on the principle of athletic development for everyone, including trained athletes that have attained millions of dollars in scholarships, Olympians, Professional Athletes, Military Special Operations Soldiers and many other top performers that regularly set the standard for excellence in human performance.
-
-## Upcoming Programs
-
-## SPORTS PerformancE
-
-## BASEBALL ACADEMY
-
-## FOOTBALL ACADEMY
-
-## RE
 - titus sports academy-delaware (2026-06-29) https://linkedin.com/company/titus-sports-academy-delaware
   # Titus Sports Academy-Delaware (Titus Sports Academy LLC)
 
@@ -106,6 +86,14 @@ Titus Sports Academy-Delaware is a Recreational Facilities company. TITUS Human 
 ## About
 
 Titus Sports Academy was built on the 
+- titus sports academy, inc. (2026-06-09) https://linkedin.com/company/titus-sports-academy-inc-
+  # Titus Sports Academy, Inc.
+
+Titus Sports Academy, Inc. is a Wellness and Fitness Services company. Titus Sports Academy, Inc. employs 15 people (-9.5% YoY, -4 people). Headquartered in Tallahassee, Florida, United States.
+
+## About
+
+Titus Sports Academy was built on the principle of athletic development. We have trained athletes from hundreds of schools, colleges and professional teams around the world. Based on the expertise of its staff and their previous training experience and successes, T
 
 ## Open roles
 (no jobs data found)

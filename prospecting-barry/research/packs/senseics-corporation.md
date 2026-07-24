@@ -187,68 +187,6 @@ spectRatio="xMidYMid"> Modeling & Architecture: Behavioral model of chip perform
 SenseICs is engineering innovation by designing and developing the world’s most advanced integrated circuit (IC) technology. At SenseICs, we combine decades of engineering expertise with a forward-thinking, company-wide commitment to exploring what’s next in integrated circuit and electronic systems design. SenseICs is dedicated to reimagining the status quo, designing and building next-generation circuits, and delivering the best possible solutions to meet the needs of our customers in the defense, energy, automotive, and medical industries.
 
 ## News (Exa, top 3)
-- SenseICs earns $140,000 Navy Contract to Develop Cost-Efficient Infrared Sensors | Electrical & Computer Engineering (2021-11-01) https://ece.osu.edu/news/2021/11/senseics-earns-140000-navy-contract-develop-cost-efficient-infrared-sensors
-  SenseICs earns $140,000 Navy Contract to Develop Cost-Efficient Infrared Sensors | Electrical & Computer Engineering
-
-# SenseICs earns $140,000 Navy Contract to Develop Cost-Efficient Infrared Sensors
-
-Posted: November 16, 2021
-
-SenseICs Corporation, a small business engineering advanced integrated circuits, was awarded a small business innovation research (SBIR) contract worth up to $240,000 with the Office of Naval Research (ONR).
-
-The company was launched by Ohio State Electrical and Computer
-- SenseICs Corporation () https://www.sbir.gov/portfolio/1409857
-  Firm | SBIR Skip to main content
-
-# Company
-
-Portfolio Data
-
-Back to Company Search
-
-## SenseICs Corporation
-
-### Address
-
-1275 KINNEAR RD STE 103COLUMBUS, OH, 43212-1180USA
-
-UEI: GTKCKX52PM49
-
-Number of Employees: 19
-
-HUBZone Owned: No
-
-Woman Owned: No
-
-Socially and Economically Disadvantaged: No
-
-#### SBIR/STTR Involvement
-
-Year of first award: 2018
-
-7
-
-Phase I Awards
-
-3
-
-Phase II Awards
-
-42.86%
-
-Conversion Rate
-
-$1,043,590
-
-Phase I Dollars
-
-$2,129,556
-
-Phase II Dollars
-
-$3,173,146
-
-Total Awar
 - Senseics Corporation () https://www.highergov.com/awardee/senseics-corporation-10020365/
   Senseics Corporation -- --
 
@@ -296,6 +234,34 @@ SenseICs Ltd. architects, designs, produces, and tests integrated circuits, prin
 Keywords
 
 Chip design, ROIC, RF, IC, Integrated cir
+- NASA – SBIR Phase II Contract – SenseICs () https://senseics.com/nasa-sbir-phase-ii-contract/
+  NASA – SBIR Phase II Contract – SenseICs
+
+What We Do
+
+About Us
+
+- Mission & Values
+- Leadership
+- Industry & Academic Partners
+
+Careers
+
+22 Oct 2025
+
+## NASA – SBIR Phase II Contract
+
+🚀 We’re excited to share that SenseICs Corporation has been awarded an $850K NASA - National Aeronautics and Space Administration SBIR Phase II contract to develop a radiation-hardened FMCW Signal Processing ASIC (FASIC) for next-generation LiDAR sensors. By combining SenseICs’ custom ASIC design with SiLC Technolo
+- SenseICs earns $140,000 Navy Contract to Develop Cost-Efficient ... (2021-11-01) https://ece.osu.edu/news/2021/11/senseics-earns-140000-navy-contract-develop-cost-efficient-infrared-sensors
+  SenseICs earns $140,000 Navy Contract to Develop Cost-Efficient Infrared Sensors | Electrical & Computer Engineering
+
+# SenseICs earns $140,000 Navy Contract to Develop Cost-Efficient Infrared Sensors
+
+Posted: November 16, 2021
+
+SenseICs Corporation, a small business engineering advanced integrated circuits, was awarded a small business innovation research (SBIR) contract worth up to $240,000 with the Office of Naval Research (ONR).
+
+The company was launched by Ohio State Electrical and Computer
 
 ## Open roles
 (no jobs data found)

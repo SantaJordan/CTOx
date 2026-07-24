@@ -1,0 +1,20 @@
+{
+  "company": "Glint Photonics, Inc.",
+  "slug": "glint-photonics-inc",
+  "domain": "glintlighting.com",
+  "verdict": "drop",
+  "drop_reason": "sbir_mill",
+  "dod_intent_evidence": "A real DARPA Phase II SBIR exists (SBIR/STTR section: 'Antireflective optics for safe power beaming — Defense Advanced Research Projects Agency 2023 ($1,250,000)'), but it sits alongside a DOE SBIR ($1,150,000, solid-state lighting) and a California Energy Commission award ($999,940, concentrator photovoltaics) at a 4-10 person shop whose only commercial artifact is an architectural-lighting brand.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "Three unrelated government R&D awards in three domains (DARPA power-beaming optics, DOE solid-state lighting, CEC concentrator PV) at 4-10 employees → the business model is winning research awards, not fielding a product",
+    "The entire company website is now 'Glint by Luminii' architectural lighting — 'From performing arts centers to world-class museums, our architectural lighting products' — with zero defense content, i.e. the commercial line was absorbed by Luminii and the DoD work is contract research",
+    "SBIR abstract itself is framed as research with a university partner: 'In Phase II, Glint and the University of North Carolina at Charlotte will develop optimized antireflective surfaces ... and will test their optical performance and environmental durability'"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "medium",
+  "stage_band": "unknown",
+  "what_they_do": "Optics R&D shop (motheye antireflective molded optics) that also sells architectural lighting fixtures under the Luminii brand."
+}

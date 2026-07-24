@@ -514,7 +514,7 @@ Albedo launched Clarity-1 in March 2025 on the SpaceX Transporter-13 rideshare. 
 SAN FRANCISCO – Earth-observation startup Albedo won a U.S. Air Force Strategic Funding Increase (STRATFI) contract with a potential value of $12 million.
 
 The contract announced March 3 supports Albedo’s campaign to send satellites into very low Earth orbit (VLEO) to gather visible and 
-- Albedo Selected for $12M STRATFI Contract to Provide Operational ... (2025-03-03) https://www.businesswire.com/news/home/20250303573165/en/Albedo-Selected-for-%2412M-STRATFI-Contract-to-Provide-Operational-VLEO-Data-for-U.S.-Air-Force-Research-Laboratory
+- Albedo Selected for $12M STRATFI Contract to Provide ... (2025-03-03) https://www.businesswire.com/news/home/20250303573165/en/Albedo-Selected-for-%2412M-STRATFI-Contract-to-Provide-Operational-VLEO-Data-for-U.S.-Air-Force-Research-Laboratory
   Albedo Selected for $12M STRATFI Contract to Provide Operational VLEO Data for U.S. Air Force Research Laboratory
 
 -
@@ -528,34 +528,14 @@ Share
 Albedo's Clarity-1 satellite. (Photo: Business Wire)
 
 DENVER--(BUSINESS WIRE)--Albedo, soon to be the first commercial company to operate in Very Low Earth Orbit (VLEO), has been selected for a Strategic Funding Increase (STRATFI) opportunity by the Air
-- National Reconnaissance Office (NRO) Awards Albedo Stage II ... (2025-08-01) https://albedo.com/post/national-reconnaissance-office-nro-awards-albedo-stage-ii-contract-award
-  National Reconnaissance Office (NRO) Awards Albedo Stage II Contract Award
+- Albedo wins NRO Stage 2 imagery contract - SpaceNews (2025-08-01) https://spacenews.com/albedo-wins-nro-stage-2-imagery-contract/
+  Albedo wins NRO Stage 2 imagery contract - SpaceNews
 
-BAck
+Home/ Albedo wins NRO Stage 2 imagery contract
 
-# National Reconnaissance Office (NRO) Awards Albedo Stage II Contract Award
+Albedo’s Clarity-1 satellite, launched in March on SpaceX’s Transporter-13 mission, is designed to gather visible imagery with a resolution of 10 centimeters per pixel and thermal infrared imagery with a resolution of 2 meters per pixel. Credit: Albedo
 
-Announcements
-
-Posted On
-
-August 1, 2025
-
-By
-
-Chapter 1
-
-Chapter 2
-
-Chapter 3
-
-Share
-
-FacebookLinkedInX
-
-https://albedo.com/post/national-reconnaissance-office-nro-awards-albedo-stage-ii-contract-award
-
-Denver, CO – July 25, 2025 – Albedo, a pioneer in building Very Low Earth Orbit (VLEO) satellites for ultra-high resolution imaging, toda
+SAN FRANCISCO – Earth-observation startup Albedo won a National Reconnaissance Office Stage 2 contract, clearing the way for the intelligence ag
 
 ## Open roles (Blitz, live)
 - Lead Electrical Engineer ({'city': 'Broomfield', 'country_code': 'US'})

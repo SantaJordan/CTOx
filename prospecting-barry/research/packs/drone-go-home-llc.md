@@ -3,7 +3,7 @@ slug: drone-go-home-llc | domain: aerodefense.tech | HQ: Oceanport, New Jersey U
 sources: sbir
 industry(LI): Aviation and Aerospace Component Manufacturing | specialties: airspace awareness, drone detection, portable drone detection, drone detection system, mobile drone detection, airspace security, airspace management solution, drone detection technology, pilot detection, airspace management
 channel notes: SBIR PhII x2 [2023] Air Force latest: Wearable RF Drone Detection hq: Oceanport,NJ emp: 14
-own-language word count: ~1085
+own-language word count: ~1121
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -201,35 +201,32 @@ Organizations with multiple locations can monitor drone activity across all site
 AirWarden Essentials is popular because it strikes the right balance between affordability and effectiveness, offering strong protection without the complexity or price tag of more advanced systems
 
 URL: https://www.usatoday.com/story/special/contributor-content/2025/03/12/aerodefense-launches-airwarden-essentials-an-affordable-drone-detection-system-for-all/82322924007/
-Unsupported EU pageSkip to main content
+AeroDefense Launches AirWarden™ Essentials, An Affordable Drone Detection System for All
 
-- Crossword
-- Opinion
-- Travel
-- Tech
-- Money
-- Life
-- Entertainment
-- Sports
-- Politics
-- U.S.
-- Home
+# AeroDefense Launches AirWarden™ Essentials, An Affordable Drone Detection System for All
 
-# Sorry, this feature isn't currently supported in your country
+## ‏‏‎ ‎
 
-You're visiting this site from a location where this feature is not currently available. USA TODAY is always working to expand access to our features. We appreciate your patience.
+Chris Gallagher,
 
-If you are a subscriber or have signed up for one of our newsletters and need assistance, please send us an email or give us a call at [phone].
+Contributor
 
-Back to homepage
+March 12, 2025, 2:25 p.m. ET
+
+Hear this story
+
+Share to Facebook Share to Twitter Share by email
+
+For too long, effective drone detection has remained out of reach for many organizations. High costs have limited access to the kind of airspace awareness that multi-site critical infrastructure locations, airports, stadiums, and law enforcement need to protect against unauthorized drone activity. Since 2015, US-based AeroDefense has been at the forefront of drone detection technology. With the recent launch of AirWarden™ Essentials, they bring a scalable, cost-effective solution for real-time drone awareness to a broader audience.
+
+Unlike other drone detection systems that can cost hundreds of thousands (sometimes millions) of dollars, AirWarden Essentials starts in the
 
 URL: https://aerodefense.tech/correctional-facility-drone-detection/
-Correctional Facility Drone Detection - AeroDefense
-[](#)
-[![AeroDefense](https://aerodefense.tech/wp-content/uploads/2024/10/AeroDefense-1.png)![AeroDefense](https://aerodefense.tech/wp-content/uploads/2024/10/AeroDefense-1.png)](https://aerodefense.tech/)
-[](#)
-[![AeroDefense](https://aerodefense.tech/wp-content/uploads/2024/10/AeroDefense-1.png)![AeroDefense](https://aerodefense.tech/wp-content/uploads/2024/10/AeroDefense-1.png)](https://aerodefense.tech/)
-[REQUEST DEMO](https://aerodefense.tech/drone-detection-system-products/#demo)[BUY NOW](https://www.aerodefense.tech/airwarden-essent
+# Correctional Facilities
+
+(https://aerodefense.tech/legal-aspects-of-drone-detection-for-correctional-facilities/)
+
+(https://aerodefense.tech/drone-response
 
 ## LinkedIn about
 
@@ -243,13 +240,9 @@ The proposed technology provides airspace awareness for small Uncrewed Aircraft 
 Currently AirWarden mobile sensors, the result of the D2P2 project, function as a network exclusively for the entity that owns them with some limited data sharing options. The effort of this project will help accelerate the delivery of a Collaborative Dro
 
 ## News (Exa, top 3)
-- CONTRACT to DRONE GO HOME, LLC - USAspending () https://www.usaspending.gov/award/CONT_AWD_FA864923P1013_9700_-NONE-_-NONE-
+- CONTRACT to DRONE GO HOME, LLC () https://www.usaspending.gov/award/CONT_AWD_FA864923P1013_9700_-NONE-_-NONE-
   USAspending.gov
-- Purchase Order W519TC25P0054 - GovTribe () https://govtribe.com/award/federal-contract-award/purchase-order-w519tc25p0054
-  Purchase Order W519TC25P0054
-
-Purchase Order W519TC25P0054
-- Drone Go Home (K4FBYHNKKAG7) - HigherGov () https://www.highergov.com/awardee/drone-go-home-llc-10014244/
+- Drone Go Home (K4FBYHNKKAG7) () https://www.highergov.com/awardee/drone-go-home-llc-10014244/
   Drone Go Home (K4FBYHNKKAG7)
 
 HigherGov
@@ -286,6 +279,27 @@ Parent Awardee
 Federal Capability Statement
 
 AeroDefense's AirWarden RF-based drone and pilot controller detection, location, alert and tracking system detects both drones and controllers simultaneously. AeroDefense is the only dro
+- Drone Go Home, LLC DBA AeroDefense () https://fcc.report/company/Drone-Go-Home-L-L-C-Aerodefense
+  Drone Go Home, LLC DBA AeroDefense FCC Filings
+
+---
+
+© 2026 FCC.report This site is not affiliated with or endorsed by the FCC
+
+---
+
+Drone Go Home, LLC DBA AeroDefense FCC Filings
+# Drone Go Home, LLC DBA AeroDefense
+This page includes all of Drone Go Home, LLC DBA AeroDefense FCC ID, IBFS, and ELS filed by Drone Go Home, LLC DBA AeroDefense.
+|Date Filed
+Last Mod|File Number|Applicant|Callsign|Type|
+|
+2023-04-26
+|
+FCC ID
+[2AU4I-SEN800](https://fcc.report/FCC-ID/2AU4I-SEN800/)
+|
+Drone Go Home, LL
 
 ## Open roles (Blitz, live)
 - Salesperson ({'city': None, 'country_code': 'US'})

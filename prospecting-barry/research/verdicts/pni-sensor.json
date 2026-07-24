@@ -1,0 +1,17 @@
+{
+  "company": "PNI Sensor",
+  "slug": "pni-sensor",
+  "domain": "pnicorp.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Genuine and extensive: 2020 U.S. Navy magnetometer contract for Naval Undersea Warfare Center, A-FORT SBIR (Army xTechSearch 7 winner, GPS-denied soldier tracking), and a Jan 2026 AFWERX Phase II SBIR for a pilot locator beacon (News section) — but this sits on top of a 30-year track record of already-fielded defense sensor products.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Magnetic/inertial sensor and sensor-fusion module manufacturer (RM3100, FORT/A-FORT) for GPS-denied positioning, sold as OEM components into defense and commercial platforms.",
+  "notes": "The company's own 'Products at Work' page names already-fielded defense integrations across nine different platforms (NUWC towed arrays, Liquid Robotics Wave Glider, Atlas SeaFox mine-disposal ROV, QinetiQ Talon bomb-disposal robot, L3 Warrior Systems STORM, Senop target-acquisition system, PackBot, Sparton sonobuoys, FLIR surveillance) built over 30 years. That is a mature, proven, revenue-generating defense OEM sensor supplier, not a $5-10M company at risk from one dead transition — new efforts like A-FORT and the AFWERX pilot beacon are incremental product-line extensions for an established business, not existential prototype-to-fielded bets."
+}

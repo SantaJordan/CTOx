@@ -3,36 +3,26 @@ slug: umbra | domain: umbra.space | HQ: Arlington, Virginia US | employees(LI): 
 sources: vc:a16z-ad
 industry(LI): Defense and Space Manufacturing | specialties: remote sensing, microsatellites, sub meter satellite images, space-based radar, sar radar, defense and intelligence, aerospace, sar satellites, sar microsatellites, sub-meter sar, radar, space radar, radar satellite, synthetic aperture radar, synthetic aperture radar (sar), cphd, sicd, sidd, defence
 channel notes: High-resolution SAR satellite data for defense and intelligence (AD50, Aerospace)
-own-language word count: ~1064
+own-language word count: ~1036
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
 URL: https://umbra.space
 We Know Space • Umbra
 
-# Explore SAR imagery of the places that power America and discover how Umbra’s satellites are providing a clearer view of the nation they were built to serve.
-
-Learn More
-
-America celebrating
+# Expanding what can be done in and through space.
 
 ## Redefine Space.™
 
 Umbra is an American space technology company built to push the limits of what’s possible.We’re expanding what can be done in and through space – enhancing access, increasing persistence, and delivering a powerful information advantage to our customers. From the ground up in the U.S., we design, build, test, and operate advanced systems – from sensors to spacecraft – engineering novel solutions tailored to the missions that matter most.
 
-Umbra’s Mission
-
 ### Remote Sensing
 
 Delivering the most capable SAR data on the market. High-volume, high-quality, globally available with unmatched responsiveness and reliability.
 
-Remote Sensing
-
 ### Mission Solutions
 
 Custom solutions for the world’s most urgent missions.
-
-Mission Solutions
 
 ### Space Systems
 

@@ -1,0 +1,16 @@
+{
+  "company": "Tenex (TENEX.AI)",
+  "slug": "tenex",
+  "domain": "tenex.ai",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "Own-language sections (homepage, about, MDR service page, LinkedIn about) describe an AI-native commercial MDR/SOC platform for 'SMBs to global enterprises' and a Google Cloud security partnership, KC Chiefs sponsorship, and Microsoft partnership — zero DoD/military/warfighter language anywhere; the two Exa news hits are about an unrelated 'TENAX AEROSPACE LLC' and an Eley Tenex .22 ammunition tender, not this company.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "unknown",
+  "what_they_do": "AI-native managed detection and response (MDR) / SOC platform for commercial enterprises, built on Google Cloud Security."
+}

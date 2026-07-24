@@ -1,0 +1,43 @@
+{
+  "company": "Nextiles, Inc.",
+  "slug": "nextiles-inc",
+  "domain": "nextiles.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own About page states 'Backed by the Air Force'; AFWERX Phase I/II SBIR abstract ($749,285, 2022) for fabric-based EOG/EKG sensors monitoring cognitive load in USAF pilots, corroborated by a USASpending.gov contract record (FA864922P1074).",
+  "disconnect_score": 75,
+  "subscores": {"lab_language_intensity": 18, "deployment_awareness_absence": 18, "operator_absence": 13, "hiring_profile_skew": 10, "stage_pressure": 16},
+  "score_evidence": [
+    "'Nextiles combines traditional sensor measurements found in IMUs... and adds that to our novel Newtonian measurements like force, bending, stretching, velocity and pressure' / '100+ frames per second' — pure product-spec brags, zero operational framing → lab_language_intensity",
+    "'This depends on the use, but a fully charged battery lasts 48 hours similar to your Apple Watch' — consumer-grade battery metric with no SWaP-C or field-sustainment framing for a pilot cognitive-load use case → deployment_awareness_absence",
+    "No jobs data in pack → hiring_profile_skew set to exactly 10 per scoring instructions",
+    "$5M seed (2022), 2-5 person team, out-of-stock retail SKUs, and an active AFWERX Phase II clock with a stated Phase IIb follow-on gate → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Battery life is benchmarked to a consumer smartwatch (48 hours) with no SWaP-C framing for continuous cockpit/combat monitoring.",
+      "operator_reality": "A fighter pilot on a multi-hour sortie or extended training cycle needs uninterrupted EOG/EKG data; a 48-hour civilian battery claim says nothing about flight-line recharge access, in-flight power draw, or spares logistics — the SWaP-C and sustainment questions the checklist flags.",
+      "why_likely_missing": "The FAQ answering this question is written for athletes and coaches, not for a DAF end-user managing a fielded pilot monitoring system.",
+      "evidence_quote": "This depends on the use, but a fully charged battery lasts 48 hours similar to your Apple Watch.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Data architecture is Bluetooth-to-cloud with no DDIL framing, despite the SBIR target use case being in-cockpit and combat monitoring.",
+      "operator_reality": "A cockpit or contested airspace during a combat sortie denies the continuous connectivity this architecture assumes — the same frame-rate/bandwidth failure mode the checklist's crowd-detection example describes — and neither the site nor the SBIR abstract explains how data reaches storage when disconnected.",
+      "why_likely_missing": "The Bluetooth/cloud description was written for the sports product line, then reused as the technical story for the DoD contract without adapting for a contested RF environment.",
+      "evidence_quote": "Nextiles data is real-time and transmitted through Bluetooth. Our data is stored both in the cloud and locally.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No ATO/RMF, CMMC/NIST 800-171, or ITAR language anywhere, despite the product collecting physiological data on DAF personnel and transmitting it wirelessly.",
+      "operator_reality": "Biometric monitoring data on a warfighter is sensitive PII moving over RF into DoD systems — that typically triggers an ATO/RMF review before any Phase III production decision, and a compliance story limited to 'machine washable, no degradation after 20 cycles' hasn't engaged the gate that actually kills transitions.",
+      "why_likely_missing": "Phase II goals as stated are entirely about wearability and prototype delivery, not data governance or network authorization.",
+      "evidence_quote": "The main goals of our involvement in this project are: Test and manufacture EXG electrode materials for skin-voltage pickup Develop mock prototype to assess comfortability, wear, and user-experience of the device.",
+      "quote_source": "sbir_abstract"
+    }
+  ],
+  "opener_hook": "Your AFWERX Phase II abstract puts fabric EOG/EKG sensors on a fighter pilot's helmet for cognitive-load monitoring — the battery spec on your site is benchmarked to an Apple Watch's 48 hours.",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Fabric-embedded biometric sensor wearables for athlete performance, adapted under a separate AFWERX contract to monitor fighter-pilot cognitive load."
+}

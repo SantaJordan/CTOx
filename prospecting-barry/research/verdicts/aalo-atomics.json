@@ -4,17 +4,13 @@
   "domain": "aalo.com",
   "verdict": "drop",
   "drop_reason": "no_dod_motion",
-  "dod_intent_evidence": "No DoD engagement anywhere in the pack — all government motion is Department of Energy (DOE OTA, DOE RFA selection, Idaho National Laboratory); 'Military bases' appears once as an aspirational price-tier market on the homepage, and the only defense tie is a defense-VC list membership (vc:harpoon) in the sources line.",
+  "dod_intent_evidence": "Only defense-adjacent language is a market-tier bullet on the homepage listing 'Military bases' alongside 'AI data centers. Remote and islanded grids.'; all real contract motion is DOE/NRC (OTA with Department of Energy, Idaho National Laboratory test reactor) — no SBIR, DIU/AFWERX, or DoD customer language anywhere in the pack.",
   "disconnect_score": 0,
   "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
-  "score_evidence": [
-    "'Mass-manufactured nuclear power plants, purpose-built to power AI data centers' → commercial energy motion, not defense (homepage)",
-    "'Aalo Atomics and the Department of Energy (DOE) fully executed an Other Transactional Agreement' → the government customer and regulator is DOE/NRC, not DoD; Barry's valley-of-death playbook (DoD acquisition, ATO, operators) doesn't map (news)",
-    "'12-15 c/kWh: AI data centers. Military bases. Remote and islanded grids.' → military bases named only as one of several future market tiers, no contract or engagement (homepage)"
-  ],
+  "score_evidence": [],
   "blind_spots": [],
   "opener_hook": "",
   "confidence": "high",
-  "stage_band": "unknown",
-  "what_they_do": "Builds factory-mass-manufactured small sodium-cooled nuclear reactors (10 MWe modules, 50 MWe pods) aimed at powering AI data centers, with a DOE-backed demonstration reactor at Idaho National Laboratory."
+  "stage_band": "revenue_stage",
+  "what_they_do": "Builds truck-transportable 10 MWe sodium-cooled micro-reactors in a factory to power AI data centers."
 }

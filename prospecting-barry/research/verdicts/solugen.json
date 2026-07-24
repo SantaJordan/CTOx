@@ -1,0 +1,20 @@
+{
+  "company": "Solugen",
+  "slug": "solugen",
+  "domain": "solugen.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "$2M DoD Distributed Bioindustrial Manufacturing Program (DBIMP) award (Nov 2024) plus their own Aerospace & Defense past-performance page listing an already-fielded contract (FA864921P1014, Bio-Based Corrosion Solutions, TRL 9).",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "138 employees, revenue-stage chemical manufacturer with major commercial partnerships (ADM, Sasol, Kurita) and named Fast Company's 2nd Most Innovative Company of 2022 -> already_operational",
+    "own past-performance page cites 'FA864921P1014: Bio-Based Corrosion Solutions (TRL: 9)' -- TRL 9 means already fielded/operational, not a stuck prototype",
+    "core business is industrial bio-chemical manufacturing (oil & gas, renewable fuels, water treatment, agriculture) with defense as one minor market among eight -> not primarily a defense deployment-architecture company"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Diversified bio-based chemical manufacturer (Bioforge platform) selling into oil & gas, renewable fuels, water treatment, and other industrial markets, with a small already-fielded (TRL 9) defense corrosion-solutions contract."
+}

@@ -1,0 +1,24 @@
+{
+  "company": "Sticker Control (US), Inc. / SC Tech Systems",
+  "slug": "sticker-control-us-inc",
+  "domain": "sctech.io",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "AFWERX Phase I and II SBIR awards (Air Force, 2022 PhII $1,249,969) plus a dedicated 'Department of War Work' page describing use across multiple Air Force squadrons (Aircraft Maintenance, Security Forces, Logistics Readiness, Civil Engineering) — see 'Their own words' and 'SBIR/STTR record' sections.",
+  "disconnect_score": 52,
+  "subscores": {"lab_language_intensity": 8, "deployment_awareness_absence": 12, "operator_absence": 9, "hiring_profile_skew": 10, "stage_pressure": 13},
+  "score_evidence": [
+    "'Process Automation and Asset Management Solution...with real-time tracking and AI-powered optimization algorithms and data models' → lab_language_intensity (mild buzzword framing, mostly ops-grounded)",
+    "'With the real-time views we provide, our customers: Automate manual processes' with zero mention of DDIL/ATO/RMF/CMMC/ITAR/STIG anywhere in site or SBIR abstract → deployment_awareness_absence (capped at 12, own-language word count ~623 <1000)",
+    "'Currently Have a Sequential Phase II through OTST - call us about the no-cost use our system under this award' → stage_pressure (active SBIR period-of-performance clock, tiny 3-13 person team)"
+  ],
+  "blind_spots": [
+    {"blind_spot": "'Real-time views' and continuous data capture assume live connectivity", "operator_reality": "At an austere OCONUS site with intermittent comms, 'real-time' asset visibility silently degrades to stale or missing data with no graceful fallback described anywhere in their materials", "why_likely_missing": "Product was built and sold around garrison/squadron IT environments, not contested/DDIL field use", "evidence_quote": "With the real-time views we provide, our customers: Automate manual processes", "quote_source": "homepage"},
+    {"blind_spot": "No ATO/RMF/STIG language despite already running on Air Force squadron operations", "operator_reality": "Software already 'working with multiple Air Force squadrons' but never mentioning an Authority to Operate suggests it may be running informally outside the government network authorization process, a compliance gap that can kill an expansion PoP overnight", "why_likely_missing": "Small commercial software team (3-13 people) unlikely to have in-house ISSO/compliance function", "evidence_quote": "SC Tech's OPERA™ software system uses digital forms and any type of sensor to make it easy for organizations to capture data in order to have real-time visibility into operations.", "quote_source": "linkedin_about"},
+    {"blind_spot": "Sensor-agnostic hardware (RFID, barcodes, GPS) mounted on field assets with no SWaP-C or battery/sustainment discussion", "operator_reality": "Field-mounted sensors on aircraft maintenance or logistics equipment need battery logistics, ruggedization, and a sustainment plan for who replaces failed sensors in the field — none of which is addressed", "why_likely_missing": "Team framing is enterprise-software-first ('digital forms and sensors') rather than field-hardware-first", "evidence_quote": "digital forms and sensors (RFID, barcodes, GPS, whatever the context requires) to make it easy for organizations to capture and use data - in the office and in the field", "quote_source": "homepage"}
+  ],
+  "opener_hook": "SC Tech's second AFWERX Phase II SBIR (Air Force, $1.25M) is running while OPERA is already live across Aircraft Maintenance, Security Forces, and Logistics Readiness squadrons — how's the ATO conversation going as that footprint grows?",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Sensor-agnostic asset tracking and process automation software (OPERA) selling into Air Force squadrons for maintenance, security, and logistics operations."
+}

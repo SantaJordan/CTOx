@@ -272,7 +272,7 @@ Share
 ---
 
 NEW YORK--(BUSINESS WIRE)-- Wallaroo.AI, the leader in scaling production machine learning (ML) from the cloud to the edge, announces it has been selected by AFWERX (the innovation arm of the Department of the Air Force) for a Small Business Technology Transfer (STTR) Phase II contract to address the most pres
-- Space Force extends Wallaroo's contract for on-orbit AI applications (2023-08-16) https://spacenews.com/space-force-extends-wallaroos-contract-for-on-orbit-ai-applications/
+- Space Force extends Wallaroo's contract for on-orbit AI ... (2023-08-16) https://spacenews.com/space-force-extends-wallaroos-contract-for-on-orbit-ai-applications/
   Space Force extends Wallaroo's contract for on-orbit AI applications - SpaceNews
 
 Home/ Space Force extends Wallaroo’s contract for on-orbit AI applications
@@ -282,16 +282,20 @@ AFWERX and SpaceWERX officials conduct a workshop in Las Vegas, Nevada. Credit: 
 WASHINGTON — Artificial intelligence startup Wallaroo Labs won a $1.5 million contract from the U.S. Space Force to continue the development of machine learning models for edge computers in orbit.
 
 The New York-based company, know
-- Startup Wallaroo Labs wins Space Force contract to model performance of AI on edge devices - SpaceNews (2022-07-26) https://spacenews.com/startup-wallaroo-labs-wins-space-force-contract-to-model-performance-of-ai-on-edge-devices/
-  Startup Wallaroo Labs wins Space Force contract to model performance of AI on edge devices - SpaceNews
+- Wallaroo.AI Advances AI in Orbit with AFWERX (Air Force) ... (2023-08-15) https://wallaroo.ai/wallaroo-ai-advances-ai-in-orbit-with-afwerx-award/
+  Wallaroo.AI Advances AI in Orbit with AFWERX (Air Force) Award
 
-Home/ Startup Wallaroo Labs wins Space Force contract to model performance of AI on edge devices
+Jumpstart AI on IBM Power: The Wallaroo AI Starter Kit
 
-AI architecture concept developed by Wallaroo Labs
+- Wallaroo News & Updates
 
-WASHINGTON — Wallaroo Labs announced July 26 it won a Phase 1 Small Business Innovation Research study contract from the U.S. Space Force to model the performance of machine learning and artificial intelligence algorithms during space missions.
+# Wallaroo.AI Receives Small Business Technology Transfer Award to Advance AI On-Orbit
 
+- 4 min read
+- August 15, 2023
+- By Martin Bald
 
+NEW YORK – Wallaroo.AI, the leader in scaling production machine learning (ML) from the cloud to the edge, announces it has been selected by AFWERX(the innovation arm of the Department of the Air Force) for a Small B
 
 ## Open roles
 (no jobs data found)

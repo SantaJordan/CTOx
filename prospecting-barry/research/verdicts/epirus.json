@@ -1,0 +1,22 @@
+{
+  "company": "Epirus",
+  "slug": "epirus",
+  "domain": "epirusinc.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "$43,551,060 U.S. Army RCCTO contract for IFPC-HPM Generation II (2025-07-17), four IFPC-HPM systems already delivered to the Army, and an ExDECS HPM prototype delivered to the Navy for the Marine Corps — press-release section and news.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "'Epirus Achieves CMMC Level 2 Certification' (press release, 2026-03-27) → company-level compliance already done",
+    "'Leonidas' open architecture integrates with a range of command & control (C2) systems (including FAAD C2, used by the US and NATO for C-UAS and other air defenses)' (electronic-warfare page) → fluent in government back-end integration",
+    "'Size, Weight & Power (SWaP)' is a first-class benefit heading, plus 'line replaceable amplifier modules (LRAMs)' (electronic-warfare page) → sustainment and SWaP-C engineered in, not absent",
+    "'Epirus Closes $250M Series D' and 'Epirus, Peraton Announce Strategic Teaming Agreement, IDIQ Award' (press releases) → prime teaming and contract vehicles in place; two orders of magnitude past the $5M-$10M band",
+    "Open roles include 'Global Trade Compliance Manager', 'Principal Cost Engineer', 'Product Test Engineer', 'Senior USAF Business Development Manager' (open roles, Blitz) → export compliance, cost, test, and service-specific BD all staffed"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Builds Leonidas, a solid-state high-power microwave directed-energy system that disables drone swarms and other electronics, now under Army and Navy contracts."
+}

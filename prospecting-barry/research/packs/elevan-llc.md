@@ -213,6 +213,40 @@ Branch: USAF
 Total Award Amount: $109,997
 
 Contract Number: FA8649
+- Award | SBIR () https://www.sbir.gov/awards/199015
+  Award | SBIR Skip to main content
+
+# Award
+
+Portfolio Data
+
+Back to Award Search
+
+## Innovative Solutions for Legacy Systems Landing Gear Plastics Modernization Using Plastic Additive Manufacturing
+
+### Awardee
+
+#### ELEVAN LLC
+
+https://www.sbir.gov/portfolio/662803 2009 NW Military Hwy Ste 101San Antonio, TX, 78213-2131USA
+
+Award Year: 2022
+
+UEI: LS7EKXC4VV25
+
+HUBZone Owned: No
+
+Woman Owned: Yes
+
+Socially and Economically Disadvantaged: Yes
+
+Congressional District: 21
+
+Tagged as:
+
+SBIR
+
+Phase I
 - Award | SBIR () https://www.sbir.gov/awards/211312
   Award | SBIR Skip to main content
 
@@ -255,42 +289,6 @@ DOD
 Branch: NAVY
 
 Total Award Amo
-- Award | SBIR () https://www.sbir.gov/awards/209885
-  Award | SBIR Skip to main content
-
-# Award
-
-Portfolio Data
-
-Back to Award Search
-
-## Artificial Intelligence-Supported Software Solutions for Optimized Microelectronics Sustainment
-
-### Awardee
-
-#### ELEVAN LLC
-
-https://www.sbir.gov/portfolio/662803 2009 NW Military Hwy Ste 101San Antonio, TX, 78213-2131USA
-
-Award Year: 2024
-
-UEI: LS7EKXC4VV25
-
-HUBZone Owned: No
-
-Woman Owned: Yes
-
-Socially and Economically Disadvantaged: Yes
-
-Congressional District: 21
-
-Tagged as:
-
-STTR
-
-Phase I
-
-### Awarding Ag
 
 ## Open roles
 (no jobs data found)

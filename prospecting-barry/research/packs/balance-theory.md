@@ -298,20 +298,14 @@ Balance Theo
 # **Balance Theory Announces Oversubscribed $3 Million Seed Funding Introducing Industry’s First Hardened Collaborative Workspace for Cybersecurity**
 December 05, 2022 06:00 AM Eastern Standard Time
 COLUMBIA, Md.--([BUSINESS WIRE](http
-- Balance Theory raises $3M for its cybersecurity collaboration platform - SiliconANGLE (2022-12-05) https://siliconangle.com/2022/12/05/balance-theory-raises-3m-cybersecurity-collaboration-platform/
-  Balance Theory raises $3M for its cybersecurity collaboration platform - SiliconANGLE
+- With $3M raise, Columbia's Balance Theory seeks to 'democratize' cyber's future (2022-12-08) https://technical.ly/startups/balance-theory-raise-cybersecurity/
+  With $3M raise, Columbia's Balance Theory seeks to 'democratize' cyber's future
 
-SHARE
+(L to R) Nathan Necaise, Lisa Mathias and Greg Baker of Balance Theory.
 
-UPDATED 16:51 EDT / DECEMBER 05 2022
+Greg Baker isn’t worried about what the looming recession might mean for him or his latest company.
 
-SECURITY
-
-### Balance Theory raises $3M for its cybersecurity collaboration platform
-
-Balance Theory Inc., a startup with a platform that companies can use to store technical data about their cybersecurity systems, has raised a $3 million seed funding round.
-
-The company announced the funding round this morning. DataTribe was the lead investor, while the Maryland Te
+“It’s a hard time for big companies that have grown really fast and focused solely on growth, and you’re seeing a bit of that correction,” he recently told Technical.ly. “But I also, in the same breath, think it’s a great time to start a company
 
 ## Open roles
 (no jobs data found)

@@ -1,0 +1,20 @@
+{
+  "company": "Smart Material Solutions Inc",
+  "slug": "smart-material-solutions-inc",
+  "domain": "smartmaterialsolutions.com",
+  "verdict": "drop",
+  "drop_reason": "sbir_mill",
+  "dod_intent_evidence": "Army Phase II SBIR ($1,314,850, 2023) for plasmonic metamaterial R2R fabrication, plus an original 2015 NSF STTR Phase I award; own newsletter confirms ongoing 'non-dilutive R&D contracts with NASA and the Army' as the funding model.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "3-4 employees, first SBIR/STTR award in 2015, still tiny 11 years later with no commercial product line -> sbir_mill",
+    "own words: 'we have more than two years of funding runway through non-dilutive R&D contracts with NASA and the Army' -> business model is winning/running grant contracts, not fielding a product",
+    "site is entirely technology/materials-science description (nanocoining process, applications list) with no fielded product, pricing, or customer base -> sbir_mill / research house"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "medium",
+  "stage_band": "unknown",
+  "what_they_do": "Small nanomanufacturing research shop developing roll-to-roll nanopatterned metamaterial films (IR signature control, dust mitigation, solar), funded continuously by NSF/NASA/Army SBIR and STTR grants since 2015."
+}

@@ -1,0 +1,16 @@
+{
+  "company": "Phelps2020",
+  "slug": "phelps2020",
+  "domain": "phelps2020.com",
+  "verdict": "drop",
+  "drop_reason": "sbir_mill",
+  "dod_intent_evidence": "Founded 2009, 17 years old, still 4-10 employees and 'primarily SBIR/STTR grant and government-contract funded' per channel notes, with product built on a prior USSOCOM SBIR ('adapt its USSOCOM developed SAM real-time AI solution') — genuine DoD motion but the company profile (age, headcount, funding structure) is a classic SBIR-cycle research shop rather than a company racing to field one product (SBIR/STTR record section).",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "EO/IR video enhancement and AI object-detection hardware/software for surveillance and ISR platforms."
+}

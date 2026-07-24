@@ -455,24 +455,24 @@ Nextiles will perform R&D of new fabric-based sensor materials to monitor human 
 ## News (Exa, top 3)
 - CONTRACT to NEXTILES INC () https://www.usaspending.gov/award/CONT_AWD_FA864922P1074_9700_-NONE-_-NONE-
   USAspending.gov
-- Inside the Nextiles facility as wearable tech company raises $5 million seed round with NBA among investors (2022-06-07) https://www.sportsbusinessjournal.com/Daily/Issues/2022/06/07/Technology/inside-the-nextiles-facility-as-wearable-tech-company-raises-5-million-seed-round-with-nba-among-investors/
-  Inside the Nextiles facility as wearable tech company raises $5 million seed round with NBA among investors
+- Smart Fabric Startup Nextiles Raises $5M For Next Gen Trackers (2022-06-07) https://www.sportico.com/business/tech/2022/smart-fabric-big-money-nextiles-fundraise-1234678067/
+  Smart Fabric Startup Nextiles Raises $5M For Next Gen Trackers
 
-# Inside the Nextiles facility as wearable tech company raises $5 million seed round with NBA among investors
+Skip to main content
 
-06.07.2022
+Nextiles' first sports product is a smart sleeve for tennis and baseball players. Courtesy Nextiles
 
-Nextiles' innovative wearable technology adds sensors into fabric by weaving circuitry into clothing or other material. Courtesy of Nextiles
+Smart fabric startup Nextiles announced a $5 million seed round Tuesday, led by Drive by DraftKings and joined by the NBA and Madison Square Garden Sports Corp., among others.
 
-* * * * *
+Using miniature sensors sewn into traditional fabrics, Nextiles is building smart sleeves to help tennis and baseball players track a va
+- Nextiles Raises $5M in Oversubscribed Seed Round to Fuel Growth in Smart Athletics (2023-11-06) https://www.nextiles.com/post/nextiles-raises-5m-in-seed-round
+  Nextiles Raises $5M in Oversubscribed Seed Round to Fuel Growth in Smart Athletics
 
-Editor's Note: Nextiles was one of the companies selected for SBJ Tech’s 10 Most Innovative Sports Tech Companies. 
-- Nextiles Raises $5M in Oversubscribed Seed Round to Fuel Growth in Smart Athletics (2022-06-07) https://www.prnewswire.com/news-releases/nextiles-raises-5m-in-oversubscribed-seed-round-to-fuel-growth-in-smart-athletics-301561240.html
-  Nextiles Raises $5M in Oversubscribed Seed Round to Fuel Growth in Smart Athletics Accessibility Statement Skip Navigation
+top of page
 
-Nextiles' Smart Fabric Tech Attracts Strategic Capital from Drive by DraftKings, the NBA, Madison Square Garden Sports Corp. and Three-Time Olympic Champion Hilary Knight
+## Nextiles' Smart Fabric Tech Attracts Strategic Capital from Drive by DraftKings, the NBA, Madison Square Garden Sports Corp. and Three-Time Olympic Champion Hilary Knight
 
-NEW YORK, June 7, 2022 /PRNewswire/ -- Nextiles, a smart fabric technology for athletes, today announced its $5M seed round led by Drive by DraftKings, with participation from the NBA, Madison Square Gard
+NEW YORK, June 7, 2022 /PRNewswire/ -- Nextiles, a smart fabric technology for athletes, today announced its $5M seed round led by Drive by DraftKings, with participation from the NBA, Madison Square Garden Sports Corp., Alumni 
 
 ## Open roles
 (no jobs data found)

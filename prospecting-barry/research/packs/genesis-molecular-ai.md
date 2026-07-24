@@ -382,27 +382,40 @@ The GEMS platform integrates AI and physics into industry-leading models to gene
 - The expanded agreement is one of the first major Pharma-AI collaborations to power large-scale foundation model training with a partner's proprietary experimental data
 - Incyte data will be securely used to train Genesis’ next-generation GEMS AI platform as part of Incyte’s efforts to speed up drug development across multiple programs
 - Gen
-- Incyte and Genesis Expand Molecular AI Collaboration to Accelerate Drug ... (2026-05-20) https://www.businesswire.com/news/home/20260520680248/en/Incyte-and-Genesis-Expand-Molecular-AI-Collaboration-to-Accelerate-Drug-Discovery
-  Incyte and Genesis Expand Molecular AI Collaboration to Accelerate Drug Discovery
+- Incyte, Genesis Expand AI Collaboration to $1B+ (2026-06-03) https://www.genengnews.com/topics/artificial-intelligence/small-molecules-to-big-partnership-incyte-genesis-expand-ai-collaboration-to-1b/
+  Small Molecules to Big Partnership: Incyte, Genesis Expand AI Collaboration to $1B+
 
-May 20, 2026 8:00 AM Eastern Daylight Time
+Search
 
-# Incyte and Genesis Expand Molecular AI Collaboration to Accelerate Drug Discovery
+Sign in
 
-Share
+Welcome! Log into your account
 
----
+your username
 
-- The expanded agreement is one of the first major Pharma-AI collaborations to power large-scale foundation model training with a partner's proprietary experimental data
-- Incyte data will be securely used to train Genesis’ next-generation GEMS AI platform as part of Incyte’s
-- DOD on track to commit more than $150M over next two fiscal years for Genesis-aligned projects | InsideDefense.com () https://insidedefense.com/insider/dod-track-commit-more-150m-over-next-two-fiscal-years-genesis-aligned-projects
-  DOD on track to commit more than $150M over next two fiscal years for Genesis-aligned projects | InsideDefense.com
+your password
 
-Skip to main content
+Forgot your password? Get help
 
-# DOD on track to commit more than $150M over next two fiscal years for Genesis-aligned projects
+Privacy Policy
 
-The Defense Department is committing more than $150 million over fiscal years 2026 and 2027 toward a project aimed at standing up a high-performance computing environment, as part of its work on the national effort to leverage artificial intelligence for scientifi
+Password recovery
+
+Recover your password
+
+your email
+
+A password will be e-mailed to you.
+
+GEN – Genetic Engineering and Biotechnology News
+
+Home Topics Artificial Intelligence Small Molecules to Big Partnership: Incyte, Genesis Expand AI Collaboration to $1B+
+
+[L.-R.] Pablo J. Cagnoni, 
+- genesis molecular ai (2026-06-28) https://genesis.ml/
+  # Genesis Molecular AI (Genesis Therapeutics Inc.)
+
+Genesis Molecular AI is a Biotechnology Research company. Genesis Molecular AI is a company that pairs frontier AI with world-class drug hunters to discover small molecule medicines. They create and scale data, architecture, and models for their domain. Genesis Molecular AI employs 132 people (+33.9% YoY, +43 people) and has an annual revenue of $1M. Headquartered in Burlingame, California, United States. Its workforce is distributed across 6 c
 
 ## Open roles (Blitz, live)
 - Engineering Manager, Product Engineering Team ({'city': 'New York', 'country_code': 'US'})

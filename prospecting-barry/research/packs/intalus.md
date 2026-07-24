@@ -281,24 +281,40 @@ Skip to content
 [![TectonicDefense](https://www.tectonicdefense.com/wp-content/themes/tectonicdefens/assets/images/logo.png?v=1.0.3)](https://www.tectonicdefense.com/) [Subscribe](https://www.tectonicdefense.com/subscribe/) Menu
 
 Search for:
-- From Hypersonics to Formula1: Why We Invested in Intalus — Origin Ventures (2026-04-24) https://www.originventures.com/blog/why-we-invested-in-intalus
-  From Hypersonics to Formula1: Why We Invested in Intalus — Origin Ventures
+- Origin Ventures is pleased to announce that INTALUS ... (2026-07-21) https://www.linkedin.com/posts/origin-ventures_origin-ventures-is-pleased-to-announce-that-activity-7485377021045469185-VrRI
+  # Origin Ventures is pleased to announce that INTALUS has raised an additional $20M on the backs of our $11M Seed financing alongside Lockheed Martin and Scout Ventures earlier this year, bringing the … | Origin Ventures · LinkedIn · 2026-07-21
 
-# From Hypersonics to Formula1: Why We Invested in Intalus
+**Origin Ventures**: Origin Ventures is a company that invests in bold founders leading humanity into the fifth economic era - the artificial intelligence economy - transforming how we live, work, and play. Origin Ventures has 10-20 employees (+30% YoY) 
+- Little-known materials startup Intalus raises $11M seed round | Semafor (2026-05-06) https://www.semafor.com/article/05/06/2026/little-known-materials-startup-intalus-raises-11m-seed-round
+  Little-known materials startup Intalus raises $11M seed round | Semafor
 
-Apr 24
+Intelligence for the New World Economy
 
-The hardest-working metal parts in the world (landing gear, hypersonic leading edges, undersea actuators, high-performance brakes) share a common weakness: their surfaces. For decades, the fix has been the same: add something on top. Paint, plating, thermal spray, PVD. Every one of those is a coating, and coatings can fail at the interface under demandin
-- Little-known materials startup Intalus raises $11M seed round () https://finance.yahoo.com/sectors/technology/articles/little-known-materials-startup-intalus-170124907.html
-  Little-known materials startup Intalus raises $11M seed round
+---
 
-Oops, something went wrong
+Semafor World Economy
 
-# Little-known materials startup Intalus raises $11M seed round
+---
 
-Little-known materials startup Intalus raises $11M seed round · Semafor
+From Semafor Technology
 
-Startup Intalus raised an $11 million seed round to expand production of ceramic-infused metals, the company exclusively told Semafor. Intalus has been making these materials for years, using waveform energy (think: lasers) to change the internal structure of metals and 
+In your inbox, 2x per week
+
+Sign up
+
+# Exclusive / Little-known materials startup Intalus raises $11M seed round
+
+Reed Albergotti
+
+Tech Editor, Semafor
+
+May 6, 2026, 1:01pm EDT
+
+Share
+
+Metal preparation area at an aluminum smelter. Benoit Tessier/Reuters.
+
+Startup Intalus raised an $11 million seed round to expand production of
 
 ## Open roles
 (no jobs data found)

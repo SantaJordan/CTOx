@@ -447,6 +447,20 @@ Vorlon is the Agentic Ecosystem Security Platform. As enterprises deploy autonom
 # Press Release: Vorlon Raises Series A from Accel with $15.7 Million Total in Funding for Proactive Third-Party API Security
 
 PALO ALTO, CA – April 17, 2024 – Vorlon, the leading platform for comprehensive third-party API security, today announced it has raised $15.7 million in capital to further its efforts to help CISOs and their security teams proactively secure the th
+- Vorlon raises $15.7M to tackle third-party API risks - SiliconANGLE (2024-04-17) https://siliconangle.com/2024/04/17/vorlon-raises-15-7m-tackle-third-party-api-risks/
+  Vorlon raises $15.7M to tackle third-party API risks - SiliconANGLE
+
+SHARE
+
+UPDATED 18:53 EDT / APRIL 17 2024
+
+SECURITY
+
+### Vorlon raises $15.7M to tackle third-party API risks
+
+Application programming interface security startup Vorlon Inc. today announced that it has raised $15.7 million in new funding to further its efforts to help chief information security officers and their teams secure third-party APIs.
+
+Founded in 2022, Vorlon offers a comprehensive third-party API security platform that
 - Vorlon is trying to stop the next big API breach | TechCrunch (2024-04-17) https://techcrunch.com/2024/04/17/cybersecurity-startup-vorlon-funding-api-breach/
   Vorlon is trying to stop the next big API breach | TechCrunch
 
@@ -467,32 +481,6 @@ Copy Share Link
 Application programming interfaces (APIs) are the bedrock of everything we do online. APIs allow two things on the internet to talk with each other, including connected devices or phone apps.
 
 But the enormous growth of API usage — around half of all intern
-- Vorlon completes Series A, bringing total funding to $15.7 ... (2024-04-17) https://www.calcalistech.com/ctechnews/article/h1pilyaga
-  Vorlon completes Series A, bringing total funding to $15.7 million for pro-active thi | Ctech
-
-ACCESSIBILITY
-
-by
-
-https://twitter.com/Calcalistech
-
-ACCESSIBILITY
-
-### Headlines
-
-### Ynet News
-
-Recently Read
-
-You can't outspend an AI attacker
-
-The next generation of Israeli unicorns will be built on factory floors, not just in the cloud
-
-The token trap: AI’s new pricing formula and the threat to startup margins
-
-Recommended videos
-
-Can Nice survive the SaaS apocalypse? Its CEO says investors are 
 
 ## Open roles (Blitz, live)
 - Senior Security Operations Engineer ({'city': None, 'country_code': 'US'})

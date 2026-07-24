@@ -1,0 +1,17 @@
+{
+  "company": "Allen Control Systems",
+  "slug": "allen-control-systems",
+  "domain": "allencontrolsystems.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "News: selected for U.S. Marine Corps Ground Based Air Defense program (AP/BusinessWire 2026-07-20), maritime SOF contract (2025-09), Army Applications Lab combat-vehicle integration plan (2025-12), $200M raise.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Bullfrog autonomous robotic gun weapon stations (M240/M2/M230/M134) for counter-drone defense on land and sea.",
+  "notes": "260 LinkedIn employees, $200M raised, selected into a Marine Corps program of record path (GBAD, L-MADIS integration) plus SOCOM and Army platform-integration awards — they have crossed the valley Barry sells into. Language is also operationally fluent (UAS Groups 1-3, final protective fires, C2 integration, Director of Test Operations hire)."
+}

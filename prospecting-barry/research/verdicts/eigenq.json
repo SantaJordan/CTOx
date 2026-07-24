@@ -1,0 +1,18 @@
+{
+  "company": "EigenQ",
+  "slug": "eigenq",
+  "domain": "eigenq.com",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "Website lists 'Defense' as one of seven vertical tiles ('Telecom / Data Centers / Defense / Government / Automotive / Smart Devices') and claims 'FIPS 203/204 certified PQC hardware ready for federal deployment' — sector positioning only; no SBIR, no DoD/DIU/AFWERX engagement, no contract record, no military or warfighter customer named anywhere in the pack.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "'EigenQ delivers hardware-anchored post-quantum security across the industries that cannot afford to fail. Telecom / Data Centers / Defense / Government / Automotive / Smart Devices' (homepage) → defense is a marketing vertical, not a motion"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Sells hardware-rooted post-quantum crypto modules (QRNG PCIe/M.2 boards, qTPM) for OEMs to drop into existing systems."
+}

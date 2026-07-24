@@ -1,0 +1,45 @@
+{
+  "company": "Anametric",
+  "slug": "anametric",
+  "domain": "anametric.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Homepage states Anametric 'works with the Quantum Photonics group at the Air Force Research Lab (AFRL) and with the Army Research Lab (ARL)' and the pack shows two Air Force Phase II SBIR awards (2022, 2023) with their own abstracts.",
+  "disconnect_score": 72,
+  "subscores": {"lab_language_intensity": 17, "deployment_awareness_absence": 16, "operator_absence": 14, "hiring_profile_skew": 10, "stage_pressure": 15},
+  "score_evidence": [
+    "'After completing primary research, we are now in the early testing stages on our unique quantum photonic (QPIC) chips' -> lab_language_intensity",
+    "'Quantum Computing gets all the attention... but they don't do anything useful (yet)' — the whole site is a quantum-landscape lecture, not a fielding story -> lab_language_intensity",
+    "Detailed PUF/QRNG product description with zero mention of NSA/NIAP certification, FIPS, ATO, ITAR, or any accreditation pathway -> deployment_awareness_absence",
+    "Only operator reference in ~1200 words is a single passing 'warfighter safety' clause in the 2023 SBIR abstract -> operator_absence",
+    "No jobs data in pack: hiring_profile_skew set to exactly 10 per rubric",
+    "6-8 employees, $3.3M Seed 2 (Oct 2024), Phase II awarded 2023 — Phase II clock running on a tiny team -> stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "No certification pathway for a cryptographic root-of-trust product",
+      "operator_reality": "A PUF sold as the trust anchor for 'secure firmware updates and trusted/secure communications' in DoD systems cannot be fielded without NSA/NIAP/FIPS-class certification and an RMF story — a multi-year process their materials never acknowledge; the transition clock dies in accreditation, not in the lab.",
+      "why_likely_missing": "Team is semiconductor-research heavy (SMU partnership, AFRL/ARL research relationships); their world is chip characterization, not government accreditation.",
+      "evidence_quote": "PUFs are an ideal foundation and are used in many secure applications, including supply-chain assurance/anti-counterfeiting, secure firmware updates, and trusted/secure communications",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "IFF-class use cases claimed with no platform-integration or GFE path",
+      "operator_reality": "Answering 'is a plane friend or foe' means integrating into existing IFF/avionics programs through a prime, with flow-down, qual testing, and a named program office champion — none of which appears anywhere; a chip demo at AFRL is not a seat on an aircraft.",
+      "why_likely_missing": "Research-lab relationships (AFRL/ARL) feel like customer traction from the inside, but labs are not acquisition programs.",
+      "evidence_quote": "How do you know that a plane is friend or foe? Or that a remote device can be updated with new software, while keeping out updates from adversaries?",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "Bench-condition framing of the core technology",
+      "operator_reality": "'Room-temperature' is a lab differentiator; a deployed root-of-trust chip lives at -40C to +71C with vibration, humidity and 20-year sustainment expectations on munitions, radios, and badges — environmental qualification is absent from every product description.",
+      "why_likely_missing": "The company is 'in the early testing stages' — environmental and reliability engineering hasn't hit them yet, and nobody on a research-stage team owns it.",
+      "evidence_quote": "an Austin, TX-based company developing room-temperature quantum photonic solutions for cybersecurity",
+      "quote_source": "news"
+    }
+  ],
+  "opener_hook": "Anametric's 2023 Air Force Phase II abstract asks how you know a plane is friend or foe — fielding that answer runs through NSA-class certification and prime integration, and neither appears anywhere in Anametric's public materials.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Chip-scale quantum photonic devices (PUF root-of-trust, QRNG) for cybersecurity, spun from SMU research with AFRL/ARL ties."
+}

@@ -1,0 +1,24 @@
+{
+  "company": "Aalyria",
+  "slug": "aalyria",
+  "domain": "aalyria.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "First delivery order under a Space Force RCO R2C2 IDIQ (capped at $1B), DIU swarm-connectivity selection, and AFRL SDNX selection (news section); site names Defense | Hybrid SATCOM as an industry.",
+  "disconnect_score": 23,
+  "subscores": {"lab_language_intensity": 6, "deployment_awareness_absence": 3, "operator_absence": 8, "hiring_profile_skew": 3, "stage_pressure": 3},
+  "score_evidence": [
+    "'demonstrated ground-to-air links approaching 200 km' and '100 Gbps' spec-bragging → lab_language_intensity (but framed with 'tactically-responsive timeframes')",
+    "'deployed in commercial cloud, hybrid cloud, on-premises, or classified, air-gapped infrastructure' → deployment_awareness_absence scored LOW (they are fluent)",
+    "Hiring 'Information Systems Security Manager (ISSM)', 'Alternate Facility Security Officer', 'Security and Compliance Lead', 'Cleared Program Manager' → hiring_profile_skew scored LOW"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Kubernetes-microservice orchestration assumes cloud-ops talent at the deployment site", "operator_reality": "A tactical enclave running Spacetime has no SRE on the watch floor; a crashed pod in an air-gapped enclave stays crashed until someone cleared and trained shows up", "why_likely_missing": "Alphabet heritage — the team's baseline is Google-grade infrastructure operated by professional SREs", "evidence_quote": "As a distributed cloud-native system of microservices, with open APIs, Spacetime is available as a managed service in Aalyria-hosted or customer-hosted Kubernetes environments.", "quote_source": "homepage"},
+    {"blind_spot": "'Plug-and-play' optical terminals still need field alignment, cleaning, and sustainment", "operator_reality": "A gimballed 170mm laser terminal at a dusty austere site needs optics maintenance, spares, and a trained hand — none of which 'plug-and-play' provides; fog and particulates kill FSO links exactly when contested RF makes them most needed", "why_likely_missing": "Terminal development is National-Lab rooted; demos happen with engineers on hand, not an E-5 with 20 minutes of training", "evidence_quote": "Tightbeam terminals are plug-and-play with native Spacetime integration", "quote_source": "homepage"},
+    {"blind_spot": "Federation between networks presumes other orchestrators expose cooperative APIs", "operator_reality": "Government transport rides prime-run and legacy GFE networks whose owners have no Spacetime-compatible orchestrator and no contractual reason to federate; the interconnect brokering has no counterparty in a real program", "why_likely_missing": "The federation model was designed around commercial operators who want to sell transit, not DoD program offices guarding accreditation boundaries", "evidence_quote": "Open APIs allow Spacetime to federate with other network orchestrators to broker and schedule on-demand interconnect & transit across networks", "quote_source": "homepage"}
+  ],
+  "opener_hook": "Aalyria's Spacetime whitepaper commits to customer-hosted, air-gapped Kubernetes deployments — the R2C2 delivery order will test who on a government watch floor actually operates those microservices.",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Alphabet-spinout (~99 people) selling Spacetime, a network-orchestration PaaS for satellites/aircraft in motion, and Tightbeam 100 Gbps laser-comms terminals to commercial and defense customers."
+}

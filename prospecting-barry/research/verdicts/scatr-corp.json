@@ -1,0 +1,16 @@
+{
+  "company": "SCATR Corp.",
+  "slug": "scatr-corp",
+  "domain": "scatr.it",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Strong genuine DoD motion (LinkedIn about: 'For the modern warfighter... SCATR is the world's first Zero Trust Transit platform'; explicit DoD Zero Trust Strategy reference), but they've already crossed the valley: LinkedIn news posts confirm SCATR is 'now available on the U.S. Army Digital Marketplace... through the ITES-SW2 contract vehicle' and has 'officially achieved CMMC Level 2 accreditation' — a live DoD procurement channel plus the hardest compliance gate cleared.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "series_a",
+  "what_they_do": "Cybersecurity platform (Zero Trust Transit) that camouflages and multi-paths data in motion to defeat traffic analysis and harvest-now-decrypt-later attacks; fielded on the Army Digital Marketplace with CMMC Level 2 accreditation."
+}

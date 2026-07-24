@@ -88,22 +88,16 @@ Hands/Off Tactical Mobile Intelligent Communications (HOT MIC) is an edge/deploy
 MORSE proposes Human-machine Ensembling for Track Entropy Exploitation, HEFTEE, a revolutionary, scalable, state-of-the-art machine learning-based system to automatically identify and combine the appropriate mix of sensors for an objective area. HEFTEE delivers de-duplicated, accurate, continuous tracks for unique entities, producing a clean and confident view of mission areas for SOCOM analysts. HEFTEE leverages MORSE’s established machine-learning ensembling techniques developed for Project Maven to combine the outputs of all the intelligent sensor systems. These proven techniques and solutions support live drone video, sporadic ELINT, periodic, and sporadic HUMINT. They are lightweight, with minimal processing overhead (in real-time, 30Hz) and can be deployed on CPU-only systems. The solution includes: Data Sources, Integration: Large sets of labeled synthetic and real data matching sensor characteristics of SOCOM track data will be generated to train ML models. • Stage 1: Identify redundant tracks that represent the same single physical object. • Stage 2: Consolidate and combine redundant tracks on the same physical object. • Stage 3: Post-Process tracks, resampling and connecting gaps. • The end result is a vastly improved user experience that enables analysts to move quickly and better focus on mission objectives. HEFTEE will easily scale by integrating new sensors, identifying important aspects of each sensor and learning to combine them in the most optimal way.
 
 ## News (Exa, top 3)
+- CONTRACT to MORSECORP, INC () https://www.usaspending.gov/award/CONT_AWD_W91CRB25FA126_9700_W91CRB24D0015_9700
+  USAspending.gov
+
+USAspending.gov
 - MORSE Corp Awarded $48M US Army OTA for UAS Development (2025-08-07) https://www.morsecorp.com/pressrelease.html?prId=pr_08_07_2025
   ---
 - MORSE Corp Awarded $48M US Army OTA for UAS Development (2025-08-11) https://www.prnewswire.com/news-releases/morse-corp-awarded-48m-us-army-ota-for-uas-development-302526700.html
   MORSE Corp Awarded $48M US Army OTA for UAS Development Accessibility Statement Skip Navigation
 
 CAMBRIDGE, Mass., Aug. 11, 2025 /PRNewswire/ -- MORSE Corp (MORSECORP Inc.) is proud to announce that it has been awarded a $48,054,384 firm-fixed-price Other Transaction Agreement (OTA) by the US Army Product Manager, Force Sustainment Systems (PM FSS) in Natick, MA, to develop novel long range autonomous aircraft that can operate in GPS-denied Anti-Access/Area Denial (A2/AD) environments. This agre
-- MORSE Corp scores $98M US Army Artificial Intelligence solutions R&D ... (2025-02-27) https://orangeslices.ai/morse-corp-scores-98m-us-army-artificial-intelligence-solutions-rd-contract/
-  MORSE Corp scores $98M US Army Artificial Intelligence solutions R&D contract | OrangeSlices AI
-**
-**
-* [Login / Create Account](https://orangeslices.ai/login-2/)
-* [Find Partners**](https://research.arctas.io/sign-in)
-* [Arctas Acquires OS Listing Platform](https://orangeslices.ai/arctas-acquires-orangeslices-ai-listings-platform-to-build-federal-services-partner-network/)
-* [Find Partners on Arctas](https://research.arctas.io/sign-in)
-* Find Opportunities**
-* [Featured Insights](https://orange
 
 ## Open roles (Blitz, live)
 - R&D Technician ({'city': 'Cambridge', 'country_code': 'US'})

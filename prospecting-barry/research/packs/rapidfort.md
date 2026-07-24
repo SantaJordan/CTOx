@@ -345,6 +345,26 @@ RapidFort's unified platform offers three core capabilities: curated near-zero C
 Software containers are applications. Think of them as the building blocks of modern software systems that contain large pieces of code required for modern software systems to operate. In the past, Iron Bank has been responsible for manually hardening this code, to DISA hardening standards, and then the 100,000 DAF software developers use these hardened applications to build secure software applications. One can think of these containers as the approved building blocks that allow secure software systems to be developed. This manual hardening takes considerable time, cost, and effort. Iron Bank started 2020 with 200 containers but now has over 1000+ containers that need to be supported. Iron Bank’s success has resulted in it now having too many containers to continue to harden manually and is encountering resource and scalability issues. The pipeline of supported containers is slowing down, and the productivity of the entire system (of 100,000 DAF software developers) is suffering because the supply of raw materials entering the development pipeline has become overwhelmed. To address this issue, Iron Bank is now moving to a Two-tiered system whereby they will continue to harden critical containers (Tier 2 Containers), but for the vast majority of containers downstream users will need to harden the containers themselves (Tier 1: Self-Serve Containers). RapidFort has developed automated profiling technology that automates this manual process, so what used to take months now can be done in minutes! Saving considerable time and effort and potentially tens of millions of dollars in reduced developer costs. In addition to the productivity savings, as part of a Phase 1 case study, RapidFort validated that its hardening is approximately 80% more effective than manual hardening. The result, immediate containers that are vastly more secure (80%), vastly cheaper to build and maintain (5% to 12%), and 300% faster to boot, while providing infrastructure cost savings estimated to be in the 1% to 2% range. In short, RapidFort’s technology is a game-changing solution to a critical problem the DAF software ecosystem is facing. This is coming at a time when cybersecurity concerns resulting from the Ukrainian conflict are at an all-time high.
 
 ## News (Exa, top 3)
+- Platform One () https://www.rapidfort.com/press/rapidfort-assessed-awardable-for-department-of-defense-work-in-the-p1-solutions-marketplace
+  Rapidfort
+
+## Latest posts
+
+### The Modern Data Company Selects RapidFort’s Curated Images and Platform to Enhance and Accelerate Customer Data Security
+
+November 3, 2025
+
+### RapidFort Strengthens Market Leadership and Gains Industry Recognition: Surpasses 100 Customers, 15,000 Curated, Near-zero CVE hardened images, and inclusion in Gartner® Research
+
+October 28, 2025
+
+### CyberShark Pitch Competition Names RapidFort as 2025 Winner
+
+October 21, 2025
+
+## Eliminate Attack Vectors at the Source
+
+
 - RapidFort Assessed “Awardable” for Department of Defense work in the P1 Solutions Marketplace - Silicon UK (2025-01-30) https://www.silicon.co.uk/press-release/rapidfort-assessed-awardable-for-department-of-defense-work-in-the-p1-solutions-marketplace
   RapidFort Assessed “Awardable” for Department of Defense work in the P1 Solutions Marketplace - Silicon UK
 
@@ -353,40 +373,6 @@ Software containers are applications. Think of them as the building blocks of mo
 Sponsored by Businesswire
 
 RapidFort, a leading innovator in cybersecurity pioneering Software Attac
-- DoD Software Procurement: SWIFT, cATO & Container ... (2025-05-07) https://www.rapidfort.com/blog/seeking-collaboration-to-support-rapid-software-procurement-in-the-dod
-  DoD Software Procurement: SWIFT, cATO & Container Security
-
-All Posts
-
-# DoD Software Procurement: SWIFT, cATO & Container Security
-
-Written by
-
-Russ Andersson
-
--
-
-Co-founder & COO, RapidFort
-
-,
-
-Published on
-
-May 7, 2025
-
-## Latest posts
-
-### What Happens When You Curate RedHat UBI9 Images with RapidFort? 93.3% Fewer CVEs.
-
-Matthew Oliver-Mayho
-
-,
-
-July 23, 2026
-
-https://www.rapidfort.com/blog/what-happens-when-you-curate-redhat-ubi9-images-with-rapidfort-93-3-fewer-cves
-
-### How to Use RapidFo
 - RapidFort Rated "Awardable" for DoD Work in P1 Market (2025-02-03) https://cybertechnologyinsights.com/cloud-security/rapidfort-rated-awardable-for-dod-work-in-p1-market/
   RapidFort Rated "Awardable" for DoD Work in P1 Market
 

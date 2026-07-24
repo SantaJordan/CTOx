@@ -269,7 +269,7 @@ Protecting mission critical data wherever it lives, moves, or operates. Our laye
 FORT MYERS, Fla., April 27, 2021 /PRNewswire/ -- Cigent® Technology, today announced the close of a $7.6M Series A funding with In-Q-Tel®, CyberJunction, WestWave Capital, and several prominent individual investors participating.
 
 The funding enables Cigent to commercialize and bring to market Cigent Data Defense. This breakthrough approach protects compan
-- Cigent Approved for Federal Data Security (2024-08-01) https://www.cigent.com/blog/cigent-approved-for-securing-government-and-military-data/
+- Cigent Approved for Securing Government and Military Data (2024-08-01) https://www.cigent.com/blog/cigent-approved-for-securing-government-and-military-data/
   Cigent Approved for Federal Data Security
 
 # Cigent Approved for Securing Government and Military Data
@@ -287,20 +287,18 @@ News
 ### Added To NSA Commercial Solutions For Classified (CSfC) Components List
 
 FORT MYERS, Fla., January 17, 2024 — Cigent® Technology, Inc., the leader in embedded cybersecurity in storage devices, today announced that its pre-boot authentication software has been approved for inclusion on the National Security Agency Central Security Service (NSA/CSS)
-- Cigent scores $7.6M for its file-level security technology - SiliconANGLE (2021-04-27) https://siliconangle.com/2021/04/27/cigent-scores-7-6m-file-level-security-technology/
-  Cigent scores $7.6M for its file-level security technology - SiliconANGLE
+- Cigent Technology melds security and storage to protect sensitive data (2021-04-27) https://venturebeat.com/business/cigent-technology-melds-security-and-storage-to-protect-sensitive-data/
+  Cigent Technology melds security and storage to protect sensitive data | VentureBeat
 
-SHARE
+Chris O'Brien
 
-UPDATED 08:00 EDT / APRIL 27 2021
+7:25 am, PT, April 27, 2021
 
-SECURITY
+Add to Google Preferred Source
 
-### Cigent scores $7.6M for its file-level security technology
+To protect data on an endpoint, an enterprise has to get everything right. Otherwise, hackers will find a way to slip in and access sensitive data.
 
-Cigent Technology Inc. today said it closed a $7.6M Series A funding round to develop and sell its technology that protects against ransomware, data theft and malicious insider attacks by applying security at the file level.
-
-Cigent Data Defense uses both software and hardware to prevent data from being stol
+But Cigent Technology says it has found a new way to protect data by combining methods from security, storage, and data recovery to make an impenetrable system. The company has its roots in
 
 ## Open roles
 (no jobs data found)

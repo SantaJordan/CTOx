@@ -1,0 +1,27 @@
+{
+  "company": "Decodable",
+  "slug": "decodable",
+  "domain": "decodable.co",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "None. No SBIR/STTR record, no DIU/AFWERX engagement, no defense contract, and not one occurrence of defense, DoD, military, warfighter, government, or FedRAMP anywhere in ~1333 words of their own language. Their stated compliance posture is entirely commercial — 'Decodable is SOC2 Type II, HIPAA, and GDPR compliant.' Both defense items in the news section belong to unrelated companies (Sierra Space's $798M Golden Dome award; Agile Defense's $100M Tradewinds OTA).",
+  "disconnect_score": 0,
+  "subscores": {
+    "lab_language_intensity": 0,
+    "deployment_awareness_absence": 0,
+    "operator_absence": 0,
+    "hiring_profile_skew": 0,
+    "stage_pressure": 0
+  },
+  "score_evidence": [
+    "'Decodable has been acquired by Redis!' (banner on every page) and 'Decodable is now part of Redis!' (linkedin_about) → no longer an independent company; ~6 people remain on the LinkedIn record",
+    "'One platform for real-time ETL/ELT and stream processing... Built on Apache Flink + Debezium' (homepage) → commercial data-infrastructure SaaS with no defense application named",
+    "'Stream real-time data into vector databases to enable fast, semantic retrieval—ensuring accurate, context-aware responses in agentic AI and RAG architectures' (homepage) → the go-to-market is commercial AI/RAG, not any government mission",
+    "'Get compliant with critical regulations, including SOC2 Type II and GDPR' (product page) → the compliance regimes they chose to build for are commercial, which is itself the clearest evidence of where their customers are"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Fully-managed serverless platform for real-time ETL and stream processing built on Apache Flink and Debezium; acquired by Redis."
+}

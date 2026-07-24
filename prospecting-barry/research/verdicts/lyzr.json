@@ -1,0 +1,16 @@
+{
+  "company": "Lyzr",
+  "slug": "lyzr",
+  "domain": "lyzr.ai",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "None — IQT (In-Q-Tel) portfolio membership is metadata-only per gating rules and not sufficient by itself. No SBIR record, no DoD/IC contract in the news section (all three news hits are commercial fundraising: Series B ~$100M via Bloomberg, Series A+ at $250M valuation via Accenture). Own-language mentions 'governments, banks, and healthcare' only as a generic regulated-industries bucket for a 'Sovereign AI' product tier — no DoD, IC, classified, warfighter, or defense-specific language anywhere on the site.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "series_a",
+  "what_they_do": "Sells an enterprise control plane / agent infrastructure platform for governing, observing, and deploying AI agents across clouds and frameworks — commercial B2B, with a generic 'Sovereign AI' air-gapped tier marketed to regulated industries."
+}

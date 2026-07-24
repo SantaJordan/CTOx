@@ -1,0 +1,17 @@
+{
+  "company": "Picogrid",
+  "slug": "picogrid",
+  "domain": "picogrid.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Multiple fielded Air Force/MDA contracts including a $9.3M SBIR Phase III transition award, deployments on six U.S. military bases, and July 2026 news of selection to 'Support Maven Across NATO' (News section) — genuine and extensive DoD motion, but past the prototype-to-fielded gap.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "series_a",
+  "what_they_do": "Sensor/platform integration and C2 software (Legion, Orion) unifying base security, air defense, and ISR feeds for the military.",
+  "notes": "$45M Series A on top of $12M seed and $12M+ non-dilutive SBIR funding; a Phase III SBIR transition ($9.3M, Feb 2026) is itself the signal a program crossed the valley of death. Channel notes tag status as 'fielded' three separate times across sources, and news shows base-scale and NATO-scale deployment, not demo-stage. This is squarely 'already crossed the valley' territory, not Barry's prototype-stuck niche."
+}

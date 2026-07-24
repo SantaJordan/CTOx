@@ -443,17 +443,18 @@ Defense Advanced Research Projects Agency (DARPA) [DoD]
 NAICS
 
 541715 - Research and Development in the Physical, Engineering, and Life Sciences (except N
-- Expedition Technology Receives Navy Contract to Improve Radio Frequency Spectral Awareness Capabilities via Machine Learning – Expedition Technology () https://www.exptechinc.com/expedition-technology-receives-navy-contract-to-improve-radio-frequency-spectral-awareness-capabilities-via-machine-learning/
-  Expedition Technology Receives Navy Contract to Improve Radio Frequency Spectral Awareness Capabilities via Machine Learning – Expedition Technology
+- Expedition Technology Awarded Basic Ordering Agreement on $241M DoD Joint Artificial Intelligence Center Contracting Vehicle – Expedition Technology () https://www.exptechinc.com/expedition-technology-awarded-basic-ordering-agreement-on-241m-dod-joint-artificial-intelligence-center-contracting-vehicle/
+  Expedition Technology Awarded Basic Ordering Agreement on $241M DoD Joint Artificial Intelligence Center Contracting Vehicle – Expedition Technology
 
-# Expedition Technology Receives Navy Contract to Improve Radio Frequency Spectral Awareness Capabilities via Machine Learning
+# Expedition Technology Awarded Basic Ordering Agreement on $241M DoD Joint Artificial Intelligence Center Contracting Vehicle
 
+- Contact Us
 - Written by Expedition Technology
-- on November 8, 2023
+- on April 26, 2022
 
-New Engagement Continues Work Performed for DARPA and Navy on Multi-Phase Radio Frequency Machine Learning System Program
+Data Readiness for Artificial Intelligence Development Task Orders Will Propel the DoD to Most Effectively and Ethically Transform Itself through AI
 
-HERNDON, VA, November 8, 2023 – Expeditio
+HER
 
 ## Open roles (Blitz, live)
 - Embedded Software Engineer - Edge ML/Low SWaP Systems - R138 ({'city': 'Herndon', 'country_code': 'US'})

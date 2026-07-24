@@ -1,0 +1,23 @@
+{
+  "company": "Spark Neuro, Inc.",
+  "slug": "spark-neuro-inc",
+  "domain": "sparkneuro.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "$2,749,999 Air Force Phase II SBIR (2022) for a 'fieldable' warfighter TBI Tracker, corroborated by LinkedIn about's own claim of 'funding from the Department of Defense' — SBIR abstract section. Note: a 'Spark Biomedical Partners With Air Force' news item in this pack is about a different company (Spark Biomedical, not Spark Neuro) and was disregarded per instructions.",
+  "disconnect_score": 60,
+  "subscores": {"lab_language_intensity": 16, "deployment_awareness_absence": 14, "operator_absence": 10, "hiring_profile_skew": 10, "stage_pressure": 10},
+  "score_evidence": [
+    "\"Always-On Intelligence / Surfaces what matters — proactively.\" (Spark Predict platform) → lab_language_intensity (cloud-native, always-on framing carried across the company's newer product line, with zero operational/field grounding)",
+    "\"With the push of a button, the tool automatically runs the test protocols and in a matter of seconds, generates an easy-to-understand report.\" → deployment_awareness_absence (frames field use as consumer-simple, doesn't address motion artifact, electrode contact, or calibration realities of EEG in the field)"
+  ],
+  "blind_spots": [
+    {"blind_spot": "The company's newer flagship product (Spark Predict) is built entirely around 'Always-On Intelligence' and continuous cloud data streaming, a model at odds with the point-of-care fielding claimed for the AF TBI Tracker.", "operator_reality": "Point-of-care testing after a head injury in the field can't depend on always-on cloud connectivity; a DDIL environment breaks a platform architected around continuous data streaming and query-in-seconds responsiveness.", "why_likely_missing": "Company has pivoted its core business toward civilian payer/provider healthcare analytics; the DoD TBI program appears to be a smaller, separate legacy line not integrated into that roadmap.", "evidence_quote": "Always-On Intelligence Surfaces what matters — proactively.", "quote_source": "homepage (sparkpredict.ai)"},
+    {"blind_spot": "The TBI Tracker abstract markets a 'push of a button' simplicity that glosses over EEG's well-known sensitivity to motion artifact, sweat, and electrode placement.", "operator_reality": "EEG signal quality is famously sensitive to motion, sweat, and electrode contact — an untrained E-5 in the field, not a technician in a controlled setting, is who has to get a clean read, and nothing in the abstract addresses that failure mode.", "why_likely_missing": "Abstract is written to sell ease-of-use and speed to a program office, not to work through field signal-quality engineering.", "evidence_quote": "With the push of a button, the tool automatically runs the test protocols and in a matter of seconds, generates an easy-to-understand report.", "quote_source": "sbir_abstract"},
+    {"blind_spot": "No mention anywhere (site, abstract, LinkedIn about) of who owns sustainment, calibration, or software updates for a fielded EEG device once it leaves the Mayo Clinic research collaboration and reaches a deployed unit.", "operator_reality": "Institutional-research credibility (Mayo Clinic, DoD, NIH funding) doesn't answer who calibrates or maintains the device at a forward operating location with no biomedical technician on staff.", "why_likely_missing": "Company's institutional partnerships are framed as clinical/research validation, not field sustainment planning.", "evidence_quote": "SPARK Neuro has a history of collaborating with prestigious institutions like the Mayo Clinic and Johns Hopkins Medicine and has earned funding from the Department of Defense and the National Institutes of Health.", "quote_source": "linkedin_about"}
+  ],
+  "opener_hook": "SPARK Neuro's Air Force-funded TBI Tracker promises point-of-care fielding, while its newer Spark Predict platform is built entirely around 'always-on' cloud intelligence.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "AI-powered EEG platform for dementia diagnosis aimed at civilian healthcare payers/providers, with a separate Air Force-funded 'fieldable' TBI Tracker for warfighter brain-injury monitoring."
+}

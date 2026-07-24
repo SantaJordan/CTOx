@@ -310,24 +310,46 @@ $3,924,889
 Total Awarded
 
 ## Award
+- HF Designworks Inc | www.inknowvation.com () https://www.inknowvation.com/sbir/companies/hf-designworks-inc
+  HF Designworks Inc | www.inknowvation.com
+
+Skip to main content
+
+# Company Profile
+
+DARPA~1:Navy~3:OSD~1:
+
+### HF Designworks Inc Profile last edited on: 8/2/2024 CAGE: 4MMY4 UEI: SLEGGUTFK1E1
+
+Business Identifier: Rapid interface prototyping and software development
+
+##### Year Founded
+
+2006
+
+##### First Award
+
+2009
+
+##### Latest Award
+
+2022
+
+##### Program Status
+
+Active
+
+##### Popularity Index
+
+### Edit Company Profile
+
+##### Is this YOUR Company?
+
+Ensure accuracy and completeness of YOUR Comp
 - hf designworks (2026-06-23) https://hfdesignworks.com/
   # HF Designworks (HF Designworks, Inc.)
 
 HF Designworks is a Software Development company. HF Designworks is a company that applies human factors engineering and user experience methods to optimize products, systems, and human capabilities. They have worked with various companies and organizations to develop fortifly, a next-generation avion training tool. They have supported the unmanned aircraft systems integration in the national airspace system and have worked with government, academia, and 
-- GA-ASI Awarded Next Gen HF Modem Contract (2024-12-04) https://www.asdnews.com/news/defense/2024/12/04/gaasi-awarded-next-gen-hf-modem-contract
-  GA-ASI Awarded Next Gen HF Modem Contract
-
-Stay informed with our free newsletters--
-
-Home Defense GA-ASI Awarded Next Gen HF Modem Contract GA-ASI Awarded Next Gen HF ... --
-
-Defense Communications CxISR North America Contracts
-
----
-
-# GA-ASI Awarded Next Gen HF Modem Contract
-
-General Atomics Aeronautical Systems, Inc. (GA-ASI) was awarded a contract on October 4, 2024, to develop a next generation high-frequency (HF) modem for the U.S. Naval Information Warfare (NAVWAR) Program Executive Offi
 
 ## Open roles
 (no jobs data found)

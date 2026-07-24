@@ -213,14 +213,18 @@ Jul 17, 2025| Integer in the News| Featured in WLOX | The News for South Mississ
 Watch the full WLOX interview at https://www.wlox.com/2025/07/16/usm-integer-technologies-announce-25m-defense-contract/.
 
 Watch WLOX’s interview with Integer VP of Research, Dylan Temple at https://www.wlox.com/video/2025/07/16/usm-integer-technologies-announce-25m-d
-- Integer Technologies and The University of ... (2025-07-16) https://www.usm.edu/news/2025/release/integer-usm-defense-contract.php
-  Integer Technologies and The University of Southern Mississippi Announce $25 Million Defense Contract | The University of Southern Mississippi
+- Integer Technologies and The University of Southern (2025-07-16) https://www.globenewswire.com/news-release/2025/07/16/3116643/0/en/Integer-Technologies-and-The-University-of-Southern-Mississippi-Announce-25-Million-Defense-Contract.html
+  Integer Technologies and The University of Southern
 
 # Integer Technologies and The University of Southern Mississippi Announce $25 Million Defense Contract
 
-Wed, 07/16/2025 - 09:30am | By: Integer Technologies
+## Partnership will advance Navy’s decision-making tech for autonomous seabed warfare
 
-Integer and USM will work together at the Roger F. Wicker Center for Ocean Enterprise to develop innovative edge-deployed software for unmanned systems that allows them to adapt undersea warfare mi
+July 16, 2025 11:10 ET | Source: Integer Technologies Integer Technologies
+
+---
+
+Integer and USM will work together at the Roger F. Wicker Center for Ocean Enterprise to develop innovative edge-deployed software for unmanned systems that allows them to ad
 
 ## Open roles (Blitz, live)
 - Principal Engineer – Autonomous Systems ({'city': 'West Baton Rouge', 'country_code': 'US'})

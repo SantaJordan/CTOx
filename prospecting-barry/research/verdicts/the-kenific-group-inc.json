@@ -1,0 +1,16 @@
+{
+  "company": "The Kenific Group, Inc. (dba Pantheon Data)",
+  "slug": "the-kenific-group-inc",
+  "domain": "pantheon-data.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "Genuine DoD motion (Navy SBIR, USCG/DoD/DHS program support per own site) but the company is explicitly a professional-services/IT-consulting firm: 'Pantheon Data delivers powerful professional services solutions to federal and commercial clients—from IT and cybersecurity to engineering and consulting' with '30+ Programs supported across the DoD and DHS' and '100% of all USCG Major Acquisition Programs supported' as staffing/consulting metrics.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Government IT/cybersecurity/engineering/logistics consultancy (rebranded The Kenific Group to Pantheon Data) that staffs and supports 30+ DoD/DHS/USCG programs — a services shop, not a product company."
+}

@@ -1,0 +1,16 @@
+{
+  "company": "Rilian",
+  "slug": "rilian",
+  "domain": "rilian.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "Genuine DoD/allied-government motion is real (UAE CPX Holding critical-infrastructure contract, $17.5M seed to 'advance agentic AI for cyber and defense operations,' channel notes confirm sales to U.S. and allied governments), but the company self-identifies twice as a systems integrator: 'Rilian is an agentic systems integrator and technology provider' (About Us / LinkedIn about), and its Armory offering is explicitly a curated/pre-integrated COTS+GOTS reseller layer rather than a single fielded product.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Self-described agentic systems integrator selling Caspian (AI security orchestration platform), DawnTreader (sovereign/air-gapped deployment and compliance engine), and Armory (curated COTS/GOTS toolset) to government and critical-infrastructure customers."
+}

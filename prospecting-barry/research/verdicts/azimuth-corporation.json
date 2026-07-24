@@ -1,0 +1,16 @@
+{
+  "company": "Azimuth Corporation",
+  "slug": "azimuth-corporation",
+  "domain": "azimuth-corp.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "Deep DoD motion (Air Force SBIR/AFRL photonics, CENTCOM CHLOE task order; news section) but Azimuth is a ~136-person professional-services/R&D-support firm now owned by Core4ce with a $196M AFRL contract ceiling — a services prime operating at scale.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Woman-owned government-services and R&D-support contractor (ISR, program/installation management, AI/ML lab) in Beavercreek OH; acquired by Core4ce, running $100M+ AFRL contracts."
+}

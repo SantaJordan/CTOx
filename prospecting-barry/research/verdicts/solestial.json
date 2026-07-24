@@ -1,0 +1,20 @@
+{
+  "company": "Solestial",
+  "slug": "solestial",
+  "domain": "solestial.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "SpaceWERX Direct-to-Phase II contract ($1.2M, July 2025) to develop a multiorbital solar array wing for small satellites, confirmed by SpaceNews and Solestial's own press release.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "Own homepage: '11+ Cumulative years of flight heritage, 7 Spacecraft flying our products' -> already fielded, not a stuck prototype",
+    "Acquired outright by York Space Systems, deal closed June 4, 2026 per their own newsroom -> already operational / no longer an independent target",
+    "Product is a manufactured hardware component (solar cell/module), also a hardware-only manufacturer with production-line hiring (Process Technician, PV Manufacturing Manager) rather than a deployment-architecture problem"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "unknown",
+  "what_they_do": "Manufactures radiation-hardened, self-annealing silicon solar cells and power modules for spacecraft, already flying on 7 satellites and recently acquired by York Space Systems."
+}

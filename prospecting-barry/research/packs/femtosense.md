@@ -380,14 +380,20 @@ Share
 With funding led by Fine Structures Ventures, company expected to deliver ‘orders of magnitude more efficient,’ and more affordable AI processing for edge devices used in hearing aids, earbuds, security
 
 SAN BRUNO, Calif.--(BUSINESS WIRE)--Edge AI innovator Femtosense today announced an $8 million Series A funding round led by Fine Structures Ventures
-- Femtosense raises capital to power the AI inside of consumer electronics | TechCrunch (2022-09-28) https://techcrunch.com/2022/09/28/femtosense-raises-capital-to-power-the-ai-inside-of-consumer-electronics/
-  Femtosense raises capital to power the AI inside of consumer electronics | TechCrunch
+- Femtosense Bring Affordable AI Products Closer to Reality with First Silicon - femtoAI () https://femto.ai/press_releases/2022-12-21/
+  Skip to main content Skip to footer
 
-# Femtosense raises capital to power the AI inside of consumer electronics
+Press Releases
 
-7:00 AM PDT · September 28, 2022
+### December 21, 2022
 
-Large AI systems like OpenAI’s GPT-3 might grab headlines, but the practical limitations of power consumption and cost — not capabilities — often determine where AI is deployed. For the most part, highly capable systems are relegated to the cloud because they’re too complex to run on edge devices with 
+# Femtosense Bring Affordable AI Products Closer to Reality with First Silicon
+
+FOR RELEASE ON DECEMBER 21, 2022
+
+At CES 2023, the company will demonstrate compelling audio applications with highly efficient, real-time artificial intelligence (AI) processing with low power, low cost requirements
+
+SAN BRUNO, California—December 21, 2022— Edge AI innovator Femtosense today announced the arrival and successful testing of it
 
 ## Open roles
 (no jobs data found)

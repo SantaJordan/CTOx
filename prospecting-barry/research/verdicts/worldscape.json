@@ -1,0 +1,38 @@
+{
+  "company": "Worldscape",
+  "slug": "worldscape",
+  "domain": "worldscape.ai",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own press release (2026-03-04) states the seed round accelerates 'AI-Native Geospatial Intelligence for Defense and Enterprise'; News section confirms selection for the 2026 Catalyst Accelerator Program (2025-11-07) 'to Advance AI-Enabled ISR for US Space Force's Delta 7.'",
+  "disconnect_score": 88,
+  "subscores": {"lab_language_intensity": 18, "deployment_awareness_absence": 18, "operator_absence": 16, "hiring_profile_skew": 20, "stage_pressure": 16},
+  "score_evidence": [
+    "'Worldscape leverages AI-driven decision-making to weave all your data together to visualize, model, simulate, and swiftly act in real-time, at infinite scale' and 'automating complex supply chains and kill chains' → lab_language_intensity",
+    "Discusses 'cloud-to-edge workloads' only in the abstract ('Worldscape migrates to you') with zero mention of DDIL/ATO/RMF/CMMC/ITAR/STIG anywhere across ~1350 words, despite offering 'Government & Defense Pricing' → deployment_awareness_absence",
+    "Only 'military leaders' appear ('empowers military leaders to evaluate multiple courses of action... optimize mission planning') — no operators, warfighters, training, or CONOPS mentioned → operator_absence",
+    "8 of 10 open roles are game-engine/full-stack hires (Principal Game Engine Engineer, Principal Game Engine Team Lead, Senior/Game Engine Engineer, Junior Game Developer, Principal Full Stack Software Engineer - Game Studio) with zero field/compliance/ISSO roles → hiring_profile_skew",
+    "$6M seed closed 2026-03-03 with a 30-40 person team, product still 'in private preview,' pricing 'Coming Soon,' and a defense capability still routed through an accelerator (Catalyst, selected Nov 2025) rather than a program → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "'Real-time... at infinite scale' Common Operating Picture claims never address what happens when forward nodes lose connectivity to the data fabric.",
+     "operator_reality": "Same failure mode as the canonical 30fps crowd-detection case: a 'swiftly act in real-time' promise built for cloud-connected enterprise data streams has no described degraded mode for a DDIL tactical edge.",
+     "why_likely_missing": "Platform originated from video-game engine and enterprise digital-twin use cases (logistics, telecom, data centers) where continuous connectivity is a safe assumption; the defense narrative was layered on afterward.",
+     "evidence_quote": "Worldscape leverages AI-driven decision-making to weave all your data together to visualize, model, simulate, and swiftly act in real-time, at infinite scale.",
+     "quote_source": "homepage"},
+    {"blind_spot": "Offers 'Government & Defense Pricing' while the product itself is still 'currently in private preview' with no ATO/RMF/IL4-5 language anywhere.",
+     "operator_reality": "A program office can't put a private-preview SaaS product loaded with 'kill chain' automation language onto a government network without an accreditation story — none exists yet in public materials.",
+     "why_likely_missing": "The company is selling the defense use case ahead of building the compliance infrastructure to actually deliver it — common at this pre-GA, accelerator stage.",
+     "evidence_quote": "For Government & Defense Pricing: Contact Us ... We are currently in private preview.",
+     "quote_source": "homepage (pricing page)"},
+    {"blind_spot": "Every visible open role is a game-engine or full-stack software hire; none address field integration, ISSO/compliance, or DoD program delivery, despite pursuing a Space Force Delta 7 ISR accelerator slot.",
+     "operator_reality": "Building 'kill chain' automation and Common Operating Picture tooling for Space Force requires someone who owns the accreditation and integration path onto government systems — the current hiring plan is entirely building the simulation engine, not fielding it.",
+     "why_likely_missing": "Team composition reflects the company's origin building game-engine-based simulation technology; the DoD go-to-market motion is newer than the core engineering org.",
+     "evidence_quote": "Principal Game Engine Engineer, Platform / Junior Game Developer / Principal Full Stack Software Engineer - Game Studio",
+     "quote_source": "job_post"}
+  ],
+  "opener_hook": "Worldscape's Catalyst Accelerator slot targets Space Force Delta 7 ISR, but all ten open roles are game-engine and full-stack hires — worth asking who owns the ATO conversation.",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "AI-native geospatial 'data fabric' / agentic simulation platform built on video-game-engine technology, positioned for defense ISR, mission planning, and enterprise decision support."
+}

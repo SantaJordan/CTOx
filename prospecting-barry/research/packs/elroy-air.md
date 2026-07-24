@@ -152,18 +152,6 @@ An additional $36M in financing from Shield Capital, Marlinspike, Snowpoint, and
 At Elroy Air our mission is to improve quality of life around the planet by expanding the reach of expedited logistics via air cargo - safely, efficiently and autonomously. Our air cargo system features rotor-based vertical takeoff and landing (VTOL) and transitions to wing-based cruise flight for long range. We have designed a holistic logistics system with integrated flight and ground operations that make our vehicles a safe, efficient way to transport cargo by air.
 
 ## News (Exa, top 3)
-- Elroy Air Expands Partnership with US Air Force to ... (2020-12-17) https://elroyair.com/company/news/press-releases/us-airforce-partnership-expansion
-  Elroy Air Expands Partnership with US Air Force to Advance its Chaparral VTOL Platform to Acquisitions
-
-Press Release
-
-# Elroy Air Expands Partnership with US Air Force to Advance its Chaparral VTOL Platform to Acquisitions
-
-Published: December 17, 2020
-
----
-
-San Francisco, California, December 18, 2020 — Elroy Air, an aerospace and logistics company developing Vertical Take-Off and Landing (VTOL) aerial cargo systems, announced that it has won a Phase 3 Small Business Innovation Research (SBIR)
 - Elroy Air, Inc () https://www.sbir.gov/portfolio/1425083
   Firm | SBIR Skip to main content
 
@@ -226,6 +214,10 @@ Estimated reading time 7 minutes, 47 seconds.
 San Francisco-based Elroy Air has landed a Phase 3 Small Business Innovation Research (SBIR) contract from the U.S. Air Force that will help operationalize its hybrid-electric VTOL cargo drone, Chaparral.
 
 The amount of the contract has not yet been announced, but is expected to be greater tha
+- Leidos and Elroy Air to demonstrate autonomous aerial resupply drone for U.S. Marine Corps (2024-05-14) https://www.prnewswire.com/news-releases/leidos-and-elroy-air-to-demonstrate-autonomous-aerial-resupply-drone-for-us-marine-corps-302144359.html
+  Leidos and Elroy Air to demonstrate autonomous aerial resupply drone for U.S. Marine Corps Accessibility Statement Skip Navigation
+
+RESTON, Va., May 14, 2024 /PRNewswire/ -- Leidos(NYSE: LDOS), a FORTUNE® 500 innovation company, and Elroy Air, an autonomous aircraft systems and software development company, have been approved to demonstrate an autonomous Medium Aerial Resupply Vehicle – Expeditionary Logistics (MARV-EL) prototype for the Navy and Marine Small Tactical Unmanned Aircraft Systems p
 
 ## Open roles (Blitz, live)
 - Flight Test Engineer ({'city': 'Byron', 'country_code': 'US'})

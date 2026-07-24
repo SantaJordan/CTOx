@@ -276,16 +276,6 @@ Static peer
 TerraKinesis builds PULSE — embedded software that guarantees message delivery at scale across complex military and commercial edge environments. Modern tactical networks break under load. Standard solutions top out at roughly 20 nodes in self-healing mesh networks. NORM-based approaches cap near 150. Neither was designed for the scale, speed, or chaos of real-world edge operations. PULSE changes that. It delivers guaranteed messages in node complex meshes with 167–833x lower repair latency than existing alternatives, running on roughly lines of bare-metal code. PULSE is not a replacement for 
 
 ## News (Exa, top 3)
-- terrakinesis (2026-06-20) https://terrakinesis.com/
-  # TerraKinesis
-
-TerraKinesis is a Embedded Software Products company. TerraKinesis employs 4 people, founded in 2026. Headquartered in Detroit, Michigan, United States.
-
-## About
-
-TerraKinesis builds PULSE — embedded software that guarantees message delivery at scale across complex military and commercial edge environments.
-
-Modern tactical networks break under load. Standard solutions top out at roughly 20 nodes in self-healing mesh networks. NORM-based approaches cap near 150. Neither was desi
 - PULSE Reduces Network Overhead by 60% at Fort Bragg | TerraKinesis posted on the topic | LinkedIn (2026-06-23) https://www.linkedin.com/posts/terrakinesis_casestudy-260623-activity-7475255419804774401-5XF-
   PULSE Reduces Network Overhead by 60% at Fort Bragg | TerraKinesis posted on the topic | LinkedIn
 
@@ -306,24 +296,28 @@ TerraKinesis
 - Report this post
 
 Last week at Fort Bragg, the U.S. Army documented an inconvenient truth: push TCP/IP past 20 nodes 
-- African defense tech Terra Industries, founded by two Gen Zers, raises additional $22M in a month | TechCrunch (2026-02-16) https://techcrunch.com/2026/02/16/terra-industries-raises-22-million/
-  African defense tech Terra Industries, founded by two Gen Zers, raises additional $22M in a month | TechCrunch
+- Chrissy McGarry - Co-Founder, President & CEO | Defense Tech (2026-07-18) https://www.linkedin.com/in/ckmcgarry
+  # Chrissy McGarry
 
-Image Credits:Terra
+Co-Founder, President & CEO | Defense Tech | Edge C2 | Autonomy
 
-Startups
+Detroit Metropolitan Area (US)
 
-Copy Share Link
+500 connections • 6,109 followers
 
-# African defense tech Terra Industries, founded by two Gen Zers, raises additional $22M in a month
+## About
 
-Dominic-Madori Davis
+Hi, I’m Chrissy McGarry — a proven operator, board leader, and former Chief Operating Officer of Second Front (2F), a venture-backed national security software company. I helped scale the business from inception to now a $750M+ valuation, transforming from what began as a services-led offering evolved into a software solution and ultimat
+- terrakinesis (2026-06-20) https://terrakinesis.com/
+  # TerraKinesis
 
-12:01 AM PST · February 16, 2026
+TerraKinesis is a Embedded Software Products company. TerraKinesis employs 4 people, founded in 2026. Headquartered in Detroit, Michigan, United States.
 
-Copy Share Link
+## About
 
-Just one month after raising $11.75 million in a round led by Joe Lonsdale’s 8VC, African defense tech Terra Industries announced that it has raised an additional $22
+TerraKinesis builds PULSE — embedded software that guarantees message delivery at scale across complex military and commercial edge environments.
+
+Modern tactical networks break under load. Standard solutions top out at roughly 20 nodes in self-healing mesh networks. NORM-based approaches cap near 150. Neither was desi
 
 ## Open roles
 (no jobs data found)

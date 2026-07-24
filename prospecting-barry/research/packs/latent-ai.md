@@ -261,6 +261,14 @@ News
 ## Award Builds on Success of Project AMMO, Highlighting DoD’s Agile Approach to Technology Adoption
 
 PRINCETON, N.J. — April 23, 2025 — Latent AI, a leader in edge AI solutions for national security and defense, today announced its selection by the U.S. Department of Defense (DoD) for the Accel
+- Pentagon backs Latent AI to sharpen battlefield intelligence at the edge | Edge Infrastructure Review (2025-04-30) https://www.edgeir.com/pentagon-backs-latent-ai-to-sharpen-battlefield-intelligence-at-the-edge-20250430
+  Pentagon backs Latent AI to sharpen battlefield intelligence at the edge | Edge Infrastructure Review
+
+# Pentagon backs Latent AI to sharpen battlefield intelligence at the edge
+
+Latent AI, a leader in edge AI solutions, has been selected by the U.S. Department of Defense (DoD) for the APFIT program to advance edge AI technologies for defense applications.
+
+The award builds on the success of Project AMMO, which reduced AI model update times from months to days using Latent AI’s Efficient Inferen
 - Latent AI Clears All Gates in U.S. Army Operation Jailbreak, Extends FTS Validation to Counter-UAS and Drone Autonomy - Latent AI (2026-07-16) https://latentai.com/news/latent-ai-clears-all-gates-in-u-s-army-operation-jailbreak-extends-fts-validation-to-counter-uas-and-drone-autonomy/
   Latent AI Clears All Gates in U.S. Army Operation Jailbreak, Extends FTS Validation to Counter-UAS and Drone Autonomy - Latent AI
 
@@ -271,14 +279,6 @@ News
 ### Field Tactical Suite proven on Lattice C2, NATO coalition stack, and unfamiliar partner hardware in three independent field tests
 
 PRINCETON, N.J. — July 16, 2026 — Latent AI, a leader in delivering mission-critical intelligence at the ta
-- Pentagon backs Latent AI to sharpen battlefield intelligence at the edge | Edge Infrastructure Review (2025-04-30) https://www.edgeir.com/pentagon-backs-latent-ai-to-sharpen-battlefield-intelligence-at-the-edge-20250430
-  Pentagon backs Latent AI to sharpen battlefield intelligence at the edge | Edge Infrastructure Review
-
-# Pentagon backs Latent AI to sharpen battlefield intelligence at the edge
-
-Latent AI, a leader in edge AI solutions, has been selected by the U.S. Department of Defense (DoD) for the APFIT program to advance edge AI technologies for defense applications.
-
-The award builds on the success of Project AMMO, which reduced AI model update times from months to days using Latent AI’s Efficient Inferen
 
 ## Open roles
 (no jobs data found)

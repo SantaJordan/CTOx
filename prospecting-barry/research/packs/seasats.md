@@ -370,10 +370,6 @@ Seasats builds long-endurance autonomous surface vessels for defense, commercial
 
 
 ## News (Exa, top 3)
-- Seasats Awarded $24M in Department of War APFIT Funding to Accelerate Fielding of its Autonomous Surface Vessels (2026-01-15) https://www.prnewswire.com/news-releases/seasats-awarded-24m-in-department-of-war-apfit-funding-to-accelerate-fielding-of-its-autonomous-surface-vessels-302662524.html
-  Seasats Awarded $24M in Department of War APFIT Funding to Accelerate Fielding of its Autonomous Surface Vessels Accessibility Statement Skip Navigation
-
-SAN DIEGO, Jan. 15, 2026 /PRNewswire/ -- Seasats, a leading developer of long-endurance autonomous surface vessels (ASVs), today announced that it was selected by the Department of War (DoW) to receive an award under the Accelerate the Procurement and Fielding of Innovative Technologies (APFIT) program. The $24M award, made by recommendation of
 - Seasats awarded $24M in FY-26 APFIT funding | InsideDefense.com () https://insidedefense.com/insider/seasats-awarded-24m-fy-26-apfit-funding
   Seasats awarded $24M in FY-26 APFIT funding | InsideDefense.com
 
@@ -401,6 +397,10 @@ Search
 Seasats' Lightfish autonomous surface vessel. (Photo: Seasats)
 
 Seasats on Thursday said it has received a $24 million award from the Defense Department to accelerate and scale production of the Lightfish autonomous surveillance vessel. The award was part of more than $400 million in Accelerate the Procurement and Fielding of Innovativ
+- Seasats Awarded $24M in Department of War APFIT ... (2026-01-15) https://www.prnewswire.com/news-releases/seasats-awarded-24m-in-department-of-war-apfit-funding-to-accelerate-fielding-of-its-autonomous-surface-vessels-302662524.html
+  Seasats Awarded $24M in Department of War APFIT Funding to Accelerate Fielding of its Autonomous Surface Vessels Accessibility Statement Skip Navigation
+
+SAN DIEGO, Jan. 15, 2026 /PRNewswire/ -- Seasats, a leading developer of long-endurance autonomous surface vessels (ASVs), today announced that it was selected by the Department of War (DoW) to receive an award under the Accelerate the Procurement and Fielding of Innovative Technologies (APFIT) program. The $24M award, made by recommendation of
 
 ## Open roles (Blitz, live)
 - Mechanical Engineering Intern ({'city': 'San Diego', 'country_code': 'US'})

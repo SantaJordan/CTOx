@@ -224,46 +224,6 @@ CQD Sensor Technology
 SWIR Vision Systems Inc, a North Carolina based startup company launched from RTI International, is developing and commercializing a novel, breakthrough image sensor technology, delivering affordable, infrared imaging cameras with full HD resolution. The company\'s AcurosTM cameras provide high clarity, Vis-SWIR band images with superior performance and value when applied to industrial machine vision, security, agricultural imaging, and other advanced vision systems applications. For more information, visit
 
 ## News (Exa, top 3)
-- SBIR See Spot Quantum Dot Detector (SEEQD2) () https://www.highergov.com/contract/W5170124C0069/
-  SBIR See Spot Quantum Dot Detector (SEEQD2)
-
-HigherGov
-
-Pipeline
-
-FOIA
-
-Track
-
-Favorite
-
-No Bid
-
-Export
-
-- CSV
-- Excel
-
-Share
-
-- Copy URL
-- Email
-- Tweet
-
-Search Prime Contracts Open Help Docs
-
-# W5170124C0069
-
-Definitive Contract
-
-- List
-- Text
-
-## Overview
-
-Government Description
-
-SBIR phase II award to swir vision systems for SEE Spot Quantum DOT Detector (SEEQD2), low-cost swir laser sensor, for the U.S. Army command, control, communications, computers, Cyber, Intelligence, Surveillance And 
 - Project Objec�ves and Innova�on () https://www.swirvisionsystems.com/wp-content/uploads/2024/01/SBIR-Announcment-01052024.pdf
   Copyright © 2023 SWIR Vision Systems. All rights reserved. • www.swirvisionsystems.com • 3021 Cornwallis Rd, Durham, NC 27709
 
@@ -281,6 +241,20 @@ award. This pres�gious grant undersco
 Acuros 1920 GigE 001 imaging 15 µm laser spot on a NATO test target at 2000 metersFull resolution image with RGB camera and SWIR image cropped to highlight region of interest
 
 SWIR Acuros® CQD® Cameras capture images beyond the visible spectrum, allowing for detection of objects and details that are invisible to the human eye. This feature is particularly valuable in situations where stealth and concealment are critical, such as
+- FOR IMMEDIATE RELEASE Contact: () https://www.swirvisionsystems.com/wp-content/uploads/2023/09/SWIR-Vision-Systems-Lower-Cost-Announcement_June-2023_F2-2.pdf
+  SWIR Vision Systems Press Release June 13 th, 2022
+
+## FOR IMMEDIATE RELEASE Contact:
+
+Amy Gill SWIR Vision Systems Inc. [email]
+
+## SWIR Vision Systems Introduces Lower Cost SWIR Cameras for Global Industrial,
+
+## Scientific and Defense Infrared Imaging Markets
+
+Quantum Dot-based SWIR sensing continuing to penetrate multiple high growth infrared markets
+
+RESEARCH TRIANGLE PARK, NC, June 13, 2023 – SWIR Vision Systems today announces the availability of new lower cost SWIR ca
 
 ## Open roles
 (no jobs data found)

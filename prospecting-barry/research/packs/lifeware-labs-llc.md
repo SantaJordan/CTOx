@@ -194,36 +194,14 @@ Lifeware Labs is a wearable electronics company specializing in medical devices 
 There is a current operational need to support combat medics in austere environments. Special forces often conduct operations that involve prolonged mission times or far-forward deployments. Casualties accrued during a mission are therefore afforded limited vitals monitoring and treatment options until evacuation. In response, the Air Force Research Laboratory (AFRL) has launched a software platform intended for multi-casualty care and triage called Battlefield Assisted Trauma Distributed Observation Kit (BATDOK), an Android app that is currently deployed with Pararescue Jumpers (PJs) and Army Rangers. BATDOK can also pair with medical devices to stream real-time vitals to the medic, as well as over tactical radio to additional medical personnel. Ideally, a casualty’s vitals are measured as soon as is safely possible for the purposes of triage and administering care. However, creating a complete picture of the casualty’s health shortly after injury is often difficult due to the need for large gold-standard equipment, such as a patient monitor, which is typically available later at either Role 2 (forward medical station) or Role 3 (field hospital) facilities. Conversely, small equipment such as a finger pulse oximeter is indeed portable and easy-to-use but offers limited value for diagnostic purposes. Of more significance and impact would be a measure of vital signs including blood pressure near the point of injury since exsanguination is the leading cause of death on the battlefield [1]. This void in technology in the marketplace may be a symptom of the difficulty of measuring blood pressure without the use of a sphygmomanometer or arterial line. However, recent efforts by both academic institutes and large consumer electronics companies suggest this advancement may be fieldable soon [2]. Through prior DoD funding, Lifeware Labs has developed a wearable chest patch intended for Combat Casualty Care called the Apollo Monitor. The patch measures continuous single-lead electrocardiogram, pulse oximetry, temperature, and motion. Lifeware Labs has partnered with AFRL and the 711th Human Performance Wing, and has fully integrated the Apollo Monitor with BATDOK. Building on this work, the proposed scope of work is to collect valuable real-world data from trauma patients for the specific purpose of building a machine learning algorithm for blood pressure and health classification. We propose to partner with UAB Hospital to collect Apollo data and ground truth data simultaneously from patients in a prehospital environment enroute to the UAB Trauma Emergency Department (ED); this patient population is uniquely adjacent in physiology to that expected of combat casualties. These advancements would greatly simplify the amount of medical equipment needed for understanding the physiology of a casualty, and allow for greatly improved care at point-of-injury.   [1] Eastridge et al, J Trauma 2011 [2] Zheng et al, J Med Syst 2016
 
 ## News (Exa, top 3)
-- Award | SBIR () https://www.sbir.gov/awards/208893
-  Award | SBIR Skip to main content
+- Defense Award | HT942524P0119 | PROPATCH WEARABLE MONITOR AND DISPOSABLE ELECTRODES FOR THE TELEMEDICINE ADVANCED TECHNOLOGY RESEARCH CENTER () https://www.federalcompass.com/award-contract-detail/HT942524P0119
+  Defense Award | HT942524P0119 | PROPATCH WEARABLE MONITOR AND DISPOSABLE ELECTRODES FOR THE TELEMEDICINE ADVANCED TECHNOLOGY RESEARCH CENTER
 
-# Award
+# HT942524P0119 - PROPATCH WEARABLE MONITOR AND DISPOSABLE ELECTRODE...
 
-Portfolio Data
+##### Federal Contract Award Search » Purchase Order Award
 
-Back to Award Search
-
-## Augmenting ProPatch, a BATDOK-Integrated Compact Patient Monitor, with Compensatory Reserve Measure using Physiological Simulator
-
-### Awardee
-
-#### LIFEWARE LABS LLC
-
-https://www.sbir.gov/portfolio/1317801 201 N BRADDOCK AVE SUITE 303PITTSBURGH, PA, 15208-2598USA
-
-Award Year: 2024
-
-UEI: QBT2ZA8C95C8
-
-HUBZone Owned: No
-
-Woman Owned: No
-
-Socially and Economically Disadvantaged: No
-
-Congressional District: 18
-
-Tag
+This Purchase Order contract for Medical Equipment & Supplies Medical Supplies/Equipment was awarded in FY2024 on Aug 14, 2024 to LIFEWARE LABS, LLC by Defense Health Agency. There have been $33k in obligations to date with a
 - SBIR 
   
   Augmenting ProPatch, a BATDOK-Integrated Compact Patient Monitor, with Compensatory Reserve Measure using Physiological Simulator () https://www.highergov.com/contract/FA864924P0440/
@@ -268,14 +246,10 @@ Know First Find opportunities months earlier with HigherGov forecasts Free Trial
 Government Description
 
 Augmenting propatch, a batdok-integrated
-- Defense Award | HT942524P0119 | PROPATCH WEARABLE MONITOR AND DISPOSABLE ELECTRODES FOR THE TELEMEDICINE ADVANCED TECHNOLOGY RESEARCH CENTER () https://www.federalcompass.com/award-contract-detail/HT942524P0119
-  Defense Award | HT942524P0119 | PROPATCH WEARABLE MONITOR AND DISPOSABLE ELECTRODES FOR THE TELEMEDICINE ADVANCED TECHNOLOGY RESEARCH CENTER
+- lifeware labs (2026-06-28) https://lifewarelabs.com/
+  # Lifeware Labs (Lifeware Labs, LLC)
 
-# HT942524P0119 - PROPATCH WEARABLE MONITOR AND DISPOSABLE ELECTRODE...
-
-##### Federal Contract Award Search » Purchase Order Award
-
-This Purchase Order contract for Medical Equipment & Supplies Medical Supplies/Equipment was awarded in FY2024 on Aug 14, 2024 to LIFEWARE LABS, LLC by Defense Health Agency. There have been $33k in obligations to date with a
+Lifeware Labs is a Medical Equipment Manufacturing company. Lifeware Labs is a company that specializes in patient monitoring. They offer a new paradigm in patient monitoring, including propatch™, a pocket-sized patient monitor, video anchor, wireless and por-table patient monitor, and a central monitoring made easy. They also provide machine learning models to identify when patients are stable and when they require immediate intervention. The company is B2B
 
 ## Open roles (Blitz, live)
 - Government Sales Manager ({'city': None, 'country_code': 'US'})

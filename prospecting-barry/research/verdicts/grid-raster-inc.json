@@ -1,0 +1,45 @@
+{
+  "company": "GridRaster Inc",
+  "slug": "grid-raster-inc",
+  "domain": "gridraster.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Unambiguous — homepage 'INDUSTRY RECOGNITION' lists '2024 Strategic Funding Increase (STRATFI award) by the US Air Force', '2025 US Army xTechSearch 9 Award', 'OSD's Organic Industrial Bases (OIB) Modernization Challenges' and 'GridRaster equips HIMARS with XR Paint Masking', backed by Air Force Phase II SBIR abstracts and a DoD definitive contract (PIID FA857123C0017) on USAspending.",
+  "disconnect_score": 65,
+  "subscores": {"lab_language_intensity": 17, "deployment_awareness_absence": 13, "operator_absence": 11, "hiring_profile_skew": 10, "stage_pressure": 14},
+  "score_evidence": [
+    "'ACHIEVE XR-READY CONTENT 10X FASTER WITH 1/10TH OPERATIONAL COST' and 'Experience high-fidelity 3D scenes with near-zero latency' → lab_language_intensity",
+    "'Unrivaled Real-Time Performance' / 'Limitless Scalability' / 'Streams high-polygon 3D meshes instantly' → lab_language_intensity (benchmark bragging with no operational framing)",
+    "Compliance is asserted but never named: 'Cybersecure by Design — Fully compliant with DevSecOps and government cybersecurity standards' with no ATO, RMF, IL4/IL5, STIG, CMMC, NIST 800-171 or ITAR anywhere in ~1,322 words → deployment_awareness_absence",
+    "Maintenance is described as workflows and overlays — 'Intuitive AR overlays for complex tasks', 'Guided instructions for inspection, installation, and removal' — with no depot artisan, training pipeline, sustainment or field-feedback language → operator_absence",
+    "No jobs data in pack, so hiring_profile_skew is set to exactly 10 by rule",
+    "Founded 2014, ~30 employees, a 2024 STRATFI period of performance running, and still taking new Phase I awards in 2024 and 2025 ('Award Year: 2025 ... SBIR Phase I') → stage_pressure: still on the SBIR ladder eleven years in, with a transition clock running"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The whole architecture bets on a low-latency link between the headset and a cloud/on-prem render farm, in exactly the buildings that will not provide one",
+      "operator_reality": "Depot maintenance bays, paint hangars and flight lines are metal, RF-hostile and often shielded; base networks are congested NIPRNet with GovCloud round trips measured in hundreds of milliseconds. A HoloLens waiting on a streamed high-polygon mesh over that path shows the artisan a frozen overlay on a live aircraft. This is the 30fps crowd-detection failure mode with meshes instead of frames — the fix is decoupling fidelity from the link (local cached LOD, deltas only), and it has to be designed in before the STRATFI period ends, not after the first hangar trial.",
+      "why_likely_missing": "The platform's entire differentiation is that rendering happens off-device — the company has explicitly argued the edge device cannot do it, so the connectivity assumption is load-bearing to the product story and cannot be questioned from inside.",
+      "evidence_quote": "These levels of visual fidelity and performance are impossible to achieve when processing models on the edge device itself.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Ingesting weapon-system technical data while running an engineering office in India, with no ITAR or 800-171/CMMC language anywhere",
+      "operator_reality": "HIMARS paint-masking geometry and WR-ALC PLM/CAD data are ITAR-controlled technical data. Access by foreign persons — including their own engineers in Bengaluru — is an export event, and the government's flow-down requires NIST 800-171/CMMC on the systems that hold it. A program office or DCMA review stops the transition on the compliance package long before the technology is the issue, and the remediation (segregated US-person enclave, access controls, a documented technology control plan) takes months the period of performance does not have.",
+      "why_likely_missing": "The company's core identity is industrial/commercial spatial computing where global engineering is a cost advantage; the defense work arrived as projects on top of that org chart, so nobody re-architected data residency for controlled technical data.",
+      "evidence_quote": "INDIA OFFICE:#5, 3rd Floor, 9th Main Road, 5th Block, Jayanagar, Bengaluru, Karnataka – 560041, India",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The delivery device is a head-mounted display, with no sustainment, training or device-logistics story for the person wearing it all shift",
+      "operator_reality": "A depot artisan works in gloves, safety glasses and — in a paint booth — a respirator, for eight hours. HoloLens and Vision Pro do not survive that: battery swaps, hygiene, prescription/PPE eyewear conflicts, drop damage, and a spares pipeline nobody has funded. Adoption is decided by the shop chief who has to staff and sustain it, not by the engineer who demos it for twenty minutes, and there is no advocacy chain above that shop chief in anything they publish.",
+      "why_likely_missing": "Their proof points are technology awards and manufacturing-innovation prizes, which are won on capability demonstrations; nothing in that feedback loop rewards thinking about spares, PPE compatibility or who trains the second shift.",
+      "evidence_quote": "Supports Apple Vision Pro, iOS, Microsoft HoloLens, Android XR",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "GridRaster's platform page states that this level of fidelity is 'impossible to achieve when processing models on the edge device itself' — which makes the depot network, not the AI, the thing that decides whether the WR-ALC paint-masking work becomes a fielded capability.",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Cloud/edge-streamed spatial AI and XR platform (SPIDER) that builds digital twins and guides inspection, maintenance and paint masking for aerospace and defense depots."
+}

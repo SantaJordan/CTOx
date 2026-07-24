@@ -1,0 +1,45 @@
+{
+  "company": "Hyssos Tech LLC",
+  "slug": "hyssos-tech-llc",
+  "domain": "hyssos.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Their own site and products are explicitly military — 'lets warfighters develop Courses of Action (COA)... capturing data as 2525/APP6 symbols, ready to be exported to simulators and C2 systems' — and the Esri partner listing in the news section identifies STP as 'the product of DARPA's \"Deep Green\" program'.",
+  "disconnect_score": 63,
+  "subscores": {"lab_language_intensity": 17, "deployment_awareness_absence": 17, "operator_absence": 5, "hiring_profile_skew": 10, "stage_pressure": 14},
+  "score_evidence": [
+    "'STP stays at the forefront of AI and LLM advancement by cutting edge R&D in a capability that we are calling Neuro-Symbolic Copilot.' → lab_language_intensity: the product roadmap is described as R&D, not as fielding",
+    "'STP empowers Cognitive Superiority... compressing the OODA loop by solving the COA creation bottleneck' → lab_language_intensity: benefit is stated entirely in doctrine-buzzword terms with no fielding, sustainment, or authorization framing",
+    "Across ~1433 words of detailed product description there is no mention of ATO, RMF, STIG, IL4/IL5, CMMC, ITAR, DDIL, or ATAK/TAK — despite the product being a situational-awareness planning tool that renders 2525/APP6 symbols → deployment_awareness_absence",
+    "'STPs microservices engine can be embedded into handheld, desktop or cloud applications.' → deployment_awareness_absence: cloud is offered as a deployment target for a tactical planning tool with no discussion of what happens when the link drops",
+    "'System proficiency becomes a function of the user's tactical and domain knowledge – not system unique training' and role-based editing for 'S2, S3, S4, FSO, Engineering' → operator_absence scored LOW: they genuinely understand the staff planner and the training burden",
+    "Two employees, founded 2017, no funding or award record in the pack → stage_pressure: a nine-year-old two-person company carrying a DARPA-heritage product with no visible transition vehicle"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The shipping workstation is an ArcGIS Pro extension, and ATAK is never mentioned",
+      "operator_reality": "STP for ArcGIS Pro requires a licensed Esri desktop on a Windows workstation — that is the garrison planning cell, not the forward CP or the end-user device. The planner who needs to modify a COA once the unit moves is holding an EUD running ATAK, and every US SA/C2 integration conversation eventually routes through the TAK ecosystem and CoT. A tool that produces 2525/APP6 symbols and never names TAK is choosing a distribution path that ends at the S3 shop's desktop; the plan then has to be re-entered by hand downstream, which is exactly the bottleneck the product claims to remove.",
+      "why_likely_missing": "The Esri partnership is the only channel a two-person company can realistically staff, and Esri's ecosystem pulls the roadmap toward the desktop. Nobody is funded to build and sustain a TAK plugin.",
+      "evidence_quote": "STP for ArcGIS Pro is a doctrine-based, natural input paradigm and technology, bypassing complex UIs by fusing prompts and sketch.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Speech is the primary input modality and nothing says where the recognizer runs",
+      "operator_reality": "The product's differentiator is fusing doctrinal speech with sketch. A forward CP is a tent with generators, radios, and people talking over each other; the planner wears a headset, is often not a native-accent speaker of the training corpus, and is on a link that may give kilobits. If any part of the ASR or the task-recognition service is a hosted microservice call, the interaction fails silently in exactly the environment the product is sold for — the same architecture assumption as the 30fps crowd-detection case, where the answer was decoupling from the link rather than better models. Nothing in their material commits to on-device inference or states a degraded-mode fallback.",
+      "why_likely_missing": "The capability was proven in demos and exercises where a laptop, a quiet room, and a network are all available; 'microservices architecture' is written as an engineering virtue, not audited as a connectivity dependency.",
+      "evidence_quote": "This is accomplished via Robust multimodal Natural Language Processing that fuses user's doctrinal speech and sketch for COA creation",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "An LLM in the COA loop turns plan content into an accreditation and spillage question",
+      "operator_reality": "GenSTP and the Neuro-Symbolic Copilot anchor an LLM with plan data — but COA and OPORD content is classified at least at the collateral level. That means the model has to be hosted inside the enclave (an on-prem or IL5/IL6-accredited service), the whole thing needs its own authorization boundary, and the vendor needs a CUI-capable posture to even develop against representative data. This is the single item most likely to make months-to-field exceed the funded months on any transition contract, and a two-person company has no visible ISSO, sponsor, or authorization path to absorb it.",
+      "why_likely_missing": "The LLM work is framed as R&D differentiation ('stays at the forefront of AI and LLM advancement'), so the question being asked internally is model quality, not where the weights are allowed to live.",
+      "evidence_quote": "Grounding Generative AI with STP plan data and leveraging doctrinal NLP for flexible input and Q&A",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Sketch-Thru-Plan came out of DARPA's Deep Green program and today ships as an ArcGIS Pro extension on Esri's partner marketplace — a licensed garrison desktop, while nothing in your material mentions TAK, where the planners downstream of that COA actually work.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Two-person shop selling Sketch-Thru-Plan, a speech-and-sketch natural-interface mission-planning tool (DARPA Deep Green heritage) that turns a planner's voice and pen strokes into 2525/APP6 COA products for C2 systems and simulators."
+}

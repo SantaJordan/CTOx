@@ -1,0 +1,25 @@
+{
+  "company": "SixMap",
+  "slug": "sixmap",
+  "domain": "sixmap.io",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Two DOD Phase II SBIR awards under their own name — Army 2023 'Next Generation Network Mapping' ($1,698,226) and USAF 2025 'Automated Cyber Defense for the USAF Network' ($1,237,484) — per SBIR.gov records and their own press release.",
+  "disconnect_score": 76,
+  "subscores": {"lab_language_intensity": 15, "deployment_awareness_absence": 17, "operator_absence": 16, "hiring_profile_skew": 16, "stage_pressure": 12},
+  "score_evidence": [
+    "'Cyber Fundamentals, Delivered At Machine Speed' / 'Every IP address is inspected on all 65,535 ports' → lab_language_intensity",
+    "'There is zero deployment and no effort needed from the customer... you provide us with your company name—and only your company name' → deployment_awareness_absence (no ATO/RMF/DDIL framing at all despite a live USAF network-defense SBIR)",
+    "Personas listed are exclusively 'CISO / SOC / Network / IT / GRC' → operator_absence (no operators, warfighters, training, or CONOPS anywhere)",
+    "Open roles: 4x 'Senior Customer Success Manager,' zero field/deployment/compliance/ISSO roles despite the active USAF Phase II award → hiring_profile_skew"
+  ],
+  "blind_spots": [
+    {"blind_spot": "The platform's entire onboarding promise is 'zero deployment' — you give SixMap your company name and it scans the public internet for you.", "operator_reality": "A USAF network-defense SBIR implies exposure assessment against segmented, classified, or air-gapped DoD network enclaves that don't present themselves to internet-facing recon the way a corporate cloud tenant does — the product's core method (external scan, no agent, no on-network footprint) may simply return nothing for the segments that actually need protecting.", "why_likely_missing": "Product was built and proven against commercial enterprise attack surfaces (Fortune 500, financial services) where 'no deployment' is the selling point; the team hasn't yet had to explain that promise against a DDIL or classified DoD boundary.", "evidence_quote": "There is zero deployment and no effort needed from the customer.", "quote_source": "linkedin_about"},
+    {"blind_spot": "Marketing claims comprehensive discovery 'across IPv4 and IPv6' and inspection of 'all 65,535 ports' on every host with zero mention of ATO/RMF, IL4/IL5, or CMMC for the platform itself.", "operator_reality": "Running continuous external reconnaissance against a USAF network as a SaaS vendor requires its own authorization boundary and likely classification handling — without ATO/RMF language, there's no visible plan for how SixMap itself gets authorized to touch what it's scanning.", "why_likely_missing": "The SBIR is fresh (Phase II awarded 2025) and the public-facing site still speaks entirely in commercial cyber-vendor language.", "evidence_quote": "Every IP address is inspected on all 65,535 ports and every domain is thoroughly assessed to uncover all exposures across your environment.", "quote_source": "homepage"},
+    {"blind_spot": "All four open roles are Customer Success Manager positions — none are field, compliance, ISSO, or deployment engineering roles.", "operator_reality": "A company actively executing a $1.24M USAF Phase II SBIR for network cyber defense is hiring exclusively for post-sale commercial account management, not for the accreditation/compliance/field-integration work a DoD network rollout requires — suggesting the SBIR deliverable and the commercial go-to-market are on separate tracks with no headcount bridging them.", "why_likely_missing": "Series A stage-pressure is pushing hiring toward proving commercial ARR (CS headcount) rather than DoD-specific deployment capability.", "evidence_quote": "Senior Customer Success Manager", "quote_source": "job_post"}
+  ],
+  "opener_hook": "SixMap's Phase II USAF SBIR ($1.24M, awarded 2025) funds 'Automated Cyber Defense for the USAF Network' — the platform's listed onboarding step is 'you provide us with your company name, and only your company name.'",
+  "confidence": "medium",
+  "stage_band": "series_a",
+  "what_they_do": "External attack-surface / preemptive exposure management SaaS (IPv4/IPv6 network discovery and vulnerability prioritization) sold to commercial CISOs and public-sector agencies, now adapting the platform to USAF network cyber defense under SBIR."
+}

@@ -1,0 +1,28 @@
+{
+  "company": "Columbus Nanoworks, Inc.",
+  "slug": "columbus-nanoworks-inc",
+  "domain": "columbusnanoworks.com",
+  "verdict": "drop",
+  "drop_reason": "sbir_mill",
+  "dod_intent_evidence": "Real but exclusively SBIR-shaped: an Air Force 2022 Phase II ($1,250,000) for the 'NV-Biosensor platform for quantum-based single molecule detection', and a LinkedIn about line — 'developing a quantum sensor for disease detection under contracts with the U.S. Air Force and National Cancer Institute'. No product, program, or non-SBIR defense customer appears anywhere.",
+  "disconnect_score": 0,
+  "subscores": {
+    "lab_language_intensity": 0,
+    "deployment_awareness_absence": 0,
+    "operator_absence": 0,
+    "hiring_profile_skew": 0,
+    "stage_pressure": 0
+  },
+  "score_evidence": [
+    "SBIR.gov firm record (news section): 'Year of first award: 2005 | 6 Phase I Awards | 4 Phase II Awards | 66.67% Conversion Rate | $1,657,190 Phase I Dollars | $3,941,351 Phase II Dollars | $5,598,541 Total' with 'Number of Employees: 4' → twenty-one years and $5.6M of federal R&D at four people; the award stream is the business model",
+    "The awards span unrelated agencies and topics — USAF quantum biosensing, NIH 'POSTURE ANALYSIS THROUGH MACHINE LEARNING (PATHML)' Phase I (HHS/NIH, $354,99x, 2023) — the pattern of a shop that writes to whatever topic is open rather than fielding one capability",
+    "'The deliverables for this project include results and reports on the design of the NV-Biosensor, a prototype point of care device for the NV-Biosensor, and a demonstration of the technology to the Air Force.' (sbir_abstract) → the contract's own end state is a report, a prototype, and a demo",
+    "Commercial product motion has been spun out rather than scaled: 'Columbus Nanoworks Now Offers Its Life Sciences and Biomedical Products Through Its Subsidiary' pointing to cymaris.com — the sellable thing is nanodiamond reagents for other people's research, not a fielded system",
+    "Own-language word count is ~713 (under the 1000 threshold) and the entire non-SBIR site copy is materials-science description of fluorescent diamonds — there is no product, roadmap, customer, or deployment surface to engage"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Four-person Columbus, Ohio lab that makes fluorescent nanodiamonds and is developing an NV-center quantum biosensor to detect biomarkers such as microRNA and cortisol at single-molecule sensitivity, funded by Air Force and NIH SBIRs since 2005."
+}

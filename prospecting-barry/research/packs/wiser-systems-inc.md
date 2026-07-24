@@ -270,14 +270,6 @@ Branch: SOCOM
 Total Award Amount: $1,298,434
 
 Cont
-- Military and Defense RTLS System (2026-05-04) https://wisersystems.com/military-and-defense-rtls-system/
-  Defense RTLS Solutions | WISER Systems
-
-# Military and Defense RTLS System
-
-WISER Systems delivers a proven military and defense RTLS system for precise asset visibility in the most demanding environments. Using advanced Ultra-Wideband (UWB) technology, our platform provides GPS-denied tracking that keeps mission-critical assets visible and secure at all times.
-
-Built with the military in mind, the WISER system operates securely on-premises and performs reliably across bases, depots, and field o
 - U.S. Navy Awards WISER Prize for Location, Navigation, and Timing Solution - Military Embedded Systems () https://militaryembedded.com/comms/gps/us-navy-awards-wiser-prize-for-location-navigation-and-timing-solution
   U.S. Navy Awards WISER Prize for Location, Navigation, and Timing Solution - Military Embedded Systems
 
@@ -288,6 +280,53 @@ March 26, 2021
 ## RALEIGH, NC, March 25, 2021 — This week NIWC Atlantic named WISER Systems, a leader in wireless location and tracking systems, a top prize winner for the Positioning, Navigation, and Timing (PNT) category in the U.S. Navy’s Palmetto Tech Bridge Prize Challenge 2021.
 
 Preceding the NIWC Atlantic award, WISER’s ground-breaking technology has garnered acclaim as 
+- Wiser Systems  (HMCBDKB2LN52) () https://www.highergov.com/awardee/wiser-systems-inc-10048465/
+  Wiser Systems (HMCBDKB2LN52) -- --
+
+HigherGov
+
+Notify
+
+- New Grant Awards
+- New Contract Awards
+
+Favorite
+
+Export
+
+- Excel
+- CSV
+
+Claim
+
+Share
+
+- Tweet
+- Email
+- Copy URL
+
+Search Awardees
+
+# Wiser Systems
+
+UEI: HMCBDKB2LN52 &#x2022 CAGE: 5B5N0
+
+- Text
+- List
+
+## Overview
+
+Parent Awardee
+
+Wiser Systems
+
+Federal Capability Statement
+
+Hardware/Software/Network
+
+Keywords
+
+Wireless mesh network, PNT, Ultra-Wideband, UWB, RTLS, real time locating, micro-location, IoT, asset tracking, localization, ind
 
 ## Open roles
 (no jobs data found)

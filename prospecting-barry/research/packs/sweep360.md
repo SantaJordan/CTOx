@@ -163,6 +163,30 @@ Together, we’ll redefine cyber-physical security for the AI age.
 As intelligent machines proliferate into every part of the physical world, humans still lack a defense layer to ensure the systems and devices we rely on remain aligned with us. Sweep is building that layer today.
 
 ## News (Exa, top 3)
+- Sweep 360 () https://sweep360.ai/
+  ## Join our Team
+
+# Sweep.
+
+# The Ubiquitous Defense Layer for the AI age.
+
+Open Positions (5) in New York, NY • Washington, DC • LA/SF, CA • London/Cambridge, UK
+
+Firmware Engineer, Secure Systems
+
+Software Engineer, Product
+
+Software Engineer, Full Stack
+
+Software Engineer, Machine Learning (Systems)
+
+Countermeasure Engineer (CEMA)
+
+Privacy Policy
+
+Terms of Use
+
+Copyright © 2026 Sweep360 Inc.
 - Hawkeye 360 Boosted by Further U.S. Government Funding from NRO - Via Satellite (2025-12-04) https://www.satellitetoday.com/government-military/2025/12/04/hawkeye-360-boosted-by-further-u-s-government-funding-from-nro/
   Hawkeye 360 Boosted by Further U.S. Government Funding from NRO - Via Satellite
 
@@ -177,22 +201,6 @@ Hawkeye 360 has secured more dedicated funding from the National Reconnaissance 
 # HawkEye 360 Expands Partnership with European Ministry of Defense Clients
 
 HERNDON, Va., March 2, 2026 /PRNewswire/ -- HawkEye 360, the global leader in electronic warfare data and analytics, today announced selection by a European Ministry of Defense for an electronic warfare program valued at up to $75 million. The award reflects sustained European investment in space-based Electronic Warfa
-- HawkEye 360 Secures $100m In International SIGINT Contracts | Seraphim Space (2026-06-18) https://seraphim.vc/news/hawkeye-360-international-signals-intelligence-contracts/
-  HawkEye 360 Secures $100m In International SIGINT Contracts | Seraphim Space
-
-Where are you visiting seraphim.vc from?
-
-UK/rest of World
-
-# HawkEye 360 Secures $100m In International SIGINT Contracts
-
-### Written by: William Day | June 18, 2026
-
-## TL;DR / Executive Summary
-
-- Seraphim portfolio company HawkEye 360 has secured over $100 million in international contracts and options in 2026
-- The agreements involve defence and intelligence customers across eight allied nations
-- Demand is rising
 
 ## Open roles (Blitz, live)
 - Embedded Hardware Engineer ({'city': 'New York', 'country_code': 'US'})

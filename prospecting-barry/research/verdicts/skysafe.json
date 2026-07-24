@@ -1,0 +1,20 @@
+{
+  "company": "SkySafe",
+  "slug": "skysafe",
+  "domain": "skysafe.io",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Navy purchase order (N6328525PS051, Naval Criminal Investigative Service) plus a border-security drone-detection contract as subcontractor to Amentum, and an FAA UAS Detection Testing and Evaluation Program citation — real DoD/federal motion exists, but the company has crossed the valley of death.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "Founded 2015, $11.5M raised in 2017 from a16z, 57 employees in 2026, live cloud SaaS with paying customers and a customer testimonial ('we just log in and it works') -> already_operational",
+    "Case studies, FAQ page, prosecutor-ready forensic reports, and 8 industry verticals (military, law enforcement, correctional, utilities, oil & gas, airports, ports, universities/stadiums, corporations) served today -> already_operational",
+    "'12 months of real drone activity from SkySafe over Washington D.C.' -> live fielded deployment, not a stuck prototype"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Cloud-based SaaS drone detection and airspace-security platform, already deployed and revenue-generating across military, law enforcement, critical-infrastructure, and commercial customers."
+}

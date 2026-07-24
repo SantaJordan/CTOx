@@ -535,6 +535,48 @@ Related Notice
 ##### (blank)
 
 Contract O
+- Mimic Raises $50M Series A Led by GV and Menlo Ventures (2025-02-24) https://mimic.com/blog/mimic-series-a-funding
+  Mimic Raises $50M Series A Led by GV and Menlo Ventures
+
+×
+
+### Book a Demo
+
+*First Name
+
+*Last Name
+
+*Work Email
+
+*Company
+
+Tell Us How We Can Be Successful Together
+
+Submit →
+
+Thank you. The form was submitted successfully. You can now close this modal.
+
+Products
+
+Ransomware Defense AI Shield
+
+Company
+
+Blog Case Studies Events In the News About
+
+Resources
+
+Careers
+
+Book a Demo
+
+BLOG
+
+# Mimic Raises $50M Series A Led by Google & Menlo Ventures
+
+June 30, 2026
+
+The company announces a major retai
 - NOTICE OF INTENT TO SOLE SOURCE: Mimics base and analysis subscription renewals. - Subscription services Tender in USA, ID 8838582 | Tender Impulse (2025-07-31) https://tenderimpulse.com/government-tenders/usa/notice-of-intent-to-sole-source-mimics-base-and-analysis-subscription-renewals-8838582
   NOTICE OF INTENT TO SOLE SOUR.. Tender in USA, 8838582|Tender Impulse
 
@@ -544,41 +586,6 @@ Contract O
 # NOTICE OF INTENT TO SOLE SOURCE: Mimics base and analysis subscription renewals. - 8838582
 
 This tender with tender notice no. W911QX25QA067 is from the country of USA in Americas region, details sourced from Sam Gov. The tender was published by DEPT OF DEFENSE on 31 Jul 2025 for (i) This is a combined synopsis/solicitation for commercial items prepared 
-- Mimics Base and Analysis Commercial Limited Licenses and Maintenance () https://www.highergov.com/contract-opportunity/mimics-base-and-analysis-commercial-limited-licens-w911qx-21-q-0262-k-919a0/
-  Mimics Base and Analysis Commercial Limited Licenses and Maintenance -- --
-
-HigherGov
-
-Pipeline
-
-Track
-
-Favorite
-
-No Bid
-
-Export
-
-- Excel
-- CSV
-
-Share
-
-- Tweet
-- Email
-- Copy URL
-
-Search Contract Opportunities
-
-# Mimics Base and Analysis Commercial Limited Licenses and Maintenance
-
-ID: W911QX-21-Q-0262 &#x2022 Type: Synopsis Solicitation &#x2022 Match: &nbsp;85%
-
-##### Opportunity Assistant
-
-Reset
-
-Hello! Please let me know your questions about this opportunity. I will answer based on the availa
 
 ## Open roles
 (no jobs data found)

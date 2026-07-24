@@ -1,0 +1,16 @@
+{
+  "company": "Dedrone",
+  "slug": "dedrone",
+  "domain": "dedrone.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "DIU contract, '16 Major Defense Contracts Globally, Tripling Revenue' (news section) — but company is now 'Dedrone by Axon', acquired by a public prime-scale firm, 230 employees, 'battle-tested technology actively serving governments and defense agencies worldwide' (blog).",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Counter-drone airspace security (detection/mitigation C2 platform), now owned by Axon and fielded at scale."
+}

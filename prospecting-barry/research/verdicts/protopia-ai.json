@@ -1,0 +1,43 @@
+{
+  "company": "Protopia AI",
+  "slug": "protopia-ai",
+  "domain": "protopia.ai",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "$1.25M Air Force Direct-to-Phase-II SBIR for Stained Glass Transform, a demonstrated pilot with the US Navy, and a January 2026 selection as awardee on the Missile Defense Agency's $151B SHIELD IDIQ — News section and LinkedIn about.",
+  "disconnect_score": 78,
+  "subscores": {"lab_language_intensity": 18, "deployment_awareness_absence": 18, "operator_absence": 18, "hiring_profile_skew": 10, "stage_pressure": 14},
+  "score_evidence": [
+    "'The Inference Privacy Layer for AI Factories Neo Clouds Sovereign AI AI Agents' + 'Half your AI Factory is sitting idle' -> lab_language_intensity: pure enterprise data-center/GPU-economics framing, zero mission or operational framing",
+    "'Deploy on any infrastructure, including managed, multi-tenant' -> deployment_awareness_absence: across ~1,451 words (site, LinkedIn, event page, MDA news) there is no ATO, RMF, IL4/IL5, STIG, CMMC, ITAR, or DDIL mention despite now being an MDA SHIELD IDIQ awardee",
+    "'Leaders spearheading the mandates on enabling securing GenAI and LLMs for the enterprise. Come meet with other CIOs, CISOs, CDAOs, CAIOs, CCOs, and Business Unit heads.' -> operator_absence: every named persona is an enterprise executive buyer; no operator, warfighter, or field-user language anywhere",
+    "'Protopia AI today announced it has been selected as an awardee on the Missile Defense Agency's ... SHIELD ... IDIQ contract' -> stage_pressure: a 21-person preseed/seed company now must compete for task orders under a massive multi-award vehicle while running enterprise commercial GTM (RSAC receptions, Q2 Bank, NetApp partnerships) in parallel"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The product pitch says 'Deploy on any infrastructure, including managed, multi-tenant' — pure commercial-cloud framing — while the company now sits on MDA's homeland-defense SHIELD IDIQ.",
+      "operator_reality": "MDA task orders run on government-authorized enclaves at IL4/IL5, not generic 'any managed multi-tenant cloud.' Without a stated ATO/authorization roadmap, Protopia's own pitch to a missile-defense buyer reads like a SaaS deck dropped into a homeland-defense contract vehicle — exactly the mismatch that kills a transition after IDIQ selection but before a task order actually gets awarded.",
+      "why_likely_missing": "Protopia's commercial motion (RSAC executive receptions, Q2 Bank/NetApp/UC San Diego case studies) is far more developed than its public DoD deployment story, suggesting the MDA win outran the deployment-architecture work needed to execute it.",
+      "evidence_quote": "Leverage GPUs in heterogenous environments – across on-prem, dedicated and multi-tenant implementations.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Every named customer persona in the pack is an enterprise executive (CIO, CISO, CDAO, Chief Data Scientist) — there is no operator, warfighter, or mission-user voice anywhere, including in the Navy demonstration mention.",
+      "operator_reality": "A privacy layer that needs to run inline with missile-defense sensor or C2 data eventually needs a technical sponsor inside an operational unit, not just a CISO's sign-off — 'operators loving it' isn't even on the table here because operators are never mentioned; the advocacy chain stops at the enterprise buyer.",
+      "why_likely_missing": "The company's GTM motion (RSA Conference cocktail receptions, partner blogs with ALTR/NetApp) is built for enterprise security-buyer sales cycles, which don't surface field-operator relationships the way an OT&E engagement would.",
+      "evidence_quote": "Leaders in AI Security, Data Privacy and Governance: You are invited to an Executive Cocktail Reception on Secure GenAI. ... Come meet with other CIOs, CISOs, CDAOs, CAIOs, CCOs, and Business Unit heads.",
+      "quote_source": "news"
+    },
+    {
+      "blind_spot": "SGT is pitched as 'computationally lightweight' relative to data-center GPU inference economics (idle GPUs, TCO) — never relative to SWaP-constrained edge/sensor compute a missile-defense C2 node would actually run on.",
+      "operator_reality": "'Lightweight' next to an idle data-center GPU is a completely different bar than lightweight enough to run inline on a SWaP-C constrained sensor or edge processing node; the pack gives no evidence the team has tested or even discussed the latter case, despite the product's DoD relevance being precisely at the sensor/C2 edge.",
+      "why_likely_missing": "The whole value proposition (per the pack) is framed around AI-factory/data-center GPU utilization economics, which is the opposite optimization target from edge SWaP-C.",
+      "evidence_quote": "SGT holistically transforms the entirety of each data record using our patented technology into randomized representations ... work across data modalities, and are non-deterministic, irreversible and computationally lightweight.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "You just landed on the Missile Defense Agency's $151B SHIELD IDIQ, but your own Stained Glass pitch is still framed entirely around AI Factory GPU idle-time and TCO — there's no ATO or IL4/IL5 authorization language anywhere on the site.",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Privacy-preserving AI inference layer (Stained Glass Transform) that lets sensitive data flow into AI models without exposing plaintext, sold primarily to enterprise AI-infrastructure buyers, with an Air Force SBIR, a Navy pilot, and a new MDA SHIELD IDIQ award."
+}

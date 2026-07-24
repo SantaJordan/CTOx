@@ -1,0 +1,26 @@
+{
+  "company": "Swarmbotics AI",
+  "slug": "swarmbotics-ai",
+  "domain": "swarmbotics.ai",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "US Army contract awarded (Feb 2026) to build swarming attritable sUGVs for the 1st Cavalry Division, stemming from an xTechOverwatch competition win — see News section (3 independent defense trade outlets).",
+  "disconnect_score": 32,
+  "subscores": {"lab_language_intensity": 4, "deployment_awareness_absence": 5, "operator_absence": 2, "hiring_profile_skew": 5, "stage_pressure": 16},
+  "score_evidence": [
+    "Entire homepage is combat/ops framed: 'Built for Combat...Proven against dust, heat, vibration, and shock. IP6 sealed...Field-hardened for the harshest combat environments' → very low lab_language_intensity",
+    "'ANTSNet: Field-proven autonomy stack...ATAK app, Triple redundant comms' explicitly names ATAK and comms redundancy for degraded environments → very low deployment_awareness_absence",
+    "'One operator. Multiple robots. Infinite tactical advantage'...'integrating into human formations now'...'Seamless fit with maneuver C2 structures' → very low operator_absence (operator/human-teaming is the central design frame)",
+    "Open roles skew heavily manufacturing/hardware (Production Technician, Manufacturing Technician, Lead Manufacturing Engineer, Mechanical Engineer) alongside swarm/software roles, not researcher-only → low hiring_profile_skew",
+    "Fresh $13M Seed (Feb 2025) funding a 31-35 person team now executing a live Army evaluation contract for the 1st Cavalry Division stemming from a single competition win (xTechOverwatch) → stage_pressure (classic valley-of-death timing: evaluation contract, tiny team, unproven path to program of record)"
+  ],
+  "blind_spots": [
+    {"blind_spot": "'Web app' and 'ATAK app' are named as delivery surfaces with no ATO/RMF/STIG language anywhere in the pack", "operator_reality": "A web app meant to run on government/tactical networks needs an Authority to Operate before it can touch live tactical data — the SWaP-C and comms-hardening story is thorough, but the compliance pathway for the software layer is completely unaddressed", "why_likely_missing": "Team composition (talent from Nikola, Zoox, Toyota, ASU, CMU) skews hardware/autonomy engineering, not government compliance/ISSO", "evidence_quote": "ANTSNet: Field-proven autonomy stack enabling swarm control and human teaming. Web app, ATAK app, Triple redundant comms", "quote_source": "homepage"},
+    {"blind_spot": "'Now fielding UGV swarms to maneuver formations' overstates a single-division evaluation contract as fielded reality", "operator_reality": "The actual news shows one Army contract with the 1st Cavalry Division stemming from an xTechOverwatch win — that's an operational-evaluation award, not a program of record; the gap between the marketing claim and the evaluation-stage reality is exactly the advocacy-chain risk (one division championing it isn't adoption) that kills transitions when the contract clock runs out before a program-of-record decision", "why_likely_missing": "Early-stage marketing needs to project traction to investors and future DoD customers alike, ahead of the actual acquisition milestone", "evidence_quote": "Military-grade swarm logic. Combat-ready hardware. Now fielding UGV swarms to maneuver formations.", "quote_source": "homepage"},
+    {"blind_spot": "'Triple redundant comms' addresses link redundancy but never states a bandwidth budget under jamming/denial", "operator_reality": "Three redundant links that are all equally bandwidth-hungry can all degrade together in a contested EW environment; the pitch stops at 'redundant' without the harder engineering claim of graceful degradation under denied/low-bandwidth conditions", "why_likely_missing": "Redundancy is the easier, more marketable claim; graceful-degradation engineering under DDIL is a harder problem that isn't mentioned", "evidence_quote": "Field-proven autonomy stack enabling swarm control and human teaming...Triple redundant comms", "quote_source": "homepage"}
+  ],
+  "opener_hook": "Swarmbotics' Army contract for 1st Cavalry Division sUGVs came out of an xTechOverwatch win — is that evaluation funding already on a path to a program of record, or still single-division scoped?",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Builds low-cost, attritable autonomous ground robot swarms (FireAnt UGV + ANTSNet autonomy stack with ATAK integration) for military C-UAS/ISR/EW missions, currently under an Army evaluation contract with the 1st Cavalry Division."
+}

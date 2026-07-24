@@ -1,0 +1,44 @@
+{
+  "company": "SENVOL LLC",
+  "slug": "senvol-llc",
+  "domain": "senvol.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Army SBIR Phase II ($1.2M, 2023) for multi-site AM machine/part consistency verification, plus a new U.S. Navy-funded in-situ-monitoring sensor-fusion program (July 2025-July 2027) and prior Navy/Air Force funding (2021) — SBIR/STTR record and News section.",
+  "disconnect_score": 67,
+  "subscores": {"lab_language_intensity": 12, "deployment_awareness_absence": 16, "operator_absence": 12, "hiring_profile_skew": 10, "stage_pressure": 17},
+  "score_evidence": [
+    "\"Build predictive models in seconds\" / \"Rapidly optimize parameters & develop materials\" -> lab_language_intensity",
+    "\"Senvol has received funding from the U.S. Navy to lead a project focused on demonstrating that based on in-situ monitoring data...\" with zero ATO/CMMC/ITAR/data-handling mention anywhere on the site -> deployment_awareness_absence",
+    "\"Senvol's various products and services allow companies to Access AM Data, Generate AM Data, and Analyze AM Data.\" -> operator_absence (company/user language only, no operator or field-personnel framing)",
+    "no jobs data found in pack -> hiring_profile_skew set to exactly 10 per instructions",
+    "emp: 2, simultaneously running a Navy sensor-fusion program (2025-2027), an Army SBIR Phase II ($1.2M, 2023), and prior Navy/Air Force funded work (2021) -> stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "A 2-person company is simultaneously running a multi-year Navy in-situ-monitoring sensor-fusion program, an Army SBIR Phase II, and carrying forward prior Navy/Air Force-funded capability work, with no visible headcount growth.",
+      "operator_reality": "When funded periods of performance end and only 2 people carry the technical, program-management, and reporting burden across three simultaneous service-branch efforts, sustainment of any single deliverable — like keeping the ML model current as new machines/materials are added — is the first thing to slip.",
+      "why_likely_missing": "The company's public news reads as a steady string of technical wins (new funding, conference talks) without any corresponding story about scaling the team to match the workload.",
+      "evidence_quote": "Senvol has received funding from the U.S. Navy to lead a project focused on demonstrating that based on in-situ monitoring data...",
+      "quote_source": "news"
+    },
+    {
+      "blind_spot": "The Senvol API is marketed for licensing into third-party software used by DLA and USAF for materials/parts research, with no mention of ITAR/export-control handling for the underlying AM machine and material process-parameter data.",
+      "operator_reality": "Raw process-parameter data behind DoD parts qualification is exactly the kind of technical data ITAR is built to control; licensing it via an open API to multiple third-party integrators without a stated export-control review is a compliance gap that can freeze a defense customer's ability to adopt the tool at scale.",
+      "why_likely_missing": "The API business line reads as built for the broader commercial AM software ecosystem (Ansys, Hexagon) first, with DLA/USAF added as customer logos rather than as drivers of the compliance architecture.",
+      "evidence_quote": "Defense Logistics Agency (DLA) additive manufacturing part candidate tool ... U.S. Air Force (USAF) materials research software",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The Navy in-situ-monitoring sensor-fusion project pulls real-time data off production-floor AM machines, but nothing in the company's materials addresses how the software gets that live data out of a likely air-gapped or network-authorization-controlled shipyard/depot environment.",
+      "operator_reality": "NAVSEA/shipyard production floors are frequently air-gapped or under strict ATO-controlled network boundaries; a tool built and demoed on exported CSV data faces a very different integration problem pulling live sensor-fusion data out of a secured production network.",
+      "why_likely_missing": "The project is still active (through July 2027) and the public-facing materials describe the technical goal (consistency/verification via ML) rather than the IT integration path into the actual production network.",
+      "evidence_quote": "Senvol Leads U.S. Navy Program on AM Sensor Fusion",
+      "quote_source": "news"
+    }
+  ],
+  "opener_hook": "You're running Navy and Army funded AM machine-learning programs at once on a 2-person team — who inherits the reporting and sustainment load when one period of performance ends?",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Provides a commercial additive-manufacturing data database, API, and machine-learning software (Senvol ML) for qualifying and optimizing AM machines/materials, with parallel Navy and Army-funded R&D extending the ML capability for defense in-situ monitoring."
+}

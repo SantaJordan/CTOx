@@ -260,7 +260,7 @@ Skyline Nav AI is an autonomous, dual-use navigation company delivering superior
 Skyline Nav AI Inc. helps military and non-military personnel navigate in a GPS-degraded/spoofed environment using visualization of the skyline. This technology provides a backup to GPS technology that the military and commercial markets are highly reliant upon for navigation e.g. "Alternative Positioning Navigation and Timing" (alt-PNT). Currently, the only practical backup to GPS is a map and compass (dead reckoning). This presents huge operational risks in a military setting. While there have been other localization efforts based on skyline, they haven’t succeeded due to computational complexity. Skyline provides a secure and efficient visual alternate for navigation in a GPS-degraded setting. Army Research Lab has invested heavily in deep r&d  and over two years on this approach.- It's extremely promising.  We have licensed that technology and are going to make a commercial-grade implementation for real use and testing by the Air Force. Once this technology is implemented and there is readily enabled access to Digital Surface Models, there is potential to improve GPS  technology with this approach.
 
 ## News (Exa, top 3)
-- US Air Force 2025 - Skyline Nav AI () https://www.skylinenav.com/news/USAF
+- US Air Force 2025 () https://www.skylinenav.com/news/USAF
   Skyline Nav AI - US Air Force 2025
 
 Skip to main content

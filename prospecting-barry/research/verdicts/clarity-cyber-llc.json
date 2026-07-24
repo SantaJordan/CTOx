@@ -1,0 +1,16 @@
+{
+  "company": "Clarity Cyber LLC",
+  "slug": "clarity-cyber-llc",
+  "domain": "claritycyber.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "DoD motion is real (DARPA SBIR Phase II 2023, NSA CSfC Trusted Integrator, National Security Systems work — website 'What We Do' and SBIR sections), but the company describes itself as a services shop: 'delivers leadership, integration, and engineering services to our commercial and government clients/customers' (homepage). Services/integrator, not a product company with a stuck prototype — and as a CSfC Trusted Integrator doing STIG implementation and RMF support, they sell the very deployment fluency Barry sells.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Veteran-owned Maryland services firm doing CSfC integration, STIG/RMF support, and secure-systems engineering for government clients."
+}

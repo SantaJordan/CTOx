@@ -1,0 +1,38 @@
+{
+  "company": "Merge Plot",
+  "slug": "merge-plot",
+  "domain": "mergeplot.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Multiple SBIR Phase I awards named on their own News page (USSOCOM Visual Augmentation System for PEO SOF Warrior, Army REVISE 2025, USAF PEDBNVIS 2024) plus explicit 'prime contractor on several military contracts' self-description — News section + About Us.",
+  "disconnect_score": 56,
+  "subscores": {"lab_language_intensity": 10, "deployment_awareness_absence": 8, "operator_absence": 8, "hiring_profile_skew": 10, "stage_pressure": 20},
+  "score_evidence": [
+    "'The returned sparse data reduces latency, bandwidth, and power consumption' → deployment_awareness_absence (near-direct DDIL bandwidth awareness, scores LOW/good)",
+    "'enable robots to handle variability... without rigid programming' mixed with 'microsecond-level latency and extreme dynamic range' → lab_language_intensity (moderate, not zero operational framing)",
+    "'deployed teams to map and address damage on site', 'Human machine teaming is at the center of everything we do' → operator_absence (low/good — operators are central)",
+    "4-5 employees running three simultaneous SBIR Phase I efforts (VAS/NeuroSight, ATLAS, REVISE) founded 2024 → stage_pressure",
+    "No jobs data found in pack → hiring_profile_skew set to 10 per instructions"
+  ],
+  "blind_spots": [
+    {"blind_spot": "NeuroSight is pitched as a 'Visual Augmentation System' for SOF Warrior situational awareness but never mentions ATAK/TAK integration anywhere on the site.",
+     "operator_reality": "SOF operators already run their sensor and comms picture through ATAK — a vision system that doesn't speak TAK protocol becomes a second screen nobody carries, no matter how good the sensor is.",
+     "why_likely_missing": "Team appears optics/AI-first (event-sensor hardware) and may be treating TAK integration as a later software task rather than day-one architecture.",
+     "evidence_quote": "designed to integrate seamlessly with AI/ ML platforms, enabling real-time detection, tracking, and control",
+     "quote_source": "homepage"},
+    {"blind_spot": "QuickTurn moves maintenance data via 'tablet-based scanning' from deployed sites back to depots with no mention of offline sync, ATO for the tablet software, or how data survives a DDIL link between field and depot.",
+     "operator_reality": "A depot maintenance tool that assumes a live link home is exactly the 30fps-video failure mode — the tablet needs to capture and batch-sync when comms return, and the software needs an ATO to touch government maintenance systems at all.",
+     "why_likely_missing": "REVISE/QuickTurn language is written from the depot-efficiency angle (corrosion, work queues), not the connectivity angle.",
+     "evidence_quote": "replacing text-based records...with spatially captured ground truth",
+     "quote_source": "homepage"},
+    {"blind_spot": "A 4-5 person team is simultaneously running three separate SBIR Phase I threads (NeuroSight/VAS, ATLAS, REVISE) plus claiming prime-contractor status on multiple military contracts, with zero CMMC/NIST 800-171 language anywhere public.",
+     "operator_reality": "Each Phase I has its own clock to a Phase II decision; a team this thin juggling three award threads plus undocumented compliance posture is exactly the profile that misses a Phase II proposal window because engineering time went to the wrong thread.",
+     "why_likely_missing": "Small team, high award velocity — compliance and program-management overhead is easy to defer when the team is this size.",
+     "evidence_quote": "We perform as prime contractor on several military contracts, as well as provide engineering services to third parties",
+     "quote_source": "homepage"}
+  ],
+  "opener_hook": "Merge Plot's USSOCOM Phase I for PEO SOF Warrior's Visual Augmentation System is public, and NeuroSight just opened commercial orders — neither mentions ATAK integration.",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Builds ruggedized event-based vision sensors (NeuroSight), counter-UAS/GenAI mission-planning (ATLAS), and maintenance digital-twin tools (QuickTurn/REVISE) for defense, funded via SOCOM/Army/AF SBIRs."
+}

@@ -1,0 +1,23 @@
+{
+  "company": "MSRS",
+  "slug": "msrs",
+  "domain": "msrsnav.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Channel notes report a $49.7M USAF/AFRL contract to mature MSRS's alternative-navigation technology for GPS-denied environments, and the site states its systems are 'currently deployed in the field in some of the most GPS denied regions on the planet.'",
+  "disconnect_score": 44,
+  "subscores": {"lab_language_intensity": 5, "deployment_awareness_absence": 6, "operator_absence": 4, "hiring_profile_skew": 14, "stage_pressure": 15},
+  "score_evidence": [
+    "Only open role is 'Senior System Software Engineer' with no field, ISSO, or compliance roles visible → hiring_profile_skew",
+    "'$49.7M contract to mature its alternative-navigation technology for GPS-denied environments' against an 8-person team → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Their own mapping data flow depends on 'downloadable and online software' and a cloud MSRS database", "operator_reality": "A navigation system built to survive GPS jamming in denied environments still leans on connectivity for its mapping database — same failure mode as the 30fps crowd-detection case: the one dependency they didn't harden is the one that breaks first in a DDIL environment", "why_likely_missing": "product messaging is built around GPS-denial resilience specifically, so comms-denial for the data layer may be an unexamined blind spot", "evidence_quote": "Users get access to the MSRS® database of mapping and navigation information, which is integrated into both MSRS's® downloadable and online software", "quote_source": "homepage"},
+    {"blind_spot": "No ATO/RMF/CMMC/ITAR language anywhere despite a $49.7M AFRL contract and ATAK integration", "operator_reality": "A navigation system meant to plug into ATAK and scale under a large AFRL award will need an ATO to get onto government networks at fielding scale; silence on this at $49.7M-contract stage is a live risk to the transition timeline", "why_likely_missing": "8-person team with a single open software engineering role suggests no dedicated compliance/ISSO function yet", "evidence_quote": "Whether using our user interface or operating on ATAK, you can rest assured that you're getting good intel so you can stay focused on the mission", "quote_source": "homepage"},
+    {"blind_spot": "'Easily installed on wheeled and tracked vehicles' with no discussion of who trains the installer or sustains the unit in the field", "operator_reality": "SOF-veteran pedigree buys credibility but is not a training pipeline; a sergeant fielding this at scale needs documented install/repair procedures and spares logistics, not just founder credibility", "why_likely_missing": "marketing emphasizes founder authenticity ('veteran founded, veteran operated, veteran manufactured') over a formal training/sustainment program", "evidence_quote": "SOF veteran founded, veteran operated, veteran manufactured, made in the USA", "quote_source": "linkedin_about"}
+  ],
+  "opener_hook": "MSRS's $49.7M AFRL contract is set to mature GPS-denied navigation tech already described as fielded in some of the most jammed regions on the planet — worth asking how the mapping database performs without connectivity.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "SOF-veteran-founded sensor-fusion navigation system (Multi Source Reckoning System) that keeps vehicles on track when GPS is jammed or spoofed, integrating with ATAK for GPS-denied operations."
+}

@@ -1,0 +1,16 @@
+{
+  "company": "Lumos",
+  "slug": "lumos",
+  "domain": "lumos.com",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "None — this is a commercial enterprise identity-governance/IGA SaaS platform (customers named: Pinterest, GitHub, Roku); the three news hits are false-positive matches for an unrelated DARPA program also named LUMOS (Lasers for Universal Microscale Optical Systems, run by Nexus Photonics/AIM Photonics), not this company.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "unknown",
+  "what_they_do": "An AI-agent-driven identity governance and access management (IGA) SaaS platform for enterprise IT — reviews, provisions, and revokes access for humans, machines, and AI agents."
+}

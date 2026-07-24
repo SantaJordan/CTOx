@@ -1,0 +1,48 @@
+{
+  "company": "Knightwerx",
+  "slug": "knightwerx",
+  "domain": "knightwerx.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "USSOCOM technical experimentation, an xTech Adaptive Strike first-round award, and repeated OUSD T-REX 25-1/25-2 demonstrations at Camp Atterbury/Fort Irwin (News + Insights sections).",
+  "disconnect_score": 53,
+  "subscores": {
+    "lab_language_intensity": 8,
+    "deployment_awareness_absence": 14,
+    "operator_absence": 6,
+    "hiring_profile_skew": 15,
+    "stage_pressure": 10
+  },
+  "score_evidence": [
+    "'Sandman™ Unmanned Aerial Systems (UAS) technology offers Group 2 capabilities in a Group 1 form factor to the most forward elements of the battlefield' — detailed hardware/payload claim with zero mention of ATO/RMF/CMMC/ITAR/comms-link resilience → deployment_awareness_absence",
+    "Open roles: Robotics/Autonomy Engineer, Embedded Software Engineer - Flight Stack, two Aero Mechanical Engineers, two Electrical Engineers, two UAS GNC Engineers, Director of Product Management — all core R&D/design, zero field service, sustainment, ISSO, or compliance roles → hiring_profile_skew",
+    "'Our solutions are born from genuine defense challenges... informed by operators, and shaped by mission needs' — operators are named repeatedly as the design input → operator_absence (low)"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "No mention of the comms link the Sandman/Darqmatter sensing pipeline depends on once it leaves demo conditions.",
+      "operator_reality": "A UAS marketed for 'the most forward elements of the battlefield' will hit RF-denied or degraded links in a real contested AO; without frame-decoupling or store-and-forward design (the canonical 30fps crowd-detection failure), the sensor feed just stops.",
+      "why_likely_missing": "Company language is still calibrated to accelerator/demo audiences (T-REX, xTech) rather than a fielded acquisition program with a live adversary EW picture.",
+      "evidence_quote": "Sandman™ Unmanned Aerial Systems (UAS) technology offers Group 2 capabilities in a Group 1 form factor to the most forward elements of the battlefield, first responder units, and search & rescue teams.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Zero ATO/RMF/CMMC/ITAR language despite an AI-powered system meant to feed government networks.",
+      "operator_reality": "Moving from an OUSD T-REX demonstration to a program of record requires an Authority to Operate and company-level CMMC posture; if that clock hasn't started, the transition stalls regardless of how well Sandman performs in the field.",
+      "why_likely_missing": "1431 words of own-language never touch compliance — the team's public voice is still accelerator/press-release oriented, not acquisition-process oriented.",
+      "evidence_quote": "American-made, AI-powered unmanned aerial systems for human-machine teaming and remote sensing technology, bringing next-gen tech to the Government.",
+      "quote_source": "linkedin_about"
+    },
+    {
+      "blind_spot": "All ten open reqs are design/build engineering roles; nothing for field integration, training, or sustainment even as the company racks up live government demos.",
+      "operator_reality": "An E-5 handed Sandman at a forward site needs someone who trained on battery logistics, GFE integration, and field repair — none of that function is being hired for while the airframe/sensor engineering team scales.",
+      "why_likely_missing": "Team is still in a build-and-demonstrate phase (T-REX, xTech) rather than a sustain-in-the-field phase, so hiring reflects R&D priorities only.",
+      "evidence_quote": "Robotics/Autonomy Engineer - Computer Vision; Embedded Software Engineer - Flight Stack; UAS GNC Engineer; Aero Mechanical Engineer - UAV Design",
+      "quote_source": "job_post"
+    }
+  ],
+  "opener_hook": "Knightwerx just finished T-REX 25-2 at Camp Atterbury after OUSD's assessment at T-REX 25-1 — what's the plan for Sandman's sensor feed when the RF link degrades outside test conditions?",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Builds a small tactical UAS (Sandman) and a wind-sensing payload (Darqmatter) aimed at forward battlefield, first-responder, and search-and-rescue use."
+}

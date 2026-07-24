@@ -1,0 +1,16 @@
+{
+  "company": "Crytica Security",
+  "slug": "crytica-security",
+  "domain": "cryticasecurity.com",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "No SBIR, no DoD contract, no DIU/AFWERX record in the pack; the only defense language is a vertical list ('Defense, aerospace, and government systems' — homepage) and an aspiration ('growing expansion into defense' — why-crytica page); the Four Inc. federal-aggregator partnership is a reseller agreement for 'the Public Sector', not evidence of a DoD customer.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Patented lightweight malware-detection system (70KB in-device probes + external detectors) for OT/IoT/IT, sold into commercial critical infrastructure. Side note for other niches: they are publicly hiring a Chief Technology Officer (three live postings) — a technical-leadership vacuum signal, but it does not clear the DoD gate."
+}

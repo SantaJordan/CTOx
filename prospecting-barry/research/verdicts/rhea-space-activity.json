@@ -1,0 +1,43 @@
+{
+  "company": "Rhea Space Activity",
+  "slug": "rhea-space-activity",
+  "domain": "rheaspaceactivity.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Three concurrent 2025 DOD SBIR Phase II awards named directly (ANVIL: Handheld GPS Denied Self-Location for ATAK — Army, $1,999,999; VANGUARD — Air Force; ROMULUS & REMUS — Air Force), plus channel notes confirming ANVIL targets U.S. Army 1st Special Forces Command.",
+  "disconnect_score": 67,
+  "subscores": {"lab_language_intensity": 18, "deployment_awareness_absence": 12, "operator_absence": 12, "hiring_profile_skew": 10, "stage_pressure": 15},
+  "score_evidence": [
+    "'A TEAM OF BRILLIANT MINDS PASSIONATE ABOUT TACKLING COMPLEX CHALLENGES' / 'Our diverse team of scientists and engineers possess a wide range of expertise, spanning quantum communication, guidance, control and navigation, infrared satellites, directed energy, artificial intelligence... astroparticle physics... nuclear reactors... lunar intelligence' → lab_language_intensity",
+    "own-language word count ~835 (<1000, capped at 12 per rule); site describes navigation only as 'innovative solutions for reliable navigation... in challenging environments' with zero mention of ATAK/TAK despite ANVIL literally being an ATAK plug-in per its own SBIR title → deployment_awareness_absence",
+    "'enabling governments and defense forces to fulfill their security objectives' is the only reference to end users anywhere on the site — no operator, warfighter, SOF, or training language despite ANVIL being built for 1st Special Forces Command → operator_absence (capped at 12, <1000 words)",
+    "three separate DOD SBIR Phase II award topics (ANVIL/Army, VANGUARD/Air Force, ROMULUS & REMUS/Air Force) running concurrently in 2025 for a 10-25 person team spanning navigation, vision-based autonomy, and high-altitude balloon SDA → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "ANVIL is a 'Handheld GPS Denied Self-Location for ATAK' built for 1st Special Forces Command, yet the company's own public language never mentions ATAK, TAK, or GPS-denial as an operator-facing capability — it's abstracted into 'reliable navigation... in challenging environments.'",
+      "operator_reality": "A SOF team sergeant needs to know exactly how ANVIL integrates into the ATAK kit already on his chest rig — battery draw, pairing, failure mode when GPS is spoofed vs. denied. A company that can't describe this in its own marketing likely hasn't pressure-tested the handoff from lab demo to a rucksack.",
+      "why_likely_missing": "RSA's public identity is built around deep-space/astrophysics research credibility, not tactical-edge product design; the ATAK integration lives only in the SBIR paperwork, not in how they present themselves.",
+      "evidence_quote": "RSA specializes in innovative solutions for secure communication and reliable navigation in challenging environments.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The team roster and technology list span astrophysics, directed energy, quantum communication, nuclear reactors, AUVs, high-altitude balloons, missile GNC, and lunar intelligence — a ~10-25 person company running at least three parallel Phase II SBIRs across Army and Air Force simultaneously.",
+      "operator_reality": "When ANVIL's Army Phase II period of performance clock runs down, the handful of navigation engineers on staff (per the team page: one 'Navigation Engineer,' one 'Navigation Program Manager') are also the same people needed on VANGUARD and ROMULUS & REMUS — the exact overextension pattern that kills the transition before fielding.",
+      "why_likely_missing": "Broad domain listing reads as a strength on a fundraising deck, but it means no single program gets an unshared, focused push through the valley of death.",
+      "evidence_quote": "Our diverse team of scientists and engineers possess a wide range of expertise, spanning quantum communication, guidance, control and navigation, infrared satellites, directed energy, artificial intelligence, light detection and ranging, astroparticle physics, small satellites, cislunar operations, intelligence operations, nuclear reactors, algorithms for deep space systems, lunar intelligence, and more.",
+      "quote_source": "linkedin_about"
+    },
+    {
+      "blind_spot": "The only SWaP language on the site is retrospective — describing the founder's prior federal-service work on 'low size weight and power (SWaP) particle detection hardware' — not the SWaP-C constraints of the ANVIL handheld unit an operator actually carries.",
+      "operator_reality": "A handheld self-location device competing for space on a SOF operator's kit lives or dies on weight, battery life, and how it fails gracefully when GPS is denied — none of which appears anywhere in RSA's own description of ANVIL itself.",
+      "why_likely_missing": "SWaP appears as a credibility marker in the founder bio (his past nuclear/particle-physics work), not as a design constraint the company discusses for its current handheld product.",
+      "evidence_quote": "developing low size weight and power (SWaP) particle detection hardware for nuclear operations",
+      "quote_source": "linkedin_about"
+    }
+  ],
+  "opener_hook": "RSA's 2025 Army Phase II SBIR built ANVIL, a handheld GPS-denied self-location plug-in for ATAK, for 1st Special Forces Command — the RSA site doesn't say how an operator carries or charges it. What's the sustainment plan?",
+  "confidence": "medium",
+  "stage_band": "series_a",
+  "what_they_do": "Astrophysics-heritage defense tech company building navigation, communication, and sensing technologies (including ANVIL, a handheld GPS-denied self-location plug-in for ATAK) across space, directed-energy, and tactical domains."
+}

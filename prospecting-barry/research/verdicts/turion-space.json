@@ -4,17 +4,13 @@
   "domain": "turionspace.com",
   "verdict": "drop",
   "drop_reason": "already_operational",
-  "dod_intent_evidence": "29 government contracts across USSF, NASA, NRO, DARPA, a 2025 USAF SBIR Phase II, and a Space-Based Interceptor performer selection — about page and news sections.",
+  "dod_intent_evidence": "29 government contracts (USSF, NASA, NRO, DARPA) including a $32.6M Space Force contract to build and demonstrate three multi-payload satellites — About page and news section.",
   "disconnect_score": 0,
   "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
-  "score_evidence": [
-    "'Operating on orbit today' with '30+ Months on Orbit' and 2 satellites delivering 72k+ images → they crossed the demo-to-operations gap (homepage/about)",
-    "'Turion To Build Multi-Payload Satellites For U.S. Space Force' plus 'Turion Space Recognized as Space-Based Interceptor Performer' → contracted operational delivery, not a stuck prototype (news)",
-    "'$112M+ Total Raised' and 221 employees → far outside the $5M-$10M valley-of-death profile (about page)"
-  ],
+  "score_evidence": [],
   "blind_spots": [],
   "opener_hook": "",
-  "confidence": "medium",
+  "confidence": "high",
   "stage_band": "revenue_stage",
-  "what_they_do": "Builds and operates spacecraft for space domain awareness, rendezvous/proximity operations, and orbital servicing, with satellites on orbit and USSF/NRO/DARPA contracts."
+  "what_they_do": "Builds and operates spacecraft for space domain awareness, on-orbit servicing, and orbital logistics for national security and commercial customers."
 }

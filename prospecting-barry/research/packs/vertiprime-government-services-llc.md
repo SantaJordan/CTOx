@@ -19,40 +19,6 @@ VertiPrime is an Oklahoma company that manufactures precision structural parts f
 The engagement and utilization of the organic U.S. Industrial Manufacturing Base has never been more important than in today’s current landscape of the National Defense Strategy of the United States. The USAF released in April 2019 its Science and Technology (S&T) Strategy, which includes the need for the AF to ‘Develop and Deliver Transformational Strategic Capabilities.' This document furthered the argument established by the 2018 National Defense Strategy of the United States. In this seminal document, DoD identified the need to develop the United States ‘National Security Innovation Base’, one that involves heavy reliance on dual-use solutions. The ability for the Air Force to adapt to the current supply chains, logistics, and manufacturing climates within the United States is critical to readiness and the National Defense Mission of the Air Force and DoD. The Sustainment Enhanced Market Research solution was created in direct response to this strategic need. Sustainment’s technology has created an extensive database of small and medium sized manufacturers out of the 291K manufacturers across the United States. By applying AI to this database that integrates all known data sources of U.S. manufacturers, the Enhanced Market Research product allows for the strategic overview and tactical engagement of these manufacturers and their unique manufacturing capabilities and qualifications. The ability to view these unique capabilities for small and medium sized manufacturers – as well as the Manufacturing Industrial Base as a whole – has never been available before to the extent that the Sustainment Enhanced Market Research solution allows. Moreover, the additional engagement, optimization, and smart capabilities that include Machine Learning matching tools have never been available to the USAF or other DoD components before. In doing so, an entirely new method to source necessary parts rapidly and securely for critical infrastructure and fleet readiness can now be achieved. As a result, USAF can more easily maintain a critical lynchpin in the national defense mission for which AFMC is charged. The Enhanced Market Research solution allows for depot and MAJCOM level organizations within the Air Force to research alternative sourcing capabilities for their unforeseen and critical needs from local and small business manufacturers. This drastically reduces lead times for needed parts and costs of parts from larger sourcing entities. It also allows for the rapid and organic acquisition of critical parts enabling the readiness levels across the fleet that are required.
 
 ## News (Exa, top 3)
-- Award | SBIR () https://www.sbir.gov/awards/206956
-  Award | SBIR Skip to main content
-
-# Award
-
-Portfolio Data
-
-Back to Award Search
-
-## Integrating Additive Manufacturing Techniques with Traditional Subtractive Manufacturing Processes Towards AI-based AM Candidate Identification
-
-### Awardee
-
-#### VertiPrime Government Services, LLC
-
-7576 N Highway 81 Ste 25Duncan, OK, 73533-3400USA
-
-Award Year: 2023
-
-UEI: MC3VAHL2JYC4
-
-HUBZone Owned: No
-
-Woman Owned: No
-
-Socially and Economically Disadvantaged: No
-
-Congressional District: 4
-
-Tagged as:
-
-STTR
-
-P
 - Award | SBIR () https://www.sbir.gov/awards/194878
   Award | SBIR Skip to main content
 
@@ -93,6 +59,40 @@ Phase I
 DOW
 
 Bran
+- Award | SBIR () https://www.sbir.gov/awards/206956
+  Award | SBIR Skip to main content
+
+# Award
+
+Portfolio Data
+
+Back to Award Search
+
+## Integrating Additive Manufacturing Techniques with Traditional Subtractive Manufacturing Processes Towards AI-based AM Candidate Identification
+
+### Awardee
+
+#### VertiPrime Government Services, LLC
+
+7576 N Highway 81 Ste 25Duncan, OK, 73533-3400USA
+
+Award Year: 2023
+
+UEI: MC3VAHL2JYC4
+
+HUBZone Owned: No
+
+Woman Owned: No
+
+Socially and Economically Disadvantaged: No
+
+Congressional District: 4
+
+Tagged as:
+
+STTR
+
+P
 - VertiPrime Government Services, LLC () https://www.sbir.gov/portfolio/1615189
   Firm | SBIR Skip to main content
 

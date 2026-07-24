@@ -1,0 +1,26 @@
+{
+  "company": "Bluesky",
+  "slug": "bluesky",
+  "domain": "getbluesky.io",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "None. Their own language (LinkedIn about) describes 'a pioneer in Data Cloud Efficiency... making querying & analytics faster and cheaper over data clouds, helping CIOs and senior management optimize their data cloud costs' — a commercial cloud cost product with no defense customer, no SBIR and no contract record. All three news hits are name collisions with Blue Sky Innovators / Blue Sky Innovative Solutions of Reston VA, a different company (UEI DCGSZMMAQJX4). The channel note also states the company was acquired by Microsoft, and getbluesky.io now resolves to an Indonesian gambling spam page, so there is no live company artifact at all.",
+  "disconnect_score": 0,
+  "subscores": {
+    "lab_language_intensity": 0,
+    "deployment_awareness_absence": 0,
+    "operator_absence": 0,
+    "hiring_profile_skew": 0,
+    "stage_pressure": 0
+  },
+  "score_evidence": [
+    "'PASCOL4D : Get Bermain Situs Toto Slot 4D Resmi Dan Bandar Toto Togel Online' -> the crawled domain is a lapsed-domain gambling site, not the company",
+    "'Bluesky is a pioneer in Data Cloud Efficiency, delivering next-gen data infrastructure on clouds' -> commercial data-warehouse cost optimization, no defense motion",
+    "Channel notes: 'cloud data efficiency infrastructure; acquired by Microsoft' -> no longer an independent company to sell to"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "unknown",
+  "what_they_do": "Cloud data-warehouse cost and query efficiency software, since acquired by Microsoft; the domain in the pack has lapsed to a gambling spam site."
+}

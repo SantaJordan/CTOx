@@ -1,0 +1,20 @@
+{
+  "company": "Trust Automation Inc",
+  "slug": "trust-automation-inc",
+  "domain": "trustautomation.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "SBIR Phase II (Air Force 2023, Counter-PNT) plus a just-announced $490 million IDIQ contract from the U.S. Air Force for C-UAS capabilities (News section) — genuine and substantial DoD motion, but from an established 35-year-old, 125-155 employee manufacturer, not a stuck-in-the-valley prototype company.",
+  "disconnect_score": 10,
+  "subscores": {"lab_language_intensity": 2, "deployment_awareness_absence": 4, "operator_absence": 2, "hiring_profile_skew": 2, "stage_pressure": 0},
+  "score_evidence": [
+    "\"Trust Automation Secures $490 Million Contract from U.S. Air Force to Deliver Counter-Drone Technologies\" (2025-12-17 press release) → already_operational (company has already crossed into large-scale production/transition, not the demo-to-fielded gap)",
+    "\"36 years of experience, Trust Automation designs and manufactures custom motors, linear drives, digital drives, assemblies, and integrated systems\" (LinkedIn about) → mature, established manufacturer",
+    "Open roles: Manufacturing Engineer, Purchasing Manager, Production Planner, Inventory Control Clerk (Blitz, live) → hiring_profile_skew low — production/manufacturing-scale hiring, not early R&D team"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Established (est. 1990) motion-control, power-management, and Counter-UAS hardware manufacturer for defense and industrial markets, 125-155 employees, holder of a $490M USAF IDIQ."
+}

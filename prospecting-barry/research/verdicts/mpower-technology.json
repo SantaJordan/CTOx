@@ -1,0 +1,16 @@
+{
+  "company": "mPower Technology",
+  "slug": "mpower-technology",
+  "domain": "mpowertech.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Own blog reports an Army CCDC Soldier Center SBIR Phase II award (Dec 2019) for rugged solar tech, but the company's current homepage states it is 'Already in orbit. Produced at scale' with a $24M Series B funding a high-volume production line — it has crossed from prototype to fielded, scaled production.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Manufactures DragonSCALES, a patented ultra-light flexible solar cell technology for satellites and space vehicles, developed at Sandia National Labs and already deployed on nine satellites in orbit."
+}

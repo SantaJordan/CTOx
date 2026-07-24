@@ -1,0 +1,17 @@
+{
+  "company": "Synaptic Aviation LLC",
+  "slug": "synaptic-aviation-llc",
+  "domain": "synapticaviation.com",
+  "verdict": "insufficient_evidence",
+  "drop_reason": "",
+  "dod_intent_evidence": "AFWERX Direct-to-Phase II SBIR contract (2023) explicitly to 'address the most pressing challenges of the Department of the Air Force (DAF)' with AI/computer-vision ground-ops safety tooling — see News section (PRNewswire, AviationPros, own site press release).",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "low",
+  "stage_band": "revenue_stage",
+  "what_they_do": "AI/computer-vision company for airport ramp operations and ground-handling safety, with an AFWERX Direct-to-Phase II SBIR contract applying the technology to Air Force ground operations.",
+  "note": "Website returned a 301 redirect (no live content captured); own-language word count ~40, far below the ~500-word evidence-sufficiency threshold — SBIR abstract is truncated mid-sentence. Cannot score deployment-awareness absence without more of the company's own product language."
+}

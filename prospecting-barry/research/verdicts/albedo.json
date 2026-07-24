@@ -1,0 +1,44 @@
+{
+  "company": "Albedo",
+  "slug": "albedo",
+  "domain": "albedo.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Their own SBIR abstract ('Commercial NIIRS 7 Imagery for Government ISR', Air Force 2022, $1,249,211) plus a homepage 'Contracted by NRO / Space Force / AFRL / NASA JPL' line and news of a $12M AFRL STRATFI (March 2025) and an NRO Stage 2 imagery contract (August 2025).",
+  "disconnect_score": 69,
+  "subscores": {"lab_language_intensity": 15, "deployment_awareness_absence": 15, "operator_absence": 14, "hiring_profile_skew": 13, "stage_pressure": 12},
+  "score_evidence": [
+    "'4x improvement in Resolution & closing RF links / 16x improvement in active signal returns / Faster intercept times' and 'nanoradian-class stability' — multiplier and spec bragging with no mission-outcome or fielding framing → lab_language_intensity",
+    "Zero occurrences of ATO, RMF, IL5, CMMC, ITAR, STIG, or any ground-segment accreditation language across ~1367 words of a company selling imagery to NRO and AFRL → deployment_awareness_absence",
+    "'Full-stack services for payload integration, launch, and mission ops' is the closest thing to an end user; no analyst, collection manager, tasking cell, warfighter, training, or field-feedback language anywhere → operator_absence",
+    "Ten open roles are all bus/payload domain engineering (Lead Electrical, Senior Firmware, Senior GNC, Lead Thermal, GNSS Navigation, Senior RF Systems, Director of Hardware) plus recruiters — no ground-software, mission-ops, test/integration, or security/compliance hire → hiring_profile_skew",
+    "'Albedo secures $12 million STRATFI contract' (2025-03-04) with Clarity-1 launched the same month and the next mission 'Vicinity' announced 2026-04-07 → stage_pressure (STRATFI match-and-transition clock running against a second-vehicle build)"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Sells a direct-to-tactical-user link without naming a terminal, waveform, or TAK path",
+      "operator_reality": "The 'handheld' in a dismounted squad is an EUD running ATAK with a specific radio, crypto load, and an approved waveform — it does not accept an arbitrary satellite link. And from 275 km the bird is overhead for a few minutes per pass, so 'low-latency connectivity' to that user is a pass-scheduling problem, not a bandwidth problem. Nothing in the pack names a terminal, a waveform, ATAK/TAK, or a revisit model.",
+      "why_likely_missing": "The team's heritage listed on the site is Lockheed Martin Space, SpaceX, and NASA JPL — space-segment builders, whose customer has always been a ground station, never a sergeant with a battery budget.",
+      "evidence_quote": "Direct to Device — Low-latency connectivity directly to handhelds, vehicles, and tactical systems. R² performance gains enable lower power links, smaller terminals, and reliable coverage.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The entire ground segment and dissemination path is missing from a company already under an NRO contract",
+      "operator_reality": "10 cm imagery becomes ISR only after it lands in an accredited ground system at the right classification and flows into the customer's existing GEOINT dissemination chain. That is an ATO/RMF package, a classified enclave, ITAR/CUI handling for the raw collection, and an interface to government back-end systems — the part of the program that eats the schedule while the STRATFI period of performance burns down.",
+      "why_likely_missing": "Clarity-1 proved the sensor, which is what the engineering org was built to prove; the ground/accreditation work has no owner in a company whose entire hiring plan is buses and payloads.",
+      "evidence_quote": "Full-stack services for payload integration, launch, and mission ops.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No tasking cycle or CONOPS — the sensor is described, the collection manager's workflow is not",
+      "operator_reality": "An ISR customer buys against time-to-product inside their existing tasking cycle: submit a collection request, get a prioritized deck, receive an exploitable product with metadata their tools accept. Resolution multipliers do not move that number; tasking latency, revisit, and cloud-free access do. A VLEO constellation of 24 with narrow swath makes revisit the binding constraint, and the pack never mentions revisit, tasking, or delivery timeline once.",
+      "why_likely_missing": "The 2022 SBIR was written to win on resolution ('a significant resolution improvement over any currently available commercial systems'), so resolution stayed the organizing metric through Clarity-1 and into the marketing.",
+      "evidence_quote": "Albedo is designing and building a very low earth orbit (VLEO) constellation of twenty-four 10 cm GSD electro-optical/infrared (EO/IR) satellites to create a significant resolution improvement over any currently available commercial systems.",
+      "quote_source": "sbir_abstract"
+    }
+  ],
+  "opener_hook": "Albedo lists 'Direct to Device — low-latency connectivity directly to handhelds, vehicles, and tactical systems' as one of five VLEO missions on albedo.com, alongside a $12M AFRL STRATFI and an NRO Stage 2 award, but the site never names a terminal, a waveform, or a TAK path — and at 275 km the dismounted user has that satellite overhead for minutes per pass.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Builds very-low-Earth-orbit satellites and buses that deliver 10 cm imaging, RF sensing, and active sensing for government ISR customers."
+}

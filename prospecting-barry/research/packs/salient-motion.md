@@ -301,16 +301,16 @@ Maritime Propulsion
 Salient Motion, an aerospace startup, announced on Wednesday that it had signed its first production contract. The company will supply Italian seat maker Aviointeriors systems to move business-class seats from a seated position into a laying-flat position. The Torrance-based California company was founded by former employees of the defense contractor An
 
 ## Open roles (Blitz, live)
+- Senior Drafter ({'city': 'Los Angeles', 'country_code': 'US'})
+- Quality Manager ({'city': 'Torrance', 'country_code': 'US'})
+- Accounting Manager ({'city': 'Torrance', 'country_code': 'US'})
+- Principal Mechanical Engineer ({'city': 'Torrance', 'country_code': 'US'})
+- Senior Manufacturing Engineer ({'city': 'Los Angeles', 'country_code': 'US'})
+- Senior Power Electronics Engineer ({'city': 'Torrance', 'country_code': 'US'})
+- Mechanical Engineer ({'city': 'Torrance', 'country_code': 'US'})
 - Buyer ({'city': 'Torrance', 'country_code': 'US'})
 - Senior Program Manager ({'city': 'Torrance', 'country_code': 'US'})
 - Technical Program Manager ({'city': 'Torrance', 'country_code': 'US'})
-- Electrical Engineer ({'city': 'Torrance', 'country_code': 'US'})
-- Senior Responsible Engineer ({'city': 'Torrance', 'country_code': 'US'})
-- Buyer ({'city': 'Torrance', 'country_code': 'US'})
-- Accounting Manager ({'city': 'Torrance', 'country_code': 'US'})
-- IT Manager ({'city': 'Torrance', 'country_code': 'US'})
-- Procurement Analyst, Hardware Operations ({'city': 'Torrance', 'country_code': 'US'})
-- Mechanical Engineer ({'city': 'Torrance', 'country_code': 'US'})
 
 ---
 # Context for the scoring agent (do not re-search)

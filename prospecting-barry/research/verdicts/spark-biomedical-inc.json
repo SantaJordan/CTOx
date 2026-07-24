@@ -1,0 +1,22 @@
+{
+  "company": "Spark Biomedical, Inc.",
+  "slug": "spark-biomedical-inc",
+  "domain": "sparkbiomedical.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Army-funded $1,149,775 Phase II STTR (Aug 2023) with Battelle Memorial Institute to adapt their FDA-cleared Sparrow device for battlefield acute stress reaction — SBIR abstract and news section.",
+  "disconnect_score": 40,
+  "subscores": {"lab_language_intensity": 8, "deployment_awareness_absence": 8, "operator_absence": 8, "hiring_profile_skew": 10, "stage_pressure": 6},
+  "score_evidence": [
+    "\"Many battlefield situations do not allow for the affected soldier to be close enough to trained personnel to avert adverse effects from an ASR event.\" → shows real operator/field awareness already present, lowering deployment_awareness_absence and operator_absence per the 'fluent = low score, still a keep' calibration rule"
+  ],
+  "blind_spots": [
+    {"blind_spot": "A pre-submission FDA meeting for the battlefield-ASR indication hadn't even started as of the Phase II abstract, separate from the existing opioid-withdrawal 510(k).", "operator_reality": "Without a completed regulatory pathway specific to the ASR/battlefield indication, the device can't be issued to units regardless of technical readiness — Phase II SBIR funding doesn't confer authority to field.", "why_likely_missing": "Team is optimizing the clinical/regulatory track for their core commercial product line; the military indication is a secondary program riding on that infrastructure.", "evidence_quote": "A pre-submission application will be submitted to the FDA to get feedback on the regulatory strategy and the future clinical study design.", "quote_source": "sbir_abstract"},
+    {"blind_spot": "Planned efficacy testing is described only as a 'clinical model of laboratory stress,' not actual field conditions (dust, heat, exertion, combat gear) the device would face if fielded.", "operator_reality": "'Operationally relevant' testing done in a lab doesn't validate electrode adhesion, battery life, or signal reliability in the dust/heat/motion conditions an E-5 would actually wear it in — a classic clinical-to-fielded gap.", "why_likely_missing": "Company's core competency and infrastructure is FDA clinical trials, not military environmental test protocols.", "evidence_quote": "test its efficacy to restore performance on operationally relevant tasks in a clinical model of laboratory stress.", "quote_source": "sbir_abstract"},
+    {"blind_spot": "The abstract diagnoses the exact problem (proximity to trained personnel) but never says who administers or trains on Sparrow in the field once fielded — no line-medic training or doctrine plan described.", "operator_reality": "Solving the 'proximity to trained personnel' problem on paper still requires an actual training/doctrine plan for combat medics or self-administration under stress — unaddressed in public materials.", "why_likely_missing": "Company's commercial go-to-market motion (facility/provider-administered) doesn't map onto self-administration in a combat environment, and that gap hasn't been worked yet.", "evidence_quote": "Many battlefield situations do not allow for the affected soldier to be close enough to trained personnel to avert adverse effects from an ASR event.", "quote_source": "sbir_abstract"}
+  ],
+  "opener_hook": "Spark Biomedical's Army Phase II STTR with Battelle still needs an FDA pre-submission meeting before the battlefield-stress version of Sparrow can begin clinical testing.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Makes an FDA-cleared wearable ear device (tAN) for opioid withdrawal, with a separate Army-funded offshoot to treat acute battlefield stress reactions."
+}

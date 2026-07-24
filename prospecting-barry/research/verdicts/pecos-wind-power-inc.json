@@ -1,0 +1,42 @@
+{
+  "company": "Pecos Wind Power, Inc.",
+  "slug": "pecos-wind-power-inc",
+  "domain": "pecoswindpower.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own Direct-to-Phase-II SBIR abstract (Air Force 2023, $2,500,000) names an actual DAF end-user/customer — 'the 10 Space Warning Squadron of Cavalier SFS' — for a wind/solar/diesel microgrid demonstration.",
+  "disconnect_score": 53,
+  "subscores": {"lab_language_intensity": 8, "deployment_awareness_absence": 6, "operator_absence": 13, "hiring_profile_skew": 10, "stage_pressure": 16},
+  "score_evidence": [
+    "'During a grid-outage, the microgrid automatically switches to islanded-mode. In islanded-mode, the microgrid's solar and wind production directly powers mission critical loads' — detailed system description with zero mention of who operates/maintains it → operator_absence",
+    "'The Phase II project will culminate in a hardware demonstration of the complete microgrid solution... If successful, the solution will be immediately transitioned to Phase III and deployed at Pecos Wind Power's DAF End-User and Customer, the 10 Space Warning Squadron of Cavalier SFS' — 2023 award, no Phase III news found as of this pack → stage_pressure",
+    "No jobs data in pack → hiring_profile_skew set to 10 baseline"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "No mention of who at the base actually operates/maintains the islanded-mode switchover and diesel-integration logic day-to-day — facilities/energy managers, training, or a sustainment plan.",
+      "operator_reality": "A base engineer who's never run a hybrid wind/solar/diesel islanding system before is the one who has to trust it during an actual grid outage — without a described training/handoff plan, the 'automatic' switchover is only as good as whoever's on shift the day it's tested for real.",
+      "why_likely_missing": "Team is three founding engineers plus mechanical/electrical staff (per site bios) focused on turbine and microgrid engineering, not O&M/training planning.",
+      "evidence_quote": "During a grid-outage, the microgrid automatically switches to islanded-mode. In islanded-mode, the microgrid's solar and wind production directly powers mission critical loads and reduces reliance on back-up diesel generators.",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "Cybersecurity requirements are mentioned once as a checkbox with zero specificity on which framework (ATO/RMF/CMMC/IL level) applies to a system that controls base power switching.",
+      "operator_reality": "A microgrid controller that can island a base's mission-critical loads is exactly the kind of OT/ICS system that needs a real RMF package, not a one-line compliance mention — without naming the framework or who's driving it, the accreditation timeline is invisible and can easily outlast the funded Phase II period.",
+      "why_likely_missing": "Abstract is written to demonstrate hardware feasibility to Air Force SBIR reviewers; the accreditation workstream is likely owned by someone else on the DAF side and not tracked by the small engineering team.",
+      "evidence_quote": "adhering to cybersecurity requirements",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "A 5-6 person team is executing a first-of-kind hardware integration of four subsystems (wind turbine, solar array, battery storage, diesel interconnect) at an actual DAF installation, with no visible news of that demo's completion despite the award dating to 2023.",
+      "operator_reality": "Integrating four different hardware subsystems at a real Space Force installation is a systems-integration problem, not a components problem — a team this small attempting first-of-kind field integration is exactly where 'months-to-field exceeds funded months remaining' becomes existential for the whole company.",
+      "why_likely_missing": "Team composition (co-founders + mechanical/electrical engineers) is optimized for turbine design, not for the program-management overhead of a multi-subsystem field integration on a live installation.",
+      "evidence_quote": "The Phase II project will culminate in a hardware demonstration of the complete microgrid solution – including a PW85 wind turbine, solar array, and battery storage – interconnected to a diesel generator",
+      "quote_source": "sbir_abstract"
+    }
+  ],
+  "opener_hook": "Pecos Wind Power's $2.5M Air Force Direct-to-Phase-II SBIR (2023) names its actual DoD customer — the 10th Space Warning Squadron at Cavalier Space Force Station — for a wind/solar/diesel microgrid demo that, per the abstract, still has to happen before any Phase III transition.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Designs and builds the PW85, an 85kW distributed wind turbine with a fast-install prefab foundation, and under an Air Force Direct-to-Phase-II SBIR is building a wind/solar/diesel hybrid microgrid for DoD base energy resilience, with a named demo site at Cavalier Space Force Station."
+}

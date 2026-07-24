@@ -213,20 +213,58 @@ October 02, 2024 14:18 ET | Source: Qylur Intelligent Systems Inc. Qylur Intelli
 ---
 
 Sunnyvale, CA, Oct. 02, 2024 (GLOBE NEWSWIRE) -- Qylur Intelligent Systems announces it has been selected by AFWERX for a Direct-to-Phase
-- Qylur Awarded US Air Force AFWERX Phase II SBIR Contract for Mission Adaptive AI for Networks of Autonomous Systems (2023-11-06) https://www.businesswire.com/news/home/20231106892052/en/Qylur-Awarded-US-Air-Force-AFWERX-Phase-II-SBIR-Contract-for-Mission-Adaptive-AI-for-Networks-of-Autonomous-Systems
-  Qylur Awarded US Air Force AFWERX Phase II SBIR Contract for Mission Adaptive AI for Networks of Autonomous Systems
+- qylur intelligent systems inc () https://www.sbir.gov/portfolio/1695041
+  Firm | SBIR Skip to main content
 
--
+# Company
 
-# Qylur Awarded US Air Force AFWERX Phase II SBIR Contract for Mission Adaptive AI for Networks of Autonomous Systems
+Portfolio Data
 
-Share
+Back to Company Search
 
----
+## QYLUR INTELLIGENT SYSTEMS INC
 
-Qylur’s SNIM® AI Technology to Expedite Fielding of Networks of Intelligent Machines, Such as Drones, UAVs, and Ground Systems in Contested Environments
+### Address
 
-SUNNYVALE, Calif.--(BUSINESS WIRE)-- Qylur announces it has been selected by AFWERX for a Direc
+687 N PASTORIA AVESUNNYVALE, CA, 94085-2917USA
+
+UEI: NX7NYZ4JFK39
+
+Number of Employees: 8
+
+HUBZone Owned: No
+
+Woman Owned: No
+
+Socially and Economically Disadvantaged: No
+
+#### SBIR/STTR Involvement
+
+Year of first award: 2023
+
+2
+
+Phase I Awards
+
+2
+
+Phase II Awards
+
+100%
+
+Conversion Rate
+
+$149,683
+
+Phase I Dollars
+
+$2,454,832
+
+Phase II Dollars
+
+$2,604,515
+
+Total Awar
 
 ## Open roles (Blitz, live)
 - Contract Software Engineer – Cloud SaaS (Full Stack + Cloud/DevOps) ({'city': 'Sunnyvale', 'country_code': 'US'})

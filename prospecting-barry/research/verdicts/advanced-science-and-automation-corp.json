@@ -1,0 +1,25 @@
+{
+  "company": "Advanced Science and Automation Corp",
+  "slug": "advanced-science-and-automation-corp",
+  "domain": "ascience.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "One Army STTR Phase II (2022, $1.1M) for an open-source autonomous off-road vehicle simulator — SBIR record section; site itself has zero defense language.",
+  "disconnect_score": 0,
+  "subscores": {
+    "lab_language_intensity": 0,
+    "deployment_awareness_absence": 0,
+    "operator_absence": 0,
+    "hiring_profile_skew": 0,
+    "stage_pressure": 0
+  },
+  "score_evidence": [
+    "\"AScience provides simulation and modeling consulting services\" → services/consulting-first business, 3 employees, operating since 1998",
+    "STTR deliverable is \"the Autonomous Vehicle Simulation Platform (AVSP) as an open-source tool\" with \"a community website ... to facilitate the free dissemination\" → research deliverable, no fieldable product headed for an operator, so no prototype-to-fielded valley for Barry to fix"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "3-person simulation and modeling consultancy (IVRESS multibody-dynamics software) doing terramechanics simulation services, with one Army STTR to build an open-source vehicle simulator."
+}

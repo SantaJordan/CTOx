@@ -1,0 +1,26 @@
+{
+  "company": "Skyways Air Transportation Inc",
+  "slug": "skyways-air-transportation-inc",
+  "domain": "skyways.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "US Navy contract for the V2.5 aircraft plus a $37M USAF/AFWERX award (June 2025) to 'rapidly scale' V3 into fielded production, confirmed by their own newsroom, Businesswire, and Austin Business Journal, and their own SBIR Phase II abstract.",
+  "disconnect_score": 70,
+  "subscores": {"lab_language_intensity": 16, "deployment_awareness_absence": 16, "operator_absence": 15, "hiring_profile_skew": 8, "stage_pressure": 15},
+  "score_evidence": [
+    "\"We are building the largest unmanned aircraft fleet in the world\" / \"impressive flight envelope\" spec-bragging with zero comms/software architecture framing -> lab_language_intensity",
+    "no mention anywhere of DDIL/ATO/RMF/CMMC/ITAR/STIG despite scaling to a $37M USAF production contract -> deployment_awareness_absence",
+    "no mention of who operates, trains on, or maintains the aircraft in the field beyond generic \"customer feedback\" -> operator_absence",
+    "open roles include Senior Flight Test Engineer and Senior Subsystem Test Engineer (field/integration-adjacent for a hardware firm) alongside pure R&D roles -> hiring_profile_skew (partial credit, not maximal)",
+    "$37M AFWERX award explicitly to 'rapidly scale' V3, which is 'currently in testing' and targeted for 2026 readiness -> stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "The aircraft is marketed as 'fully autonomous, long-range' with no discussion of how command-and-control, mission updates, or telemetry survive the same remote, high-risk environments the airframe is built to physically endure.", "operator_reality": "An autonomous cargo drone flying to a denied or contested offshore platform or forward site needs a C2/telemetry link architecture that assumes intermittent or denied comms, the same failure class as the 30fps crowd-detection case; nothing on the site addresses what the aircraft does when it loses its link mid-mission.", "why_likely_missing": "Messaging is entirely airframe-performance focused (range, payload, endurance specs); the software/comms stack that makes 'fully autonomous' actually work in a contested link environment is invisible in their public language.", "evidence_quote": "Same-day delivery to remote, high-risk field operations are a reality.", "quote_source": "homepage"},
+    {"blind_spot": "No mention anywhere of ATO/RMF, CMMC/NIST 800-171, ITAR/export control, or airworthiness certification despite scaling to a $37M USAF production contract for a hybrid-fuel VTOL aircraft.", "operator_reality": "A 'rapidly scale' production contract implies a compressed timeline; compliance and airworthiness certification gates are exactly the kind of unaddressed requirement that eats the funded months remaining on a transition contract before the aircraft is ever fielded at volume.", "why_likely_missing": "Company culture and messaging is engineering/manufacturing-forward ('exemplary build quality', flight-test iteration count) rather than compliance-forward; compliance risk is invisible until a contracting officer forces it.", "evidence_quote": "With nearly 200 test flights already performed and its impressive flight envelope, it will be ready to handle the harshest and most demanding of missions in 2026.", "quote_source": "homepage"},
+    {"blind_spot": "Heavy-fuel (JP-5/Jet A-1) VTOL aircraft flown to 'challenging locations' with no mention of who refuels, maintains, or trains ground crew to sustain the fleet at a remote or forward site.", "operator_reality": "An autonomous aircraft is only as reliable as its ground logistics chain; the E-5 equivalent maintainer at an austere site needs spares, fuel logistics, and training that is never named — the company's own value prop ('critical parts can arrive at challenging locations on time, on repeat') ironically depends on a sustainment discipline it never describes for its own aircraft.", "why_likely_missing": "Product narrative centers on the airframe's performance envelope, not the deployed sustainment ecosystem that keeps a fielded fleet flying.", "evidence_quote": "Critical parts can arrive at challenging locations on time, on repeat.", "quote_source": "homepage"}
+  ],
+  "opener_hook": "Skyways' $37M AFWERX contract funds scaling V3 into fielded ops in 2026. What's the C2/telemetry plan when the link goes denied?",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Designs and flies long-range hybrid-VTOL autonomous cargo drones for military resupply and oil & gas logistics, now scaling V3 production under a $37M USAF AFWERX contract."
+}

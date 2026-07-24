@@ -1,0 +1,16 @@
+{
+  "company": "Oceanic Imaging Consultants, Incorporated",
+  "slug": "oceanic-imaging-consultants-incorporated",
+  "domain": "oicinc.com",
+  "verdict": "insufficient_evidence",
+  "drop_reason": "",
+  "dod_intent_evidence": "Navy Phase II SBIR ($599,860, 2022) for real-time SLAM navigation-aiding for UUVs, interfaced to the Navy's Unmanned Maritime Autonomy Architecture (UMAA) -- own SBIR abstract.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "low",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Makes seafloor-mapping and underwater-vehicle navigation software (sidescan/multibeam sonar processing, SLAM navigation-aiding) sold to commercial, federal, military, and academic clients."
+}

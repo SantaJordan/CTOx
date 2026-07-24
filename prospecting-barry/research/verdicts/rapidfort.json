@@ -1,0 +1,16 @@
+{
+  "company": "RapidFort",
+  "slug": "rapidfort",
+  "domain": "rapidfort.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Assessed 'Awardable' for DoD work in the Platform One Solutions Marketplace and holds an Air Force SBIR ($749,996, Iron Bank hardening) — genuine DoD motion, but they've crossed the valley of death already.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Container software supply-chain security platform that eliminates CVEs and hardens images for FedRAMP/CMMC/STIG compliance."
+}

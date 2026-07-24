@@ -1,0 +1,16 @@
+{
+  "company": "CrunchAtlas",
+  "slug": "crunchatlas",
+  "domain": "crunchatlas.com",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "No SBIR, no DIU/AFWERX engagement, no contract record anywhere in the pack; own site offers only vertical-list marketing ('Defense and government systems' among five sectors, 'Trusted across utilities, defense, and public sector environments' — homepage) with the real motion aimed at utilities/NERC CIP-015; news section contains only unrelated Sierra Space and Kratos stories.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "AI behavioral network-detection and on-demand pen-testing platform for critical infrastructure, primarily electric-utility NERC CIP compliance."
+}

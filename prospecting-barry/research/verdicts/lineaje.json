@@ -1,0 +1,26 @@
+{
+  "company": "Lineaje",
+  "slug": "lineaje",
+  "domain": "lineaje.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Air Force AFWERX SBIR/STTR Phase II contract ($1.8M, awarded July 2025 following Phase I success) for self-healing software supply chain innovations, plus a dedicated Lineaje Federal product line targeting cATO — news section and their own /federal page.",
+  "disconnect_score": 53,
+  "subscores": {"lab_language_intensity": 14, "deployment_awareness_absence": 3, "operator_absence": 16, "hiring_profile_skew": 12, "stage_pressure": 8},
+  "score_evidence": [
+    "'10 Seconds To discover every instance of a zero-day' / '90% Reduction in vulnerability remediation effort' / '408+ Billion Open-source security data points tracked' → lab_language_intensity (stat-dropping SaaS marketing with zero warfighter framing on the main pages)",
+    "'Streamline the path to continuous Authority to Operate (cATO)' plus explicit EO14028/CISA-attestation language → deployment_awareness_absence very low, this company sells compliance/ATO tooling to others",
+    "'Software should continuously know what's inside, what's changed, what's vulnerable, and how to fix itself, so organizations can continuously trust what they build' → operator_absence (product literature never names a warfighter, operator, or field trainer — the customer is a security/compliance team)",
+    "Only open role: 'Product Builder / AI Product Manager' (San Francisco) → hiring_profile_skew (product-focused, neither pure-research nor field/compliance)",
+    "$1.8M Phase II following Phase I success (2025), alongside $27M total raised (Seed+Series A) and existing commercial/federal revenue via Carahsoft → stage_pressure lower, diversified revenue softens one-contract existential risk"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Product architecture assumes continuous cloud connectivity to a centralized threat-intel catalog", "operator_reality": "The self-healing pitch (auto-source safe dependencies, auto-fix containers) depends on live access to Lineaje's 408B-datapoint cloud intelligence; a classified or air-gapped DoD software factory — the exact environment where fielded warfighter code actually gets built — can't reach that cloud, so the 'auto-fix' story stops working precisely where the AFWERX contract's self-healing goal matters most.", "why_likely_missing": "Built as multi-tenant SaaS for commercial and general federal customers first; the AFWERX Phase II is adapting that architecture to a DoD-specific self-healing use case, and the site never addresses an air-gapped deployment mode.", "evidence_quote": "Continuously source safe dependencies and auto-fix source code and containers to ensure ongoing governance, provenance, attestation and risk elimination.", "quote_source": "homepage"},
+    {"blind_spot": "Autonomous code remediation is marketed without addressing government change-control/re-accreditation", "operator_reality": "Once a DoD system holds an ATO, any code change — even an automated vulnerability fix — typically triggers a POA&M or re-review; a vendor promising fully autonomous 'self-heal source code and containers' at scale needs an answer for how that survives the change-control gate on an already-accredited system, or the fixes just pile up unapproved.", "why_likely_missing": "The autonomous-remediation pitch is optimized to impress commercial DevSecOps buyers who control their own deploy pipeline, not government ISSOs who don't.", "evidence_quote": "Self-heal source code and containers​Auto-detect poisoned software supply chains", "quote_source": "homepage"},
+    {"blind_spot": "Sells a path to cATO for customers without stating its own product's accreditation level", "operator_reality": "A tool meant to run inside a DoD software factory to remediate fielded code needs its own ATO at the right impact level (IL4/IL5) before a program will let it near production; the federal page pitches the customer's cATO journey but never states where Lineaje's own product sits on that ladder.", "why_likely_missing": "The federal marketing page is written to sell the value proposition (helping others reach cATO) rather than disclose Lineaje's own accreditation status, which may still be in progress.", "evidence_quote": "Streamline the path to continuous Authority to Operate (cATO)", "quote_source": "homepage"}
+  ],
+  "opener_hook": "Your AFWERX Phase II builds on Phase I success for self-healing software supply chain remediation — worth comparing notes on how autonomous container fixes survive change control on a system that already holds an ATO.",
+  "confidence": "medium",
+  "stage_band": "series_a",
+  "what_they_do": "Sells full-lifecycle software supply chain security software (SBOM management, vulnerability remediation, 'self-healing' open-source dependency fixes) to commercial and federal customers, with a dedicated AFWERX-funded R&D track for autonomous DoD remediation."
+}

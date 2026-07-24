@@ -493,7 +493,7 @@ Department: Engineering and Technical • Level: C-Level
 We\'re proving that true autonomy doesn\'t just need more machines. It needs unified, adaptive intelligence.
 
 ## News (Exa, top 3)
-- Gambit Awarded Two Multi-Million Dollar Contracts by ... (2026-04-22) https://www.gambit.us/news-and-blogs/gambit-awarded-two-multi-million-dollar-contracts-by-u-s-air-force-to-advance-adaptive-intelligence-for-autonomous-systems
+- Gambit Awarded Two Multi-Million Dollar Contracts by U.S. Air Force to ... (2026-04-22) https://www.gambit.us/news-and-blogs/gambit-awarded-two-multi-million-dollar-contracts-by-u-s-air-force-to-advance-adaptive-intelligence-for-autonomous-systems
   Gambit Awarded Two Multi-Million Dollar Contracts by U.S. Air Force to Advance Adaptive Intelligence for Autonomous Systems
 
 blog
@@ -509,42 +509,26 @@ Share this article
 link copied!
 
 Los Angeles, Calif. (April 22, 2026) – Gambit, developer of a hardware-agnostic autonomy orchestration platform for robotic systems, announced it has been awarded two multi-million dollar 
-- Gambit Awarded OTA by U.S. Army GVSC to Advance Integrated C-UAS Simulation and Coordinated Autonomy () https://www.gambit.us/news-and-blogs/gambit-secures-u-s-army-gvsc-ota-to-advance-coordinated-autonomy-in-c-uas-simulation
-  Gambit Awarded OTA by U.S. Army GVSC to Advance Integrated C-UAS Simulation and Coordinated Autonomy
+- Award | SBIR () https://www.sbir.gov/awards/216352
+  Award | SBIR Skip to main content
 
-blog
-
-# Gambit Awarded OTA by U.S. Army GVSC to Advance Integrated C-UAS Simulation and Coordinated Autonomy
-
-by
-
-gambit ai
-
-Apr 15, 2026
-
-Share this article
-
-link copied!
-
-Los Angeles, CA (April 15 2026) – Gambit, an AI-first defense software company, announced it has been awarded an Other Transaction Authority (OTA) agreement by the U.S. Army Ground Vehicle Systems Center (GVSC) to integrate i
-- Gambit Defense, Inc. () https://www.sbir.gov/portfolio/2414597
-  Firm | SBIR Skip to main content
-
-# Company
+# Award
 
 Portfolio Data
 
-Back to Company Search
+Back to Award Search
 
-## Gambit Defense, Inc.
+## Dedicated Counter UAS Opposing Forces Utilizing AI/ML: CORTEX
 
-### Address
+### Awardee
+
+#### Gambit Defense, Inc.
 
 4817 RADFORD AVE PMB 98160VALLEY VILLAGE, CA, 91607-3720USA
 
-UEI: XC2HQCWYPMW4
+Award Year: 2025
 
-Number of Employees: 8
+UEI: XC2HQCWYPMW4
 
 HUBZone Owned: No
 
@@ -552,33 +536,29 @@ Woman Owned: No
 
 Socially and Economically Disadvantaged: No
 
-#### SBIR/STTR Involvement
+Congressional District: N/A
 
-Year of first award: 2025
+Tagged as:
 
-2
+STTR
 
-Phase I Awards
+Phase II
 
-2
+### Awarding Agency
 
-Phase II Awards
+DOD
 
-100%
+Branch: USAF
 
-Conversion Rate
+Total Award Amount: $1,788,872
 
-$183,907
+Cont
+- Gambit Emerges from Stealth with Adaptive Intelligence Layer for Autonomous Military Systems (2026-01-07) https://www.prnewswire.com/news-releases/gambit-emerges-from-stealth-with-adaptive-intelligence-layer-for-autonomous-military-systems-302654449.html
+  Gambit Emerges from Stealth with Adaptive Intelligence Layer for Autonomous Military Systems Accessibility Statement Skip Navigation
 
-Phase I Dollars
+Former Virgin Hyperloop CEO/CTO and DoW Critical Technologies Director deploy physical AI operating system for U.S. Department of War; contract vehicles worth $500M+ as demand for multi-system coordination surges
 
-$2,950,604
-
-Phase II Dollars
-
-$3,134,511
-
-Total 
+LOS ANGELES, Jan. 7, 2026 /PRNewswire/ -- Gambit, the dual-use defense company building adaptive intelligence for autonomous systems, emerged from steal
 
 ## Open roles
 (no jobs data found)

@@ -1,0 +1,46 @@
+{
+  "company": "Aloft Sensing, Inc.",
+  "slug": "aloft-sensing-inc",
+  "domain": "aloftsensing.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Army Direct-to-Phase-II SBIR contract W5170123C0018 for precision interferometric imaging radar (contract record in channel notes), plus 'tactical ISR' as a stated mission on their own homepage and LinkedIn about.",
+  "disconnect_score": 61,
+  "subscores": {"lab_language_intensity": 13, "deployment_awareness_absence": 12, "operator_absence": 12, "hiring_profile_skew": 10, "stage_pressure": 14},
+  "score_evidence": [
+    "\"a self-contained navigation technique that achieves micron-level localization and picosecond timing to maintain coherence\" → lab_language_intensity",
+    "\"coherent distributed sensing from multiple platforms for exponential performance gains\" → lab_language_intensity",
+    "\"compact software defined radar payloads that are well-suited to autonomous uninhabited vehicles such as sUAS and HALE aircraft\" — payload product for tactical ISR with zero mention of MIL-qual, airworthiness, ATO, ITAR, or sustainment → deployment_awareness_absence",
+    "\"We're bringing transformative radar sensing to new domains. We'd love to collaborate in new areas.\" — a research-collaboration ask, not an operator or fielding posture; no operator/training/CONOPS language anywhere → operator_absence",
+    "No jobs data in pack → hiring_profile_skew set exactly 10 per rule",
+    "$5M seed June 2024, ~10 people, $1M-$5M revenue, Army D2P2 period of performance running since 2023 (channel notes) → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Distributed coherence depends on inter-platform links a contested environment attacks first",
+      "operator_reality": "Their headline gain — coherent sensing across multiple platforms held together by picosecond timing — requires continuous crosslink sync between sUAS/HALE nodes. In an EW-contested area those datalinks are jammed or emissions-restricted, so the 'exponential performance gains' degrade to a single-node sensor exactly where the Army customer needs it. Same architecture-assumes-bandwidth failure as the 30fps crowd-detection case.",
+      "why_likely_missing": "The technique was matured on NASA Earth-science flights (news: NASA HALE radar article) where nobody is jamming you.",
+      "evidence_quote": "Aloft's techniques uniquely enable coherent distributed sensing from multiple platforms for exponential performance gains and reconfigurable and resilient operations.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No visible path from NASA/science payload to Army fielding: qualification, ITAR, and accreditation are absent",
+      "operator_reality": "A radar payload on an Army autonomous off-road platform needs environmental qualification (vibration, dust, thermal), an airworthiness/safety release when flown, export-control handling for SAR tech, and an accredited data path for its imagery. 1,000+ words of their own language never touch any of it — the D2P2 clock runs out while these gates are discovered one at a time.",
+      "why_likely_missing": "9-person team formed around processing-technique innovation; site copy is written for research collaborators, not a PM or transition office.",
+      "evidence_quote": "leveraging innovative processing techniques to transform the way Earth observation, tactical ISR, and high-precision PNT data is collected",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No operator, training, or sustainment story for a sensor sold to autonomous tactical platforms",
+      "operator_reality": "Someone at echelon has to task the sensor, read change-indication products, and keep the payload running — swap boards, recalibrate, manage spares — without a PhD on site. Their language never names a user; SAR change-detection output that needs an analyst-in-the-loop is a workflow nobody has designed for the E-5.",
+      "why_likely_missing": "Customers so far (NASA, SBIR topics) supply their own engineers; the company has never had to hand the system to a non-expert.",
+      "evidence_quote": "Aloft provides high-quality synthetic aperture radar (SAR) imagery and sensitive change indication measurements from compact software defined radar payloads",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Aloft Sensing's Army D2P2 (W5170123C0018) rides on coherent multi-platform sensing held together by picosecond timing — crosslink sync is the first thing a contested EW environment takes away, and it's the gap between the NASA HALE demo and an Army fielding decision.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Compact software-defined SAR radar (and undersea SAS) payloads with self-contained precision navigation for drones, HALE aircraft, and small satellites.",
+  "notes": "Stated own-language count ~1040, but the homepage text is triplicated and includes a privacy policy; unique product language is thinner, so deployment_awareness_absence and operator_absence were capped at 12 and confidence held at medium."
+}

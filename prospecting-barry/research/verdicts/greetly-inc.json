@@ -1,0 +1,20 @@
+{
+  "company": "Greetly Inc (Greetly by OfficeSpace)",
+  "slug": "greetly-inc",
+  "domain": "greetly.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Historically real — SBIR section shows two Air Force Phase II/TACFI awards ('Secure Area Access Control to Protect Airmen, OPSEC Data, and Physical Assets - Sponsored by AFRL', $1,248,010, 2023; 'TACFI Base Entry Modernization', $1,699,997, 2022) and news shows a multi-year Schriever AFB contract, 'the third US Air Force contract awarded to the organization since 2020'.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "'Greetly was awarded a multi-year contract for visitor management at Schriever AFB, the third US Air Force contact awarded to the organization since 2020' → the transition already happened; the product is in use on installations",
+    "The SBIR abstracts are already deployment-fluent — 'export to Air Force directed systems of record such as the Defense Biometric Information System (DBIDS)', 'Common Operating Picture systems ... such as ATAK, C2IMERA, and COPERS', work with 'the 96 SFS at Eglin AFB' — this is the low-disconnect profile, not a blind one",
+    "Company is now a 2-person brand inside an acquirer ('Greetly by OfficeSpace ... employs 2 people (-33.3% YoY)', annual revenue $3.1M) and the Fortifye defense line does not appear anywhere on the current site, whose entire ~1,880 words are commercial workplace visitor management → no longer an independent defense-tech company to engage"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Cloud visitor-management / digital-receptionist software for offices, previously extended as Fortifye for Air Force base and secure-area access control."
+}

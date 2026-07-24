@@ -1,0 +1,43 @@
+{
+  "company": "Tycho.AI",
+  "slug": "tycho-ai",
+  "domain": "tycho.ai",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "18-month, $2M AFRL TACFI contract for maritime autonomy plus an Army SBIR Phase I award ($228,817) for Cognitive Terrain Flight Assistance — News and SBIR sections.",
+  "disconnect_score": 43,
+  "subscores": {"lab_language_intensity": 8, "deployment_awareness_absence": 5, "operator_absence": 10, "hiring_profile_skew": 5, "stage_pressure": 15},
+  "score_evidence": [
+    "'Tycho.AI Secures CMMC Level 2 Certification, Strengthening Cybersecurity' → deployment_awareness_absence (fluent, scores low)",
+    "'GPS-denied and comms-degraded environments' repeated across site → deployment_awareness_absence (fluent, scores low)",
+    "open roles include 'Field Engineer', 'UAS Test Engineer', 'UAS Test Manager' → hiring_profile_skew (field-heavy, scores low)",
+    "'18-month, $2 million Tactical Funding Increase (TACFI) contract award from the U.S. Air Force Research Laboratory (AFRL)' + 18-26 employee team → stage_pressure (period-of-performance clock on a tiny team)"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Voyager's perception layer runs 'foundation vision models' for real-time 3D mapping and obstacle detection on a 5.2 lb airframe (Halley)",
+      "operator_reality": "Foundation vision models are power- and compute-hungry; on a sub-6lb SWaP-C budget with no mention of thermal management, sustained inference during a long-duration ISR loiter (not just a fast dash) will throttle or drain batteries faster than advertised flight specs suggest.",
+      "why_likely_missing": "Specs are framed around top speed (>200mph) and altitude (<25ft AGL) — dash performance, not sustained-endurance power budget under continuous AI inference.",
+      "evidence_quote": "Voyager delivers real-time perception via foundation vision models, providing obstacle detection and 3D mapping for proactive avoidance in dynamic environments.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Product is pitched as 'no comms required' autonomous decision-making with onboard 3D mapping and threat tracking, but nowhere mentions ATAK/TAK integration",
+      "operator_reality": "If Voyager's outputs don't feed into the ATAK common operating picture units already carry, an operator gets a second disconnected display to manage mid-mission instead of one unified feed — exactly the kind of integration gap that kills adoption after the demo.",
+      "why_likely_missing": "The site emphasizes standalone autonomy ('any platform, any mission') rather than integration into existing government C2/SA tooling.",
+      "evidence_quote": "Fusing AI-driven perception, navigation, and control into a compact module, it can be integrated on any platform and customized for your unique mission sets.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "CMMC Level 2 certification was just announced (June 2026) with no visible compliance/ISSO hire on the jobs list",
+      "operator_reality": "A cert without a dedicated owner tends to decay — POA&Ms go stale, new code paths ship without re-assessment, and the next contract's compliance review finds the same gaps the cert was supposed to close.",
+      "why_likely_missing": "Open roles skew toward hardware/test/field (PCB, FPGA, UAS Test) with a generalist 'Head of IT' but nothing titled compliance, ISSO, or RMF.",
+      "evidence_quote": "Head of IT ({'city': 'Cambridge', 'country_code': 'US'})",
+      "quote_source": "job_post"
+    }
+  ],
+  "opener_hook": "Halley validated C-UAS and one-way-attack profiles at T-REX 26-2 in May — did the foundation-vision perception pipeline hold frame rate when the RF link degraded, or only when GPS did?",
+  "confidence": "high",
+  "stage_band": "series_a",
+  "what_they_do": "Builds Voyager, a hardware+software autonomy stack, and Halley, a VTOL drone, for GPS-denied navigation and autonomous target engagement in contested environments."
+}

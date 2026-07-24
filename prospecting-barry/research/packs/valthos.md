@@ -106,7 +106,7 @@ Frontier AI systems to identify biological threats and design medical countermea
 Frontier AI systems to identify biological threats and design medical countermeasures in real time.
 
 ## News (Exa, top 3)
-- Valthos Raises $30M from OpenAI, Lux Capital, Founders Fund to Build ... (2025-10-29) https://www.prnewswire.com/news-releases/valthos-raises-30m-from-openai-lux-capital-founders-fund-to-build-next-generation-biodefense-302598583.html
+- Valthos Raises $30M from OpenAI, Lux Capital, Founders ... (2025-10-29) https://www.prnewswire.com/news-releases/valthos-raises-30m-from-openai-lux-capital-founders-fund-to-build-next-generation-biodefense-302598583.html
   Valthos Raises $30M from OpenAI, Lux Capital, Founders Fund to Build Next-Generation Biodefense Accessibility Statement Skip Navigation
 
 Valthos develops frontier AI systems that identify biological threats and design medical countermeasures in real time.
@@ -134,30 +134,102 @@ Valthos builds next-generation biodefense.
 As AI advances, life itself has become programmable. The world is approaching near-universal access to powerful, dual-use biotechnologies capable of eliminating disease or creating it. Today, it's faster to weaponize biology than to advance new cures. Leaders in AI have identified this as one of the largest threats of our time. Our future hangs in the balance.
 
 In this new er
-- Valthos () https://valthos.com/
-  Valthos
+- AI Biodefense Startup Valthos Launches With $30 Million, OpenAI Backing - Decrypt (2025-10-25) https://decrypt.co/345959/ai-biodefense-startup-valthos-launches-30-million-openai-backing
+  AI Biodefense Startup Valthos Launches With $30 Million, OpenAI Backing - Decrypt
 
-Careers
+### BTC
 
-X
+$65,878.00
 
-LinkedIn
+-0.60%
 
-# Valthos builds next-generation biodefense.
+### ETH
 
-We develop frontier AI systems that identify biological threats and design medical countermeasures in real time.
+$1,922.11
 
-# Valthos builds next-generation biodefense.
+-0.55%
 
-We develop frontier AI systems that identify biological threats and design medical countermeasures in real time.
+### BNB
 
-blogOct 24, 2025Introducing Valthos
+$570.17
 
-pressOct 24, 2025Bloomberg coverage
+-1.10%
 
-# Join us
+### USDC
 
-We're assembling exceptional people to join us in this mission. 
+$0.999896
+
+-0.00%
+
+### XRP
+
+$1.14
+
+0.38%
+
+### SOL
+
+$77.52
+
+-0.95%
+
+### TRX
+
+$0.329836
+
+0.73%
+
+### FIGR_HELOC
+
+$1.005
+
+0.48%
+
+### HYPE
+
+$58.62
+
+-6.64%
+
+### DOGE
+
+$0.072534
+
+-1.43%
+
+### RAIN
+
+$0.01468907
+
+4.97%
+
+### USDS
+
+$0.999837
+
+0.00%
+
+### LEO
+
+$9.72
+
+0.13%
+
+### ZEC
+
+$512.19
+
+-5.63%
+
+### WBT
+
+$57.52
+
+-0.38%
+
+### XMR
+
+$34
 
 ## Open roles (Blitz, live)
 - Operations - Generalist / Business Operations ({'city': 'New York', 'country_code': 'US'})

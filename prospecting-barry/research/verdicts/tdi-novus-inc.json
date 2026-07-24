@@ -1,0 +1,16 @@
+{
+  "company": "TDI Novus Inc",
+  "slug": "tdi-novus-inc",
+  "domain": "tdinovus.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "SBIR record shows real Navy R&D (SHIELD, CONSCIOUS, PROPEL) but TDI Novus is explicitly 'a research hub within the TDI family of companies,' sister to TDI Technologies Inc — a ~40-year-old engineering/program-management services and staffing firm (ISEA, Sea Trial Support, DCAA-audited accounting) that just won a 5-year follow-on for NIWC Pacific — services/SI parent, not an early-stage product company.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "SBIR/STTR research arm (maritime domain awareness AI, USV bridge-radio comprehension) of TDI Technologies, a decades-old Navy engineering-services and program-management staffing firm."
+}

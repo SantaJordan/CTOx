@@ -287,68 +287,6 @@ Smack is building the first frontier AI lab for national security. Our mission i
 Smack's domain-specific models analyze multimodal data streams in real time, converting that data into campaign-informed decisions across the kill chain in seconds.
 
 ## News (Exa, top 3)
-- OTA IDV N000392590003 Smack Technologies () https://www.highergov.com/idv/N000392590003/
-  OTA IDV N000392590003 Smack Technologies
-
-HigherGov
-
-Pipeline
-
-FOIA
-
-Notify
-
-- New Contract Awards
-
-Track
-
-Favorite
-
-No Bid
-
-Export
-
-- CSV
-- Excel
-
-Share
-
-- Copy URL
-- Email
-- Tweet
-
-# N000392590003
-
-Other Transaction Authority
-
-- List
-- Text
-
-## Overview
-
-Government Description
-
-Tower Deployment
-
-Awardee
-
-Awarding Agency
-
-Naval Information Warfare Systems Command (NAVWAR) [DoD - USN]
-
-Funding Agency
-
-Office of the Secretary of Defense (OSD) [DoD]
-
-NAICS
-
-Not Reported
-
-PSC
-
-Not Reported
-
-Pricing
 - Smack wins JFN, MCWL contracts to help bring Decision Dominance to the DoD () https://smacktechnologies.com/journal/smack-wins-jfn-mcwl-contracts-to-help-bring-decision-dominance-to-the-dod
   ## Smack wins JFN, MCWL contracts to help bring Decision Dominance to the DoD
 
@@ -359,7 +297,7 @@ Pricing
 Smack Technologies has been awarded two prototyping contracts from the Joint Fires Network (JFN) and the Marine Corps Warfighting Lab (MCWL).
 
 Both contracts underscore the Department's recognition that the current kill chain is vulnerable to disrup
-- Smack Announces $32M in Funding to Build the First ... (2026-03-02) https://smacktechnologies.com/journal/smack-announces-32m-in-funding-to-build-the-first-frontier-ai-lab-for-national-security
+- Smack Announces $32M in Funding to Build the First Frontier AI Lab ... (2026-03-02) https://smacktechnologies.com/journal/smack-announces-32m-in-funding-to-build-the-first-frontier-ai-lab-for-national-security
   ## Smack Announces $32M in Funding to Build the First Frontier AI Lab for National Security
 
 ###### Monday, March 2, 2026
@@ -367,6 +305,14 @@ Both contracts underscore the Department's recognition that the current kill cha
 ##### Smack has raised $32M in Seed and Series A funding to scale the first frontier AI lab for national security and deliver Decision Dominance to the DoW.
 
 Smack, the first frontier AI lab for national security, has announced $32M in Seed and Series A funding to support our mission of delivering Decision Dominance to the U.S. Department of War (DoW), our allies, and partne
+- Smack Technologies Announces $32M in Funding to Build First Frontier AI ... (2026-03-02) https://www.businesswire.com/news/home/20260302652463/en/Smack-Technologies-Announces-%2432M-in-Funding-to-Build-First-Frontier-AI-Lab-for-National-Security
+  Powered and protected by
+
+Privacy
+
+Powered and protected by
+![Akamai](https://www.akamai.com/site/ko/images/logo/akamai-logo1.svg)
+[Privacy](https://www.akamai.com/privacy)
 
 ## Open roles (Blitz, live)
 -  Capture and Proposal Manager ({'city': 'Washington', 'country_code': 'US'})

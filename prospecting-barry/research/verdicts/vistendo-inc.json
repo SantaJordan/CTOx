@@ -1,0 +1,16 @@
+{
+  "company": "VISTENDO INC",
+  "slug": "vistendo-inc",
+  "domain": "vistendo.com",
+  "verdict": "insufficient_evidence",
+  "drop_reason": "",
+  "dod_intent_evidence": "SBIR abstract: POMAS is a Defense Health Program Phase II ($1.65M) device 'ruggedized for all-weather on-the-field operation' for TBI assessment of 'the injured warfighter,' displaying results 'on their ATAK device' — genuine DoD motion, but pack has only ~178 words of own language, well under the ~500-word evidence floor.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "low",
+  "stage_band": "revenue_stage",
+  "what_they_do": "A small athlete/warfighter eye-based neuro-assessment company building POMAS, a ruggedized handheld device for rapid TBI screening in the field, ATAK-integrated, funded by a Defense Health Program SBIR Phase II."
+}

@@ -3,7 +3,7 @@ slug: taqtile | domain: taqtile.com | HQ: Seattle, Washington US | employees(LI)
 sources: vc:scout
 industry(LI): Software Development | specialties: mobile, mixed reality, retail, hololens, virtual reality, roid, augmented reality, ios
 channel notes: AR work instructions for defense/industrial
-own-language word count: ~1032
+own-language word count: ~988
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -211,11 +211,25 @@ Reductio
 URL: https://taqtile.com/webinars/ai-powered-digital-inspections/
 Modernizing Inspections with AI | Live Webinar
 
+https://taqtile.com/webinars/ai-powered-digital-inspections/
+
+https://taqtile.com/webinars/ai-powered-digital-inspections/
+
 Live Webinar - Modernize Inspections with AI-Powered Instructions
+
+https://taqtile.com/webinars/ai-powered-digital-inspections/
+
+https://taqtile.com/webinars/ai-powered-digital-inspections/
 
 Reserve your spot
 
+https://taqtile.com/webinars/ai-powered-digital-inspections/
+
 Live Webinar - Modernize Inspections with AI-Powered Instructions
+
+https://taqtile.com/webinars/ai-powered-digital-inspections/
+
+https://taqtile.com/webinars/ai-powered-digital-inspections/
 
 Reserve your spot
 
@@ -226,6 +240,8 @@ ON-DEMAND WEBINAR
 See how AI transforms manual inspections into consistent, compliant, and audit-ready workflows, live with Manifest®.
 
 March 12, 2026 | 11:00 AM PT / 2:00 PM ET
+
+< Webinars
 
 ## Turn complex inspections into consistent, audit-ready workflows automatically.
 
@@ -257,7 +273,7 @@ In this session, you’ll learn how to eliminate manual data entry and cut audit
 
 ### A preview of emerging AI capabilities designed to help validate submitted inspection evidence for accuracy and quality.
 
-✅ Accelerate authoring with AI that generates draft inspection procedures directly from manuals, videos, and existing documentation.✅ Drive consistent execution with step-by-step digital workflows that guide operators through every task.✅ Streamline compliance with built-in evidence capture, including measurements, photos, and video validation.✅ Instantly create audit-ready records with automatic inspection report generation immediately upon completion.✅ A pr
+✅ Accelerate auth
 
 ## LinkedIn about
 

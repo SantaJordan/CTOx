@@ -1,0 +1,16 @@
+{
+  "company": "Neros Technologies",
+  "slug": "neros-technologies",
+  "domain": "neros.tech",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Own-language + news confirm genuine DoD motion (BlueUAS-certified Archer FPV, warfighter language) but the company has already crossed the valley of death: a $500M Army IDIQ for 'hundreds of thousands' of drones under the PBAS program (Defense Daily/GovConWire, 2026-07), 170 employees, $75M Series B led by Sequoia — this is mass-production scale, not a stuck prototype.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Mass-manufactures attritable FPV strike drones (Archer) for US and allied militaries."
+}

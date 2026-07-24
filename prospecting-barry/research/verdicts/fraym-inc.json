@@ -1,0 +1,16 @@
+{
+  "company": "FRAYM, INC.",
+  "slug": "fraym-inc",
+  "domain": "fraym.io",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Real DoD motion (AF SBIR Phase II for Information Operations data - SBIR record), but they transitioned: 'Fraym leverages SBIR Phase III to secure $78M US Air Force IDIQ contract' (news, Jan 2025), founded 2015, 52 employees, established IC Insider with commercial and government revenue - they crossed the valley of death.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "AI-derived, census-like hyperlocal population data (attitudes, demographics, behaviors) sold to government, IC, health, and commercial buyers."
+}

@@ -264,6 +264,22 @@ Lexset, is a synthetic data company specialized in solving the training data pro
 As nation states rush to gain strategic advantages in the space domain, Artificial Intelligence and Machine Learning (“AI/ML”), and specifically Computer Vision (CV) systems, are becoming increasingly necessary to carry out critical tasks. U.S. Space Forc
 
 ## News (Exa, top 3)
+- Lexset announces Seahaven training data platform to accelerate vision AI applications using NVIDIA TAO Toolkit (2021-11-11) https://www.einpresswire.com/article/556022994/lexset-announces-seahaven-training-data-platform-to-accelerate-vision-ai-applications-using-nvidia-tao-toolkit
+  Lexset announces Seahaven training data platform to accelerate vision AI applications using NVIDIA TAO Toolkit
+
+World Media Directory· RSS· Email Newsletters
+
+There were 1,370 press releases posted in the last 24 hours and 456,135 in the last 365 days.
+
+# Lexset announces Seahaven training data platform to accelerate vision AI applications using NVIDIA TAO Toolkit
+
+News Provided By
+
+November 11, 2021, 17:00 GMT
+
+Share This Article
+
+Image of Seahaven synthetic data platform user interface, Novemb
 - LexSet is training AI with 3D images - Metal Tech News (2020-05-13) https://www.metaltechnews.com/story/2020/05/13/mining-tech/lexset-is-training-ai-with-3d-images/228.html
   LexSet is training AI with 3D images - Metal Tech News
 
@@ -282,42 +298,48 @@ Pickpik.com
 This 3D rendering is similar to the environments produced by LexSet to train artificial intelligence systems.
 
 Burgeoning startup LexSet is taking an innovative approach to artificial intellige
-- Lexset announces Seahaven training data platform to accelerate vision AI applications using NVIDIA TAO Toolkit (2021-11-11) https://www.einpresswire.com/article/556022994/lexset-announces-seahaven-training-data-platform-to-accelerate-vision-ai-applications-using-nvidia-tao-toolkit
-  Lexset announces Seahaven training data platform to accelerate vision AI applications using NVIDIA TAO Toolkit
+- Award | SBIR () https://www.sbir.gov/awards/204449
+  Award | SBIR Skip to main content
 
-World Media Directory· RSS· Email Newsletters
+# Award
 
-There were 1,370 press releases posted in the last 24 hours and 456,135 in the last 365 days.
+Portfolio Data
 
-# Lexset announces Seahaven training data platform to accelerate vision AI applications using NVIDIA TAO Toolkit
+Back to Award Search
 
-News Provided By
+## Developing CETACEAN computer vision-based relative navigation system for RPOD using synthetic data pipeline
 
-November 11, 2021, 17:00 GMT
+### Awardee
 
-Share This Article
+#### STARFISH SPACE, INC.
 
-Image of Seahaven synthetic data platform user interface, Novemb
-- Visual technology startup LexSet wins several awards - Furniture Today (2019-09-18) https://www.furnituretoday.com/technology/ai-startup-lexset-wins-several-awards/
-  Visual technology startup LexSet wins several awards - Furniture Today
+665 ANDOVER PARK WTUKWILA, WA, 98188-3319USA
 
---
+Award Year: 2023
 
---
+UEI: QM7PN38M94U7
 
-Category: Furniture Retailing- date_display:
+HUBZone Owned: No
 
-Category: Technology- date_display:
+Woman Owned: No
 
-Startup LexSet wins awards for using AI to offer both visual search and automated tagging.
+Socially and Economically Disadvantaged: No
 
-# Visual technology startup LexSet wins several awards
+Congressional District: 8
 
-Winning criteria include product originality, usability, societal impact
+Tagged as:
 
-Anne Flynn Wear//Assistant Managing Editor//September 18, 2019
+SBIR
 
-NEW YORK– Computer vision company LexSet, a startup
+Phase II
+
+### Awarding Agency
+
+DOD
+
+Branch: USAF
+
+Total A
 
 ## Open roles (Blitz, live)
 - Full-Stack Product & Field Engineer – AI Systems ({'city': None, 'country_code': 'US'})

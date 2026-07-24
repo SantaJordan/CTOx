@@ -399,7 +399,7 @@ krtkl (“critical”) is an edge-computing and integrated-systems company solvi
 krtkl has been awarded a follow-on contract under the US Army Research Laboratory’s xTechSBIR Autonomy initiative. This Phase 2 contract will build upon krtkl’s Phase 1 efforts to deliver solutions supporting next-generation robotic and communications systems by providing better awareness of the electromagnetic spectrum.
 
 This award was pa
-- krtkl Wins Space Development Agency Contract (2024-06-11) https://krtkl.com/news/2024/06/krtkl-sda/
+- krtkl Wins Space Development Agency Contract | krtkl (2024-06-11) https://krtkl.com/news/2024/06/krtkl-sda/
   krtkl Wins Space Development Agency Contract | krtkl
 
 # krtkl Wins Space Development Agency Contract
@@ -409,18 +409,16 @@ This award was pa
 krtkl has been awarded a Direct to Phase 2 Small Business Innovation Research (SBIR) contract with the United States Space Development Agency (SDA), a unit of the US Space Force. Under the award, krtkl will deliver various satellite communications technologies in support of SDA’s proliferated low-earth-orbit (LEO) Space Architecture.
 
 This contact was awarded under SDA’s 202
-- krtkl Awarded Phase I Contract with US Special Operations (2023-08-15) https://krtkl.com/news/2023/08/us-special-ops-krtkl-phase-i/
-  krtkl Awarded Phase I Contract with US Special Operations | krtkl
+- krtkl Receives Space Force Contract for ISAM | krtkl (2022-08-15) https://krtkl.com/news/2022/08/krtkl-receives-space-force-contract-for-isam/
+  krtkl Receives Space Force Contract for ISAM | krtkl
 
-# krtkl Awarded Phase I Contract with US Special Operations
+# krtkl Receives Space Force Contract for ISAM
 
 - View Larger Image
 
-krtkl was awarded a Phase I Small Business Technology Transfer (STTR) contract by US Special Operations Command (SOCOM) to develop technology that optimizes situational awareness and decision-making for rotary wing operators.
+In its first ever Small Business Technology Transfer (STTR) solicitation cycle, SpaceWERX – the innovation arm of the US Space Force – awarded krtkl inc. and its research partner, University of Texas at Arlington, a Phase I contract to develop technology in support of advancing In-Space Servicing, Assembly, and Manufacturing (ISAM) capabilities.
 
-Information on the solicitation can be found here.
-
-krtkl was awarded a Phase I Small Business Technology Transfer (STTR) co
+Read the full Orbital Prime 
 
 ## Open roles
 (no jobs data found)

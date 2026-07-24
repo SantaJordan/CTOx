@@ -1,0 +1,41 @@
+{
+  "company": "Ripple Two",
+  "slug": "ripple-two",
+  "domain": "rippletwo.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Air Force Phase II SBIR 2022 ($749,814) with the 724th STG (AFSOC) for a Secure Wireless ATAK Screen Sharing system (ASICS); site LinkedIn about states 'Ripple Two is an Air Force SBIR Phase 2 Company producing next generation communications solutions for Armed Forces and Law Enforcement.'",
+  "disconnect_score": 40,
+  "subscores": {"lab_language_intensity": 4, "deployment_awareness_absence": 6, "operator_absence": 2, "hiring_profile_skew": 10, "stage_pressure": 18},
+  "score_evidence": [
+    "'Ripple Two receives $50K SCRA funding' (Aug 2025) is the only funding event visible since the 2022 Air Force Phase II SBIR ($749,814), with team still at 2-4 employees and channel notes marking status as 'prototype' → stage_pressure",
+    "no jobs data found in pack → hiring_profile_skew set to 10 per instructions"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "'R2TAK Servers with DoD level Encryption' is marketed as a security feature, but nothing on the site mentions the ATO/RMF process or IL4/IL5 accreditation a server carrying that encryption actually needs before it can sit on a government network.",
+      "operator_reality": "This is the single most common reason a promising ATAK plug-in stalls after a demo exercise like Northern Strike — the tech works, but the paperwork to authorize it on a real network hasn't started, and a 2-4 person team has no ISSO/compliance role to run it.",
+      "why_likely_missing": "Team composition described as 'seasoned veterans and technical experts' with 'decades of elite combat experience' — deep operational pedigree, but no visible compliance/accreditation background.",
+      "evidence_quote": "R2TAK Servers with DoD level Encryption allows for centralized storage and management of mission-critical data such as maps, overlays, waypoints, and other tactical information.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "'Redundancy and Resilience features to ensure continuous operation' is asserted generically but never specified against denied/degraded wireless conditions — the exact scenario their own flagship product, 'Secure Wireless ATAK Screen Sharing,' depends on to work at all.",
+      "operator_reality": "If the wireless link that carries the screen-share itself goes DDIL, the product's core value proposition disappears; the site never addresses what happens to the shared common operating picture when comms degrade mid-mission.",
+      "why_likely_missing": "Marketing language optimizes for the pitch ('continuous operation') rather than naming the specific failure mode their SBIR abstract's own product name implies they must have already encountered in testing.",
+      "evidence_quote": "Redundancy and Resilience features to ensure continuous operation even in cha",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Only funding event reported since the 2022 Phase II SBIR is a $50K South Carolina state Acceleration Grant in August 2025 — three years later, with the team still at 2-4 people and status still 'prototype.'",
+      "operator_reality": "This is the valley-of-death pattern by the numbers: a $749,814 Phase II clock that funds roughly 12-24 months of work, followed by three years of no visible Phase III or production contract, patched with a small non-dilutive state grant rather than a real transition award.",
+      "why_likely_missing": "The site's forward-looking language ('Scalable and Customizable... grow and evolve with your operational requirements') assumes a growth trajectory the funding history doesn't yet support.",
+      "evidence_quote": "Four Charleston tech startups received over $150k in funding from the South Carolina Research Authority... Ripple Two... each received a $50k Acceleration Grant",
+      "quote_source": "news"
+    }
+  ],
+  "opener_hook": "Ripple Two's 2022 Air Force Phase II built secure ATAK screen-sharing with the 724th STG, but the only funding since is a $50K SC state grant in 2025. What bridges it to Phase III?",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Veteran/Spec-Ops-founded company building secure ATAK plug-ins, R2TAK servers, and communications hardware/software for DoD and first-responder tactical situational awareness."
+}

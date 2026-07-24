@@ -385,22 +385,14 @@ Getting your Trinity Audio player ready...
 Two Denver tech businesses have landed federal funding to help them develop new products and expand their reach at a time when many businesses are in survival mode.
 
 Greetly, which provides systems for companies to check in and track vis
-- Tech’s Love Affair With Colorado to Continue Despite Global Pandemic (2020-09-08) https://www.greetly.com/press/techs-love-affair-with-colorado-to-continue-despite-global-pandemic
-  Tech’s Love Affair With Colorado to Continue Despite Global Pandemic Skip to content
+- greetly by officespace (2026-06-25) https://greetly.com/
+  # Greetly by OfficeSpace (Greetly, Inc.)
 
-September 8, 2020
+Greetly by OfficeSpace is a Technology, Information and Internet company. Greetly by OfficeSpace employs 2 people (-33.3% YoY, -1 person) and has an annual revenue of $3.1M, founded in 2014. Headquartered in Denver, Colorado, United States.
 
-# Tech’s Love Affair With Colorado to Continue Despite Global Pandemic
+## About
 
-Despite a global pandemic, Colorado is attractive to tech companies. Touchless visitor management maker Greetly won an US Air Force innovation contract.
-
-Originally published by The Denver Post. Re-posted with permission.
-
----
-
-Despite a global pandemic, Colorado will continue to be attractive to tech companies.
-
-“We can 
+Greetly is the only fully customizable visitor management system serving enterprise and SMB clients across the globe. Greetly's digital receptionist app saves valuable time and dollars by modernizing custom
 
 ## Open roles
 (no jobs data found)

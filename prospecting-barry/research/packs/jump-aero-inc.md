@@ -171,18 +171,10 @@ Continue Reading
 Jump Aero
 
 Jump Aero is 
-- Jump Aero and Caltech Win U.S. Air Force Contract as part of Agility Prime (2021-04-07) https://jumpaero.com/press/ltrvjvu5biw1j5trwsuad2ksn53fy1
-  Jump Aero and Caltech Win U.S. Air Force Contract as part of Agility Prime — Jump Aero
+- Jump Aero Unveils Rapid Response eVTOL Design, Receives First Order from Falck Ambulance Services and Funding from U.S. Air Force (2023-09-07) https://www.prnewswire.com/news-releases/jump-aero-unveils-rapid-response-evtol-design-receives-first-order-from-falck-ambulance-services-and-funding-from-us-air-force-301920233.html
+  Jump Aero Unveils Rapid Response eVTOL Design, Receives First Order from Falck Ambulance Services and Funding from U.S. Air Force Accessibility Statement Skip Navigation
 
-# Jump Aero and Caltech Win U.S. Air Force Contract as part of Agility Prime
-
-CISON PR Newswire
-
-Apr 7
-
-CISON PR Newswire/ 07 Apr, 2021
-
-PETALUMA, Calif., April 7, 2021 /PRNewswire/ -- Jump Aero Incorporated announces the award of a Phase I Small Business Technology Transfer (STTR) research contract from the U.S. Air Force as part of Agility Prime, a program designed to accelerate the commercial market for du
+PETALUMA, Calif., Sept. 7, 2023 /PRNewswire/ -- Jump Aero unveiled the design of the company's all-electric vertical takeoff and landing (eVTOL) first response aircraft which has been in development since 2019. The company also announced that the first full-scale prototype would be partially funded by the United States Air Forc
 
 ## Open roles (Blitz, live)
 - Production Leader ({'city': 'Petaluma', 'country_code': 'US'})

@@ -1,0 +1,26 @@
+{
+  "company": "LIFT Aircraft",
+  "slug": "lift-aircraft",
+  "domain": "liftaircraft.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Air Force SBIR Phase II 2022 for autonomous cargo/computer-vision payload work plus a 2024 US Army Applications Laboratory contract with Near Earth Autonomy to build an uncrewed blood-delivery/CASEVAC variant of Hexa — SBIR abstract section and news section.",
+  "disconnect_score": 69,
+  "subscores": {"lab_language_intensity": 16, "deployment_awareness_absence": 15, "operator_absence": 14, "hiring_profile_skew": 10, "stage_pressure": 14},
+  "score_evidence": [
+    "'We believe everyone should be able to experience the thrill and magic of personal, vertical flight' → lab_language_intensity (entire public product story is consumer-experience framed, zero operational framing)",
+    "'A triply redundant autopilot computer with a single, 3-axis joystick is all that is needed to fly' → deployment_awareness_absence (simplicity pitch has no SWaP-C/ATO/compliance framing for the military variant)",
+    "'fully autonomous cargo drop and retrieval' (SBIR abstract) → operator_absence (CASEVAC/blood-delivery use case described with zero mention of medics, trainers, or field operators)",
+    "'[PRESS RELEASE] Army Selects LIFT Aircraft and Near Earth Autonomy to Develop Uncrewed Blood Delivery & Casualty Evacuation System' (2024-10-01), demo reported by Aviation Week 2024-09-27 → stage_pressure (fresh contract, demo clock running)",
+    "No jobs data found in pack → hiring_profile_skew set to 10 per instructions"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Safety architecture depends on GPS and ground-based radar infrastructure", "operator_reality": "A CASEVAC/blood-delivery mission under 'Logistics Under Attack' conditions is exactly where GPS gets jammed and there's no ground radar station nearby; the consumer-flight safety stack (geofences, ground radar, GPS nav) is the opposite of what a contested resupply run needs.", "why_likely_missing": "The entire public safety page was written for the joyride product, which operates in fixed, permitted, uncontested US airspace near cities — the DoD cargo variant inherited that page's assumptions.", "evidence_quote": "Geofenced flight area boundaries / Ground-based radar for collision avoidance / GPS assisted navigation", "quote_source": "homepage"},
+    {"blind_spot": "Mission control model assumes a persistent voice/data link to a human controller", "operator_reality": "Their own SBIR abstract's endpoint is fully autonomous cargo drop specifically because a contested logistics run can't count on a live link back to a controller — yet their safety doctrine still centers 'Mission Control' with two-way voice as the control layer.", "why_likely_missing": "The Mission Control model was built for liability/FAA-compliance reasons on the civilian joyride product, and the site hasn't been rewritten to describe how (or whether) that assumption changes for a denied-comms military drop.", "evidence_quote": "2-way voice communication with Control ... Dedicated controllers monitoring flight telemetry", "quote_source": "homepage"},
+    {"blind_spot": "Airframe and compliance story is built entirely around FAA civilian ultralight classification, not military ruggedization or ATO", "operator_reality": "Getting the CASEVAC variant onto a program of record needs an ATO/RMF path, EMI hardening, and possibly ITAR handling for the payload system — none of which is mentioned anywhere despite the product being pitched to the Army as an operational logistics platform.", "why_likely_missing": "LIFT's core identity and regulatory strategy (432lb carbon fiber, FAA Powered Ultralight, no pilot's license) was built to sell joyrides, not survive DoD accreditation, and the defense pivot is still riding on that same public narrative.", "evidence_quote": "compliant with the FAA's Powered Ultralight classification so no pilot's license is required to fly", "quote_source": "homepage"}
+  ],
+  "opener_hook": "Your Army contract with Near Earth Autonomy has Hexa Cargo flying 'Logistics Under Attack' missions — but the safety design on your own site (geofenced zones, ground-based radar, voice link to Mission Control) is built for the opposite: a permitted, connected joyride airspace.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Builds the Hexa eVTOL multirotor aircraft, primarily sold as a consumer flight experience, now adapting a cargo variant for Army uncrewed blood-delivery/CASEVAC missions under SBIR/AAL funding."
+}

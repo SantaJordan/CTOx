@@ -1,0 +1,16 @@
+{
+  "company": "Veros Technologies",
+  "slug": "veros-technologies",
+  "domain": "verostech.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "Own-words site describes decade-old technical consulting/staffing services to IC and DoD (cyber security, systems/network engineering, technical operations management, program management) — services-only, not a product company with a prototype to field.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "A 2013-founded IC/DoD technical consulting and staffing firm (cyber ops, systems engineering, program management) recently acquired by a Carlyle portfolio company — not a hardware/software prototype builder."
+}

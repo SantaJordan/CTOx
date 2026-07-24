@@ -3,7 +3,7 @@ slug: encord | domain: encord.com | HQ: San Francisco, California US | employees
 sources: vc:harpoon
 industry(LI): Software Development | specialties: active learning, data engine, artificial intelligence, computer vision, machine learning, data annotation, image annotation, video annotation, automated labeling, ground truth data, model training, model performance, saas, software-as-a-service
 channel notes: data development platform for AI
-own-language word count: ~1449
+own-language word count: ~1117
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -230,263 +230,7 @@ Explore Encord's Interactive Demo
 Explore Encord's Interactive Demo
 
 URL: https://encord.com/long-horizon
-Long Horizon Physical AI Summit 2026 | Oct 20-21, Fort Mason, San Francisco
-
-20-21 October | Fort Mason, San Francisco
-
-# LONG HORIZON
-
-Presented by
-
-Two days with the top voices in Physical AI. Join 600 senior leaders from the world's most ambitious robotics, autonomous systems, and frontier AI companies to witness the future of physical intelligence.
-
-Join waitlist
-
-## About the summit
-
-20-21st
-
-October, 2026
-
-Fort Mason
-
-San Francisco, CA
-
-40
-
-headline speakers
-
-600+
-
-curated attendees
-
-## Featured speakers
-
-### Sebastian Thrun
-
-Founder
-
-### Deepak Pathak
-
-CEO
-
-### Quan Vuong
-
-Co-founder
-
-### Pim de Witte
-
-CEO
-
-### Carolina Parada
-
-VP and Head of Robotics
-
-### Vincent Vanhoucke
-
-Distinguished Engineer
-
-### Ken Goldberg
-
-Co-Founder
-
-### Sankaet Pathak
-
-Founder
-
-### Pras Velagapudi
-
-CTO
-
-### Alberto Rodriguez
-
-Director, Robot Behavior
-
-### Matt George
-
-CEO
-
-### Grace Brown
-
-CEO
-
-### Andrew Wooten
-
-Co-Founder
-
-### Jason Ma
-
-Co-founder
-
-### Thomas Kollar
-
-Head of AI
-
-### Apeksha Kumavat
-
-Chief Engineer and Co-founder
-
-### Andreas Wendel
-
-CTO
-
-### Ben Burchfiel
-
-Co-Founder & CTO
-
-### Hyunggi Cho
-
-CEO
-
-### Ivan Poupyrev
-
-CEO
-
-### Ashish Kapoor
-
-CEO
-
-### Aadeel Akhtar
-
-Founder
-
-### Sviat Dulianinov
-
-CEO
-
-### Abhinav Das
-
-CEO
-
-### Kacper Nowicki
-
-CEO
-
-### Luc Vincent
-
-Chief R&D Officer
-
-### Arne Stoschek
-
-Senior Director AI Products
-
-### Tilo Schwarz
-
-VP of Engineering
-
-### Harrison Shih
-
-Head of Drone Program
-
-### Nitish Srivastava
-
-Senior Director of Autonomy
-
-### Kalpana Seshadrinathan
-
-Director of Deep Learning
-
-### Kaustubh Khanke
-
-Senior Principal Product Manager
-
-### Jeremy Kerfs
-
-Perception Engineer
-
-## Event Program
-
-Robotics & Embodied AI
-
-20 Oct 2026
-
-Fort Mason, SF
-
-08:00
-
-Summit Opens
-
-Registration & Breakfast
-
-08:00
-
-Summit Opens
-
-Registration & Breakfast
-
-09:00 - 16:00
-
-Talks, panels and breakout sessions
-
-Leaders, builders and researches
-
-CONFERENCE
-
-09:00 - 16:00
-
-Talks, panels and breakout sessions
-
-Leaders, builders and researches
-
-CONFERENCE
-
-16:00 - LATE
-
-Networking
-
-Community in session
-
-OPEN
-
-16:00 - LATE
-
-Networking
-
-Community in session
-
-OPEN
-
-Autonomy (AV, ADAS, DEFENSE)
-
-21 Oct 2026
-
-Fort Mason, SF
-
-08:00
-
-Summit opens
-
-Registration & breakfast
-
-08:00
-
-Summit opens
-
-Registration & breakfast
-
-09:00 - 16:00
-
-Talks, panels and breakout sessions
-
-Leaders, builders and researchers
-
-CONFERENCE
-
-09:00 - 16:00
-
-Talks, panels and breakout sessions
-
-Leaders, builders and researchers
-
-CONFERENCE
-
-16:00 - LATE
-
-Networking
-
-Community in session
-
-1
+Redirecting to /long-horizon/
 
 URL: https://encord.com/
 Encord | Train and Run AI on the Right Data
@@ -575,7 +319,19 @@ UiPath uses Encord to annotate and manage training data across image and text - 
 
 10x
 
-dataset gro
+dataset growth
+
+4x
+
+reduction in error rate
+
+Read more
+
+“The reason we used Encord is because of flexibility and infrastructure.”
+
+### UiPath achieved near 99% model accuracy with Encord
+
+UiPath uses Encord to annotate and manage trai
 
 ## LinkedIn about
 

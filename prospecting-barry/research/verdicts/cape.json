@@ -1,0 +1,16 @@
+{
+  "company": "Cape",
+  "slug": "cape",
+  "domain": "cape.co",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Air Force SBIR Phase II 2023 ($975,672, zero-trust non-attributable use of commercial cell service) in the SBIR section, and news of a $50M Air Force STRATFI sequential Phase II.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "a16z-backed, ~176-person privacy-first US mobile carrier (MVNO) in general availability at $99/month, with a $50M Air Force STRATFI carrying its non-attributable-comms defense line across the valley; far outside the $5M-$10M stuck-prototype profile, hiring 'Forward Deployed Engineer, East Asia' and 'Head of Government Relations' — the deployment and advocacy muscles Barry supplies are already staffed."
+}

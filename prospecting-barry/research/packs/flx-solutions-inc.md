@@ -378,18 +378,14 @@ FLX Solutions is redefining how critical infrastructure is inspected and maintai
 PA’s IPart is excited to announce our first Direct to Phase II (D2P2) SBIR Awardee in the program’s history!
 
 IPart assisted Matt Bilsky, President, CEO & Founder of FLX Solutions, located in Bethlehem, PA, for a February 2025, D2P2 SBIR proposal submission to the Air Force. Matt and his team have been interacting with the 
+- FLX Solutions Awarded $1.4M by Department of Defense for Robotic ... (2025-12-07) https://www.linkedin.com/posts/frontier-optic_flx-solutions-inc-has-been-awarded-1400000-activity-7403412907314544641-LWJe
+  # FLX Solutions, Inc. has been awarded $1,400,000 by the Department of Defense, Department of the Air Force under the Small Business Innovation Research Program Phase II. This award supports applied research in … | Frontier Optic · LinkedIn · 2025-12-07
+
+**Frontier Optic**: Frontier Optic is a company that unveils key metrics in deep tech and science innovation. They track, analyze, and discover tomorrow's pioneers today. Frontier Optic has 1-10 employees, founded in 2024. Headquartered in New Y
 - #aerospace #innovation #flxbot | Matthew Bilsky, PhD, PE (2025-06-26) https://www.linkedin.com/posts/mbilsky_aerospace-innovation-flxbot-activity-7344014895123734529-N7nD
   # Excited to share that FLX Solutions, Inc. was awarded a $1.4 million Direct-to-Phase-II SBIR contract from the Air Force! | Matthew Bilsky, PhD, PE · LinkedIn · 2025-06-26
 
 **Matthew Bilsky, PhD, PE**: Matthew Bilsky currently works as Founder and CEO at FLX Solutions, Inc. with 23 years 6 months of experience. Previous roles include Professor and Post-Doc at Lehigh University, Teaching Assistant at Lehigh University, and Research Assistant at Lehigh University. Based in Bethlehem, Pennsylvani
-- flx solutions, inc. (2026-06-25) https://flxsolutions.com/
-  # FLX Solutions, Inc.
-
-FLX Solutions, Inc. is a Defense and Space Manufacturing company. FLX Solutions, Inc. develops low-cost, 3D printed snake-like robots for inspection and repair that increase worker safety while decreasing downtime at a price that makes robotics affordable for all!. FLX Solutions, Inc. employs 7 people (+9.1% YoY, +1 person). Headquartered in Bethlehem, Pennsylvania, United States. Has $485K in total funding, with 2 prior funding rounds.
-
-## About
-
-FLX Solutions is redefini
 
 ## Open roles (Blitz, live)
 - Senior Operations Manager ({'city': 'Bethlehem', 'country_code': 'US'})

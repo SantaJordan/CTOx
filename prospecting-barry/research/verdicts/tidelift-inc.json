@@ -1,0 +1,21 @@
+{
+  "company": "Tidelift, Inc.",
+  "slug": "tidelift-inc",
+  "domain": "tidelift.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Two SBIR Phase II awards (Air Force 2022, DARPA 2023) plus a $3.5M+ suite of U.S. government contracts (News section) with fluent Platform One/DevSecOps language — genuine DoD motion, but a mature, already-fielded one.",
+  "disconnect_score": 18,
+  "subscores": {"lab_language_intensity": 2, "deployment_awareness_absence": 2, "operator_absence": 6, "hiring_profile_skew": 10, "stage_pressure": 2},
+  "score_evidence": [
+    "\"Tidelift Public Sector Momentum Increases... Tidelift awarded three U.S. government contracts worth over $3.5 million... expands public sector team to meet accelerating demand\" → stage_pressure (low, growth not crisis)",
+    "\"With the advent of programs like Platform One's DoD Enterprise DevSecOps Services... Tidelift is the largest provider of commercial support and maintenance for community-led open source libraries\" → deployment_awareness_absence (low; company is fluent in the exact DoD program ecosystem it sells into)",
+    "\"Tidelift was acquired by code quality and code security solution leader Sonar\" (LinkedIn about) → already_operational"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Managed commercial support/maintenance subscription for open-source software components, sold into DoD software supply-chain and SBOM/Platform One programs.",
+  "note": "The 'Their own words' website-crawl section in this pack returned Bitly (bit.ly) content, not Tidelift's site — a pack data-quality error. Verdict is based solely on the SBIR abstracts, LinkedIn about, and news, which are correctly matched to Tidelift."
+}

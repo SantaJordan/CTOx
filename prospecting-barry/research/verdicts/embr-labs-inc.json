@@ -1,0 +1,44 @@
+{
+  "company": "EMBR LABS INC",
+  "slug": "embr-labs-inc",
+  "domain": "embrlabs.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Air Force SBIR Phase II 2022 ($750,000) to build 'Embr Sleep' for USAF pilot fatigue with AFRL/711th Human Performance Wing as the stakeholder — SBIR/STTR section, their own abstract.",
+  "disconnect_score": 59,
+  "subscores": {"lab_language_intensity": 13, "deployment_awareness_absence": 13, "operator_absence": 9, "hiring_profile_skew": 10, "stage_pressure": 14},
+  "score_evidence": [
+    "'Study participants reported feeling an average of 5°F cooler or warmer after just 3 minutes using the Wave.' (homepage) → lab_language_intensity: clinical-trial numbers with zero operational framing",
+    "'Splash & Sweat Resistant* *Not waterproof, do not submerge.' (homepage) → deployment_awareness_absence: consumer environmental spec, no MIL-STD/field durability language anywhere",
+    "'meets the comfort and durability requirements of Air Force end-users' (sbir_abstract) → operator_absence held to 9: end-users are named, but no CONOPS, training, or field-feedback loop appears",
+    "No jobs data in pack → hiring_profile_skew set to exactly 10",
+    "'Embr Labs employs 15 people (-14.3% YoY, -3 people) and has an annual revenue of $3.2M' plus '$35 million via intellectual property (IP)-based debt financing' (news) → stage_pressure: shrinking headcount against IP-backed debt, 2022 Phase II clock long expired"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Proprietary charger and 9-hour battery with no sustainment chain",
+      "operator_reality": "An aircrew member on alert rotation or at an austere site charges from whatever is on the wall, if anything. A wearable that runs 9 hours and needs its own $50 magnetic charger dies before the crew-rest cycle it was bought to fix, and there is no NSN, no spares bin, and nobody in the unit who can source a replacement.",
+      "why_likely_missing": "The product was designed for a DTC customer who charges nightly on a nightstand and can reorder a charger from the web store; nothing in that model forces the question of who resupplies the 40th device at a deployed location.",
+      "evidence_quote": "9+ Hr Battery Life** ... **Varies based on specific usage.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Core functionality is gated behind a paired consumer smartphone app",
+      "operator_reality": "The 30+ modes, scheduling, and personalization all live in the phone app — but personal phones are restricted or banned on flight lines, in SCIFs, and across much of the secure spaces where fatigued aircrew actually work. The device degrades to a single button, and any usage data the app collects becomes a government-data question nobody has answered (no ATO, no data-handling story anywhere in their language).",
+      "why_likely_missing": "In the consumer market the app IS the product surface; the constraint that the operator may not be allowed to carry the paired phone has no consumer analogue.",
+      "evidence_quote": "Personalize your relief with the Embr Wave 2 app ... Schedule one-time or recurring thermal sessions to fit your life",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The thermal mechanism itself is untested against the ambient conditions where fatigue is worst",
+      "operator_reality": "The Wave works by 'moving heat away from or toward your skin' — a thermoelectric pump that must dump heat somewhere. In a hot tent, a sun-soaked ramp, or an unairconditioned billet at 100°F+, the hot side saturates and cooling collapses precisely in the environment causing the sleep disruption the Air Force is paying to fix. Their published evidence is all indoor clinical.",
+      "why_likely_missing": "Every clinical study cited was run in climate-controlled settings on a consumer population; nothing in the DTC business ever pushed them to characterize performance envelope versus ambient temperature.",
+      "evidence_quote": "At the touch of a button, Embr Wave generates cool or warm sensations by moving heat away from or toward your skin in waves.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Your 2022 AFRL Phase II was for Embr Sleep — a device for USAF aircrew fatigue — and four years on the only thing on embrlabs.com is the $299 consumer Wave 2, spec'd 'splash and sweat resistant, not waterproof.'",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Sells a $299 consumer thermal wristband that cools or warms the inner wrist for hot flashes, stress, and sleep; has one Air Force SBIR to adapt it for pilot fatigue."
+}

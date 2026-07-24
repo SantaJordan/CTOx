@@ -1,0 +1,16 @@
+{
+  "company": "Parraid LLC",
+  "slug": "parraid-llc",
+  "domain": "parraid.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Own words: 25+ year established telemetry/comms hardware supplier with a full fielded product catalog (Edge2, IMUX, OMEGA NExT, S-5000e, BSR-100, etc.), three-year hardware warranty, and active government contract renewals ('Notice of Award ... Omega-NExT Software Renewal for FY25') — not a prototype stuck pre-fielding.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Established (25+ year) small defense/aerospace products company selling fielded telemetry data systems, deployable tactical communications, and rugged data recorders/processors, with recurring government support and renewal contracts."
+}

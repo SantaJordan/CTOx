@@ -1,0 +1,16 @@
+{
+  "company": "Type III, Inc.",
+  "slug": "type-iii",
+  "domain": "typeiii.tech",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "No SBIR/contract record of their own and no explicit DoD/military language on site — 'mission critical' and 'wicked environments' are generic rugged-hardware framing; the pack's news items (DPA Title III explainer, an SDA award to L3Harris/Sierra, an SBIR Phase III award to a different company 'PARTS LIFE INC') do not describe Type III per Note 2.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Early-stage rugged hardware maker (headlamp, environmental sensor, power adapter, router, gloves) — all products listed as 'coming soon' / sold out, no live catalog."
+}

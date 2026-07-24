@@ -3,7 +3,7 @@ slug: victus | domain: getvictus.ai | HQ: ,   | employees(LI): 11 | founded: 202
 sources: exa-agent:tactical-mobile-edge
 industry(LI): Software Development | specialties: 
 channel notes: Seed Seed fundraising reported in progress. dom: ai_ml status: pilot dod: Victus's PhantomNAV is GPS-denied navigation software integrated with ATAK and supported through NATO DIANA and U.S. Special Operations Command. hq: Massachusetts emp:  src: https://getvictus.ai/solutions/defense-national-security/
-own-language word count: ~1189
+own-language word count: ~1191
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -143,13 +143,17 @@ US DoD, Nato, Government Agencies
 
 #### Defense & National Security
 
+https://getvictus.ai/solutions/defense-national-security/
+
 PhantomNAV keeps drones, aircraft, ships, and satellites on-mission in jammed, denied, and degraded environments, because contested autonomy is the baseline, not the exception.
 
-See PhantomNAV in the field
+SeePhantomNAVinthefield
 
 Aviation, Maritime, energy, disaster response
 
 #### Enterprise & Commercial
+
+https://getvictus.ai/solutions/enterprise-commercial/
 
 Your operations can’t afford an autonomy failure. PhantomNAV gives commercial fleets the position awareness to stay operational through GPS outages, signal interference, and real-world conditions without reverting to manual control.
 
@@ -157,9 +161,15 @@ See how PhantomNAV protects commercial operations
 
 ## Stop losing revenue to autonomy failures.
 
+LearnMore
+
 Autonomy Failed. We Fixed It. Victus builds contested autonomy software that works where GPS doesn’t, on any platform, from the seafloor to low Earth orbit.
 
 ###### Contact us
+
+https://getvictus.ai/contact-us/
+
+getvictus.ai [email]
 
 ###### Follow us
 
@@ -291,16 +301,14 @@ Force’s ability to respond to irresponsi
 Firefly Aerospace’s Alpha rocket, shown here lofting a payload for Lockheed Martin in December 2023 from Vandenberg SFB, Calif., was chosen to provide launch of the Space Force’s upcoming Victus Sol mission. (Photo: Firefly Aerospace)
 
 WASHINGTON — Although most details of the newest mission under the Space Force’s Tactically Responsive Space (TacRS) program remain shrouded in secrecy, the ser
-- Space Force selects Firefly Aerospace for next tactically responsive space mission | DefenseScoop (2025-02-14) https://defensescoop.com/2025/02/14/space-force-victus-sol-firefly-aerospace-contract-tacrs/
-  Space Force selects Firefly Aerospace for next tactically responsive space mission | DefenseScoop
+- Space Force awards contracts for Victus Haze rapid launch mission - Breaking Defense (2024-04-11) https://breakingdefense.com/2024/04/space-force-awards-contracts-for-victus-haze-rapid-launch-mission/
+  Space Force awards contracts for Victus Haze rapid launch mission - Breaking Defense
 
-Subscribe to our daily newsletter.
+Electron lifts off from Launch Complex 2 at NASA’s Wallops Flight Facility at the Mid-Atlantic Regional Spaceport in Virginia Jan. 24. The mission was Rocket Lab’s first launch from US soil. (Brady Kenniston)
 
-Subscribe
+SPACE SYMPOSIUM 2024 — The Space Force’s Space Systems Command today announced two industry vendors will receive contracts for the quick-launch Victus Haze program, worth a combined $62 million.
 
-Firefly Aerospace received a launch service contract for the Space Force’s upcoming Victus Sol mission, the latest in a series of demonstrations aimed at fast-tracking new on-orbit capabilities for warfighters, according to the service’s acquisition arm.
-
-Under the $21.8 million deal announced Thursday evening by Space Systems Command’s Space Safari pr
+Rocket L
 
 ## Open roles
 (no jobs data found)

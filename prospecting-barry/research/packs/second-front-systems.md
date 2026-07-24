@@ -411,7 +411,7 @@ FedRAMP Low-High | DoW IL2-6+ | GovRAMP Low-High
 ## News (Exa, top 3)
 - CONTRACT to SECOND FRONT SYSTEMS, INC. () https://www.usaspending.gov/award/CONT_AWD_FA228024F0032_9700_FA873023DB001_9700
   USAspending.gov
-- Second Front Systems awarded contract for Defense ... (2022-09-22) https://www.secondfront.com/resources/news/proving-grounds-announcement/
+- Second Front Systems awarded contract for Defense Innovation ... (2022-09-22) https://www.secondfront.com/resources/news/proving-grounds-announcement/
   Second Front Systems awarded contract for Defense Innovation Unit's Proving Grounds Project | Second Front
 
 #### Develop. Deploy. Defend.
@@ -427,24 +427,16 @@ Build compliant software from the start with our toolkit for secure development.
 #### 2F Game Warden
 
 Streamline compliance and security processes to obtain accreditation q
-- Second Front Systems' Game Warden Platform Selected by ... (2023-07-10) https://www.secondfront.com/resources/news/second-front-systems-game-warden-selected-by-afwerx-prime/
-  Second Front Systems' Game Warden Platform Selected by AFWERX Prime | Second Front
+- Second Front Systems, Inc. () https://govtribe.com/vendors/second-front-systems-inc-dot-second-front-754r2
+  Second Front Systems, Inc.
 
-#### Develop. Deploy. Defend.
+ 
 
-The 2F Suite simplifies and accelerates every step of the software development and delivery process, including Day 2 operations and extensibility.
+ 
 
-Explore the 2F Suite
+ 
 
-#### 2F Workshop
-
-Build compliant software from the start with our toolkit for secure development.
-
-#### 2F Game Warden
-
-Streamline compliance and security processes to obtain accreditation quickly.
-
-#### 2F Frontie
+Second Front Systems, Inc.
 
 ## Open roles (Blitz, live)
 - Cybersecurity Assessment Engineer ({'city': 'Washington', 'country_code': 'US'})

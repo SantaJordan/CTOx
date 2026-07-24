@@ -1,0 +1,44 @@
+{
+  "company": "ClearSens, Inc.",
+  "slug": "clearsens-inc",
+  "domain": "clearsens.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Homepage banner leads with 'U.S. NAVY STTR PHASE II Award' from the Office of Naval Research for a wearable diver ultrasound to reduce DCS risk ($999,245, Navy 2023 — website + SBIR abstract sections); product-focused startup, not a mill (2 STTR awards, one product line).",
+  "disconnect_score": 64,
+  "subscores": {"lab_language_intensity": 13, "deployment_awareness_absence": 13, "operator_absence": 10, "hiring_profile_skew": 12, "stage_pressure": 16},
+  "score_evidence": [
+    "'Redefining Health with Seamless Monitoring' / 'revolutionize personal health monitoring' — consumer-health lab framing for a Navy diving system → lab_language_intensity",
+    "'Transducers made of glass! ... any shape, size and frequency!' — fabrication-capability brag with no fielding language → lab_language_intensity",
+    "Detailed product description (wearable system, on-board analysis, chamber tests to 90m) with zero mention of NAVSEA certification, ATO, sustainment, or fleet-diving integration → deployment_awareness_absence",
+    "Only open role is 'Embedded System Engineer' (Raleigh) — a build role; no test, regulatory, or field-support hire while promising 'human chamber dive experiments' in Phase II → hiring_profile_skew",
+    "'$2.3M Raised' and 4 employees against a 2023 Phase II whose period of performance is running out now → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "No path to Navy diving-equipment authorization — chamber success is not fleet approval",
+      "operator_reality": "Navy divers can only use gear that survives the NAVSEA Authorized-for-Navy-Use process; a wearable that 'can operate reliably at a pressure corresponding to 90 meters depth' in an academic chamber still cannot go on a fleet diver's arm until it clears that gate, and their language never names it — same pattern as a demo that works but has no route onto the platform.",
+      "why_likely_missing": "Founding team is two academic transducer experts (NC State licensed technology); their world is fabrication and chamber studies, not Navy diving program offices.",
+      "evidence_quote": "Pressure tests with the help of our academic partners demonstrated that the technology can operate reliably at a pressure corresponding to 90 meters depth.",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "Consumer-wellness framing aimed at the wrong advocacy chain",
+      "operator_reality": "The homepage sells 'empowering individuals to monitor their health' — but a diver doesn't buy his own decompression monitor; the Supervisor of Salvage and Diving and a program office do. Without a named champion above ONR, the STTR ends and nothing transitions, which is exactly the months-to-field vs funded-months trap.",
+      "why_likely_missing": "They see the fitness-wearable market as the big prize and treat the Navy as one application, so nobody is engineering the acquisition path for the customer that actually funded them.",
+      "evidence_quote": "At ClearSens, we envision a world where cutting-edge ultrasound technology empowers individuals to monitor their health with precision.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No training or sustainment story for a device that adjusts life-critical decompression decisions",
+      "operator_reality": "A wearable that feeds 'real-time control of decompression procedures' must be positioned correctly on the body by a diver in gloves, calibrated in a dive locker, and trusted by a master diver who got minutes of training — a misread microbubble count is a bent diver. Their language covers imaging physics, never who trains, maintains, or troubleshoots the device at the unit.",
+      "why_likely_missing": "Three-person engineering team optimizing transducer efficiency; sustainment and human-factors work has no owner.",
+      "evidence_quote": "Designed for easy, precise positioning on the body, it offers flexibility in selecting the ideal ultrasound imaging modality to suit diverse diagnostic needs.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "ClearSens's $999K ONR STTR Phase II funds chamber-dive tests of its wearable CMUT sensor through the period of performance — but nothing public names the NAVSEA authorization step that decides whether a fleet diver ever wears it.",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Four-person NC startup building glass-substrate wearable ultrasound (CMUT) sensors, led by a Navy STTR Phase II device that detects microbubbles to personalize diver decompression."
+}

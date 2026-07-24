@@ -185,14 +185,6 @@ Submit Request
 At Chiplytics, we\'re pioneering advanced authentication technologies for electronic components. Our team combines cutting-edge engineering with deep industry expertise to solve critical challenges in supply chain security. Join us in building innovative solutions that protect the electronics ecosystem.
 
 ## News (Exa, top 3)
-- CALCE Secures Air Force Contract on Supply Chain Integrity | Center for Advanced Life Cycle Engineering () https://calce.umd.edu/news/story/calce-securesnbspair-force-contract-on-supply-chain-integrity
-  CALCE Secures Air Force Contract on Supply Chain Integrity | Center for Advanced Life Cycle Engineering
-
-Skip to main content
-
-# CALCE Secures Air Force Contract on Supply Chain Integrity
-
-Chiplytics, a technology startup company in collaboration with CALCE, has been selected for an Air Force Phase II Small Business Technology Transfer (STTR) award. This recognition highlights the potential of collaborative efforts of CALCE and Chiplytics to advance critical research and technology in the field 
 - Award | SBIR () https://www.sbir.gov/awards/210184
   Award | SBIR Skip to main content
 
@@ -233,14 +225,22 @@ Phase II
 DOW
 
 Branch
-- CALCE Secures Air Force Contract on Supply Chain Integrity | Maryland Applied Graduate Engineering () https://mage.umd.edu/news/story/calce-securesnbspair-force-contract-on-supply-chain-integrity
-  CALCE Secures Air Force Contract on Supply Chain Integrity | Maryland Applied Graduate Engineering
+- fa864924p1109 - chiplytics and center for advanced life ... () https://www.federalcompass.com/award-contract-detail/FA864924P1109
+  Air Force Award | FA864924P1109 | CHIPLYTICS AND CENTER FOR ADVANCED LIFE CYCLE ENGINEERING/UNIVERSITY OF MARYLAND: QUANTIFIABLE ASSURANCE FOR MISSION-CRITICAL MICROELECTRONICS
+
+# FA864924P1109 - CHIPLYTICS AND CENTER FOR ADVANCED LIFE CYCLE ENGI...
+
+##### Federal Contract Award Search » Purchase Order Award
+
+This Purchase Order contract for Aerospace & Defense Research and Development was awarded in FY2024 on Aug 8, 2024 to CHIPLYTICS, INC by AFWERX (RG). There have been $1.8M in obligations to
+- CALCE Secures Air Force Contract on Supply Chain Integrity | Center for Advanced Life Cycle Engineering () https://calce.umd.edu/news/story/calce-securesnbspair-force-contract-on-supply-chain-integrity
+  CALCE Secures Air Force Contract on Supply Chain Integrity | Center for Advanced Life Cycle Engineering
 
 Skip to main content
 
 # CALCE Secures Air Force Contract on Supply Chain Integrity
 
-Chiplytics, a technology startup company in collaboration with CALCE, has been selected for an Air Force Phase II Small Business Technology Transfer (STTR) award. This recognition highlights the potential of collaborative efforts of CALCE and Chiplytics to advance critical research and technology in the field of el
+Chiplytics, a technology startup company in collaboration with CALCE, has been selected for an Air Force Phase II Small Business Technology Transfer (STTR) award. This recognition highlights the potential of collaborative efforts of CALCE and Chiplytics to advance critical research and technology in the field 
 
 ## Open roles
 (no jobs data found)

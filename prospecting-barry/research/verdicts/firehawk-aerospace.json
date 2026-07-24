@@ -1,0 +1,51 @@
+{
+  "company": "Firehawk Aerospace",
+  "slug": "firehawk-aerospace",
+  "domain": "firehawkdefense.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Army SBIR Phase III milestone with flight tests of additively manufactured Javelin and Stinger-class launch motors (Sept 2025), a $4.9M USAF Test Center contract supporting AFRL, and a $4M AFWERX TACFI award (homepage 'Operational Proof' section + News).",
+  "disconnect_score": 34,
+  "subscores": {
+    "lab_language_intensity": 7,
+    "deployment_awareness_absence": 11,
+    "operator_absence": 5,
+    "hiring_profile_skew": 3,
+    "stage_pressure": 8
+  },
+  "score_evidence": [
+    "\"Powering the New American Arsenal\" / \"Built by Patriots. Driven by Purpose.\" → mild lab_language_intensity, but offset by an explicit \"Operational Proof\" section citing flight tests rather than lab metrics — scored LOW",
+    "\"Firehawk completed the flight tests of additively manufactured Javelin and Stinger-class Firehawk Analog systems, using 3D-printed propellant for the launch motors of each system\" → lab_language_intensity LOW (real integrated-system testing, not a benchmark)",
+    "Across ~1,346 words there is no mention of insensitive-munitions testing, hazard classification, propellant qualification, service life/aging, ITAR, or CMMC — the qualification vocabulary of their own industry is entirely absent → deployment_awareness_absence (only subscore above 10 besides none; quoted below)",
+    "\"The defense industry's reliance on outdated manufacturing leaves our warfighters waiting\" and \"Engineered to integrate easily into existing systems so operators get the motors they need, exactly when they need them\" → operator_absence LOW",
+    "Open roles include Program Quality Engineer, Program Chief Engineer, Program Manager, Proposal Manager, and Government Affairs → hiring_profile_skew VERY LOW; this is a company staffing the acquisition and quality chain, not only researchers",
+    "Founded 2020, Hanwha Defense USA strategic investment (Nov 2025), Mississippi facility acquisition (Dec 2025), 340-acre Lawton OK campus in development → capital-intensive but well-funded and diversified across TACFI/AFRL/Army; moderate stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The qualification gate for energetics — insensitive munitions and hazard classification — never appears, and additive propellant is exactly where it bites",
+      "operator_reality": "Before a Javelin- or Stinger-class motor goes into the stockpile it survives fast cookoff, slow cookoff, bullet impact, fragment impact and sympathetic detonation, then gets a hazard classification for storage and transport. A 3D-printed thermoplastic grain has a different void structure and binder chemistry than a cast grain, so none of the legacy qualification data transfers — the IM response has to be earned from scratch. That test campaign is measured in years and range slots, and it sits entirely between a successful analog flight test and a production award.",
+      "why_likely_missing": "The company's narrative is a manufacturing-throughput story ('speed to production', 'lower per-unit cost'), and additive manufacturing genuinely solves the throughput problem — so the schedule risk gets modeled as factory capacity rather than as qualification calendar.",
+      "evidence_quote": "Legacy solid motors take weeks or months to cast. In conflict, that gap is unacceptable. Our approach significantly reduces lead time, enabling motors to be fielded at volume, on schedule, and on demand.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "'Integrate easily into existing systems' understates that the existing system is a prime's configuration-controlled technical data package",
+      "operator_reality": "A Javelin or Stinger launch motor is a line item inside a qualified round whose drawings, interfaces and change process belong to the prime and a government configuration control board. Substituting the propellant source is a Class I engineering change: requalification, first-article testing, a source-approval request, and a prime willing to accept the risk on a fielded munition. The path runs through an ECP and a CCB, not through a customer purchase order — and the only prime relationship the site names is a 2021 Raytheon partnership with no stated current status.",
+      "why_likely_missing": "Their commercial energy is directed at building capacity and the Oklahoma campus; the acquisition-side plumbing of getting designed into someone else's qualified round is somebody else's org chart until it isn't.",
+      "evidence_quote": "Solid motors manufactured with additive propellant, delivered with predictable impulse and lower lead time. Engineered to integrate easily into existing systems",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No service-life, aging, or stockpile-surveillance story for a novel propellant chemistry",
+      "operator_reality": "A tactical motor sits in a magazine or a shipping container for fifteen to twenty years across a wide temperature band, and the program office buys a surveillance plan along with the hardware: accelerated aging data, predicted service life, periodic lot testing, and a plan for what happens when a lot fails. Thermoplastic additive propellant has no field history to point at, so this evidence has to be manufactured in parallel with production — and it is a common reason a promising propellant program stalls after successful firings.",
+      "why_likely_missing": "Every public milestone so far is a test event or a facility announcement; aging data cannot be accelerated by capital, so it does not show up in a growth narrative.",
+      "evidence_quote": "A digital-first propellant workflow that lets engineers specify fuel geometry and produce mission-ready grains on demand.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Firehawk's own September 30, 2025 release reports completed flight tests of Javelin and Stinger-class analog systems on 3D-printed launch motors, and across the whole of firehawkdefense.com the words insensitive munitions, hazard classification and service life do not appear once — which is the part of the calendar between that flight test and a production award.",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Builds solid rocket motors, base bleed motors and hybrid engines using 3D-printed propellant grains, aiming to expand US energetics manufacturing capacity for missiles and artillery."
+}

@@ -370,14 +370,16 @@ Redmond, Washington (October 19, 2022) — RBC Signals the multi-national provid
 Award Showcases RBC Signals’ Ability to Solve Challenges for Government and Commercial Customers
 
 Seattle, WA (September 10, 2019) – RBC Signals, the multi-national provider of flexible and cost-effective space communication services, announced today it is the recipient of its second U.S. Air Force (USAF) Small Business Innovation Research (SBIR) Phase I award
-- RBC Signals Awarded SBIR Phase I by U.S. Air Force | (2019-06-17) https://rbcsignals.com/rbc-signals-awarded-sbir-phase-i-by-u-s-air-force/
-  RBC Signals Awarded SBIR Phase I by U.S. Air Force |
+- RBC Signals pursues government work, wins first award (2019-06-18) https://spacenews.com/rbc-signals-pursues-government-work-wins-first-award/
+  RBC Signals pursues government work, wins first award - SpaceNews
 
-# RBC Signals Awarded SBIR Phase I by U.S. Air Force
+Home/ RBC Signals pursues government work, wins first award
 
-Award Highlights Importance of Space-Based Data and Edge Computing Solutions at the Ground Station
+RBC Signals, a satellite communications company, has created a network of more than 65 antennas in more than 40 global locations. Credit: RBC Signals
 
-Seattle, WA (June 17, 2019) – RBC Signals, the multi-national provider of flexible and cost-effective space communication services, announced today it is the recipient of a U.S. Air Force (USAF) Small Business Innovation Research (SBIR) Phase I award. Awarded under the topic “Commercial Solu
+SAN FRANCISCO – RBC Signals, a startup creating a global network of satellite ground stations, announced it’s first U.S. Air Force Small Business Innovative Research (SBIR) award June 17.
+
+Under the Phase 1 SBIR award man
 
 ## Open roles
 (no jobs data found)

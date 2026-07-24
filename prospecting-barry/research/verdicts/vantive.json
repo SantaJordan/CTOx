@@ -1,0 +1,44 @@
+{
+  "company": "Vantive",
+  "slug": "vantive",
+  "domain": "vantiveai.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own team page: co-founders explicitly tagged 'Gov/Defense' — Mark Esper (27th U.S. Secretary of Defense) and Veronica Daigle (former Senate-confirmed ASD for Readiness), plus CEO Brennan Grignon (former DoD Director of Industry Outreach and Supply Chain Resilience); homepage risk-map screenshots categorize supply chains by 'Platform F-...' (fighter aircraft) component sourcing and PRC-origin critical-minerals risk — defense industrial base framing embedded in the product itself, not just VC-list membership.",
+  "disconnect_score": 73,
+  "subscores": {"lab_language_intensity": 14, "deployment_awareness_absence": 16, "operator_absence": 15, "hiring_profile_skew": 10, "stage_pressure": 18},
+  "score_evidence": [
+    "'Expert-informed AI-powered simulations that don't just analyze the past, they stress-test your future' / 'Stochastic risk modeling — Model disruption likelihoods and their operational and financial impact' → lab_language_intensity",
+    "'40+ public data sources, Tier-4 trace depth, Minutes to first insights' with zero mention of ATO/RMF/CMMC/ITAR/STIG anywhere despite mapping fighter-platform ('Platform F-...') and PRC-critical-mineral supply risk → deployment_awareness_absence",
+    "'combining operator insight with predictive AI' and 'SME-guided configuration — Align simulation parameters with your real-world operating environment' — 'operator' here means an SME/analyst at a desk, not a warfighter; no CONOPS, training, or field-feedback language anywhere → operator_absence",
+    "no jobs data found in pack → hiring_profile_skew set to 10 per instructions",
+    "3 employees, founded 2025, '© 2025 Vantive Technology™, Inc.' — brand-new team with no named pilot customer or case study yet → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The platform's value proposition rests on ingesting '40+ public data sources' in near-real-time, but the DIB program offices and primes who'd actually consume this risk data (e.g. on an F-series aircraft component) often need it inside an accredited, sometimes air-gapped environment (SIPR-adjacent acquisition systems)",
+      "operator_reality": "a live public-web-data pipeline built for a browser demo doesn't cross into an accredited enclave without an ATO or a disconnected/periodic-sync mode — nothing on the site addresses how 'minutes to first insights' survives that jump",
+      "why_likely_missing": "team built the tool as a commercial-facing SaaS demo first; the accreditation path only becomes visible once a government or prime customer tries to actually stand it up",
+      "evidence_quote": "40+ public data sources / Tier-4 trace depth / Minutes to first insights",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No mention of how the platform integrates into existing government acquisition/industrial-base systems (e.g. DIBCAC assessments, PIEE, existing supply-chain-risk tooling primes already use)",
+      "operator_reality": "a standalone dashboard that isn't wired into the systems a program office or prime already works from becomes shelfware — the 'high-fidelity data ingestion' claim only helps if it can pull from and feed back into those existing back-end systems",
+      "why_likely_missing": "the founding team's DoD pedigree is at the policy/leadership level (SecDef, ASD Readiness), not at the level of day-to-day acquisition-system plumbing",
+      "evidence_quote": "Seamlessly integrate internal systems, flat files, and external sources for full supply chain integration",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The founding team has extraordinary top-cover (a former Secretary of Defense as co-founder) but zero visible bottom-up validation — no named pilot, no case study, no working-level user testimonial",
+      "operator_reality": "advocacy from the E-ring can open doors, but it can't substitute for a working tool in an analyst's hands; if the door opens before there's a fielded product to show, the funded window to actually deliver starts burning immediately — the classic valley-of-death timing risk for a $5M-$10M company",
+      "why_likely_missing": "at 3 employees and founded this year, the product is still pre-customer; the site markets the team's credibility rather than a delivered result",
+      "evidence_quote": "3 employees; founded 2025; 'When change accelerates and systems fall behind, Vantive turns unpredictability into advantage'",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Vantive's homepage groups its own supply-chain risk map by platform down to 'Platform F-...' component sourcing — a fighter-aircraft-specific example worth asking how it maps into an accredited DIB data feed once it needs to run inside a government office.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "AI-powered supply-chain risk and provenance-mapping platform, tracing multi-tier supplier and material risk (e.g. critical minerals, aircraft components) for industrial-base decision-makers."
+}

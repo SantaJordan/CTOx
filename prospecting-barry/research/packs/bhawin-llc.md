@@ -217,22 +217,24 @@ Bhawin
 Company Description
 
 Get expert sc
-- 1333ND25PNB640245 | Air Force Award | OU63-25-NEW-015 (APPROVED 5/23/25) LIQUID CHROMATOGRAPHY QUADRUPOLE TIME OF FLIGHT MASS SPECTROMETRY SYSTEM () https://www.federalcompass.com/fed-contract-award/1333ND25PNB640245
-  1333ND25PNB640245 | Air Force Award | OU63-25-NEW-015 (APPROVED 5/23/25) LIQUID CHROMATOGRAPHY QUADRUPOLE TIME OF FLIGHT MASS SPECTROMETRY SYSTEM
+- Bowhead Secures $100M Navy Engineering Services Contract (2025-07-17) https://www.govconwire.com/articles/bowhead-weapons-development-solutions-navy-99m-contract-award
+  Bowhead Secures $100M Navy Engineering Services Contract
 
-# 1333ND25PNB640245 - OU63-25-NEW-015 (APPROVED 5/23/25) LIQUID CHROMATO...
+Logo / twitter.com
 
-##### Federal Contract Award Search » Purchase Order Award
+Author: Kristen Smith || Date Published: July 17, 2025
 
-This Purchase Order contract was awarded in FY2025 on Sep 18, 2025 to BHPE LLC by Air Force Technical Applications Center (AFTAC). There have been $365.4k in obligations to date with a ceiling value of $365.4k, showi
-- Contracts for June 3, 2026 (2026-06-03) https://www.war.gov/News/Contracts/Contract/Article/4507838/contracts-for-june-3-2026/
-  Contracts for June 3, 2026 > U.S. Department of War > Contract | U.S. Department of War
+The U.S. Navy has awarded Bowhead Weapons Development Solutions a $99.9 million firm-fixed-price and cost-reimbursable, indefinite-delivery/indefinite-quantity contract to provide engineering, operations and sustainment support to the sensitive compartmented information network program of record.
 
-Skip to main content (Press Enter).
+The Potomac Officers Club’s 2025 Navy Summit is a premier gathering
+- Mayvin Wins $95M SOCOM Weapon R&D Support Contract - GovCon Wire (2021-06-08) https://www.govconwire.com/articles/mayvin-wins-95m-socom-weapon-randd-support-contract
+  Mayvin Wins $95M SOCOM Weapon R&D Support Contract - GovCon Wire
 
-NAVY
+Author: Carol Collins || Date Published: June 8, 2021
 
-BlueForge Alliance, Bryan, Texas, was awarded a $400,000,000 firm-fixed-price modification to a previously awarded contract (N00024-24-C-2135) to support planning, resourcing, coordinating, and uplifting the Submarine Industrial Base. Work will be performed in Bryan, Texas, and is expected to be completed by September 2027. Non-appropriated funds in the amount of $2
+Mayvin, a woman-owned small business, has won a potential $95 million hybrid contract to research and develop military weapons for the U.S. Special Operations Command.
+
+The Annandale, Virginia-based company will also provide acquisition and sustainment support services to SOCOM personnel as part of the cost-no-fee and firm-fixed-price award, the Department of Defense said Mond
 
 ## Open roles
 (no jobs data found)

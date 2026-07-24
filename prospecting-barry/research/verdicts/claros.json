@@ -1,0 +1,16 @@
+{
+  "company": "Claros",
+  "slug": "claros",
+  "domain": "claros.tech",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "None in the company's own artifacts. Site, product pages, and LinkedIn about are entirely data-center power delivery ('Unlocking Novel Power Solutions for Data Centers'); the only defense tie is Red Cell portfolio membership ('A Red Cell Company' footer / sources: vc:red-cell), which the gate says is insufficient by itself. The 2022 'US Army grant' news item is a different company entirely (Claros Technologies, clarostechnologies.com, functional textiles) — not claros.tech.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Data-center power-delivery hardware startup ($30M seed, Mar 2026, General Catalyst + Red Cell) building integrated voltage regulators and a Power Gateway for AI compute."
+}

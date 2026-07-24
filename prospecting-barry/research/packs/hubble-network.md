@@ -3,7 +3,7 @@ slug: hubble-network | domain: hubble.com | HQ: Seattle, Washington US | employe
 sources: vc:new-north
 industry(LI): Technology; Information and Internet | specialties: 
 channel notes: Bluetooth-to-satellite IoT network
-own-language word count: ~1443
+own-language word count: ~1441
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -240,23 +240,14 @@ Solutions
 
 Solutions
 
+- Docs
 - Stolen Vehicle RecoveryTrack high-risk vehicles securely for improved recovery
 - Asset TrackingProtect high-value industrial equipment
 - Shipping & LogisticsMaintain connectivity across global logistics
 
-- Pricing
-- Press
-- Developer Experience
-- Comparison
-- Careers
-- Contact Us
-- Docs
-
 # Vehicle Tracking for Stolen Vehicle Recovery
 
 Hubble provides enterprise-grade location tracking to protect high-risk vehicles and dramatically reduce loss through covert, low-cost connectivity.
-
-Contact Sales
 
 Get a demo →
 
@@ -312,7 +303,11 @@ Transmits packets reliably at 4 dBm, providing reliable connectivity on the most
 
 ### No hardware change needed
 
-Use your existing off-the-shelf Bluetooth® chips with a firmware update. Hubble works across devices, 
+Use your existing off-the-shelf Bluetooth® chips with a firmware update. Hubble works across devices, OEMs, and vendors with no lock-in.
+
+### Designed for developers
+
+Easy-to-integrate open and m
 
 ## LinkedIn about
 
@@ -406,26 +401,34 @@ Parent
 Company Description
 
 Hubble is Starlink for IOT devices. We’re building a global satellite network that any Bluetooth-enabled device can connect to, even without cellular reception. Sign-up for a DevKi
-- Hubble Network's Post (2024-10-30) https://www.linkedin.com/posts/hubblenetwork_how-this-breakthrough-could-impact-defense-activity-7257180514757836801--d2V
-  How This Breakthrough Could Impact Defense Tech | Hubble Network | DOD | Hubble Network
+- Hubble Network Raises $70 M Series B to Scale Global ... (2025-09-17) https://hubble.com/press/hubble-network-raises-70m-series-b-to-scale-global-bluetooth-to-satellite-connectivity
+  Hubble Network
 
-Agree & Join LinkedIn
+Skip to main content
 
-By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy.
+Solutions
 
-# Hubble Network’s Post
+Solutions
 
-https://www.linkedin.com/company/hubblenetwork
+- Stolen Vehicle RecoveryTrack high-risk vehicles securely for improved recovery
+- Asset TrackingProtect high-value industrial equipment
+- Shipping & LogisticsMaintain connectivity across global logistics
 
-Hubble Network
+- Pricing
+- Press
+- Developer Experience
+- Comparison
+- Careers
+- Contact Us
+- Docs
 
-6,801 followers
+Back to Press
 
-1y
+September 17, 2025
 
-- Report this post
+# Hubble Network Raises $70M Series B to Scale Global Bluetooth®-to-Satellite Connectivity
 
-See how Hubble Network is transforming asset tracking and connectivity for the Department of Defense and U.S. Government. Our latest video hi
+At Hubble Network, our
 
 ## Open roles (Blitz, live)
 - Senior Sourcing & Recruiting Manager ({'city': 'Seattle', 'country_code': 'US'})

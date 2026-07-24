@@ -3,7 +3,7 @@ slug: epirus | domain: epirusinc.com | HQ: Torrance, California US | employees(L
 sources: vc:red-cell
 industry(LI): Defense and Space Manufacturing | specialties: electronic warfare, artificial intelligence, machine learning, remote sensing, directed energy, high-power microwave, counter-uas, counter-swarm, counrer-uxs
 channel notes: high-power microwave counter-electronics/counter-drone
-own-language word count: ~1481
+own-language word count: ~1482
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -206,6 +206,10 @@ See Open Positions
 URL: https://epirusinc.com/electronic-warfare
 Epirus Leonidas High-Power Microwave: Directed Energy for cUAS, cUAS Swarms, Counter Electronics
 
+We use essential cookies to make our site work. With your consent, we may also use non-essential cookies to improve user experience, personalize content, customize advertisements, and analyze website traffic. For these reasons, we may share your site usage data with our social media, advertising, and analytics partners. By clicking ”Accept,” you agree to our website's cookie use as described in our Cookie Policy. You can change your cookie settings at any time by clicking “Preferences.”
+
+PreferencesDeclineAccept
+
 ## Benefits
 
 ## Size, Weight & Power (SWaP)
@@ -246,19 +250,7 @@ Leonidas is a solid-state, high-power HPM system, utilizing Gallium Nitride (GaN
 
 02
 
-## mobile
-
-## Mobile
-
-Leonidas Mobile has the flexibility to integrate on any vehicle or on any hitch, bringing counter-UAS and counter-swarm capabilities to the battlefield to protect the maneuver force. As a fully mobile counter-electronics solution, Leonidas Mobile is a revolution in mission assurance.
-
-03
-
-## POD
-
-## Pod
-
-Leonidas Pod combines long-pulse HPM technology with multiple mount options for maximum flexibility across mission needs. With a unique form factor and open architecture, Leonidas Pod integrates with
+## mobil
 
 URL: https://epirusinc.com/air-domain-awareness
 E
@@ -268,7 +260,7 @@ E
 Epirus is a high-growth technology company dedicated to overcoming the asymmetric challenges inherent to the future of national security. Epirus' flagship technology, Leonidas™, is a scalable, modular, software-defined, high-power microwave platform built using intelligent power management techniques that allow power-hungry systems to do more with less.
 
 ## News (Exa, top 3)
-- Epirus Receives $43.5 Million Contract from U.S. Army for ... (2025-07-17) https://www.epirusinc.com/press-releases/epirus-receives-43-million-contract-from-u-s-army-for-ifpc-hpm-generation-ii-systems
+- Epirus Receives $43.5 Million Contract from U.S. Army for IFPC- ... (2025-07-17) https://www.epirusinc.com/press-releases/epirus-receives-43-million-contract-from-u-s-army-for-ifpc-hpm-generation-ii-systems
   Epirus Receives $43.5 Million Contract from U.S. Army for IFPC-HPM Generation II Systems
 
 > Second generation of company's high-power microwave platform expected to more than double range, increase power, lethality and usability

@@ -256,6 +256,20 @@ Example H2
 Brooklyn. NY – January 14, 2026 – Simplesense, Inc, a company committed to ensuring mission operators can trust and rely on critical infrastructure data, today announced a new $15M contract funded by the Air Force’s prestigious Strategic Funding Increase (STRATFI) and Small Business Innovation Research (SBIR) programs.
 
 AFWERX, the innovation arm of the Department of Air Force (DAF), designed the STRATFI program to bridge the 
+- Simplesense Awarded Department of Defense Critical Infrastructure ... (2024-11-18) https://simplesense.io/news/simplesense-awarded-department-of-defense-critical-infrastructure-cybersecurity-contract-as-part-of-20m-expansion
+  Simplesense 2026
+
+Table of contents
+
+Summary
+
+Example H2
+
+## Summary
+
+The Air Force Installation and Mission Support Center awarded Simplesense a contract as part of a $20M expansion under the Department of Defense's Accelerate the Procurement and Fielding of Innovative Technologies (APFIT) program.
+
+Brooklyn, NY – November 18, 2024 – Simplesense, Inc, a company committed to rapidly protecting critical infrastructure from cyber attacks and unlocking information needed to monitor, diagnose, and r
 - Simplesense Awarded Department of Defense Critical Infrastructure Cybersecurity Contract as part of $20M Expansion  | Simplesense () https://simplesense.io/blog/simplesense-awarded-department-of-defense-critical-infrastructure-cybersecurity-contract-as-part-of-20m-expansion
   Simplesense 2026
 
@@ -270,20 +284,6 @@ Example H2
 The Air Force Installation and Mission Support Center awarded Simplesense a contract as part of a $20M expansion under the Department of Defense's Accelerate the Procurement and Fielding of Innovative Technologies (APFIT) program.
 
 Brooklyn, NY – November 18, 2024 – Simplesense, Inc, a company committed to rapidly protecting critical infrastructure from cyber attacks and unlocking information needed to monitor, diagnose, and r
-- Air Force Awards $9M Installation Resilience Operations Center Prototype Contract to SimpleSense and Novetta  | Simplesense () https://simplesense.io/blog/air-force-awards-9m-installation-resilience-operations-center-prototype-contract-to-simplesense-and-novetta
-  Simplesense 2026
-
-Table of contents
-
-Summary
-
-Example H2
-
-## Summary
-
-Brooklyn, NY -- SimpleSense, a tech start-up delivering critical response technology, announced today that on September 14, 2020, the Air Force Civil Engineer Center awarded the company a $9M opportunity to develop the Installation Resilience Operations Center, or IROC, an innovative prototype to enhance base security and facility operations.
-
-Brooklyn, NY -- SimpleSense, a tech start-up delivering critical response technology
 
 ## Open roles (Blitz, live)
 - Control System Integration Specialist ({'city': 'Denver', 'country_code': 'US'})

@@ -1,0 +1,20 @@
+{
+  "company": "ASTER LABS, INC.",
+  "slug": "aster-labs-inc",
+  "domain": "asterlabs.com",
+  "verdict": "drop",
+  "drop_reason": "sbir_mill",
+  "dod_intent_evidence": "Real DoD motion exists (Air Force SBIR Phase II 2022 $749,779; SpaceWERX Orbital Prime STTR Phase I 2022 — SBIR/STTR and News sections), but 27 SBIR/STTR awards across 20+ years with a self-described research-services business model is the SBIR-mill pattern.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "\"ASTER ... Labs provides research services to its clients for advanced topics in spacecraft development\" (linkedin_about) → sbir_mill: research services IS the product",
+    "\"List of SBIR/STTR awards granted to Aster Labs, Inc. | 27 results\" (news) → sbir_mill: two decades of award stacking, founded 2004, 16 employees",
+    "\"research prototype design development, systems simulation analysis, kalman filter design covariance analysis\" (LinkedIn specialties) → no fieldable product line, only prototypes-for-hire"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Small Minnesota research house doing spacecraft/UAS navigation and sensor-validation algorithm work almost entirely on SBIR/STTR contracts."
+}

@@ -1,0 +1,37 @@
+{
+  "company": "Walacor Corporation",
+  "slug": "walacor-corporation",
+  "domain": "walacor.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "SBIR portfolio record (sbir.gov, via channel notes) shows an Army sensor-data-integrity requirement, and the News section shows Walacor was assessed 'Awardable' on the CDAO's Tradewinds Solutions Marketplace (2026-03-31) plus a Carahsoft public-sector reseller partnership.",
+  "disconnect_score": 70,
+  "subscores": {"lab_language_intensity": 14, "deployment_awareness_absence": 18, "operator_absence": 18, "hiring_profile_skew": 10, "stage_pressure": 10},
+  "score_evidence": [
+    "'Patent-pending Trust-first technology' / 'Quantum Safe Sealed Envelopes' → lab_language_intensity",
+    "'Deploy, Test, and Run the Walacor Platform on Amazon Web Services with just a few clicks' — zero mention of DDIL/ATO/RMF/CMMC/ITAR/STIG anywhere in ~1400 words → deployment_awareness_absence",
+    "'ideal solution for security and IT departments looking to improve their data security' — audience is IT/security teams, never operators/warfighters/training/CONOPS → operator_absence",
+    "no jobs data found in pack → hiring_profile_skew set to exactly 10 per rule"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Deployment model is 'one-click' cloud (AWS/Azure) with no on-prem/edge/disconnected story articulated for the government use case.",
+     "operator_reality": "A DDIL site has no reachable AWS/Azure control plane — the 'few clicks and minimal investment' cloud-launch model simply doesn't run.",
+     "why_likely_missing": "Product originated as a commercial data-integrity/database platform (MortgageTech, cybersecurity) and DoD messaging was layered on top without re-architecting for edge deployment.",
+     "evidence_quote": "Deploy, Test, and Run the Walacor Platform on Amazon Web Services with just a few clicks and minimal investment.",
+     "quote_source": "homepage"},
+    {"blind_spot": "Claims trust from 'military, and space sectors' with zero specific compliance vocabulary (ATO, RMF, IL4/IL5, STIG, CMMC).",
+     "operator_reality": "A program office won't grant an ATO on marketing language alone — without demonstrated RMF/STIG readiness, the pilot stalls in accreditation regardless of encryption quality.",
+     "why_likely_missing": "Company is compliance-adjacent (audit/integrity) but frames it as an enterprise IT capability, not a government-accreditation capability, suggesting the ATO conversation hasn't happened yet.",
+     "evidence_quote": "Trusted by public, commercial, military, intelligence, and space sectors, Walacor's secure data platform provides unmatched protection against ransomware, AI tampering, and accidental data manipulation.",
+     "quote_source": "homepage"},
+    {"blind_spot": "No mention anywhere of who operates/maintains this at the edge — sustainment, training, or field support model is entirely absent.",
+     "operator_reality": "A sensor-integrity product tied to an Army sensor-data requirement needs someone at the unit level who can operate and troubleshoot it without a helpdesk ticket to Bethesda.",
+     "why_likely_missing": "The product's mental model is enterprise SaaS support (ticket-based, always-connected), not field sustainment.",
+     "evidence_quote": "Built for all industries, Walacor's technology is accessible to businesses of all sizes, making it an ideal solution for security and IT departments looking to improve their data security.",
+     "quote_source": "homepage"}
+  ],
+  "opener_hook": "Walacor's SBIR abstract targets Army sensor-data integrity, but the public product pages describe one-click AWS/Azure deployment — worth comparing to what the pilot site's comms actually look like.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "An immutable, encrypted data-integrity platform (data vault / audit log) sold across commercial, mortgage, and government/military/intelligence sectors."
+}

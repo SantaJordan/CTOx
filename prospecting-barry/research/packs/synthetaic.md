@@ -348,12 +348,8 @@ Total Award Amount: $150,000
 Contract Number: HQ003424P0146
 
 Agency Tr
-- Synthetaic (RAIC) Awarded Phase I SBIR Contract to Adapt ... (2023-09-20) https://raiclabs.com/blog/synthetaic-awarded-phase-i-sbir-contract-to-adapt-object-detection-capabilities-for-military-use/
-  RAIC Labs Synthetaic (RAIC) Awarded Phase I SBIR Contract to Adapt Object Detection Capabilities for Military Use - RAIC Labs
-
-Synthetaic (now RAIC Labs) has been awarded a Phase I Small Business Innovation Research (SBIR) contract with the U.S. Army to provide a solution for near-real-time object detection, classification, and imagery annotation.
-
-The new contract is the next step in Synthetaic’s efforts to adapt its Rapid Automatic Image Categorization (RAIC) platform for military applications
+- CONTRACT to SYNTHETAIC, INC () https://www.usaspending.gov/award/CONT_AWD_W50S8523P0037_9700_-NONE-_-NONE-
+  USAspending.gov
 
 ## Open roles
 (no jobs data found)

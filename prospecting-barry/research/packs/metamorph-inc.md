@@ -248,65 +248,39 @@ We will develop a comprehensive approach to find RF-based side channels in compl
 
 ## News (Exa, top 3)
 - metamorph inc. (2026-06-23) https://metamorphsoftware.com/
-  # MetaMorph (United States)
+  # MetaMorph Inc.
 
-MetaMorph (United States) is a Software Development company. MetaMorph Inc. builds multi-domain engineering tools for the design and analysis of complex systems. MetaMorph (United States) employs 4 people (-14.3% YoY, -1 person), founded in 2013. Headquartered in Nashville, Tennessee, United States.
+MetaMorph Inc. is a Software Development company. MetaMorph Inc. builds multi-domain engineering tools for the design and analysis of complex systems. MetaMorph Inc. employs 4 people (-14.3% YoY, -1 person), founded in 2013. Headquartered in Nashville, Tennessee, United States.
 
 ## About
 
 Since 2013, MetaMorph has been working with engineering companies to address their most challenging product design needs.
 
-In industries such as aerospace and 
-- Army Awards AI & Machine Learning Contract to Metron Inc. - ClearanceJobs (2025-08-18) https://news.clearancejobs.com/2025/08/18/army-awards-ai-machine-learning-contract-to-metron-inc/
-  Army Awards AI & Machine Learning Contract to Metron Inc. - ClearanceJobs
+In industries such as aerospace and defense, designing cutting-edge p
+- Part of CACI, Inc. – Federal team Awarded JGASS II ... () https://morphgroup.com/blog/metamorphosis-group-inc-part-caci-inc-federal-team
+  Apr 2021 - The Metamorphosis Group, Inc. - Part of CACI, Inc. – Federal team Awarded JGASS II Contract :: MorphGroup
 
-Subscribe
+Loading...
 
-## Department of Defense Contracts Valued at $7.5 Million and Above
+# Apr 2021 - The Metamorphosis Group, Inc. - Part of CACI, Inc. – Federal team Awarded JGASS II Contract
 
-## ARMY
+Scroll Down
 
-Metron Inc.,* Reston, Virginia, was awarded a $48,652,798 cost-plus-fixed-fee contract for research, development, test, and evaluation of artificial intelligence and machine learning-enabling technologies for expeditionary maneuver and air/ground reconnaissance. Bids were solicited via the internet with one received. Work will be perf
-- Award | SBIR () https://www.sbir.gov/awards/204828
-  Award | SBIR Skip to main content
+The Metamorphosis Group, Inc. (TMG) is proud to be part of the CACI, Inc. - Federal team which has been awarded a Department of Defense (DoD) Special Operations Command (USSOCOM) multi-year (performance through 2029) single award contract. The value o
+- September 2023 - TMG Wins Contract Award to Support ... () https://morphgroup.com/blog/september-2023-tmg-wins-contract-award-support-us-southco
+  September 2023 - TMG Wins Contract Award to Support U.S. SOUTHCOM :: MorphGroup
 
-# Award
+Loading...
 
-Portfolio Data
+# September 2023 - TMG Wins Contract Award to Support U.S. SOUTHCOM
 
-Back to Award Search
+Scroll Down
 
-## Leveraging an Edge Based Cross-domain Service Framework to Simplify Planning
+The Metamorphosis Group, Inc. - Awarded the USSOUTHCOM Humanitarian Assistance Program Contract
 
-### Awardee
+SEPTEMBER 26, 2023 - The Metamorphosis Group, Inc. (TMG) is proud to have received an award a United States Southern Command (USSOUTHCOM) contract for the Humanitarian Assistance Program (HAP).
 
-#### METRON INCORPORATED
-
-https://www.sbir.gov/portfolio/232075 1818 LIBRARY ST STE 600RESTON, VA, 20190-6281USA
-
-Award Year: 2023
-
-UEI: EN78W198KUG7
-
-HUBZone Owned: No
-
-Woman Owned: No
-
-Socially and Economically Disadvantaged: No
-
-Congressional District: 11
-
-Tagged as:
-
-STTR
-
-Phase II
-
-### Awarding Agency
-
-DOW
-
-Branch: US
+The award has a combined not-to-e
 
 ## Open roles
 (no jobs data found)

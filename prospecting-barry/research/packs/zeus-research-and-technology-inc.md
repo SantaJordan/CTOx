@@ -205,57 +205,8 @@ Gnss-denied Positioning Solution for Unmanned Aerial Systems Using Existing Came
 Awardee
 
 Zeu
-- Zeus Research and Technology, Inc. () https://www.sbir.gov/portfolio/1658885
-  Firm | SBIR Skip to main content
-
-# Company
-
-Portfolio Data
-
-Back to Company Search
-
-## Zeus Research and Technology, Inc.
-
-### Address
-
-675 Discovery Dr. Suite 103Huntsville, AL, 35806USA
-
-UEI: G3KJPX31VE74
-
-Number of Employees: 15
-
-HUBZone Owned: No
-
-Woman Owned: Yes
-
-Socially and Economically Disadvantaged: No
-
-#### SBIR/STTR Involvement
-
-Year of first award: 2020
-
-2
-
-Phase I Awards
-
-1
-
-Phase II Awards
-
-50%
-
-Conversion Rate
-
-$243,569
-
-Phase I Dollars
-
-$1,206,428
-
-Phase II Dollars
-
-$1,449,997
-
+- CONTRACT to ZEUS RESEARCH AND TECHNOLOGY INC () https://www.usaspending.gov/award/CONT_AWD_W9124R21C0001_9700_-NONE-_-NONE-
+  USAspending.gov
 
 ## Open roles
 (no jobs data found)

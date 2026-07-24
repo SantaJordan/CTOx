@@ -1,0 +1,45 @@
+{
+  "company": "Integer Technologies LLC",
+  "slug": "integer-technologies",
+  "domain": "integer-tech.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "SBIR section shows a 2022 DARPA Phase II ($1,499,970) for the ROMULUS UUV digital twin; the news section adds a $25M Navy contract with USM (2025) and a $10.66M Navy option exercise for \"Intelligent Autonomous Systems for Seabed Warfare\" (2026).",
+  "disconnect_score": 36,
+  "subscores": {"lab_language_intensity": 10, "deployment_awareness_absence": 5, "operator_absence": 5, "hiring_profile_skew": 11, "stage_pressure": 5},
+  "score_evidence": [
+    "\"Applied Technology Research For Defense\" and \"Putting Research Into Action®\" as the company's own headline identity, with capability pages written in outcome-free abstractions (\"better and faster decisions responsive to mission objectives\") → lab_language_intensity, moderate",
+    "\"This approach is aperiodic and minimizes the comms required to be feasible over low-bandwidth, intermittent channels\" and \"efficient transmission over available communications networks, including acoustic channels\" → strong DDIL fluency, drives deployment_awareness_absence DOWN",
+    "\"a modular design which is consistent with the Unmanned Maritime Autonomy Architecture (UMAA) so DTs can interface with a diverse array of autonomy services\" → they design to the government's integration architecture, not their own",
+    "\"demonstrate multiple use cases that were developed by interviewing Navy stakeholders during Phase I\" and \"aids decision makers to adapt the MP\" / \"reduces cognitive load, ensuring operators and systems can make safe decisions\" → operator_absence LOW",
+    "Ten open roles are all engineering/product — \"Principal Engineer – Autonomous Systems\", \"Senior Electrical Engineer - Power Systems\", \"Director of Mission Autonomy\", \"Senior Front End Engineer\", \"Senior Product Manager\" — with no ISSO, no security/compliance, no field-test or integration role at 90 people → hiring_profile_skew",
+    "$25M contract (2025) plus a $10.7M option exercise (2026), 90 employees, two new offices announced in 2026 → stage_pressure LOW"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Every proof point is generated at a research venue with a university subcontractor rather than with a fleet unit.",
+      "operator_reality": "An in-water run on a WHOI REMUS 100, a demonstration in Monterey Bay under a marine-sanctuary permit, and co-location agreements with USM and UNH produce a technically valid result and zero operational sponsorship. The sailor who would own this software at sea has never touched it, so nobody in the fleet is writing the requirement that makes it a program. Research demonstrations generate publications and follow-on S&T money; they do not generate the advocacy chain that survives a budget cycle.",
+      "why_likely_missing": "The company's stated operating model is university partnership — \"We build strategic partnerships with university, government, and industry leaders\" — and it is genuinely why they win S&T work, so the absence of a fleet end-user in the loop reads as normal rather than as a transition risk.",
+      "evidence_quote": "we also propose to conclude the Phase II with a final in-water demonstration by leveraging an existing REMUS 100 and facilities at Woods Hole Oceanographic Institute (subcontractor)",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "The offboard half of the digital twin runs ashore on a Navy network, and nothing in ~1,850 words of their own language mentions ATO, RMF, STIGs, IL levels or CMMC.",
+      "operator_reality": "ROMULUS only delivers value when the shore-based command team can see the synchronized twin — which means the offboard component has to live on an accredited Navy network, with an SSP, control inheritance, and a AO signature. That package is measured in months and is owned by nobody on an S&T contract. The onboard half can be technically flawless while the ashore half sits unaccredited, and the capability is unusable in exactly the configuration that was sold.",
+      "why_likely_missing": "Their engineering identity is physics, autonomy and digital engineering, and S&T contracts rarely force the accreditation conversation; the hiring list confirms it — ten open roles, not one security, ISSO or compliance position.",
+      "evidence_quote": "the synchronization with the Offboard DT also provides critical decision aids for the command team while supervising the UUVs autonomous mission performance",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "The revenue base is science-and-technology money, with no program of record or PEO named anywhere.",
+      "operator_reality": "The $10.7M option is explicitly \"continuing science and technology\" work — 6.2/6.3 dollars that fund invention, not procurement. S&T funding lines end; they do not convert themselves into a production contract. Without a named acquisition program with a POM line to receive the software, a 90-person company built on consecutive S&T awards is one budget decision from having a proven capability and no buyer, which is precisely the months-to-field versus months-funded arithmetic.",
+      "why_likely_missing": "Consecutive wins and option exercises look like traction from the inside, and the company's self-description is about transitioning research rather than about who signs the production contract: their language names universities, government and industry partners but never a program office.",
+      "evidence_quote": "The modification provides continuing science and technol[ogy]",
+      "quote_source": "news"
+    }
+  ],
+  "opener_hook": "Your ROMULUS abstract is one of the few I've read that budgets for acoustic-channel bandwidth up front — aperiodic sync instead of periodic telemetry — which makes the missing piece the shore-side accreditation, not the vehicle.",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Builds mission-assurance and autonomy software for Navy undersea and surface unmanned vehicles, including operational digital twins that keep a shore-based command team synchronized with a UUV over acoustic links."
+}

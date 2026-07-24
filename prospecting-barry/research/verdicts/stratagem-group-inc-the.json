@@ -1,0 +1,16 @@
+{
+  "company": "The Stratagem Group, Inc.",
+  "slug": "stratagem-group-inc-the",
+  "domain": "stratagemgroup.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "Genuine DoD motion exists (NGA CHATMAN Phase II SBIR, $970K) but the entity was acquired in 2023 by ARKA Group — described in the MoFo press release as 'a system engineering and integration services group' — and ARKA's own website now states 'ARKA IS NOW CACI', a large defense prime; see News section and homepage banner.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Aurora, CO defense/space software and systems-integration company (SAR/GEOINT/SATCOM/SIGINT, ~84 employees) acquired by ARKA Group in 2023, which is itself now part of CACI — a large defense prime."
+}

@@ -307,24 +307,6 @@ A light flashes, you flex your wrist. Y
 Pison is advancing the frontier of human potential with the world’s first AI-infused, neural biosensing platform. Patented, non-invasive electroneurography (ENG) algorithms create life-changing applications in cognitive performance, disease diagnostics and management, and ongoing care. Pison began in 2016 with funding from the Massachusetts Institute of Technology, National Science Foundation and the ALS Association to help patients with neurodegenerative disorders better navigate the world made smaller by their diseases. Investors and partners include First Round DRF, Oculus, MIT, Draper, HHS
 
 ## News (Exa, top 3)
-- SOCOM Selects Pison for Neural AI Integration into Special Operations () https://finance.yahoo.com/news/socom-selects-pison-neural-ai-140500504.html
-  SOCOM Selects Pison for Neural AI Integration into Special Operations
-
-Oops, something went wrong
-
-This is a paid press release. Contact the press release distributor directly with any inquiries.
-
-# SOCOM Selects Pison for Neural AI Integration into Special Operations
-
-Pison Technology
-
-Phase III Small Business Innovation Research contract will integrate Pison's neural biosensing and AI technology for improved situational awareness and combat effectiveness
-
-Boston, Nov. 16, 2023 (GLOBE NEWSWIRE)
-- Pison Technology, Inc. () https://govtribe.com/vendors/pison-technology-inc-dot-7sb32
-  Pison Technology, Inc.
-
-Pison Technology, Inc.
 - SBIR 
   
   ISLE Platform: Immersive Simulation of Lifelike Experience () https://www.highergov.com/contract/N6833521C0217/
@@ -379,6 +361,24 @@ NAWC Aircraft Division (NAWCAD) [DoD - USN - NAVAIR]
 NAICS
 
 541715 - Research and Development in the Physical, Engineering, 
+- SOCOM Selects Pison for Neural AI Integration into Special Operations () https://finance.yahoo.com/news/socom-selects-pison-neural-ai-140500504.html
+  SOCOM Selects Pison for Neural AI Integration into Special Operations
+
+Oops, something went wrong
+
+This is a paid press release. Contact the press release distributor directly with any inquiries.
+
+# SOCOM Selects Pison for Neural AI Integration into Special Operations
+
+Pison Technology
+
+Phase III Small Business Innovation Research contract will integrate Pison's neural biosensing and AI technology for improved situational awareness and combat effectiveness
+
+Boston, Nov. 16, 2023 (GLOBE NEWSWIRE)
+- Pison Technology, Inc. () https://govtribe.com/vendors/pison-technology-inc-dot-7sb32
+  Pison Technology, Inc.
+
+Pison Technology, Inc.
 
 ## Open roles
 (no jobs data found)

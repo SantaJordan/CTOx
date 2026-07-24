@@ -1,0 +1,16 @@
+{
+  "company": "Cynnovative, LLC",
+  "slug": "cynnovative-llc",
+  "domain": "cynnovative.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "Genuine DoD motion exists (DARPA SBIR Phase II WHIRL $1.79M; $13.9M DARPA SMOKE cost-plus-fixed-fee award in news) — but they are a services/R&D contractor, not a product company: 'We're seasoned government contractors with the DNA of a tech startup' (homepage) and 'we've stacked our team... to deliver revolutionary solutions... for a range of federal government and intelligence clients' (about page). Business is winning and executing government research contracts; no product crossing the valley.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Small Arlington VA government R&D services contractor doing cyber, data science, and rapid prototyping for DARPA and intelligence-community clients."
+}

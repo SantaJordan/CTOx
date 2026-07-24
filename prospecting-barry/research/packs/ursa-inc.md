@@ -159,19 +159,6 @@ Every company using AI to port legacy software is sitting on an unquantified lia
 Today’s approaches to binary patching are largely human-driven and rely on long iterations of human effort to understand functionality in a system. Devices like commercial small unmanned systems (sUAS) are complicated, and functional flows often require coordination (messages transmitted and received) between multiple processors. It is usually simple to explain a functional requirement in human terms, e.g., “Disable the tracking/telemetry beacon”, but this might practically amount to finding a single message flow within hundreds of thousands of message flows. Recent advances in the systematic recovery of binary input spaces have yielded promising results for effective patching. The Fisher Group’s BinaryInferno effort seeks to recover fields and input message formats through fingerprinting common encoding idioms. Similarly, the ByteRI system from UL Lafayette contains inference algorithms for input structure recovery via recursive state machines. Taking another approach to binary input recovery, DARPA ReMath aimed to recover mathematical structures in cyber-physical systems through artificial intelligence. All three ventures reflect new advances in automation in the semantic reverse engineering space. These advances suggest a disciplined approach advancing modern techniques to identify and explore the input surface (e.g., message parsing from an RF channel) to sinks where control algorithms exist. This approach has direct applications to DoD systems as well as other critical infrastructure systems. This will enable minimal patching on COTS devices for military use, while enabling this to be done at scale without linearly scaling experienced engineering and RE resources. This program phase aims to improve the state of rapid reverse engineering (RE) of embedded systems specifically to allow military users to remove unwanted functionality from commercial-off-the-shelf (COTS) devices in a scalable manner. Often, military users want to first acquire COTS (like small unmanned aerial systems (sUAS)) products, then tailor their software and functionality toward operational needs before deployment. In turn, this entails rapidly understanding mappings between device software and functionality, then removing unwanted functionality (such as tracking or “call home” features or less secure modes of operation). This program aims to accelerate this process so that engineers can easily create, situate (e.g., find the right location, ensure features are truly disabled), and apply (via binary patching) functional patches in a semi-autonomous fashion.
 
 ## News (Exa, top 3)
-- URSA INC — HR001126CE041 — Federal Contract Award | GovChime () https://www.govchime.com/market-intelligence/awards/CONT_AWD_HR001126CE041_9700_-NONE-_-NONE-
-  URSA INC — HR001126CE041 — Federal Contract Award | GovChime
-
-[![](https://www.govchime.com/brand/logo-full.svg)govchime](https://www.govchime.com/)
-FederalSLED
-[![](https://www.govchime.com/brand/logo-mark.svg)govchime](https://www.govchime.com/)
-URSA INC — HR001126CE041 — Federal Contract Award | GovChime
-Back
-PIID: HR001126CE041 • Signed: Dec 31, 2025AWARDDEFINITIVE CONTRACTSmall Business
-# EMBEDDED ENTREPRENEUR INITIATIVE (EEI)
-View on USAspendingOpen Website
-Total Obligated:$340,000
-URSA IN
 - Award | SBIR () https://www.sbir.gov/awards/180811
   Award | SBIR Skip to main content
 
@@ -214,6 +201,19 @@ DOD
 Branch: USAF
 
 Total Award Amoun
+- URSA INC — HR001126CE041 — Federal Contract Award | GovChime () https://www.govchime.com/market-intelligence/awards/CONT_AWD_HR001126CE041_9700_-NONE-_-NONE-
+  URSA INC — HR001126CE041 — Federal Contract Award | GovChime
+
+[![](https://www.govchime.com/brand/logo-full.svg)govchime](https://www.govchime.com/)
+FederalSLED
+[![](https://www.govchime.com/brand/logo-mark.svg)govchime](https://www.govchime.com/)
+URSA INC — HR001126CE041 — Federal Contract Award | GovChime
+Back
+PIID: HR001126CE041 • Signed: Dec 31, 2025AWARDDEFINITIVE CONTRACTSmall Business
+# EMBEDDED ENTREPRENEUR INITIATIVE (EEI)
+View on USAspendingOpen Website
+Total Obligated:$340,000
+URSA IN
 - Pentagon awards rocket motor maker Ursa Major $12.5 million (2024-09-17) https://www.reuters.com/business/aerospace-defense/pentagon-awards-rocket-motor-maker-ursa-major-125-million-2024-09-17/
   Pentagon awards rocket motor maker Ursa Major $12.5 million | Reuters
 

@@ -1,0 +1,44 @@
+{
+  "company": "AIRIA",
+  "slug": "airia",
+  "domain": "airia20.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "News section: two AFWERX STTR Phase II awards of $1.8M each (July 2025 for AI-driven spatial analytics, November 2025 for signal fusion) with AFRL/AFWERX named, plus their own About page press item 'AIRIA Selected for US Air Force Grant to Enhance Sustainable Space Management & Safety for US Campuses & Bases' and a 'Federal' item in their site navigation.",
+  "disconnect_score": 82,
+  "subscores": {"lab_language_intensity": 14, "deployment_awareness_absence": 18, "operator_absence": 16, "hiring_profile_skew": 16, "stage_pressure": 18},
+  "score_evidence": [
+    "'Our self-learning software easily integrates with existing campus network data, leading to manageable fees, easy deployments & clear ROI' → lab_language_intensity (deployment framed as a commercial ROI event, not an accreditation event)",
+    "'Frictionless & Privacy Focused IT Integration ... Designed with robust cybersecurity in mind' — the only security language in ~1377 words, with zero mention of ATO, RMF, STIG, IL4/IL5, CMMC, NIST 800-171 or CUI despite two Air Force contracts → deployment_awareness_absence",
+    "'AIRIA provides campus facility operators real-time & 24/7 building occupancy data' — the only 'operators' in the pack are campus facilities staff; no airmen, security forces, defenders, CONOPS or field feedback anywhere → operator_absence",
+    "Sole open role: 'Software Engineer (C# / .NET / Python) — NYC (Hybrid)' — no field/deployment engineer, no ISSO, no compliance or security-engineering hire → hiring_profile_skew",
+    "'Seed round closed July 2025' + second STTR Phase II awarded 2025-11-24 at 13 employees → stage_pressure (two concurrent Phase II periods of performance against a 13-person team)"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Treats network integration as a setup task rather than an accreditation event",
+      "operator_reality": "On an Air Force installation the 'existing campus network' is an ATO'd DoD enclave. Getting a self-learning collector onto it means an RMF package, STIG'd hosts, a POA&M, and an ISSO signature — 9-18 months of work that has to start before the Phase II period of performance ends, not after. The Phase II money runs out while the package is still in review.",
+      "why_likely_missing": "Their entire delivered install base is university IT, where the CIO can just approve a collector; nobody in a 13-person team that has only ever shipped to campuses has carried an RMF package.",
+      "evidence_quote": "Seamless integration by leveraging existing IT infrastructure, reducing the time needed for installation and minimizing the risk of system disruptions.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Architecture assumes a continuous telemetry stream to a cloud analytics back end",
+      "operator_reality": "'Real-time & 24/7' occupancy inference off network telemetry dies the moment the site is on a DDIL segment, an austere or expeditionary location, or a network that blocks egress to a vendor cloud. Same failure mode as the crowd-detection startup that streamed 30fps into a link with bandwidth for one frame every five seconds — the fix is decoupling inference cadence from transport, and that is an architecture decision, not a config toggle.",
+      "why_likely_missing": "Campus networks are fat, always-on, and permissively routed; there has never been a customer environment that punished the assumption.",
+      "evidence_quote": "AIRIA provides campus facility operators real-time & 24/7 building occupancy data",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Frames occupancy data as a privacy problem, not an OPSEC/CUI problem",
+      "operator_reality": "Building-level occupancy and movement patterns on a military installation is pattern-of-life data — personnel density by facility and hour. On a base that is CUI at minimum and an OPSEC indicator at worst; it drives handling, storage location, aggregation limits and export controls, and a signal-fusion STTR compounds it. FERPA-shaped 'privacy protections' do not satisfy any of that.",
+      "why_likely_missing": "The compliance model they built is the one universities audited them against; no one has yet told them the same dataset changes classification when the building is on an Air Force base.",
+      "evidence_quote": "Privacy as a Priority ... Built-in privacy protections. No hardware needed.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "AIRIA has two AFWERX STTR Phase II awards inside 5 months ($1.8M each, July and November 2025), while airia20.com still describes the product as campus occupancy analytics that 'easily integrates with existing campus network data' — on an installation that integration is an RMF package and an ISSO signature, and the Phase II clock usually expires before the package clears.",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "AI spatial-analytics SaaS that infers building occupancy from existing network data to cut university facilities and energy costs, now pivoting the same engine toward Air Force signal fusion."
+}

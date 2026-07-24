@@ -1,0 +1,16 @@
+{
+  "company": "FORGE GROUP, LLC",
+  "slug": "forge-group-llc",
+  "domain": "forgegroupllc.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "Real DoD motion (AF SBIR Phase II, FMS-ACES Army development contract, USASpending awards - news section), but the company is an 8(a)/WOSB/SDVOSB consulting and services firm ('adds niche subject matter experts to solve targeted problems', Appian developer staffing roles) - a services/SI shop, not a product company stuck in the valley.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Government consulting/services firm for security cooperation and foreign military sales, plus Appian application development for DoD."
+}

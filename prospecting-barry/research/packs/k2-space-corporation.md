@@ -536,18 +536,15 @@ Total Award Amount: $18,000,000
 Contract 
 - CONTRACT to K2 SPACE CORPORATION () https://www.usaspending.gov/award/CONT_AWD_FA880925CB003_9700_-NONE-_-NONE-
   USAspending.gov
-- K2 SPACE CORPORATION — FA864923P1263 — Federal Contract Award | GovChime () https://www.govchime.com/market-intelligence/awards/CONT_AWD_FA864923P1263_9700_-NONE-_-NONE-
-  K2 SPACE CORPORATION — FA864923P1263 — Federal Contract Award | GovChime
+- K2 Space Awarded $60M STRATFI Contract for Groundbreaking ... (2024-12-19) https://www.prnewswire.com/news-releases/k2-space-awarded-60m-stratfi-contract-for-groundbreaking-proliferated-meo-mission-302335650.html
+  K2 Space Awarded $60M STRATFI Contract for Groundbreaking Proliferated MEO Mission Accessibility Statement Skip Navigation
 
-[![](https://www.govchime.com/brand/logo-full.svg)govchime](https://www.govchime.com/)
-FederalSLED
-[![](https://www.govchime.com/brand/logo-mark.svg)govchime](https://www.govchime.com/)
-K2 SPACE CORPORATION — FA864923P1263 — Federal Contract Award | GovChime
-Back
-PIID: FA864923P1263 • Signed: Apr 16, 2025AWARDPURCHASE ORDERSmall Business
-# PRECISION POINTING FOR HIGH RESOLUTION OPTICAL AND RADIO FREQUENCY REMOTE SENSING SA
+Breakthrough Multi-Orbit Platform to Launch in February 2026
+
+TORRANCE, Calif., Dec. 19, 2024 /PRNewswire/ -- K2 Space has signed a contract with the U.S. Space Force to launch its first Mega Class satellite on a mission code-named "Gravitas." The contract, with a total value of $60 million, includes government funds, Small Business Innovation Research (SBIR) matching funds
 
 ## Open roles (Blitz, live)
+- Senior Site Reliability Engineer ({'city': 'Los Angeles', 'country_code': 'US'})
 - Senior Build Reliability Engineer ({'city': 'Los Angeles', 'country_code': 'US'})
 - Thermal Analyst ({'city': 'Los Angeles', 'country_code': 'US'})
 - Thermal Control System (TCS) Design Engineer ({'city': 'Los Angeles', 'country_code': 'US'})
@@ -557,7 +554,6 @@ PIID: FA864923P1263 • Signed: Apr 16, 2025AWARDPURCHASE ORDERSmall Business
 - Senior Development Test Technician ({'city': 'Los Angeles', 'country_code': 'US'})
 - Senior Application Architect ({'city': 'Los Angeles', 'country_code': 'US'})
 - Senior Optomechanical Engineer ({'city': 'Los Angeles', 'country_code': 'US'})
-- Senior Avionics Test Engineer, Optical ({'city': 'Los Angeles', 'country_code': 'US'})
 
 ---
 # Context for the scoring agent (do not re-search)

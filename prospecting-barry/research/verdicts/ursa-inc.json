@@ -1,0 +1,43 @@
+{
+  "company": "URSA Inc",
+  "slug": "ursa-inc",
+  "domain": "ursasecure.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "DARPA Phase II SBIR ($1,773,585, 2023) for Semi-Autonomous Patch Application (binary patching of COTS sUAS for military use), a DARPA Embedded Entrepreneur Initiative contract (Dec 2025, $340K), and DCMA Recognized Assessor status for the Blue UAS Cleared List (June 2026) — SBIR record and own website. (Note: the 'Ursa Major' rocket-motor Reuters article in the News section is a different company and was disregarded per instructions.)",
+  "disconnect_score": 56,
+  "subscores": {"lab_language_intensity": 10, "deployment_awareness_absence": 8, "operator_absence": 10, "hiring_profile_skew": 10, "stage_pressure": 18},
+  "score_evidence": [
+    "'Prove behavioral equivalence before AI-generated software reaches production' / 'mathematical deterministic proof' — technical devtools framing, moderate lab language → lab_language_intensity",
+    "SBIR abstract: 'military users want to first acquire COTS... products, then tailor their software and functionality toward operational needs before deployment' shows real fluency about DoD acquisition reality → deployment_awareness_absence (moderate, not absent)",
+    "(no jobs data in pack → hiring_profile_skew set exactly 10 per instructions)",
+    "'Awarded a DARPA contract supporting 12 months of full-time commercialization effort; working with Capital Factory and a DARPA Senior Commercialization Advisor (SCA)' on a 3-5 person team → stage_pressure (explicit 12-month clock)"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "SBIR abstract describes patching COTS sUAS devices for military deployment (e.g. disabling 'tracking/telemetry beacon' or 'call home' features), but FMToolkit's commercial pitch is framed entirely as a cloud CI/CD verification step",
+      "operator_reality": "Formal verification of code that will run ON a resource-constrained embedded flight controller has a completely different SWaP-C and toolchain profile than verifying code in a cloud CI pipeline for enterprise software modernization — the site never addresses running or validating the toolkit against the actual patched target hardware.",
+      "why_likely_missing": "The current commercial product page is written for enterprise engineering leaders modernizing legacy codebases, not for embedded/tactical hardware targets.",
+      "evidence_quote": "We integrate directly into GitHub, CI/CD pipe[lines]",
+      "quote_source": "linkedin_about"
+    },
+    {
+      "blind_spot": "The DARPA abstract explicitly targets removing 'unwanted functionality (such as tracking or \"call home\" features or less secure modes of operation)' from COTS devices for military use",
+      "operator_reality": "Modifying commercial hardware's behavior for military deployment sits squarely in export-control-adjacent territory, yet neither the SBIR abstract nor the website mentions ITAR, export control, or how the patched-artifact's classification is handled once delivered to a military user.",
+      "why_likely_missing": "The abstract is written as a technical R&D pitch (reverse engineering, binary patching automation) rather than an acquisition/compliance document.",
+      "evidence_quote": "military users want to first acquire COTS (like small unmanned aerial systems (sUAS)) products, then tailor their software and functionality toward operational needs before deployment",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "URSA just became a DCMA Recognized Assessor for the Blue UAS Cleared List and offers free mentoring on designing products to pass that assessment",
+      "operator_reality": "This is the company's most differentiated, directly defense-relevant expertise (supply-chain security assessment gates), but it lives on a separate page disconnected from the FMToolkit commercialization push that a 3-5 person team is racing a 12-month DARPA EEI clock to complete — a tiny team split across two distinct value props (a commercial devtool vs. a defense assessment service) is a classic setup for neither one fully fielding before funding runs out.",
+      "why_likely_missing": "The site treats Blue UAS assessment work and FMToolkit as separate initiatives with no cross-linking or shared narrative.",
+      "evidence_quote": "We are particularly interested in helping companies design their products, supply chains, and manufacturing processes to align with the assessment process as early as possible.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "You're now a DCMA Recognized Assessor for Blue UAS — does FMToolkit's formal-verification pipeline run the same way on the embedded target you're patching as it does in a cloud CI job?",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Formal-methods code verification toolkit (FMToolkit) for AI-generated code correctness, alongside DARPA-funded work reverse-engineering and patching COTS devices (e.g. sUAS) for military use, and DCMA Blue UAS supply-chain security assessments."
+}

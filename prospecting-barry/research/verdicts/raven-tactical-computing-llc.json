@@ -1,0 +1,16 @@
+{
+  "company": "Raven Tactical Computing LLC",
+  "slug": "raven-tactical-computing-llc",
+  "domain": "raventacticalusa.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "Deep DoD motion (Navy/Army/DISA/Air Force/Space Force customers per site) but the company is a hardware manufacturer/contract manufacturer of rugged rackmount computers, displays, and flyaway kits, not a prototype-to-fielded software/tech product company.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Veteran-owned manufacturer of MIL-STD rugged rackmount computers, displays, and flyaway kits for tactical-edge defense customers."
+}

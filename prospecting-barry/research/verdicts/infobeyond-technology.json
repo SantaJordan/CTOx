@@ -1,0 +1,22 @@
+{
+  "company": "InfoBeyond Technology LLC",
+  "slug": "infobeyond-technology",
+  "domain": "infobeyondtech.com",
+  "verdict": "drop",
+  "drop_reason": "sbir_mill",
+  "dod_intent_evidence": "SBIR section shows Army awards for MetalScrap ($1.59M, 2023) and VehChain ($1.15M, 2022), and their own news list includes Navy MsObjDET for Aegis, Navy mine countermeasures, and an Air Force AutoGenMalware award — but award-winning across unrelated domains is the business model.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "Their own news page is a list of ~13 award announcements — \"InfoBeyond Wins AI Fire Investigation Contract\", \"Navy Awards InfoBeyond Contract for AI-Powered Mine Countermeasures\", \"Air Force awards InfoBeyond to develop AutoGenMalware\", \"DoE has granted InfoBeyond funding to develop OT-Healer\", \"InfoBeyond is awarded to develop AI technology to revolutionize Atom Trap Trace Analysis\" → the company's public narrative is award capture, not fielded capability",
+    "Product portfolio spans COVID-19 employee screening (Preworkscreen), nuclear/solar/wind power-plant maintenance (SafeCBM), metallic scrap inspection, CAN-bus blockchain, radioisotope trace analysis and an NIST RMF compliance tool → no single product line to transition; 11 employees across ~10 unrelated technical domains",
+    "\"Our vision is to actively conduct innovative R&D, develop innovative solutions, and produce viable products\" with \"Our uniquely creative... team includes top research scientists\" and \"Dr. Xie has published 80+ papers in IEEE conferences and journals\" → research house identity",
+    "Only open roles are \"Ph.D. Senior Student Intern\", \"Ph.D. Senior Cybersecurity Student Intern\", \"Ph.D Graduate Intern\" → staffing model is graduate research labor, the signature of an SBIR shop",
+    "Channel note: \"total awards reported above $12M over its history\" since 2008 with no product revenue evidenced"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "unknown",
+  "what_they_do": "An 11-person Louisville R&D shop that wins SBIR/STTR awards across cybersecurity, computer vision, blockchain and communications, producing a scattered portfolio of prototype tools."
+}

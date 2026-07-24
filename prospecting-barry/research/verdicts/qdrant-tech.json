@@ -1,0 +1,16 @@
+{
+  "company": "Qdrant",
+  "slug": "qdrant-tech",
+  "domain": "qdrant.tech",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "No DoD/military/warfighter language, SBIR, or contract record anywhere in the pack — commercial open-source vector search engine, Series B ($50M, $87.8M total), customers named are Canva, HubSpot, Tripadvisor, Bosch, and Deutsche Telekom; all job postings and event content are commercial AI/enterprise-infrastructure focused.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "unknown",
+  "what_they_do": "Open-source, Rust-built vector search engine for AI retrieval (RAG, AI agents, semantic search), sold as a commercial cloud/enterprise product with no defense customer base."
+}

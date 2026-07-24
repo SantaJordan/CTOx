@@ -206,6 +206,14 @@ Jun 18
 Enterprise contract establishes a streamlined path for Army and joint-force units to deploy Rune’s TyrOS platform.
 
 ARLINGTON, Va. — June 18, 2026 — Rune Technologies, which builds AI-enabled predictive software for military logistics in contested environments
+- Exclusive: The Army’s $99M Bet on Rune’s Contested Logistics Software (2026-06-18) https://www.tectonicdefense.com/exclusive-the-armys-99m-bet-on-runes-contested-logistics-software/
+  Exclusive: The Army’s $99M Bet on Rune’s Contested Logistics Software
+
+Image: Rune
+
+Forget everything we’ve said about contested logistics being unsexy—it’s about as hot as it gets right now, and Rune’s carving quite a nice niche for itself in the space.
+
+In an exclusive release to Tectonic this morning, the contested logistics and frontline sustainment AI startup announced its biggest win yet: A five-year, $99M contract with the Army for its TyrOS software, structured as an enterprise agreement
 - Army Awards Contract to Rune Technologies for Software Platform () https://www.afcea.org/signal-media/army-awards-contract-rune-technologies-software-platform
   Army Awards Contract to Rune Technologies for Software Platform | AFCEA International
 
@@ -223,14 +231,6 @@ Jun 17, 2026
 - Share by Mail
 
 Rune Technologies Inc., Arlington, Virginia, was awarded a $99,000,000 firm-fixed-price contract for the TyrOS logistical operations software platform. Bids were solicited via 
-- Exclusive: The Army’s $99M Bet on Rune’s Contested Logistics Software (2026-06-18) https://www.tectonicdefense.com/exclusive-the-armys-99m-bet-on-runes-contested-logistics-software/
-  Exclusive: The Army’s $99M Bet on Rune’s Contested Logistics Software
-
-Image: Rune
-
-Forget everything we’ve said about contested logistics being unsexy—it’s about as hot as it gets right now, and Rune’s carving quite a nice niche for itself in the space.
-
-In an exclusive release to Tectonic this morning, the contested logistics and frontline sustainment AI startup announced its biggest win yet: A five-year, $99M contract with the Army for its TyrOS software, structured as an enterprise agreement
 
 ## Open roles (Blitz, live)
 - Quality Assurance Engineer ({'city': 'Seattle', 'country_code': 'US'})

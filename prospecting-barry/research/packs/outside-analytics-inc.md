@@ -3,7 +3,7 @@ slug: outside-analytics-inc | domain: outsideanalytics.com | HQ: Broomfield, Col
 sources: sbir
 industry(LI): Software Development | specialties: satellite ground systems, machine learning, business strategy, remote sensing, web applications, data analytics, mobile applications, software development, systems engineering, outdoor activities
 channel notes: SBIR PhII x1 [2023] Army latest: Soteria - Machine Learning for Breach Routing hq: BROOMFIELD,CO emp: 20
-own-language word count: ~315
+own-language word count: ~319
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -37,11 +37,17 @@ Imagine, develop and deploy solutions that advance our people and our customer's
 
 A collection of extensible, open, data processing and visualization software capabilities proven across numerous DoD and Commercial missions: Intelligence, Surveillance, and Reconnaissance (ISR), Indications and Warnings (I&W), Environmental, Space Domain Awareness (SDA), and Law Enforcement. Support for CPU, GPU, and FPGA deployment architectures.
 
+Schedule Demo
+
 ### Outly
 
 Web and mobile mapping platform used by more than 700K outdoor enthusiasts to discover and plan off-grid backcountry adventures.
 
 Get outside with Outly.
+
+­
+
+­
 
 URL: https://outsideanalytics.com/cart
 OutsideAnalytics
@@ -111,8 +117,17 @@ Home/ Space Force awards $25 million contract for satellite data integration
 Image from the Deneir Analytics and Visualization Ecosystem platform. Credit: Outside Analytics
 
 WASHINGTON — Outside Analytics, a software and data processing specialist, was awarded a $25 million contract to integrate data from missile-warning satellites and other sensors at the U.S. Space Force’s Tools, Applications, and Processing(T
-- OUTSIDE ANALYTICS INC | Federal Award Recipient Profile () https://www.usaspending.gov/recipient/a49a7598-2667-04c4-d3d4-6ee8373025e2-C/latest
-  USAspending.gov
+- Outside Analytics Awarded $215M Deneir Analytics & Visualization ... (2024-10-29) https://www.smxtech.com/about-us/news/outside-analytics-awarded-215m-deneir-analytics-visualization-ecosystem-idiq-contract-task-order-1/
+  SMX | Outside Analytics Awarded $215M Deneir Analytics & Visualization Ecosystem IDIQ Contract & Task Order 1
+
+SMX | Outside Analytics Awarded $215M Deneir Analytics &amp; Visualization Ecosystem IDIQ Contract & Task Order 1
+[
+![SMX](/wp-content/uploads/2023/02/SMX_Logo_whiteorange_reverse.svg)
+](https://www.smxtech.com/)
+Select Page
+[ABOUT US](/about-us) \> [NEWS](/category/about-us/news/)
+# Outside Analytics Awarded $215M Deneir Analytics & Visualization Ecosystem IDIQ Contract & Task Order 1
+
 - Space Force Awards Outside Analytics $215M Contract, Task Order (2024-10-31) https://www.executivegov.com/articles/outside-analytics-space-force-idiq
   Space Force Awards Outside Analytics $215M Contract, Task Order
 

@@ -1,0 +1,16 @@
+{
+  "company": "Systems Definition, Inc.",
+  "slug": "systems-definition-inc",
+  "domain": "systemsdefinition.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "Genuine DoD motion exists (AFWERX Direct-to-Phase II SBIR 2022, $1.25M, DPAR/APAA-into-COPERS integration for Air Force), but the company itself (founded 2002, 24-25 employees) is a mature technical-services/staff-augmentation shop — staff bios describe individuals embedded 'in support of' specific government customers (Naval Research Laboratory VMOC program, Penn State ARL, financial reporting for NRL programs) alongside a separately-run software product line — see 'Our Team' and homepage 'Technical Services' sections.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "24-year-old small-business government contractor providing technical services/staff augmentation (embedded software engineers, DevOps, financial reporting support at NRL, PSU ARL, and other DoD programs) alongside an owned fireground-accountability software product (APAA) already deployed city-wide at FDNY, with an AFWERX SBIR effort to extend it into an Air Force common operating picture."
+}

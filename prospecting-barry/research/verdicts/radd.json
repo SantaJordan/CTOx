@@ -1,0 +1,38 @@
+{
+  "company": "RADD",
+  "slug": "radd",
+  "domain": "radd-co.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "GLADIUS acoustic c-UAS system completed a DIU-hosted Technology Demonstration sponsored by CENTCOM (April 2026, 100% sUAS detection across 4 Critical Operational Issues) and was tested with DIU/CENTCOM in an Army Transformation in Contact exercise — homepage News section.",
+  "disconnect_score": 40,
+  "subscores": {"lab_language_intensity": 8, "deployment_awareness_absence": 6, "operator_absence": 3, "hiring_profile_skew": 5, "stage_pressure": 18},
+  "score_evidence": [
+    "'achieving a 100% detection rate of sUAS flights' is the closest thing to a lab-brag stat, but it's wrapped in operational test language (COIs), not accuracy-for-its-own-sake → lab_language_intensity kept low",
+    "site uses genuine operational-test vocabulary — 'Critical Operational Issues — Performance Effectiveness, Suitability, Mission Impact, and Maintainability' and 'operationally relevant environment' → deployment_awareness_absence kept low",
+    "'Warfighters first... empower humans, who will always be more important than hardware, with solutions that sharpen edge lethality without increasing cognitive burden' and founders who personally commanded Joint & Special Operations Forces → operator_absence very low",
+    "founding hires were 'Founding Electro-Mechanical Engineer' (move from prototypes to manufacturing) and 'Founding ML Engineer' (hardware that 'succeeds in the mud'); live Blitz roles are Staff Mechatronics/Robotics Engineer — deployment/manufacturing-skewed hiring → hiring_profile_skew kept low",
+    "pre-seed, 3-5 employees, founded 2025, prototype status, single successful demo event with no visible follow-on program of record yet → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "100% sUAS detection rate comes from one DIU/CENTCOM Technology Demonstration, not sustained contested-noise operation",
+     "operator_reality": "A real battlefield has gunfire, vehicle engines, artillery, wind, and multiple simultaneous acoustic sources — an acoustic sensor validated in a single scheduled demo event has not yet proven it holds up to the acoustic clutter of an actual firefight, which is a fundamentally different signal environment",
+     "why_likely_missing": "the news item reports the COI results and detection rate but never addresses acoustic environment complexity or false-alarm rate under battlefield noise",
+     "evidence_quote": "achieving a 100% detection rate of sUAS flights",
+     "quote_source": "homepage"},
+    {"blind_spot": "Claims integrated alerting 'across existing awareness kits' without naming ATAK/TAK",
+     "operator_reality": "If GLADIUS pushes alerts into the situational-awareness ecosystem soldiers actually carry, that's almost certainly ATAK/TAK — not naming it either means the integration is thinner than claimed or the messaging hasn't caught up to what acquisition officers will ask for by name",
+     "why_likely_missing": "site describes the alerting UX benefit (low cognitive load) without the specific integration standard",
+     "evidence_quote": "Integrated alerting moves at digital speed across existing awareness kits, all without increasing cognitive load",
+     "quote_source": "homepage"},
+    {"blind_spot": "No battery, spares, or power-logistics detail for a soldier-worn dismounted device",
+     "operator_reality": "'Dismounted' means a soldier is carrying and powering this in the field for extended patrols — battery life, charging/spares logistics, and GFE power integration determine whether it's actually usable past the first mission, and none of that is addressed",
+     "why_likely_missing": "site markets the device as 'Lightweight' and 'portable' but never quantifies battery life, weight, or field sustainment plan",
+     "evidence_quote": "Ground-based Lightweight Acoustic Dismounted Integrated UAS Sensor (GLADIUS)",
+     "quote_source": "homepage"}
+  ],
+  "opener_hook": "GLADIUS hit 100% sUAS detection in the April 2026 DIU/CENTCOM demo — was that in a quiet range or amid real acoustic clutter?",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Pre-seed TurbineOne spinout building GLADIUS, a soldier-worn acoustic sensor that detects approaching drones and pushes real-time alerts, founded by military veterans and already demoed with DIU/CENTCOM."
+}

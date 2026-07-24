@@ -1,0 +1,26 @@
+{
+  "company": "Lighthouse Avionics Inc.",
+  "slug": "lighthouse-avionics-inc",
+  "domain": "lighthouseavionics.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Two Air Force STTR Phase II awards in 2022 (~$750k each) explicitly targeting a DAF/Global Strike Command CBRNE and Emergency Management drone use case, plus a 2025 AFWERX contract to scale BVLOS sensing — SBIR abstract section and news section.",
+  "disconnect_score": 50,
+  "subscores": {"lab_language_intensity": 8, "deployment_awareness_absence": 9, "operator_absence": 4, "hiring_profile_skew": 14, "stage_pressure": 15},
+  "score_evidence": [
+    "'point-click-fly capability...faster and more efficient response times, increased situational awareness, improved safety' → lab_language_intensity (mostly operational-benefit framing, not TRL/accuracy brags)",
+    "'integrated into the Air Force's existing common UAS control software, Vigilant Spirit' shows real prime/flow-down awareness, but no ATO/RMF/CMMC/ITAR/STIG language anywhere → deployment_awareness_absence held below cap of 12",
+    "'Air Force Global Strike Command's EMPO NCOIC became the representative of the need and committed to being our MOU End-User' → operator_absence very low, operators/end-users are central and named",
+    "Open roles: 'Head of Sales and Business Development', 'Junior Software Engineer', 'Computer Vision Engineer', 'Technical Writing Intern' — none in field, deployment, compliance, or ISSO roles → hiring_profile_skew",
+    "'Lighthouse Avionics to Scale AI-Driven BVLOS Sensing with AFWERX Contract' (2025-08-21) on a 4-13 person venture-backed team already juggling two 2022 STTR Phase IIs and municipal commercial deals → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Networked-tower architecture assumes connectivity the OCONUS EM use case explicitly denies", "operator_reality": "Their own SBIR abstract states the CBRNE solution 'will be employed by USAF EM professionals at bases both CONUS and OCONUS,' yet VICTOR's value proposition is a networked, range-limited (10km) tower feeding sensor and Drone ID data back to a control point — the same connectivity assumption that breaks in contested or austere OCONUS basing.", "why_likely_missing": "VICTOR was designed first for municipal police/fire BVLOS programs with reliable cell/network backhaul, then pitched at DoD without re-architecting for degraded links.", "evidence_quote": "This solution will be employed by USAF EM professionals at bases both CONUS and OCONUS.", "quote_source": "sbir_abstract"},
+    {"blind_spot": "Claims Vigilant Spirit integration without any stated ATO/accreditation path", "operator_reality": "Getting software onto Vigilant Spirit as a common UAS control layer means clearing an Air Force ATO/RMF gate; stating the integration as a project deliverable without naming the accreditation milestone is exactly where a Phase II clock runs out before the network connection is real.", "why_likely_missing": "The abstract is written to sell the technical integration achievement to Phase II reviewers, not to map the compliance path that actually gets it live on a government network.", "evidence_quote": "this project will result in a CBRNE sensor agnostic artificially intelligent autonomous drone which is integrated into the Air Force's existing common UAS control software, Vigilant Spirit", "quote_source": "sbir_abstract"},
+    {"blind_spot": "Advocacy chain rests on a single named individual, not an institutional sponsor above operator level", "operator_reality": "One NCOIC as the sole MOU End-User is a champion, not adoption — if that person rotates out (a near-certainty on a normal DoD assignment cycle), the CBRNE program loses its only named advocate before the fully autonomous drone solution transitions.", "why_likely_missing": "STTR Phase I customer-discovery processes reward finding one enthusiastic stakeholder; the abstract never names a program office or budget line above that individual.", "evidence_quote": "Air Force Global Strike Command's EMPO NCOIC became the representative of the need and committed to being our MOU End-User.", "quote_source": "sbir_abstract"}
+  ],
+  "opener_hook": "Your Global Strike Command EMPO NCOIC MOU commits the CBRNE drone work to Vigilant Spirit integration — worth comparing notes on what actually gets that from an MOU to a live ATO'd connection.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Builds VICTOR, a ground-based Virtual Control Tower for drone airspace awareness and counter-UAS detection, sold to municipal first responders and adapted under Air Force STTR funding for CBRNE/Emergency Management drone operations."
+}

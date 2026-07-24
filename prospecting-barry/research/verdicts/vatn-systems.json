@@ -1,0 +1,40 @@
+{
+  "company": "Vatn Systems",
+  "slug": "vatn-systems",
+  "domain": "vatnsystems.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own words: 'Deployed in DoD exercises. Operational systems executing missions since 2023'; News: Navy SEAPORT-NXG IDC award and $60M Series A (2025-12-10) explicitly 'building autonomous underwater vehicles (AUVs) for the US military' — strong, direct DoD motion, still Series A stage rather than program-of-record scale.",
+  "disconnect_score": 36,
+  "subscores": {"lab_language_intensity": 6, "deployment_awareness_absence": 8, "operator_absence": 3, "hiring_profile_skew": 14, "stage_pressure": 5},
+  "score_evidence": [
+    "'Perception Engineer, Embedded Firmware Engineer (x3), Senior Acoustic Signal Processing Engineer, Technical Program Manager, CNC Operator, Business Development Manager, Enterprise Information Systems Manager, Senior/Principal Navigation Engineer' — all domain-engineering/manufacturing/BD hires (neutral per hardware-firm rule), but zero dedicated field/test/integration/compliance/ISSO roles despite a Navy contract vehicle and an international (Hanwha) production partnership → hiring_profile_skew"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Vatn announced building drones with South Korea's Hanwha for co-production, but the site never mentions ITAR, export licensing, or Technical Assistance Agreements anywhere",
+      "operator_reality": "an ROK-US co-production line for attritable defense hardware requires export licensing before any real transfer of tech or units happens; if that licensing lags, the 'scalability & manufacturability' story stalls at the paperwork stage even though the vehicles themselves work",
+      "why_likely_missing": "the company's public language is built around the physical/autonomy story (DDIL, swarming, attritability), and export-control mechanics only bite once the Hanwha partnership tries to actually move hardware or IP across the border",
+      "evidence_quote": "South Korea's Hanwha, US defense startup Vatn to build underwater drones",
+      "quote_source": "news"
+    },
+    {
+      "blind_spot": "The ATAK plugin promises fleet-wide control 'via Android tablet or phone' with 'acoustic and satellite comms support,' but nothing addresses what happens to fleet coordination when the satellite C2 link itself is jammed or denied mid-mission",
+      "operator_reality": "the company is explicit that GPS and comms get denied in the vehicles' own operating environment ('executing missions where GPS is denied and communications are disrupted'), yet the mission-planning page's promise of 'Plan Once. Deploy Anywhere' only describes onboard vehicle autonomy under denial — not what the human operator's own tablet does when the satellite uplink to the fleet drops",
+      "why_likely_missing": "vehicle-side autonomy under DDIL is the flagship engineering story; the human-in-the-loop C2 link degradation is a less glamorous, easily-overlooked half of the same problem",
+      "evidence_quote": "Vatn's ATAK plugin gives operators real-time control of the entire fleet via Android tablet or phone, integrating directly into existing command and control systems",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The ATAK plugin 'integrates directly into existing command and control systems' but ATO/RMF/STIG accreditation for that network integration is never mentioned anywhere on the site",
+      "operator_reality": "plugging a third-party plugin into a government C2 system requires its own Authority to Operate on that network; without a stated ATO path, the plugin can be technically finished and still sit unusable on the actual system it was built to integrate with — the same 'built it, can't get network access' failure mode that kills otherwise-working prototypes",
+      "why_likely_missing": "the company is fluent on physical/DDIL engineering (its calibrated strength) but, like most hardware-first defense startups, treats network accreditation as a downstream integration detail rather than a headline capability",
+      "evidence_quote": "integrating directly into existing command and control systems",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Vatn's ATAK plugin promises fleet control 'via Android tablet or phone, integrating directly into existing command and control systems' — worth a conversation about how that plugin gets its own ATO on whatever network it's plugging into.",
+  "confidence": "high",
+  "stage_band": "series_a",
+  "what_they_do": "Builds low-cost, attritable autonomous underwater vehicles (UUVs), passive acoustic sensor arrays, and GPS-denied navigation/sensor-fusion software for defense underwater missions (ISR, mine countermeasures, harbor defense)."
+}

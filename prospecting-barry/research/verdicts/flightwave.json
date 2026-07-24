@@ -1,0 +1,16 @@
+{
+  "company": "FlightWave Aerospace",
+  "slug": "flightwave",
+  "domain": "flightwave.aero",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Clear DoD motion (own site: Edge 130 'receiving an approval for procurement by the U.S. Department of Defense' via DIU Blue sUAS; $1.9M TACFI award, news), but the product is past the valley — Blue UAS-approved, delivered orders from Army National Guard and another USG agency ($518K) and a Royal Australian Navy contract, and the company is now a division of publicly traded Red Cat Holdings, not an independent $5M-$10M startup.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Long-endurance VTOL reconnaissance drone (Edge 130) with swappable ISR/mapping payloads, sold under Red Cat Holdings."
+}

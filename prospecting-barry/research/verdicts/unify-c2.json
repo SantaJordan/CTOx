@@ -1,0 +1,43 @@
+{
+  "company": "UNIFY.C2",
+  "slug": "unify-c2",
+  "domain": "unifyc2.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Selected June 2026 as the Common Operating Picture platform for Counter-UAS and drone detection at Beale Air Force Base, with prior operational use by the 9th Reconnaissance Wing — News section and LinkedIn about.",
+  "disconnect_score": 31,
+  "subscores": {"lab_language_intensity": 3, "deployment_awareness_absence": 2, "operator_absence": 2, "hiring_profile_skew": 10, "stage_pressure": 14},
+  "score_evidence": [
+    "'Flexible: Cloud · GovCloud · On-prem' and explicit 'TAK networks' / 'role-based access' language throughout → deployment_awareness_absence (fluent, scores very low)",
+    "'Operators: Field personnel, analysts, command centers, and decision makers' is a dedicated site section → operator_absence (central, scores very low)",
+    "(no jobs data in pack → hiring_profile_skew set exactly 10 per instructions)",
+    "'UNIFY.C2 announced today that it has been selected as the Common Operating Picture platform for Counter-UAS and drone [detection]... at Beale Air Force Base' (June 2026) on a bootstrapped, ~12-14 person team with no external venture round → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "'Flexible: Cloud · GovCloud · On-prem' is pitched as a deployment-flexibility feature for the single-pane-of-glass COP",
+      "operator_reality": "The site never addresses what happens to the unified picture when the link between a forward perimeter's radar/RF/EO-IR nodes and the central COP goes intermittent — their own stated failure mode ('operational friction at the moment clarity matters most') is exactly what DDIL causes, but the product framing treats connectivity as a deployment-location choice, not a battlefield condition to survive.",
+      "why_likely_missing": "Marketing frames GovCloud/on-prem as customer preference options, not as a DDIL-resilience architecture question.",
+      "evidence_quote": "Flexible — Cloud · GovCloud · On-prem",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Fresh Beale AFB win ingests 'military grade and Commercial Off The Shelf sensors and effectors' into one base-network platform, with no visible compliance hire",
+      "operator_reality": "A C2 platform that consolidates base perimeter sensor feeds needs an ATO/IL-level authorization before it can run on base networks at all — a 12-14 person, no-jobs-posted team suggests no dedicated ISSO/RMF owner shepherding that through for each new base, risking the exact fielding-clock problem Barry targets.",
+      "why_likely_missing": "No jobs data found in the pack at all, on a company that just won a new AFB deployment.",
+      "evidence_quote": "UNIFY.C2 is an operationally deployed, sensor agnostic Counter UAS software platform built to integrate the widest range of military grade and Commercial Off The Shelf sensors and effectors in a single operational picture.",
+      "quote_source": "linkedin_about"
+    },
+    {
+      "blind_spot": "'Role-based: Data segmentation by agency & geography' is marketed as a simple access-control config across '22 state, local, and federal' partners",
+      "operator_reality": "Mixing DoD feeds (potentially CUI/classified) with civilian law-enforcement and homeland-security feeds inside one shared interoperability layer is a cross-domain-solution (CDS) problem, not a permissions toggle — CDS accreditation is one of the slowest, most failure-prone steps in fielding a multi-agency C2 platform.",
+      "why_likely_missing": "The site's language treats multi-agency sharing as the product's core selling point rather than its core accreditation risk.",
+      "evidence_quote": "UNIFY.C2 is designed for interoperability at scale and supports interagency Counter UAS initiatives across the Department of Defense and more than twenty two state, local, and federal p[artners]",
+      "quote_source": "linkedin_about"
+    }
+  ],
+  "opener_hook": "Beale selected UNIFY.C2 as its Counter-UAS COP in June — with radar, RF, and EO/IR all routing through one node, what does the fallback picture look like if that link drops mid-track?",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Sensor-agnostic Counter-UAS command-and-control software fusing radar/RF/EO-IR/acoustic feeds into one Common Operating Picture for base security, homeland security, and public-safety missions."
+}

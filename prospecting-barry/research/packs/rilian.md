@@ -238,14 +238,6 @@ Contact Us
 Rilian is an agentic systems integrator and technology provider enabling AI-native defense for government agencies, law enforcement, and critical infrastructure operators across the US and its allies. Founded in 2024 by a team of seasoned cyber and national security operators, innovators, and investors, Rilian was built in direct response to rising geopolitical tensions threatening global security. We recognized that global markets face diverse security challenges, and that the value of sophisticated security technology is consistently frustrated by complex regulatory requirements and environm
 
 ## News (Exa, top 3)
-- Rilian to Support UAE Effort to Protect Critical Infrastructure (2025-08-01) https://www.govconexec.com/2025/08/uae-taps-rilian-for-critical-infrastructure-security/
-  Rilian to Support UAE Effort to Protect Critical Infrastructure
-
-Image by Adam Lapuník from Pixabay
-
-Rilian Technologies has partnered with CPX Holding to support the United Arab Emirates’ initiative to upgrade its capability to protect critical infrastructure against cyberattacks. CPX is a UAE-based end-to-end cyber and physical security solutions and services provider dedicated to serving the needs of governments and critical infrastructure customers.
-
-Under a recently awarded contract from th
 - UAE Cyber Security Council to Collaborate With Rilian Technologies and CPX Holding to Secure Critical Infrastructure; In Collaboration With Leading Partners From the UAE and the World (2025-07-30) https://www.businesswire.com/news/home/20250730228444/en/UAE-Cyber-Security-Council-to-Collaborate-With-Rilian-Technologies-and-CPX-Holding-to-Secure-Critical-Infrastructure-In-Collaboration-With-Leading-Partners-From-the-UAE-and-the-World
   UAE Cyber Security Council to Collaborate With Rilian Technologies and CPX Holding to Secure Critical Infrastructure; In Collaboration With Leading Partners From the UAE and the World
 
@@ -258,34 +250,28 @@ Share
 ---
 
 ABU DHABI, United Arab Emirates & MCLEAN, Va.--(BUSINESS WIRE)-- Rilian 
-- UAE Cybersecurity Council inks contract with Rilian Technologies (2025-07-31) https://www.gccbusinessnews.com/uae-cybersecurity-council-inks-contract/
-  UAE Cybersecurity Council inks contract with Rilian Technologies
+- Rilian to Support UAE Effort to Protect Critical Infrastructure (2025-08-01) https://www.govconexec.com/2025/08/uae-taps-rilian-for-critical-infrastructure-security/
+  Rilian to Support UAE Effort to Protect Critical Infrastructure
 
-Search
+Image by Adam Lapuník from Pixabay
 
-GCC reGCC Business News
+Rilian Technologies has partnered with CPX Holding to support the United Arab Emirates’ initiative to upgrade its capability to protect critical infrastructure against cyberattacks. CPX is a UAE-based end-to-end cyber and physical security solutions and services provider dedicated to serving the needs of governments and critical infrastructure customers.
 
-Tue, Jul 21, 2026
+Under a recently awarded contract from th
+- Rilian Secures $17.5 Million in Seed Funding to Advance ... (2026-04-23) https://www.businesswire.com/news/home/20260423773644/en/Rilian-Secures-%2417.5-Million-in-Seed-Funding-to-Advance-Agentic-AI-for-Cyber-and-Defense-Operations
+  Rilian Secures $17.5 Million in Seed Funding to Advance Agentic AI for Cyber and Defense Operations
 
-35.5 C
+Apr 23, 2026 7:00 AM Eastern Daylight Time
 
-Dubai
+# Rilian Secures $17.5 Million in Seed Funding to Advance Agentic AI for Cyber and Defense Operations
 
-Subscribe
+Share
 
-GCC reGCC Business News
+---
 
-More
+8VC and other top defense tech VCs back Rilian’s mission to accelerate adoption and automation of cutting-edge cyber and defense capabilities by the U.S., Allied governments, and commercial markets
 
-More
-
-Search
-
-Home Technology Cyber Security UAE Cybersecurity Council inks contract with Rilian Technologies
-
-Image credits: WAM | Cropped by GBN
-
-Rilian Technologies has signed a strategic contract with the UAE Cybersecurity Council, in partnership with CPX Holding, to bolster the protection of the Emirates’ critical infr
+MCLEAN, Va.--(BUSINESS WIRE)-- Rilian, a 
 
 ## Open roles (Blitz, live)
 - Senior Solutions Architect  - Cybersecurity ({'city': 'أبو ظبي', 'country_code': 'AE'})

@@ -1,0 +1,49 @@
+{
+  "company": "Aether LLC",
+  "slug": "aether-llc",
+  "domain": "aether-ir.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Born from FedTech's Homeland Security Startup Studio, sensor developed \"working with one of the U.S. Government's premier national defense laboratories\", an explicit Military & Security Services defense sensor line on their site, plus a 2024 STTR Phase II award record — homepage and news sections.",
+  "disconnect_score": 46,
+  "subscores": {
+    "lab_language_intensity": 8,
+    "deployment_awareness_absence": 8,
+    "operator_absence": 6,
+    "hiring_profile_skew": 10,
+    "stage_pressure": 14
+  },
+  "score_evidence": [
+    "hiring_profile_skew set to exactly 10: no jobs data in pack",
+    "\"Aether's Defense line of sensors have optimized SWAP (size, weight, and power) for military applications\" and \"easy to use with minimal training or expertise required\" → deployment_awareness_absence and operator_absence scored low-mid; they speak SWaP and training natively",
+    "\"Future versions will detect a range of organic and industrial chemical gasses, including chemical warfare agents\" → stage_pressure: the defense product is future-tense while the 2024 STTR Phase II clock runs on a 3-person, ~$831K-grant-funded company",
+    "Leadership shown is a biz-dev CEO (25 yrs defense industry, MBA) and a fire-service COO — no technical leader named → supports stage_pressure/team-thinness"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The chemical-warfare-agent capability the defense mission depends on is explicitly future-tense while the funded Phase II is for methane — the defense fielding path has no funded months attached to it",
+      "operator_reality": "A CBRN early-warning sensor that exists as a methane unit plus a roadmap does not survive the gap between the national-lab demo and a program office's fielding decision; when grant months run out, the defense line dies first",
+      "why_likely_missing": "Grant funding pulled them toward GHG/agriculture markets; the two-person leadership team (biz-dev + fire service, no named CTO) has nobody engineering the defense transition in parallel",
+      "evidence_quote": "Future versions will detect a range of organic and industrial chemical gasses, including chemical warfare agents",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Sensors are \"compatible with several classes of small UAVs and robotic platforms\" and adaptable as unattended ground sensors, yet nothing says how a threat alert reaches the operator — no TAK/ATAK integration mentioned for what is functionally a CBRN situational-awareness feed",
+      "operator_reality": "A gas-cloud warning that is not on the squad's ATAK screen within seconds is not a warning; unattended ground sensors in a DDIL environment need a low-bandwidth tactical comms path the site never discusses",
+      "why_likely_missing": "The team's sensing physics came from a national lab; the tactical data-dissemination layer is a fielding discipline outside a 3-person sensor company's experience",
+      "evidence_quote": "Our sensors can also easily be adapted to serve as unattended ground sensors for advanced warning of an approaching gas cloud",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Integration story is written for commercial infrastructure (\"easily integrated into existing IoT infrastructures\") — the government-network reality (accreditation, RMF, controlled data from defense-lab-derived tech, possible export control) is absent",
+      "operator_reality": "A defense-lab-derived CW sensor feeding data onto government networks needs an ATO sponsor and controlled-data handling; IoT-style onboarding does not exist on a tactical or base network",
+      "why_likely_missing": "Their deployed customers so far are farms and landfills, where IoT integration genuinely is the whole story",
+      "evidence_quote": "We are easily integrated into existing IoT infrastructures",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Aether's defense sensor line is UAV- and UGS-ready per their site, but the chemical-warfare-agent capability is still 'future versions' — and no funded vehicle on record carries it there.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Passive stand-off chemical-gas sensors (methane today, chemical warfare agents planned) for agriculture, industry, and a SWaP-optimized military line."
+}

@@ -1,0 +1,20 @@
+{
+  "company": "Elroy Air",
+  "slug": "elroy-air",
+  "domain": "elroyair.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Deep, long-running DoD motion — USAF Phase 2 SBIR (2019), Phase 3 SBIR and Agility Prime (2020), Leidos/USMC MARV-EL demonstration (2024) per the history page and news section.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "'Elroy Air to Become Publicly Traded Company... Pre-money equity value of approximately $800 million' (news/press release, 2026-06-26) → far past the $5M-$10M band Barry targets",
+    "'Company has 6+ years of active defense programs and a demand pipeline exceeding 1,400 aircraft' (press release) → transition already achieved, not stuck in the valley",
+    "'enabling Elroy Air to understand and inform the USAF's operational needs for distributed aerial logistics in contested environments' (company history, 2019) → fluent contested-environment framing; they already get the deployed reality"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Builds the Chaparral hybrid-electric VTOL drone that autonomously carries 500+ lb cargo pods for military resupply and commercial logistics."
+}

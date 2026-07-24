@@ -155,7 +155,7 @@ Pecos Wind Power designs, builds, and sells wind turbines for distributed genera
 The following Department of the Air Force (DAF) Direct to Phase II proposal, submitted by Pecos Wind Power under the Blue Sky category, introduces a novel, first-of-its-kind clean energy microgrid solution. The solution has three major specifications; it will be 1) a streamlined, plug-and-play microgrid for energy resiliency, 2) scalable and configurable to a wide variety of DAF applications, from forwarding operating bases (FOBs) to enduring installations, and 3) compatible with the DAF’s existing diesel generator infrastructure to extend on-base diesel fuel supplies in the event of a grid outage. The end result is a widely applicable, turn-key tool for energy independence and mission critical resiliency.   Currently, DAF installations and FOBs use diesel generators as back-up power to mission critical activities. In some cases, solar and battery storage are deployed, however the result doesn’t improve 24/7 resiliency and there is no integration with existing diesel generators. In comparison, Pecos Wind Power’s microgrid solution uses solar and wind power, alongside battery storage, to cost-effectively maximize 24/7, on-base renewable energy production and interoperate with diesel generators to optimize fuel supplies. In grid-connected mode, diesel generators are offline and the microgrid’s renewable energy is injected onto the base’s electric distribution system. During a grid-outage, the microgrid automatically switches to islanded-mode. In islanded-mode, the microgrid’s solar and wind production directly powers mission critical loads and reduces reliance on back-up diesel generators.   The technology enabling this microgrid solution is Pecos Wind Power’s commercial product, the PW85, an 85kW distributed wind turbine. The addition of wind power to any microgrid is essential to fill in the troughs/gaps of solar production. The PW85’s patented technology makes on-base distributed wind power accessible to nearly 4x more Department of Defense (DoD) locations compared to today’s best-in-class distributed wind technology. In addition, at a third the height of a typical wind turbine, it can be sited below a base’s glide slope to not impact radar or flightline operations. As such, the PW85 is uniquely suited for Defense applications and critical to securing 24/7 clean energy within the confines of the base.   The Phase II project will culminate in a hardware demonstration of the complete microgrid solution – including a PW85 wind turbine, solar array, and battery storage – interconnected to a diesel generator and adhering to cybersecurity requirements. If successful, the solution will be immediately transitioned to Phase III and deployed at Pecos Wind Power’s DAF End-User and Customer, the 10 Space Warning Squadron of Cavalier SFS, as the first on-base demonstration of the solution’s capabilities.
 
 ## News (Exa, top 3)
-- U.S. Department of Energy Competitiveness Improvement Project (CIP) 2024 Prototype Installation and Testing Awardee: Pecos Wind Power (Program Document) | OSTI.GOV (2025-09-08) https://www.osti.gov/biblio/2588439
+- Pecos Wind Power (Program Document) (2025-09-08) https://www.osti.gov/biblio/2588439
   U.S. Department of Energy Competitiveness Improvement Project (CIP) 2024 Prototype Installation and Testing Awardee: Pecos Wind Power (Program Document) | OSTI.GOV
 
 Skip to main content
@@ -167,6 +167,18 @@ Program Document · 08 September 2025
 OSTI ID:2588439
 
 This fact sheet describes the 2024 Competitiveness Improvement Project (CIP) award received by Pecos Wind Power for Proto
+- 2021 Prototype Manufacture and Installation Awardee: Pecos Wind ... (2022-11-30) https://www.osti.gov/biblio/1902141
+  2021 Prototype Manufacture and Installation Awardee: Pecos Wind Power, Inc. (Program Document) | OSTI.GOV
+
+Skip to main content
+
+# 2021 Prototype Manufacture and Installation Awardee: Pecos Wind Power, Inc.
+
+Program Document · 30 November 2022
+
+OSTI ID:1902141
+
+Through the 2021 Competitiveness Improvement Project (CIP), Pecos Wind Power will manufacture a prototype of its 85-kilowatt (kW) horizontal-axis distributed wind turbine, the PW85, a new wind turbine that began development in 2017 when t
 - Somerville’s Pecos Wind Power awarded $200K by U.S. Department of Energy () https://www.thesomervilletimes.com/archives/134115
   Somerville’s Pecos Wind Power awarded $200K by U.S. Department of Energy
 
@@ -179,20 +191,6 @@ On July 24, 2024, in Latest News, by The Somerville Times
 Pecos Wind Power will be testing of their 85-kW PW85 prototype wind turbine with the aid of the DOE’s award of $200,00.
 
 On Wednesday, July 17, the U.S. Department
-- 12 American Companies Will Help Expand Distributed Wind Across the Rural United States - CleanTechnica (2024-07-17) https://cleantechnica.com/2024/07/17/12-american-companies-will-help-expand-distributed-wind-across-the-rural-united-states/
-  12 American Companies Will Help Expand Distributed Wind Across the Rural United States - CleanTechnica
-
-The distributed wind turbine pictured is located in Neodesha, Kansas. Image courtesy of Pecos Wind Power & DOE.
-
-July 17, 2024 2 years US Department of Energy 0 Comments
-
----
-
-Support CleanTechnica's work through a Substack subscription or on Stripe.
-
----
-
-Companies Will Work To Boost Clean Energy Options for Farmers, Small Business Owners, and Electric Co-Ops With U.S. Department of Energy Co
 
 ## Open roles
 (no jobs data found)

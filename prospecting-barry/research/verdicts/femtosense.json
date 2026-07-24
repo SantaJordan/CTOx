@@ -1,0 +1,51 @@
+{
+  "company": "Femtosense (femtoAI)",
+  "slug": "femtosense",
+  "domain": "femto.ai",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Federal contract record only: SBIR portfolio entry for low-power sparse-AI processing for ISR communications (sbir.gov/portfolio/2298431, channel notes) and a HigherGov awardee profile with UEI K9TJHBLAPAA3 / CAGE 86QM8 showing a most-recent federal award of Jan 13, 2025 (News) — their own website contains zero defense language.",
+  "disconnect_score": 77,
+  "subscores": {
+    "lab_language_intensity": 18,
+    "deployment_awareness_absence": 17,
+    "operator_absence": 17,
+    "hiring_profile_skew": 10,
+    "stage_pressure": 15
+  },
+  "score_evidence": [
+    "\"10x Model Capacity / 100x Energy Efficiency\" and \"we reduce power consumption by 100x and memory footprint by 10x — all with minimal effect on performance\" → lab_language_intensity (pure benchmark multiples, no operating environment named anywhere)",
+    "\"SPU-001 Wins CES 2026 Best-in-Show\" → lab_language_intensity (the proof point on offer is a trade-show award)",
+    "Detailed product spec — \"1 MB of on-chip SRAM (10 MB effective with sparsity) / 22nm process / Sub-mW for speech, audio, and 1-D data / SPI interface\" — with zero mention of temperature range, screening, qualification, ITAR/EAR, DFARS supply chain, or any deployment constraint across ~1,340 words → deployment_awareness_absence",
+    "\"From wearables and household appliances to robotics and autonomous vehicles, femtoAI brings the transformative power of AI to everyday devices\" plus imagery of a smart-home tablet, a baby camera and a woman in headphones → operator_absence (the user pictured is a consumer in a living room; no operator, warfighter, CONOPS, or field feedback anywhere)",
+    "No jobs data in pack → hiring_profile_skew set to exactly 10",
+    "$8M Series A led by Fine Structures Ventures announced 2022-09-28, ~$13.4M total including debt, 22 employees, no Series B in the four years since, first silicon shipped Dec 2022 → stage_pressure high"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "SPU-001 is packaged and specified for a consumer reliability envelope, and nothing in their spec sheet addresses what a fielded payload does to a part",
+      "operator_reality": "A wafer-level chip-scale package is one of the worst choices for thermal cycling, vibration and mechanical shock — the daily life of a man-worn, airborne or vehicle-mounted ISR payload. A program office asks for operating temperature range, screening level, moisture-sensitivity level, a qualification report, and a lifetime-buy/obsolescence plan before it will design a 22nm startup part into anything. None of that exists in their published specification, and generating it is a multi-quarter, capital-consuming exercise that a consumer-electronics roadmap never budgets for.",
+      "why_likely_missing": "The design center and every named partner — ABOV, NewSound hearing care, the Tympan platform — is consumer electronics, where commercial-grade parts and a CES demo are the whole qualification story.",
+      "evidence_quote": "AI Co-Processor — WLCSP for circuit integration. Specifications: 1 MB of on-chip SRAM (10 MB effective with sparsity), 22nm process, Sub-mW for speech, audio, and 1-D data, SPI interface",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The ISR claim in the SBIR record rests on a hearing-aid evaluation kit; the RF front end is the part that isn't built",
+      "operator_reality": "Their published evaluation path is EVK2 = 'EVB + Tympan open source hearing aid platform' with two MEMS microphones and a 3.5mm jack — kilohertz audio. 'Sparse AI for ISR communications' means wideband RF: gigasample-per-second digitizers, dynamic range across co-site interference, and a data path that feeds the accelerator faster than an SPI interface can move bytes. SPI is the tell — it caps ingest at a rate that makes real RF work impossible, so the demo that wins the Phase II can't be the architecture that fields.",
+      "why_likely_missing": "Sparsity and sub-milliwatt inference genuinely solve the audio keyword problem, so the same story was carried into an ISR abstract without re-deriving the interface budget for the actual signal.",
+      "evidence_quote": "Evaluation Kit 2 (EVK2): EVB + Tympan open source hearing aid platform and Tympan connector board ... 2x onboard MEMS microphones, 3.5mm audio jacks for input/output",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "As a component vendor they need a prime to design them in, and there is no visible advocacy chain, export posture, or supply-chain story to make that possible",
+      "operator_reality": "A chip never gets fielded on its own — it gets fielded inside a prime's box, two years after a systems engineer chose it. That decision requires an export-control determination (semiconductors and their design data are export-controlled), DFARS country-of-origin and trusted-supplier flowdowns naming the fab and the packaging house, and a government champion willing to accept single-source risk from a 22-person company. femto.ai names none of its supply chain, and the company's public energy is going to consumer OEM design wins where the sales cycle rewards a CES booth instead.",
+      "why_likely_missing": "The Series A thesis (hearing aids, earbuds, security cameras, per Business Wire) pointed at consumer volume; the SBIR is a side channel, so nobody owns the design-in path on the defense side.",
+      "evidence_quote": "femtoAI and ABOV Deliver Ultra-Efficient Edge AI For Consumer Electronics",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Femtosense carries CAGE code 86QM8 and an SBIR portfolio entry for low-power sparse AI in ISR communications, and the evaluation path published on femto.ai is EVK2 — the SPU board bolted to the Tympan open-source hearing-aid platform with two MEMS microphones and a 3.5mm jack. Those two facts describe different products, and the SPI interface on SPU-001 is where that gap becomes an architecture problem rather than a marketing one.",
+  "confidence": "medium",
+  "stage_band": "series_a",
+  "what_they_do": "Fabless startup selling a sub-milliwatt sparse-AI accelerator chip (SPU-001) plus SDK for on-device inference, marketed almost entirely to consumer electronics."
+}

@@ -1,0 +1,16 @@
+{
+  "company": "Kyndi Inc",
+  "slug": "kyndi-inc",
+  "domain": "kyndi.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Kyndi has been acquired by Qlik (own LinkedIn about: 'Qlik has acquired Kyndi — follow us @Qlik'); kyndi.com now redirects entirely to Qlik Answers, an enterprise BI/agentic-AI product with zero defense language. The only DoD motion is a single 2022 Air Force SBIR abstract, pre-acquisition and no longer the company's active business.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Formerly an explainable-AI/NLP startup with a 2022 Air Force SBIR; now absorbed into Qlik as 'Qlik Answers,' an enterprise BI/agentic-AI assistant with no current defense motion."
+}

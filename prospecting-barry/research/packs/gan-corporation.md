@@ -126,14 +126,6 @@ To maintain a competitive edge, U.S. Army Commanders need an improved tactical E
 ## News (Exa, top 3)
 - IDV to GAN CORPORATION () https://www.usaspending.gov/award/CONT_IDV_W9115122D0008_9700
   USAspending.gov
-- EVCAPP Contract Award - GaN Corporation (2021-05-18) https://www.geeksandnerds.com/gan-news/evcapp-contract-award/
-  EVCAPP Contract Award - GaN Corporation
-
-# EVCAPP Contract Award
-
-By GaNnews Published On: May 18th, 2021Categories: GaN News Comments Off
-
-Geeks and Nerds (GaN) Corporation, an innovative technology solutions company, won a contract with a potential value up to $83 million contract providing agile prototyping capabilities to the U.S. Army Redstone Test Center (RTC). The Experimental Validation Capabilities Prototype Project (EVCAPP) enhances RTC’s support of U.S. Army Futures Command and other 
 - Geeks and Nerds Awarded DRAID BOA - GaN Corporation (2022-04-18) https://www.geeksandnerds.com/gan-news/geeks-and-nerds-awarded-draid-boa/
   Geeks and Nerds Awarded DRAID BOA - GaN Corporation
 
@@ -142,6 +134,14 @@ Geeks and Nerds (GaN) Corporation, an innovative technology solutions company, w
 By GaNnews Published On: April 18th, 2022Categories: GaN News Comments Off
 
 Geeks and Nerds (GaN) Corporation was recently awarded a new Joint Artificial Intelligence Center (JAIC) Data Readiness Artificial Intelligence Development (DRAID) Basic Ordering Agreement (BOA). The DRAID BOA has a five-year term and carries a potential $241M ceiling for GaN to power DoD in effectively preparing AI data that underp
+- EVCAPP Contract Award - GaN Corporation (2021-05-18) https://www.geeksandnerds.com/gan-news/evcapp-contract-award/
+  EVCAPP Contract Award - GaN Corporation
+
+# EVCAPP Contract Award
+
+By GaNnews Published On: May 18th, 2021Categories: GaN News Comments Off
+
+Geeks and Nerds (GaN) Corporation, an innovative technology solutions company, won a contract with a potential value up to $83 million contract providing agile prototyping capabilities to the U.S. Army Redstone Test Center (RTC). The Experimental Validation Capabilities Prototype Project (EVCAPP) enhances RTC’s support of U.S. Army Futures Command and other 
 
 ## Open roles (Blitz, live)
 - Operations Analyst ({'city': 'Huntsville', 'country_code': 'US'})

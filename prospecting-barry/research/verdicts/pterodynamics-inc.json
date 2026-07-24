@@ -1,0 +1,40 @@
+{
+  "company": "PteroDynamics Inc.",
+  "slug": "pterodynamics-inc",
+  "domain": "pterodynamics.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Navy contract with first delivery, Air Force contract plus $1.9M TACFI award, two 2023 SBIR awards, and a Transwing flight test at RIMPAC 2024 — homepage timeline and SBIR/News sections.",
+  "disconnect_score": 46,
+  "subscores": {"lab_language_intensity": 10, "deployment_awareness_absence": 10, "operator_absence": 10, "hiring_profile_skew": 4, "stage_pressure": 12},
+  "score_evidence": [
+    "'Awarded $1.9M Air Force TACFI contract for 4th Generation Transwing aircraft' followed immediately by 'Award 5th Navy OTA contract extension for development of 5th generation Transwing (21-ft wingspan)' -> stage_pressure: a ~21-person company is running parallel 4th- and 5th-generation development programs off SBIR/OTA funding rather than a single production contract"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The site claims the aircraft is 'Optimized for Reliability, Availability, and Maintainability' but never grounds that in a maintenance concept — no spares kit, battery/fuel logistics, or field-repair training story for a folding-wing mechanism.",
+      "operator_reality": "RAM claims mean nothing until the maintenance concept is shown: who swaps a hinge assembly on a ship, what spares travel with the unit, how fuel/battery logistics work in a shore-to-ship resupply mission — none of it is addressed even though 'Defense: Shore to ship, ship to shore, ship to ship' is explicitly listed as a target mission.",
+      "why_likely_missing": "The public narrative is a flight-milestone timeline (generations, patents, contract wins) rather than a sustainment story, suggesting the team's attention has been on airframe iteration, not the logistics tail.",
+      "evidence_quote": "Optimized for Reliability, Availability, and Maintainability",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The company's own timeline shows a pattern of perpetual generation resets — 2nd, 3rd, 4th, now 5th-generation aircraft — with a Navy OTA extension into a 5th generation starting before the 4th generation shows evidence of being fielded at scale.",
+      "operator_reality": "Each new generation resets qualification testing, operator training, and the spares/support pipeline; a program office watching a company move straight from '4th Generation delivery' into '5th generation development' before scaling the prior generation may read this as continual re-demonstration rather than a fielding trajectory — exactly the valley-of-death pattern this niche targets.",
+      "why_likely_missing": "Iterative hardware refinement is a natural instinct for an engineering-led team chasing performance gains (range, wingspan, payload), and without a deployment-first advocate pushing back, each new generation looks like progress rather than a reset of the fielding clock.",
+      "evidence_quote": "In development of 5th generation Transwing® aircraft (21-ft wingspan) ... Award 5th Navy OTA contract extension for development of 5th generation Transwing (21-ft wingspan)",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "International distribution relationships in Australasia, Japan, UK, UAE, and Saudi Arabia are announced in the same timeline as Navy/Air Force SBIR-funded development of the same Transwing platform, with no mention of ITAR/export-control handling anywhere in the pack.",
+      "operator_reality": "Selling a variant of a platform developed under U.S. defense SBIR/OTA funding into UAE and Saudi Arabia raises real export-control questions; unresolved ITAR classification can delay or block exactly the international revenue the company is publicly touting, and the pack shows zero acknowledgment of how that line gets drawn.",
+      "why_likely_missing": "Commercial/international expansion and DoD contract wins are presented in the same undifferentiated timeline, suggesting the team is optimizing for growth narrative momentum rather than flagging the compliance seam between the two customer sets.",
+      "evidence_quote": "Secured strategic distribution relationships for Australasia, Japan, UK, UAE and Kingdom of Saudi Arabia",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "You list distribution relationships in the UAE and Saudi Arabia right alongside Navy and Air Force SBIR funding for the same Transwing platform — nothing on the site addresses how the ITAR/export-control line gets drawn between those two customer sets.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Designs and builds the Transwing, a folding-wing autonomous VTOL drone that combines fixed-wing range with vertical takeoff, sold to Navy/Air Force for tactical resupply and comms-relay missions plus commercial logistics customers."
+}

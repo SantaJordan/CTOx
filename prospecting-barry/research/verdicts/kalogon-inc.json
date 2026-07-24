@@ -1,0 +1,50 @@
+{
+  "company": "Kalogon, Inc",
+  "slug": "kalogon-inc",
+  "domain": "kalogon.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Three Air Force SBIR contracts including 'Project Pluto' for AFGSC bomber/ICBM crews ($1,248,368, 2022) and a '3rd SBIR US Air Force contract ($1.6M) for E-4B cushion' kicked off August 2024, plus an AFGSC news photo of the founders presenting a B-52H prototype to Brig. Gen. Ty W. Neuman at Barksdale AFB.",
+  "disconnect_score": 52,
+  "subscores": {
+    "lab_language_intensity": 11,
+    "deployment_awareness_absence": 10,
+    "operator_absence": 5,
+    "hiring_profile_skew": 14,
+    "stage_pressure": 12
+  },
+  "score_evidence": [
+    "'Machine learning and patent-pending air cell technology analyze pressure points in real time' and 'AI helps cushion to adapt and redistribute weight intelligently' → lab_language_intensity: ML framing layered on a pneumatic cushion, with efficacy expressed as clinical statistics rather than platform performance",
+    "'The adaption of the electronics and cushion materials to adhere to the relevant Air Force standards for use during non-critical stages of flight' → deployment_awareness_absence held at 10, not higher: they know standards exist, but never name airworthiness, EMI/EMC, flammability, or an ejection-seat qualification path beyond 'investigation into the feasibility'",
+    "'long-range strike missions require bomber and Intercontinental Ballistic Missile (ICBM) crews to be seated for extended durations, often exceeding 12 or more hours' → operator_absence LOW (5): the whole product thesis starts from the operator's day",
+    "Ten open roles are Production Technician, Mechanical Engineer, Manufacturing Engineer, Product Manager (Healthcare Hardware) and Research Lead — no aviation qualification, quality/AS9100, test, or government-program roles while three Air Force contracts are running → hiring_profile_skew",
+    "'$1.2M Convertible Note — Closed May 2024' alongside '3rd SBIR US Air Force contract ($1.6M)... Kicked off August 2024' → stage_pressure: bridge-shaped financing plus period-of-performance money at 35 employees"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "A battery-powered, pump-driven cushion in a crew station is an airworthiness item, not an accessory",
+      "operator_reality": "Anything installed in a B-52 or E-4B crew compartment has to clear EMI/EMC against the aircraft's avionics, flammability and toxicity of materials, off-gassing at altitude, crash-load restraint, and lithium-battery hazard analysis. Each of those is a test campaign with a queue, and the ejection-seat variant adds a whole separate qualification regime involving live-fire sled testing. A consumer 'full day on the go' battery claim becomes a hazard report the moment a certifier reads it.",
+      "why_likely_missing": "Their existing regulatory muscle is FDA/Medicare coding for durable medical equipment — a real and demanding regime, but one with no overlap in test facilities, standards, or authorities with aircraft qualification.",
+      "evidence_quote": "Battery life allows for a full day on the go",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Powering from the aircraft turns a cushion into a configuration change on someone else's platform",
+      "operator_reality": "Tapping an aircraft power port means an electrical load analysis, a technical-order change, and an engineering change proposal through the platform program office and the OEM — for the B-52 and E-4B, both are large, slow organizations with their own modernization queues. The transition timeline is set by the SPO's change board, not by the SBIR period of performance, and that mismatch is exactly what strands a working prototype.",
+      "why_likely_missing": "The relationship they have is with AFGSC A5/8 requirements leadership, who can want the capability but do not own the aircraft's configuration baseline — a champion in the requirements shop is not the same as a sustaining engineering authority.",
+      "evidence_quote": "The addition of the ability to power the cushion from ports available on aircraft.",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "The app-and-cloud feedback loop that makes the product smart is not welcome in the compartment",
+      "operator_reality": "Personalized settings through a phone app and data sharing with a clinician imply Bluetooth and a personal device in an aircraft or an ICBM alert facility — places with EMCON rules, no-personal-device policies, and no path for physiological data about a specific aircrew member to leave the platform. Strip the app and the cushion has to be fully self-configuring with a physical control the crew can work with gloves on, which is a different product than the one on the site.",
+      "why_likely_missing": "In the wheelchair market the app is the differentiator and the clinician data-share is a selling point, so nothing in the commercial roadmap pushes toward an offline, no-radio mode.",
+      "evidence_quote": "Take control of your seating with personalized settings in the Kalogon app ... Share data with your clinician to optimize for your health",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Your history page dates the third Air Force SBIR — $1.6M for an E-4B cushion — to August 2024, while the Orbiter page still routes personalization through a phone app and a clinician data share; a Bluetooth device in the National Airborne Operations Center crew compartment is its own approval, separate from the cushion.",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Smart pressure-redistributing seat cushions — Medicare-coded for wheelchair users, and adapted under Air Force SBIRs for bomber and ICBM aircrew on 12-24 hour missions."
+}

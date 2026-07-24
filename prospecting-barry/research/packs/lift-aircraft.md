@@ -285,7 +285,7 @@ DOW
 Branch: ARMY
 
 Total Awar
-- [PRESS RELEASE ] Army Selects LIFT Aircraft and Near Earth ... (2024-10-01) https://www.liftaircraft.com/post/press-release-army-selects-lift-aircraft-and-near-earth-autonomy-to-develop-uncrewed-blood-delive
+- [PRESS RELEASE ] Army Selects LIFT Aircraft and Near ... (2024-10-01) https://www.liftaircraft.com/post/press-release-army-selects-lift-aircraft-and-near-earth-autonomy-to-develop-uncrewed-blood-delive
   [PRESS RELEASE ] Army Selects LIFT Aircraft and Near Earth Autonomy to Develop Uncrewed Blood Delivery & Casualty Evacuation System
 
 top of page

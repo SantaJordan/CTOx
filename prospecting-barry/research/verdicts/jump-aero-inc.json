@@ -1,0 +1,50 @@
+{
+  "company": "JUMP AERO INC",
+  "slug": "jump-aero-inc",
+  "domain": "jumpaero.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Their solutions page has a dedicated 'Defense' section naming warfighter missions, backed by an Air Force STTR Phase II ($743,274, 2022) and an Agility Prime STTR award; PRNewswire (Sept 2023) confirms the first full-scale prototype is partially funded by the U.S. Air Force.",
+  "disconnect_score": 54,
+  "subscores": {
+    "lab_language_intensity": 11,
+    "deployment_awareness_absence": 12,
+    "operator_absence": 6,
+    "hiring_profile_skew": 10,
+    "stage_pressure": 15
+  },
+  "score_evidence": [
+    "'The Fastest eVTOL for Emergency Response' and 'Empowering Superheroes™' → lab_language_intensity: superlative-and-mission framing carries the site, with the only hard numbers being modeled response times (4 minutes instead of 8)",
+    "'Jump Aero's eVTOL aircraft's capabilities provide a beneficial solution to national defense by empowering the warfighter' → deployment_awareness_absence (capped at 12, own-language under 1000 words): the entire defense offer is one paragraph of mission verbs with no basing, power, sustainment, airworthiness or comms detail",
+    "'Jump Aero's eVTOL will enable a new, life-saving concept of operations (CONOPS) for first responders: when the 911 call comes in and the dispatcher determines Advanced Life Support (ALS) is necessary...' → operator_absence LOW (6): they have a real, dispatch-level CONOPS — for the civilian operator only",
+    "Single open role, 'Production Leader' → hiring_profile_skew: tooling up to build, with no flight-test, field-support, quality or compliance hire visible alongside it",
+    "'the first full-scale prototype would be partially funded by the United States Air Forc[e]' (Sept 2023) with 15 employees and a 2022 Phase II whose period of performance has almost certainly closed → stage_pressure: certification-length timelines against startup-length funding"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The defense mission set assumes basing and energy infrastructure that a QRF site does not have",
+      "operator_reality": "Quick reaction force, extraction and resupply happen from austere sites where the fuel is whatever the tanker brought. A battery-electric single-seat aircraft needs a high-power charge source, a thermal management plan for packs in desert heat, hazmat handling for lithium, and spares behind it. Turnaround time between sorties — not top speed — becomes the mission-limiting number, and nothing in their material states it.",
+      "why_likely_missing": "The civil CONOPS assumes a fire station with grid power and an eight-minute ambulance as the benchmark; that environment supplies everything the deployed one withholds.",
+      "evidence_quote": "the aircraft will be particularly useful for Special Operations Quick Reaction Force (QRF), Security QRF, emergency extraction, reconnaissance, resupply, and emergency medical support",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Airborne situational awareness is offered with no path into the common operating picture",
+      "operator_reality": "In a defense context, situational awareness that lives in the pilot's eyes and a private downlink is not adoptable — it has to reach ATAK/TAK and the unit's COP, survive a contested RF environment, and degrade to something usable when the link drops. A page that pitches SA for commanders without naming TAK, a data format, or a bandwidth budget is describing a capability the receiving unit cannot ingest.",
+      "why_likely_missing": "For fire and rescue, radioing the incident commander is genuinely sufficient, so nothing in the civil design forces a machine-readable SA product.",
+      "evidence_quote": "it also provides airborne situational awareness (SA) of hot spots allowing commanders to better coordinate the most effective response",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Their certification thesis is FAA-shaped, and the military user answers to a different authority",
+      "operator_reality": "A military operator cannot fly a new type on an FAA basis alone — it needs an airworthiness release from the service's airworthiness authority, a qualified maintenance and training pipeline, and a program office willing to own it. That is a separate multi-year clock from the civil certification they have optimized around, and the advocacy needed to start it lives above the AFWERX program manager who wrote the STTR check.",
+      "why_likely_missing": "The founding insight was explicitly about shrinking civil certification risk by making the aircraft single-seat, so the whole strategy is indexed on the FAA path.",
+      "evidence_quote": "By making a one-person aircraft that is operated by a trained professional, Jump Aero dramatically reduces the risk, the time, and the money needed to certify the aircraft to the necessary levels of safety",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Your solutions page offers the aircraft for Special Operations QRF and emergency extraction while the CONOPS whitepaper next to it starts with a 911 dispatcher — and the military side of that needs an airworthiness release, which runs on a different clock than the FAA path the single-seat design was chosen for.",
+  "confidence": "medium",
+  "stage_band": "unknown",
+  "what_they_do": "A single-seat electric VTOL aircraft that flies a paramedic or responder to the scene of an emergency faster than an ambulance."
+}

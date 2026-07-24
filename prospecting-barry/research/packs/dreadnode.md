@@ -358,7 +358,7 @@ Get Started
 Dreadnode is at the forefront of offensive AI research and development, building AI systems that demonstrate parity with, or exceed, human capabilities in the offensive security domain. Founded in 2023 by Will Pearce and Nick Landers, Dreadnode is developing the most advanced suite of offensive AI solutions—Strikes, Spyglass, and Crucible—for the best offensive teams, researchers, and model developers in the world. In collaboration with its government, enterprise, and AI labs partners, and support from Decibel, In-Q-Tel (IQT), NFC, Sands Capital, Indie VC, Aviso Ventures, Jon Oringer, and othe
 
 ## News (Exa, top 3)
-- Dreadnode Secures $14M to Build AI Systems ... (2025-02-25) https://dreadnode.io/company/newsroom/series-a/
+- Dreadnode Secures $14M to Build AI Systems that Advance the State of Offensive Security | Dreadnode (2025-02-25) https://dreadnode.io/company/newsroom/series-a/
   Dreadnode Secures $14M to Build AI Systems that Advance the State of Offensive Security | Dreadnode
 
 ← Back to Newsroom
@@ -388,14 +388,10 @@ Hi, what are you looking for?
 Dreadnode, an early stage startup specializing in offensive AI security, has raised $14 million in a funding round from an investment group that includes Decibel, Next Frontier Capital, In-Q-Tel (IQT), Sands Capital, and Indie VC.
 
 The Dreadnode Series A investment lands amidst heightened interest in the security of AI technolo
-- Dreadnode Raises $14M Series A Funding | Dealroom.co () https://app.dealroom.co/news/feed/dreadnode-raises-14m-series-a-funding
-  Dreadnode Raises $14M Series A Funding | Dealroom.co
+- Dreadnode’s Policy Recommendations for the U.S. AI Action Plan | Dreadnode (2025-03-26) https://dreadnode.io/research/policy-recommendations-us-ai-action-plan/
+  Dreadnode’s Policy Recommendations for the U.S. AI Action Plan | Dreadnode
 
-# Dreadnode Raises $14M Series A Funding
-
-● Sep 2025
-
-Dreadnode, co-founded by Will Pearce and Nick Landers, successfully skipped interim funding rounds to secure a $14M Series A led by Decibel. Initially funded by angels, Dreadnode quickly gained traction with top research labs and hyper-scalers, leading to high demand and resource constraints. This prompted a formal fundraising process, allowing them to choose their preferred partner and te
+The Office of Science and Technology Policy (OSTP) recently invited the public to comment on the national Artificial Intelligence (AI) Action Plan. Dreadnode submitted its recommendations on March 15, in response to this request for information (RFI). Today, we are pleased to share a copy of our AI policy recommendations, which advocate for the integration and advancement of AI tools to strengthen America’s national secu
 
 ## Open roles
 (no jobs data found)

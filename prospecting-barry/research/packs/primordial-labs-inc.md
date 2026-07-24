@@ -182,16 +182,6 @@ Anura fundamentally changes the paradigm of command & control within human-machi
 For forward/deployed SOF in today’s tactical environment, operating a drone to achieve ISR objectives, including platform and sensor control, means at best experiencing major cognitive overload and at worst being out of the fight. In recognition of this problem, SOCOM224/D005 (Artificial Intelligence/Drive Voice Control at the Edge (“ADViCE”)) seeks to “develop applied research toward an innovative capability to enable voice control and interaction with a variety of organic sensors and data processing systems employed by soldiers at the operational tactical edge.” In this proposal, Primordial Labs, a fast/growing VC/backed startup led by two former senior engineers from Lockheed Martin’s famed Skunk Works unit, advance a solution: a proprietary platform and sensor agnostic Tactical AI Assistant called Scipio Comprised of a soldier/worn/carried kit for Group 1 small UAS and an on/board payload for Group 2/3 UAS, Scipio reduces cognitive burden by providing operators with a rapid, hands/free, voice/operated, data/driven mission planning and execution capability that takes verbal inputs from a warfighter, uses these inputs to produce data/driven ISR mission plans for both the platform and onboard sensors, offers suggestions for refinement based on previous mission experience, and then autonomously executes the missions an operator selects while allowing for real/time refinement through further verbal inputs. In short, Scipio allows an operator to sit on/the/loop while Scipio autonomously controls the platform and sensors. Through the research & development activity envisioned under this proposal, Primordial Labs, working with mission partners Tomahawk Robotics and OWT Global, will integrate Primordial’s Scipio payload with Tomahawk’s GRIP S20 controller and Kinesis Expansion Module (KxM) to produce four (4) prototype ADViCE kits capable of supporting two initial EOTACS platforms: the FLIR Black Hornet 3 PRS and the Lockheed Martin (LM) Stalker VXE30 as well as the Teal Golden Eagle UAS, conduct multiple end/suer evaluation and feedback engagements, and demonstrate that their solution meets or exceeds all threshold performance requirements outlined under SOCOM224/D005.
 
 ## News (Exa, top 3)
-- Primordial Labs Awarded Direct to Phase II SBIR Contract to Apply Innovative Human-Machine Teaming Product to Army Special Forces’ Drone Operations (2023-08-21) https://www.accessnewswire.com/newsroom/en/aerospace-and-defense/primordial-labs-awarded-direct-to-phase-ii-sbir-contract-to-apply-innovative-h-774967
-  Primordial Labs Awarded Direct to Phase II SBIR Contract to Apply Innovative Human-Machine Teaming Product to Army Special Forces’ Drone Operations
-
-Back to the Newsroom
-
----
-
-# Primordial Labs Awarded Direct to Phase II SBIR Contract to Apply Innovative Human-Machine Teaming Product to Army Special Forces’ Drone Operations
-
-NEW HAVEN, CT / ACCESSWIRE / August 21, 2023 / Primordial Labs Inc, the AI company transforming the way warfighters interact with complex systems, announced today the award 
 - primordial labs inc. () https://www.sbir.gov/portfolio/1965909
   Firm | SBIR Skip to main content
 
@@ -246,6 +236,22 @@ $6,623,504
 Total Awarded
 
 ##
+- Primordial Labs Wins Phase III Contract with 49th ... (2026-05-28) https://www.linkedin.com/posts/primordial-labs-inc_primordial-labs-has-been-awarded-a-phase-activity-7465843223278649346-Jgnk
+  Primordial Labs Wins Phase III Contract with 49th Operations Group | Primordial Labs posted on the topic | LinkedIn
+
+Agree & Join LinkedIn
+
+By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy.
+
+# Primordial Labs Wins Phase III Contract with 49th Operations Group
+
+4,115 followers
+
+1mo
+
+- Report this post
+
+Primordial Labs has been awarded a Phase III contract with the 49th Operations Group at Holloman Air Force Base. We’re bringing Anu
 - Primordial Labs wins $1.9M SBIR contract with US Army (2025-06-14) https://www.linkedin.com/posts/primordial-labs-inc_primordial-labs-is-stoked-to-announce-it-activity-7339652874521460736-UHMp
   Primordial Labs wins $1.9M SBIR contract with US Army | Primordial Labs posted on the topic | LinkedIn 
 

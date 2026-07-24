@@ -81,6 +81,14 @@ SAN DIEGO, CA — June 10, 2026 — Reaxiomatic, Inc. (“Reax”), an aerospace
 The oversubscribed round is led by Scout Ventures and nvp capital, with participation from Bling Capital.
 
 While Rea
+- nvp capital co-leads Reaxiomatic's $7.25M pre-seed for autonomous defense aviation systems | Dealroom.co () https://app.dealroom.co/news/feed/nvp-capital-co-leads-reaxiomatic-s-7-25m-pre-seed-for-autonomous-defense-aviation-systems
+  nvp capital co-leads Reaxiomatic's $7.25M pre-seed for autonomous defense aviation systems | Dealroom.co
+
+# nvp capital co-leads Reaxiomatic's $7.25M pre-seed for autonomous defense aviation systems
+
+● 14 days ago
+
+Reaxiomatic, a defence aviation startup, has raised $7.25 million in a pre-seed round co-led by nvp capital and Scout Ventures, with participation from Bling Capital. The company was founded by Skyler Shuford, co-founder of hypersonic aircraft startup Hermeus, which is valued over $1 
 - Exclusive: Hermeus co-founder has a mysterious new defense startup (2026-06-10) https://www.axios.com/2026/06/10/reaxiomatic-hermeus-shuford-military-production
   Exclusive: Hermeus co-founder has a mysterious new defense startup
 
@@ -103,14 +111,6 @@ Illustration: Sarah Grillo/Axios
 Skyler Shuford, a Hermeus co-founder, has a new startup, Reaxiomatic. He's keeping much of it out of the public eye.
 
 The big picture: Reaxiomatic is dedicated to aer
-- nvp capital co-leads Reaxiomatic's $7.25M pre-seed for autonomous ... () https://app.dealroom.co/news/feed/nvp-capital-co-leads-reaxiomatic-s-7-25m-pre-seed-for-autonomous-defense-aviation-systems
-  nvp capital co-leads Reaxiomatic's $7.25M pre-seed for autonomous defense aviation systems | Dealroom.co
-
-# nvp capital co-leads Reaxiomatic's $7.25M pre-seed for autonomous defense aviation systems
-
-● 14 days ago
-
-Reaxiomatic, a defence aviation startup, has raised $7.25 million in a pre-seed round co-led by nvp capital and Scout Ventures, with participation from Bling Capital. The company was founded by Skyler Shuford, co-founder of hypersonic aircraft startup Hermeus, which is valued over $1 
 
 ## Open roles (Blitz, live)
 - Chief Executive Advisor ({'city': None, 'country_code': 'US'})

@@ -1,0 +1,16 @@
+{
+  "company": "Tercero Technologies",
+  "slug": "tercero-technologies",
+  "domain": "tercero.ai",
+  "verdict": "drop",
+  "drop_reason": "sbir_mill",
+  "dod_intent_evidence": "Genuine DoD motion evidenced (multiple SBIR awards) but the pattern is the drop signal: founded 2019, still 2 employees and ~$100K total pre-seed funding as of 2024, with a news feed showing DoD/defense contract awards in 2020, 2021, 2023, and two separate 2024 Navy SBIR topics (EMSO edge AI for NAVAIR, and an unrelated 'HUMTER' underwater tracker Phase I) — seven years of small-dollar SBIR cycling across disparate topics with no team growth or product convergence.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "FPGA-based edge AI startup pursuing SBIR/STTR awards across shifting defense topics (electromagnetic spectrum operations, underwater target tracking) since 2019, still 2 employees."
+}

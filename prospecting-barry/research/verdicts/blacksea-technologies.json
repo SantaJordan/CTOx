@@ -1,0 +1,26 @@
+{
+  "company": "BlackSea Technologies",
+  "slug": "blacksea-technologies",
+  "domain": "blacksea.tech",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Deep, verified DoD motion — $256M five-year Navy SPDS contract (May 2026), MDA SHIELD IDIQ award (Jan 2026), GARCs operated by USVRON 3 / USVDIV-32 in BALTOPS 2026 live-fire and swarm exercises — news and homepage sections.",
+  "disconnect_score": 0,
+  "subscores": {
+    "lab_language_intensity": 0,
+    "deployment_awareness_absence": 0,
+    "operator_absence": 0,
+    "hiring_profile_skew": 0,
+    "stage_pressure": 0
+  },
+  "score_evidence": [
+    "\"BlackSea Technologies Awarded $256 Million Navy Contract to Build Seabased Petroleum Distribution Systems\" → already fielded at scale",
+    "\"USVDIV-32 conducts live fire exercise with NATO forces\" — their boats are operating with fleet units today → already_operational",
+    "207 LinkedIn employees, hiring field engineers, training developers, and contracts staff — the fielding machine already exists"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Baltimore maritime autonomy manufacturer whose unmanned surface vessels are already deployed with Navy USV squadrons and backed by nine-figure contracts."
+}

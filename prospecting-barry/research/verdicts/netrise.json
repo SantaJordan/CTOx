@@ -1,0 +1,43 @@
+{
+  "company": "NetRise",
+  "slug": "netrise",
+  "domain": "netrise.io",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own press release confirms AFWERX STTR Phase II award for firmware/software supply-chain visibility 'to strengthen U.S. national defense' (netrise.io/en/company/announcements, 2025-01-07), corroborated by an independent SBIR.gov federal award record (DOD/USAF, contract FA8649-24-P-0066, Phase I $109,782).",
+  "disconnect_score": 84,
+  "subscores": {"lab_language_intensity": 18, "deployment_awareness_absence": 18, "operator_absence": 18, "hiring_profile_skew": 16, "stage_pressure": 14},
+  "score_evidence": [
+    "'automated, cloud-based platform' with 'AI-powered semantic and keyword search' and reachability/exploit-aware prioritization framing → lab_language_intensity",
+    "1375 words describing binary composition analysis, SBOM, CVE prioritization with zero mention of DDIL, ATO, RMF, CMMC, STIG, or ITAR → deployment_awareness_absence",
+    "Entire customer narrative is enterprise 'security teams' and 'procurement' language (FICO-style commercial buyer), never operators, warfighters, training, or CONOPS → operator_absence",
+    "Only 3 open roles, all commercial GTM (GTM Engineer/Outbound, SDR, Product Designer) — zero field, compliance, ISSO, or deployment engineering hires despite a live AFWERX Phase II contract → hiring_profile_skew"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Platform is explicitly cloud-based SaaS with no offline/air-gapped mode described anywhere on the site.",
+      "operator_reality": "Firmware/software living on classified or IL5 weapons-platform networks can't reach a public SaaS backend to run binary analysis — the exact DDIL failure mode the checklist flags.",
+      "why_likely_missing": "Product was built and sold for commercial enterprise supply-chain security first; the AFWERX contract is a bolt-on use case, not the design center.",
+      "evidence_quote": "NetRise is an automated, cloud-based platform that provides",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Risk mitigation is framed as a commercial purchasing decision, not a government ATO/RMF/POA&M process.",
+      "operator_reality": "A DoD program office doesn't 'compare products and drive remediation through procurement' — findings feed a POA&M under an Authority to Operate, with STIG and IL4/IL5 timelines the site never mentions.",
+      "why_likely_missing": "Sales motion and case studies (XZ Utils, Log4j, SolarWinds, 3CX) are all commercial-breach narratives, not defense acquisition narratives.",
+      "evidence_quote": "Use verified software inventory to assess supplier risk, compare products, and drive remediation through procurement.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No mention of how firmware binaries from classified/embedded weapons systems get into the platform for analysis without violating data-handling rules.",
+      "operator_reality": "Embedded/firmware SBOM work for DoD platforms routinely involves ITAR-controlled binaries and export-restricted vendor code; uploading that to a commercial SaaS analysis pipeline is itself a compliance question the pack never addresses.",
+      "why_likely_missing": "Own-language treats 'analyze third-party code without waiting' as a pure technical capability, with no export-control or data-sovereignty framing.",
+      "evidence_quote": "Analyze third-party code without waiting — Inspect purchased software and devices without relying on vendor self-attestations or delayed disclosures.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "AFWERX awarded NetRise a $1.8M STTR Phase II in Jan 2025 to bring firmware supply-chain visibility to the Department of the Air Force — everywhere else NetRise describes itself, the platform is 'cloud-based.'",
+  "confidence": "high",
+  "stage_band": "series_a",
+  "what_they_do": "Continuously scans compiled software and firmware to build an evidence-based SBOM and flag hidden supply-chain risk."
+}

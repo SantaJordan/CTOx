@@ -1,0 +1,44 @@
+{
+  "company": "SEQUENT LOGIC LLC",
+  "slug": "sequent-logic-llc",
+  "domain": "sequentlogic.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Navy SBIR Phase II ($999,978, 2022) for an Intelligent Fiber Laser Sensor System for naval condition-based monitoring, plus a brand-new Navy SBIR Phase I ($139,998, Dec 2025) — SBIR/STTR record and News section.",
+  "disconnect_score": 49,
+  "subscores": {"lab_language_intensity": 10, "deployment_awareness_absence": 4, "operator_absence": 12, "hiring_profile_skew": 10, "stage_pressure": 13},
+  "score_evidence": [
+    "no quote needed (<=10)",
+    "\"Our SDR solutions perform signal processing, acquisition, and waveform synthesis with higher throughput, wider bandwidth, greater parallelization, and improved SWaP-C relative to the competition.\" -> deployment_awareness_absence is LOW because they explicitly name SWaP-C, a core deployed-reality concept",
+    "\"Sequent comprises a team of professionals with experience spanning mechanical, electrical, and optical engineering disciplines\" -> operator_absence (capped at 12: word count <1000; language is entirely about the team's engineering disciplines and 'clients,' never operators/warfighters/training/CONOPS)",
+    "no jobs data found in pack -> hiring_profile_skew set to exactly 10 per instructions",
+    "10-person team running a Navy Phase II sensor program (2022) concurrently with a brand-new Navy Phase I (Dec 2025) -> stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The company brags about 'improved SWaP-C relative to the competition' in general SDR marketing, but for the specific Navy fiber-laser sensor SBIR, nothing addresses shipboard integration reality — power draw from ship's electrical systems, EMI shielding, or how a fiber-optic acoustic sensor array survives years of shipboard vibration and salt-air exposure between drydock cycles.",
+      "operator_reality": "Naval platforms run multi-year duty cycles in salt-air, high-vibration, EMI-dense environments; a sensor system optimized for SWaP-C on a bench doesn't automatically survive that without a stated corrosion/vibration-hardening and sustainment plan.",
+      "why_likely_missing": "The public site markets general custom-engineering capability, not the specific fielded-platform requirements of the one named defense product line.",
+      "evidence_quote": "Our SDR solutions perform signal processing, acquisition, and waveform synthesis with higher throughput, wider bandwidth, greater parallelization, and improved SWaP-C relative to the competition.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The company frames itself entirely as a contract engineering shop ('You Dream It. We Build It.') building to whatever spec clients bring, with the Navy fiber-laser sensor system appearing only inside an SBIR abstract rather than as a flagship product with its own page, CONOPS, or Navy sponsor named publicly.",
+      "operator_reality": "Without a visible champion above the program-office level for this specific sensor system, the classic SBIR failure mode applies: technically sound Phase II engineering with no publicly evident path to a Phase III fielding decision.",
+      "why_likely_missing": "As a small custom-engineering shop, the company's public identity is built around general capability-for-hire, not around advocating any single program to a fielded outcome.",
+      "evidence_quote": "The Sky is No Longer the Limit. You Dream It. We Build It.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "A second, brand-new Navy SBIR Phase I (Dec 2025) is now running in parallel with the 2022 Phase II fiber-laser sensor program on the same ~10-person team, with no public discussion of how the team splits engineering hours across two funded defense R&D efforts plus ongoing custom client work.",
+      "operator_reality": "A 10-person shop juggling a Phase II sensor program, a brand-new Phase I, and paying custom-engineering work is exactly the resource-constrained situation where the funded-months-remaining clock outruns actual available engineering bandwidth.",
+      "why_likely_missing": "The two SBIR awards were announced three years apart as separate wins; nothing in the company's materials connects them into a single resourcing picture.",
+      "evidence_quote": "Sequent Logic, LLC has received a $139,998 award from the Department of Defense, Department of the Navy, as part of the Small Business Innovation Research Program Phase I.",
+      "quote_source": "news"
+    }
+  ],
+  "opener_hook": "You're running a Navy Phase II fiber-laser sensor program and a brand-new Navy Phase I at the same time on a 10-person team — which one gets the engineering hours this quarter?",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Custom software-defined radio and digital signal processing engineering shop for defense and commercial clients, currently developing a Navy SBIR-funded fiber-optic sensor system for naval platform condition-based monitoring."
+}

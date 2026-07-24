@@ -3,12 +3,14 @@ slug: armadin | domain: armadin.com | HQ: ,   | employees(LI): 130 | founded:  |
 sources: exa-agent:defense-cyber-more
 industry(LI): Computer and Network Security | specialties: 
 channel notes: Series A $189.9M combined seed and Series A funding reported. dom: cyber status: fielded dod: Armadin reports work with defense departments and investment from In-Q-Tel. hq: Reston, VA emp: 60+ src: https://securitymea.com/2026/03/11/armadin-secures-record-funding-to-fight-ai-driven-hyperattacks/
-own-language word count: ~1230
+own-language word count: ~1258
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
 URL: https://armadin.com
-AI-native cybersecurity platform
+Armadin: AI-native cybersecurity platform
+
+No items found.
 
 Platform Company Resources Contact
 
@@ -20,19 +22,25 @@ Resources
 
 Contact
 
+Request a Demo
+
 # The attacker of the future is already here.
 
 LEARN WHY
 
+## The Ultimate Attacker
+
 LEARN MORE
 
-Agentic AI is radically transforming the battlefield.
+Agentic AI is radically transforming cybersecurity.
 
 Humans aren’t prepared for machine-speed attacks.
 
 The industry’s first continuous, agentic red teaming and remediation platform that answers your most important question:
 
 Are we secure?
+
+### We eliminate exploitable risk.
 
 World-Class Team
 
@@ -56,15 +64,19 @@ As AI threats escalate, you must respond with the same ferocity as the adversary
 
 OUR TEAM
 
+### Meet the experts who have protected the world’s largest, most complex environments.
+
 LEARN MORE
 
 Kevin MandiaFOUNDER, CHIEF EXECUTIVE OFFICER
 
-Travis LanhamFOUNDER, CHIEF TECHNOLOGY OFFICER
+David SlaterFOUNDER, CHIEF ARCHITECT
 
 Evan PeñaFOUNDER, CHIEF OFFENSIVE SECURITY OFFICER
 
-David SlaterFOUNDER, CHIEF ARCHITECT
+Travis LanhamFOUNDER, CHIEF TECHNOLOGY OFFICER
+
+Barbara MassaChief Operating Officer
 
 Eric GaitherSVP OF MARKETING
 
@@ -78,19 +90,15 @@ Tyler KingHead of Talent
 
 EXPLORE
 
-Platform Company Resources Armadin Demo Trust Center
+Contact
 
 Contact
 
-Contact Careers
-
 FOLLOW US
-
-LinkedIn
 
 © Copyright 2026 - Armadin
 
-Privacy Policy
+End User License Agreement (EULA) Privacy Policy
 
 URL: https://www.armadin.com/platform
 AI Cybersecurity Platform | Armadin Enterprise Grade Technology

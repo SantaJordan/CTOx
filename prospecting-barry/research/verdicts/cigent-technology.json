@@ -1,0 +1,27 @@
+{
+  "company": "Cigent Technology",
+  "slug": "cigent-technology",
+  "domain": "cigent.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Homepage states Cigent solutions 'have been tested and validated by leading Federal agencies, including MITRE, NIST, NSA, NIAP, the Air Force, Cyber Resilience of Weapon Systems (CROWS)' and are 'deployed across US Intelligence agencies, US Defense services, and the defense industrial base' — plus NSA CSfC components-list approval (news section) and In-Q-Tel Series A backing.",
+  "disconnect_score": 0,
+  "subscores": {
+    "lab_language_intensity": 0,
+    "deployment_awareness_absence": 0,
+    "operator_absence": 0,
+    "hiring_profile_skew": 0,
+    "stage_pressure": 0
+  },
+  "score_evidence": [
+    "'deployed across US Intelligence agencies, US Defense services, and the defense industrial base' (homepage) → crossed the valley; this is a fielded product, not a stuck prototype",
+    "'Added To NSA Commercial Solutions For Classified (CSfC) Components List' (news, 2024) → formal government listing, the opposite of a transition-risk company",
+    "'Cigent drives and software are available through leading device OEMs, including Dell, HP, Getac, and Panasonic' → sustained procurement channel already in place",
+    "'The team includes multiple personnel with TS/SCI clearance with decades of data protection and operational experience' → deployment/compliance fluency is their core marketing claim (CSfC, NIAP, FIPS 140-3, NSPM-12)"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Self-encrypting SSDs plus pre-boot-authentication and full-drive-encryption software that meet NSA CSfC data-at-rest requirements on PCs, servers, vehicles, and unmanned systems."
+}

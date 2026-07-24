@@ -1,0 +1,26 @@
+{
+  "company": "Zansors, LLC",
+  "slug": "zansors-llc",
+  "domain": "zansors.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Defense Health Program Phase II SBIR ($1,099,944, 2022) for a wearable FES electrode shirt liner for neck/back pain 'during operational conditions and flight environment on military equipment, especially naval environments,' plus a 2017 press release announcing a defense-wearables textile partnership with Blauer Manufacturing — see SBIR/STTR record and News sections.",
+  "disconnect_score": 69,
+  "subscores": {"lab_language_intensity": 12, "deployment_awareness_absence": 18, "operator_absence": 15, "hiring_profile_skew": 10, "stage_pressure": 14},
+  "score_evidence": [
+    "SBIR abstract is written as an engineering-milestone plan ('design architecture report,' 'human factors engineering') rather than accuracy/TRL brag language, so lab_language_intensity is moderate, not extreme → lab_language_intensity",
+    "~1724 words across site + SBIR abstract with zero mention of ATO/RMF/CMMC/ITAR/STIG/DDIL, despite the product being worn 'during operational conditions and Flight environment on military equipment' → deployment_awareness_absence",
+    "abstract lists five engineering/regulatory milestones (design, FDA pathway, IRB) but never mentions who trains aircrew to use the shirt liner or how it's sustained in the field → operator_absence",
+    "no jobs data found → hiring_profile_skew set to 10 per instructions",
+    "small 6-7 person team, founded 2012, blog/press activity dormant since 2020, now running a Phase II DHP SBIR clock with a period-of-performance risk → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Power source is disposable alkaline batteries in an embedded electrode shirt liner", "operator_reality": "extended naval/flight operations need rechargeable-or-spares battery logistics; disposable alkaline cells in a wearable worn during multi-day deployments is a sustainment gap nobody in the abstract addresses", "why_likely_missing": "the abstract treats the battery as a component spec ('alkaline batteries') rather than a field-logistics question", "evidence_quote": "hardware (electrodes, micro-electronics, controller with on/off switch, and alkaline batteries)", "quote_source": "sbir_abstract"},
+    {"blind_spot": "2-16 embedded electrodes, one wire, one controller sewn into a textile shirt liner", "operator_reality": "electrodes and wiring embedded in a garment worn under flight gear will fail from wash cycles, sweat, and wear; there's no mention of who repairs or replaces a failed electrode in the field or how many spares a squadron needs on hand", "why_likely_missing": "the abstract's milestones stop at 'design and perform human factors engineering for the textile shirt liner' — a lab prototyping step, not a sustainment plan", "evidence_quote": "design and perform human factors engineering for the textile shirt liner as a system with 2 – 16 embedded electrodes, one wire, and one controller", "quote_source": "sbir_abstract"},
+    {"blind_spot": "FDA/IRB regulatory pathway is planned in detail; the DoD acquisition/advocacy pathway is not mentioned at all", "operator_reality": "clearing FDA and IRB gets you a legal medical device — it does not get an individual piece of gear approved as issued flight equipment; without a champion above the individual aircrew member (safety office, flight surgeon program), operators liking it in a study is not the same as adoption", "why_likely_missing": "the abstract is written from a medical-device R&D lens (FDA Clearance vs. Approval, IRB study) with no mention of GFE integration or an advocacy chain within a flight squadron or program office", "evidence_quote": "research and identify relevant flight safety requirements, research and identify FDA guidance documents and rules to determine if the solution will require no submission, FDA Clearance application, or FDA Approval (510k) application", "quote_source": "sbir_abstract"}
+  ],
+  "opener_hook": "Your DHP Phase II SBIR ($1,099,944, 2022) designs a wearable FES shirt liner for neck/back pain in naval flight operations, running on disposable alkaline batteries with no field-sustainment plan described yet.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Medical-grade wearable health sensor and app company (sleep apnea, CBT, cancer-survivor tracking) that also holds a 2022 Defense Health Program SBIR Phase II to build a wearable FES shirt-liner for neck/back pain during military flight operations."
+}

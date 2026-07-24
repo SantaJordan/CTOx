@@ -3,7 +3,7 @@ slug: racktop-systems | domain: racktopsystems.com | HQ: Fulton, Maryland US | e
 sources: vc:razors-edge
 industry(LI): IT Services and IT Consulting | specialties: data management, encryption, cyberconverged data security, data, cloud
 channel notes: cyber storage / ransomware defense (merged with VelocityBlack)
-own-language word count: ~1468
+own-language word count: ~1540
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -128,6 +128,67 @@ Request a Demo Get a Jumpstart Talk to a Storage Architect
 
 Cyberstorage Platform for Data Defense & Zero Trust | RackTop Systems
 
+URL: https://racktopsystems.com/products/compare
+Products
+
+Product Comparison
+
+# Which BrickStor Is Right for You?
+
+Four products. One platform. One management console. Pick the right one for the mission — or run more than one and let Hub Central tie them together.
+
+## Start with the question
+
+The fastest way to choose a BrickStor product is to answer one question: what is the dominant requirement for the data?
+
+"Secure file sharing for general enterprise or federal unstructured data."
+
+→ BrickStor SP
+
+"Maximum performance for AI training, HPC, or parallel-file-system workloads."
+
+→ BrickStor SP for Lustre
+
+"High-rate capture of network, RF, radar, or sensor data at the edge."
+
+→ BrickStor HDR
+
+"Classified data at rest up to Top Secret, deployable, coalition-shareable, possibly with edge compute."
+
+→ BrickStor CSfC Data at Rest
+
+"More than one of the above."
+
+→ Multiple BrickStor products, unified by Hub Central
+
+## At a glance
+
+| Capability | BrickStor SP | SP for Lustre | HDR | CSfC DAR |
+| --- | --- | --- | --- | --- |
+| Primary use | Cyberstorage NAS | Parallel file system for AI/HPC | High-speed sensor recording | Edge mission platform with classified DAR |
+| Protocols | SMB, NFS, S3 | Lustre client (pair with SP for NFS/S3) | Sensor-specific ingest | NAS protocols and/or HDR ingest |
+| Active Defense (patent) | | — | — | — |
+| Intelligent Bulk Remediation (patent) | | — | — | — |
+| ImmutaVault (patent) | | — | — | — |
+| TDM (patent) | | — | — | — |
+| ABAC | | | | |
+| Hub Central | | | | |
+| CSfC DAR certification | — | — | (up to Top Secret) | (up to Top Secret) |
+| Edge deployment | Available | Data center | | (underwater, land, sea, airborne) |
+| GPU/TPU compute option | — | Compute-adjacent | | |
+
+## When to choose each
+
+### BrickStor SP— The flagship Cyberstorage NAS
+
+Choose when: You need a secure NAS for unstructured data and you want active threat defense at the storage layer. This is the right answer for the majority of file storage workloads in enterprise IT and federal civilian environments. It is also the answer when you need media flexibility — flash for hot data, HDD for warm, object for cold — in the same namespace.
+
+Learn more
+
+### BrickStor SP for Lustre— When performance is non-negotiable
+
+Choose when: You need parallel file system throughput for AI training, HPC simulation, or scientific computing. Outperforms VAST Data on workloads that require a true parallel file system. Most customers pair it with BrickStor SP so users who prefer NFS or S3 are also served from the same platfor
+
 URL: https://racktopsystems.com/products/brickstor-sp
 Products
 
@@ -183,63 +244,14 @@ One
 
 Platform for NAS, defense & compliance
 
-Consolidate storage, cyber resilience, and audit into a single stack.
-
-Zero
-
-Bolt-on agents or external scanners
-
-Protection lives inside the data path, with nothing to stitch together.
-
-Recognized & Validated
-
-## Awarded by the industry. Validated by analysts.
-
-ESG Economic Validation“Less than half the cost of alternative NAS solutions when factoring in security, compliance, and operat
-
-URL: https://racktopsystems.com/data-defense-center
-Data Defense Center
-
-# Cybersecurity headlines are data-layer warnings.
-
-Threat analysis, breach lessons, and Cyberstorage guidance for organizations defending unstructured data.
-
-## The Craneware breach: when attackers read your file names before your files
-
-FeaturedThreat Brief•5 min readHealthcare revenue-cycle vendor Craneware says attackers viewed and exfiltrated a significant volume of file names, plus a percentage of employee data and a subset of customer records, before it contained the intrusion. Nothing was locked. The detail worth sitting with is that enumerating a file estate at scale is itself a storage-layer event, and it happens on live data long before anyone notices.Read the brief →
-
-## Latest Threat Briefs
-
-Analysis of active threats and what they mean for data at the storage layer.
-
-### Silent Ransom Group is stealing law firm files without ransomware
-
-Threat Brief•7 min readThe FBI has warned twice about Silent Ransom Group, an extortion crew that talks its way into law firms by posing as IT support, then copies client files out with ordinary remote-access and file-transfer tools. Nothing gets encrypted. By the time the ransom note arrives, often within a half hour of the exfiltration, the only question left is what exactly they took.July 21, 2026
-
-### The app was trusted. The files behind it were the target: Oracle breaches and the data layer
-
-Threat Brief•5 min readA 2026 wave of attacks against Oracle enterprise applications, including a PeopleSoft zero-day behind the NAIC data dump and an E-Business Suite flaw under active exploitation this week, keeps ending the same way: mass reads of files and regulated records through a trusted path, with no encryption and no obvious alarm.July 14, 2026
-
-### The breach that does not trip the alarm
-
-Threat Brief•7 min readRansomware is loud. Data theft is quiet. A credentialed insider or a patient attacker can read sensitive files for months while every dashboard stays green, because nothing is watching the data itself. Data Centric Zero Trust and Cyberstorage exist to change that.July 12, 2026
-
-### One stolen token, 700,000 files: what the Novo Nordisk breach 
+Consolidate storage, cyber resilience, and audit in
 
 ## LinkedIn about
 
 RackTop’s best-in-class BrickStor Security Platform (SP) is a Cyberstorage solution with a data-centric zero trust architecture. It empowers the public and private sectors to actively defend their sensitive unstructured data from the escalating presence of ransomware, insider threats, and nation-state-sponsored cyberattacks. RackTop Systems is brought to you by Dark Wolf Solutions.
 
 ## News (Exa, top 3)
-- Federal & Defense Cyberstorage for DoW & IC () https://www.racktopsystems.com/solutions/federal
-  Solutions / Federal & Defense
-
-Federal & Defense
-
-# Storage Built for the Missions Where the Cost of Being Wrong Is Highest
-
-RackTop was founded in 2010 by U.S. Intelligence Community veterans. Each founder had already spent over a decade inside the hardest data and security problems in government — and concluded the storage industry needed to think differently. BrickStor is what came out of that conviction — deployed today across the Department of War (DoW, formerly DoD), federal civilian agenc
-- Cyberstorage for DIB Contractors & FSIs | RackTop Systems () https://www.racktopsystems.com/solutions/defense-industrial-base
+- Federal Systems Integrator Case Study | RackTop Cyberstorage Solutions (2024-02-08) https://www.racktopsystems.com/federal-systems-integrator-case-study/
   Solutions / Defense Industrial Base
 
 Defense Industrial Base
@@ -249,14 +261,24 @@ Defense Industrial Base
 The Defense Industrial Base runs on data it cannot afford to lose: CUI, classified program data, and the intellectual property behind every contract. BrickStor SP protects that data, aligns to CMMC, isolates programs on shared infrastructure, and supports the Zero Trust and accreditation objectives your government customers require.
 
 Talk to a Federal Mission E
-- RackTop Systems and Carahsoft Announce New Partnership to Offer Software-Defined Storage (SDS) Products to the Federal Government and Resellers – RackTop Cyberstorage Solutions (2018-02-22) https://www.racktopsystems.com/racktop-systems-carahsoft-announce-new-partnership-offer-software-defined-storage-sds-products-federal-government-resellers/
-  RackTop Systems and Carahsoft Announce New Partnership to Offer Software-Defined Storage (SDS) Products to the Federal Government and Resellers | RackTop Cyberstorage Solutions
+- Federal & Defense Cyberstorage for DoW & IC () https://www.racktopsystems.com/solutions/federal
+  Solutions / Federal & Defense
 
-# RackTop Systems and Carahsoft Announce New Partnership to Offer Software-Defined Storage (SDS) Products to the Federal Government and Resellers
+Federal & Defense
 
-- in News, Press
+# Storage Built for the Missions Where the Cost of Being Wrong Is Highest
 
-RackTop Systems and Carahsoft Technology Corp. today announced a new partnership where Carahsoft will serve as RackTop’s distributor and master government ag
+RackTop was founded in 2010 by U.S. Intelligence Community veterans. Each founder had already spent over a decade inside the hardest data and security problems in government — and concluded the storage industry needed to think differently. BrickStor is what came out of that conviction — deployed today across the Department of War (DoW, formerly DoD), federal civilian agenc
+- Cyberstorage for DIB Contractors & FSIs () https://www.racktopsystems.com/solutions/defense-industrial-base
+  Solutions / Defense Industrial Base
+
+Defense Industrial Base
+
+# Cyberstorage for Federal Systems Integrators and government contractors
+
+The Defense Industrial Base runs on data it cannot afford to lose: CUI, classified program data, and the intellectual property behind every contract. BrickStor SP protects that data, aligns to CMMC, isolates programs on shared infrastructure, and supports the Zero Trust and accreditation objectives your government customers require.
+
+Talk to a Federal Mission E
 
 ## Open roles
 (no jobs data found)

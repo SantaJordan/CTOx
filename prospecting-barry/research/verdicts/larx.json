@@ -1,0 +1,49 @@
+{
+  "company": "Larx",
+  "slug": "larx",
+  "domain": "larx.io",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own-site News: Larx 'successfully demonstrated its capabilities at Northern Strike 2025, one of the U.S. military's largest joint, multinational training exercises' at Camp Grayling, MI (Sept 2025); product page explicitly lists 'defense, critical infrastructure, telecommunications, field operations' as target domains.",
+  "disconnect_score": 57,
+  "subscores": {
+    "lab_language_intensity": 14,
+    "deployment_awareness_absence": 11,
+    "operator_absence": 8,
+    "hiring_profile_skew": 10,
+    "stage_pressure": 14
+  },
+  "score_evidence": [
+    "'10x productivity, 90% time saved, and millions ($$) saved in tech and personnel costs.' — headline brag metrics with no methodology or operational context given → lab_language_intensity",
+    "Product page claims the platform 'Renders at Speeds optimized for contested or low-connectivity environments' yet nowhere in ~1379 words of own-language does ATO/RMF/CMMC/ITAR/STIG appear, despite fielding 'mission-proven technology' with 'commercial satellite support' at a real DoD exercise → deployment_awareness_absence",
+    "'New UK subsidiary strengthens international presence and accelerates delivery... across UK, Europe, the Middle East, and Africa' from a ~10-15 person, 2024-founded, single-seed-round company whose core evidence is one demo event → stage_pressure",
+    "No jobs data in pack — hiring_profile_skew set to neutral 10 per instructions"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Claims to be 'optimized for contested or low-connectivity environments' but never describes the actual bandwidth budget or degraded-mode architecture for a platform whose core feature is live imagery/video/3D-reconstruction fusion.",
+      "operator_reality": "A 2D/3D visual-fusion pipeline is bandwidth-hungry by nature; without a stated frame-rate-decoupling or store-and-forward design, the same 30fps-crowd-detection failure mode applies — the pipeline that worked at Camp Grayling stalls the moment the link degrades to true DDIL.",
+      "why_likely_missing": "Northern Strike 2025 is a large, well-resourced joint exercise with strong comms infrastructure — a demo win there doesn't prove the architecture survives an actually denied link.",
+      "evidence_quote": "Renders at Speeds optimized for contested or low-connectivity environments.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No ATO/RMF/CMMC/ITAR/STIG language anywhere despite claiming 'mission-proven technology' and 'commercial satellite support' demonstrated at a National Guard/DoD exercise.",
+      "operator_reality": "Moving from a Northern Strike demonstration to a fielded program requires an Authority to Operate on government networks and a CMMC posture; a visual-fusion tool that ingests satellite and sensor feeds is exactly the kind of system that stalls at the compliance gate, not the technical one.",
+      "why_likely_missing": "Public voice is still press-release/demo-win framing ('breakthrough,' 'groundbreaking') rather than acquisition-transition framing.",
+      "evidence_quote": "Field deployment highlights Larx's mission-proven technology, commercial satellite support, and groundbreaking 3D reconstruction workflow for operational advantage.",
+      "quote_source": "news"
+    },
+    {
+      "blind_spot": "Launched a UK/EMEA subsidiary and international GTM push while the flagship U.S. defense proof point is still a single named exercise (Northern Strike), not a program of record.",
+      "operator_reality": "A ~10-15 person team splitting focus across international expansion before the core DoD transition is locked in is the classic stage-pressure pattern: months-to-field keeps ticking on the domestic opportunity while headcount gets pulled toward new-market GTM.",
+      "why_likely_missing": "Press-release cadence (UK launch, Northern Strike demo, both within the last year) signals a team optimizing for visible momentum over transition risk management.",
+      "evidence_quote": "New UK subsidiary strengthens international presence and accelerates delivery of decision intelligence capabilities across UK, Europe, the Middle East, and Africa",
+      "quote_source": "news"
+    }
+  ],
+  "opener_hook": "Larx's Northern Strike 2025 demo at Camp Grayling showed live 3D reconstruction from commercial satellite feeds — what's the bandwidth budget when that link goes from exercise conditions to real DDIL?",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "AI-native visual/geospatial decision-intelligence platform fusing imagery, video, drone, and satellite feeds into a real-time 2D/3D operational picture for defense and commercial customers."
+}

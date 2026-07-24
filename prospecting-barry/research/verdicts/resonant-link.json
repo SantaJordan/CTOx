@@ -1,0 +1,16 @@
+{
+  "company": "Resonant Link Medical",
+  "slug": "resonant-link",
+  "domain": "rlmedical.com",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "Own-language (homepage, product pages, LinkedIn about, industries/neuromodulation) is 100% implantable-medical-device / patient-clinician language (Aurion WPT for pacemakers, neuromodulation, bioelectronics). Per pack instructions, the Army xTech/Resonant Sciences news items are about a differently-named, differently-located entity (Resonant Sciences LLC, Dayton OH defense R&D firm vs. Resonant Link Medical Inc, Burlington VT medtech co) and are disregarded as a name-collision mismatch, not evidence for this domain.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "medium",
+  "stage_band": "unknown",
+  "what_they_do": "Wireless power/charging platform (Aurion WPT) for implantable medical devices — pacemakers, neuromodulation devices, bioelectronics."
+}

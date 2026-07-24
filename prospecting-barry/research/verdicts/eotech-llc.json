@@ -1,0 +1,22 @@
+{
+  "company": "EOTECH, LLC",
+  "slug": "eotech-llc",
+  "domain": "eotechinc.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Genuine defense identity ('Battle-Proven Optics for Military, Police and Professionals', 'BATTLE PROVEN FOR THIRTY YEARS', one 2022 Air Force SBIR Phase II), but this is a 176-employee, 1995-founded manufacturer of fielded, in-production weapon optics with a consumer e-commerce storefront — decades past the prototype-to-fielded valley Barry sells into.",
+  "disconnect_score": 0,
+  "subscores": {
+    "lab_language_intensity": 0,
+    "deployment_awareness_absence": 0,
+    "operator_absence": 0,
+    "hiring_profile_skew": 0,
+    "stage_pressure": 0
+  },
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Established manufacturer of holographic weapon sights, riflescopes, and night-vision optics sold to military, police, and consumers."
+}

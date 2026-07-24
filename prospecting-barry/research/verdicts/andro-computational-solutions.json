@@ -1,0 +1,19 @@
+{
+  "company": "ANDRO Computational Solutions",
+  "slug": "andro-computational-solutions",
+  "domain": "androcs.com",
+  "verdict": "drop",
+  "drop_reason": "sbir_mill",
+  "dod_intent_evidence": "Genuine DoD work is evidenced ($4.4M AFRL HAWC funding, Army CPE IEW&S contract, AFRL PRISMTAK ATAK plug-in — news + channel notes), but the company itself is the disqualifier, not the motion.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "Own about page: 'ANDRO provides research, engineering, and technical services to defense and commercial industries' — a 30-year (est. 1994) R&D services house, LinkedIn industry 'Research Services'",
+    "Open roles are five 'Scientist' postings plus a Software Engineer in Rome, NY — the hiring profile of a contract-research lab, and its news stream is a rolling feed of new R&D awards (AFRL, Army, NSC subcontracts under Peraton/Battelle), not product transitions"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "30-year-old contract R&D house in Rome, NY doing spectrum/RF/AI research services for AFRL, Army, and primes."
+}

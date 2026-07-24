@@ -4,18 +4,17 @@
   "domain": "gosecure.ai",
   "verdict": "drop",
   "drop_reason": "no_dod_motion",
-  "dod_intent_evidence": "None in their own language — only defense-VC list membership in the sources line (vc:shield, vc:razors-edge); every visible customer artifact is commercial or Canadian civil government (CanadaBuys pen-testing and firewall awards), zero DoD/military/warfighter language.",
+  "dod_intent_evidence": "None. The only government records in the pack are Canadian: a CanadaBuys 'Checkpoint Firewall - 3 year renewal' award notice and a City of Montreal penetration-testing framework agreement ($352,858.28). No US DoD, SBIR, DIU/AFWERX or warfighter language appears in their own site copy — which markets to 'airports, energy, finance, healthcare'.",
   "disconnect_score": 0,
   "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
   "score_evidence": [
-    "'24/7 managed detection, response, and expert cybersecurity services' → commercial MSSP/managed-services motion, also a services-lean disqualifier (homepage)",
-    "News is entirely Canadian procurement: 'ENTER INTO A FRAMEWORK AGREEMENT WITH GOSECURE INC. FOR PENETRATION TESTING SERVICES' → no US defense customer motion (news)",
-    "Open roles are Montreal/Toronto sales, onboarding, and SOC analysts — no cleared, federal, or compliance roles (job_post list)",
-    "Note: own-language word count ~482 is also under the 500-word insufficiency gate; drop on gate 1 takes precedence"
+    "'24/7 managed detection, response, and expert cybersecurity services' → managed-services provider, also a services-only disqualification",
+    "'ENTER INTO A FRAMEWORK AGREEMENT WITH GOSECURE INC. FOR PENETRATION TESTING SERVICES' (Montreal public tender) → commercial/civil services business, not a DoD transition",
+    "Founded 2002, 166 employees, open roles are Montreal/Toronto/Quebec sales and onboarding → mature Canadian MSSP, far outside the $5M-$10M US defense-tech band"
   ],
   "blind_spots": [],
   "opener_hook": "",
   "confidence": "high",
   "stage_band": "revenue_stage",
-  "what_they_do": "Canadian-rooted managed extended detection and response (MXDR) provider selling 24/7 SOC services and cybersecurity consulting to commercial and civil-government customers."
+  "what_they_do": "Managed extended detection and response (MXDR) plus security consulting services delivered on the GoSecure Titan platform."
 }

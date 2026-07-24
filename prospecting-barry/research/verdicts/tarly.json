@@ -1,0 +1,16 @@
+{
+  "company": "Tarly",
+  "slug": "tarly",
+  "domain": "tarly.co",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "Own language describes a general federal-procurement waste/transparency scanner covering GSA, State Department, and other agency awards — no DoD/warfighter customer relationship, SBIR, or defense contract for Tarly itself; the news section is about an unrelated company (Taylor Defense Products) and is disregarded per instructions.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "unknown",
+  "what_they_do": "An AI platform (Tarly Scanner) that flags federal government contracts for potential waste, sole-sourcing, and cost growth using SAM.gov/USAspending-style data across GSA, State Department, and other agencies."
+}

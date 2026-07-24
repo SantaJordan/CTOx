@@ -1,0 +1,16 @@
+{
+  "company": "Onsights",
+  "slug": "onsights",
+  "domain": "onsights.io",
+  "verdict": "insufficient_evidence",
+  "drop_reason": "",
+  "dod_intent_evidence": "Thin/ambiguous: a DoD SkillBridge internship posting (military-hiring pipeline, not a customer signal) is the only clean DoD touchpoint; the two other 'defense' news hits (a crane/freight solicitation and Librestream's unrelated 'Onsight NOW' AF sustainment product) are name collisions, not this company. LinkedIn describes Onsights as a retail/ecommerce analytics company (formerly defense AI firm Anno.Ai per channel notes, appears to have pivoted).",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "low",
+  "stage_band": "unknown",
+  "what_they_do": "Retail/ecommerce analytics company using computer vision on existing security systems to track shopper behavior in brick-and-mortar locations; site (onsights.io) returns only a 301 redirect, own-language ~9 words."
+}

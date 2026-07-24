@@ -509,14 +509,6 @@ DOD
 Branch: USAF
 
 Total Award Am
-- Atomic-6 Wins $2M Space Force Contract for ... (2025-07-02) https://www.prnewswire.com/news-releases/atomic-6-wins-2m-space-force-contract-for-revolutionary-solar-array-technology-302496836.html
-  Atomic-6 Wins $2M Space Force Contract for Revolutionary Solar Array Technology Accessibility Statement Skip Navigation
-
-Former ISS Commander Chris Hadfield Joins Advisory Board
-
-MARIETTA, Ga., July 2, 2025 /PRNewswire/ -- Atomic-6, manufacturer of the world's finest composite solutions, has won a $2 million TACFI (Tactical Funding Increase) from United States Space Force Space Systems Command to mature and flight qualify the Light Wing™ solar array for commercial and defense sectors.
-
-The compa
 - Award | SBIR () https://www.sbir.gov/awards/210901
   Award | SBIR Skip to main content
 
@@ -559,6 +551,18 @@ DOW
 Branch: USAF
 
 To
+- Georgia tech startup Atomic-6 gets $2 million contract from Space Force (2025-07-02) https://www.ajc.com/business/2025/07/georgia-startups-solar-tech-can-power-spacecraft-it-won-a-key-contract/
+  Georgia tech startup Atomic-6 gets $2 million contract from Space Force
+
+By Mirtha Donastorg
+
+July 2, 2025
+
+Share
+
+Technology created by a metro Atlanta firm could soon be orbiting the Earth on a satellite or planted on the south pole of the moon to help make it potentially habitable for humans. And the federal government is helping make that happen.
+
+Atomic-6, a Marietta-based startup that makes lightweight structures for extreme environments used primarily by the aerospace and defense industri
 
 ## Open roles
 (no jobs data found)

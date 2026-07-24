@@ -1,0 +1,16 @@
+{
+  "company": "NATIVE TECH CO",
+  "slug": "native-tech-co",
+  "domain": "native.tech",
+  "verdict": "insufficient_evidence",
+  "drop_reason": "",
+  "dod_intent_evidence": "Air Force SBIR Phase II award ($1,249,977, 2023) for multilingual conversational intelligence for workplace messaging, and the homepage displays 'US Air Force' and 'SBIR' trust logos.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "low",
+  "stage_band": "unknown",
+  "what_they_do": "Native (Native Chats) is a commercial AI-enabled real-time multilingual messaging platform (150+ languages); own-language word count is only ~319 words, well under the ~500-word evidence-sufficiency threshold, so no reliable deployment-awareness judgment can be made. Note: News section results for 'Native American Technology Corporation' / 'Native American Technologies Company' are a different, unrelated company and were disregarded."
+}

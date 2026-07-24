@@ -1,0 +1,51 @@
+{
+  "company": "Galvanick",
+  "slug": "galvanick",
+  "domain": "galvanick.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Selected for a prime IDIQ position under the MDA SHIELD $151B contract (Golden Dome), announced by CEO Joshua Steinman in a January 2026 LinkedIn post that notes it 'is NOT a large revenue award (yet)'; the CEO is also a former NSC Senior Director for Cyber who helped launch DIU (News + about-us).",
+  "disconnect_score": 67,
+  "subscores": {
+    "lab_language_intensity": 12,
+    "deployment_awareness_absence": 16,
+    "operator_absence": 8,
+    "hiring_profile_skew": 16,
+    "stage_pressure": 15
+  },
+  "score_evidence": [
+    "\"10x more real detections\" / \"100x fewer false positives\" / \"See how Galvanick reconstructs an OT attack in seconds\" → lab_language_intensity (benchmark multiples as the headline claim), partially offset by genuinely specific ATT&CK ICS technique IDs (T0846, T1003, T0886) and concrete triage steps",
+    "Across ~1,375 words of detailed product description there is no occurrence of ATO, RMF, IL4/IL5, STIG, POA&M, CMMC, NIST 800-171, FedRAMP or ITAR — for a log-ingesting detection platform that just took a prime position on a DoD IDIQ, this is the entire fielding path missing → deployment_awareness_absence",
+    "\"Galvanick ingests data from networks, endpoints, infrastructure, and applications across your OT environment into a single detection engine\" — a centralized correlation tier with no stated air-gapped or disconnected mode → deployment_awareness_absence",
+    "\"Our team burns hours triaging alerts from tools that flag anomalies without context\" and the worked triage/response steps → operator_absence LOW (the commercial defender is well understood and centrally addressed)",
+    "Ten live open roles — Senior Threat Intelligence Automation Engineer, Infrastructure Engineer x3, Full Stack Engineer, Data Scientist & Developer x2, Engineering Lead, Head of Engineering, Head of Marketing — contain no ISSO, no compliance or accreditation role, no field/deployment engineer, and no government program role → hiring_profile_skew",
+    "$10M seed announced June 1, 2023 with no Series A since, 24 employees, and a government motion the CEO himself describes as not yet revenue → stage_pressure high"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "A platform that ingests endpoint, network, infrastructure and application logs and then recommends response actions is one of the heaviest accreditation boundaries a 24-person company can own — and none of that vocabulary exists in their public language",
+      "operator_reality": "On a government network the question is never 'does it detect'; it is 'who signed the ATO'. That means STIGging every collector, a documented POA&M for each finding the assessor raises, an IL5 boundary if it touches anything classified, and CMMC at the company level before a task order can even flow down. For a detection product the package is bigger than usual because the tool sees everything on the network by design. The clock starts the day the first SHIELD task order lands, not now — and if months-to-authorize exceeds the funded period of performance, the vehicle position converts to nothing.",
+      "why_likely_missing": "The company was built for commercial OT buyers where the procurement gate is a security review and a PO, and the MDA position arrived in January 2026 as an opportunity rather than as an engineering requirement.",
+      "evidence_quote": "Galvanick cannot execute commands, push updates, or modify systems. The sensors run in user-mode only. No kernel driver, no control channel, no active scanning.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The product's value comes from centralized correlation and continuously fresh detection content — both of which an air-gapped defense facility denies",
+      "operator_reality": "A missile-defense site, a classified fab, or a shipboard OT network takes nothing out and lets nothing in. Their whole differentiator is cross-verifying signals across a single engine and shipping pre-built detection logic that stays current; behind an air gap the engine has to run wholly on-site on hardware someone else owns, detection content has to arrive through a manual, reviewed, signed transfer process on a cadence measured in months, and the vendor never sees telemetry to tune against. That is a different product — same failure shape as streaming 30fps into a link that carries one frame every five seconds. It also inverts their sales argument, because 'no SIEM or custom rules to maintain' becomes 'the government maintains it, disconnected, with stale content'.",
+      "why_likely_missing": "Boeing and commercial industrial customers have IT/OT DMZs and outbound connectivity; the fully disconnected case never came up because no commercial buyer has one.",
+      "evidence_quote": "Galvanick ships pre-built with detection logic, correlation rules, and investigation workflows. No SIEM or custom rules to maintain.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The telemetry itself is the controlled artifact — PLC program changes, setpoints, and facility topology from a defense production line",
+      "operator_reality": "Their own example finding names ladder-logic modifications and setpoint writes on specific PLCs in a specific building and work cell. On an ITAR-controlled aerospace line or an MDA site, that dataset is export-controlled or classified as soon as it exists, and the retroactive historical-log ingestion they pitch at install time is the single most sensitive action in the deployment. Before a sensor goes in, someone has to answer where the data lands, who can see it, whether foreign nationals on the engineering team can touch the pipeline, and whether the company holds the NIST 800-171 posture to hold it at all. That review happens before value is demonstrated, not after.",
+      "why_likely_missing": "In commercial OT, retroactive log analysis is the most compelling part of the pitch — it finds compromises that predate the sale — so it is optimized for as a sales moment rather than examined as a data-handling liability.",
+      "evidence_quote": "On installation, Galvanick ingests historical endpoint logs and applies behavioral analysis retroactively, surfacing compromises that predate deployment, even adversarial activity that occurred months earlier.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Joshua Steinman's January 2026 post about the MDA SHIELD prime IDIQ says plainly that it is not a large revenue award yet — and across the 1,375 words on galvanick.com the words ATO, RMF, IL5, STIG and CMMC never appear, while all ten open roles are engineering, data science and marketing with no accreditation seat among them.",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Behavioral threat-detection platform purpose-built for industrial/OT networks — correlates endpoint, network, infrastructure and application telemetry to find attackers inside factories and critical infrastructure."
+}

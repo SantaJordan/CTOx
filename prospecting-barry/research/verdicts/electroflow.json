@@ -1,0 +1,16 @@
+{
+  "company": "Electroflow",
+  "slug": "electroflow",
+  "domain": "eflowtech.com",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "No defense language anywhere in their own words or news — homepage is entirely clean-energy/EV battery framing ('Brine to Battery Materials Made in America'); only government money cited is a $1M DOE grant (news section). Defense-VC (Harpoon) portfolio membership is the sole defense link and is not sufficient.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Electrochemical process to extract lithium from dilute US brines and turn it directly into LFP cathode material."
+}

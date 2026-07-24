@@ -1,0 +1,26 @@
+{
+  "company": "Sky Park Labs LLC",
+  "slug": "sky-park-labs-llc",
+  "domain": "skyparklabs.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Army Phase II SBIR ($1,099,960, 2022) for DeepNDT, AI-assisted radiographic non-destructive testing of munitions and armaments, per their own SBIR abstract. (News section is about a different, similarly-named company, Skylark Labs, and was disregarded per instructions.)",
+  "disconnect_score": 65,
+  "subscores": {"lab_language_intensity": 17, "deployment_awareness_absence": 12, "operator_absence": 10, "hiring_profile_skew": 10, "stage_pressure": 16},
+  "score_evidence": [
+    "'achieving real-time performance and accuracy, precision, and recall rates of over 95% for detection and classification tasks' → lab_language_intensity",
+    "Website never mentions ATO/RMF/CMMC/ITAR/STIG anywhere across Solutions/Industries pages, only generic 'field-ready solutions' tagline → deployment_awareness_absence (capped at 12, own-language <1000 words)",
+    "SBIR abstract does name the human role ('reduce the cognitive load on a level II NDT technician') but the company's own website never mentions operators, radiographers, or field training → operator_absence (capped at 12, own-language <1000 words)",
+    "'(no jobs data found)' → hiring_profile_skew set to 10 exactly per rubric",
+    "3-person team (Founder/CEO, Chief Scientist, Research Engineer) and a 2022 Phase II SBIR with no visible Phase III/transition news four years later → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "DeepNDT's reported >95% accuracy/precision/recall was measured on 'government-furnished data and various industrial datasets' with no mention of performance variance across different depot radiographic equipment, film artifacts, or degraded real-world imaging conditions.", "operator_reality": "A Level II NDT technician at an Army depot works with equipment and film quality that varies site to site; a model tuned to one benchmark dataset can silently underperform on the actual mix of legacy radiographic hardware in the field, and there's no evidence the team has characterized that gap.", "why_likely_missing": "Phase II abstract frames the remaining work as building 'a fully functional prototype software tool integrated into the inspection workflow' — meaning real-world workflow integration, where equipment variance shows up, was still ahead of them at time of award.", "evidence_quote": "achieving real-time performance and accuracy, precision, and recall rates of over 95% for detection and classification tasks", "quote_source": "sbir_abstract"},
+    {"blind_spot": "The company's tagline promises 'field-ready solutions' but the entire public site never mentions ATO, RMF, CMMC, or ITAR — despite the product processing potentially controlled munitions-inspection data.", "operator_reality": "An AI tool that touches non-destructive testing data on munitions and armaments will need to clear a compliance bar (ITAR/CUI handling, depot network authorization) before it can run anywhere near a live inspection line; nothing in their language signals they've engineered for that gate.", "why_likely_missing": "Team is 3 people, positioned as a general-purpose applied-AI shop spanning seven unrelated industries (manufacturing, defense, health, agriculture, retail, robotics, physical sciences) rather than a defense-compliance-focused outfit.", "evidence_quote": "Collaborate with us to accelerate AI innovation from concept to best-in-class field-ready solutions.", "quote_source": "homepage"},
+    {"blind_spot": "As of the Phase II proposal, workflow integration — the actual deployment step — was explicitly still future work, not something already built.", "operator_reality": "'Integrated into the inspection workflow' is exactly the step where DDIL-adjacent constraints (depot network access, legacy inspection-station hardware, technician trust/adoption) usually break a lab-validated model; the abstract shows this step hadn't started.", "why_likely_missing": "Classic Phase-II-to-fielding gap: technical feasibility (Phase I) was proven, but the deployment architecture work was scoped as future, unfunded-beyond-Phase-II effort.", "evidence_quote": "Phase II will focus on the development of all aspects of the technology into a fully functional prototype software tool integrated into the inspection workflow.", "quote_source": "sbir_abstract"}
+  ],
+  "opener_hook": "Sky Park Labs' Army Phase II SBIR ($1.1M, 2022) reported DeepNDT hitting 95%+ accuracy on government-furnished radiographic data — the same abstract lists workflow integration as still-open Phase II work.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Small applied-AI/computer-vision shop (DeepNDT) building automated defect detection for radiographic inspection of Army munitions, alongside general computer-vision work across several unrelated industries."
+}

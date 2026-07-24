@@ -1,0 +1,47 @@
+{
+  "company": "AugSense",
+  "slug": "augsense",
+  "domain": "augsensetech.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own homepage claims AFRL HUSTLE Cohort 5 selection to advance Air Force C3BM edge AI, corroborated by the Griffiss Institute release naming AugSense the $155,000 Cohort 5 winner (Their own words + News sections).",
+  "disconnect_score": 61,
+  "subscores": {"lab_language_intensity": 16, "deployment_awareness_absence": 9, "operator_absence": 8, "hiring_profile_skew": 10, "stage_pressure": 18},
+  "score_evidence": [
+    "\"We're building the world's most advanced wearable for the most elite tactical athletes\" → lab_language_intensity: superlative marketing, no fielding or test evidence anywhere on the site",
+    "\"AugSense solves the edge computing trilemma: delivering high-fidelity AI inference under extreme constraints on size, weight, power, and connectivity (SWaaP-C) without sacrificing accuracy or latency\" → lab_language_intensity: claims the tradeoff is eliminated rather than engineered, and misspells SWaP-C",
+    "\"Neuromorphic Processing: Event-driven, spiking neural network (SNN) architectures\" → lab_language_intensity: research-stage compute presented as a shipping capability",
+    "\"Turn raw battlefield data into decisions No cloud, No connectivity required\" → deployment_awareness_absence held DOWN: they do use DDIL framing, though only at slogan level",
+    "Zero occurrences of ATO, RMF, IL4/IL5, STIG, CMMC, NIST 800-171, ITAR, or TAK/CoT across the entire site → deployment_awareness_absence, despite selling \"Distributed C2 Fusion\" and \"a unified operational picture\"",
+    "\"We strive to empower operators\" and \"Operator Readiness Monitoring\" → operator_absence held DOWN, but no CONOPS, training, sustainment, or named unit anywhere",
+    "No jobs data in pack → hiring_profile_skew set to exactly 10 by rule",
+    "\"AugSense of Colorado won $155,000 as part of the Cohort 5 of the HUSTLE Accelerator\" (news, 2026-05-02), founded 2024, 6 employees, no SBIR of its own → stage_pressure: a six-figure accelerator prize is the whole visible runway"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The neuromorphic/SNN compute story has no named hardware, and therefore no qualification or accreditation path",
+      "operator_reality": "The first question a C3BM integrator asks is which board this runs on — and spiking-neural-net silicon has no MIL-STD-810/461 qualification, no place on an approved parts list, and no ATO precedent on an Air Force network. 'Platform-agnostic' means the integration burden lands entirely on the government, which is how a promising demo becomes an unfunded science project. Naming a target compute module now, and qualifying against the actual host platform's power and EMI envelope, is a decision that has to be made before the accelerator money runs out.",
+      "why_likely_missing": "Neuromorphic processing is genuinely the right answer for always-on inference at low power, and that technical correctness makes it easy to skip the question of whether any fieldable, accreditable instance of it exists today.",
+      "evidence_quote": "Our platform-agnostic edge AI engine combines: Multi-Modal Sensor Fusion ... Neuromorphic Processing",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Semantic compression is defined by what it discards, but they never state what fidelity the receiving C2 system contractually requires",
+      "operator_reality": "This is the 30fps crowd-detection failure mode inverted: compressing to survive a 1-frame-every-5-seconds link is correct engineering right up until the analyst at the other end cannot make a positive identification and the capability gets rejected in test. Worse, there is no output format named — a fused operational picture that does not emit Cursor-on-Target has nowhere to land in the Air Force C2 stack, so the demo shows a beautiful screen that no fielded system can consume.",
+      "why_likely_missing": "Compression ratio is a demo-friendly number and interoperability is a paperwork-heavy one, so the first gets engineered and the second gets a paragraph about 'advanced APIs'.",
+      "evidence_quote": "Semantic Compression: Dramatically reduces data volume while preserving mission-critical meaning, enabling real-time intelligence transmission over degraded or bandwidth-limited links.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The BeAST bundles physiological monitoring and CBRNE agent detection into one wearable with no sustainment or data-authority story",
+      "operator_reality": "Nerve and blister agent sensors are consumables with calibration cycles and shelf lives — somebody has to recalibrate them, stock spares, and certify the detection threshold, or the device becomes a decoration that nobody trusts to call a chemical alarm. Separately, continuous vitals on named service members is health data under DHA policy and needs a records and privacy determination before a single unit fields. Both are answerable in weeks if scoped now and fatal if discovered at the transition review.",
+      "why_likely_missing": "The founding team's depth is offshore oil and gas and commercial hardware, where a safety wearable ships to a customer and the customer owns sustainment — the military model, where a unit supply sergeant owns it, works nothing like that.",
+      "evidence_quote": "BeAST design modularly includes the detection of harmful gases, nerve and blister agents integrated into low SWaP & human wearable form factors",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Griffiss handed AugSense the $155,000 top prize in HUSTLE Cohort 5 on May 1 for edge AI on C3BM, and the site describes the engine as platform-agnostic neuromorphic inference — in my experience that is the exact point where the transition stalls, because the program office needs a named compute module it can qualify, not an architecture.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Six-person Colorado pre-seed building edge AI and multi-sensor fusion that runs without connectivity, plus an on-ear wearable that tracks operator vitals, blast exposure, and chemical threats."
+}

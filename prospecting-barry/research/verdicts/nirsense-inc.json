@@ -1,0 +1,43 @@
+{
+  "company": "NIRSense, Inc.",
+  "slug": "nirsense-inc",
+  "domain": "nirsense.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own About page: 'founded in 2018 to help protect the health of the American warfighter' via a Defense Innovation Unit grant; DHA Phase II SBIR (helmet-compatible NIRS/EEG cerebrovascular monitor) and a $13M Navy contract continuation for 'fieldable physiology monitors' (PRNewswire 2024-05-28, corroborated by HigherGov contract HT942525C0006).",
+  "disconnect_score": 44,
+  "subscores": {"lab_language_intensity": 7, "deployment_awareness_absence": 10, "operator_absence": 5, "hiring_profile_skew": 9, "stage_pressure": 13},
+  "score_evidence": [
+    "'Our devices are waterproof, shock resistant, lightweight, and compact — built as tough as warfighters themselves' shows genuine SWaP-C engagement, but zero mention anywhere of ATO/RMF, CMMC, or how casualty data reaches DoD health records when disconnected → deployment_awareness_absence",
+    "Site is saturated with operator language: 'Developed for the American warfighter', 'elite warfighters', 'military medical personnel to sustain casualties... before evacuation' → operator_absence scored very low",
+    "Open roles include a 'Compliance Consultant' alongside EE/mechanical/data-science hires — a compliance-aware hiring mix, not a pure-research skew → hiring_profile_skew",
+    "'NIRSense has been working with the Department of Defense since 2019... won an expansion to a competitively-awarded contract this month to build fieldable physiology monitors for the US Navy' — 5+ years into partnership, device still described as 'fieldable' not fielded, 21-50 person team juggling concurrent DIU/DHA/Navy transitions → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "No mention of how physiological data reaches a medical record or command picture when the medic and casualty are isolated from connectivity during evacuation.",
+      "operator_reality": "A device meant to help 'sustain casualties for long periods before evacuation' needs to keep recording and buffer data through exactly the DDIL window a contested MEDEVAC creates — an architecture built around continuous wireless transmission fails the moment the helicopter isn't there yet.",
+      "why_likely_missing": "Their public narrative stops at the device's physical ruggedness (waterproof, shock resistant) and never extends to the data pipeline once it leaves the sensor.",
+      "evidence_quote": "allow military medical personnel to sustain casualties for long periods before evacuation and thorough out the continuum of care",
+      "quote_source": "homepage (about)"
+    },
+    {
+      "blind_spot": "No description of who trains a combat medic or pilot to interpret device output, or how batteries/spares are resupplied for extended field wear.",
+      "operator_reality": "'Long periods before evacuation' implies extended continuous wear; a sensor that goes dark from a dead battery with no resupply plan fails at the exact moment it's needed most, and the site never names a training or sustainment owner.",
+      "why_likely_missing": "Messaging is built around proving the sensor works in extreme physical conditions (up to 7g, waterproof), not around the logistics of keeping it powered and understood in a sustained field posture.",
+      "evidence_quote": "Over 5+ years of development and testing in partnership with the U.S. military, NIRSense monitors have been proven to withstand the toughest environments on Earth.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "A 'Compliance Consultant' role exists but no public detail on what compliance gap it's closing (FDA regulatory pathway vs. CMMC/NIST 800-171 vs. DoD health-data authorization) ahead of a production decision on the $13M Navy contract.",
+      "operator_reality": "Moving from 'fieldable' to fielded on a Navy production contract typically requires company-level CMMC compliance and a defined regulatory pathway; an unspecified single compliance hire is a thin bench for a transition-critical requirement.",
+      "why_likely_missing": "The job post signals awareness that compliance work exists, but nothing in NIRSense's own public language explains the specific gate or timeline it's racing.",
+      "evidence_quote": "Compliance Consultant",
+      "quote_source": "job_post"
+    }
+  ],
+  "opener_hook": "NIRSense's May 2024 release frames the $13M Navy contract expansion as building physiology monitors that are still 'fieldable,' five years into the DoD partnership — not yet 'fielded.'",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Builds ruggedized wearable NIRS/PPG oximetry monitors originally developed for warfighter physiological monitoring (DIU/DHA/Navy), now adapting the tech for civilian hospital use."
+}

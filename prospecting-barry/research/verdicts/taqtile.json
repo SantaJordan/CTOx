@@ -1,0 +1,16 @@
+{
+  "company": "Taqtile",
+  "slug": "taqtile",
+  "domain": "taqtile.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Own news page + Businesswire confirm a 2022 U.S. Army Phase II SBIR contract (ARMORS, via Army Applications Laboratory) expanding an already-deployed motor-pool work-instruction platform — genuine but historical DoD motion.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Manifest, a commercial AI/AR digital work-instruction platform for frontline/OEM manufacturing, maintenance, and inspection workflows, with a legacy Army motor-pool SBIR deployment."
+}

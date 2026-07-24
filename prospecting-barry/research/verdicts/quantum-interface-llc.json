@@ -1,0 +1,37 @@
+{
+  "company": "Quantum Interface, LLC",
+  "slug": "quantum-interface-llc",
+  "domain": "quantuminterface.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Air Force SBIR Phase II award (2023, $1.15M) for XR-Assist, their own abstract describing it as 'currently used across multiple squadrons and wings' for maintenance/C2 training — SBIR/STTR record section.",
+  "disconnect_score": 56,
+  "subscores": {"lab_language_intensity": 16, "deployment_awareness_absence": 12, "operator_absence": 10, "hiring_profile_skew": 10, "stage_pressure": 8},
+  "score_evidence": [
+    "'our award-winning technologies speed human reaction time' → lab_language_intensity",
+    "'Quantum Interface (QI) is revolutionizing human-machine interaction' → lab_language_intensity",
+    "zero mention of DDIL/ATO/RMF/CMMC/ITAR/STIG across ~874 words of own language (site + SBIR abstract) → deployment_awareness_absence (capped 12, word count <1000)",
+    "no jobs data in pack → hiring_profile_skew set to 10 per rule"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Hands-free eye-tracking for maintenance checklists assumes clean, consistent visual conditions",
+     "operator_reality": "A technician in gloves, PPE, and variable hangar/field lighting (glare, low light, NVGs) will break eye-tracking calibration that looked flawless in a lab demo",
+     "why_likely_missing": "product description never mentions field/lighting/PPE variability, only 'speed of thought interactions'",
+     "evidence_quote": "Real Hands-free eye control of content, checklists and media for maintenance, Command and control (C2)",
+     "quote_source": "sbir_abstract"},
+    {"blind_spot": "No mention of the headset/device's power, weight, or ruggedization",
+     "operator_reality": "Mixed-reality hardware carried by a maintainer or C2 operator needs battery logistics and ruggedization; a device optimized for 'seamless navigation' across 'Desktop | Mobile | Embedded | Gaming | AR/VR/XR' reads as consumer-grade, not field-hardened",
+     "why_likely_missing": "site markets breadth of platform support (retail, automotive, gaming) with no SWaP-C or field-durability language anywhere",
+     "evidence_quote": "Works across touchscreens, VR, AR, IoT, and traditional displays",
+     "quote_source": "homepage"},
+    {"blind_spot": "'Currently used across multiple squadrons and wings' is stated with no advocacy chain, ATO, or sustainment detail",
+     "operator_reality": "Squadron-level pilot use does not equal program-of-record adoption; without a champion above the operator level and an RMF/ATO path, Phase II funding lapsing kills the transition regardless of how well airmen liked the demo",
+     "why_likely_missing": "abstract highlights ease-of-authoring by SMEs but never addresses who owns re-certification, retraining, or funding after Phase II",
+     "evidence_quote": "allows the SME to create immersive, interactive lessons in minutes using their own content",
+     "quote_source": "sbir_abstract"}
+  ],
+  "opener_hook": "Your Air Force Phase II SBIR ($1.15M, 2023) funded XR-Assist's hands-free eye control for maintenance checklists — what's the plan for calibration drift once techs are in gloves and hangar glare?",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Predictive, gesture/eye-tracking human-machine-interface technology licensed across commercial AR/VR/IoT markets, with an Air Force SBIR-funded variant (XR-Assist) for hands-free maintenance and C2 checklists."
+}

@@ -1,0 +1,44 @@
+{
+  "company": "Vector",
+  "slug": "vector",
+  "domain": "tfvector.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "News: 'multi-year, multi-million dollar contract with the U.S. Special Operations Command (SOCOM)' (2025-09-14/2025-10-24) for drones, integration services, and capability delivery; own words: 'Vector has earned DIU Blue and Green List approval, validating our cyber resilience, domestic supply chain, and alignment with U.S. defense requirements' — direct DoD customer motion.",
+  "disconnect_score": 33,
+  "subscores": {"lab_language_intensity": 3, "deployment_awareness_absence": 8, "operator_absence": 2, "hiring_profile_skew": 10, "stage_pressure": 10},
+  "score_evidence": [
+    "'No buzzwords. No bureaucracy. Just relentless, mission-focused capability that keeps warriors lethal and alive' — anti-lab-speak, operational framing → lab_language_intensity low",
+    "'Vector has earned DIU Blue and Green List approval, validating our cyber resilience, domestic supply chain, and alignment with U.S. defense requirements' — compliance-adjacent language present, though ATO/RMF/ITAR never named → deployment_awareness_absence",
+    "'Built by the Warfighter, for the Warfighter'; 'Veteran special operators bring real-world battlefield insights...to reclaim tech superiority'; 'led by former military special operators...who know first-hand what it takes to succeed under fire' → operator_absence very low",
+    "no jobs data found in pack → hiring_profile_skew set to 10 per instructions",
+    "'recently-founded and fast-growing drone manufacturer' just landed its first major SOCOM contract (Sept/Oct 2025), founded 2024, 61 employees — real but early period-of-performance exposure → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "DIU Blue/Green List approval covers component-level cyber resilience and supply-chain provenance, but the site never mentions ATO/RMF for whatever software/data layer carries drone telemetry into a government command system",
+      "operator_reality": "a supply-chain-compliant airframe can still sit un-integrated on the network side if the software/data layer around it never clears its own Authority to Operate — component-list approval and network accreditation are two different gates, and only one is mentioned here",
+      "why_likely_missing": "the company's compliance messaging centers on hardware provenance (the DIU list credential), which is the gate they've already cleared and can talk about; the network/software accreditation gate is likely still ahead of them",
+      "evidence_quote": "Vector has earned DIU Blue and Green List approval, validating our cyber resilience, domestic supply chain, and alignment with U.S. defense requirements",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Tactical training courses (Build and Attack, Red Teaming, RECCE) are delivered 'as-a-service' by Vector's own veteran-operator cadre, with no mention of a train-the-trainer model for follow-on unit rotations",
+      "operator_reality": "special operations units rotate; if Vector's own instructors are the only ones who can run the UAS courses, the capability degrades the moment the contract's initial engagement window closes and a new rotation shows up with none of that tacit knowledge transferred",
+      "why_likely_missing": "the pitch leans hard on operator-authenticity ('built by the warfighter') as the differentiator, which naturally emphasizes Vector's own people being present rather than a scalable, personnel-independent training pipeline",
+      "evidence_quote": "Vector delivers a spectrum of relevant, up-to-date capabilities, rather than outdated, standalone products or platforms. Our service model ensures operators are equipped with the latest skills and tactics needed to outpace and outperform near-peer threats",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The SOCOM contract explicitly covers 'drones, integration services, and other capability delivery,' but nothing in Vector's own language addresses spares, battery/charging logistics, or field-level repair once a drone is damaged mid-deployment",
+      "operator_reality": "a team-level operator who cracks a rotor or drains a battery pack in the field needs a documented sustainment path (spares kit, repair turnaround, GFE integration) — 'capability delivery' language describes the handoff, not the multi-year tail the contract itself implies",
+      "why_likely_missing": "the company's public narrative is built for initial-fielding credibility (who they are, why to trust them), not for describing the unglamorous logistics tail of a multi-year contract",
+      "evidence_quote": "Vector Wins Multi-Million Dollar Contract with U.S. Special Operations Command...the agreement involves providing drones, integration services, and other capability delivery",
+      "quote_source": "news"
+    }
+  ],
+  "opener_hook": "Vector's SOCOM contract from September 2025 covers 'drones, integration services, and other capability delivery' — worth a conversation about who owns sustainment once the operator-cadre that won the trust rotates off the account.",
+  "confidence": "medium",
+  "stage_band": "unknown",
+  "what_they_do": "Modern Warfare as-a-Service company, led by former special operators, providing drones, integration services, and tactical UAS training to U.S. and allied warfighters, with a current SOCOM contract."
+}

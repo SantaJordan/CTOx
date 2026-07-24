@@ -1,0 +1,16 @@
+{
+  "company": "Seasats",
+  "slug": "seasats",
+  "domain": "seasats.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Genuine and deep DoD motion (defense-grade ASVs, GPS-denial ops, Group 1/2 UAS compatibility), but they've crossed the valley: a $24M FY-26 APFIT award — a program that exists specifically to 'accelerate and scale production' of already-validated tech recommended by the Navy and Marine Corps — funds scaling Lightfish production, not a stuck prototype (News section, three independent outlets).",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Builds long-endurance autonomous surface vessels (Lightfish, Quickfish, Heavyfish) for maritime domain awareness and defense/commercial/scientific missions; just won a $24M APFIT award to scale production."
+}

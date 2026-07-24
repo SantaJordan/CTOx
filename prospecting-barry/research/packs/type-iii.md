@@ -165,16 +165,20 @@ If you’re building advanced materials, defense tech, or critical manufacturing
 Honestly, I've never heard of this, despite being in public sector contracting, funding and tech development for most of my adult life.
 
 O
-- FAQ: Award Types - Fiscal Data Community () https://onevoicecrm.my.site.com/usaspending/s/article/FAQ-Award-Types
-  USAspending Community
+- SDA awards L3Harris, Sierra $1.75B for missile defense satellites - Breaking Defense (2026-07-14) https://breakingdefense.com/2026/07/sda-awards-l3harris-sierra-1-75b-for-missile-defense-satellites/
+  SDA awards L3Harris, Sierra $1.75B for missile defense satellites - Breaking Defense
 
-Loading
-- Appropriation Categories - Funding Type () https://acqnotes.com/acqnote/acquisitions/appropriation-categories
-  Appropriation Categories - Funding Type - AcqNotes
+Space Development Agency Tranche 3 Tracking Layer satellites will keep eyes on both ballistic and hypersonic missiles, as well as provide precise targeting data to interceptors. (Graphic: L3Harris)
 
-Appropriation Categories are categories of government funding that group funds into areas of interest. Budget authority from Congress is required to incur obligations and pay costs associated with carrying out an acquisition program. Typically, Congress authorizes expenditures through an appropriations act, which details the authorized uses of the funds and the dollar amounts associated with each appropriation.
+WASHINGTON —The Space Development Agency has awarded L3Harris Technologies and Sierra Space contracts worth a total of $1.75 billion to develop 36 satellites for missile warning, tracking and targeting in support of
+- Defense Award | SP470123C0033 | SBIR PHASE III AWARD () https://www.federalcompass.com/award-contract-detail/SP470123C0033
+  Defense Award | SP470123C0033 | SBIR PHASE III AWARD
 
-Definition: Appropriation Accoun
+# SP470123C0033 - SBIR PHASE III AWARD
+
+##### Federal Contract Award Search » Definitive Contract Award
+
+This Definitive Contract contract for Aerospace & Defense Research and Development was awarded in FY2023 on Aug 30, 2023 to PARTS LIFE INC by Defense Logistics Agency (DLA). There have been $4.5M in obligations to date with a ceiling value of $4.5M, showing a 100% burn rate so far on the contract. The contract was competed under Small Busi
 
 ## Open roles
 (no jobs data found)

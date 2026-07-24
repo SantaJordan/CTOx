@@ -460,7 +460,7 @@ Our OverDrive autonomy stack enables ground vehicles to navigate off-road withou
 Overland AI is developing these capabilities and putting them into the hands of tactical operators today. Partnering with the U.S. Army, Marine Corps, SOCOM, DARPA, an
 
 ## News (Exa, top 3)
-- Overland AI Is the First Ground Autonomy Company to Prime a Production Contract for the U.S. Military • Overland AI () https://www.overland.ai/news/overland-ai-is-the-first-ground-autonomy-company-to-prime-a-production-contract-for-the-u-s-military
+- Overland AI Is the First Ground Autonomy Company to Prime a ... (2026-06-29) https://www.overland.ai/news/overland-ai-is-the-first-ground-autonomy-company-to-prime-a-production-contract-for-the-u-s-military
   Overland AI Is the First Ground Autonomy Company to Prime a Production Contract for the U.S. Military • Overland AI
 
 Back to NEWS
@@ -496,10 +496,10 @@ Monday, Jun 29, 2026
 The contract was awarded this month to Overland AI, a Seattle-based company. (Overland AI)
 
 As the Marine Corps continues its pursuit of ground-based air defense against hostile drones and low-flying enemy aircraft, it’s making a milestone investment: a first-of-i
-- Overland AI lands Marine Corps deal worth nearly $20M to build self-driving military vehicles – GeekWire (2026-07-03) https://www.geekwire.com/2026/overland-ai-lands-marine-corps-deal-worth-nearly-20m-to-build-self-driving-military-vehicles/
-  Overland AI lands Marine Corps deal worth nearly $20M to build self-driving military vehicles – GeekWire
+- Overland AI nets Marine Corps autonomous ground vehicle contract (2026-06-30) https://breakingdefense.com/2026/06/overland-ai-nets-marine-corps-autonomous-ground-vehicle-contract/
+  Overland AI nets Marine Corps autonomous ground vehicle contract - Breaking Defense
 
-We use essential cookies to make our site work. With your consent, we may also use non-essential cookies to improve user experience, personalize advertisements, and analyze website traffic. For these reasons, we may share your site usage data with our social media, advertising, and analytics partners. By clicking “Accept,” you agree to our website's cookie use as described in our Cookie Poli
+U.S. Marines with the 26th Marine Expeditionary Unit (MEU), track a simulated adversary vessel using the Light Marine Air Defense Integrated System (L-MADIS), and a Counter Unmanned Aerial Surveillance Utility Task Vehicle, during a defense of the amphibious task force (DATF) drill aboard the Wasp-Class Amphibious Assault Ship USS Bataan (LHD 5) Jan. 28, 2023. (U.S. Marine Corps photo by Cpl. Matthew Romonoyske-
 
 ## Open roles (Blitz, live)
 - Technical Lead - Compute Platform and Optimization ({'city': 'Seattle', 'country_code': 'US'})

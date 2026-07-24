@@ -1,0 +1,25 @@
+{
+  "company": "Aerobotics7",
+  "slug": "aerobotics7",
+  "domain": "flya7.com",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "None in their own artifacts: no SBIR, no DoD/DIU/AFWERX engagement, no contract news. Their site says they work with \"governments, international organizations, and humanitarian agencies\"; recognition is the Kluz Prize for PeaceTech — humanitarian demining framing throughout. The 'military users' claim appears only in an Exa aggregator summary, which the gate rules insufficient.",
+  "disconnect_score": 0,
+  "subscores": {
+    "lab_language_intensity": 0,
+    "deployment_awareness_absence": 0,
+    "operator_absence": 0,
+    "hiring_profile_skew": 0,
+    "stage_pressure": 0
+  },
+  "score_evidence": [
+    "\"Aerobotics7 works with governments, international organizations, and humanitarian agencies to address the threat\" → own language is humanitarian demining, not DoD customer motion",
+    "News section is a PeaceTech prize profile and a design-magazine feature; no SBIR award, contract record, or defense-customer artifact anywhere in the pack"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Drone-mounted sensing and AI platform (EAGLE A7) for detecting and mapping buried landmines and UXO, aimed at humanitarian demining."
+}

@@ -3,7 +3,7 @@ slug: image-insight-inc | domain: imageinsightinc.com | HQ: East Hartford, Conne
 sources: sbir
 industry(LI): Public Safety | specialties: sensor fusion, radiation detection, image analysis, drone detection, contract r&d
 channel notes: SBIR PhII x2 [2022] Air Force latest: Low-cost Widespread Security Camera Based C-UAS Detection hq: East Hartford,CT emp: 3
-own-language word count: ~1541
+own-language word count: ~1721
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -122,6 +122,61 @@ Image Insight and GammaPix have twice gone through the Department of Homeland Se
 
 Our integrated live-virtual reality training simulator enables personnel to train in their local areas against virtual threats in a real-world scenario. These training sessions have been successfully employed by military, police, and other frontline r
 
+URL: https://imageinsightinc.com/home#solutions
+Image Insight | Enhance Security Today — Learn More
+
+Solutions
+
+Contact us
+
+## ProtectingPeopleandPlaces
+
+#### Image Insight’s mission is simple: keep you safe.We create breakthrough technologies that empower everyday cameras and devices to do the extraordinary - detect threats, prevent harm, and protect lives.
+
+---
+
+## InnovatingSecurityThroughSmartDetection
+
+---
+
+#### SOLUTIONS
+
+Image Insight, Inc. transforms ordinary imaging devices into powerful detection tools. Our patented software technologies enable unmodified cameras and mobile devices to identify radiological and aerial threats — affordably and at scale.
+
+Our solutions deliver wide-area, low-cost threat detection to:
+
+Detect radioactive threats and lost radiation sources
+
+Counter-radiological terrorism and enable WMD response
+
+Protect transportation and critical infrastructure
+
+Protect civilians, first responders, and military personnel
+
+Support emergency response and management professionals
+
+Detect nighttime drone activity and other aerial and maritime threats
+
+We proudly serve first responders, defense agencies, federal, state, and local governments, and integrators who embed our tools into enterprise-level systems.
+
+At Image Insight, we believe security shouldn’t break the budget. Through relentless innovation and research, we’re reshaping the future of public safety.
+
+---
+
+## Pioneering Image Analysis Solutions for a Safer World
+
+---
+
+#### ABOUT US
+
+Image Insight, Inc. (I3) is a Connecticut-based small business specializing in advanced image analytics. Our mission is simple yet vital - To protect people and places. We develop advanced, affordable technologies for detecting and preventing radiation threats — from accidents and theft to acts of radiological terrorism.
+
+Our patented core products — GammaPix™ and LookOut™ — redefine how cameras perceive the world. Trusted by first responders, federal, state, and local governments, and enterprise integrators, GammaPix turns unmodified mobile devices and CCTV cameras into radiation detectors.
+
+LookOut™ transforms security cameras into smart sensors that detect nighttime drone activity and other aerial and maritime threats. LookOut strengthens public safety and helps secure critical infrastructure.
+
+Our team has been awarded more than 100 contracts and task orders from leading U.S. agencies including the Department of Defense and the Department of Homeland Security. GammaPix has been extensively tested by national laboratories in the U.S. and inter
+
 URL: https://imageinsightinc.com/#about-us
 Image Insight | Enhance Security Today — Learn More
 
@@ -163,19 +218,7 @@ At Image Insight, we believe security shouldn’t break the budget. Through rele
 
 ---
 
-## Pioneering Image Analysis Solutions for a Safer World
-
----
-
-#### ABOUT US
-
-Image Insight, Inc. (I3) is a Connecticut-based small business specializing in advanced image analytics. Our mission is simple yet vital - To protect people and places. We develop advanced, affordable technologies for detecting and preventing radiation threats — from accidents and theft to acts of radiological terrorism.
-
-Our patented core products — GammaPix™ and LookOut™ — redefine how cameras perceive the world. Trusted by first responders, federal, state, and local governments, and enterprise integrators, GammaPix turns unmodified mobile devices and CCTV cameras into radiation detectors.
-
-LookOut™ transforms security cameras into smart sensors that detect nighttime drone activity and other aerial and maritime threats. LookOut strengthens public safety and helps secure critical infrastructure.
-
-Our team has been awarded more than 100 contracts and task orders from leading U.S. agencies including the Department of Defense and the Department of Homeland Security. GammaPix has been extensively tested by national laboratories in the U.S. an
+## Pi
 
 ## LinkedIn about
 
@@ -189,52 +232,22 @@ Adversaries use inexpensive unmanned aerial systems (UAS) to execute lethal atta
 Adversaries may use inexpensive Radiological Dispersal Devices (RDD or “Dirty Bombs”) to execute potentially lethal attacks, disrupt military or civilian operations, or cause catastrophic economic harm. Other radiological or nuclear attacks or accidents also have devastating national security and public safety consequences. To counter this threat, Image Insight Inc. developed GammaPix technology that enables unmodified digital cameras to detect radioactive materials. This proven and commercially available (TRL-9) video analysis software technology is sold to military, public safety, and medical research sectors, and has been designated a Qualified Anti-Terrorism Technology under the DHS-administered SAFETY Act. Many Explosive Ordnance Disposal (EOD) teams use robots to reduce the risk of death or injury to bomb disposal technicians. Unfortunately, most EOD robots do not carry radiation detection equipment, so EOD teams often do not have a way to determine if they are facing a Dirty Bomb. The aim of this project is to adapt and integrate GammaPix with these robots. This low-risk, high-reward project increases the safety and effectiveness of both military and civilian bomb disposal units by enabling every EOD robot to detect radioactive threats.  Image Insight builds and sells other video analysis software using proprietary algorithms and Machine Learning Cyber-Physical Sensing techniques. In addition to software designed to detect radioactivity, Image Insight maps ionizing radiation for public safety purposes. Another video analysis product that leverages machine learning techniques is our LaUDS™ technology, which enables unmodified security cameras to detect unmanned aerial vehicle (“drone”) threats at night using unmodified security cameras. This technology will be integrated with our GammaPix commercial products to augment force protection and intelligence-gathering capabilities and to secure public spaces to keep civilians safe from aerial threats.  USAF will greatly benefit from this technology by gaining an enhanced radiation detection capability that will keep EOD technicians better informed as they face threats.  Moreover, warfighters can use this technology when forced to fight in a nuclear-contaminated zone. The capability to avoid or fight-through a fallout zone will help improve our collective ability to deter aggression.
 
 ## News (Exa, top 3)
-- Image Insight | Enhance Security Today — Learn More () https://www.imageinsightinc.com/
-  Your Site Title | Enhance Security Today — Learn More 
+- image insight inc. (2026-06-22) https://imageinsightinc.com/
+  # Image Insight Inc.
 
-Solutions
+Image Insight Inc. is a Public Safety company. Image Insight creates breakthrough technologies that empower everyday cameras and devices to do the extraordinary - detect threats, prevent harm, and protect lives. They transform ordinary imaging devices into powerful detection tools. Image Insight Inc. employs 3 people (-9.1% YoY, -1 person), founded in 2010. Headquartered in East Hartford, Connecticut, United States. Has $40K in total funding.
 
-About Us
+## About
 
-Our Products
+Image Insight Inc. s
+- image insight - capturing smiles worldwide (2026-06-21) https://imageinsight.com/
+  # Image Insight - Capturing Smiles Worldwide
 
-Resellers
+Image Insight - Capturing Smiles Worldwide is a Photography company. Image Insight is a company that provides instant photo printing solutions for quality souvenir photos. They offer a range of services including chroma key photography, digital image delivery, led video wall green screen, ride and coaster photography, creative and design services, guest to image association, system integration, roving photography, installation, and automated photo so
+- National Geospatial-Intelligence Agency Awards Orbital Insight with Phase II SBIR Contract (2021-12-16) https://www.prnewswire.com/news-releases/national-geospatial-intelligence-agency-awards-orbital-insight-with-phase-ii-sbir-contract-301446100.html
+  National Geospatial-Intelligence Agency Awards Orbital Insight with Phase II SBIR Contract Accessibility Statement Skip Navigation
 
-Contact us
-
-## Protecting People and Places
-
-#### Image Insight’s mission is simple: keep you safe.We create breakthrough technologies that empower everyday cameras and devices to do the extraordinary - detect threats, prevent harm, and protect lives.
-
----
-
-## Innovating Security Through Smart Detection
-
----
-
-#### SOLUTIONS
-
-Image Insight, Inc. transforms ordinary imaging devices into powerful d
-- Image Matters awarded JAIC contract - Intelligence Community News (2022-02-11) https://intelligencecommunitynews.com/image-matters-awarded-jaic-contract/
-  Image Matters awarded JAIC contract - Intelligence Community News
-
-# Image Matters awarded JAIC contract
-
-By Loren Blinde February 11, 2022
-
-0 Comments
-
-On February 1, Leesburg, VA-based Image Matters LLC announces it received an award under the $249M Joint Artificial Intelligence Center (JAIC) Test & Evaluation (T&E) Blanket Purchase Agreement (BPA). This contract is crucial to advancing AI solutions across the U.S. Government.
-
-The JAIC T&E BPA centers on satisfying testing and evaluation requ
-- InterImage Awarded Position on DIA SITE III Contract | (2021-03-30) https://www.iimage.com/interimage-awarded-position-on-dia-site-iii-contract/
-  InterImage Awarded Position on DIA SITE III Contract |
-
-##### News
-
-## InterImage Awarded Position on DIA SITE III Contract
-
-Arlington, VA-based InterImage, Inc. announced on March 30 that it has been awarded a position on the Defense Intelligence Agency (DIA) SITE III contract vehicle — a $12 billion multiple-award, 10-year contract in support of the DIA and National Geospatial-Intelligence Agency (NGA). The SITE III contract provides managed IT services such as infrastructure development and s
+PALO ALTO, Calif., Dec. 16, 2021 /PRNewswire/ -- Orbital Insight, the leader in geospatial intelligence, has been awarded a Phase II Small Business Innovation Research (SBIR) contract from the National Geospatial-Intelligence Agency (NGA). The Phase II contract is a result of the successful outcome of Orbital Insight's Phase I collaboration on the use of synthetical
 
 ## Open roles
 (no jobs data found)

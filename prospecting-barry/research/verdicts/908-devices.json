@@ -1,0 +1,16 @@
+{
+  "company": "908 Devices",
+  "slug": "908-devices",
+  "domain": "908devices.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Multi-year $25M Army purchase order for 350+ MX908 devices in EOD Render Safe Sets, $10.4M USAF order, and initial-production phase of a DoD chemical agent detector program (news section).",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Public company (Nasdaq: MASS, ~212 employees) making handheld mass-spec and chemical-ID devices fielded at scale with the Army, USAF, and first responders — long past the prototype-to-fielded gap."
+}

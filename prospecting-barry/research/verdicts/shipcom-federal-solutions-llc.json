@@ -1,0 +1,16 @@
+{
+  "company": "Shipcom Federal Solutions, LLC",
+  "slug": "shipcom-federal-solutions-llc",
+  "domain": "shipcomfederal.com",
+  "verdict": "insufficient_evidence",
+  "drop_reason": "",
+  "dod_intent_evidence": "SBIR Phase II Air Force award 2022/2024 and additional Navy SBIR Phase I 2025 (own-abstracts and News sections) show genuine DoD motion, but the pack has essentially no company-authored product description.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "low",
+  "stage_band": "unknown",
+  "what_they_do": "AI/ML-enabled data fabric for obsolescence prediction and advanced manufacturing under Air Force/Navy SBIR contracts — no own-language site or LinkedIn content available in pack (~38 words)."
+}

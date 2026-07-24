@@ -1,0 +1,37 @@
+{
+  "company": "Redwall Technologies, LLC",
+  "slug": "redwall-technologies-llc",
+  "domain": "redwall.us",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Multiple U.S. Marine Corps SBIR Phase I/II awards and extensions (2017, 2018, 2021 press releases) plus a Navy SBIR Phase II ($1,024,246, 2023) for 'Redwall Mobile Resilient Operating System with Multi-Level Security' — sustained, explicit DoD motion across three services over a decade.",
+  "disconnect_score": 41,
+  "subscores": {"lab_language_intensity": 3, "deployment_awareness_absence": 4, "operator_absence": 10, "hiring_profile_skew": 10, "stage_pressure": 14},
+  "score_evidence": [
+    "'Redwall is designed for SWAP-constrained devices, and requires no connectivity or specialized hardware' → deployment_awareness_absence scored low, they're SWaP-C and DDIL fluent",
+    "'Redwall's technology is not ITAR or CCI restricted, and we welcome inquiries from all US allies... works with industry partners to offer a variety of 8(a) contract vehicles' → deployment_awareness_absence low, explicit ITAR and contract-vehicle fluency",
+    "No jobs data found in pack → hiring_profile_skew set to exactly 10 per rules",
+    "Company founded 2013, still only 5-7 employees per LinkedIn/SBIR firm record as of the 2023 Navy Phase II award — twelve years of SBIR renewals (2017 USMC Phase I, 2018 Phase I option, 2021 Phase II extension, 2023 Navy Phase II) without a visible graduation to program-of-record scale → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "The product's multi-persona/multi-level security model is described entirely as a device-level technical capability, with no mention of who trains an operator to use, switch, or recover personas in the field, or what happens when a persona becomes corrupted at a forward location with no reachback to Beavercreek, OH.",
+     "operator_reality": "A resilience feature that 'restores from a back-up' assumes someone at the tactical edge knows how to trigger and validate that restore under time pressure — without documented operator training/sustainment, the sophisticated security model becomes shelfware the first time it needs field recovery.",
+     "why_likely_missing": "Redwall's public materials are written for security architects and program evaluators, not for the sustainment/training audience, since the company is small (5-7 people) and likely has no dedicated field-support function yet.",
+     "evidence_quote": "'Critical resources that are files are checked prior to use... corruption is detected, and the critical resource is restored to an uncorrupted state from a back-up'",
+     "quote_source": "sbir_abstract"},
+    {"blind_spot": "No mention anywhere of an ATO/RMF pathway or STIG compliance, despite operating deep in the Android kernel and being pitched for mission-critical and defense devices that would need to run on government networks.",
+     "operator_reality": "A kernel-level security product is exactly the kind of component that draws the longest ATO review; without a stated RMF/STIG story, the program office evaluating Redwall has to build that case from scratch, adding months the SBIR period of performance may not have.",
+     "why_likely_missing": "The company's messaging leads with the technical differentiation (patented multi-persona isolation) rather than the acquisition/compliance path, common for a small, engineering-led team without a dedicated compliance function.",
+     "evidence_quote": "'Redwall's patented multi-layered approach has proven to be completely resistant to zero-day threats... making it suitable for your mission-critical devices'",
+     "quote_source": "homepage"},
+    {"blind_spot": "Every public proof point is a historical SBIR press release (2017, 2018, 2021) with the same USMC relationship renewed via Phase I option and Phase II extension rather than a named fielded unit count or program of record.",
+     "operator_reality": "Operators loving a pilot is not adoption — repeated SBIR renewals with the same customer over years, without a visible transition contract, is the exact pattern of a program stalling in the valley of death while the underlying company stays small.",
+     "why_likely_missing": "A 5-7 person company likely lacks a champion above the program-level sponsor advocating for a production contract, so the relationship keeps renewing at the SBIR level instead of escalating.",
+     "evidence_quote": "'the United States Marine Corps has awarded the Option on their SBIR contract. This nine-month SBIR Phase II extension is valued at $499,733'",
+     "quote_source": "news"}
+  ],
+  "opener_hook": "Redwall's Navy SBIR Phase II for its Resilient Operating System runs through 2026 on top of a USMC SBIR relationship that's been renewing via options and extensions since 2017.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Patented mobile/IoT/SCADA device security (Redwall Mobile) offering multi-persona cryptographic isolation and kernel-level hardening for defense, medical, public-safety, and enterprise devices."
+}

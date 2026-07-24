@@ -1,0 +1,16 @@
+{
+  "company": "Truffle Security Co.",
+  "slug": "truffle-security",
+  "domain": "trufflesecurity.com",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "No DoD/military/warfighter language, SBIR record, or defense contract news anywhere in the pack — customers cited are Gett and Klaviyo (commercial), funding is a16z/Intel Capital-led Series B, and the source is a VC portfolio list (vc:harpoon), which per doctrine is not sufficient by itself.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Commercial secrets-detection and non-human-identity (NHI) credential security platform (TruffleHog) for developer/security teams; no evident defense-sector motion."
+}

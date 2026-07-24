@@ -1,0 +1,16 @@
+{
+  "company": "Vannevar Labs",
+  "slug": "vannevar-labs",
+  "domain": "vannevarlabs.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "News: DIU Production OT award ($99M ceiling, 2024-11-18) transitioning RIE program to production 'for use across the joint force'; own words claim '125 deployments spanning every service branch and combatant command' — genuine and extensive DoD motion, but far past the prototype-to-fielded gap.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "AI/software platform for national-security decision advantage — OSINT/data collection, targeting, and information operations fielded across DoD service branches and combatant commands."
+}

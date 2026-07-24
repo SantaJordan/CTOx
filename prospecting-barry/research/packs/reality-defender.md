@@ -3,7 +3,7 @@ slug: reality-defender | domain: realitydefender.com | HQ: New York,  US | emplo
 sources: vc:booz-ventures|vc:new-north
 industry(LI): Computer and Network Security | specialties: deepfake detection, generative ai, genai, cybersecurity, deepfake fraud, agentic voice fraud, deepfake audio fraud, kyc fraud, idv fraud
 channel notes: deepfake detection || deepfake detection platform
-own-language word count: ~1353
+own-language word count: ~1351
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -226,9 +226,9 @@ Learn how leading enterprises and government agencies have deployed Reality Defe
 URL: https://realitydefender.com/solutions/contact-center-security
 Detect Deepfakes in Contact Centers — Reality Defender
 
-### Reality Defender Launches Free Access to Deepfake Detection API
-
 ### Reality Defender Wins “Most Innovative Startup” at RSA Conference Innovation Sandbox
+
+\Insight\Apr 02, 2025
 
 \
 
@@ -298,9 +298,15 @@ From financial institutions to government agencies, Reality Defender helps organ
 
 ### Finance
 
+Finance
+
 ### Government
 
+Government
+
 ### Enterprise
+
+Enterprise
 
 \
 
@@ -308,7 +314,7 @@ Resources
 
 ## Access Expert Insights on Deepfake Detection
 
-Stay ahead of evolving threats with expert analysis, industry updates, 
+Stay ahead of evolving threats with expert analysis, industry updates, and emerging 
 
 URL: https://www.realitydefender.com/lp/gartner
 Deepfake detection now has a market map — Reality Defender
@@ -386,6 +392,8 @@ RSA Innovation Sandbox-winning AI-generated media detection platform accelerates
 NEW YORK, Oct. 22, 2024 /PRNewswire/ -- Reality Defender, the premier deepfake and AI-generated media detection platform, announced today that its Series A fundraising has been expanded, securing a total of $33 million in
 
 ## Open roles (Blitz, live)
+- Data Engineer ({'city': 'New York', 'country_code': 'US'})
+- Data Engineer ({'city': 'New York', 'country_code': 'US'})
 - Technical Account Manager ({'city': 'New York', 'country_code': 'US'})
 - Technical Account Manager ({'city': 'New York', 'country_code': 'US'})
 - UX Engineer ({'city': 'New York', 'country_code': 'US'})
@@ -394,8 +402,6 @@ NEW YORK, Oct. 22, 2024 /PRNewswire/ -- Reality Defender, the premier deepfake a
 - Senior Software Engineer, Enterprise Integrations ({'city': 'New York', 'country_code': 'US'})
 - Customer Support Engineer ({'city': 'New York', 'country_code': 'US'})
 - Sales Enablement Content Strategist ({'city': 'New York', 'country_code': 'US'})
-- Staff AI Engineer (Audio) ({'city': 'New York', 'country_code': 'US'})
-- Audio ML Engineer II ({'city': 'New York', 'country_code': 'US'})
 
 ---
 # Context for the scoring agent (do not re-search)

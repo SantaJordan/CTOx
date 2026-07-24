@@ -377,7 +377,7 @@ Sender: Aircraft ID 23BTrack Index: 1112Altitude: 28,000 ftVelocity: 520 knots F
 Former military officers who stood up U.S. Army Cyber Command and pioneered modern weapons system cyber assessments founded Shift5 to transform untapped operational technology into actionable insights that enable peak performance and cyber resilience for America’s defense and transportation systems. Built for the field and tested in the most demanding environments, Shift5\'s Operational Intelligence platform equips operations, maintenance, and cybersecurity teams with the infrastructure and analytics to detect threats, anticipate failures, and respond with confidence. Today, military customers
 
 ## News (Exa, top 3)
-- Shift5 Secures Multiple Award IDIQ Contract for U.S. Air ... (2024-11-06) https://shift5.io/insights/shift5-idiq-contract-usaf-ro/
+- Shift5 Secures Multiple Award IDIQ Contract for U.S. Air Force ... (2024-11-06) https://shift5.io/insights/shift5-idiq-contract-usaf-ro/
   Shift5 Secures Multiple Award IDIQ Contract for U.S. Air Force Rapid Sustainment Office to Provide Observability Solutions for Onboard OT - Shift5
 
 # S5/Insights
@@ -391,12 +391,22 @@ Insights
 November 6, 2024
 
 AerospaceDefenseWeapon Syst
-- Shift5 Awarded Key Contract for AF's Fighter of Choice ... (2025-12-04) https://www.prnewswire.com/news-releases/shift5-awarded-key-contract-for-afs-fighter-of-choice-the-f-16-fighting-falcon-302632851.html
-  Shift5 Awarded Key Contract for AF's Fighter of Choice, the F-16 Fighting Falcon Accessibility Statement Skip Navigation
+- Shift5 Awarded Key Contract for AF's Fighter of Choice, the F-16 Fighting ... (2025-12-04) https://shift5.io/insights/shift5-awarded-key-contract-f-16-fighting-falcon/
+  Shift5 Awarded Key Contract for AF's Fighter of Choice, the F-16 Fighting Falcon - Shift5
 
-Company selected to develop next-generation upgrades for U.S. Air Force F-16 fleet
+# S5/Insights
 
-ARLINGTON, Va., Dec. 4, 2025 /PRNewswire/ -- Shift5, the Operational Intelligence platform for America's defense and transportation systems, today announced it has been awarded a significant contract to develop MIL-STD-1553 Databus upgrades for the United States Air Force's F-16 fleet. The mul
+Insights
+
+/ Shift5 Awarded Key Contract for AF's Fighter of Choice, the F-16 Fighting Falcon
+
+# Shift5 Awarded Key Contract for AF's Fighter of Choice, the F-16 Fighting Falcon
+
+December 4, 2025
+
+## Company selected to develop next-generation upgrades for U.S. Air Force F-16 fleet
+
+ARLINGTON, Va., Dec. 4, 2025 - Shift5, the Operational Intelligence platform for America's defense and transpor
 - CONTRACT to SHIFT5, INC. () https://www.usaspending.gov/award/CONT_AWD_FA861225CB001_9700_-NONE-_-NONE-
   USAspending.gov
 

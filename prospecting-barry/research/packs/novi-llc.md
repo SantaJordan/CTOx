@@ -241,49 +241,7 @@ NOVI Space, Inc.(NOVI) is a Space AI infrastructure and compute company, providi
 While the last decade has seen explosive growth in the number of small satellites being launched into Low Earth Orbit (LEO) for a variety of use-cases, there is a critical need to increase the degree of autonomy through use of “edge intelligence” for data processing and fusion on the collection platform itself (vs. transmitting large amounts of raw information to the ground for “after-the-fact” terrestrial analysis and action). In the specific context of an MDA mission, there is particular need for sensor-agnostic, near real-time detection in a low-SWaP (size, weight and power) cross-platform product that can easily be reprogrammed and reconfigured for adaptive imaging in space and exo-atmospheric applications. As part of the Phase II effort proposed herein, NOVI will support space edge experiments and demonstrations for an integrated imager and on board processor manifested for launch to the International Space Station as part of the STP H10 mission in December 2024, including: Design, fabrication and testing of the mechanical and electrical components needed to interface NOVI's payload with the STP pallet; Pre-launch experimental testing; Launch integration; and In-space experimentation to demonstrate on-board processing and detection of features on interest in an adaptive imaging model. Approved for Public Release | 23-MDA-11635 (9 Nov 23)
 
 ## News (Exa, top 3)
-- Award | SBIR () https://www.sbir.gov/awards/218374
-  Award | SBIR Skip to main content
-
-# Award
-
-Portfolio Data
-
-Back to Award Search
-
-## A Proliferated, Low-Cost Satellite Platform for AI Software Development, Testing and Warfighter Training
-
-### Awardee
-
-#### NOVI Space Inc.
-
-2700 S Quincy Street Suite 704ARLINGTON, VA, 22206-3601USA
-
-Award Year: 2025
-
-UEI: TT19XWV9F2L1
-
-HUBZone Owned: No
-
-Woman Owned: No
-
-Socially and Economically Disadvantaged: No
-
-Congressional District: N/A
-
-Tagged as:
-
-SBIR
-
-Phase I
-
-### Awarding Agency
-
-DOD
-
-Branch: OSD
-
-T
-- NOVI Selected for MDA's SHIELD IDIQ Program (2025-12-03) https://www.linkedin.com/posts/novispace-inc_mda-shield-edgeintelligence-activity-7402084515843837952-9np4
+- NOVI is pleased to announce it was awarded a contract/s for the Missile Defense Agency Scalable Homeland Innovative Enterprise Layered Defense (SHIELD) indefinite-delivery/indefinite-quantity (IDIQ) contract with a ceiling of $151B. This contract … | NOVI (2025-12-03) https://www.linkedin.com/posts/novispace-inc_mda-shield-edgeintelligence-activity-7402084515843837952-9np4
   # NOVI is pleased to announce it was awarded a contract/s for the Missile Defense Agency Scalable Homeland Innovative Enterprise Layered Defense (SHIELD) indefinite-delivery/indefinite-quantity (IDIQ) contract with a ceiling of $151B. This contract … | NOVI · LinkedIn · 2025-12-03
 
 **NOVI**: NOVI is building an infrastructure of AI enabled hardware and satellites, bringing compute into orbit. Decrease costs by downlinking only the data you need. NOVI has 10-20 employees, founded in 2017. Headqua
@@ -331,6 +289,48 @@ Branch: MDA
 Total Award Amount: $1,687,059
 
 Contract Number: HQ0860-
+- Award | SBIR () https://www.sbir.gov/awards/218374
+  Award | SBIR Skip to main content
+
+# Award
+
+Portfolio Data
+
+Back to Award Search
+
+## A Proliferated, Low-Cost Satellite Platform for AI Software Development, Testing and Warfighter Training
+
+### Awardee
+
+#### NOVI Space Inc.
+
+2700 S Quincy Street Suite 704ARLINGTON, VA, 22206-3601USA
+
+Award Year: 2025
+
+UEI: TT19XWV9F2L1
+
+HUBZone Owned: No
+
+Woman Owned: No
+
+Socially and Economically Disadvantaged: No
+
+Congressional District: N/A
+
+Tagged as:
+
+SBIR
+
+Phase I
+
+### Awarding Agency
+
+DOD
+
+Branch: OSD
+
+T
 
 ## Open roles
 (no jobs data found)

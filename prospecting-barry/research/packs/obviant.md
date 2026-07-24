@@ -236,6 +236,14 @@ FY27 Budget New
 Obviant unifies national security acquisition data—from requirements and budgets to contracts and vendors—into real-time, source-backed insights that speed decisions and delivery.
 
 ## News (Exa, top 3)
+- Startup Obviant wins $99M from DIU for AI acquisition data analytics (2025-11-07) https://breakingdefense.com/2025/11/startup-obviant-wins-99m-from-diu-for-ai-acquisition-data-analytics/
+  Startup Obviant wins $99M from DIU for AI acquisition data analytics - Breaking Defense
+
+Inside of the digital data and network connection on a dark blue background. (Getty Images)
+
+WASHINGTON — The Defense Innovation Unit, the Pentagon’s outreach arm to the tech industry, has hired AI startup Obviant to help the military make sense of its own spending, according to a company announcement.
+
+The first user planned is DIU itself, but if Obviant’s prototype proves successful, the contract includes 
 - Obviant Receives a Prototype OT Funded by DIU to Provide Authoritative Data Source of Truth to Accelerate Capability Delivery to the Warfighter (2025-11-04) https://www.businesswire.com/news/home/20251104418286/en/Obviant-Receives-a-Prototype-OT-Funded-by-DIU-to-Provide-Authoritative-Data-Source-of-Truth-to-Accelerate-Capability-Delivery-to-the-Warfighter
   Obviant Receives a Prototype OT Funded by DIU to Provide Authoritative Data Source of Truth to Accelerate Capability Delivery to the Warfighter
 
@@ -250,14 +258,6 @@ Share
 Obviant’s data provides customers an edge in aligning resources with mission needs and making informed decisions
 
 ARLINGTON, Va.--(BUSINESS WIRE)--Obviant, the data intelligence platform transf
-- Startup Obviant wins $99M from DIU for AI acquisition data ... (2025-11-07) https://breakingdefense.com/2025/11/startup-obviant-wins-99m-from-diu-for-ai-acquisition-data-analytics/
-  Startup Obviant wins $99M from DIU for AI acquisition data analytics - Breaking Defense
-
-Inside of the digital data and network connection on a dark blue background. (Getty Images)
-
-WASHINGTON — The Defense Innovation Unit, the Pentagon’s outreach arm to the tech industry, has hired AI startup Obviant to help the military make sense of its own spending, according to a company announcement.
-
-The first user planned is DIU itself, but if Obviant’s prototype proves successful, the contract includes 
 - AI platform provider gets DIU-backed prototype award worth up to $99M | InsideDefense.com () https://insidedefense.com/insider/ai-platform-provider-gets-diu-backed-prototype-award-worth-99m
   AI platform provider gets DIU-backed prototype award worth up to $99M | InsideDefense.com
 

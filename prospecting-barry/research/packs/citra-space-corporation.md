@@ -3,7 +3,7 @@ slug: citra-space-corporation | domain: citra.space | HQ: Colorado Springs, Colo
 sources: vc:scout
 industry(LI): Space Research and Technology | specialties: 
 channel notes: defense-tech space startup by former military space officers
-own-language word count: ~1173
+own-language word count: ~1180
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -113,9 +113,9 @@ Privacy Policy – Privacy & Terms – Google
 
 Privacy & Terms
 
-## Privacy & Terms
+Privacy & Terms
 
-https://policies.google.com/privacy
+## Privacy & Terms
 
 # Google Privacy Policy
 
@@ -132,8 +132,6 @@ Take the Privacy Checkup
 Effective May 26, 2026 | Archived versions| Download PDF
 
 ## Contents
-
-Introduction
 
 Information Google collects
 
@@ -157,6 +155,7 @@ Related privacy practices
 
 We build a range of services that help millions of people daily to explore and interact with the world in new ways. Our services include:
 
+- Updates
 - Google apps, sites, and devices, like Search, YouTube, and Google Home
 - Platforms like the Chrome browser and Android operating system
 - Products that are integrated into third-party apps and sites, like ads, analytics, and embedded Google Maps
@@ -169,7 +168,7 @@ To help explain things as clearly as possible, we’ve added examples, explanato
 
 ## We want you to understand the types of information we collect as you use our services
 
-We collect information to provide better services to all our users — from figuring out basic stuf
+We collect information to provide better services to all our users — from figuring out basic stuff like which language yo
 
 URL: https://policies.google.com/terms
 Google Terms of Service – Privacy & Terms – Google
@@ -230,16 +229,6 @@ If you’re a parent or legal gua
   Citra Space Corp Announces $15M Series A to Advance Space Object Identification Technology Accessibility Statement Skip Navigation
 
 COLORADO SPRINGS, Colo., April 13, 2026 /PRNewswire/ -- Citra Space Corp, a space technology company developing space object identification (SOI) capabilities, today announced a $15 million Series A financing led by Washington Harbour Partners, with participation from Industrious Ventures, Reliable Properties, and existing investors including Scout VC, Squadra Ventu
-- Citra Space raises $15 million Series A to expand platform for identifying ... (2026-04-13) https://spacenews.com/citra-space-raises-15-million-series-a-to-expand-platform-for-identifying-objects-in-orbit/
-  Citra Space raises $15 million Series A to expand platform for identifying objects in orbit - SpaceNews
-
-Home/ Citra Space raises $15 million Series A to expand platform for identifying objects in orbit
-
-Illustration of Earth orbit
-
-COLORADO SPRINGS — Citra Space said it raised $15 million in a Series A funding round led by Washington Harbour Partners, as the Colorado-based startup looks to expand its software platform for identifying objects in orbit.
-
-The round included participation from Indu
 - citra space corporation (2026-06-26) https://citra.space/
   # Citra Space Corporation (Citra Space Corp)
 
@@ -248,6 +237,20 @@ Citra Space Corporation is a Space Research and Technology company. Citra provid
 ## Company Details
 - Industry: Space Research and Technology
 - Type: 
+- Citra Space Corp Announces $15M Series A to Advance Space Object Identification Technology | Morningstar (2026-04-13) https://www.morningstar.com/news/pr-newswire/20260413la31846/citra-space-corp-announces-15m-series-a-to-advance-space-object-identification-technology
+  Citra Space Corp Announces $15M Series A to Advance Space Object Identification Technology | Morningstar
+
+Sign In
+
+Citra Space Corp Announces $15M Series A to Advance Space Object Identification Technology
+
+## Citra Space Corp Announces $15M Series A to Advance Space Object Identification Technology
+
+PR Newswire
+
+COLORADO SPRINGS, Colo., April 13, 2026
+
+COLORADO SPRINGS, Colo., April 13, 2026 /PRNewswire/ -- Citra Space Corp, a space technology company developing space object identification (SOI
 
 ## Open roles (Blitz, live)
 - Contract Manager ({'city': 'Colorado Springs', 'country_code': 'US'})

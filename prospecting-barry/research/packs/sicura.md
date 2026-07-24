@@ -378,34 +378,6 @@ Organizations in regulated industries face challenges maintaining compliance acr
 The Sicura platform integrates security and compliance into DevOps workflows, saving customers millions and giving DevOps engineers their time back.
 
 ## News (Exa, top 3)
-- Contract Award: $13.3 State Sicura/Puppet IT Engineering services | OrangeSlices AI () https://orangeslices.ai/contract-award-13-3-state-sicura-puppet-it-engineering-services/
-  Contract Award: $13.3 State Sicura/Puppet IT Engineering services | OrangeSlices AI
-
-Opportunities
-
-- 🍊OS AI Premium: Solicitations
-- 🍊OS AI Premium: Forecasts
-- Contract Termination Reports
-- Expiring Tasks in 2026
-- FY2026 Expiring Tasks
-- FY2027 Expiring Tasks
-- Opportunities Home
-
-Agency Intel
-
-Department of Defense
-
-- US Navy
-- US Army
-- US Air Force
-- Defense Health Agency
-
-Federal Citizen Services
-
-- Small Business Administration
-- Housing and Urban Development
-- Department of Labor
-- Dep
 - SICURITALIA - SECURITAS CRITICAL INFRASTRUCTURE SERVICES INC JV — Federal Contract Award | GovCon Media Mosiac () https://govnews.mediamosiac.com/award.php?id=29716
   SICURITALIA - SECURITAS CRITICAL INFRASTRUCTURE SERVICES INC JV — Federal Contract Award | GovCon Media Mosiac
 
@@ -434,26 +406,42 @@ NAICS Code —
 Place of Performance CA
 
 Source ID 19AQMM21
-- DOD Contract Awards — Defense Spending Tracker (2026-07-16) https://forcedalpha.com/tools/dod-contracts/
-  DOD Contract Awards — Defense Spending Tracker | ForcedAlpha
+- Contract Award: $13.3 State Sicura/Puppet IT Engineering services | OrangeSlices AI () https://orangeslices.ai/contract-award-13-3-state-sicura-puppet-it-engineering-services/
+  Contract Award: $13.3 State Sicura/Puppet IT Engineering services | OrangeSlices AI
 
-### How to Read This Data
+Opportunities
 
-AWARD
+- 🍊OS AI Premium: Solicitations
+- 🍊OS AI Premium: Forecasts
+- Contract Termination Reports
+- Expiring Tasks in 2026
+- FY2026 Expiring Tasks
+- FY2027 Expiring Tasks
+- Opportunities Home
 
-New contract awards — actual dollars committed for specific work. This is real spending.
+Agency Intel
 
-MOD
+Department of Defense
 
-Contract modifications — changes to existing contracts. Can add scope, extend timelines, or increase funding.
+- US Navy
+- US Army
+- US Air Force
+- Defense Health Agency
 
-IDIQ
+Federal Citizen Services
 
-IDIQ ceiling — maximum possible value over the contract life. Not guaranteed spend — actual task orders are issued against this ceiling over time.
+- Small Business Administration
+- Housing and Urban Development
+- Department of Labor
+- Dep
+- Baltimore cybersecurity startup Sicura spins out of contractor with seed funding from Squadra (2021-09-24) https://technical.ly/startups/sicura-squadra-spinout/
+  Baltimore cybersecurity startup Sicura spins out of contractor with seed funding from Squadra
 
-TICKER
+The Sicura team in September 2021.
 
-Green left border = publicly traded 
+After spinning out from a Maryland government contractor and garnering seed investment and support from venture firm Squadra, the team at Sicura is setting out to grow a new startup focused on security and compliance automation in Baltimore.
+
+With Squadra applying a new studio model and Sicura seeing early market adoption, the team is working to build a high-growth c
 
 ## Open roles
 (no jobs data found)

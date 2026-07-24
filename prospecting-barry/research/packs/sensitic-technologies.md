@@ -3,7 +3,7 @@ slug: sensitic-technologies | domain: sensitictech.com | HQ: Pasadena, Californi
 sources: exa-agent:sensors-data-collection
 industry(LI): Defense and Space Manufacturing | specialties: 
 channel notes: Pre-seed / Seed U.S. Air Force SBIR Phase I recipient. dom: sensors status: prototype dod: Sensitic develops integrated sensor systems for space and defense and is preparing flight hardware for test under its Air Force-supported work. hq: Pasadena, California emp: 4 src: https://sensitictech.com/
-own-language word count: ~662
+own-language word count: ~663
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -157,6 +157,8 @@ Sensitic Technologies, LLC. is a California based limited liability corporation.
 
 Pasadena, CA 91105
 
+[email]
+
 ## Inquiry Details
 
 Use this form to reach out to discuss your project or questions.
@@ -187,56 +189,40 @@ Sensitic develops space and defense products primarily focused on integrated sen
 - Status: active
 - Aliases: sensitic technologies
 - Li
-- Award | SBIR () https://www.sbir.gov/awards/216862
-  Award | SBIR Skip to main content
+- USAspending: Government Spending Open Data () https://www.usaspending.gov/
+  Government Spending Open Data | USAspending
 
-# Award
+# The official source of government spending data
 
-Portfolio Data
+Track
 
-Back to Award Search
+Search Download Explore Analyze
 
-## Counter-sUAS Passive Detection, Tracking, and Kinetic Kill for Contingency Response Force
+government spending
 
-### Awardee
+over time
 
-#### TRIDENT SENSING, INC.
+by agencyto communitiesby industryby recipient
 
-https://www.sbir.gov/portfolio/1517115 635 South State StreetSalt Lake City, UT, 84111USA
+Start Searching AwardsLearn About USAspending.gov
 
-Award Year: 2025
+USAspending is the official open data source of federal spending information, including information about federal awards such as contracts, grants, and loans.
 
-UEI: SC2ANJXVPLM7
+Pause text animation
 
-HUBZone Owned: No
+So far this year, the federal governmentplans to sp
+- Contracting | SAM.gov () https://sam.gov/contracting
+  Contracting | SAM.gov Skip to main content
 
-Woman Owned: No
+# Contracting
 
-Socially and Economically Disadvantaged: No
+SAM.gov is a centralized source for finding and bidding on U.S. government contract opportunities, awards and publishing subcontract reports.
 
-Congressional District: 1
+Download Contract Data. Visit the Data Bank to download or run reports on contracting data.
 
-Tagged as:
+Connect to our Contract Data APIs. Visit Open.gsa to connect through APIs to the contracting data.
 
-SBIR
-
-Phase II
-
-### Awarding Agency
-- Simplesense Awarded $15M Strategic Funding Increase (STRATFI) Contract to Improve Operational Efficiency for the U.S. Air Force  | Simplesense () https://simplesense.io/blog/simplesense-awarded-15m-strategic-funding-increase-stratfi-contract-to-improve-operational-efficiency-for-the-u-s-air-force
-  Simplesense 2026
-
-Table of contents
-
-Summary
-
-Example H2
-
-## Summary
-
-Brooklyn. NY – January 14, 2026 – Simplesense, Inc, a company committed to ensuring mission operators can trust and rely on critical infrastructure data, today announced a new $15M contract funded by the Air Force’s prestigious Strategic Funding Increase (STRATFI) and Small Business Innovation Research (SBIR) programs.
-
-AFWERX, the innovation arm of the Department of Air Force (DAF), designed the STRATFI program to bridge the 
+Search Contracting Data Select "Contracting" from the search box below. Enter the search criteria. Refine
 
 ## Open roles (Blitz, live)
 - Multiple Engineering Positions ({'city': 'Pasadena', 'country_code': 'US'})

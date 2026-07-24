@@ -1,0 +1,16 @@
+{
+  "company": "Quantifind",
+  "slug": "quantifind",
+  "domain": "quantifind.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "News section shows a $23.7M DoD production contract (2022) plus two more DoD/DIU contracts through 2025 — a mature, fielded, production-stage vendor, not a stuck prototype.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "AI-powered risk-intelligence SaaS platform (Graphyte) for AML/KYC at Tier-1 banks, now also selling open-source-intelligence diligence tools to DoD/DIU."
+}

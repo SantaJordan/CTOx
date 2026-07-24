@@ -1,0 +1,22 @@
+{
+  "company": "Integrate",
+  "slug": "integrate",
+  "domain": "integrate.co",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Their own blog and the news section confirm a $25M contract from U.S. Space Force Space Systems Command's Mission Manifest Office (June 2025), and the for-defense page states the product is live on NIPR, SIPR and JWICS.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "\"Proven in classified and controlled environments. Integrate is operational today across classified and unclassified networks.\" → explicit self-declaration that the transition already happened",
+    "\"CURRENTLY AVAILABLE ON, NIPR (IL4, CUI), SIPR (IL6, Secret), JWICS (Top Secret), SAP coming soon\" → accredited on the three hardest networks in DoD; this is the accreditation problem solved, not deferred",
+    "\"Available on NIPR (IL5) / Available on SIPR (IL6) / Available on JWICS (Top Secret) / SOC2 Compliant / NIST 800-171 Compliant / CMMC 2.0 coming soon\" and \"Built to meet ITAR, SOC 2, and emerging NIST compliance\" → maximum compliance fluency, the inverse of the blind spot Barry sells into",
+    "\"The U.S. Space Force Space Systems Command's (SSC) Mission Manifest Office (MMO) has awarded a $25 million contract to Integrate\" → a real program office as a paying customer, not a demo",
+    "Hiring is go-to-market expansion — five \"Navy Account Executive\" and four \"Commercial Account Executive\" postings plus a \"Senior Full Stack Software Engineer (TS/SCI)\" → scaling a fielded product into new services, not fighting to field the first one"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "series_a",
+  "what_they_do": "A cross-organization project-management and scheduling platform for defense programs, running on NIPR, SIPR and JWICS so government, primes and suppliers share one live master schedule with task-level access control."
+}

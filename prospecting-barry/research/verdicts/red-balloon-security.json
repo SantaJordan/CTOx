@@ -1,0 +1,16 @@
+{
+  "company": "Red Balloon Security",
+  "slug": "red-balloon-security",
+  "domain": "redballoonsecurity.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Symbiote 'has been deployed by DARPA, the DoD, DHS, and other agencies' and 'deployed... directly to the U.S. Government's facilities' (own Defense and Aerospace page); 6-for-6 SBIR Phase I-to-Phase II conversion rate since 2013 totaling $9.1M — deep, long-running, already-fielded DoD relationship.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Embedded-device and firmware security (Symbiote) protecting critical infrastructure, defense/aerospace, automotive, and grid devices, founded 2011 with 15 years of fielded DoD/DARPA/DHS deployments."
+}

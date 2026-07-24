@@ -3,7 +3,7 @@ slug: zepsor-technologies-inc | domain: zepsor.com | HQ: Burlington, Massachuset
 sources: exa-agent:sbir-graduates-raising
 industry(LI): Semiconductor Manufacturing | specialties: 
 channel notes: Seed Approximately $3M total, including Silicon Catalyst Angels equity investment. dom: sensors status: prototype dod: Zepsor received a 2023 DoD Direct-to-Phase-II SBIR for concealable, zero-power infrared sensors. hq: Burlington, MA emp: 1-10 employees src: https://www.sbir.gov/awards/206279
-own-language word count: ~1226
+own-language word count: ~1505
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -211,6 +211,165 @@ Contact
 
 Solution Company Applications Press Contact
 
+URL: https://zepsor.com/demo
+Demo
+
+## Preliminary Product Specifications
+
+Hand Detection Range
+
+## up to
+
+## 20cm
+
+Body Detection Range
+
+## up to
+
+## 3m
+
+Idle Current Draw
+
+## 25 nA
+
+Response Time
+
+## 100 ms
+
+Size
+
+## MEMS Chip
+
+## 2mm2
+
+Size
+
+## Sensor Module
+
+## 10mm2
+
+Support IC Voltage
+
+## 3-6 V
+
+Operation
+
+## Lens-less
+
+## 10x improvement in battery life for pennies on the dollar
+
+Zepsor's revolutionary first product is a near zero power (<1 μW) IR sensor module for presence detection, effectively extending the battery lifetime of your product by 10 times.
+
+Contact Us
+
+## A wide range of applications
+
+### Home automation
+
+Smart lighting
+
+Smart shades
+
+Smart door locks
+
+Smart thermostats
+
+Smart toilets
+
+### Alarm & security systems
+
+Surveillance cameras
+
+Invisible fencing
+
+Driveway monitoring
+
+### Industrial safety monitoring
+
+Hot-spot detection
+
+Overheating alarm
+
+Invisible fence
+
+Robotic arm interlock
+
+### Touch-free hygiene products
+
+Soap & sanitizer dispensers
+
+Paper towel dispensers
+
+Auto faucets
+
+Cutlery dispenser
+
+### Personal electronics
+
+Phones
+
+Laptops
+
+Monitors
+
+Headsets
+
+Earbuds
+
+### Appliances
+
+Rice cookers
+
+TVs
+
+Smart displays/mirrors
+
+Humanoid robots
+
+Robot pets
+
+### Smart building
+
+Smart wall pads
+
+Attendance counting
+
+Occupancy tracking
+
+Contactless buttons for elevators, doors, lights, etc
+
+### Fire safety monitoring
+
+IR flame detector
+
+Multi-channel flame
+
+Hot gas detector
+
+Battery fire detector
+
+Applications
+
+## What we’re up to
+
+### Zepsor to develop zero power hydrogen sensors funded by ARPA-E
+
+### Zepsor wins an NSF SBIR Phase I award
+
+### Zepsor presents zero-power IR sensors
+
+See All Press
+
+## Let's Talk
+
+Chat with us to learn about recent progress or how your products or ideas can benefit from Zepsor’s zero-power infrared sensor technology.
+
+Contact
+
+## Zepsor's mission is made possible by
+
+Solution Company Applications Press Contact
+
 URL: https://zepsor.com/applications
 Zepsor - Applications
 
@@ -328,6 +487,20 @@ Zepsor Technologies, Inc. is a Semiconductor Manufacturing company. Zepsor is a 
 ## About
 
 Zepsor Technologies, Inc. is an exciting st
+- Zepsor Technologies Taps Spark Fund to Scale Zero-Power Sensor Solutions (2025-09-05) https://cri.northeastern.edu/zepsor-technologies-taps-spark-fund-to-scale-zero-power-sensor-solutions/
+  Zepsor Technologies Taps Spark Fund to Scale Zero-Power Sensor Solutions
+
+## Northeastern’s NAI Chapter Marks Another Year of Innovation and Community
+
+## Bio-Inspired Chemistry: Professor Leila Deravi’s Work Toward Safer, Sustainable Materials
+
+## Gregory Abowd and Mansoor Amiji Named 2025 NAI Fellows
+
+## Flightpath Biosciences Licenses New Drug from Northeastern to Advance Precision Antibiotics
+
+## Venturium Fall 2025: Accelerating Academic Innovation to Market
+
+## Advancing Innovation and Imp
 - Zepsor Technologies Taps Spark Fund to Scale Zero-Power Sensor Solutions - Northeastern University College of Engineering (2025-09-08) https://coe.northeastern.edu/news/zepsor-technologies-taps-spark-fund-to-scale-zero-power-sensor-solutions/
   Zepsor Technologies Taps Spark Fund to Scale Zero-Power Sensor Solutions - Northeastern University College of Engineering
 
@@ -340,18 +513,6 @@ ECE Professor Matteo Rinaldi and Associate Research Professor Zhenyun Qian found
 ---
 
 This article originally appeared on Northeastern Un
-- Zepsor Technologies Taps Spark Fund to Scale Zero-Power Sensor Solutions - Department of Electrical & Computer Engineering (2025-09-08) https://ece.northeastern.edu/news/zepsor-technologies-taps-spark-fund-to-scale-zero-power-sensor-solutions/
-  Zepsor Technologies Taps Spark Fund to Scale Zero-Power Sensor Solutions - Department of Electrical & Computer Engineering
-
-# Zepsor Technologies Taps Spark Fund to Scale Zero-Power Sensor Solutions
-
-September 8, 2025
-
-ECE Professor Matteo Rinaldi and Associate Research Professor Zhenyun Qian founded Zepsor Technologies, an innovative tech company that has developed a zero-power sensor that could reduce the demand for battery replacements.
-
----
-
-This article originally appeared on Northeastern U
 
 ## Open roles
 (no jobs data found)

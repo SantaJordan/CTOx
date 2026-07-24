@@ -1,0 +1,16 @@
+{
+  "company": "Technical Systems Integration, Inc.",
+  "slug": "technical-systems-integration-inc",
+  "domain": "tecsysint.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "63-employee, 30+ year SDVOSB professional-services/staff-augmentation firm (program management, logistics, instructional systems, mission support) holding SeaPort-NxG, GSA MAS, and OASIS+ contract vehicles and a $15M NAVAIR/NAVSEA task order — a services/SI company, with one small DARPA SBIR (WAVE) as a side R&D line, not a product company.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "A 30+ year veteran-owned defense professional-services firm providing program management, logistics, training/instructional systems, and mission support to DoD and commercial clients, with a small DARPA SBIR side project on underwater wireless power transfer."
+}

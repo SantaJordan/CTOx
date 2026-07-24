@@ -189,60 +189,6 @@ Smart Material Solutions, Inc. (SMS), Professor Mark Mirotznik’s group at the 
 ## Army Phase II SBIR Award: R2R fabrication of plasmonic absorbers
 
 SMS was awarded an Army Phase II SBIR for the R2R fabrication of plasmonic absorbers. During the phase I project, SMS teamed with Professor Mark Mirotznik of the University of Delaware to design and fabricate a large-area plasmonic absorber using nanocoining and nanoimprint lithography (see photo and SEM image). In phase II, SMS will work with Professor Mirotznik and MicroCo
-- smart material solutions llc () https://www.sbir.gov/portfolio/694387
-  Firm | SBIR Skip to main content
-
-# Company
-
-Portfolio Data
-
-Back to Company Search
-
-## SMART MATERIAL SOLUTIONS LLC
-
-### Address
-
-984 TRINITY RDRALEIGH, NC, 27607-4940USA
-
-UEI: NN5CY5EB39B7
-
-Number of Employees: 4
-
-HUBZone Owned: No
-
-Woman Owned: No
-
-Socially and Economically Disadvantaged: No
-
-#### SBIR/STTR Involvement
-
-Year of first award: 2015
-
-5
-
-Phase I Awards
-
-6
-
-Phase II Awards
-
-120%
-
-Conversion Rate
-
-$887,772
-
-Phase I Dollars
-
-$6,168,710
-
-Phase II Dollars
-
-$7,056,482
-
-Total Awarded
-
-##
 - Award | SBIR () https://www.sbir.gov/awards/152013
   Award | SBIR Skip to main content
 
@@ -283,6 +229,12 @@ Phase I
 NSF
 
 Total Award Amount: $224,9
+- Newsletter - October 3, 2023 — Smart Material Solutions (2023-10-03) https://www.smartmaterialsolutions.com/blog/2023/10/3/newsletter-october-2023
+  Newsletter - October 3, 2023 — Smart Material Solutions
+
+Thanks to all for continuing to follow our journey here at Smart Material Solutions! If you’re a potential industrial partner, now is the ideal time to start pilot scale work with us. Our patterning capabilities are better than ever, and we have more than two years of funding runway through non-dilutive R&D contracts with NASA and the Army. We’ve also added key skill sets to our team here at SMS.
+
+As always, we appreciate your support, fee
 
 ## Open roles
 (no jobs data found)

@@ -3,7 +3,7 @@ slug: hawkeye-360 | domain: he360.com | HQ: Herndon, Virginia US | employees(LI)
 sources: vc:shield|vc:razors-edge|vc:new-north
 industry(LI): Defense and Space Manufacturing | specialties: 
 channel notes: RF signal geolocation satellite constellation || commercial RF sensing satellite constellation || RF satellite monitoring; IPO NYSE: HAWK
-own-language word count: ~1372
+own-language word count: ~1370
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -12,9 +12,9 @@ Home - Hawkeye 360
 
 # the future of signals intelligence is here
 
-## Hawkeye 360 Proves Commercial Enabled Track Custody at Valiant Shield 2026
+## HawkEye 360 Awarded Multi-Year Contract to Enhance Indian Ocean Region Maritime Domain Awareness
 
-BREAKING NEWS [ PRESS RELEASE ] 07/17/2026
+LATEST NEWS [ PRESS RELEASE ] 07/23/2026
 
 ###### [01] ■ Company
 
@@ -72,6 +72,10 @@ HawkEye 360 is the first commercial company to detect, geolocate, and characteri
 
 [See All Articles]
 
+### HawkEye 360 Awarded Multi-Year Contract to Enhance Indian Ocean Region Maritime Domain Awareness
+
+[ Press Release ]07/23/2026
+
 ### Hawkeye 360 Proves Commercial Enabled Track Custody at Valiant Shield 2026
 
 [ Press Release ]07/17/2026
@@ -83,10 +87,6 @@ HawkEye 360 is the first commercial company to detect, geolocate, and characteri
 ### ISA wins SPRCO SBIR to Enhance GEO Space Domain Awareness
 
 [ Press Release ]07/09/2026
-
-### HawkEye 360 Announces First Quarter 2026 Financials
-
-[ Press Release ]06/22/2026
 
 URL: https://www.he360.com/technology/
 HawkEye 360 Technology | RF Geolocation via Satellite Constellation
@@ -263,9 +263,7 @@ Detect and classify select high interest vessels through their RF emissions, ena
 
 ## Vessel Velocity
 
-Estimates speed and course to provide context on vessel behavior, to enhance prediction of future position based on trajectory analysis and support ISR data fusion.
-
-###### ■ 
+Estimates speed and course to provide context on vessel behavior, to enhance prediction of future position bas
 
 ## LinkedIn about
 
@@ -284,16 +282,14 @@ HERNDON, Va., Dec. 3, 2025 /PRNewswire/ -- HawkEye 360, the global leader in com
 # HawkEye 360 Expands Partnership with European Ministry of Defense Clients
 
 HERNDON, Va., March 2, 2026 /PRNewswire/ -- HawkEye 360, the global leader in electronic warfare data and analytics, today announced selection by a European Ministry of Defense for an electronic warfare program valued at up to $75 million. The award reflects sustained European investment in space-based Electronic Warfa
-- HawkEye 360 (HAWK) Secures Strategic Contract with Indian Navy (2026-07-23) https://www.gurufocus.com/news/8974670/hawkeye-360-hawk-secures-strategic-contract-with-indian-navy
-  # HawkEye 360 (HAWK) Secures Strategic Contract with Indian Navy
+- Hawkeye 360 Boosted by Further U.S. Government Funding from NRO - Via Satellite (2025-12-04) https://www.satellitetoday.com/government-military/2025/12/04/hawkeye-360-boosted-by-further-u-s-government-funding-from-nro/
+  Hawkeye 360 Boosted by Further U.S. Government Funding from NRO - Via Satellite
 
-Published: 2026-07-23T13:31:40+00:00
-Source: gurufocus.com (gurufocus.com)
-Language: en
+:
 
-## Story
+Hawkeye 360 Logo
 
-On July 23, 2026, HawkEye 360 HAWK announced a multi-year agreement to provide sophisticated space-based radio frequency (RF) data and analytics for the Indian Navy and allied nations in the region. This initiative aims to bolster maritime awareness within the Indian Ocean and enhance security collaborations throughout the Indo-Pacif
+Hawkeye 360 has secured more dedicated funding from the National Reconnaissance Office (NRO) and the Commercial Systems Program Office (CSPO). Building on a relationship that began in January 2022, this expansion enables HawkEye 360 to deliver new dedicated satellite technology, broaden the range of signals and frequencies of interest, integrate advanced AI capabilities, and provide greater spee
 
 ## Open roles (Blitz, live)
 - Spacecraft Assembly Technician ({'city': 'Herndon', 'country_code': 'US'})

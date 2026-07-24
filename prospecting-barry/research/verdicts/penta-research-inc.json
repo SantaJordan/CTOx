@@ -1,0 +1,16 @@
+{
+  "company": "Penta Research Inc",
+  "slug": "penta-research-inc",
+  "domain": "pentaresearch.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "Own words: 'provide superior technical and management support solutions to Defense agencies' — a 23-year-old (founded 2002), 97-140 employee SETA/engineering-support contractor (THAAD System Integrator roles, IPS/sustainment, Integration and Test with warfighters) already CMMC L2 certified and winning IDIQs (OASIS+), with three separate Phase II SBIR awards across 2023-2025 on different narrow AI/ML topics.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Established (2002-founded, 100+ employee) DoD engineering-support/SETA contractor providing modeling & simulation, missile/weapon systems engineering, integration and test, radar analysis, and AI/ML services to Defense agencies (MDA/THAAD), not a single-product company with a prototype-to-field gap."
+}

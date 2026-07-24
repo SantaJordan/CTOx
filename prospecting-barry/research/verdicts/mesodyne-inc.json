@@ -1,0 +1,38 @@
+{
+  "company": "Mesodyne Inc",
+  "slug": "mesodyne-inc",
+  "domain": "mesodyne.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "DARPA-derived tech, AF SBIR Phase II 2022 ($749,819), Army xTech SBIR Phase II 2025, and a $4.25M USSOCOM S&T Directorate contract announced 2026-05-18 — homepage, SBIR/STTR section, News section.",
+  "disconnect_score": 44,
+  "subscores": {"lab_language_intensity": 8, "deployment_awareness_absence": 10, "operator_absence": 4, "hiring_profile_skew": 6, "stage_pressure": 16},
+  "score_evidence": [
+    "'The dismounted warfighter...Using a LightCell...could reduce their load by 75%' → operator_absence (very low/good — operator-centric)",
+    "'One LightCell unit weighs less than 10 lbs' and 'requiring 200-300 W of electricity in a man-portable form factor' → deployment_awareness_absence (low/good — genuine SWaP-C fluency)",
+    "Open roles include 'Forward Deployed Engineer at a Defense-Tech Startup' → hiring_profile_skew (low/good)",
+    "Zero mention of CMMC/NIST 800-171/ITAR/ATO anywhere despite DARPA, AFWERX, and USSOCOM contract volume → deployment_awareness_absence penalty",
+    "Simultaneous AF (2022) and Army (2025, 18-month) Phase II SBIRs plus a new $4.25M USSOCOM contract on a ~27-person team → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Zero mention of CMMC, NIST 800-171, or ITAR anywhere on the site despite DARPA origin, two SBIR Phase IIs, and a $4.25M USSOCOM S&T contract.",
+     "operator_reality": "A hardware power-generation company handling DoD-funded tactical energy tech at this volume needs company-level CMMC certification before follow-on contracts flow, and thermophotovoltaic power tech for c-UAS/UAS integration is a plausible ITAR item — silence here is the same blind spot that stalls a Phase II-to-Phase III transition.",
+     "why_likely_missing": "Founders are MIT engineering researchers focused on the physics/hardware, not government compliance posture.",
+     "evidence_quote": "Cutting-edge, military-grade power generation",
+     "quote_source": "homepage"},
+    {"blind_spot": "SBIR abstract describes LightCell 'recharging batteries...in autonomous drone charging stations, in remote unattended ground sensors' — implying networked, remotely monitored charging infrastructure — with no mention of how telemetry/status data gets an ATO to touch GFE networks.",
+     "operator_reality": "The moment a power unit reports status back to a command network, it needs RMF/ATO just like any other government-network-connected device; a purely hardware-framed pitch skips this step entirely.",
+     "why_likely_missing": "Team's own language frames the product as pure hardware/energy, not as a networked system, so the software/compliance tail is invisible to them.",
+     "evidence_quote": "in autonomous drone charging stations, in remote unattended ground sensors, and more",
+     "quote_source": "sbir_abstract"},
+    {"blind_spot": "Claims 'military-grade' power generation and compatibility with 'Starlink systems, computers, cell phones' without citing MIL-STD-810 (environmental) or MIL-STD-461 (EMI/EMC) qualification anywhere.",
+     "operator_reality": "A prime or program office won't accept a power unit into a fielded system of record without documented environmental/EMI qualification — 'military-grade' as marketing language, not a cited test standard, is exactly the gap that stalls GFE integration.",
+     "why_likely_missing": "Product is still SBIR-stage (TRL 6 target per their own abstract); formal qualification testing likely hasn't happened yet.",
+     "evidence_quote": "Mesodyne would expect to be at TRL 6 by the end of the Phase II effort with this particular application",
+     "quote_source": "sbir_abstract"}
+  ],
+  "opener_hook": "Mesodyne's $4.25M USSOCOM S&T contract and Army xTech Phase II SBIR are both public — neither the site nor the abstracts mention CMMC or ITAR despite the DARPA lineage.",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Builds LightCell, a patented MIT-derived thermophotovoltaic power generator for dismounted warfighters, UAS, and remote sensors, funded through DARPA-origin research plus AF and Army SBIRs and a USSOCOM S&T contract."
+}

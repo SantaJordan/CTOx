@@ -1,0 +1,16 @@
+{
+  "company": "ATHENIUM LLC",
+  "slug": "athenium-llc",
+  "domain": "athenium.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Genuine defense motion — 2022 AF SBIR Phase II plus own-site news of delivered work ('delivered condition and damageability assessments for over 2 million linear miles of roads and runways' for the Air Force, Oct 2024 news; '80,000 buildings across 100 Air Force installations' delivered in five months, SBIR abstract) — but that is the point: they already field their service at scale.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Established insurtech/weather-analytics firm (104 LI employees, 35+ of top-100 insurers, 60k users) that also delivers completed infrastructure-risk assessments to the Air Force; delivery model is analytics-as-a-service they have already executed repeatedly — no prototype stuck in the valley, so Barry's fielding offer has nothing to fix."
+}

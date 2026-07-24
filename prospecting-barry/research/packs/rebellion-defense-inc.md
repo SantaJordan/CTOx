@@ -3,7 +3,7 @@ slug: rebellion-defense-inc | domain: rebelliondefense.com | HQ: Washington, Dis
 sources: sbir
 industry(LI): Software Development | specialties: hardware, defense, nationalsecurity, artificial intelligence, software, critical infrastructure
 channel notes: SBIR PhII x1 [2022] Air Force latest: AF193-DCSO1 Rebellion Defense (Project ABIGAIL) hq: Washington,DC emp: 150
-own-language word count: ~1298
+own-language word count: ~1644
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -188,6 +188,19 @@ Critical assets are critically vulnerable. The threat landscape has evolved to w
 
 Critical infrastructure is the oxygen of modern civilization—unseen yet ever-present and vital to our existence. Consider the data center. As the physical world becomes ever more entangled with the digital, data centers become keystones that hold our lives together. Mortgage decisions, ATMs, entire stock exchanges and pension funds, medical histories and lab results, police records, flood warnings, airline pilot-schedules, grocery supply chains, border controls, social security, and every office whose storage is the cloud. Without the data center, none of it works.And it’s not just us who are dependent—it’s the data center itself. Its building runs on power it does not generate, drawn across a grid it does not control, through substations and transmission lines that were never built to be defended. Disrupt one and you can trigger an entire cascade effect. That’s why we call this infrastructure critical in the first place. It’s why military aggression and retaliation in recent times has made them such a target. And it is why we must find new and better ways to protect them.This protection starts with perception. It has to. Because an effector that can outclass any threat is useless if it never sees that threat coming. It’s the same for threats both technological or natural. The inability to perceive a sudden shift in sea states can cause a supply ship to be slammed against the oil rig its docking at. This doesn’t just cost millions of dollars. It costs lives. Recent events have unfortunately proven this, and all from a basic lack of perception.That is why our mission—to protect every critical asset both commercial and military—starts with solving the problem of perception. And we soon will.ARGUS, our miniature, multi-band AESA radar sees what current sys
 
+URL: https://rebelliondefense.com/privacy-policy
+Privacy Policy - Website Template
+
+# Privacy Policy
+
+Rebellion Defense, Inc. and its affiliates, including Rebellion Defence, Ltd. in the United Kingdom, (collectively, “Rebellion,” “we,” and “us”), are committed to being transparent about the ways in which we collect and process information relating to individuals (“Personal Data”). This statement (the “Privacy Policy”) sets forth our policies and practices for handling Personal Data in compliance with the laws that govern the protection of personal data, including the European Union (“EU”) General Data Protection Regulation (“GDPR”), the United Kingdom (“UK”) GDPR, the California Consumer Privacy Act (“CCPA”), as amended by the California Privacy Rights Act of 2020 (“CPRA”), and other applicable laws and regulations.
+
+This Privacy Policy does not apply to Personal Data that is collected or processed by Rebellion where Rebellion is acting as a service provider or where it otherwise collects or processes Personal Data solely on behalf of a Rebellion customer (“Customer”).
+
+This Privacy Policy does apply when (i) you use the Rebellion websites and any mobile, desktop application, or other service that link to or refer to this Privacy Policy, such as our website www.rebelliondefense.com, or our affiliate Rebellion Defence, Ltd.’s website www.rebelliondefence.com; (ii) where you voluntarily provide Personal Data to Rebellion, for example, in order to attend any Rebellion corporate events or as an applicant for employment with Rebellion; and (iii) where Personal Data is collected through our products, (collectively, the “Services”), except where collection and processing is undertaken by Rebellion as a service provider or solely on behalf of a Customer, as stated above.
+
+The Services may include links to the websites of other businesses, products, and services, each of which may have their own privacy notices. These third-party websites and services are outside of our control, and they may send their own cookies to you, collect data, or solicit Personal Data from you. This Privacy Policy does not apply to Personal Data collected through other websites or online services. We are not responsible for the security or privacy of any Personal Data collected by other websites or other ser
+
 ## LinkedIn about
 
 Rebellion Industries is designing a new category for the modern security and defense era—spanning national defense, critical infrastructure, and commercial environments where sensing, autonomy, and decision speed are mission-critical. Threat has changed. Conflict and disruption are no longer episodic, geographically bounded, or slow-moving; they’re continuous, asymmetric, and defined by software, autonomy, and sensing at scale across airspace, borders, energy systems, supply chains, and data centers. Yet most systems remain disconnected: hardware sold in isolation, software added as visualizat
@@ -214,51 +227,20 @@ Share
 Rebellion’s Iris software will provide Sailors with actionable insights in real time
 
 WASHINGTON--(BUSINESS WIRE)-- Rebellion Defense, a leading U.S. defense software company, today announced a new contract with the U.S. Navy. Rebellion will provide its Iris software to S
-- Rebellion Defense (KV99RGJA8NK3) () https://www.highergov.com/awardee/rebellion-defense-inc-10038477/
-  Rebellion Defense (KV99RGJA8NK3)
+- Rebellion Defense Awarded Contract to Support US Navy Project Overmatch (2024-02-12) https://www.businesswire.com/news/home/20240212840891/en/Rebellion-Defense-Awarded-Contract-to-Support-US-Navy-Project-Overmatch
+  Rebellion Defense Awarded Contract to Support US Navy Project Overmatch
 
-HigherGov
+-
 
-Notify
-
-- New Contract Awards
-- New Grant Awards
-
-Favorite
-
-Export
-
-- CSV
-- Excel
+# Rebellion Defense Awarded Contract to Support US Navy Project Overmatch
 
 Share
 
-- Copy URL
-- Email
-- Tweet
+---
 
-# Rebellion Defense
+Rebellion Defense will deploy its Mission Engineering team to rapidly build custom software for U.S. Navy Project Overmatch, kickstarting the firm’s contributions to meet critical CJADC2 objectives
 
-UEI: KV99RGJA8NK3 &#x2022 CAGE: 8DAY4
-
-- List
-- Text
-
-## Overview
-
-Parent Awardee
-
-Federal Capability Statement
-
-Rebellion has developed a SaaS capability to Analyze, Secure and Transport data.
-
-Keywords
-
-SaaS Analyse Secure Transport AI ML
-
-SBA Special Equipment
-
-Rebellion has developed a SaaS capability to Analyz
+WASHINGTON--(BUSINESS WIRE)-- Rebellion Defense, a leading U.S. defense software and services company, today announced its partnership wit
 
 ## Open roles
 (no jobs data found)

@@ -1,0 +1,45 @@
+{
+  "company": "Analytical AI, LLC",
+  "slug": "analytical-ai-llc",
+  "domain": "analyticalai.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Two Air Force Direct-to-Phase-II SBIRs, 2023 (~$1.25M each, own abstracts in pack): AI runway FOD detection and AI perimeter security, both piloted at Ellsworth AFB via AFWERX.",
+  "disconnect_score": 58,
+  "subscores": {"lab_language_intensity": 16, "deployment_awareness_absence": 12, "operator_absence": 7, "hiring_profile_skew": 10, "stage_pressure": 13},
+  "score_evidence": [
+    "\"Our team consistently develops integrated AI solutions which provide deployable near real-time better-than-human detection.\" → lab_language_intensity",
+    "\"If you can see it, we can solve it\" (repeated three times across the site) → lab_language_intensity",
+    "\"The cameras required for the system will be integrated with vehicles and with pre-existing fixed locations (e.g. light posts, etc.)\" — a camera network on an Air Force base, with zero mention of ATO/RMF, STIG, IL levels, or CMMC anywhere in 1,633 words → deployment_awareness_absence",
+    "\"provide on-duty Airmen with notifications of FOD in near real-time\" and \"Even adding only a second camera feed reduces available attention 50%\" — genuine operator-burden awareness keeps operator_absence low → operator_absence",
+    "No jobs data in pack → hiring_profile_skew set exactly 10 per rule (note: team page is entirely AI PhDs/engineers plus a hyper-compute systems engineer — no field, integration, or compliance staff visible)",
+    "Both D2P2s awarded mid-2023; by mid-2026 the periods of performance are ending with no Phase III or program transition in the news → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The Ellsworth pilots are an RMF/ATO problem before they are an AI problem, and their language never touches it",
+      "operator_reality": "Cameras bolted to vehicles and light posts feeding near-real-time alerts means new sensors and compute on an installation network — that requires RMF accreditation, STIGed hosts, and an ISSO-owned package. The 2023 Phase II clock runs out while the accreditation package is being discovered; the algorithm's accuracy never gets a vote.",
+      "why_likely_missing": "Commercial anchor is airport/checkpoint screening delivered through OEM partners ('We collaborate directly with our partners' development teams'), so the partner has always owned the accreditation and integration burden.",
+      "evidence_quote": "The cameras required for the system will be integrated with vehicles and with pre-existing fixed locations (e.g. light posts, etc.) and used during runway inspection for FOD.",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "'Near real-time notifications' assumes a delivery path to the Airman that nobody has engineered",
+      "operator_reality": "How does the alert reach the on-duty Airman — a phone that isn't allowed on the flight line network, a radio call, a base C2 console? Who maintains the vehicle-mounted cameras through a South Dakota winter (lens icing, dust, vibration), and who retrains the model when snow and jackrabbits flood it with false positives? No sustainment, training, or notification-endpoint design appears anywhere in their language.",
+      "why_likely_missing": "Solutions are 'actively deployed worldwide' inside partner-run checkpoint hardware in climate-controlled terminals; austere outdoor sustainment has never been their problem.",
+      "evidence_quote": "AAI will develop Artificial Intelligence (AI) algorithms and a FOD data gathering platform to provide on-duty Airmen with notifications of FOD in near real-time.",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "A use-case pilot at one base with no named transition sponsor is how D2P2s die",
+      "operator_reality": "'AAI will use Ellsworth AFB as a use case' is operator-level advocacy at a single installation. Without a champion above the wing — AFCEC, AFIMSC, or a program office that owns airfield infrastructure — a successful demo ends when the period of performance does; Airmen loving the FOD alerts is not adoption. Months-to-field beyond the funded months is exactly the valley.",
+      "why_likely_missing": "AFWERX D2P2 structure rewards a willing test base, not an acquisition pathway; the team page shows no one with DoD acquisition or program-transition background.",
+      "evidence_quote": "AAI will use Ellsworth AFB as a use case for technology.",
+      "quote_source": "sbir_abstract"
+    }
+  ],
+  "opener_hook": "Analytical AI's two 2023 AFWERX Phase IIs put cameras on Ellsworth's light posts and patrol vehicles — an installation-network RMF package with no visible ISSO or transition sponsor, and the period of performance is the countdown.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "AI threat- and anomaly-detection for imaging (checkpoint/baggage screening commercially; runway FOD and perimeter security for the Air Force)."
+}

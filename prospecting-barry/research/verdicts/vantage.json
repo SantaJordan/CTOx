@@ -1,0 +1,16 @@
+{
+  "company": "Vantage",
+  "slug": "vantage",
+  "domain": "vantage.sh",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "None. Own words describe a pure commercial multi-cloud cost management (FinOps) SaaS platform integrating with AWS/Azure/GCP/Kubernetes/OpenAI — no DoD/military language anywhere. The News section items ('Vantage Analytical', 'Vantage Systems') are unrelated companies with similar names per pack caveat — disregarded.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Multi-cloud cost management (FinOps) platform helping engineering and finance teams track, optimize, and reduce cloud/AI infrastructure spend."
+}

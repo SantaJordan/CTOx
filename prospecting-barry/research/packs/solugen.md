@@ -362,14 +362,23 @@ Back
 # Solugen Awarded DoD Contract to Advance Bioindustrial Manufacturing Capabilities
 
 We’re thrilled to announce that Solugen has been awarded $2 million under the Department of Defense’s (DoD) Distributed Bioindustrial Manufacturing Program (DBIMP). This funding supports our plans to develop a multi-use modular facility aimed at cost-effective domestic production of critical dual-use chemi
-- DOD Releases Final Nine Awards for Distributed ... (2024-11-14) https://www.war.gov/News/Releases/Release/Article/3965368/dod-releases-final-nine-awards-for-distributed-bioindustrial-manufacturing-prog/
-  DOD Releases Final Nine Awards for Distributed Bioindustrial Manufacturing Program > U.S. Department of War > Release | U.S. Department of War
+- Acquisition – Solugen – Aerospace & Defense () https://solugen.com/aerospace-defense/acquisition/
+  Acquisition – Solugen – Aerospace & Defense
 
-Skip to main content (Press Enter).
+## Acquisition Ready, Mission Driven
 
-The Department of Defense today announced the remaining nine awards to bioindustrial firms under the Distributed Bioindustrial Manufacturing Program (DBIMP). This announcement completes the first phase of DBIMP investment at 34 total awards worth over $60 million.
+Solugen Aerospace & Defense delivers fully compliant, scalable solutions—on time, every time.
 
-The awardees include Amyris, based in Emeryville, Cal
+### Request Inquiry
+
+## Representative Past-Performance
+
+Executing contracts, grants, and OTAs to advance lethality and readiness.
+
+- Distributed Bioindustrial Manufacturing Investment Program Phase I
+- FA864922P0481: Bio-Based, Aviation-Grade Disinfectant (TRL: 5)
+- FA864921P1014: Bio-Based Corrosion Solutions (TRL: 9)
+
 
 ## Open roles (Blitz, live)
 - Process Technician Internship ({'city': 'Houston', 'country_code': 'US'})

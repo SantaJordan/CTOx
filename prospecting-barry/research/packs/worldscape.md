@@ -240,6 +240,22 @@ Join the Mailing List
 Traditional software constrains the future of global supply chains, sustainability and environmental risk, infrastructure planning, defense, and more. The tools of our future exist now but are highly fragmented. Worldscape creates a unified open environment, bringing the physical and digital worlds together. We combine the best modeling, simulation, geospatial understanding, and artificial intelligence on a single platform designed to enable the innovation and collaboration of the future.
 
 ## News (Exa, top 3)
+- Worldscape.ai Raises $6M Seed | Worldscape (2026-03-04) https://worldscape.ai/company/news/worldscape-ai-raises-6m-seed
+  Worldscape.ai Raises $6M Seed | Worldscape Skip to main content
+
+All News
+
+Press Release
+
+# Worldscape.ai Raises $6M Seed
+
+Mar 3, 2026 | 3 min. read
+
+## Worldscape.ai Raises Seed Funding to Accelerate AI-Native Geospatial Intelligence for Defense and Enterprise
+
+Redmond, Washington, Mar. 03, 2026
+
+Worldscape.ai, a developer of AI-powered geospatial intelligence software for defense, government, and enterprise applications, today announced the completion of its seed funding round. The round was l
 - Worldscape Selected for 2026 Catalyst Accelerator… | Worldscape (2025-11-07) https://worldscape.ai/company/news/worldscape-selected-for-2026-catalyst-accelerator-program-to-advance-ai-enabled-isr-for-us-space-forces-delta-7
   Worldscape Selected for 2026 Catalyst Accelerator… | Worldscape Skip to main content
 
@@ -256,28 +272,16 @@ Nov 7, 2025 | Less than 1 min. read
 Colorado Springs, Colorado, Nov. 07, 2025 (GLOBE NEWSWIRE)
 
 The Catalyst Accelerator is proud to announce the selectio
-- Worldscape.ai Raises Seed Funding to Accelerate AI-Native Geospatial Intelligence for Defense and Enterprise (2026-03-03) https://www.prnewswire.com/news-releases/worldscapeai-raises-seed-funding-to-accelerate-ai-native-geospatial-intelligence-for-defense-and-enterprise-302702535.html
-  Worldscape.ai Raises Seed Funding to Accelerate AI-Native Geospatial Intelligence for Defense and Enterprise Accessibility Statement Skip Navigation
+- Exclusive: Worldscape.ai Raises $6M Seed (2026-03-03) https://www.tectonicdefense.com/exclusive-worldscape-ai-raises-6m-seed/
+  Exclusive: Worldscape.ai Raises $6M Seed
 
-Round led by Scout Ventures, with participation from Radius and Washington Harbour Partners
+Image: Department of Defense
 
-SEATTLE, March 3, 2026 /PRNewswire/ -- Worldscape.ai, a developer of AI-powered geospatial intelligence software for defense, government, and enterprise applications, today announced the completion of its seed funding round. The round was led by Scout Ventu
-- Worldscape.ai Raises $6M Seed (2026-03-04) https://worldscape.ai/company/news/worldscape-ai-raises-6m-seed
-  Worldscape.ai Raises $6M Seed | Worldscape Skip to main content
+The markets may be in a panic over AI (and, like, at least three other things), but the hype for AI-powered defense tech continues.
 
-All News
+This morning, AI-powered geospatial intelligence startup Worldscape.ai announced in an exclusive release to Tectonic that they’ve closed a $6M seed round led by Scout Ventures, with participation from Radius and Washington Harbour Partners.
 
-Press Release
-
-# Worldscape.ai Raises $6M Seed
-
-Mar 3, 2026 | 3 min. read
-
-## Worldscape.ai Raises Seed Funding to Accelerate AI-Native Geospatial Intelligence for Defense and Enterprise
-
-Redmond, Washington, Mar. 03, 2026
-
-Worldscape.ai, a developer of AI-powered geospatial intelligence software for defense, government, and enterprise applications, today announced the completion of its seed funding round. The round was l
+The company—founded in 2023 in Washington state—says 
 
 ## Open roles (Blitz, live)
 - Principal Game Engine Engineer, Platform ({'city': 'Redmond', 'country_code': 'US'})

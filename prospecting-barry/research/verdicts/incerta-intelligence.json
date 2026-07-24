@@ -1,0 +1,47 @@
+{
+  "company": "Incerta Intelligence",
+  "slug": "incerta-intelligence",
+  "domain": "incertaintel.ai",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "LinkedIn about (their own language) claims \"*OTA Authority *Awardable via Tradewinds Solutions Marketplace\" for SIA, and the products page states SIA is \"designed for U.S. Government intelligence analysts\" with Warfighters and Mission Planners named as target users.",
+  "disconnect_score": 71,
+  "subscores": {"lab_language_intensity": 17, "deployment_awareness_absence": 14, "operator_absence": 12, "hiring_profile_skew": 10, "stage_pressure": 18},
+  "score_evidence": [
+    "\"Defense-Grade / Government security / Defense-Grade / Real-time AI\" repeated as badges alongside a stack list of \"PyTorch TensorFlow JAX Strands RAG Vector DB Kubernetes AWS RLHF Snowflake\" → lab_language_intensity",
+    "\"Experience real-time intelligence generation and threat analysis capabilities. These interactive simulations demonstrate SIA's core features.\" → lab_language_intensity (the proof offered is a browser simulation, not a fielded result)",
+    "\"Built for classified environments and government compliance\" with no ATO, RMF, STIG, IL4/IL5, eMASS, CMMC or DDIL anywhere in ~1,000 words → deployment_awareness_absence",
+    "\"< 2 Week Deploy\" → deployment_awareness_absence (a deployment claim that only holds if accreditation is assumed away)",
+    "Target users listed as \"Intelligence Analysts / Domain Experts / Defense Personnel / Warfighters / Mission Planners\" but no training, CONOPS, field feedback or sustainment language → operator_absence (personas named, operators not understood)",
+    "No jobs data in pack → hiring_profile_skew set to exactly 10",
+    "Founded 2026, 4 employees, channel status \"prototype\", and \"Awardable\" rather than awarded → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "\"Built for classified environments\" is asserted on top of an architecture whose reasoning layer is commercial frontier-model APIs (Claude, Nova, Llama) in AWS GovCloud.",
+      "operator_reality": "AWS GovCloud is not a classified enclave — it tops out well below the fabric an intel analyst actually works on, and a model API call cannot cross an air gap. The moment SIA has to run where the analyst sits, the whole agentic RAG chain has to be re-hosted against whatever model is accredited on that network, which is a rebuild, not a config change, and it lands after the funded period ends.",
+      "why_likely_missing": "The team's stated identity is an \"AI Engineering Firm\" with AWS/Snowflake/NVIDIA partner badges; in commercial delivery, GovCloud plus an audit log genuinely is the compliance answer, so the distinction between GovCloud and a classified enclave never has to be confronted.",
+      "evidence_quote": "AWS GovCloud — All data stays in the US ... Built for classified environments",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The headline differentiator is a two-week deployment, with no accreditation on the clock.",
+      "operator_reality": "Standing up a new AI system on a government network is an RMF package, a control inheritance argument, POA&Ms, and a AO signature — months, not weeks, and none of it is engineering work the vendor can sprint through. Selling \"< 2 Week Deploy\" to a program office sets the expectation that gets the vendor blamed when month five arrives with no users, and it is the exact shape of months-to-field exceeding funded months.",
+      "why_likely_missing": "Speed-to-value is the consulting firm's core sales promise — the about page sells \"rapid-fire blueprints and transformation sprints backed by rigorous service level agreements\" — and that promise was calibrated on commercial clients where deployment really is a two-week engineering task.",
+      "evidence_quote": "Rapid Deployment — Modular architecture accelerates delivery for time-sensitive missions. < 2 Week Deploy",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "SIA's analyst workflow is built on real-time streaming and multi-modal retrieval across text, imagery and video, with no degraded-mode behavior described.",
+      "operator_reality": "A mission planner at a forward node reaches back over a link that drops for hours at a time. A workbench whose primitives are live streaming responses and remote vector search over imagery has no answer for a dropped link — it does not degrade, it stops, and the SITREP the planner needed does not exist. The fix is architectural (local cache, async job queue, deltas over pull) and has to be designed in, not bolted on after the demo wins.",
+      "why_likely_missing": "Every demo on the site runs against a live cloud back end, so intermittency has never appeared as a failure mode; the LinkedIn about names governance, access control and provenance as the day-one design constraints, with connectivity absent from that list.",
+      "evidence_quote": "A secure interface for analysts to query and collaborate with AI models, enhanced by real-time retrieval and multi-modal search across text, imagery, and video. - Real-time streaming",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "SIA is listed as awardable via Tradewinds, and the site promises a sub-two-week deployment — which is roughly the point in an RMF package where you're still arguing control inheritance.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "A four-person AI engineering shop selling SIA, an agentic RAG workbench that lets government intelligence analysts query text, imagery and video with expert-in-the-loop review.",
+  "_own_language_words": 1025
+}

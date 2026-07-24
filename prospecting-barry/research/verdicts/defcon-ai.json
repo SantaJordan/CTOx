@@ -1,0 +1,21 @@
+{
+  "company": "DEFCON AI",
+  "slug": "defcon-ai",
+  "domain": "defconai.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "Unambiguous DoD motion — news section: '$115 Million Prototype Agreement in Support of U.S. Marine Corps Logistics Modernization' (LogC2, OTA under 10 U.S.C. 4022, $20M base year), plus homepage national-security product line (ARTIV Air, R-ALIGN, DockForge).",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "'DEFCON AI evaluates the best capabilities across the commercial market on behalf of the Marine Corps — then brings them to a production environment and fields them to the Fleet' → they ARE the integrator doing prototype-to-fielded for others; this is Barry's service, not his customer",
+    "Press coverage headline 'DEFCON AI Secures $115M Software Integration Contract with the Marines' → systems-integrator role, disqualified type",
+    "Open roles include 'Platform Security & RMF Lead', 'DevSecOps Project Lead', 'Deputy Program Manager (TS/SCI Clearance Required)', 'VP of Business Development (Defense)' → deployment, ATO/RMF and acquisition-advocacy functions already staffed in-house",
+    "$115M/5yr with a $20M funded base year and 51 employees → no months-to-field-vs-months-funded pressure; far above the $5M-$10M band"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "McLean, VA optimization/simulation software company that builds logistics and airlift planning tools for DoD and now serves as the Marine Corps' software integrator for LogC2 modernization."
+}

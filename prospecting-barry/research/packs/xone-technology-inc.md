@@ -3,7 +3,7 @@ slug: xone-technology-inc | domain: xonetechnology.com | HQ: San Jose, Californi
 sources: exa-agent:sensors-data-collection
 industry(LI): Appliances; Electrical; and Electronics Manufacturing | specialties: 
 channel notes: Early-stage (Seed/Series A comparable) Received federal funding including a $4.7M OTA with PEO Aviation and other federal purchase orders. dom: sensors status: fielded dod: XONE supplies RF geolocation and sensing systems for signal reconnaissance and force protection in defense and intelligence missions. hq: United States emp: 3 src: https://xonetechnology.com/
-own-language word count: ~551
+own-language word count: ~495
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -68,49 +68,25 @@ Work From Anywhere. Top-tier innovation has no borders. We hire the best minds r
 
 # Job Opportunities
 
-#### Program Manager, Technical
+#### Lead Systems Design Engineer
 
-We are seeking a technical program manager to lead and coordinate the full lifecycle of advanced RF products focused on wireless SIGINT, electronic warfare, and related sensing applications in a small, fast-moving organization. Our systems combine software defined radios, embedded processing, and small-form-factor hardware deployed on airborne, maritime, and ground platforms. In this role you will collaborate with the engineering team and external partners to ensure projects are completed on time and within budget. You will interface with customers and company leadership to ensure delivered capabilities meet mission needs and align with broader business objectives.
+APPLY NOW
 
-This position is well-suited for candidates conversant in relevant technologies with past experience as a technical developer and having pivoting into program management. Ideally, the candidate has hands-on ability to operate systems for demonstration and system-level test.
+We are seeking a senior-level Systems Engineer to lead the definition, architecture, and technical execution of advanced RF sensing and communications systems. This role spans early concept development through prototype realization and customer delivery, with a strong emphasis on system-level thinking, technical rigor, and cross-disciplinary leadership. Our products integrate software defined radios, embedded processing, FPGAs, RF hardware, and small-form-factor platforms deployed in airborne, maritime, and ground environments.
+
+This position is well-suited for an engineer who enjoys shaping systems from first principles, translating operational needs into concrete designs, and working hands-on with hardware and engineering teams to turn concepts into working prototypes. You will operate as a technical focal point across disciplines, interface directly with customers and prime contractors, and work closely with the Chief Engineer on product direction and roadmap planning.
 
 Responsibilities
 
-Work in tandem with the lead system design/integration engineer(s) on planning, execution, and delivery while collaborating with cross-functional engineering teams, and external partners to ensure projects meeting program technical, cost, and schedule objectives
+Lead system-level design activities including concept development, CONOPS analysis, requirements definition, and architecture trade studies
 
-Manage all phases of the engineering and product lifecycle: R&D, prototyping, design, implementation, integration and test, system delivery, quantity production, and product support
+Establish and maintain technical baselines, including system architectures, interface definitions, requirements allocations, and design documentation
 
-Preparation of program plans including a breakdown of tasks sequenced in a GANTT, schedule, staff loading, identification of equipment and company infrastructure needs, and risk assessment
+Decompose system architectures into clear, actionable work packages for software, FPGA, RF, and hardware engineering teams
 
-Preparation of status reports and briefings for review with leadership team and customers on a monthly 
+Design and prototype hardware-centric systems, working closely with engineering teams and external vendors on component selection, part surveys, and trade studies
 
-URL: https://xonetechnology.com/contact
-Contact — Xone Technology
-
-## Contact Us
-
-[email]
-
-Contact — Xone Technology
-[
-0
-](/cart)
-[
-Skip to Content
-](#page)
-[
-![Xone Technology](//images.squarespace-cdn.com/content/v1/6948637c09e3bc085a12cca7/ff8ac79a-7ee2-417b-ac58-8c87dde3c817/WhatsApp+Image+2026-01-09+at+11.33.34+PM+-+Edited.png?format=1500w)
-](/)
-Open Menu
-Close Menu
-[
-![Xone Technology](//images.squarespace-cdn.com/content/v1/6948637c09e3bc085a12cca7/ff8ac79a-7ee2-417b-ac58-8c87dde3c817/WhatsApp+Image+2026-01-09+at+11.33.34+PM+-+Edited.png?format=1500w)
-](/)
-Open Menu
-Close Menu
-## **Contact Us**
-[email]
-![](https://images.squarespace-cdn.com/content/v1/6948637c09e3bc085a12cca7/b32dea22-15bd-46a5-bda0-de73232082c0/aboutuslogo3.png)
+Perform RF and system analyses such as link budgets, noise and interference analysis, and performance modeling
 
 ## LinkedIn about
 

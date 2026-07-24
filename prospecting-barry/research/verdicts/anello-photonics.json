@@ -1,0 +1,19 @@
+{
+  "company": "ANELLO Photonics",
+  "slug": "anello-photonics",
+  "domain": "anellophotonics.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Jan 2026: selected by the Department of War for a $20M APFIT award — a procurement-and-fielding program by definition — plus Navy Phase II SBIR and Lockheed Martin Ventures on the board (news + board page).",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "'$20 million award under the Accelerate the Procurement and Fielding of Innovative Technologies' — APFIT money is the DoD paying to scale fielding; they are crossing the valley with government funding already in hand",
+    "94 LinkedIn employees, ~$73M raised through Series B with Lockheed participation, and open roles include Field Application Engineers for UAV/USV — far beyond the $5M-$10M prototype-stuck profile"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Silicon photonics optical gyroscope (SiPhOG) inertial navigation systems for GPS-denied land, air, and sea platforms."
+}

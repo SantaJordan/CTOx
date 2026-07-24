@@ -175,7 +175,7 @@ In this Phase II STTR, Whisper Aero is proposing an adaptable multidisciplinary 
 In this Phase II STTR, Whisper Aero is proposing novel ultra-quiet high-performance propulsors that can be applied to Group I, II, and III UAS and consumer drones. In Phase I, Whisper Aero successfully designed, built, and tested an initial design using a comprehensive suite of low-Reynolds number aerodynamic design tools, aero-structural static & modal analyses, rapid manufacturing techniques, and static performance/acoustic testing. The results demonstrate that Whisper Aero’s technology will enable the Air Force to establish new mission capabilities through dramatically reduced acoustic signatures while maintaining robust, high performance propulsor designs. In Phase II, Whisper Aero will build a flight weight eQ Propulsor, conduct static acoustic tests, perform wind tunnel on-and-off design condition tests in cooperation with our Research Institution partner, Georgia Tech, and evaluate customer relevant technology layers for proof of concept testing. This design and test effort begins with a survey of important customer requirements to tailor development of the most relevant DoD propulsor, both for cruise efficient ISR and VTOL applications. By the end of Phase II, a COTS EDF propelled glider will be flown to prove out Whisper’s acoustic and flight test data collection procedures. This proven capability will fast track a follow-on Phase III flight test of an eQ Propulsor integrated on a UAV platform to operationally validate that a Class II drone stand-off detectability distance can be reduced from 2,000 ft on a ScanEagle to less than 200 ft on a Whisper platform.
 
 ## News (Exa, top 3)
-- Whisper Aero Announces JetFoil™ Enabled Collaborative Logistics ... (2025-06-04) https://www.whisper.aero/news/whisper-aero-announces-jetfoil-tm-enabled-collaborative-logistics-aircraft-for-the-us-department-of-defense
+- Whisper Aero Announces JetFoil™ Enabled Collaborative ... (2025-06-04) https://www.whisper.aero/news/whisper-aero-announces-jetfoil-tm-enabled-collaborative-logistics-aircraft-for-the-us-department-of-defense
   Whisper Aero Announces JetFoil™ Enabled Collaborative Logistics Aircraft for the US Department of Defense
 
 ## Whisper Aero Announces JetFoil™ Enabled Collaborative Logistics Aircraft for the US Department of Defense
@@ -191,7 +191,7 @@ Sign In Register
 Electric propulsion developer Whisper Aero is working with the U.S. Air Force to develop a new family of quiet, efficient, autonomous aircraft for contested logistics, with initial flight testing scheduled for 2027.
 
 Whisper on Tuesday pulled back the curtain on a pair of Collaborative Logistics Aircraft (CLA) concepts, designed to carry 500 pounds (CLA Light) or up to 3,000 pounds (CLA Heavy) of cargo while opera
-- Award | SBIR () https://www.sbir.gov/awards/204946
+- Award | SBIR () https://www.sbir.gov/awards/195849
   Award | SBIR Skip to main content
 
 # Award
@@ -200,15 +200,15 @@ Portfolio Data
 
 Back to Award Search
 
-## Quiet Swift'Lite Powerglider for ISR Missions
+## eQ Propulsor for Drone Applications
 
 ### Awardee
 
 #### WHISPER AERO INC
 
-199 Henry StCrossville, TN, 38555-4470USA
+https://www.sbir.gov/portfolio/1707423 199 Henry StCrossville, TN, 38555-4470USA
 
-Award Year: 2023
+Award Year: 2022
 
 UEI: QCRHSCGFBLN4
 
@@ -222,21 +222,19 @@ Congressional District: 6
 
 Tagged as:
 
-SBIR
+STTR
 
-Phase I
+Phase II
 
 ### Awarding Agency
 
-DOD
+DOW
 
 Branch: USAF
 
-Total Award Amount: $74,914
+Total Award Amount: $749,915
 
-Contract Number: FA8649-23-P-0183
-
-Agency Tracki
+Contract Number: 
 
 ## Open roles (Blitz, live)
 - Project Engineer ({'city': 'Crossville', 'country_code': 'US'})

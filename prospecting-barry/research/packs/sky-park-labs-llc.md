@@ -148,61 +148,60 @@ Improving the quality of life through intelligent and innovative technologies
 The Army depends on radiographic inspection for non-destructive testing (NDT) of munitions and armaments to identify defects before these products reach the warfighter. Highly skilled and experienced radiographers must interpret the inspection results. This process is not only laborious and time consuming, but also subjective and inconsistent. The development of artificial intelligence (AI) opens the opportunity to develop an automated system to identify potential defects to aid the interpretation of the results and expedite the inspection process. During Phase I, Sky Park Labs demonstrated DeepNDT, a suite of machine learning algorithms that assist a radiographer in the interpretation of radiographic inspection results by automatically identifying, quantifying, and visualizing potential defects and flaws. DeepNDT uses unsupervised and supervised deep learning algorithms for automatically detecting anomalies and highlights any deviations as potential defects. Then, the system classifies the defect type and characterizes its geometry and size for a radiographer to assess and make a final decision. These algorithms were evaluated on government-furnished data and various industrial datasets, achieving real-time performance and accuracy, precision, and recall rates of over 95% for detection and classification tasks. Phase II will focus on the development of all aspects of the technology into a fully functional prototype software tool integrated into the inspection workflow. The resulting technology has the potential to reduce the cognitive load on a level II NDT technician and thereby increase the efficiency and accuracy of the assessment of parts for defects.
 
 ## News (Exa, top 3)
-- DHS Contracts Explorer (2026-03-01) https://micahflee.github.io/ice-contracts/?modalCompany=cyberapexsolutionsllc&modalType=company
-  DHS Contracts Explorer
+- Skylark Labs Selected for SBIR Phase 2 to Enhance U.S. Air Force's cUAS Capabilities (2024-05-02) https://www.prnewswire.com/news-releases/skylark-labs-selected-for-sbir-phase-2-to-enhance-us-air-forces-cuas-capabilities-302134933.html
+  Skylark Labs Selected for SBIR Phase 2 to Enhance U.S. Air Force's cUAS Capabilities Accessibility Statement Skip Navigation
 
-## State Map
+NEW YORK, May 2, 2024 /PRNewswire/ -- Skylark Labs, a pioneering provider of cutting-edge safety and security solutions, leveraging proprietary self-evolving AI technology, is proud to announce its selection for SBIR Phase 2. This recognition allows Skylark Labs to bolster the U.S. Air Force's UAS detection and tracking capabilities through its ARIES program: the Aerial R
+- Skylark Labs Announces Entrance into Monkton's $500M MATTER SBIR Phase III IDIQ (2024-06-10) https://www.prnewswire.com/news-releases/skylark-labs-announces-entrance-into-monktons-500m-matter-sbir-phase-iii-idiq-302168610.html
+  Skylark Labs Announces Entrance into Monkton's $500M MATTER SBIR Phase III IDIQ Accessibility Statement Skip Navigation
 
-Bubble size represents total award amount
+NEW YORK, June 10, 2024 /PRNewswire/ -- Skylark Labs is proud to announce its entrance into the Monkton MATTER SBIR Phase III IDIQ, a $500M contract vehicle issued by the U.S. Space Force. This contract provides a unique opportunity for Skylark Labs to rapidly deploy solutions and solve problems efficiently on behalf of U.S. government agencies.
 
-## Companies
+Skylark Labs' AI detection sys
+- Award | SBIR () https://www.sbir.gov/awards/210430
+  Award | SBIR Skip to main content
 
-| Company | Contracts | Total Award | Total Obligation |
-| --- | --- | --- | --- |
+# Award
 
-## Contracts
+Portfolio Data
 
-| Award ID | Company | Program | Phase | Award Type | Start | End | Award | State |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+Back to Award Search
 
-DHS Contracts Explorer
-# DHS Contracts Explorer
-Explore [hacked data](https://ddosecrets.org/article/ice-contracts) from DHS's Office of Industry Partnership, publish
-- DOD Vendors with Contracts over $25000.00 () https://dodsoco.ogc.osd.mil/Portals/102/Documents/Conflicts/2025%2025K%20(FY2024)%20FINAL.pdf?ver=nG77mgIEGmaN7INenaQMnA%3D%3D
-  DOD Vendors with Contracts over $25,000.00
-Revised March 2025 Page 1
-DOD Vendors
-with 
-Contracts over $25,000.00 
-For use in CY 2025
-(Contains FPDS Data for FY 2024)
-DOD Vendors with Contracts over $25,000.00
-Revised March 2025 Page 2
-(RC) 2 PHARMA CONNECT L.L.C.
-'@MIRE, INC.
-1 A DEFENSE, LLC
-1 ACORD SERVICES, LLC
-1 HEALTH SOLUTIONS LLC
-1 MISSION PARTNERS
-1 SOURCE SOLUTIONS CO, LLC
-1 SYNC TECHNOLOGIES, LLC
-100 WORKFORCE SOLUTIONS, LLC
-10-31 INCORPORATED
-1032 ENTERPRISES LLC
-10-8 TACTICAL INC.
-10
-- Neal Checka - Computer Vision and AI entrepreneur (2026-06-22) https://www.linkedin.com/in/neal-checka
-  # Neal Checka
+## Stratospheric Persistent Real-time C4ISR for Arctic Domain Awareness
 
-Computer Vision and AI entrepreneur
+### Awardee
 
-Concord, Massachusetts, United States (US)
+#### URBAN SKY THEORY INC
 
-500 connections • 2,355 followers
+4800 RACE STDENVER, CO, 80216-2207USA
 
-## About
+Award Year: 2024
 
-Highly accomplished executive with strong leadership in heading product teams and R&D programs with keen technical knowledge spanning multiple leading-edge disciplines including computer vision, robotics, machine learning, artificial intelligence, human-computer interaction, and software development Principal investigator on a several R&D programs related t
+UEI: GRZESSY9KZC4
+
+HUBZone Owned: No
+
+Woman Owned: No
+
+Socially and Economically Disadvantaged: No
+
+Congressional District: 1
+
+Tagged as:
+
+SBIR
+
+Phase I
+
+### Awarding Agency
+
+DOD
+
+Branch: USAF
+
+Total Award Amount: $178,544
+
+Contract Number: FA5215-
 
 ## Open roles
 (no jobs data found)

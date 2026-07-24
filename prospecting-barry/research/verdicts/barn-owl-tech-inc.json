@@ -1,0 +1,51 @@
+{
+  "company": "Barn Owl Tech, Inc.",
+  "slug": "barn-owl-tech-inc",
+  "domain": "barnowl.tech",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "SBIR record section: $748,093 Air Force Phase II, 'Rapidly Deployable 5G Smart Surveillance Kits', explicitly partnered with Patrick SFB's 45 SFS to 'empower Security Forces' across Patrick SFB and Cape Canaveral.",
+  "disconnect_score": 47,
+  "subscores": {
+    "lab_language_intensity": 5,
+    "deployment_awareness_absence": 15,
+    "operator_absence": 8,
+    "hiring_profile_skew": 10,
+    "stage_pressure": 9
+  },
+  "score_evidence": [
+    "'Universal SIM (Verizon, AT&T, T-Mobile, and more)' -> deployment_awareness_absence: the shipping product is architecturally bound to commercial carriers",
+    "'1 Month Cloud Storage' + LinkedIn specialties listing 'aws' -> deployment_awareness_absence: commercial cloud video backend, with zero mention of ATO/RMF/IL4/STIG/CMMC anywhere in ~1665 words",
+    "'The alerts will be automatically pushed to the end-users' command and control platform of choice' -> deployment_awareness_absence: situational-awareness product that never names ATAK/TAK or any specific C2 integration",
+    "'empower Security Forces with enhanced situational awareness and faster response times' -> operator_absence held down; operators are named, though only in the 2022 abstract",
+    "No jobs data in pack -> hiring_profile_skew set to exactly 10 by rule",
+    "Pack news: 'employs 10 people (-18.8% YoY, -3 people)... $2.7M in total funding' -> stage_pressure: shrinking team, single 2022 Phase II now four years old"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Commercial-carrier dependency baked into the shipping product, while the DoD use case is precisely where commercial carriers do not exist",
+      "operator_reality": "At an austere or OCONUS perimeter there is no Verizon/AT&T/T-Mobile tower to roam onto. The Phase II proposes standing up private 4G/5G, but the RangeCam that actually ships auto-selects a commercial network — meaning the fielded article and the demo article are two different systems, and the private-network variant carries spectrum authorization, frequency deconfliction and RF interference approvals nobody on a 10-person consumer-hardware team owns.",
+      "why_likely_missing": "Seven thousand rural US customers all sit inside commercial coverage, so carrier availability has never been a design constraint — the site even sells against it with a coverage-check map.",
+      "evidence_quote": "Barn Owl Cameras connect to all major and rural cellular networks automatically. No tech savvy required!",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "AWS-backed cloud video and alerting with no visible accreditation path",
+      "operator_reality": "Video from a base perimeter is at minimum CUI and its aggregate reveals security-force posture. Putting it in a commercial AWS tenant with a consumer retention policy means an IL4/IL5 boundary, STIG-hardened components, a POA&M and a named ISSO before a single camera goes live on a DoD network. That accreditation timeline routinely exceeds the period of performance remaining on the transition contract — the exact failure mode where months-to-field outruns funded months.",
+      "why_likely_missing": "The commercial business monetizes cloud retention as a subscription tier ($7-$15/mo), so cloud is the revenue model, not an architecture decision to be revisited for government.",
+      "evidence_quote": "1 Month Cloud Storage / Unlimited Storage for Favorited Images",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Over-the-air firmware push marketed as a headline feature, which is a configuration-management stopper on an accredited network",
+      "operator_reality": "'Skip the drive' means the vendor can silently change software on a device sitting inside a base security perimeter. On an ATO'd system every firmware change is a configuration-control event requiring signed code, change board approval and re-testing; an auto-update channel to a vendor cloud is a supply-chain finding that will be written up before fielding, not after.",
+      "why_likely_missing": "In the consumer market OTA update is a pure cost saver and a competitive differentiator — the comparison table lists it as a win over competitors, so nobody has been asked what it looks like to a security control assessor.",
+      "evidence_quote": "Remote Firmware Updates: Skip the Drive",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Your 2022 Phase II with Patrick SFB's 45 SFS scoped surveillance across 70 square miles, while the RangeCam that ships today routes video to cloud storage over a universal commercial SIM — those are two different accreditation problems, and only one of them has a customer waiting.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Sells solar-powered, cellular, off-grid AI security cameras to ranchers and landowners, with one Air Force Phase II adapting the kit for base-perimeter security forces."
+}

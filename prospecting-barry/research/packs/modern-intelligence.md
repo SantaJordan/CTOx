@@ -480,42 +480,114 @@ Building One A.I. For Defense.
 Modern Intelligence has developed CUTLASS, a modular, all-sensor, all-platform maritime surveillance AI that classifies, tracks, and predicts objects of interest, their movement and activities over space and time, maintaining custody over distinct sensors and platforms. CUTLASS utilizes state of the art multimodal machine learning models to combine near-simultaneous data streams of separate modalities into a single multichannel tensor. What this means to our Air Force end users is any data stream that features sensors operating in separate spectrums from an ISR asset are combined into a single “image” CUTLASS uses to understand, classify, and track targets. Electro-optical, Full Motion Video, and infrared sensors provide valuable information on their own, but combined, our models are able to pull out more information on the targets than either sensor is on its own. Because CUTLASS is a pure AI model that is platform and sensor agnostic, the capability is deployable anywhere within the ISR environment, on premise, in the cloud, or at the edge, delivering a solution to the Air Force’s global persistent awareness challenges.
 
 ## News (Exa, top 3)
-- Defense startup Modern Intelligence gets $5 million in venture capital ... (2022-03-16) https://fortune.com/2022/03/16/modern-intelligence-venture-capital-funding-5-million-a-i-defense-industry-sensor-fusion/
-  Defense startup Modern Intelligence gets $5 million in venture capital funding | Fortune
+- SBIR CUTLASS - Advanced Artificial Intelligence for Maritime Surveillance () https://www.highergov.com/contract/FA864922P0867/
+  SBIR CUTLASS - Advanced Artificial Intelligence for Maritime Surveillance
 
-# Trendingnow
+HigherGov
 
-# 1
+Pipeline
 
-MacKenzie Scott, Melinda French Gates, and Lauren Sánchez Bezos are rewriting the rules of billionaire giving—one quietly, one strategically, one very publicly
+FOIA
 
-# 2
+Track
 
-After donating $48 billion to the Gates Foundation, Warren Buffett is quietly ending one of the biggest philanthropic relationships in history
+Favorite
 
-# 3
+No Bid
 
-26 Meta employees accuse Mark Zuckerberg of using AI to target 8,000 layoff
-- AI Startup Modern Intelligence Raises $5M to Launch Innovative Maritime ... (2022-03-16) https://www.prnewswire.com/news-releases/ai-startup-modern-intelligence-raises-5m-to-launch-innovative-maritime-surveillance-ai-301504073.html
-  AI Startup Modern Intelligence Raises $5M to Launch Innovative Maritime Surveillance AI Accessibility Statement Skip Navigation
+Export
 
-Cutlass offers new standard in defense, unmatched accuracy and resilience; deployment on existing military platform
+- CSV
+- Excel
 
-AUSTIN, Texas, March 16, 2022 /PRNewswire/ -- AI startup Modern Intelligence has secured a $5 million seed round, the company announced today. Led by Bedrock founder and managing partner Geoff Lewis, with participation of Vine Ventures, Air Street Capita
-- Agile Defense awarded $100 million for AI prototype supporting combatant commands (2026-07-15) https://www.prnewswire.com/news-releases/agile-defense-awarded-100-million-for-ai-prototype-supporting-combatant-commands-302826389.html
-  # Agile Defense awarded $100 million for AI prototype supporting combatant commands
+Share
 
-Author: Agile Defense
-Published: 2026-07-15T09:00:00-04:00
-Source: prnewswire.com (prnewswire.com)
-Language: en
+- Copy URL
+- Email
+- Tweet
 
-## Story
+Search Prime Contracts Open Help Docs
 
-Agile Defense awarded $100 million for AI prototype supporting combatant commands [Accessibility Statement](https://www.cision.com/about/accessibility/) Skip Navigation
+# FA864922P0867
 
-- [Resources](https://www.prnewswire.com/resources/)
-- [Investor Relations](https://www.prnewswire.com/investor-relations-
+Purchase Order
+
+- List
+- Text
+
+## Overview
+
+Government Description
+
+Cutlass Advanced Artificial Intelligence For Maritime Surveillance
+
+Awardee
+
+Awarding / Funding Agency
+
+Air Force Research Laboratory (AFRL) [DoD - USAF - AFMC]
+
+NAICS
+
+541715 - Research and 
+- Modern Intelligence - Pitch () https://pitch.vc/companies/modern-intelligence
+  Modern Intelligence — Pitch
+
+# Modern Intelligence
+
+The Foundational AI for Defense
+
+Austin
+
+Founded 2020
+
+20 employees
+
+Defense
+
+Capital FactoryAll Access Fund 2024
+
+About
+
+"Modern Intelligence builds the AI platform to watch all of the DOD's sensors and tell American warfighters where the bad guys are. Our first AI Cutlass is a software product that can deploy on any UXS, ship, plane, or COP to process sensor data in real-time from any sensor. Cutlass turns that sensor data into real-time, sha
+- Modern Intelligence () https://www.modernintelligence.ai/
+  Modern Intelligence
+
+Modern Intelligence
+
+# One AI for Defense.
+
+01
+
+02
+
+03
+
+04
+
+05
+
+Modern Intelligence
+
+# One AI for Defense.
+
+The new standard for artificial intelligence in defense. Any hardware. Any software.Superior insight.
+
+Modern Intelligence
+
+# TheDifference.
+
+The new standard for artificial intelligence in defense. High-fidelity target analysis and decision making with tiny data samples, not thousands.
+
+Our Capabilities
+
+WATCH THE VIDEO
+
+Modern Perception
+
+# Total Domain Awareness.
+
+P
 
 ## Open roles
 (no jobs data found)

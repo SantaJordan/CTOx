@@ -1,0 +1,21 @@
+{
+  "company": "InstaJam LLC",
+  "slug": "instajam-llc",
+  "domain": "instajam.one",
+  "verdict": "insufficient_evidence",
+  "drop_reason": "",
+  "dod_intent_evidence": "DoD intent is unambiguous — SBIR section shows two Air Force Phase II awards (2022, $732,146 and 2023, $1,347,050) for the InstaJam ATAK plugin — but the pack fails the evidence-sufficiency gate.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "Pack own-language word count is ~242, far under the ~500-word floor — the website section is empty (no crawlable site content) and the LinkedIn about is a single sentence: \"Building mobile on-device jamming detection and localization software.\"",
+    "No jobs data, no news beyond aggregator listings; scoring absence of deployment language against two SBIR abstracts alone would be unsound",
+    "What little language exists actually points the other way — \"InstaJam is an Android Team Awareness Kit (ATAK) plugin (TRL7)\", \"JTACs can customize their own frequency ranges that mirror their PACE plan\", \"leverage mesh networking technologies (such as MANET)\" — TAK-native, PACE-aware and warfighter-framed, which would score LOW on disconnect if it were scored at all"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "low",
+  "stage_band": "preseed_seed",
+  "what_they_do": "A two-person team building an ATAK plugin that detects and localizes RF jamming and shares the picture across a mesh network, so every airman becomes a spectrum sensor.",
+  "_own_language_words": 242
+}

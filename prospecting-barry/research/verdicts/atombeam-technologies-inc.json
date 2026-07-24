@@ -1,0 +1,44 @@
+{
+  "company": "ATOMBEAM TECHNOLOGIES INC.",
+  "slug": "atombeam-technologies-inc",
+  "domain": "atombeamtech.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Two 2023 Air Force SBIR Phase IIs (~$1.2M each, satellite compaction and SAR/RDUCE-SOSA integration — SBIR section), Neurcom 'still under development with the Air Force Research Laboratory' (own site), and Jan 2026 news of being named to the Missile Defense Agency SHIELD IDIQ.",
+  "disconnect_score": 57,
+  "subscores": {"lab_language_intensity": 16, "deployment_awareness_absence": 8, "operator_absence": 12, "hiring_profile_skew": 11, "stage_pressure": 10},
+  "score_evidence": [
+    "'75% Less Data / 4x More Bandwidth / Zero Hardware Changes' plus 'Kevin O'Leary on Why Atombeam is a Game-Changer for Data Centers' and '197 Patents Issued... 363 Patents Pending' → lab_language_intensity",
+    "'PCM is a fundamentally different architecture... The Memory That Thinks' (Alpha H1 2027 vaporware on the product page) → lab_language_intensity",
+    "'Battery life is improved, critical for man-portable terminals... Fast recovery/correction with interrupted comms aids in jamming resistance' — real DDIL fluency keeps deployment_awareness_absence low, but zero ATO/RMF/CMMC/NSA-accreditation language anywhere despite selling 'military-grade security' → deployment_awareness_absence",
+    "Only live opening at a 57-person company: 'Executive Administrative Assistant' — no field, integration, ISSO, or compliance roles while pursuing an MDA IDIQ → hiring_profile_skew",
+    "'Our Reg A+ Round is Now LIVE' — retail crowdfunding banner atop the homepage → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Sells 'military-grade security' via obfuscation with no accreditation pathway named",
+      "operator_reality": "A codebook-based obfuscation scheme carried on DoD comms links has to survive an NSA/NIST cryptographic review and ride inside an accredited system (RMF, IL levels); 'a national effort would be required to compromise a Codebook' is a marketing claim, not an accreditation. Until that path exists, no program office can field Neurpac on classified or even IL4 traffic — and the MDA SHIELD IDIQ stays an unfunded hunting license.",
+      "why_likely_missing": "All security language is written for retail Reg A+ investors and commercial IoT buyers; nowhere in ~1,638 own words do ATO, RMF, CMMC, FIPS, or NSA appear.",
+      "evidence_quote": "Compaction obscures encoded data so strongly that a national effort would be required to compromise a Codebook",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "Codebook distribution and sync is a field-logistics problem they describe as a lab feature",
+      "operator_reality": "Neurpac requires 'a Codebook that is replicated on both the source and destination.' In a DDIL environment, codebook updates, key-material-like custody, mismatched versions after a device is swapped by an E-5, and retraining when data patterns drift all become sustainment burdens — who pushes a new codebook to a man-portable terminal at an austere site with intermittent comms?",
+      "why_likely_missing": "Their deployment framing is 'installs as easily as setting up a VPN tunnel on your network' — an enterprise-IT mental model with a network admin present, not a gloves-and-dust site with no admin.",
+      "evidence_quote": "Atombeam's Neurpac Compaction Tunnel is lightweight, simple to configure, and installs as easily as setting up a VPN tunnel on your network",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Two 2023 AF Phase IIs with no visible transition sponsor while company attention pivots to data centers and retail investors",
+      "operator_reality": "The RDUCE/SOSA integration and Inmarsat work need a program-of-record home before the Phase II money ends; meanwhile the homepage leads with utility smart grids and Kevin O'Leary data-center economics. A program office reading that site sees a company whose center of gravity is commercial — advocacy above the lab level dies quietly.",
+      "why_likely_missing": "Reg A+ crowdfunding rewards TAM stories (AI data centers) over the slow grind of DoD transition; the site is optimized for that audience.",
+      "evidence_quote": "Discover why Atombeam's innovative solutions, which reduce space and energy requirements, are set to become a critical piece of the AI revolution",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Atombeam's 2023 Air Force Phase II promises jamming-resistant compaction for man-portable terminals, yet its own product page frames deployment as 'as easy as setting up a VPN tunnel' — two different worlds.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "ML-generated codeword 'compaction' software that shrinks small machine/IoT messages ~75% to stretch satellite and RF bandwidth, with claimed built-in obfuscation."
+}

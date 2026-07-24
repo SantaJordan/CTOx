@@ -1,0 +1,26 @@
+{
+  "company": "Lifeware Labs",
+  "slug": "lifeware-labs-llc",
+  "domain": "lifewarelabs.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "SBIR Phase II Air Force award ($1.2M, 2022) plus continuing 2024/2026 Defense Health Agency contracts to augment ProPatch, BATDOK/AFRL/711th HPW/PJ/Ranger integration language on their own site — SBIR abstract section + news section.",
+  "disconnect_score": 35,
+  "subscores": {"lab_language_intensity": 8, "deployment_awareness_absence": 6, "operator_absence": 3, "hiring_profile_skew": 6, "stage_pressure": 12},
+  "score_evidence": [
+    "'Machine learning models help to identify when a patient is stable' → lab_language_intensity",
+    "'far-forward deployments...limited vitals monitoring...until evacuation' and 'partnered with AFRL and the 711th Human Performance Wing' → deployment_awareness_absence (low, they're fluent)",
+    "'exclusively for combat medics and first responders' / 'currently deployed with Pararescue Jumpers (PJs) and Army Rangers' → operator_absence (very low, operators are central)",
+    "Open role: 'Government Sales Manager' → hiring_profile_skew (advocacy-adjacent, not pure researcher hiring)",
+    "Sequential contracts FA864924P0440 (2024) and HT942524P0119 (2024) plus 2 employees per LinkedIn → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Data pipeline depends on consumer cloud sync", "operator_reality": "A casualty-collection point or far-forward aid station has no commercial internet; a device that can't log locally-first and only syncs later becomes a black box exactly when the medic needs the data most.", "why_likely_missing": "Built for a research/clinical-trial workflow (UAB Hospital, MATLAB/Python analysis) before it was hardened for the DDIL environment the SBIR abstract itself describes.", "evidence_quote": "Log files are synchronized to your iCloud", "quote_source": "homepage"},
+    {"blind_spot": "Command app is tied to a commercial iOS ecosystem, not the TAK stack", "operator_reality": "Operators already run ATAK/TAK for situational awareness; a separate Apple-only companion app means a second device, second battery, and a workflow break at exactly the moment BATDOK is trying to unify casualty data into one picture.", "why_likely_missing": "The team is materials-science/mechanical-engineering-led (Soft Machines Lab, CMU) — strong on the wearable sensor, but the site never mentions ATAK/TAK despite integrating with a situational-awareness-adjacent tool (BATDOK).", "evidence_quote": "ProPatch™ Connect Available on the Apple App Store", "quote_source": "homepage"},
+    {"blind_spot": "No visible ATO/RMF/CMMC/ITAR posture despite handling casualty PHI on a DoD network-integrated device", "operator_reality": "BATDOK integration means ProPatch data eventually touches a government network; without an ATO package or a named compliance owner, the device can demo at AFRL all day and still get stopped cold at the accreditation gate before fielding.", "why_likely_missing": "Company is 4 PhD/academic cofounders plus a Government Sales Manager hire — no compliance/ISSO role visible, and site language never uses ATO/RMF/CMMC/STIG anywhere across 1258 words.", "evidence_quote": "Central Monitoring Made Easy Apply ProPatch to each patient, and monitor from one place", "quote_source": "homepage"}
+  ],
+  "opener_hook": "Your ProPatch-BATDOK integration is already running with AFRL's 711th Human Performance Wing — but the log files syncing to iCloud assume connectivity a far-forward casualty collection point won't have.",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "A wireless chest-worn patient monitor (ProPatch) for combat medics, integrated with the Air Force's BATDOK triage app, using ML to classify casualty health state at point of injury."
+}

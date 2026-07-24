@@ -124,6 +124,19 @@ Branch: USAF
 Total Award Amount: $72,132
 
 
+- OMNI DEFENSE TECHNOLOGIES CORP | Federal Award ... () https://www.usaspending.gov/recipient/4f410892-ad0d-9af2-2283-912c9a892be9-C/latest
+  USAspending.gov
+[Skip to main content](#main-content)
+![U.S. flag](img/uswds/us_flag_small.png)
+An official website of the United States government
+Here’s how you know
+Close Top Hat Mobile Menu
+![Lock](img/uswds/icon-dot-gov.svg)
+**Official websites use .gov**
+A **.gov** website belongs to an official government organization in the United States.
+![Lock](img/uswds/icon-https.svg)
+**Secure .gov websites use HTTPS**
+A **lock (![Lock](img/uswds/lock.svg))** or **https://** means you’ve safely conne
 - SPE4A724PH600 () https://www.highergov.com/contract/SPE4A724PH600/
   Contract SPE4A724PH600 Omni Defense Technologies
 ##### Description
@@ -156,49 +169,6 @@ Purchase Order
 * Text
 ## Overview
 Government Desc
-- Omni Defense Technologies () https://www.highergov.com/awardee/omni-defense-technologies-corp-12580808/
-  Omni Defense Technologies
-
-HigherGov
-
-Notify
-
-- New Contract Awards
-- New Grant Awards
-
-Favorite
-
-Export
-
-- CSV
-- Excel
-
-Share
-
-- Copy URL
-- Email
-- Tweet
-
-# Omni Defense Technologies
-
-UEI: Z5AZCAWH5BF9 &#x2022 CAGE: 8RXP8
-
-- List
-- Text
-
-## Overview
-
-Awardee Type
-
-Parent
-
-Company Description
-
-Omni Defense Technologies designs, develops, and manufactures best-in-class products that support our military, Chem-Bio personnel, search and rescue, medical professionals, and more.
-
-Name
-
-Omni Defense T
 
 ## Open roles (Blitz, live)
 - Senior/Staff Embedded Systems Firmware Engineer ({'city': 'San Francisco', 'country_code': 'US'})

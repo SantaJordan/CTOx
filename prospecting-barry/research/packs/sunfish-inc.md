@@ -178,12 +178,6 @@ System for Award Management (SAM) Registered Entities
 ## Overview
 
 SUNFISH INC is an entity in Del Valle, Texas registered with the System for Award Management (SAM) of U.S. General Services Administration (GSA). The entity was registered on May 1, 2020 with Unique Entity ID (UEI) #CVY5ELFJ4T23, activated on November 18, 2025, expiring on November 14, 2026, and the business wa
-- Sunfish, Inc. Notice to Potential Investors: () https://sunfishinc.com/assets/sunfish-investors-brief.pdf
-  Sunfish, Inc. Notice to Potential Investors:
-
-Stone Aerospace, a Texas corporation based in Austin, specializes in the design, fabrication, and field operations of autonomous vehicles. In July 2019 the Company established a wholly owned subsidiary incorporated in Texas called Sunfish, Inc. to facilitate dedicated development, manufacture, marketing, sales, and servicing of hovering autonomous underwater inspection vehicles (HAUVs) derived from Stone’s intellectual property.
-
-Stone Aerospace, Inc
 - SUNFISH® AUV – Pushing the Boundaries of Exploration & Technology () https://sunfishinc.com/
   SUNFISH® AUV – Pushing the Boundaries of Exploration & Technology
 
@@ -198,6 +192,12 @@ Learn More
 ### Built for extraterrestrial ocean exploration.
 
 SUNFISH was developed by Stone Aerospace in collaboration with NASA for future exploratory mission to 
+- Sunfish, Inc. Notice to Potential Investors: () https://sunfishinc.com/assets/sunfish-investors-brief.pdf
+  Sunfish, Inc. Notice to Potential Investors:
+
+Stone Aerospace, a Texas corporation based in Austin, specializes in the design, fabrication, and field operations of autonomous vehicles. In July 2019 the Company established a wholly owned subsidiary incorporated in Texas called Sunfish, Inc. to facilitate dedicated development, manufacture, marketing, sales, and servicing of hovering autonomous underwater inspection vehicles (HAUVs) derived from Stone’s intellectual property.
+
+Stone Aerospace, Inc
 
 ## Open roles (Blitz, live)
 - Digital Marketing Internship ({'city': 'Tallahassee Metropolitan Area', 'country_code': 'US'})

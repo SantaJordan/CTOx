@@ -3,20 +3,16 @@ slug: vivonics-inc | domain: vivonics.com | HQ: Bedford, Massachusetts US | empl
 sources: exa-agent:sensors-data-collection-more
 industry(LI): Medical Device | specialties: prosthetics, noninvasive sensors, nirs, biomarkers, electronic control systems for medical devices, physiological monitoring, medical robotics, tbi, medical diagnostics, biomedical engineering
 channel notes: Late-stage SBIR Supported by ASA(ALT) SBIR CCoE and DTRA contracts. dom: sensors status: prototype dod: Vivonics develops wearable physiological-monitoring technologies for the Army and DTRA. hq: Bedford, Massachusetts emp: 10-50 src: https://www.vivonics.com/technologies/eteams
-own-language word count: ~1050
+own-language word count: ~986
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
 URL: https://vivonics.com
-Vivonics Inc. 
+Vivonics Inc.
 
- 
+https://www.vivonics.com/careers
 
- 
-
-Our Mission
-
-Create innovative solutions to important unmet needs in human health and wellness
+Vivonics is hiring! Learn More →
 
 ### Vivonics aims to create innovative solutions for important unmet needs in human health and help bring these solutions to market in order to improve wellness and performance. We focus on developing innovative mobile physiological monitoring, advanced diagnostics, non-invasive interventions and clinical decision support technologies.
 
@@ -34,37 +30,73 @@ Expertise →
 
 Tufts Medical Center, INCUniversity of MarylandUniversity of North TexasUniversity of Texas Southwestern
 
+These projects represent over a decade of Vivonics R&D. While no longer in active development, they reflect the foundational work that has shaped our current technology portfolio and demonstrate the breadth of Vivonics’ capabilities across physiological monitoring, neurological stimulation, combat casualty care, and clinical device development.
+
+Research & Development
+
+Medical Areas
+
+No results found
+
+URL: https://www.vivonics.com/
+Vivonics Inc.
+
+https://www.vivonics.com/careers
+
+Vivonics is hiring! Learn More →
+
+### Vivonics aims to create innovative solutions for important unmet needs in human health and help bring these solutions to market in order to improve wellness and performance. We focus on developing innovative mobile physiological monitoring, advanced diagnostics, non-invasive interventions and clinical decision support technologies.
+
+### Vivonics comprises a core group of engineers and scientists, specializing in a wide range of disciplines including biomedical, mechanical, and electrical/computer engineering, as well as clinical and user research. Our team is strengthened by a network of world-class clinical and academic collaborators.
+
+### We work in teams pulled from our internal group and external network, with each team composed of the right expertise for each project at each stage of development.
+
+### Our Collaborators
+
+Liberating Technologies, INCUMASS Memorial Medical CenterBaylor College of MedicineRhode Island Hospital
+
+U.S. Army Medical ResearchMarine Corps System CommandU.S. Naval Research LaboratoryAir Force Research LaboratoryNational Institute of HealthOthers that cannot be disclosed
+
+Expertise →
+
+Tufts Medical Center, INCUniversity of MarylandUniversity of North TexasUniversity of Texas Southwestern
+
+These projects represent over a decade of Vivonics R&D. While no longer in active development, they reflect the foundational work that has shaped our current technology portfolio and demonstrate the breadth of Vivonics’ capabilities across physiological monitoring, neurological stimulation, combat casualty care, and clinical device development.
+
+Research & Development
+
+Medical Areas
+
+No results found
+
+URL: https://www.vivonics.com/who-we-are
+Who We Are — Vivonics Inc.
+
 ---
 
-# Recent News
+# Mission Statement
 
- 
+### Our mission is to create innovative solutions for important unmet needs in human health and help bring these solutions to market in order to improve wellness and performance. We focus on developing innovative mobile physiological monitoring, advanced diagnostics, non-invasive interventions and clinical decision support technologies.
 
-Vivonics, Inc. Awarded $999,962 Contract from US Marine Corps for Continued Development of Traumatic Brain Injury Treatment System
+### Vivonics comprises a core group of engineers and scientists. specializing in a wide range of disciplines including biomedical, mechanical, electrical/computer engineering as well as clinical and user research. Our team is strengthened by a network of world-class clinical and academic collaborators.
 
- Sep 13, 2024
+### We work in teams pulled from our internal group and external network, with each team composed of the right expertise for each project at each stage of development.
 
- 
+---
 
-Vivonics receives NIH-NIDCD award for development of Galvanic Vestibular Stimulation technology
+# Technology and Research
 
- Sep 5, 2024
+### Combat Casualty Care
 
- 
+### Diabetic Neuropathy Care
 
-Vivonics Presents at MHSRS 2024
+### Operational Performance Monitoring and Enhancement
 
- Sep 4, 2024
+### Physiological Monitoring
 
- 
+### Transdermal Neurological Stimulation
 
-Vivonics receives DoD award for development of Continuous Thermal Strain Monitoring and Prevention system
-
- Aug 13, 2024
-
-News →
-
- 
+---
 
 Research & Development
 
@@ -120,243 +152,73 @@ Medical Areas
 - vestibular system 1
 - wearable 1
 
-URL: https://vivonics.com/
-Vivonics Inc.
-
-### Vivonics aims to create innovative solutions for important unmet needs in human health and help bring these solutions to market in order to improve wellness and performance. We focus on developing innovative mobile physiological monitoring, advanced diagnostics, non-invasive interventions and clinical decision support technologies.
-
-### Vivonics comprises a core group of engineers and scientists, specializing in a wide range of disciplines including biomedical, mechanical, and electrical/computer engineering, as well as clinical and user research. Our team is strengthened by a network of world-class clinical and academic collaborators.
-
-### We work in teams pulled from our internal group and external network, with each team composed of the right expertise for each project at each stage of development.
-
-### Our Collaborators
-
-Liberating Technologies, INCUMASS Memorial Medical CenterBaylor College of MedicineRhode Island Hospital
-
-U.S. Army Medical ResearchMarine Corps System CommandU.S. Naval Research LaboratoryAir Force Research LaboratoryNational Institute of HealthOthers that cannot be disclosed
-
-Expertise →
-
-Tufts Medical Center, INCUniversity of MarylandUniversity of North TexasUniversity of Texas Southwestern
-
-These projects represent over a decade of Vivonics R&D. While no longer in active development, they reflect the foundational work that has shaped our current technology portfolio and demonstrate the breadth of Vivonics’ capabilities across physiological monitoring, neurological stimulation, combat casualty care, and clinical device development.
-
-Research & Development
-
-Medical Areas
-
 No results found
 
-URL: https://vivonics.com/who-we-are
-Who We Are — Vivonics Inc.
-
----
-
-# Mission Statement
-
-### Our mission is to create innovative solutions for important unmet needs in human health and help bring these solutions to market in order to improve wellness and performance. We focus on developing innovative mobile physiological monitoring, advanced diagnostics, non-invasive interventions and clinical decision support technologies.
-
-### Vivonics comprises a core group of engineers and scientists. specializing in a wide range of disciplines including biomedical, mechanical, electrical/computer engineering as well as clinical and user research. Our team is strengthened by a network of world-class clinical and academic collaborators.
-
-### We work in teams pulled from our internal group and external network, with each team composed of the right expertise for each project at each stage of development.
-
----
-
-# Technology and Research
-
-### Combat Casualty Care
-
-https://vivonics.com/combatcasualtycare
-
-### Diabetic Neuropathy Care
-
-https://vivonics.com/diabetic-neuropathy-care
-
-### Operational Performance Monitoring and Enhancement
-
-https://vivonics.com/operational-performance-monitoring-and-enhancement
-
-### Physiological Monitoring
-
-https://vivonics.com/physiologicalmonitoring
-
-### Transdermal Neurological Stimulation
-
-https://vivonics.com/transdermal-neurological-stimulation
-
----
-
-Research & Development
-
-Medical Areas
-
-No results found
-
-URL: https://vivonics.com/history
+URL: https://www.vivonics.com/history
 History — Vivonics Inc.
 
 Research & Development
 
+- Digital Health 8
+- Physiological Monitoring 7
+- Combat Casualty Care 6
+- Military 6
+- Clinical 5
+- Temperature 4
+- Transdermal Neurological 4
+- Consumer 3
+- Operational Performance 3
+- Advanced Prosthetics 2
+- Contactless Monitoring 2
+- Diabetic 2
+- Surgical Solutions 2
+- Traumatic Brain Injury 1
+
 Medical Areas
+
+- medical device 3
+- CHD 1
+- Diabetic 1
+- ECG 1
+- EEG 1
+- EMG 1
+- Mayo Clinic 1
+- amputee 1
+- children 1
+- clinical 1
+- congenital heart disease 1
+- cooling 1
+- cooling socket liner 1
+- electrical stimulation 1
+- flight simulator 1
+- flow resistor 1
+- gvs 1
+- miniaturized circuitry 1
+- minimally invasive 1
+- monitoring 1
+- non-invasive 1
+- non-invasive surgery 1
+- peltier cooling 1
+- physiological monitoring 1
+- portable 1
+- prosthetics 1
+- residual limb temperature 1
+- stent 1
+- surgical shunt 1
+- temperature 1
+- training 1
+- vestibular stimulation 1
+- vestibular system 1
+- wearable 1
 
 No results found
-
-History &mdash; Vivonics Inc.
-# [![Vivonics Inc.](//images.squarespace-cdn.com/content/v1/5617e1e2e4b0b73949ee4a12/1533833785358-F0JIYGO9OWEED3E1063J/Vivonics+Swooshes_white.png?format=1500w)](/)
-![](https://images.squarespace-cdn.com/content/v1/5617e1e2e4b0b73949ee4a12/09735d30-1a98-43b9-801d-86af8ed173fa/Vivonics+History+Infographic)
-Research & Development
-* [
-Digital Health
-8
-](/technologies/category/Digital+Health)
-* [
-Physiological Monitoring
-7
-](/technologies/category/Physiological+Monitoring)
-* [
-Combat Casualty Care
-6
-](/technologies/category/Combat+Casualty+Care)
-* [
-Military
-6
-](/technologies/category/Military)
-* [
-Clinical
-5
-](/technologies/category/Clinical)
-* [
-Temperature
-4
-](/technologies/category/Temperature)
-* [
-Transdermal Neurological
-4
-](/technologies/category/Transdermal+Neurological)
-* [
-Consumer
-3
-](/technologies/category/Consumer)
-* [
-Operational Performance
-3
-](/technologies/category/Operational+Performance)
-* [
-Advanced Prosthetics
-2
-](/technologies/category/Advanced+Prosthetics)
-* [
-Contactless Monitoring
-2
-](/technologies/category/Contactless+Monitoring)
-* [
-Diabetic
-2
-](/technologies/category/Diabetic)
-* [
-Surgical Solutions
-2
-](/technologies/category/Surgical+Solutions)
-* [
-Traumatic Brain Injury
-1
-](/technologies/category/Traumatic+Brain+Injury)
-Medical Areas
-* [
-medical device
-3
-](/technologies/tag/medical+device)
-* [
-CHD
-1
-](/technologies/tag/CHD)
-* [
-Diabetic
-1
-](/technologies/tag/Diabetic)
-* [
-ECG
-1
-](/technologies/tag/ECG)
-* [
-EEG
-1
-](/technologies/tag/EEG)
-* [
-EMG
-1
-](/technologies/tag/EMG)
-* [
-Mayo Clinic
-1
-](/technologies/tag/Mayo+Clinic)
-* [
-amputee
-1
-](/technologies/tag/amputee)
-* [
-children
-1
-](/technologies/tag/children)
-* [
-clinical
-1
-](/technologies/tag/clinical)
-* [
-congenital heart disease
-1
-](/technologies/tag/congenital+heart+disease)
-* [
-cooling
-1
-](/technologies/tag/cooling)
-* [
-cooling socket liner
-1
-](/technologies/tag/cooling+socket+liner)
-* [
-electrical stimulation
-1
-](/technologies/tag/electrical+stimulation)
-* [
-flight simulator
-1
-](/technologies/tag/flight+simulator)
-* [
-flow resistor
-1
-](/technologies/tag/flow+resistor)
-* [
-gvs
-1
-](/technologies/tag/gvs)
-* [
-miniaturized circuitry
-1
-](/technologies/tag/miniaturized+circuitry)
-* [
-minimally invasive
-1
-](/technologies/tag/minimally+invasive)
-* [
-monitoring
-1
-](/technologies/tag/monitoring)
-* [
-non-invasive
-1
-](/technologies/tag/non-invasive)
-* [
-non-invasive surgery
-1
-]
 
 ## LinkedIn about
 
 Vivonics, Inc. is a biomedical engineering technology development firm pushing the limits of the level of medical care that can be had outside of a traditional clinical setting by creating innovative technologies that improve human health and performance from the initial concept to viable products. Vivonics comprises a core group of engineers and scientists, specializing in a wide range of disciplines including biomedical, mechanical, electrical, and software engineering. Our team is strengthened by a network of world class clinical and academic collaborators. We work in teams pulled from our 
 
 ## News (Exa, top 3)
-- Vivonics, Inc. Awarded $999962 Contract from US Marine ... (2024-09-13) https://www.vivonics.com/news/vivonics-inc-awarded-contract-from-usmc
+- Vivonics, Inc. Awarded $999962 Contract from US Marine Corps for ... (2024-09-13) https://www.vivonics.com/news/vivonics-inc-awarded-contract-from-usmc
   Vivonics, Inc. Awarded $999,962 Contract from US Marine Corps for Continued Development of Traumatic Brain Injury Treatment System — Vivonics Inc.
 
 Boston, MA — [9-12-24] — Vivonics, Inc. is pleased to announce the award of contract M67854-24-C-6544 from the U.S. Marine Corps (USMC) for $999,962 to advance the development of the Intranasal Cooling for Encephalopathy Prevention in Combat Casualties (ICEPICC) system. The ICEPICC system is a breakthrough technology aimed at mitigating the effects o

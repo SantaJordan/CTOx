@@ -1,0 +1,49 @@
+{
+  "company": "BlackVe",
+  "slug": "blackve",
+  "domain": "blackve.us",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Founded 'for the explicit purpose of advancing US National Security in Space' (about page), federal IDV to BLACKVE INC. on USAspending and HigherGov contract record with most recent award April 2026 — homepage/about and news sections.",
+  "disconnect_score": 38,
+  "subscores": {
+    "lab_language_intensity": 12,
+    "deployment_awareness_absence": 6,
+    "operator_absence": 8,
+    "hiring_profile_skew": 4,
+    "stage_pressure": 8
+  },
+  "score_evidence": [
+    "\"Design-to-Launch in months, not years\" and \"unprecedented launch velocity\" — speed-brag framing → lab_language_intensity",
+    "\"Fully compliant with NIST 800-171 standards, ensuring secure design, manufacturing, and operations\" — explicit compliance fluency keeps deployment_awareness_absence low",
+    "Open roles include Senior Spacecraft Assembly, Integration and Test Technician and Mid-level Mechanical/Test Engineer — integration/test hiring present for a hardware firm → hiring_profile_skew low",
+    "Leadership fielded 30+ space missions (CEO ex-Director of DoD Operationally Responsive Space Office) — they largely 'get it', bottom-of-list keep per calibration"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "'Months, not years' delivery speed is promised, but the government's authorization clock is not theirs to compress",
+      "operator_reality": "A quick-turn spacecraft still waits on SSC mission assurance, launch integration, and RMF/ATO for its ground segment — when build time drops to months, the accreditation timeline becomes the schedule, and the funded period burns while the vehicle sits authorized-nowhere",
+      "why_likely_missing": "The pitch is built around manufacturing velocity; nothing on the site addresses who owns the authorization path that gates 'launch'",
+      "evidence_quote": "Deliver secure, modular, multi-mission spacecraft from concept to orbit in months, not years.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Turnkey 'secure operations' is described with no tactical-edge data path for the intelligence products the constellation generates",
+      "operator_reality": "ISR data that stops at a Herndon ops floor never reaches the E-5 at an OCONUS site pulling imagery over intermittent SATCOM into ATAK; the site's 'Integrated Intelligence Solutions' never mentions dissemination, TAK, or low-bandwidth delivery",
+      "why_likely_missing": "Leadership pedigree is space-segment and ground-segment (BlackSky, ORS, Mercury); the last tactical mile is someone else's problem until a program office asks who closes it",
+      "evidence_quote": "Developing secure, mission-ready capabilities that integrate data, analytics, and technology to support defense and national security operations.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Autonomous, attritable spacecraft with onboard AI — and no stated verification story for link-denied autonomy",
+      "operator_reality": "Attritable constellations fight in contested space where command links are jammed first; autonomy that hasn't been V&V'd for days of link-denied operation fails its operational test event, and the site offers demos of speed, not evidence of denied-environment behavior",
+      "why_likely_missing": "Autonomy claims are capability-brochure level ('equipped with autonomous capabilities, AI') while the engineering detail on the site is all manufacturing (clean room, sq. ft.)",
+      "evidence_quote": "Provide maneuverable, cost-effective spacecraft equipped with autonomous capabilities, AI, and high-performance onboard processing.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "BlackVe commits to design-to-launch in months while the mission-assurance and ground-segment ATO clock the government controls still runs in years — that gap, not the clean room, is where quick-turn space programs stall.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Razor's Edge-backed Albuquerque manufacturer of quick-turn national-security smallsats, founded 2024, expanding to 150+ staff on federal contract awards."
+}

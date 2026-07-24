@@ -1,0 +1,16 @@
+{
+  "company": "A T A, LLC (Advanced Technology Applications)",
+  "slug": "a-t-a-llc",
+  "domain": "ata-llc.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "MDA SBIR Phase II ($1.5M, 2023) for the SPOT-lyt streaming analytics platform and DoD client testimonials (SBIR abstract, website) — but the firm is a federal data/AI services integrator.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "SBA Tribal 8(a) federal contractor delivering 'full stack data and AI solutions and services' — client quotes ('You have stepped into a strong leadership role') read as embedded-staff services, not a product company stuck in the valley."
+}

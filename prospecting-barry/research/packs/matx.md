@@ -136,7 +136,7 @@ A world with more widely available intelligence is a happier and more prosperous
 - Nvidia challenger AI chip startup MatX raised $500M | TechCrunch (2026-02-25) https://techcrunch.com/2026/02/24/nvidia-challenger-ai-chip-startup-matx-raised-500m/
   Nvidia challenger AI chip startup MatX raised $500M | TechCrunch
 
-Copy Share Link
+Share on Facebook Share on X Share on LinkedIn Share on Reddit Share over Email Copy Share Link
 
 In Brief
 
@@ -146,13 +146,9 @@ Posted:
 
 Image Credits:sankai / Getty Images
 
-- Marina Temkin
-
 # Nvidia challenger AI chip startup MatX raised $500M
 
-MatX, a chip startup founded by two former Google hardware engineers, has raised a $500 million Series B led by Jane Street and Situational Awareness, an investment fund formed by former OpenAI researcher Leopold Aschenbrenner.
-
-The company’s goal is to ma
+MatX, a chip startup founded by two former Google hardware engineers, has raised a $500 million Series B led by Jane Street and Situational Awareness, an investment fund formed by former OpenAI
 - AI Chip Startup MatX Raises $500 Million to Compete With Nvidia (2026-02-24) https://news.bloomberglaw.com/private-equity/ai-chip-startup-matx-raises-500-million-to-compete-with-nvidia
   AI Chip Startup MatX Raises $500 Million to Compete With Nvidia
 
@@ -179,6 +175,7 @@ Jane Street and Situational Awareness led the Series B investment. MatX stated t
 ## Open roles (Blitz, live)
 - Senior SoC Power Analysis & Optimization Engineer ({'city': 'Mountain View', 'country_code': 'US'})
 - Laboratory Operations Intern ({'city': 'Mountain View', 'country_code': 'US'})
+- High_Speed Lab Manager ({'city': 'Mountain View', 'country_code': 'US'})
 - Rust Engineer ({'city': 'Mountain View', 'country_code': 'US'})
 - HighSpeed Lab Manager ({'city': 'Mountain View', 'country_code': 'US'})
 - BMC Firmware Engineer ({'city': 'Mountain View', 'country_code': 'US'})
@@ -186,7 +183,6 @@ Jane Street and Situational Awareness led the Series B investment. MatX stated t
 - Technical Program Manager- Silicon Physical Design ({'city': 'Mountain View', 'country_code': 'US'})
 - Design Verification Engineer ({'city': 'Mountain View', 'country_code': 'US'})
 - HighSpeed Lab Manager ({'city': 'Mountain View', 'country_code': 'US'})
-- Optical Network Engineer ({'city': 'Mountain View', 'country_code': 'US'})
 
 ---
 # Context for the scoring agent (do not re-search)

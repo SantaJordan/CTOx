@@ -191,21 +191,7 @@ The TRX DAPS II solution includes cabling and mounting accessories for integrati
 On the modern battlefield, reliable location data is paramount to ensuring safety and mission effectiveness. At TRX Systems, we’re continuously innovating, seeking to equip warfighters with the most technologically advanced and durable PNT solutions so that, even in the most adverse conditions, they always have assured position and time. TRX Systems strives to be the military’s choice in assured PNT products for dismounted warfighters, easily integrated ground systems, and other low-SWaP-C platforms. We stay ahead of the market by continuously innovating, being responsive to our customer needs
 
 ## News (Exa, top 3)
-- TRX Systems wins $402 million deal for jam-resistant navigation gear (2023-04-12) https://www.defensenews.com/industry/2023/04/12/trx-systems-wins-402-million-deal-for-jam-resistant-navigation-gear/
-  TRX Systems wins $402 million deal for jam-resistant navigation gear
-
-#### Industry
-
-# TRX Systems wins $402 million deal for jam-resistant navigation gear
-
-Apr 12, 2023
-
-A soldier walks across a field during a land navigation course at Camp Williams, Utah, in April 2021. (Sgt. 1st Class Brent C. Powell/U.S. Army)
-
-WASHINGTON — The U.S. Army tapped TRX Systems to produce jam- and spoof-resistant navigation equipment for soldiers in a deal worth as much as $402 million.
-
-The service’s Program Exe
-- U.S. Army Awards TRX Systems $402 Million Production ... (2023-05-04) https://www.trxsystems.com/blog/daps-gen-ii
+- U.S. Army Awards TRX Systems $402 Million Production Contract for ... (2023-05-04) https://www.trxsystems.com/blog/daps-gen-ii
   U.S. Army Awards TRX Systems $402 Million Production Contract for DAPS GEN II - TRX Systems
 
 Company
@@ -224,7 +210,7 @@ Resources
 5/4/2023
 
 TRX Systems has been awarded a $402 Million, seven-year, Indefinite Delivery/Indefinite Quantity (IDIQ) contract by the U.S. Army for the procurement of Dismounted Assured Positioning, Navigation, and Timing System Generation 
-- TRX Systems Awarded U.S. Army Contract for DAPS II ... (2024-03-08) https://www.trxsystems.com/blog/us-army-contract-award
+- TRX Systems Awarded U.S. Army Contract for DAPS II Solution (2024-03-08) https://www.trxsystems.com/blog/us-army-contract-award
   TRX Systems Awarded U.S. Army Contract for DAPS II Solution - TRX Systems
 
 Company
@@ -243,6 +229,20 @@ Resources
 3/8/2024
 
 The U.S. Army awarded a $9.9 million contract to TRX Systems this week for the DAPS GEN II system, as described in this recent Department of Defense announcement. This award is a follow-on delivery order from the seven-year $402 million IDIQ contract awarded to 
+- TRX Systems wins $402 million deal for jam-resistant navigation gear (2023-04-12) https://www.defensenews.com/industry/2023/04/12/trx-systems-wins-402-million-deal-for-jam-resistant-navigation-gear/
+  TRX Systems wins $402 million deal for jam-resistant navigation gear
+
+#### Industry
+
+# TRX Systems wins $402 million deal for jam-resistant navigation gear
+
+Apr 12, 2023
+
+A soldier walks across a field during a land navigation course at Camp Williams, Utah, in April 2021. (Sgt. 1st Class Brent C. Powell/U.S. Army)
+
+WASHINGTON — The U.S. Army tapped TRX Systems to produce jam- and spoof-resistant navigation equipment for soldiers in a deal worth as much as $402 million.
+
+The service’s Program Exe
 
 ## Open roles
 (no jobs data found)

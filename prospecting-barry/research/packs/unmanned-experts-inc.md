@@ -310,7 +310,11 @@ Branch: USAF
 Total Award Amount: $1,833,687
 
 Contract Number: FA8658
-- Unmanned Experts, Inc. - | SBIR () https://www.sbir.gov/portfolio/663078
+- US Air Force selects team led by Liteye and Unmanned Experts for swarm management solution – Unmanned airspace () https://www.unmannedairspace.info/uncategorized/us-air-force-selects-team-led-by-liteye-and-unmanned-experts-for-swarm-management-solution/
+  US Air Force selects team led by Liteye and Unmanned Experts for swarm management solution – Unmanned airspace
+
+The US Air Force’s AFLCMC Armament Directorate has awarded a one-year contract to the team led by Unmanned Experts and drone detection company Liteye Systems to build Web Weasels Autonomous Swarming Artificially Intelligent Munitions programme. Web Weasels is part of Unmanned Experts parent program called Air Commons -Swarm which allows commanders to plan, task, and manage multiple swa
+- Unmanned Experts, Inc. () https://www.sbir.gov/portfolio/663078
   Firm | SBIR Skip to main content
 
 # Company
@@ -362,10 +366,6 @@ Phase II Dollars
 $7,990,282
 
 Tota
-- US Air Force selects team led by Liteye and Unmanned Experts for swarm management solution – Unmanned airspace () https://www.unmannedairspace.info/uncategorized/us-air-force-selects-team-led-by-liteye-and-unmanned-experts-for-swarm-management-solution/
-  US Air Force selects team led by Liteye and Unmanned Experts for swarm management solution – Unmanned airspace
-
-The US Air Force’s AFLCMC Armament Directorate has awarded a one-year contract to the team led by Unmanned Experts and drone detection company Liteye Systems to build Web Weasels Autonomous Swarming Artificially Intelligent Munitions programme. Web Weasels is part of Unmanned Experts parent program called Air Commons -Swarm which allows commanders to plan, task, and manage multiple swa
 
 ## Open roles
 (no jobs data found)

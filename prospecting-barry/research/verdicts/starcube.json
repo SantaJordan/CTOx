@@ -1,0 +1,23 @@
+{
+  "company": "StarCube",
+  "slug": "starcube",
+  "domain": "starcube.tech",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own site names 'Defense & Military' as an explicit target application: 'Energy resilience for military installations... mission readiness' — homepage Applications section. No SBIR record found in this pack (VC-portfolio sourced).",
+  "disconnect_score": 52,
+  "subscores": {"lab_language_intensity": 6, "deployment_awareness_absence": 10, "operator_absence": 10, "hiring_profile_skew": 10, "stage_pressure": 16},
+  "score_evidence": [
+    "\"2030+ Deployment: Factory production, first customer deployments for defense installations and critical infrastructure.\" → stage_pressure (own roadmap places first defense deployment 4+ years out on an 8-person team with only concept-stage design complete)",
+    "own-language word count ~670 (<1000) → caps applied to deployment_awareness_absence and operator_absence per calibration rule"
+  ],
+  "blind_spots": [
+    {"blind_spot": "'Inherently Safe... requires no human intervention' framing addresses reactor physics safety but says nothing about who trains base personnel to operate, monitor, or respond to the microreactor once installed.", "operator_reality": "Even a passively-safe reactor still needs base engineers or a sustainment contract for monitoring, physical security of special nuclear material, and NRC/DoD compliance reporting — none of this is addressed.", "why_likely_missing": "Team and roadmap are focused on reactor physics and licensing at this concept stage; operations/sustainment planning naturally comes later.", "evidence_quote": "Designed with passive safety systems that require no human intervention or external power.", "quote_source": "homepage"},
+    {"blind_spot": "Roadmap only references 'regulatory pre-application engagement with the NRC,' with no mention of the separate DoD-side approval chain (installation authority, Army/AF nuclear safety review) needed to place a reactor on a military base.", "operator_reality": "An NRC license alone doesn't authorize placement on a DoD installation — that's a second, DoD-specific approval process the roadmap never names.", "why_likely_missing": "NRC licensing is the more familiar regulatory hurdle for a nuclear-hardware team; DoD-specific site authorization processes are less visible externally at this stage.", "evidence_quote": "2026–2027 Engineering & Testing: Detailed engineering, component testing, regulatory pre-application engagement with the NRC.", "quote_source": "homepage"},
+    {"blind_spot": "Company markets identically to 'Defense & Military,' 'Remote & Off-Grid,' 'Industrial Off-Grid,' and 'Critical Infrastructure' with no differentiated advocacy-chain story for the military market specifically — no named installation, pilot program, or DoD champion.", "operator_reality": "Operators loving the pitch is not adoption — without a named installation-level sponsor, defense is one of four parallel markets pitched with the same paragraph, with no evidence of an actual DoD relationship.", "why_likely_missing": "Pre-prototype company is still casting a wide net across markets to build early partnerships and interest.", "evidence_quote": "Providing 100% of critical loads with reliable, secure, carbon-free power. Designed for defense installations, remote operations, and infrastructure that cannot afford downtime.", "quote_source": "homepage"}
+  ],
+  "opener_hook": "StarCube's own roadmap doesn't reach a prototype until 2028-2029 — years before its stated 'defense installations' deployment target, with no DoD-specific approval chain named alongside the NRC licensing path.",
+  "confidence": "low",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Pre-prototype developer of factory-built, transportable nuclear microreactors targeting defense installations and off-grid/critical infrastructure; first prototype not planned until 2028-2029."
+}

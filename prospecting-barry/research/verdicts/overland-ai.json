@@ -1,0 +1,16 @@
+{
+  "company": "Overland AI",
+  "slug": "overland-ai",
+  "domain": "overland.ai",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Own press release: 'Overland AI Is the First Ground Autonomy Company to Prime a Production Contract for the U.S. Military' — $20M APFIT award to accelerate production and fielding of AGVs to USMC, plus demonstrated combat capabilities at AFRICOM's largest annual exercise and on USMC ROGUE Fires.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Builds autonomous off-road ground vehicles (ULTRA) and fleet C2 software (OverDrive/OverWatch) for the U.S. military; just won the first-ever production contract in ground autonomy (USMC APFIT, $20M) and has already demonstrated in live exercises."
+}

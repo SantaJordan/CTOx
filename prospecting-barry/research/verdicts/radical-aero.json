@@ -1,0 +1,16 @@
+{
+  "company": "Radical Aero",
+  "slug": "radical-aero",
+  "domain": "radicalaero.com",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "No defense/military/warfighter language anywhere in site, about, product, or news; product is pitched as commercial connectivity/observation/weather infrastructure (5G direct-to-device, precision weather forecasting) with a defense VC scout listing as the only defense signal, which the rules say is not sufficient alone.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Builds solar-powered stratospheric autonomous aircraft (StratoSats) for persistent connectivity, observation, and weather forecasting."
+}

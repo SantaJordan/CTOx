@@ -103,12 +103,6 @@ Vigilant Aerospace is the leading developer of detect-and-avoid and airspace man
 This project proposes to integrate a functional detect-and-avoid (DAA) system onto an existing long-endurance Group V uncrewed aircraft system (UAS) to provide improved operational awareness, air traffic visibility and automatic collision avoidance comman
 
 ## News (Exa, top 3)
-- Vigilant Aerospace Selected for US Air Force EWAAC Contract as Preferred Vendor for Uncrewed Airspace Management (2025-06-03) https://www.prnewswire.com/news-releases/vigilant-aerospace-selected-for-us-air-force-ewaac-contract-as-preferred-vendor-for-uncrewed-airspace-management-302471857.html
-  Vigilant Aerospace Selected for US Air Force EWAAC Contract as Preferred Vendor for Uncrewed Airspace Management Accessibility Statement Skip Navigation
-
-Multi-Sensor Traffic Management Solution FlightHorizon Provides New Capabilities for Next Generation of Warfighters
-
-OKLAHOMA CITY, June 3, 2025 /PRNewswire/ -- Vigilant Aerospace Systems, Inc., provider of multi-sensor detect-and-avoid and airspace management software FlightHorizon, has been selected by the U.S. Air Force as a new vendor on th
 - Media: Vigilant Aerospace Selected for US Air Force EWAAC Contract as Preferred Vendor for Uncrewed Airspace Management - Vigilant Aerospace Systems, Inc. (2025-06-17) https://vigilantaerospace.com/vigilant-aerospace-selected-for-us-air-force-ewaac-contract-as-preferred-vendor-for-uncrewed-airspace-management-6/
   Media: Vigilant Aerospace Selected for US Air Force EWAAC Contract as Preferred Vendor for Uncrewed Airspace Management - Vigilant Aerospace Systems, Inc.
 
@@ -119,6 +113,12 @@ Toll-Free: 1 ( 844) SafeSky | [phone]
 Multi-Sensor Traffic Management Solution FlightHorizon Provides New Capabilities for Next Generation of Warfighters
 
 Oklahoma City, OK (June 3, 2025) – Vigilant Aerospace Sy
+- Vigilant Aerospace Selected for US Air Force EWAAC Contract as Preferred Vendor for Uncrewed Airspace Management (2025-06-03) https://www.prnewswire.com/news-releases/vigilant-aerospace-selected-for-us-air-force-ewaac-contract-as-preferred-vendor-for-uncrewed-airspace-management-302471857.html
+  Vigilant Aerospace Selected for US Air Force EWAAC Contract as Preferred Vendor for Uncrewed Airspace Management Accessibility Statement Skip Navigation
+
+Multi-Sensor Traffic Management Solution FlightHorizon Provides New Capabilities for Next Generation of Warfighters
+
+OKLAHOMA CITY, June 3, 2025 /PRNewswire/ -- Vigilant Aerospace Systems, Inc., provider of multi-sensor detect-and-avoid and airspace management software FlightHorizon, has been selected by the U.S. Air Force as a new vendor on th
 - Vigilant Aerospace Awarded Contract to Develop Detect-and-Avoid System for the US Air Force’s New Long-Endurance UAS - Vigilant Aerospace Systems, Inc. (2023-10-10) https://vigilantaerospace.com/vigilant-aerospace-awarded-contract-to-develop-detect-and-avoid-system-for-the-us-air-forces-new-long-endurance-uas/
   Vigilant Aerospace Awarded Contract to Develop Detect-and-Avoid System for the US Air Force’s New Long-Endurance UAS - Vigilant Aerospace Systems, Inc.
 

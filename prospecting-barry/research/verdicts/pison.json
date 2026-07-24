@@ -1,0 +1,44 @@
+{
+  "company": "Pison",
+  "slug": "pison",
+  "domain": "pison.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Homepage banner reads 'Backed by DoD' and links 'How it is used by the Army' (own-words section); News section shows a Nov 2023 SOCOM Phase III SBIR award ('improved situational awareness and combat effectiveness') and a NAVAIR/NAWCAD R&D contract.",
+  "disconnect_score": 80,
+  "subscores": {"lab_language_intensity": 16, "deployment_awareness_absence": 20, "operator_absence": 18, "hiring_profile_skew": 10, "stage_pressure": 16},
+  "score_evidence": [
+    "'Pison continuously learns your unique nervous system to predict your cognitive performance 24/7' → lab_language_intensity (algorithmic/real-time brag, zero operational framing)",
+    "Entire site never mentions DDIL, ATO, RMF, CMMC, ITAR, STIG, or SWaP-C despite claiming 'Backed by DoD' → deployment_awareness_absence maxed",
+    "'operators' appears only as 'For owners, operators & decision-makers' — a business-exec audience label, not a military operator, training, or CONOPS reference anywhere → operator_absence",
+    "no jobs data found in pack → hiring_profile_skew set to 10 per instructions",
+    "founded 2016 (10 years), 81 employees, ~$17M disclosed funding, and the company's primary current public product is a $29/mo consumer wearable subscription rather than a defense product → stage_pressure (a decade-old company monetizing via consumer wellness suggests the defense business hasn't sustained it alone)"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "No mention of TAK/ATAK anywhere despite defense-side work integrating gesture control into AFSOC tactical-awareness systems.",
+      "operator_reality": "A neural/gesture signal has to land inside an operator's existing TAK kit to be useful in a mission — the consumer site's total silence on this integration path is the same 'nobody built the adapter' gap that stalls transitions.",
+      "why_likely_missing": "Public-facing product messaging has pivoted entirely to consumer cognitive-performance wellness; the tactical integration work lives only in SBIR/contract records, not brand language.",
+      "evidence_quote": "'The Pison Platform provides real-time insights into your cognitive state, time-of-day patterns, lifestyle impacts and long-term trends.'",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Zero discussion of ruggedization, battery endurance, or wear-under-gloves/NVGs despite claiming 'passive tracking of nerve signals... day and night' for a device implicitly marketed toward operators.",
+      "operator_reality": "A consumer fitness-watch chassis and battery are not built for continuous wear under a SOF operator's kit, gloves, or field conditions — SWaP-C constraints on a mission-relevant biosensor are a different engineering problem than a $29/mo wellness product.",
+      "why_likely_missing": "Product engineering appears optimized for consumer comfort/battery-life expectations (daily charging, athletic use), not field endurance.",
+      "evidence_quote": "'Wear it — Passive tracking of nerve signals, heart rate, sleep, and motion. Day and night.'",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No ATO/RMF/ITAR language despite a SOCOM press release describing the technology as feeding 'improved situational awareness and combat effectiveness.'",
+      "operator_reality": "Biometric/neural telemetry destined for a combat-effectiveness use case is exactly the kind of personnel data that needs an accreditation and data-handling story before it touches a program of record — nothing in the company's own language addresses this.",
+      "why_likely_missing": "The company's public voice is entirely consumer-product marketing; compliance/accreditation topics don't fit that register and aren't visible anywhere.",
+      "evidence_quote": "'Phase III Small Business Innovation Research contract will integrate Pison's neural biosensing and AI technology for improved situational awareness and combat effectiveness'",
+      "quote_source": "news"
+    }
+  ],
+  "opener_hook": "SOCOM's Phase III SBIR tasked Pison with 'combat effectiveness' integration in Nov 2023, but pison.com today sells a $29/mo consumer wellness watch — how's the tactical-side ATO tracking?",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Neural/ENG wristband sensing platform, sold publicly as a consumer cognitive-performance wearable, with parallel DoD SBIR work on gesture-control and situational-awareness integration."
+}

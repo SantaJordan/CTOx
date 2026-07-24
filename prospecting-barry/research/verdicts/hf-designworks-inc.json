@@ -1,0 +1,20 @@
+{
+  "company": "HF Designworks, Inc.",
+  "slug": "hf-designworks-inc",
+  "domain": "hfdesignworks.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "DoD motion is real — NAVAIR Phase II SBIR ('Multi-Domain Data Fusion Instructional Strategies and Methods for Pilot Training', Navy 2022, $838,369) and Army workload modeling work — but the business itself is a human-factors/UX consultancy, not a product company.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "'At HF Designworks, we apply Human Factors Engineering and User Experience methods to optimize products, systems, and human capabilities.' → services firm, not a product being fielded",
+    "Services list is entirely billable consulting: 'Human Factors Consulting / User Research / UX & Product Design / Concept & Usability Testing / Workload Modeling / Human Systems Integration'",
+    "'Available for new projects' banner + '19, Years in business' since 2006 with 8 employees → a stable consultancy, not a startup with a transition clock"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Boulder-based human-factors and UX consultancy that does workload modeling and interface design for DoD, NASA, and medical programs, with one SBIR-funded product (FortiFly pilot-workload software)."
+}

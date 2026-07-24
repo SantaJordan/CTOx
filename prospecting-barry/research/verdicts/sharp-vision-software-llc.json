@@ -1,0 +1,16 @@
+{
+  "company": "Sharp Vision Software LLC",
+  "slug": "sharp-vision-software-llc",
+  "domain": "sharpvisionsoftware.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "AVARIS is registered in the U.S. Navy's official DADMS software registry and DIVA delivered a completed 5,000+ page digital manual package for GE Aerospace/Spanish Navy F110 program — per own-words News section, own site is genuine DoD-motion but already past the valley of death.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "AR/VR/AI training and technical-manual software (AVARIS, DIVA) already fielded and registry-approved for U.S. Navy maintenance and international defense programs."
+}

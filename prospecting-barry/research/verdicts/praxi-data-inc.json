@@ -1,0 +1,42 @@
+{
+  "company": "Praxi Data, Inc.",
+  "slug": "praxi-data-inc",
+  "domain": "praxi.ai",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "SBIR Phase II Air Force award in 2022 ($1,249,353) for automatic medical records reconciliation across ATAAPS/DMHRSi/MHS Genesis, plus a Defense Health Agency testimonial saying Praxi lifted DMHRSi timecard accuracy and DHA is 'evaluating scale-up across DoD hospitals and clinics' — SBIR/STTR record and testimonial sections.",
+  "disconnect_score": 66,
+  "subscores": {"lab_language_intensity": 16, "deployment_awareness_absence": 18, "operator_absence": 14, "hiring_profile_skew": 10, "stage_pressure": 8},
+  "score_evidence": [
+    "'Praxi.ai runs as always-on automation across your existing stack' + 'Proud to Announce Praxi CaaS Now Live since AWS re:Invent 2025' -> lab_language_intensity: commercial cloud/marketplace framing with zero DoD network context",
+    "Across ~1,946 words of own language (site, LinkedIn, SBIR abstract, news) there is no mention of ATO, RMF, STIG, IL4/IL5, CMMC, ITAR, or DDIL anywhere -> deployment_awareness_absence",
+    "'Meet the hero of the story: Colonel Jason Smith, a Medical Center Administrator' -> operator_absence: names a persona but frames him as an admin drowning in KPIs, not a trained operator with CONOPS or field-feedback loop"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "'Always-on automation across your existing stack' assumes persistent cloud connectivity to Praxi's curation layer.",
+      "operator_reality": "MHS Genesis and DMHRSi data doesn't only live at CONUS medical centers — scale-up to OCONUS clinics, field hospitals, or afloat medical units means intermittent/low-bandwidth links. An 'always-on' cloud-sync architecture built for enterprise insurers has no fallback for a DDIL medical record environment.",
+      "why_likely_missing": "Product was built commercial-first (AWS Marketplace, insurance/fintech customers) and the DoD win came via a narrow SBIR use case, not a deployment-first design process.",
+      "evidence_quote": "Praxi.ai runs as always-on automation across your existing stack: it discovers and cleans data, classifies sensitive information, builds lineage and glossaries, and auto-generates the audit trail every decision needs.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "DHA is 'evaluating scale-up across DoD hospitals and clinics' but nothing in the pack shows an ATO/RMF path for that expansion.",
+      "operator_reality": "Scaling a data-curation tool that touches PHI/PII across DHA's network requires an Authority to Operate and STIG-compliant hosting; without that, 'evaluation' stalls indefinitely regardless of product quality — the classic prototype-to-fielded stall.",
+      "why_likely_missing": "The company's compliance language (GDPR, CCPA, HIPAA) is commercial-regulatory, not federal-authorization language — a sign the team is solving the wrong compliance problem for a DoD-network deployment.",
+      "evidence_quote": "Ensure data compliance, mitigate risks, and meet GDPR and other regulatory standards with robust [governance]",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The DHA persona story (Colonel Jason Smith) is framed entirely around dashboards and KPIs, with no mention of who trains military hospital data staff on the tool or sustains it after the SBIR contract ends.",
+      "operator_reality": "SBIR Phase II money runs out; if the only path to DoD-wide adoption is a champion administrator with no funded training/sustainment plan, the tool dies in the Valley of Death the moment the contract period of performance ends.",
+      "why_likely_missing": "The 2022 SBIR is now several years old with no visible follow-on contract in the pack, and the company's public narrative has since pivoted toward commercial insurance/fintech — a sign DoD scale-up funding and advocacy chain were never locked in.",
+      "evidence_quote": "Praxi.ai lifted DMHRSi timecard accuracy and gave clinicians time back for patients – now we're evaluating scale-up across DoD hospitals and clinics.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Your DHA case study says the team is 'evaluating scale-up across DoD hospitals and clinics' off the 2022 Air Force SBIR — but the ATO/RMF path that scale-up needs on DHA's network doesn't show up once in your site copy or SBIR abstract.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "AI-driven data curation and compliance platform, built commercial-first for insurance/fintech/healthcare, with one DoD SBIR win reconciling military medical timekeeping records."
+}

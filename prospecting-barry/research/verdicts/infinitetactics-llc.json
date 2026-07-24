@@ -1,0 +1,22 @@
+{
+  "company": "InfiniteTactics, LLC",
+  "slug": "infinitetactics-llc",
+  "domain": "infinitetactics.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "SBIR section shows a 2023 Air Force Phase II ($1M) to integrate their SCALE environment with HPCMP infrastructure, and the news section carries a 2025 PRNewswire release announcing full ATO for Analytics Gateway under the DoD High Performance Computing Modernization Program.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "\"its Analytics Gateway platform has received full Authority to Operate (ATO), formally integrating secure on-demand AWS GovCloud-based HPC as a new access resource under the DoD High Performance Computing Moder[nization Program]\" → the transition is already complete; they are a fielded government resource",
+    "\"Built for IL4/5/6/7 environments\" and \"Compliance-ready for IL4, IL5, NIST 800-171\" and \"FedRAMP, NIST 800-171, and Zero Trust aligned\" → maximum accreditation fluency, the opposite of the blind spot Barry sells into",
+    "\"Breaking News – IL5 Approval ... Analytics Gateway Platform Approved at Impact Level 5 Security by the Department of Defe[nse]\" (2024) → they have run the RMF gauntlet to completion",
+    "\"The Beavercreek-based firm is gaining multimillion-dollar contracts with the U.S. Air Force, Navy and others... planning to double its local footprint... and seek out acquisition opportunities\" (2024) → 20-year-old revenue-stage firm acquiring others, not a startup on a period-of-performance clock",
+    "\"Whether our customers are looking for custom engineering, professional services, managed services...\" → also substantially a services/managed-services business"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Veteran-owned Ohio firm selling Gateway, a browser-based secure HPC/AI/simulation platform accredited to IL5 and integrated into the DoD HPC Modernization Program, plus custom engineering services."
+}

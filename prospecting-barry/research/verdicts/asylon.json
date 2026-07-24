@@ -1,0 +1,46 @@
+{
+  "company": "Asylon",
+  "slug": "asylon",
+  "domain": "asylonrobotics.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Two Air Force SBIR Phase II awards in 2023 (~$1.25M each) written directly to USSF Security Forces and the 45th SFS at Patrick SFB, plus a July 2026 Warner Robins Air Logistics Complex contract for the MARIA aircraft-inspection system (SBIR/STTR + News sections).",
+  "disconnect_score": 57,
+  "subscores": {"lab_language_intensity": 11, "deployment_awareness_absence": 15, "operator_absence": 8, "hiring_profile_skew": 13, "stage_pressure": 10},
+  "score_evidence": [
+    "\"Cut operating costs by up to 50% with intelligent, live-monitored robotics\" and \"100-400% More Patrols\" → lab_language_intensity: commercial ROI/demo framing carried unchanged into a DoD sale",
+    "\"LTE and mesh networking, AES-256 encryption, and redundant uplinks\" → deployment_awareness_absence: connectivity is assumed, never contested; 1583 words with zero ATO/RMF/IL4/IL5/STIG/CMMC/ITAR/DDIL",
+    "\"live remote command via FAA-certified pilots\" → deployment_awareness_absence: Part 107 framing where DoD installation flight clearance and airworthiness release govern",
+    "\"Every mission is logged and accessible—giving you a clear audit trail for compliance, response, and reporting\" → deployment_awareness_absence: compliance defined as customer reporting, not government accreditation",
+    "Sole open role is \"Sales Business Development\" (Open roles, Blitz live) → hiring_profile_skew: go-to-market hire, no field/integration/compliance engineering",
+    "\"Automated Battery Swap Technology for Persistent Quadruped Unmanned Ground Vehicle based Perimeter Security\" (Air Force 2023 Phase II) → stage_pressure: 2023 Phase II period of performance has run with no visible Phase III or program of record",
+    "Product is real-time situational awareness for Security Forces yet TAK/ATAK/CoT appears nowhere in 1583 words → deployment_awareness_absence"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The whole product is architected around a remote human operations center reached over commercial LTE — there is no degraded-link mode",
+      "operator_reality": "At Patrick SFB's maritime perimeter and on a Warner Robins flight line, RF is managed, jammed in exercises, or simply saturated; when the uplink drops the DroneDog is a $150k statue and the Security Forces controller has no picture. The fix is the same one that saved the 30fps crowd-detection case — decouple autonomy and evidence capture from the streaming link, store-and-forward on reconnect, and give the on-site NCO a local control mode that never needs the RSOC.",
+      "why_likely_missing": "Every commercial reference customer (Home Depot, GXO, PacWest) sits on a warehouse campus with reliable LTE and a corporate GSOC, so degraded comms never appeared as a requirement in eight years of product development.",
+      "evidence_quote": "With LTE and mesh networking, AES-256 encryption, and redundant uplinks",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "DroneIQ retains mission video and analytics on a contractor SaaS backend, with no accreditation path named",
+      "operator_reality": "MARIA's job is general visual inspection of military aircraft — the imagery is CUI and much of it export-controlled, so it cannot sit in a commercial cloud tenant without IL4/IL5 hosting, an RMF package, STIG'd components and a signed ATO. Discovering that after the demo is exactly where the funded months run out; the architecture decision (government-hosted enclave vs. contractor SaaS, data-at-rest boundary drawn before the first sortie) has to be made now, not at transition.",
+      "why_likely_missing": "In commercial security, 'compliance' means an audit trail for the customer's insurer, so the word appears in their copy while meaning something completely different from what a Warner Robins ISSO will ask for.",
+      "evidence_quote": "Every mission is logged and accessible—giving you a clear audit trail for compliance, response, and reporting.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Flight operations are framed entirely in FAA terms, with no DoD airspace or airworthiness framing",
+      "operator_reality": "On a DoD installation the Part 107 certificate buys nothing: the installation commander, range safety, and a DoD UAS airworthiness release control whether Guardian flies, and each one adds months. A Security Forces squadron that wants the drone tomorrow cannot get it because the paperwork chain nobody scoped is the long pole.",
+      "why_likely_missing": "Their FAA-pilot bench is a genuine commercial differentiator, which makes it feel like the solved problem rather than the wrong regime.",
+      "evidence_quote": "FAA-licensed drone pilots for compliant remote operations",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Warner Robins ALC put MARIA on contract on July 17 to do general visual inspections of military aircraft, which means DroneIQ is about to start holding imagery an ISSO will call CUI — that is usually the month a robotics-as-a-service backend discovers it needs an IL4 boundary rather than an audit trail.",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Robotics-as-a-service perimeter security: Boston Dynamics Spot ground robots plus autonomous security drones, monitored 24/7 from Asylon's own remote operations center, now moving into Air Force base security and aircraft inspection."
+}

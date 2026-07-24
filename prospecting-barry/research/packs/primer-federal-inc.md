@@ -208,6 +208,42 @@ Primer’s disinformation work in support of USSOCOM has established the foundat
 ## News (Exa, top 3)
 - CONTRACT to PRIMER FEDERAL INC () https://www.usaspending.gov/award/CONT_AWD_N6833525F0043_9700_N6833525G0007_9700
   USAspending.gov
+- Award | SBIR () https://www.sbir.gov/awards/205937
+  Award | SBIR Skip to main content
+
+# Award
+
+Portfolio Data
+
+Back to Award Search
+
+## Primer.AI: Content Generation for Military Cyber Operations at Machine Scale and Machine Speed
+
+### Awardee
+
+#### PRIMER FEDERAL INC
+
+https://www.sbir.gov/portfolio/1830459 3100 CLARENDON BLVD STE 925ARLINGTON, VA, 22201-5330USA
+
+Award Year: 2023
+
+UEI: HLVJPF2S6WN5
+
+HUBZone Owned: No
+
+Woman Owned: No
+
+Socially and Economically Disadvantaged: No
+
+Congressional District: 8
+
+Tagged as:
+
+SBIR
+
+Phase II
+
+### Awarding
 - Award | SBIR () https://www.sbir.gov/awards/204454
   Award | SBIR Skip to main content
 
@@ -248,42 +284,6 @@ Phase II
 DOD
 
 Branc
-- Award | SBIR () https://www.sbir.gov/awards/205937
-  Award | SBIR Skip to main content
-
-# Award
-
-Portfolio Data
-
-Back to Award Search
-
-## Primer.AI: Content Generation for Military Cyber Operations at Machine Scale and Machine Speed
-
-### Awardee
-
-#### PRIMER FEDERAL INC
-
-https://www.sbir.gov/portfolio/1830459 3100 CLARENDON BLVD STE 925ARLINGTON, VA, 22201-5330USA
-
-Award Year: 2023
-
-UEI: HLVJPF2S6WN5
-
-HUBZone Owned: No
-
-Woman Owned: No
-
-Socially and Economically Disadvantaged: No
-
-Congressional District: 8
-
-Tagged as:
-
-SBIR
-
-Phase II
-
-### Awarding
 
 ## Open roles (Blitz, live)
 - Senior Technical Delivery Manager ({'city': 'San Francisco', 'country_code': 'US'})

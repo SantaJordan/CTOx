@@ -1,0 +1,44 @@
+{
+  "company": "Scout Space",
+  "slug": "scout-space",
+  "domain": "scout.space",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Two Air Force/Space Force SBIR Phase II awards ($1,499,988 in 2023, $749,995 in 2022), an active $3.8M Space Force TACFI Sequential Phase II contract (Apr 2025), and a position on the Missile Defense Agency's SHIELD MA-IDIQ (Dec 2025 LinkedIn post) — all cited directly in the pack.",
+  "disconnect_score": 62,
+  "subscores": {"lab_language_intensity": 9, "deployment_awareness_absence": 11, "operator_absence": 14, "hiring_profile_skew": 13, "stage_pressure": 15},
+  "score_evidence": [
+    "\"Owl -- Long range space domain awareness (LEO/GEO & Lunar), Sparrow -- Low-SWAP close-range optical system for RPO-D (LEO)\" — some SWaP-C awareness present → lab_language_intensity kept modest, not maxed",
+    "\"autonomously navigate, coordinate, and inspect assets—even without ground communication\" shows partial disconnected-ops framing, but zero mention of ATO/RMF/CMMC/ITAR/STIG anywhere in ~1092 words despite active DoD contracts → deployment_awareness_absence",
+    "\"Enable your spacecraft or payload to perform complex CONOPS using software developed hand-in-hand with the US Space Force\" — CONOPS named but no operator, warfighter, training, or field-feedback language anywhere → operator_absence",
+    "Open roles: \"Satellite Electrical Engineer... Senior Mission Systems Engineer... Director of Engineering\" — hardware domain engineering (neutral per hardware-firm rule), zero field/test/integration/compliance roles → hiring_profile_skew",
+    "Two SBIR Phase II awards plus an active $3.8M TACFI Sequential Phase II contract running concurrently, team of 30-40, seed-stage per channel notes → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Sparrow is explicitly marketed as 'Low-SWAP,' but the GEO-class Owl sensor and the 'Edge Processing' compute line carry no SWaP-C framing at all, and 'radiation hardened' is asserted with no numbers.",
+      "operator_reality": "A GEO SDA sensor and its onboard compute still have to fit a bus's power/thermal/mass budget; claiming radiation-hardening without SWaP specifics is the same pattern as a lab demo that never survived the actual platform integration constraint.",
+      "why_likely_missing": "Marketing emphasizes mission capability (autonomy, CONOPS) over the physical integration constraints that determine whether a sensor actually flies on the customer's bus.",
+      "evidence_quote": "\"From radiation hardened sensors to autonomy software. We empower every customer with intelligence at the edge.\"",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Autonomy works 'even without ground communication,' but nothing addresses the return trip — how degraded, intermittent, or denied downlink affects getting SDA cataloguing data back to analysts and decision-makers who actually need it.",
+      "operator_reality": "Space domain awareness is worthless if the intelligence never reaches the operator's console; on-orbit autonomy solves half the DDIL problem (acting without ground) but the pack shows no plan for the comms-denied half (reporting back).",
+      "why_likely_missing": "The product pitch is built around onboard autonomy as the differentiator, which naturally foregrounds disconnected operation over the ground-segment reporting chain.",
+      "evidence_quote": "\"Our advanced flight software enables satellites to autonomously navigate, coordinate, and inspect assets—even without ground communication—enhancing responsiveness, scalability, and operational efficiency.\"",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No ATO, RMF, CMMC, or ITAR/export-control language appears anywhere despite two active Space Force SBIRs, a TACFI contract, and an MDA SHIELD IDIQ position — all vehicles explicitly designed to bridge a company past the valley of death.",
+      "operator_reality": "TACFI exists specifically because Phase II SBIR money runs out before a program of record materializes; a company that's already inside that bridge-funding window with zero visible compliance/accreditation narrative is exactly the profile at highest risk of stalling right before transition.",
+      "why_likely_missing": "Leadership bios (NASIC, Boeing, NRO, Maxar backgrounds) signal deep domain and IC expertise but no visible compliance/accreditation function in current job postings or site copy.",
+      "evidence_quote": "\"Scout Space Awarded TACFI Contract to Enhance Space Domain Awareness via On-Board Data Processing for U.S. Space Force\"",
+      "quote_source": "news"
+    }
+  ],
+  "opener_hook": "Scout's TACFI contract funds a new GEO SDA sensor for Space Force — what's the plan once that funding clock runs out?",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Builds satellite sensors (Owl, Sparrow), onboard mission-autonomy software, and edge processing for space domain awareness, developed in collaboration with the US Space Force."
+}

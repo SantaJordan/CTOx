@@ -1,0 +1,51 @@
+{
+  "company": "KAIROS AUTONOMI INC",
+  "slug": "kairos-autonomi-inc",
+  "domain": "kairosautonomi.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Navy SBIR Phase II for the Universal Vehicle Controller ($1,488,369, 2023, contract N6833523C0194 with NAWCAD) plus an Army contract record on USAspending, and their homepage sells directly to military use cases ('Moving Land Targets', 'Range Clearance', 'Convoy Lead / Follow').",
+  "disconnect_score": 34,
+  "subscores": {
+    "lab_language_intensity": 3,
+    "deployment_awareness_absence": 6,
+    "operator_absence": 6,
+    "hiring_profile_skew": 10,
+    "stage_pressure": 9
+  },
+  "score_evidence": [
+    "'Mean Time To Replace/Repair (MTR) is 30 minutes or less' and 'Weight: 50 lbs. / 10 kg ... Power: 9-32 vdc' → lab_language_intensity near zero: they lead with sustainment and SWaP numbers, not demo metrics",
+    "'This provides a means to de-classify an optionally Unmanned Ground Vehicle (UGV) in minutes. All software and operation data is removed when this module is removed.' → deployment_awareness_absence LOW: they designed for classified-material handling in the field, which most companies never consider",
+    "'uses open standards such as the Joint Architecture for Unmanned Systems (JAUS) or MAVLink' → deployment_awareness_absence LOW: interoperability with government unmanned-systems architecture is designed in, not retrofitted",
+    "'Via radio operation, commands can be given by the operator to the UVC directly' and 'Installs in less than 15 minutes ... requiring no destructive modification to the host vehicle' → operator_absence LOW: the design constraints are the operator's constraints",
+    "No jobs data in pack — hiring_profile_skew set to exactly 10 per instruction",
+    "'Specializing in Robotic Applique for 20 years' with 16 employees and a 2023 Navy Phase II whose period of performance is likely closing → stage_pressure moderate: a durable small business, but the transition of UVC still has to happen inside the funded window"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Autonomy rests on GPS waypoints driven by an open-source ground station",
+      "operator_reality": "The environments this kit is pitched into — range clearance, convoy lead/follow, route reconnaissance — are exactly where GPS is jammed or spoofed and where the control radio is contested. Mission Planner following fixed waypoints degrades to a vehicle that stops or drifts, and the operator's fallback is a teleop link with the same RF problem. The architectural fix is alternative navigation and a defined behavior on link loss, and neither appears in their language.",
+      "why_likely_missing": "The Phase II was framed around Humanitarian Aid and Disaster Relief, where GPS and comms are degraded by terrain and infrastructure loss rather than by an adversary deliberately denying them.",
+      "evidence_quote": "Kairos currently utilizes Mission Planner, an open source drone-control program, to autonomously guide the UVC systems through fixed GPS waypoints.",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "Physical declassification is solved; the cyber authorization package is not",
+      "operator_reality": "Pulling the computing module handles spillage, but the moment this vehicle joins a unit it is a system needing an RMF package, STIGs on that 'industry standard computing platform', and a story for a 14-port USB hub sitting on a fielded asset — removable media is one of the first findings an assessor writes up. Company-level CMMC/NIST 800-171 gates the contract before any of that. Nine to eighteen months of authorization work runs longer than most Phase II periods.",
+      "why_likely_missing": "Their security instinct is physical and hardware-shaped, formed in an era when the kit lived on a test range rather than on an authorized network.",
+      "evidence_quote": "The computing module contains an industry standard computing platform, as well as a 14 port USB hub and an 8 port Ethernet Switch.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No visible advocacy chain or program-of-record path after twenty years of kit sales",
+      "operator_reality": "Range and test users loving an applique kit does not create a program. Without a sponsoring program office, a prime integration relationship, an NSN and a sustainment plan, each sale stays a one-off purchase order and the Phase II ends without a transition partner. That is the failure mode that kills the follow-on contract even when the hardware works — and here the hardware demonstrably works.",
+      "why_likely_missing": "The go-to-market on the site is a catalog and a quote request, which is exactly what sustains a small business at 16 people and exactly what prevents it from becoming a program.",
+      "evidence_quote": "Want to get automated? Give us a message for any product questions, system quotes, or other information.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Your UVC Phase II abstract says the autonomy runs Mission Planner over fixed GPS waypoints, and the use cases on your homepage are range clearance and convoy lead/follow — the two environments where a range turns jamming on.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Bolt-on 'robotic applique' kits that convert any existing vehicle or vessel into a teleoperated or optionally-crewed unmanned system in minutes."
+}

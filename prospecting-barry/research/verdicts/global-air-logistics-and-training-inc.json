@@ -1,0 +1,21 @@
+{
+  "company": "Global Air Logistics and Training, Inc. (GALT Aerospace)",
+  "slug": "global-air-logistics-and-training-inc",
+  "domain": "galt.aero",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Overwhelming — News: '$950,000,000 ceiling indefinite-delivery/indefinite-quantity contract' for ABMS (2020) and 'GALT Awarded $23.9M Prime Contract to Provide Communication Enhancements for the USMC' (2021), plus two Air Force Phase II SBIRs in the SBIR section.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "'proven execution from concept to fielded capability' and 'from early development through production and sustainment' → they are past the valley, in production/sustainment",
+    "About page lists ABMS MAC, EWAAC, SeaPort-NxG plus CMG, ATI (MATAC, IWRP, NSTIC, NAC) and SOSSEC consortia → the acquisition-pathway problem Barry solves is already solved here, and it also marks them as a services/integration house",
+    "Open roles include 'Assistant Facility Security Officer', 'Contracts Administrator', 'Cybersecurity Specialist', 'Senior Logistics Engineer', 'Instructional Systems Designer' → deployment, compliance, sustainment and training functions are already staffed, the opposite of the hiring skew we score for",
+    "Their own product language is already deployment-fluent: 'Purpose-built for low SWaP and low cost, it delivers robust, survivable connectivity' and 'successful at the contested edge of the battlespace'"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "SDVOSB defense systems house building airborne networking gateways, tactical data links and weapon data links (DAGNE, FINN, SkyTower II, SR-WAVE) plus joint data network operator training."
+}

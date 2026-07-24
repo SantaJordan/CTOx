@@ -210,6 +210,7 @@ Definitive Contract HT942525C0006
 RICHMOND, Va., May 28, 2024 /PRNewswire/ -- NIRSense Inc., headquartered in Richmond, Virginia, won an expansion to a competitively-awarded contract this month to build fieldable physiology monitors for the US Navy. NIRSense has been working with the Department of Defense since 2019 to build medical-grade physiology monitors to support US warfighter safety, performance, and medic
 
 ## Open roles (Blitz, live)
+- Senior Electrical Engineer ({'city': 'Morrisville', 'country_code': 'US'})
 - Principal Electrical Engineer ({'city': 'Morrisville', 'country_code': 'US'})
 - Principal Electrical Engineer ({'city': 'Morrisville', 'country_code': 'US'})
 - Research Scientist – Biosensing ({'city': 'Morrisville', 'country_code': 'US'})

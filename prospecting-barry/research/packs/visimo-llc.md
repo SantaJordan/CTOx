@@ -464,21 +464,7 @@ Set Aside
 None
 
 Ex
-- VISIMO Wins $3M U.S. Army Contract for AI-Powered Reconnaissance Drones (2025-09-26) https://visimo.ai/ai-powered-reconnaissance-drones-visimo-army-contract/
-  VISIMO Wins $3M U.S. Army Contract for AI-Powered Reconnaissance Drones
-
-- Home
-- Featured
-- Pittsburgh Small Business VISIMO Secures $3 Million U.S. Army Contract for AI-Powered Reconnaissance Drones
-
-# Pittsburgh Small Business VISIMO Secures $3 Million U.S. Army Contract for AI-Powered Reconnaissance Drones
-
-FOR IMMEDIATE RELEASE | September 26, 2025 – Carnegie, PA
-
-15-month project emphasizes innovative rapid prototyping and boosts Pennsylvania’s defense technology economy
-
-# VISIMO Secures 
-- Award | SBIR () https://www.sbir.gov/awards/204474
+- Award | SBIR () https://www.sbir.gov/awards/211469
   Award | SBIR Skip to main content
 
 # Award
@@ -487,7 +473,7 @@ Portfolio Data
 
 Back to Award Search
 
-## Artificial Intelligence Legal Assistant (AILA)
+## AI-Enhanced Maintenance Form Engine (AIM-FE)
 
 ### Awardee
 
@@ -495,11 +481,11 @@ Back to Award Search
 
 https://www.sbir.gov/portfolio/1647075 1501 Reedsdale Street Suite 301Pittsburgh, PA, 15233USA
 
-Award Year: 2023
+Award Year: 2024
 
 UEI: X854ZJDHWHJ5
 
-HUBZone Owned: Yes
+HUBZone Owned: No
 
 Woman Owned: No
 
@@ -511,15 +497,56 @@ Tagged as:
 
 SBIR
 
-Phase II
+Phase I
 
 ### Awarding Agency
 
 DOW
 
-Branch: USAF
+Branch: NAVY
 
-Total Award Amount: $990,2
+Total Award Amount: $139,927
+
+
+- Award | SBIR () https://www.sbir.gov/awards/217346
+  Award | SBIR Skip to main content
+
+# Award
+
+Portfolio Data
+
+Back to Award Search
+
+## AI-enabled Sorting, Editing, and Review Infrastructure for Scholarly Knowledge in an Open Software Infrastructure (ASTERISK OSI)
+
+### Awardee
+
+#### VISIMO LLC
+
+1501 Reedsdale Street Suite 301Pittsburgh, PA, 15233USA
+
+Award Year: 2025
+
+UEI: X854ZJDHWHJ5
+
+HUBZone Owned: No
+
+Woman Owned: No
+
+Socially and Economically Disadvantaged: No
+
+Congressional District: 17
+
+Tagged as:
+
+SBIR
+
+Phase I
+
+### Awarding Agency
+
+DOD
+
 
 ## Open roles
 (no jobs data found)

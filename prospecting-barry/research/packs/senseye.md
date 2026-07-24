@@ -126,54 +126,59 @@ Learn more about our solution
 Senseye is building a mental health visibility platform. We will help clinicians personalize care with fast, accurate tools for establishing a clear baseline and tracking outcomes over time.
 
 ## News (Exa, top 3)
-- This Startup Learned the Hard Way What It's Like to Work With ... (2019-05-23) https://www.inc.com/magazine/201906/tom-foster/senseye-david-zakariaie-eye-monitoring-military-technology-government-contract-startup.html
-  This Startup Learned the Hard Way What It's Like to Work With the Pentagon
+- Senseye Profile () https://www.highergov.com/awardee/senseye-inc-10087556/
+  Senseye Profile
 
-# This Startup Learned the Hard Way What It’s Like to Work With the Pentagon
+HigherGov
 
-What happens when a wildly ambitious young startup decides to work with the military? It’s complicated.
+Notify
 
-BY TOM FOSTER@TOMFOSTER2
+- New Contract Awards
+- New Grant Awards
 
-May 23, 2019
+Favorite
 
-SHARE
+Export
 
-LinkedInFacebookXBlueskyLink
+- CSV
+- Excel
 
-ADD ON GOOGLE
+Share
 
-Senseye’s lead systems engineer, Joe Brown, during a test run on a hardware setup the company is building for a research project.. Jake Michaels
+- Copy URL
+- Email
+- Tweet
 
-The
-- Award | SBIR () https://www.sbir.gov/awards/179803
-  Award | SBIR Skip to main content
+# Senseye
 
-# Award
+UEI: MDENKGGLLHL3 &#x2022 CAGE: 7WUZ2
 
-Portfolio Data
+- List
+- Text
 
-Back to Award Search
+## Overview
 
-## Open Call for Robotics, 3D Printing, Autonomous Systems, and Other Immersive Training Solutions with Defense-Related Dual-Purpose Technologies/Solutions with a Clear Air Force Stakeholder Need
+Awardee Type
 
-### Awardee
+Parent
 
-#### SENSEYE INC
+Company Description
 
-801 Congress Ave STE 200AUSTIN, TX, 78701-2667USA
+We aim to help clinicians personalize care with fast, accurate tools for establishing a clear baseline and tracking outcomes over time.
 
-Award Year: 2019
+Name
 
-UEI: MDENKGGLLHL3
+Senseye
 
-HUBZone Owned: No
+Website
 
-Woman Owned: No
+Headquarters
 
-Socially and Economically Disadvantaged: No
+Austin, TX United States
 
-Congressional Distric
+Most Recent Award
+
+Aug. 29, 2025
 - Innovative partnership to develop game-changing manufacturing solutions | Northumbria University, Newcastle (2021-08-02) https://newsroom.northumbria.ac.uk/pressreleases/innovative-partnership-to-develop-game-changing-manufacturing-solutions-3119134
   Innovative partnership to develop game-changing manufacturing solutions | Northumbria University, Newcastle
 
@@ -190,6 +195,14 @@ Link copied!
 # Innovative partnership to develop game-changing manufacturing solutions
 
 A collaborative research project driven by The NBT Group, Northumbria University and Senseye has been awarded over a quarter of a million pounds to evaluate new and emerging 'smart' technologies, helping to
+- Innovative partnership to develop game-changing manufacturing solutions () https://www.northumbria.ac.uk/about-us/news-events/news/made-smarter-project/
+  Innovative partnership to develop game-changing manufacturing solutions Skip navigation
+
+# Innovative partnership to develop game-changing manufacturing solutions
+
+A collaborative research project driven by The NBT Group, Northumbria University and Senseye has been awarded over a quarter of a million pounds to evaluate new and emerging 'smart' technologies, helping to digitalise and transform manufacturing supply chains.
+
+North East based NBT Group Ltd, a 112-year-old family-run supply chain man
 
 ## Open roles (Blitz, live)
 - Chief of Staff ({'city': 'Austin', 'country_code': 'US'})

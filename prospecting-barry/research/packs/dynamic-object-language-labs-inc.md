@@ -21,8 +21,6 @@ The new Phase 2 effort will focus on the role of stories to dramatically support
 The Phase 1 project developed a new method for real-time robotic motion planning. The Phase 1 system can prevent task-performing (semi)-autonomous agents from colliding with objects in their environment (e.g., navigating a quadcopter while it inspects an object and advises a human in a repair operation).  The new Phase 2 effort will build upon these initial results by extending the developed capabilities to a knowledge management tool capable of ingesting, capturing, and disseminating knowledge. This knowledge management tool will be capable of ingesting multimodal data (building on the sensor work from Phase 1) and provide valuable information when a user is performing a task (e.g., collect/disseminate information from/to a user performing a repair task). This tool will be tested in new domains (e.g., Civilian Aviation). It should provide stakeholders evidence that the techniques can be adapted to their task domain(s), e.g., by using relevant metrics with domain-specific targets similar to those developed in Phase I. Furthermore, the tool can modify its output based on domain-specific knowledge, such as changes to task goals (e.g., the pilot must circle the airport rather than land the plane) or the environment (e.g., landing in a snowstorm). We propose to build LISA: the Lightweight Interaction and Storytelling Archive, which engages users in dialog and storytelling to provide just-in-time, just-enough, and just-for-me information. We will demonstrate LISA in the domain of commercial aviation, where operators function in complex and stressful contexts. LISA builds a broad base of knowledge, enables users to add their own expertise, and then disseminates that knowledge as needed. LISA is enabled by a novel lightweight grounded knowledge representation, the LKG. This representation marries interpretable component nodes with groundings (linguistic, visual, and sensory embeddings associated with nodes) to provide context and a fluent editing experience. The representation is acquired automatically by combining and extending modern large-scale language models, the Genesis story understanding technology, and the START natural language understanding system.  Our approach supports rich storytelling by integrating classifying triggers into the knowledge graph. Triggers support storytelling by sequencing events and allow LISA to track the stream of ongoing events, comparing them in real time to previously ingested stories and step-in, unprompted, at critical times, depending on its model of the user's abilities. No prior work treats stories as first-class objects while providing a grounded representation that is automatically acquired, is editable by users in their normal workflow, and supports natural communication through multi-modal storytelling.
 
 ## News (Exa, top 3)
-- DYNAMIC OBJECT LANGUAGE LABS, INC. () https://www.usaspending.gov/recipient/b13e9992-8b0a-a755-21b6-9ecb6ce67046-P/latest
-  USAspending.gov
 - Dynamic Object Language Labs () https://www.highergov.com/awardee/dynamic-object-language-labs-inc-10012966/
   Dynamic Object Language Labs -- --
 
@@ -64,6 +62,14 @@ Increase your Visibility in the Government market HigherGov is used by more than
 Awardee Type
 
 Parent (1 child
+- Dynamic Object Language Labs, Inc. Announces Commercialization of Revolutionary AI-Powered Pilot Assistant Technology () https://www.dollabs.com/post/dynamic-object-language-labs-inc.-announces-commercialization-of-revolutionary-ai-powered-pilot-assistant-technology-686c40b585b4d8001579d729
+  DOLL
+
+FirstOfficer™ Technology Promises to Transform Aviation Safety Through Real-Time Intelligence and Communication Integration
+
+MASSACHUSETTS – 4 July 2025 – Dynamic Object Language Labs, Inc. (DOLL), a leading research and development company established in 1993, today announced its intention to commercialize breakthrough pilot assistant technology that has the potential to significantly enhance aviation safety and reduce fatalities.
+
+The technology, currently codenamed FirstOfficer™, repres
 - dynamic object language labs (2026-06-28) https://dollabs.com/
   # Dynamic Object Language Labs (Dynamic Object Language Labs, Inc.)
 

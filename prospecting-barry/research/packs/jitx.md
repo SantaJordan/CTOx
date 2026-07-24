@@ -352,6 +352,24 @@ Latest Federal & Government Contracting Companies' News Coverage
 https://executivebiz-media.s3.amazonaws.com/2022/08/19/30/9f/c3/a0/b7/6f/d4/64/Executive-Biz.png
 
 Northrop Grumman has partnered withÂ JITX to develop an automated layout generator intended to accelerate th
+- Jitx raises $12M for its programmatic circuit board design platform - SiliconANGLE (2022-09-20) https://siliconangle.com/2022/09/20/jitx-raises-12m-programmatic-circuit-board-design-platform/
+  Jitx raises $12M for its programmatic circuit board design platform - SiliconANGLE
+
+SHARE
+
+UPDATED 16:49 EDT / SEPTEMBER 20 2022
+
+INFRA
+
+### Jitx raises $12M for its programmatic circuit board design platform
+
+SHARE
+
+Circuit board design startup Jitx Inc. today launched from stealth mode and disclosed that it has secured a $12 million funding round led by Sequoia Capital.
+
+The Series A round also included the participation of Y Combinator, Funders Club and Liquid 2.
+
+Berkeley, California-based J
 - JITX - JITX launches general availability and announces $12M Series A from Sequoia Capital () https://www.jitx.com/blog/series-a-announcement
   JITX - JITX launches general availability and announces $12M Series A from Sequoia Capital
 
@@ -374,24 +392,6 @@ Engineering
 Today we’re announcing the general availability of JITX and that we raised a $12M Series A round, led by Sequoia Capital, with participation from Y Combinator, Funders Club and Liquid 2.
 
 JITX lets electrical engin
-- Jitx raises $12M for its programmatic circuit board design platform - SiliconANGLE (2022-09-20) https://siliconangle.com/2022/09/20/jitx-raises-12m-programmatic-circuit-board-design-platform/
-  Jitx raises $12M for its programmatic circuit board design platform - SiliconANGLE
-
-SHARE
-
-UPDATED 16:49 EDT / SEPTEMBER 20 2022
-
-INFRA
-
-### Jitx raises $12M for its programmatic circuit board design platform
-
-SHARE
-
-Circuit board design startup Jitx Inc. today launched from stealth mode and disclosed that it has secured a $12 million funding round led by Sequoia Capital.
-
-The Series A round also included the participation of Y Combinator, Funders Club and Liquid 2.
-
-Berkeley, California-based J
 
 ## Open roles
 (no jobs data found)

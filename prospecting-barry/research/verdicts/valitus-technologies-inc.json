@@ -1,0 +1,44 @@
+{
+  "company": "Valitus Technologies, Inc.",
+  "slug": "valitus-technologies-inc",
+  "domain": "valitustech.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "SBIR/STTR section: Air Force Phase II award (2022, $749,966) for 'LiDAR with AI Enabled Sensor Fusion Detection and Tracking Street Light' explicitly for 'deployment of this technology at air bases' — genuine DoD contract with own abstract language.",
+  "disconnect_score": 59,
+  "subscores": {"lab_language_intensity": 8, "deployment_awareness_absence": 14, "operator_absence": 12, "hiring_profile_skew": 10, "stage_pressure": 15},
+  "score_evidence": [
+    "'A Bayesian Inference Engine will be implemented in order to take data from several sensors to determine which detection method would be more reliable' → lab_language_intensity (algorithmic/lab framing, moderate)",
+    "'coupled with...5G connectivity to ingest potential data from other sources' with zero mention of ATO/RMF/CMMC/STIG/ITAR anywhere in site or abstract despite targeting Air Force installations → deployment_awareness_absence",
+    "'Customer service is our #1 priority...Grade A support services that include Engineering, implementation, direct training, installation and commissioning' — training mentioned only generically, no operator/field-iteration language, no CONOPS → operator_absence",
+    "no jobs data found in pack → hiring_profile_skew set to 10 per instructions",
+    "3-7 employees, single Phase II SBIR from 2022 still the company's only cited defense win years later, dual-tasked selling commercial LED/solar lighting alongside the security line → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Perimeter/critical-infrastructure sensor fusion depends on 5G connectivity to correlate LiDAR, thermal, and visible feeds",
+      "operator_reality": "Remote sectors of an air base perimeter are exactly where persistent 5G coverage is least reliable; if the link drops, the Bayesian Inference Engine loses cross-sensor context and the system either goes dark or floods the operator with unfiltered single-sensor alerts",
+      "why_likely_missing": "the 5G link was likely designed for demo/pilot conditions with strong coverage, not the DDIL edges of an actual base perimeter",
+      "evidence_quote": "coupled with Artificial Intelligence for critical infrastructure and perimeter protection...with 5G connectivity to ingest potential data from other sources",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "A networked, camera-and-sensor security system intended for Air Force installations never mentions ATO, RMF, STIG, or CMMC anywhere in its public language",
+      "operator_reality": "getting a networked video/AI system onto a DoD base network requires an Authority to Operate; without a stated ATO/RMF plan the system can sit fielded-but-unaccredited indefinitely, which is the same valley-of-death failure mode as a prototype that works but never gets network access",
+      "why_likely_missing": "the team appears focused on sensor/hardware R&D (Bayesian fusion, IP67/68 hardening) rather than the compliance path onto government networks",
+      "evidence_quote": "Deployment of this technology at air bases will dramatically enhance security forces ability to rapidly respond to threats in real-time and maintain situational awareness and operational integrity 24/7/365",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "Sustainment and field-maintenance model for a multi-sensor edge device is described only as generic 'support services,' not a real field logistics plan",
+      "operator_reality": "an E-5 running base perimeter security will not call an engineer when a LiDAR module or radiation sensor fails at 0300 — the device needs field-swappable spares, a trained on-base maintainer, and a documented failure mode; 'implementation, direct training, installation and commissioning' does not describe that",
+      "why_likely_missing": "the company's language centers on product capability and manufacturing quality (IP67/68, UL/DLC certs), not on the operational sustainment burden after handoff",
+      "evidence_quote": "we provide Grade A support services that include Engineering, implementation, direct training, installation and commissioning for our customers",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Your 2022 Air Force Phase II proposed 5G connectivity to fuse LiDAR, thermal, and visible sensor data for air-base perimeter protection — worth a look at what happens to that fusion pipeline when the link drops mid-perimeter.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Small manufacturer of ruggedized multi-sensor edge security devices (LiDAR, radiation detection, cameras, AI fusion) built into LED street-lighting hardware, sold to security/government customers alongside a commercial solar/LED lighting line."
+}

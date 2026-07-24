@@ -198,8 +198,6 @@ NightWare, a prescription digital therapeutic to reduce sleep disturbance in adu
 Despite their high prevalence and serious affliction, nightmare disorder lacks recognition, and this continues to be a problem. Patients under-report nightmares to their physicians and it remains underdiagnosed. In one study, 31.2% of active-duty members that presented at a military sleep clinic had at least weekly nightmares with sleep disturbances, but only 3.9% complained about nightmares at the time of their visit. Moreover, these patients with traumatic-related nightmares had more severe insomnia symptoms than those without. The reasons why nightmares are underreported to clinicians are not clear. A separate study pointed out that 60% of patients with recurrent nightmares do not discuss it with their health care providers, only when the condition is clinically severe do patients seek helps. It is a disturbing fact that two-third of patients suffering from nightmare disorder do not believe that it is treatable. This stems from the lack of understanding of disease mechanisms as well as premature research on effective treatments for nightmare disorders.Clinically unattended nightmare disorder can lead to serious consequences. Untreated nightmare disorder decreases sleep quality and increases patients’ risk of developing insomnia and comorbid disorders of depression, PTSD, and anxiety. Prolonged nightmare disorder can also exacerbate the symptoms of underlying psychological dysfunction in patients with depression and anxiety, leading to poor occupational and or social functioning. Importantly, in the general population, frequent nightmares constitute an independent risk factor for suicide ideations, attempted as well as completed suicide. The NightWare digital therapeutic can provide vibrotactile feedback on an Apple Watch based on an analysis of heart rate and motion during sleep, for the temporary improvement of sleep disturbance related to nightmares in adults who suffer from nightmare disorder or have nightmares from post-traumatic stress disorder (PTSD). NightWare monitors biometrics throughout the night and disrupts the nightmare with haptic feedback, without waking the patient from sleep.  NightWare learns by leveraging patented algorithms and machine learning to identify future nightmares more accurately.
 
 ## News (Exa, top 3)
-- CONTRACT to NIGHTWARE, INC () https://www.usaspending.gov/award/CONT_AWD_FA864922P1150_9700_-NONE-_-NONE-
-  USAspending.gov
 - First Nation Group and NightWare Partner to Deliver Digital Therapeutic System | First Nation Group (2020-12-10) https://www.firstnationgroup.com/news/first-nation-group-and-nightware-partner-to-deliver-first-and-only-therapeutic-platform-designed-and-fda-cleared-to-treat-nightmares-related-to-ptsd
   First Nation Group and NightWare Partner to Deliver Digital Therapeutic System | First Nation Group
 
@@ -224,6 +222,10 @@ Share
 ---
 
 Minneapolis, MN, April 14, 2026 (GLOBE NEWSWIRE) -- NightWare, Inc. and Exit 156 Capital today
+- nightware (2026-06-24) https://nightware.com/
+  # NightWare (NightWare, Inc)
+
+NightWare is a Medical Equipment Manufacturing company. NightWare is a prescription digital therapeutic system for the reduction of sleep disturbance related to nightmare disorder or nightmares from post-traumatic stress disorder (ptsd). It is the first and only fda-cleared, prescription digital therapeutic that improves sleep in adults 22 and older with nightmare disorder or nightmares related to ptsd. swiss francs are. NightWare employs 7 people (-8.3% YoY, -1 per
 
 ## Open roles
 (no jobs data found)

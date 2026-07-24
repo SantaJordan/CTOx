@@ -3,7 +3,7 @@ slug: vantive | domain: vantiveai.com | HQ: ,   | employees(LI): 3 | founded: 20
 sources: vc:red-cell
 industry(LI): Transportation; Logistics; Supply Chain and Storage | specialties: ai, industrial base, data analytics, optimization, supply chain
 channel notes: national security AI
-own-language word count: ~1403
+own-language word count: ~1410
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -166,6 +166,115 @@ Privacy Policy
 
 © 2025 Vantive Technology™, Inc. All Rights Reserved A Red Cell Company
 
+URL: mailto:[email]?subject=Email%20from%20Vantive%20Website
+Vantive | Rise Above. Stay Ahead.
+
+Mining HIGH
+
+PRC/TJ...
+
+# Rise Above.Stay Ahead.
+
+When change accelerates and systems fall behind, Vantive turns unpredictability into advantage; combining operator insight with predictive AI to reveal what's next and guide smarter decisions before supply chain challenges arise.
+
+Get Started Trusted by multinational manufacturers.
+
+Mining HIGH
+
+PRC/TJ...
+
+Refining HIGH
+
+Sb2S3-re..
+
+Fabrication MEDIUM
+
+Brake comp...
+
+Assembly LOW
+
+Aircraft br...
+
+Integration LOW
+
+Platform F-...
+
+Provenance Mapping
+
+# Map suppliers.Verify traceability.Measure risk.
+
+Connect suppliers, materials, and locations into a single, auditable view that shows optionality across the industrial ecosystem, not just a single platform or business unit.
+
+Scenario Planning
+
+# Predict. Prepare. Prevail.
+
+Expert-informed AI-powered simulations that don't just analyze the past, they stress-test your future.
+
+40+
+
+public data sources
+
+Tier-4
+
+trace depth
+
+Minutes
+
+to first insights
+
+40+
+
+public data sources
+
+Tier-4
+
+trace depth
+
+Minutes
+
+to first insights
+
+# N-tier visibility + traceability
+
+Connect suppliers, materials, and locations into a single, auditable view.
+
+# High-fidelity data ingestion
+
+Seamlessly integrate internal systems, flat files, and external sources for full supply chain integration.
+
+# Stochastic risk modeling
+
+Model disruption likelihoods and their operational and financial impact.
+
+# Scenario planning engine
+
+Evaluate courses of action to enable proactive business community planning.
+
+# SME-guided configuration
+
+Align simulation parameters with your real-world operating environment.
+
+## Meet The Team
+
+### Brennan Grignon
+
+Co-founder and CEO
+
+Brennan is the former Director of Industry Outreach and Supply Chain Resilience at DoD, where she led multiple efforts across three Presidential Administrations to strengthen industrial capacity in partnership with industry and allied governments. In the private sector, she ran supply chain R&D programs, led strategic planning for for-profit, non-profit, and government clients, and built cutting-edge financial risk models. She now brings that practitioner expertise to building the next generation of supply chain analytics at Vantive.
+
+Gov/Defense
+
+Supply Networks
+
+Go-to-Market
+
+### Mark Esper
+
+Co-founder
+
+Dr. Mark T. Esper is Chairman of the National Security Practice and a Director at Red Cell. He served as the 27th U.S. Secretary of Defense, leading implementation of the National Defense Strategy and
+
 URL: https://www.madebyoversight.com/
 Webflow & Framer Templates + Custom Websites | Oversight
 
@@ -288,94 +397,7 @@ Discover relevant posts and expert insights — curated by topic and in one plac
 
 - Career
 - Productivity
-- Finance
-- Soft Skills & Emotional Intelligence
-- Project Management
-- Education
-- Technology
-- Leadership
-- Ecommerce
-- Show all
-
-## Find the right job or internship for you
-
-- Engineering
-- Business Development
-- Finance
-- Administrative Assistant
-- Retail Associate
-- Customer Service
-- Operations
-- Information Technology
-- Marketing
-- Human Resources
-- Healthcare Service
-- Sales
-- Program and Project Management
-- Accounting
-- Arts and Design
-- Community and Social Services
-- Consulting
-- Education
-- Entrepreneurship
-- Legal
-- Media and Communications
-- Military and Protective Services
-- Product Management
-- Purchasing
-- Quality Assurance
-- Real Estate
-- Research
-- Support
-- Administrative
-
-Show more Show less
-
-## Post your job for millions of people to see
-
-Post a job
-
-## Discover the best software tools
-
-Connect with buyers who have first-hand experience to find the best products for you.
-
-## Keep your mind sharp with games
-
-Take a break and reconnect with your network through quick daily games.
-
-- Patches
-- Zip
-- Mini Sudoku
-- Queens
-- Tango
-- Pinpoint
-- Crossclimb
-
-## Let the right people know you’re open to work
-
-With the Open To Work feature, you can privately tell recruiters or publicly share with the LinkedIn community that you are looking for new job opportunities.
-
-## Conversations today could lead to opportunity tomorrow
-
-Sending messages to people you know is a great way to strengthen relationships as you take the next step in your career.
-
-## Stay up to date on your industry
-
-From live videos, to stories, to newsletters and more, LinkedIn is full of ways to stay up to date on the latest discussions in your industry.
-
-## Connect with people who can help
-
-Find people you know
-
-## Learn the skills you need to succeed
-
-Choose a topic to learn about
-
-- Artificial Intelligence for Business 1,210+ course
-- Business Analysis and Strategy 2,130+ courses
-- Business Software and Tools 3,620+ courses
-- Career Development 730+ courses
-- Customer Ser
+- Finan
 
 ## LinkedIn about
 
@@ -430,7 +452,7 @@ Unlinked Award
 ##### Department of Veterans Affairs (VA)
 
 https://www.usaspending.gov/agency/
-- Vantive US Healthcare LLC HT941025N0093 () https://www.highergov.com/contract-opportunity/notice-of-intent-to-sole-source-to-vantive-us-heal-ht941025n0093-k-142ca/
+- Notice of Intent to Sole Source to Vantive US Healthcare, LLC (2025-05-20) https://www.highergov.com/contract-opportunity/notice-of-intent-to-sole-source-to-vantive-us-heal-ht941025n0093-k-142ca/
   Vantive US Healthcare LLC HT941025N0093
 
 HigherGov
@@ -465,24 +487,20 @@ Reset
 Hello! Please let me know your questions about this opportunity. I will answer based on the available opportunity documents.
 
 Please sign-in to link federal registration and 
-- Ireland Awards €82.12 Million National Home Peritoneal Dialysis Contract to Vantive Health | IrelandTenders Blog (2026-01-22) https://www.irelandtenders.com/blogs/ireland-awards-8212-million-national-home-peritoneal-dialysis-contract-to-vantive-health-260/
-  Ireland Awards €82.12 Million National Home Peritoneal Dialysis Contract to Vantive Health | IrelandTenders Blog
+- intent to sole source to vantive healthcare, llc (2024-05-29) https://sam.gov/workspace/contract/opp/c04f60225d004cee86baf2ba3ee1a1b3/view
+  SAM.gov
 
-🌍 English
+You have 2 new alerts
 
-# Ireland Awards €82.12 Million National Home Peritoneal Dialysis Contract to Vantive Health
+Show / Hide Alerts
 
-- Home >
-- Blogs >
-- Ireland Awards €82.12 Million National Home Peritoneal Dia...
+Scheduled SAM Maintenance
 
-By Admin | Posted on 22 Jan 2026
+Show Details Feb 6, 2026 SAM.gov will undergo planned maintenance on Saturday, February 14th, 2026 from 8:00 AM to 1:00 PM EST. Users in SAM.gov will be unable to complete Entity Registrations and Exclusions during this window. Thank you for your understanding.
 
----
+Revolutionary FAR Overhaul Impacts to SAM.gov
 
-#### Introduction
-
-Ireland has announced a major healthcare contract award, with the Health Service Executive (HSE) confirming the award of a national contrac
+Show Details Aug 15, 2025 The Revolutionary FAR Overhaul (RFO) is streamlining the FAR to its statutory roots a
 
 ## Open roles
 (no jobs data found)

@@ -324,6 +324,10 @@ As a rapidly expanding team across both commercial and government spheres, ASI i
   ASI Awarded Defense Innovation Unit (DIU) Prototype OTA for AI-Enabled Joint Sustainment Decision Tool (JSDT) Accessibility Statement Skip Navigation
 
 BOSTON, Feb. 19, 2026 /PRNewswire/ -- Air Space Intelligence (ASI), a pioneer in AI-powered decision support software for the world's most demanding domains, today announced it has been awarded a contract by the Defense Innovation Unit (DIU) to configure and implement advanced logistics decision-support for leaders operating in complex, multi-doma
+- Other Transaction Order FA22802599505-FA9302259F003 (2025-12-26) https://govtribe.com/award/federal-contract-award/other-transaction-order-fa22802599505-fa9302259f003
+  Other Transaction Order FA22802599505-FA9302259F003
+
+Other Transaction Order FA22802599505-FA9302259F003
 - ASI Awarded Contract by DIU to deliver AI-Enabled Joint Sustainment Decision Tool (JSDT) () https://www.airspace-intelligence.com/news/asi-awarded-defense-innovation-unit-diu-prototype-ota-for-ai-enabled-joint-sustainment-decision-tool-jsdt
   ASI Awarded Contract by DIU to deliver AI-Enabled Joint Sustainment Decision Tool (JSDT)
 
@@ -358,40 +362,6 @@ Learn More
 4/7/2026
 
 Joby and Air Space Intelligence Partner to Prepare 
-- ASI Awarded $875m FAA contract to modernize the ... (2026-06-22) https://www.airspace-intelligence.com/news/asi-awarded-875m-faa-contract-to-modernize-the-national-airspace-system
-  ASI Awarded $875m FAA contract to modernize the National Airspace System
-
-(
-
-6/22/2026
-
-)
-
-# ASI Awarded $875m FAA contract to modernize the National Airspace System
-
-## Related Articles
-
-See All>>
-
-5/6/2026
-
-ASI and National Grid Collaborate to deploy Operational AI to the Electric Grid
-
-Learn More
-
->>
-
-4/7/2026
-
-Joby and Air Space Intelligence Partner to Prepare U.S. Airspace for Scaled Electric Flight
-
-Learn More
-
->>
-
-2/19/2026
-
-ASI Awarded Contract by DIU to deliver AI-Enabled Joint Sustainm
 
 ## Open roles (Blitz, live)
 - Frontend Engineer (Civil Aviation) ({'city': 'Boston', 'country_code': 'US'})

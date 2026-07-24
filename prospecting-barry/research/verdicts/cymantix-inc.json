@@ -1,0 +1,44 @@
+{
+  "company": "CYMANTIX, INC.",
+  "slug": "cymantix-inc",
+  "domain": "cymantix.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Air Force SBIR Phase II 2023 ($1.24M) for Space Force Space Systems Command SDA plus a 2025 DoD/OSD Phase I (SBIR record section), and their own site states 'We are an information-retrieval company that builds sense-making tools for the intelligence and defense community to support mission operations' (homepage).",
+  "disconnect_score": 74,
+  "subscores": {"lab_language_intensity": 16, "deployment_awareness_absence": 16, "operator_absence": 14, "hiring_profile_skew": 10, "stage_pressure": 18},
+  "score_evidence": [
+    "'Go from information overwhelm to information awe' → lab_language_intensity",
+    "'Securely join or host meetings on Shannon hassle-free and with zero downloads' — detailed product description with zero mention of ATO/RMF/IL levels/CMMC despite claimed defense-and-intel customer → deployment_awareness_absence",
+    "'Imagine an 8-year-old using PATTIE to explore ways to combat climate change' — consumer framing; no operators, training, CONOPS, or field feedback anywhere → operator_absence",
+    "No jobs data in pack → hiring_profile_skew set exactly 10",
+    "Phase II awarded 2023 (clock running) while Exa company summary reports 'Cymantix employs 2 people (-75.0% YoY)' — shrinking team, tiny $15K 2025 Phase I as only follow-on → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Zero-download web products assume open-internet users; their actual customer (Space Systems Command / IC) lives on accredited networks where an uncertified SaaS cannot touch mission data",
+      "operator_reality": "A guardian or analyst on NIPR/SIPR cannot 'just join' a commercial web meeting tool or web search app; without an ATO and IL-appropriate hosting, Shannon/RUTHI never reach the desk of the user the SBIR was written for",
+      "why_likely_missing": "Team built a commercial productivity SaaS first and retrofitted a defense mission statement; no accreditation language appears anywhere in ~1,374 words of their own text",
+      "evidence_quote": "Securely join or host meetings on Shannon hassle-free and with zero downloads.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "OSINT-to-SDA pipeline ignores the cross-domain step: how open-source intelligence gets INTO classified Space Domain Awareness workflows is the transition, and it is unaddressed",
+      "operator_reality": "SSC decision-making runs on classified systems; moving OSINT across the boundary requires cross-domain solutions and accreditation that routinely outlast a Phase II period of performance — the exact months-to-field > funded-months failure",
+      "why_likely_missing": "The abstract sells analytic value ('improving situational awareness, decision-making'), not an ingestion/accreditation architecture; nothing on their site suggests they have fielded on a government network",
+      "evidence_quote": "utilizing Open-Source Intelligence (OSINT) data for improving situational awareness, decision-making",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "No training or sustainment story from a team that shrank to roughly 2-4 people while holding a $1.24M Phase II",
+      "operator_reality": "Even if RUTHI reaches SSC, someone must train users, patch, and support it on a government schedule; a 2-person company cannot staff sustainment, and no partner/prime relationship is mentioned anywhere",
+      "why_likely_missing": "Their values page centers empathy and general accessibility rather than a fielding plan; the defense customer is treated as one audience of a horizontal search product",
+      "evidence_quote": "Imagine an 8-year-old using PATTIE to explore ways to combat climate change.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Cymantix's 2023 Space Force Phase II sells OSINT into Space Systems Command SDA, yet across cymantix.com there is no accreditation or classified-ingest path mentioned — the step that usually outlives a Phase II period of performance.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Tiny NC startup building web-based meeting-capture (Shannon) and visual data-exploration/search (RUTHI) tools, with an SBIR Phase II applying OSINT to Space Force space domain awareness."
+}

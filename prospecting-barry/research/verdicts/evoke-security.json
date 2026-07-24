@@ -1,0 +1,16 @@
+{
+  "company": "Evoke Security",
+  "slug": "evoke-security",
+  "domain": "evokesecurity.com",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "No DoD/military/warfighter language, SBIR, or contract record anywhere in their own artifacts — site and funding news target enterprise CISOs and Fortune 100 ('For CISOs unwilling to compromise', homepage/blog); only defense tie is Red Cell Partners appearing in the pre-seed round, and portfolio membership alone does not qualify.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "EDR-style security platform giving enterprise security teams visibility and control over AI agents."
+}

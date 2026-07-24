@@ -292,6 +292,8 @@ The Space Development Agency (SDA) aims to provide responsive and resilient spac
 In the USSF Vision for a Digital Service, Gen. Raymond states: “We must act far more swiftly and decisively across all aspects of leadership, acquisition, engineering, intelligence, and operations in order to take up permanent residence inside the adversa
 
 ## News (Exa, top 3)
+- CONTRACT to COGNITIVE SPACE, INC () https://www.usaspending.gov/award/CONT_AWD_FA254125CB007_9700_-NONE-_-NONE-
+  �      �V[S�8~�_��;ű�@ �.���.�vv&#[Ƕ�-g%9����Є����-�˧s��ÊHW �γ�}�&I`��p���)�R*�����w�9U�k�a6)��HT �f��4`0����לfm� �.��B����'����U`��@[V ��,ź�q�A#*��*��j�Q����4yN�9��"S��H.U���K��3B5����K2�_s�����Ტ}�!�g\|%2Ę�עR����+x��1���/t��$�hBU%"�Y`�c`c*�%k�XD�(�R�'j���N<��i�V�e�F�)H��?�j`�CA�J�H�Ϲ���{t���`turx���p�?�ިt�e &=��AQo�� [ <�}�$�|�+#� AN��n�0�y��od�A��Krq9"��O�!G'g�_��Ϗ����� y��gE����$-�}�y�TF�P�1.���z�t�I������K���� ������KU#�\`�8��o�
 - Cognitive Space claims two SDA awards - SpaceNews (2025-03-12) https://spacenews.com/cognitive-space-claims-two-sda-awards/
   Cognitive Space claims two SDA awards - SpaceNews
 
@@ -302,16 +304,6 @@ Cognitive Space developed a software tool called CNTIENT to manage a hybrid arch
 WASHINGTON — Cognitive Space will work with the Space Development Agency to optimize missile tracking and mesh-network routing under two recent awards with a combined value of about $5 million.
 
 On March 5, the Houston startup focused on applying artificial in
-- Cognitive Space Awarded a SBIR D2P2 Contract to Research Automated Sensor Management of SDA's Fire Control Satellites (2025-03-05) https://www.accessnewswire.com/newsroom/en/aerospace-and-defense/cognitive-space-awarded-a-sbir-d2p2-contract-to-research-automated-sensor-mana-995342
-  Cognitive Space Awarded a SBIR D2P2 Contract to Research Automated Sensor Management of SDA's Fire Control Satellites
-
-Back to the Newsroom
-
----
-
-# Cognitive Space Awarded a SBIR D2P2 Contract to Research Automated Sensor Management of SDA's Fire Control Satellites
-
-HOUSTON, TX / ACCESS Newswire/ March 5, 2025 / Cognitive Space is excited to share its award of a SBIR Direct-To-Phase-2 contract in support of the Space Development Agency (SDA) for enhancing automated sensor management for missile 
 - IDC FA861221D0113 Cognitive Space () https://www.highergov.com/idv/FA861221D0113/
   IDC FA861221D0113 Cognitive Space
 

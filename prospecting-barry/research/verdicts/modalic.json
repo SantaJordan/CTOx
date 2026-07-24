@@ -1,0 +1,25 @@
+{
+  "company": "Modalic",
+  "slug": "modalic",
+  "domain": "modalic.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Channel notes report prototype testing with XVIII Airborne Corps, JSOC, CDAO, and 1st Cavalry Division, and the News section confirms Modalic OS was assessed 'Awardable' for DoW work in CDAO's Tradewinds Solutions Marketplace (March 2026).",
+  "disconnect_score": 67,
+  "subscores": {"lab_language_intensity": 17, "deployment_awareness_absence": 12, "operator_absence": 12, "hiring_profile_skew": 10, "stage_pressure": 16},
+  "score_evidence": [
+    "'Deploy AI-powered drone swarms further than ever before' / 'cross-domain sensing missions at previously impossible temporal and spatial resolutions' → lab_language_intensity",
+    "'Modalic OS enables cross-domain sensing missions... enable mission-focused collaborative autonomy' with zero DDIL/ATO/RMF/CMMC/ITAR terms anywhere on site → deployment_awareness_absence (capped at 12, own-language <1000 words)",
+    "'Modalic builds unmanned systems designed to extend swarm range and enable real-time multi-domain missions for the US and our Allies' — no operator, training, or CONOPS language → operator_absence (capped at 12, own-language <1000 words)",
+    "'Employees: 5 (1-10 employees)... founded in 2024... Early stage Supported by Virginia Innovation Partnership Corporation; round undisclosed' → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Mothership platform claims to 'extend swarm range' with no SWaP-C framing", "operator_reality": "A mothership meant to be carried/launched in the field lives or dies on size, weight, power, and cost budgets; 'arriving soon' with no spec discussion means this is still a lab concept, not a fieldable airframe", "why_likely_missing": "team is autonomy/robotics-software heavy (BYU Robotics lab, SpiderOak, Leidos alumni) with no visible flight-hardware sustainment hires", "evidence_quote": "Autonomous Swarm Mothership Extending swarm range with purpose-built mothership platforms. Arriving soon", "quote_source": "homepage"},
+    {"blind_spot": "'Real-time multi-domain missions' and 'previously impossible temporal and spatial resolutions' assume continuous high-bandwidth sensor/comms links", "operator_reality": "Same failure mode as the 30fps crowd-detection case: a DDIL environment won't sustain 'real-time' cross-domain fusion, and nothing on the site addresses graceful degradation under denied/intermittent comms", "why_likely_missing": "product is still prototype-stage per channel notes; deployment-under-degraded-comms work typically comes after the first fielding attempt fails", "evidence_quote": "enable real-time multi-domain missions for the US and our Allies", "quote_source": "homepage"},
+    {"blind_spot": "No mention of who trains operators, sustains hardware, or manages GFE/battery logistics for a swarm mothership in the field", "operator_reality": "An E-5 at an austere site inherits an autonomous platform with no documented training path, spares plan, or field-repair process; 'rapidly delivers critical technology to our national security users' describes delivery, not sustainment", "why_likely_missing": "4-person technical team (2 C-level, 1 intern) has no visible field-support or ops role", "evidence_quote": "Our team rapidly delivers critical technology to our national security users", "quote_source": "homepage"}
+  ],
+  "opener_hook": "Modalic's Modalic OS was assessed 'Awardable' in CDAO's Tradewinds Marketplace this March — worth asking how the mothership handles SWaP-C once it's actually mounted and flying.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Builds AI-powered autonomous drone-swarm 'motherships' plus mission autonomy software (Modalic OS) to extend swarm range for multi-domain military missions."
+}

@@ -1,0 +1,28 @@
+{
+  "company": "CHAOS Industries",
+  "slug": "chaos-industries",
+  "domain": "chaosinc.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "DoD intent is overwhelming — AFWERX TACFI award (9.17.25), a Phase II SBIR on multi-static radar (9.17.25), $10M cleared for radar development at Eglin AFB (9.18.25) — but the same newsroom shows they have already crossed the valley: 'CHAOS Industries Selected for U.S. Army G-TEAD Marketplace, Expanding Counter-UAS Support to U.S. and NATO Forces... Addition to the marketplace satisfies competition requirements and enables rapid acquisition of CHAOS systems across U.S. and NATO commands' (12.16.25).",
+  "disconnect_score": 0,
+  "subscores": {
+    "lab_language_intensity": 0,
+    "deployment_awareness_absence": 0,
+    "operator_absence": 0,
+    "hiring_profile_skew": 0,
+    "stage_pressure": 0
+  },
+  "score_evidence": [
+    "'Army Adds CHAOS Industries' Radar Technology To Acquisition Marketplace' (Defense Daily, 12.16.25) -> on an Army rapid-acquisition vehicle, which is the transition Barry sells",
+    "'CHAOS Industries Raises $510 Million Led by Valor Equity Partners' at a $4.5 billion valuation (11.13.25) -> no period-of-performance or runway pressure, and far outside the $5M-$10M band",
+    "'CHAOS Industries Names George J. Tenet as Executive Chairman' (4.8.25) and Will Hurd as Chief Strategy Officer (10.29.24) -> the acquisition advocacy chain is already staffed at the highest level available",
+    "'Insta and CHAOS Industries Partner to Counter Rising Aerial Threats in Europe' (7.2.26) plus 244 employees -> fielding partnerships and scale already in place",
+    "Product page reads 'Expeditionary / Low SWaP' and 'Interoperability with larger command and control (C2) systems' -> deployment-fluent language, the profile that scores low even when kept"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Builds coherent distributed multi-static radar networks (Vanquish, Astria) for counter-UAS and long-range air surveillance, now on the Army's G-TEAD acquisition marketplace for US and NATO commands."
+}

@@ -268,19 +268,57 @@ Xponent Power offers Xpanse, a stylish, compact, and retractable solar awning wi
 - xponent power (2026-06-29) https://xponentpower.com/
   # Xponent Power (Xponent Power, Inc.)
 
-Xponent Power is a Renewable Energy Equipment Manufacturing company. XPanse is a company that specializes in retrofit retractable solar panels for go-anywhere power. They offer up to 56% more power than rooftop solar and are known for their innovative and affordable products. Xponent Power employs 5 people (-50.0% YoY). Headquartered in Fremont, California, United States, with presence in India. Has $13M in total funding.
+Xponent Power is a Renewable Energy Equipment Manufacturing company. XPanse is a company that specializes in retrofit retractable solar panels for go-anywhere power. They offer up to 56% more power than rooftop solar and are known for their innovative and affordable products. Xponent Power employs 5 people (-50.0% YoY). Headquartered in Fremont, California, United States. Its workforce is distributed across United States and India. Has $13M in total funding
+- SAM.gov () https://sam.gov/workspace/contract/opp/cc60a5c39c49ed962856bcfc5d5f8188/view
+  SAM.gov
 
-## About
+You have 2 new alerts
 
-Xponent Power offers Xpa
-- How Much Solar Power Does Your RV Need? (2025-04-29) https://xponentpower.com/xponent-power-begins-customer-deliveries-ramps-up-commercial-production-and-secures-multi-state-dealership-partnerships/
-  How Much Solar Power Does Your RV Need? | Xponent Power Guide
+ISR Reports Due Tomorrow
 
-# Xponent™ Power Begins Customer Deliveries, Ramps Up Commercial Production, and Secures Multi-State Dealership Partnerships
+ISR Workspace: Increased Contract Volume
 
-- More than $3 million in presales and pipeline for Xponent Power’s Xpanse™ retractable solar systems underscore market demand as production scales
-- Dealer partnerships in Arizona, California, and Texas mark early distribution wins across both recreational and commercial vehicle customer segments.
-- Rigorous 
+See All Alerts
+
+See All Alerts
+
+Return to Workspace Contract Opportunity
+
+Open Default Actions Menu
+
+Version Current Record
+
+# XP Power
+
+Inactive
+
+Opportunity
+
+# XP Power
+
+Inactive
+
+Notice ID
+
+##### N6339419T0176
+
+Related Notice
+
+##### (blank)
+
+Contract Opportunity Type
+
+##### Combined Synopsis/Solicitation
+
+Inactive Dates
+
+##### Sep 13, 2019
+
+Inactive Policy
+
+##### 15 days after date offers due
+
+
 - Xponent™ Power Begins Customer Deliveries, Ramps Up Commercial Production, and Secures Multi-State Dealership Partnerships (2025-04-30) https://www.businesswire.com/news/home/20250430016872/en/Xponent-Power-Begins-Customer-Deliveries-Ramps-Up-Commercial-Production-and-Secures-Multi-State-Dealership-Partnerships
   Xponent™ Power Begins Customer Deliveries, Ramps Up Commercial Production, and Secures Multi-State Dealership Partnerships
 

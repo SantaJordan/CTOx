@@ -364,18 +364,14 @@ Q-Net Security enhances data transit security with silicon-based cybersecurity s
 Q-Net Security has received the US Air Force (USAF) Small Business Innovation Research (SBIR) Phase III indefinite delivery, indefinite quantity (IDIQ) contract to enhance security of military communications.
 
 The contract involves the development of technologies and s
-- Q-Net secures USAF SBIR Phase III IDIQ contract (2025-08-21) https://intelligencecommunitynews.com/q-net-secures-usaf-sbir-phase-iii-idiq-contract/
-  Q-Net secures USAF SBIR Phase III IDIQ contract - Intelligence Community News
+- US Air Force Taps Q-Net for Advanced Tactical ... (2025-08-22) https://thedefensepost.com/2025/08/22/us-communication-systems-qnet/
+  US Air Force Taps Q-Net for Advanced Tactical Communication Systems
 
-# Q-Net secures USAF SBIR Phase III IDIQ contract
+Soldier operates a computer system during a field training exercise. Photo: Lance Cpl. Jonathan Willcox/US Marine Corps
 
-By Loren Blinde August 21, 2025
+Missouri-based Q-Net Security has signed a US Air Force contract to help make battlefield communications faster, safer, and more reliable in domains where every second and signal counts.
 
-0 Comments
-
-On August 19, Q-Net Security announced that it has been awarded a contract by the United States Air Force to help develop technologies and requirements aimed at securing communications at the tactical edge — where reliability, speed, and resilience are mission-critical.
-
-Q-Net’s work under this contract will focus on deploy
+The project builds on the firm’s earlier work with the service centering on the development and fielding of airborne wide-
 
 ## Open roles
 (no jobs data found)

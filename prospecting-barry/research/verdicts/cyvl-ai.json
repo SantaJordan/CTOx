@@ -1,0 +1,16 @@
+{
+  "company": "Cyvl.ai",
+  "slug": "cyvl-ai",
+  "domain": "cyvl.ai",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "Only defense touchpoint is a 2023 NSIN Propel Boston cohort with USSOCOM cited in channel-notes metadata; the company's own current artifacts in the pack (full site, LinkedIn about, Oct 2025 $14M Series A news) are 100% municipal/civil — '500+ Government clients' means cities and DOTs (Atlanta, Buffalo), with zero defense/military language anywhere on the site. A single 2023 accelerator cohort with no subsequent defense motion does not evidence genuine current DoD intent.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "series_a",
+  "what_they_do": "Vehicle-mounted LiDAR/camera sensors plus AI platform giving cities a continuously updated digital twin of roads, sidewalks, and right-of-way assets."
+}

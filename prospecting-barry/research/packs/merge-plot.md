@@ -162,7 +162,7 @@ Merge Plot is designing, developing, and manufacturing cutting-edge hardware and
 Mar 11
 
 PHILADELPHIA, PA – Merge Plot announced today that it has been awarded a Phase I Small Business Innovation Research (SBIR) contract from the United States Special Operations Command (USSOCOM) to develop a Visual Augmentation System (VAS) in support of Program Executive Officer (PEO) Special Operations Forces (SOF) Warrior. Th
-- Award | SBIR () https://www.sbir.gov/awards/215594
+- Award | SBIR () https://www.sbir.gov/awards/215601
   Award | SBIR Skip to main content
 
 # Award
@@ -171,13 +171,13 @@ Portfolio Data
 
 Back to Award Search
 
-## Mobile Automated Networked Tool Intelligent Spider (MANTIS)
+## Reverse Engineering Visualization and Simulation Enterprise
 
 ### Awardee
 
 #### MERGE PLOT LLC
 
-1850 County Line Rd. Suite 201Huntingdon Valley, PA, 19006USA
+https://www.sbir.gov/portfolio/2462973 1850 County Line Rd. Suite 201Huntingdon Valley, PA, 19006USA
 
 Award Year: 2025
 
@@ -199,13 +199,11 @@ Phase I
 
 ### Awarding Agency
 
-DOD
+DOW
 
 Branch: ARMY
 
-Total Award Amount: $249,983
-
-Contract Numb
+Tota
 - Award | SBIR () https://www.sbir.gov/awards/210255
   Award | SBIR Skip to main content
 

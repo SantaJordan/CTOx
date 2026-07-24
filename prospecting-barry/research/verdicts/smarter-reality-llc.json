@@ -1,0 +1,20 @@
+{
+  "company": "Smarter Reality, LLC",
+  "slug": "smarter-reality-llc",
+  "domain": "smarterreality.io",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "Four SBIR awards from the Air Force (2022 Phase II $1,249,932 Tabletop Exercise Platform; 2023 Training Fusion Simulator; 2024 Site Selection tool; 2024 Strategy Games) confirmed via sbir.gov, but the company's core commercial identity is a for-hire app-development agency.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "Own homepage: 'Smarter Reality Helps Entrepreneurs Build Enabling Technology in E-Commerce, Mobile Applications, Gaming' with client testimonials from unrelated entrepreneurs (a game studio, an e-commerce app, a medical device UI) -> disqualified_type: services/dev-shop",
+    "1 employee (LI), four separate, thematically unrelated SBIR topics chased across 2022-2024 (tabletop exercise sim, contingency airfield site selection, strategy games, training fusion) rather than one product being fielded -> disqualified_type / sbir_mill pattern",
+    "'40+ Successful Product Launches' framed as a portfolio of client work-for-hire, not a single company product line"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "unknown",
+  "what_they_do": "Small for-hire app/game development agency (1 employee) that also picks up unrelated Air Force SBIR awards for training-simulation software, with no single fielded defense product."
+}

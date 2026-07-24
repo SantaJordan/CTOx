@@ -253,7 +253,7 @@ Branch: USAF
 Total Award Amount: $74,990
 
 Contract Numbe
-- U.S. Air Force selects Veteran-Led Central NY Startup for ... () https://empeq.co/u-s-air-force-selects-veteran-led-central-ny-startup-for-small-business-innovation-research-sbir-phase-i-contract/
+- U.S. Air Force selects Veteran-Led Central NY Startup for Small ... () https://empeq.co/u-s-air-force-selects-veteran-led-central-ny-startup-for-small-business-innovation-research-sbir-phase-i-contract/
   U.S. Air Force selects Veteran-Led Central NY Startup for Small Business Innovation Research (SBIR) Phase I Contract – EMPEQ
 
 ## U.S. Air Force selects Veteran-Led Central NY Startup for Small Business Innovation Research (SBIR) Phase I Contract

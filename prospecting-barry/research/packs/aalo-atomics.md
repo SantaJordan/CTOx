@@ -3,7 +3,7 @@ slug: aalo-atomics | domain: aalo.com | HQ: Austin, Texas US | employees(LI): 17
 sources: vc:harpoon
 industry(LI): Nuclear Electric Power Generation | specialties: 
 channel notes: modular nuclear reactors
-own-language word count: ~1506
+own-language word count: ~1242
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -297,185 +297,14 @@ Listen07.12.2025Nuclear Goes Modular to Meet AI Demand with Aalo's Matt Loszak
 See all updates
 
 URL: https://aalo.com/technology
-Aalo Pod: 50 MWe Nuclear Power Plant for AI Data Centers
 
-# Aalo Pod
+ 301 Moved Permanently 
+ 
+ 301 Moved Permanently 
+ openresty 
+ 
+ 
 
-TM
-
-The Aalo Pod is a rapidly deployable 50 MWe power plant for AI compute. Comprised of factory-manufactured modules that fit on the back of the truck.
-
-Scroll to learn more
-
-What it is
-
-## The Aalo Pod is a 50 MWe power plant with five 10 MWe reactors sharing multiple turbines. With phased maintenance, it is never fully offline.Co-located with data centers, the Aalo Pod is the clean and sustainable power solution for artificial intelligence.
-
-Tech Specs
-
-Configuration
-
-POD Configuration
-
-5 Reactors
-
-Auxiliary systems
-
-Shared turbines
-
-Reactor model
-
-Aalo-1
-
-Reactor Type
-
-Sodium Thermal (STR)
-
-Core Systems
-
-Moderator
-
-Graphite
-
-Coolant
-
-Liquid Sodium
-
-Operating Pressure
-
-Near Atmospheric
-
-Operating temp.
-
-160 - 425 °C
-
-Fuel
-
-Form
-
-UO₂ Ceramic
-
-Enrichment
-
-8 % LEU+
-
-Safety
-
-Shutdown
-
-Automatic, Passive
-
-Decay Heat Removal
-
-72 + hrs, fully passive
-
-## From Prototype to Production
-
-Sodium Test Loop
-
-Q1 2026
-
-Critical Assembly Facility
-
-Q2 2026
-
-Aalo-0
-
-Q3 2026
-
-Aalo-X
-
-Q1 2027
-
-Aalo Pod
-
-Q3 2028
-
-#### Sodium Test Loop
-
-100% Operational
-
-The foundation of our sodium testing program. The STL circulates sodium reliably with in-house design, manufacturing, and test programs. Its small-scale components provide baseline flow, temperature, and quality data for Aalo-0 and Aalo-X. Operational in our skunkworks lab in Idaho today.
-
-1/5
-
-Sodium Test Loop
-
-Q1 2026
-
-Critical Assembly Facility
-
-Q2 2026
-
-Aalo-0
-
-Q3 2026
-
-Aalo-X
-
-Q1 2027
-
-Aalo Pod
-
-Q3 2028
-
-#### First Nuclear Reactor
-
-100% Complete
-
-The CTR is a zero-power reactor built at Idaho National Laboratory. It enables us to validate core neutronics, test control rod mechanisms, and implement a lifecycle build and licensing process for a nuclear facility at full-scale. On July 3, 2026, in the CTR, we achieved initial criticality: a self-sustaining nuclear reaction.
-
-1/5
-
-Sodium Test Loop
-
-Q1 2026
-
-Critical Assembly Facility
-
-Q2 2026
-
-Aalo-0
-
-Q3 2026
-
-Aalo-X
-
-Q1 2027
-
-Aalo Pod
-
-Q3 2028
-
-#### Full-Scale Sodium System
-
-65% Complete
-
-The power plant without the heat. Aalo-0 is the non-nuclear sodium loops, heat exchangers, and turbine — built at full commercial scale with electrical heaters simulating a reactor core. Aalo-0 de-risks every system in the plant outside of the nuclear components proved at the CTR.
-
-1/5
-
-Sodium Test Loop
-
-Q1 2026
-
-Critical Assembly Facility
-
-Q2 2026
-
-Aalo-0
-
-Q3 2026
-
-Aalo-X
-
-Q1 2027
-
-Aalo Pod
-
-Q3 2028
-
-#### First Power Pla
 
 URL: https://aalo.com/
 Aalo - Welcome to the dawn of a Second Atomic Age
@@ -560,7 +389,67 @@ Aalo Pods achieve full-power operation, electrifying data centers at hundred-MW 
 
 Speed
 
-#### Power in months, not years. Hundreds of megawatts deployed in 6 to 12 month
+#### Power in months, not years. Hundreds of megawatts deployed in 6 to 12 months - while gigawatt-scale reactors are still drafting permits.
+
+01
+
+Availability
+
+#### 99.99% uptime via fleet deployment. Refuel one at a time. Never fully offline.
+
+02
+
+Runs anywhere
+
+#### Works 24/7 in any climate. No body of water required. Behind the meter or on the grid - it just runs.
+
+03
+
+### Cost reduction unlocksa holy-grail energy product.
+
+Scale
+
+15
+
+10
+
+7
+
+3
+
+15
+
+c/kWh
+
+By making reactors repeatably in a factory, we drive down costs and open up new market opportunities.
+
+12-15 ¢/kWh:
+
+AI data centers. Military bases. Remote and islanded grids.
+
+7-10 ¢/kWh:
+
+Small utility. Desalination.Industrial heat. Remote residential.
+
+3 ¢/kWh:
+
+All grids. All countries.Novel applications.
+
+Products
+
+### Aalo-1 Reactor
+
+Explore our 
+
+URL: https://aalo.com/applications
+
+ 301 Moved Permanently 
+ 
+ 301 Moved Permanently 
+ openresty 
+ 
+ 
+
 
 ## LinkedIn about
 
@@ -595,14 +484,18 @@ Matt Loszak
 August 12, 2025
 
 We’re excited to share a major new milestone: the U.S. Department of Energy (DOE) has officia
-- Aalo Atomics Secures Capital, Regulatory Backing for 2026 Modular Nuclear Project at INL, Eyes Potential First Data Center Pairing (2025-08-19) https://www.powermag.com/aalo-atomics-secures-capital-regulatory-backing-for-2026-modular-nuclear-project-at-inl-eyes-potential-first-data-center-pairing/
-  Aalo Atomics Secures Capital, Regulatory Backing for 2026 Modular Nuclear Project at INL, Eyes Potential First Data Center Pairing
+- Aalo Atomics Becomes First U.S. Nuclear Reactor Company with a Contract for Commercial Delivery of Enriched Uranium; Hits Crucial Next Milestone on Path to 2026 Startup (2025-09-10) https://www.businesswire.com/news/home/20250910715287/en/Aalo-Atomics-Becomes-First-U.S.-Nuclear-Reactor-Company-with-a-Contract-for-Commercial-Delivery-of-Enriched-Uranium-Hits-Crucial-Next-Milestone-on-Path-to-2026-Startup
+  Aalo Atomics Becomes First U.S. Nuclear Reactor Company with a Contract for Commercial Delivery of Enriched Uranium; Hits Crucial Next Milestone on Path to 2026 Startup
 
-Search
+Sep 10, 2025 10:00 AM Eastern Daylight Time
 
-Home Data Centers Aalo Atomics Secures Capital, Regulatory Backing for 2026 Modular Nuclear Project at INL, Eyes Potential First Data Center Pairing
+# Aalo Atomics Becomes First U.S. Nuclear Reactor Company with a Contract for Commercial Delivery of Enriched Uranium; Hits Crucial Next Milestone on Path to 2026 Startup
 
-Advanced nuclear firm Aalo Atomics has secured new capital and regulatory backing to complete construction of its 10-MWe Aalo-X reactor at Idaho National Laboratory (INL). The project, recently selected under t
+Share
+
+---
+
+Urenco to Deliver Fuel to Aalo in Late 2025/Early 2026; Aalo-X Nuclear Reactor on Track for Criticali
 
 ## Open roles (Blitz, live)
 - Recruiter ({'city': 'Austin', 'country_code': 'US'})

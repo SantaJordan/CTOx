@@ -248,14 +248,32 @@ Desktop
 ### Description:
 
 Sketch-Thru-Plan (STP) is an advanced natural language planning workstation. It is a Next-Gen and Beyond user interface, leveraging natural language for fast and easy input, and other AI capabilities to help guide planning, for instance by providing automated simulation feedback. STP, the product of DARPA's "Deep Green" program, fuses the warfighters, public safety, or intel us
-- Contracts For Jul. 14, 2025 (2025-07-14) https://www.war.gov/News/Contracts/Contract/Article/4243673/contracts-for-jul-14-2025/
-  Contracts For Jul. 14, 2025 > U.S. Department of War > Contract | U.S. Department of War
+- Recent U.S. Defense Contract Activity (2026-01-01) https://militaryspend.org/defense-contracts
+  Recent U.S. Defense Contract Activity | MilitarySpend
 
-Skip to main content (Press Enter).
+Live · USAspending.gov · updated 6d ago
 
-DEFENSE LOGISTICS AGENCY
+Federal contract feed
 
-Stryker Sales LLC, San Jose, California, has been awarded a maximum $450,000,000 modification (P00024) exercising the five-year option period of a five-year base contract (SPE2D1-20-D-0011) with one five-year option period for patient monitoring and capital equipment. This is a fixed-price with economic-price-adjustment, indefinite-delivery/inde
+# Recent U.S. defense contract activity.
+
+The largest U.S. Department of Defense contract awards with recent activity, pulled from the federal USAspending.gov award data.
+
+Contract activity Jun 14, 2026 – Jul 14, 2026 · auto-sourced from federal award data
+
+Combined award value
+
+$
+
+Contracts tracked
+
+Largest single award
+
+$
+
+## By awarding branch
+
+| Branch / agency | Awards | Va
 
 ## Open roles
 (no jobs data found)

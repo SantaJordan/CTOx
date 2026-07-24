@@ -1,0 +1,16 @@
+{
+  "company": "Nominal",
+  "slug": "nominal",
+  "domain": "nominal.io",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Genuine and deep DoD motion (sole-source $53M IDIQ with the Air Force Test Center supporting F-47/B-21/CCA programs, DARPA CyPhER Forge data-backbone selection, Anduril as a named customer) but the company is already fielded at scale: 251 employees, a multi-year production contract already awarded, not a stuck prototype.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Unified test/telemetry data platform for defense and aerospace hardware programs, now the data backbone for AFTC and DARPA CyPhER Forge."
+}

@@ -1,0 +1,44 @@
+{
+  "company": "ANTARA TEKNIK LLC",
+  "slug": "antara-teknik-llc",
+  "domain": "antarateknik.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Air Force Armament Directorate Phase II ($1.75M, 2022) with their own WOSA/VNX+ abstract, plus a 2025 Navy Phase I for wideband multifunction RF payloads (sbir_abstract + news).",
+  "disconnect_score": 42,
+  "subscores": {"lab_language_intensity": 6, "deployment_awareness_absence": 4, "operator_absence": 10, "hiring_profile_skew": 10, "stage_pressure": 12},
+  "score_evidence": [
+    "Fluent in the deployed checklist: 'inherently rugged and conduction cooled... small size, weight, power, cost (SWaP-C) systems' and 'define the applicable CONOPs, operational and testing requirements' -> deployment_awareness_absence (low)",
+    "'Develop and Field REDHAWK based SDR Waveforms and Components' — fielding language, not demo language -> lab_language_intensity (low)",
+    "No mention anywhere of operators, training, sustainment, or field feedback — CONOPs appear only as paper requirements to be defined -> operator_absence",
+    "No jobs data in pack: hiring_profile_skew set to exactly 10 per rubric",
+    "4 LinkedIn employees, 2022 Phase II long since ended, back to a Navy Phase I in 2025, website copyright frozen at '2013-2018' — small-team stall pattern -> stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Phase II ended at government-facility demos with no named transition path",
+      "operator_reality": "Prototypes 'instantiated, configured, and tested' at a government facility are still prototypes; three years on, the visible next step is a new Phase I in a different service — the classic sign the VNX+ line never found a program of record or prime flow-down, and a 4-person shop cannot self-fund MIL-STD qual at munition scale.",
+      "why_likely_missing": "Serial small-business R&D rhythm: the funded milestone is the demo, and nobody on a 4-person team owns acquisition advocacy after the period of performance ends.",
+      "evidence_quote": "The prototypes will achieve sufficient maturity and include base software and Information Assurance measures to allow them to be instantiated, configured, and tested with applicable CONOPs scenarios at facilities desired by the Government.",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "Claims data-at-rest encryption 'up to TS' with no accreditation pathway visible",
+      "operator_reality": "Anything handling Top Secret data or cross-domain transfer lives or dies on NSA/NCDSMO-class accreditation and years of certification evidence; marketing 'up to TS' with no certification story means no program can actually buy it for that use.",
+      "why_likely_missing": "Engineering-led shop equates cryptographic capability with fieldability; certification is a program-office problem they haven't had to own.",
+      "evidence_quote": "taraAFE: Interactive DAR Authenticated Encryption solution for information integrity and confidentiality up to TS",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Dormant commercial surface while selling into a sustained-production customer",
+      "operator_reality": "The Armament Directorate's stated goal is 'increasing acquisition and fielding tempo' across the munitions portfolio — that requires a supplier who can produce, sustain, and support modules for years; a storefront whose own copyright line stops at 2018 signals a company the acquisition chain will judge unable to sustain delivery.",
+      "why_likely_missing": "All energy goes into contract deliverables; there is no one whose job is the company's outward transition-readiness signal.",
+      "evidence_quote": "Copyright 2013-2018 Antara Teknik, LLC. All rights reserved.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Antara's 2022 Armament Directorate Phase II ended at prototypes tested 'at facilities desired by the Government' — and the next public step is a 2025 Navy Phase I, which usually means the VNX+ line never crossed into a program.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "4-person shop building rugged small-form-factor SDR/crypto hardware and cross-domain network software for Air Force and Navy SBIR programs."
+}

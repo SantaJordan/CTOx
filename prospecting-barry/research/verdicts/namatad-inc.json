@@ -1,0 +1,22 @@
+{
+  "company": "Namatad Inc",
+  "slug": "namatad-inc",
+  "domain": "namatad.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Army SBIR Phase II ($1.32M, 2023) abstract describes active work with SOCOM teams adapting the FIREFLY platform for GPS-denied subterranean personnel/equipment tracking, integrated with Persistent Systems MPU-5 radios used by Special Forces and an ATAK plug-in.",
+  "disconnect_score": 46,
+  "subscores": {"lab_language_intensity": 6, "deployment_awareness_absence": 8, "operator_absence": 6, "hiring_profile_skew": 10, "stage_pressure": 16},
+  "score_evidence": [
+    "'At the conclusion of the Sequential Phase II, we will have a ready-to-deploy, defense-focused version of the FIREFLY system for warfighters' — a hard SBIR clock against a 2-person team → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Fluent in GPS-denied and ATAK, but zero mention of ATO/RMF/CMMC despite integrating with Special Forces radios and SOCOM's networks", "operator_reality": "Integrating with a currently-deployed military radio system (Persistent Systems MPU-5) and ATAK means eventually needing an ATO to move past pilot; no compliance language visible at Sequential Phase II stage is a real risk to the transition clock", "why_likely_missing": "team's core competency and prior track record is firefighter/industrial safety software, not government network compliance — this is new terrain for them", "evidence_quote": "we have integrated FIREFLY devices with currently deployed military radio systems such as the Persistent Systems MPU-5 radios used by Special Forces teams", "quote_source": "sbir_abstract"},
+    {"blind_spot": "No discussion of battery life or power logistics for 'small, lightweight location-aware tags' and 'field-deployable anchors' across a subterranean mission", "operator_reality": "SWaP-C matters most exactly where they're deploying — multi-entrance tunnel systems on a SOCOM mission profile; a tag or anchor that dies mid-mission breaks the accountability system at the worst moment", "why_likely_missing": "abstract focuses on localization accuracy and miniaturized AoA-capable device design, not sustainment/power budget over mission duration", "evidence_quote": "The FIREFLY system consists of small, lightweight location-aware tags that enable real-time tracking using field-deployable anchors", "quote_source": "sbir_abstract"},
+    {"blind_spot": "The system relies on 'an analytical hub' for visualization and processing — unclear if this hub assumes connectivity back to a central point", "operator_reality": "GPS-denied is not the same as comms-denied; a subterranean, multi-entrance tunnel environment plausibly denies both, and if the 'analytical hub' needs a live link to function, that's the same architecture assumption that broke the 30fps crowd-detection deployment", "why_likely_missing": "abstract emphasizes the tag/anchor hardware and ATAK visualization, with the hub's connectivity model left unspecified", "evidence_quote": "as well as an analytical hub and ATAK-based visualization application that enables unprecedented localization visibility in GPS-denied areas", "quote_source": "sbir_abstract"}
+  ],
+  "opener_hook": "Namatad's Sequential Phase II SBIR is adapting its firefighter FIREFLY platform for SOCOM's subterranean GPS-denied tracking — worth asking how the analytical hub holds up when comms are denied too, not just GPS.",
+  "confidence": "medium",
+  "stage_band": "unknown",
+  "what_they_do": "Builds FIREFLY (incident/personnel accountability), CrossCheck (controlled-work safety), and CANAIRY (exposure monitoring) — a location-and-accountability platform originally for firefighters, now adapted under an Army SBIR for SOCOM personnel/equipment tracking in GPS-denied subterranean environments."
+}

@@ -1,0 +1,52 @@
+{
+  "company": "EraDrive",
+  "slug": "eradrive",
+  "domain": "eradrive.space",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Their own site states the product serves 'commercial and military applications' and 'civil, defense, and commercial missions' with a 'dual-use platform ... for both commercial and government missions'; corroborated by a $1M federal (NASA) contract for space-object detection and tracking (homepage/careers + News).",
+  "disconnect_score": 60,
+  "subscores": {
+    "lab_language_intensity": 14,
+    "deployment_awareness_absence": 11,
+    "operator_absence": 9,
+    "hiring_profile_skew": 9,
+    "stage_pressure": 17
+  },
+  "score_evidence": [
+    "\"Rooted in cutting-edge robotics and AI algorithms successfully deployed on 5 distributed satellite missions (12 satellites) over 23 years\" → lab_language_intensity (Stanford SLAB lab heritage presented as product proof)",
+    "\"Digital and robotic twins: ground-based tools to train, validate, and stress test autonomy against realistic dynamical and sensing conditions\" → lab_language_intensity (validation framed as simulation, not flight qualification)",
+    "\"Modular, Compact, and Powerful ... due to low SWaP-C\" → deployment_awareness_absence scored below cap (SWaP-C is named explicitly, so they are not blind to all of it)",
+    "Zero occurrences of ITAR, export control, rad-hard/rad-tolerant, flight qualification, ATO, or ground-segment accreditation across ~873 words → deployment_awareness_absence (capped at 12 per <1000-word rule; scored 11)",
+    "\"help operators manage crowded or contested orbits\" → operator_absence scored mid (operators appear, but only as consumers of an offboard data layer; no CONOPS, training, or field feedback loop)",
+    "Open roles: GNC Engineer, Software Engineer, AI/ML Engineer, Hardware and Embedded Test Engineer x2 → hiring_profile_skew moderated (an embedded TEST engineer is a real integration hire), but no mission-ops, compliance, or program/deployment role",
+    "Founded 2025 (SpaceNews, 2025-07-28), 8 employees, one $1M contract with a period of performance → stage_pressure high"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Vision-based ML inference is the single hardest thing to space-qualify, and nothing in their language addresses radiation tolerance or flight qualification of the compute",
+      "operator_reality": "A defense bus integrator will ask for the part number of the processor, its total-ionizing-dose and single-event-upset data, and the flight-software qualification evidence for the neural net running on it. 'Turn pixels into reliable actions on orbit' on COTS edge silicon is where a NASA study contract stops and a defense program starts — and a non-deterministic model in the GNC loop has no accepted qualification precedent to point at.",
+      "why_likely_missing": "The heritage is a university rendezvous lab where the hard problem was the algorithm, and the flight demonstrations were research missions with research risk postures.",
+      "evidence_quote": "EraDrive provides full stack onboard autonomy modules that turn pixels from space-based sensors into reliable actions on orbit",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The business model depends on an offboard 'real-time, space-wide traffic intelligence network' fed by downlink — a bandwidth assumption a contested or ground-station-limited mission denies",
+      "operator_reality": "A LEO spacecraft gets minutes of contact per pass, and a defense mission may deliberately go quiet. If the value story is a live traffic picture aggregated on the ground, the product degrades to nothing exactly when the contested-orbit scenario they sell against occurs. The architecture fix is the same one as the 30fps case: decouple onboard action from the offboard feed, compress observations into event summaries sized to a pass, and prove the module is fully useful with zero downlink.",
+      "why_likely_missing": "The data-network flywheel is the venture story on top of the module sale; commercial SDA customers have routine ground contact, so the denied case never had to be designed for.",
+      "evidence_quote": "Our dual-use platform serves both commercial and government missions, while simultaneously collecting critical data to power a real-time, space-wide traffic intelligence network.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No export-control or security posture anywhere, while selling autonomy modules for 'military applications' and hiring PhD-heavy engineering in Palo Alto",
+      "operator_reality": "Spacecraft GNC and RPO software is squarely ITAR/USML territory. Export control determines who may touch the repo, whether a foreign-national researcher can be hired, how a technical data package moves to a prime, and whether a facility clearance or CMMC posture is needed before a defense subcontract can flow down. For a Stanford spinoff whose talent pool is disproportionately international, this is a hiring constraint that arrives as a surprise mid-program.",
+      "why_likely_missing": "The first contract was NASA civil space, which imposes far lighter export and personnel constraints than a DoD RPO program.",
+      "evidence_quote": "AI-powered vision to navigate, operate, and collaborate in space for commercial and military applications",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "SpaceNews reported EraDrive's first contract, $1M from NASA, in July 2025 — and your site's proof point is 12 satellites flown over 23 years, which is SLAB's flight record rather than the company's, a distinction a defense program office will make when it asks for qualification evidence on the compute your vision stack runs on.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Stanford spinoff building compact onboard autonomy modules (vision-based navigation, collision avoidance, rendezvous) for spacecraft, plus a ground-side space-traffic data layer."
+}

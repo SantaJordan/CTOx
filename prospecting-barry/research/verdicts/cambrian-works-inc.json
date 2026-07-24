@@ -1,0 +1,44 @@
+{
+  "company": "Cambrian Works, Inc.",
+  "slug": "cambrian-works-inc",
+  "domain": "cambrianworks.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "USSF SBIR abstract ($1.93M Multi-MORF, 'addresses a space defense need identified by the US Space Force') plus 2025 AFWERX Direct-to-Phase II ($1.78M A-PNT) and SpaceWERX Phase II ($1.25M) in the news section.",
+  "disconnect_score": 58,
+  "subscores": {"lab_language_intensity": 12, "deployment_awareness_absence": 7, "operator_absence": 14, "hiring_profile_skew": 10, "stage_pressure": 15},
+  "score_evidence": [
+    "'Explore the most powerful commercial edge processor and networking router for your mission' / 'AI/ML on-board computing with an NVIDIA Orin AGX Processor' → lab_language_intensity",
+    "'Humans will interact with space systems as easily as with remote systems on Earth' — visionary framing, no mission-ops, training, or sustainment language anywhere on the site → operator_absence",
+    "'SpaceWERX Selects Cambrian Works for a $1.25M Phase II Contract' (May 2025) and 'Selected by AFWERX for a $1.78M Direct-to-Phase II Contract' (Mar 2025) — two Phase II period-of-performance clocks running simultaneously on a ~20-person team → stage_pressure",
+    "Hiring: 3x Lead Laboratory Technician + 1 Senior High-Speed Digital Hardware Engineer — hardware-domain roles, no compliance/integration/mission-ops roles; scored neutral per hardware-firm rule → hiring_profile_skew",
+    "Mitigating: 'Completed NASA GEVS vibration and thermal vacuum testing. Radiation tested' and abstract fluency in 'Meaconing, Intrusion, Jamming, and Interference (MIJI)' → kept deployment_awareness_absence low"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Consumer-grade GPU compute assumed inside a smallsat power and thermal budget",
+      "operator_reality": "An NVIDIA Orin AGX drawing '35 Watts (Nominal) 75 Watts (Max)' can be most of a smallsat's entire orbit-average power budget; on a P-LEO defense bus the payload gets throttled or duty-cycled, and the 'AI/ML on-board' pitch collapses to intermittent processing — the space version of the 30fps-video-on-a-1-frame-per-5-seconds link.",
+      "why_likely_missing": "Team is optimizing for benchmark throughput to win commercial and SBIR demos; nothing in their language prices the router against the host bus's SWaP allocation on an actual USSF mission.",
+      "evidence_quote": "AI/ML on-board computing with an NVIDIA Orin AGX Processor ... Power Consumption 35 Watts (Nominal) 75 Watts (Max)",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "'Plug and play' networking abstraction assumes an integration and accreditation ease that USSF programs deny",
+      "operator_reality": "A router carrying DoD constellation traffic needs cybersecurity accreditation (RMF/ATO on the relevant network), crypto certification, and integration with existing government ground segments before any mission architect can 'plug' it in — none of ATO, RMF, IL-level, or crypto cert appears anywhere in 1,500+ words; the abstraction layer that wins the SBIR is not the artifact that survives an accreditation package.",
+      "why_likely_missing": "Their expertise is protocol engineering ('proven terrestrial Internet standards'); the accreditation chain lives in program offices they have not had to face yet as a subsystem vendor.",
+      "evidence_quote": "enable the network forming the constellation backbone to more easily integrate diverse physical link terminals in a \"plug and play\"-like fashion",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "No owner for operating the network they sell — mission ops, training, and sustainment are absent",
+      "operator_reality": "A 'hybrid space network' still gets run by a government ops squadron: who trains the operator on GigRouter fault modes, who pushes firmware to a radiation-degraded unit on orbit, who holds the sparing plan for a $90,000 flight unit with a 6-month lead time? A constellation program office will ask before EOC; the site never does.",
+      "why_likely_missing": "Five-person leadership is entirely engineering/strategy; product pages sell specs and lead times, and nobody on the roster owns fielding or sustainment.",
+      "evidence_quote": "Autonomous data management across hybrid space networks ... $90,000 (FM) ... Lead time 6 months for all configurations",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Cambrian is carrying two 2025 Phase II clocks at once — AFWERX's $1.78M A-PNT award and SpaceWERX's $1.25M SORTIE — on a roughly 20-person team, and the GigRouter's 75W max draw is the number a USSF bus integrator will negotiate first.",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Builds space-qualified network routers and edge computers (GigRouter family) plus attachment hardware so satellites and constellations can move data like the terrestrial Internet; SBIR-funded for USSF resilient comms with early commercial flights booked."
+}

@@ -1,0 +1,45 @@
+{
+  "company": "Hydrosat Inc",
+  "slug": "hydrosat-inc",
+  "domain": "hydrosat.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Their own newsroom: 'Hydrosat Secures $1.9 Million Contract from the US Air Force to Enhance Thermal Imagery for National Defense' (2024-10-16) and 'Hydrosat Awarded Stage II Contract by NRO' (2025-07-21), backed by an Air Force 2022 SBIR Phase II ($1,200,000) and a USAspending record (FA864922P0959).",
+  "disconnect_score": 53,
+  "subscores": {"lab_language_intensity": 12, "deployment_awareness_absence": 14, "operator_absence": 13, "hiring_profile_skew": 6, "stage_pressure": 8},
+  "score_evidence": [
+    "'Our next-generation constellation ... will deliver daily, continuous monitoring of any location, combining 25 m high-resolution thermal imagery with coincident 10 m visible data. This unmatched commercial capability...' → lab_language_intensity: the differentiating capability is future tense and pitched in resolution/swath specs",
+    "'Hydrosat's systems have flight-heritage and are engineered to meet standards for civil and national security missions.' → deployment_awareness_absence: 'standards' is never named — across ~1382 words there is no ATO/RMF, IL5/IL6, ITAR, export control, CMMC, or classified-dissemination language",
+    "'Insights are available through a web portal, mobile application, and API.' → deployment_awareness_absence: the entire delivery model assumes an internet-connected commercial user",
+    "Audience is consistently civil/commercial — 'policymakers, irrigation districts, and farms' and 'decision makers across the world' — with 'analysts can tip higher-resolution sensors to the right location' the only nod to an operational user; no warfighter, CONOPS, training, or field-feedback language → operator_absence",
+    "Open roles include 'Capture Manager – U.S. Government Contracts' (three postings), 'Senior Security Engineer' (two postings), and 'Test Engineer' → hiring_profile_skew scored low: they are visibly staffing government capture, security, and test rather than researchers only",
+    "106 employees, two satellites on orbit (VZ-1, VZ-2, 2025), '$20 Million in Investment and Grants' (2023), recurring ag subscription revenue → stage_pressure low; the pressure is constellation capex, not a period-of-performance cliff"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The engineering organization is distributed across Luxembourg and Berlin while the customers are NRO and the Air Force",
+      "operator_reality": "Thermal collection specifications, calibration data, and tasking parameters for a system the NRO is assessing on orbit sit squarely in export-controlled territory. Their own open roles put 'Platform Engineer' in Berlin and 'Operations & HR Manager' in Luxembourg on the same pipeline that produces the national-security product. ITAR/EAR and foreign-person access controls do not surface at contract award — they surface at the accreditation and data-handling review, by which point the build path has to be split and re-staffed, and that rework is measured in quarters against a running period of performance.",
+      "why_likely_missing": "The company grew its engineering base around the European agriculture business (the IrriWatch acquisition, Luxembourg HQ presence), and the defense line was added on top of an already-international org rather than architected separately.",
+      "evidence_quote": "Platform Engineer ({'city': 'Berlin', 'country_code': 'DE'})",
+      "quote_source": "job_post"
+    },
+    {
+      "blind_spot": "Delivery is a commercial web portal and API, with no described route onto the networks the intelligence customer actually works on",
+      "operator_reality": "An NRO or Air Force analyst consuming thermal tips does that work on a classified enclave. Every insight therefore has to cross a domain boundary — accreditation, a cross-domain solution, or a government-hosted instance at IL5/IL6. Their described product ships 'daily alerts, maps, and actionable guidance' to a browser and a mobile app. The gap between 'we deliver via API' and 'the analyst can see it at their desk' is the months-to-field number that kills transitions.",
+      "why_likely_missing": "The delivery architecture was built for irrigation districts and growers, where a web portal and a phone app are exactly right, and the same stack is being pointed at a defense customer without re-examining where the user sits.",
+      "evidence_quote": "Real-time data with daily alerts, maps, and actionable guidance",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The value proposition is calibrated to agricultural time, not operational time",
+      "operator_reality": "'2+ Weeks earlier risk detection' and 'Thermal anomalies often emerge weeks before changes become visible' is a compelling claim for drought and crop stress. A tip-and-cue role in a defense architecture is judged on latency from collection to a usable cue — hours, sometimes minutes — plus revisit over a specific area of interest and a defined timeliness SLA. Daily continuous revisit is explicitly the next-generation constellation, not what is on orbit today, so the defense capability being sold and the capability that exists are separated by a launch campaign.",
+      "why_likely_missing": "Their entire proof base — '60+ countries served', 'Proven across 220k+ acres', 'Solutions used daily on millions of hectares' — is agricultural, where a two-week lead time is the headline benefit, so no internal metric measures cue latency.",
+      "evidence_quote": "Thermal anomalies often emerge weeks before changes become visible to the human eye or traditional sensors.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Hydrosat's NRO Stage II award covers on-orbit assessment of its infrared data, and its platform engineering roles are posted in Berlin and Luxembourg — the export-control question that usually surfaces at accreditation rather than at award.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Builds and flies thermal-infrared imaging satellites and sells the surface-temperature data and analytics, mostly for agriculture and water management, with a growing national-security line for thermal anomaly detection."
+}

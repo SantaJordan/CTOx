@@ -1,0 +1,49 @@
+{
+  "company": "ARCHAIUS LLC",
+  "slug": "archaius-llc",
+  "domain": "archaius.net",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own site sells anti-jam/EW products to 'military operators' with native ATAK integration; AF STTR PhII 2022 ($750k) and AF SBIR PhI 2024 in their own abstracts and SBIR records.",
+  "disconnect_score": 42,
+  "subscores": {
+    "lab_language_intensity": 9,
+    "deployment_awareness_absence": 4,
+    "operator_absence": 4,
+    "hiring_profile_skew": 12,
+    "stage_pressure": 13
+  },
+  "score_evidence": [
+    "Spec-brag framing on product pages: 'Real-time jammer geolocation (±50m CEP)', 'one-degree organic direction finding', 'Mass producible' comparison tables → lab_language_intensity",
+    "Fluent deployment vocabulary keeps awareness subscores low: 'ultra–low-size, weight, and power (SWaP)', 'Modular Open System Architecture (MOSA)-compliant', 'Ruggedized for dismounted & vehicle operations', native ATAK/WinTAK → deployment_awareness_absence, operator_absence",
+    "All four open roles are lab-side builds — 'Radio Frequency Engineer', 'Senior Firmware Engineer' (x2 each) — zero field/test/integration or compliance roles while three products are marketed as 'ready to integrate' → hiring_profile_skew",
+    "STTR PhII awarded 2022 (period of performance now expired or expiring), a 2024 award back at Phase I ($74,110), ~21 people, no announced fielding or transition of GRALE/VAELIN/TALON → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Products marketed as 'ready to integrate' with no visible transition vehicle — three SBIR/STTR awards since 2021 and no announced fielding, program, or prime teaming",
+      "operator_reality": "EW modules only reach the field mounted on someone else's platform under someone else's program; without a prime/GFE integration path and an advocate above the operator level, 'ready to integrate' means shelf-ready",
+      "why_likely_missing": "Team is signal-processing PhDs and engineers; the site's fluency is technical, not acquisition — nothing about contracts, primes, or programs anywhere",
+      "evidence_quote": "Anti-jamming, resilient command-and-control, and protected navigation — ready to integrate.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Sells identical EW/anti-jam modules to commercial logistics and defense with zero ITAR/export language",
+      "operator_reality": "Jamming detection/cancellation and jammer-geolocation hardware is export-controlled; a dual-market motion without a stated export-control posture stalls both the foreign-partner deals and the DoD paperwork",
+      "why_likely_missing": "Commercial-market ambition ('every port, grid, and pipeline operations center') is written by the same hand as the defense pages, with no compliance layer between them",
+      "evidence_quote": "The same vulnerabilities that exist on the battlefield exist in every port, grid, and pipeline operations center.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No training or sustainment story for the fielded module — who trains the operator, who swaps it, who supports 'fully autonomous' when it isn't",
+      "operator_reality": "A 'fully autonomous module' on a drone or handheld still needs the E-5's 20-minute training block, spares, battery/power budget on the platform, and a fix-forward path; none of that appears on any product page",
+      "why_likely_missing": "TALON's ATAK fluency suggests they know the operator screen but not the sustainment tail behind it",
+      "evidence_quote": "This ultra–low-size, weight, and power (SWaP), fully autonomous module safeguards communications links",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Archaius has three Air Force SBIR/STTR awards since 2021 and markets GRALE, VAELIN, and TALON as ready to integrate — the 2022 STTR PhII period of performance has run out with no announced fielding, which is the exact window where EW startups lose the transition.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Builds anti-jamming, protected-navigation, and ATAK-integrated electronic warfare modules for drones, vehicles, and dismounted operators."
+}

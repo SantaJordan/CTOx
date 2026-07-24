@@ -262,7 +262,7 @@ DOW
 Branch: USAF
 
 Total Award A
-- Award | SBIR () https://www.sbir.gov/awards/209947
+- Award | SBIR () https://www.sbir.gov/awards/206263
   Award | SBIR Skip to main content
 
 # Award
@@ -271,15 +271,15 @@ Portfolio Data
 
 Back to Award Search
 
-## Satellite Fault Identification
+## xGEO NSTV Information Processing (xNIP)
 
 ### Awardee
 
 #### TRUSTED SPACE, LLC
 
-https://www.sbir.gov/portfolio/1656503 17731 BRAEMAR PLLEESBURG, VA, 20175-7045USA
+17731 BRAEMAR PLLEESBURG, VA, 20175-7045USA
 
-Award Year: 2024
+Award Year: 2023
 
 UEI: CK8EVP1Y1UL9
 
@@ -293,19 +293,21 @@ Congressional District: 10
 
 Tagged as:
 
-STTR
+SBIR
 
 Phase II
 
 ### Awarding Agency
 
-DOW
+DOD
 
 Branch: USAF
 
-Total Award Amount: $999,818
+Total Award Amount: $1,244,071
 
-Contract Number: 
+Contract Number: FA8750-23-C-0001
+
+Agency Tra
 
 ## Open roles (Blitz, live)
 - Ground Segment Integration Engineer ({'city': None, 'country_code': 'US'})

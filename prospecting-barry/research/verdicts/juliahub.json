@@ -1,0 +1,26 @@
+{
+  "company": "JuliaHub",
+  "slug": "juliahub",
+  "domain": "juliahub.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Real DoD motion exists — two DARPA awards (analog/mixed-signal simulation 2021, AI-based digital phased arrays 2021) and a dedicated government offerings page — but that same page shows they are already through the gate Barry sells into.",
+  "disconnect_score": 0,
+  "subscores": {
+    "lab_language_intensity": 0,
+    "deployment_awareness_absence": 0,
+    "operator_absence": 0,
+    "hiring_profile_skew": 0,
+    "stage_pressure": 0
+  },
+  "score_evidence": [
+    "'JuliaHub Air provides air-gapped deployment, faster ATO approval, and mission-critical simulation capabilities. Trusted by NASA, DARPA, DOE, and US Air Force.' → they already ship an air-gapped government product and sell ATO speed as a feature; they are not stuck between demo and fielded",
+    "99 employees, founded 2015, with named enterprise deployments at ASML (700+ engineers), Boeing, Pfizer and AstraZeneca → scaled commercial company, far outside the $5M-$10M defense-tech band Barry works in",
+    "Open roles are 'Senior Solutions Architect - Modeling and Simulation', 'Compiler Engineer – Synchronous Programming', 'Senior Sales Account Executive - Pharma/ Biotech' → a growth-stage commercial software org, not a program-of-performance transition crisis"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Cloud and air-gapped platform plus an AI agent (Dyad) for physics-based modeling, simulation and scientific computing in Julia."
+}

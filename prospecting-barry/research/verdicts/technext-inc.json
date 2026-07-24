@@ -1,0 +1,26 @@
+{
+  "company": "TechNext Inc.",
+  "slug": "technext-inc",
+  "domain": "technext.ai",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Two Air Force SBIR Phase II awards (2022, $1.5M + $750K) for AFNWC/DoD technology-forecasting tools, with own abstract stating offerings 'have been fine-tuned by closely working with key DoD stakeholders' — SBIR/STTR record section.",
+  "disconnect_score": 76,
+  "subscores": {"lab_language_intensity": 18, "deployment_awareness_absence": 18, "operator_absence": 14, "hiring_profile_skew": 10, "stage_pressure": 16},
+  "score_evidence": [
+    "'Patented algorithms (US Patent US012099572B2), Proprietary Machine Learning models... 20 years of research at MIT' — pure academic/patent-pedigree brag → lab_language_intensity",
+    "Detailed abstracts describe 150,000+ technology taxonomy, citation-network algorithms, and weapon-system vulnerability forecasting with zero mention of ATO/RMF/CMMC/ITAR/STIG anywhere on site or in SBIR text → deployment_awareness_absence",
+    "Only engagement signal is 'Current TechNext offerings have been fine-tuned by closely working with key DoD stakeholders' — no CONOPS, no named operator, no field-feedback loop described → operator_absence",
+    "'no jobs data found' → hiring_profile_skew set to 10 per rule",
+    "3-5 employees, two Air Force Phase II awards closed in 2022, and the company's most recent public news (Sept 2025) is a partnership with a commercial semiconductor coalition rather than any DoD program office → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "No ATO/RMF or network-authorization pathway described for a tool meant to run inside AFNWC/DoD program-management workflows", "operator_reality": "A SaaS analytics tool touching DoD technology-portfolio data needs an ATO to actually be installed on a .mil network; 'TechNext's tools can allow AFNWC and DoD stakeholders at large to search, catalog, explore' is aspirational marketing unless there's an accredited deployment behind it", "why_likely_missing": "team is optimizing forecasting algorithms, not the accreditation pathway to get the tool onto a government network", "evidence_quote": "TechNext's tools can allow AFNWC and DoD stakeholders at large to search, catalog, explore and anticipate directional technological progress and potential for innovation for any technology", "quote_source": "sbir_abstract"},
+    {"blind_spot": "No data-handling/CMMC/NIST 800-171 story despite the Phase II 'Forecasting Future Technological Threats' abstract explicitly analyzing 'vulnerabilities in weapon systems that can be exploited by adversaries'", "operator_reality": "That kind of adversary-vulnerability analysis is CUI-adjacent at minimum; running it through a 3-5 person company's own infrastructure without a stated compliance posture is exactly the gap that kills a Phase II-to-III transition on a security review", "why_likely_missing": "company markets its dataset and algorithms, not its own facility/data-handling compliance", "evidence_quote": "TechNext will build a Technology Crossover Scenario-modeling Tool to identify vulnerabilities in weapon systems that can be exploited by adversaries", "quote_source": "sbir_abstract"},
+    {"blind_spot": "No named champion or transition milestone four years after the 2022 Phase II awards; the most recent public partnership (2025) is with a commercial semiconductor coalition, not AFNWC", "operator_reality": "This is the valley of death in real time: DoD stakeholders liking the tool during Phase II development isn't the same as a program office funding a Phase III or program of record — and the company's public attention has visibly shifted to commercial revenue instead", "why_likely_missing": "commercial partnerships are easier to close and announce than a DoD program-of-record transition, so the company's growth story naturally drifts commercial", "evidence_quote": "MIT Startup TechNext Partners with Northeast Microelectronics Coalition to Accelerate Technology Commercialization", "quote_source": "news"}
+  ],
+  "opener_hook": "TechNext's two Air Force Phase II SBIRs closed in 2022 — its most recent public partnership, in September 2025, is with a commercial semiconductor coalition, not an Air Force program office.",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "An MIT spin-off selling a patented AI/patent-data platform that forecasts technology performance-improvement rates for R&D and investment decisions, originally developed under Air Force SBIR funding for AFNWC technology forecasting."
+}

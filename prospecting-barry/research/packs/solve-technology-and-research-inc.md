@@ -185,6 +185,24 @@ Know who’s winning. Learn how to compete.
 # From $5.9M to $17.3M: AI Contract with Systems & Technology Research Grows Under DARPA
 
 Systems & Technology Research LLC, Woburn, Massachusetts, has been awarded an $11,386,095 modification (P00006) to cost-plus-fixed-fee contract HR001124C0309 to exercise Option One of the Artificial Intelligence Reinforcements program. The modification brings t
+- Automating potentially false claims about proposed enabling technologies | Military Aerospace (2024-12-16) https://www.militaryaerospace.com/test/article/55249646/systems-technology-research-automating-potentially-false-claims-about-proposed-enabling-technologies
+  Automating potentially false claims about proposed enabling technologies | Military Aerospace
+
+Test
+
+# Three groups seek to automate how to assess enabling technologies, and weed-out false claims of capability
+
+The intent of SciFy is to develop new ways to review, reason, verify, and evaluate capability claims automatically for national security and defense.
+
+Related To:
+
+Systems & Technology Research
+
+2 min read
+
+ID 176161588 © Artur Szczybylo | Dreamstime.com
+
+ARLINGTON, Va. – U.S. military re
 - Contract N6523620C8000 Systems & Technology Research () https://www.highergov.com/contract/N6523620C8000/
   Contract N6523620C8000 Systems & Technology Research -- --
 
@@ -235,24 +253,6 @@ Systems & Technology Research
 Awarding / Funding Agency
 
 Naval Info
-- Automating potentially false claims about proposed enabling technologies | Military Aerospace (2024-12-16) https://www.militaryaerospace.com/test/article/55249646/systems-technology-research-automating-potentially-false-claims-about-proposed-enabling-technologies
-  Automating potentially false claims about proposed enabling technologies | Military Aerospace
-
-Test
-
-# Three groups seek to automate how to assess enabling technologies, and weed-out false claims of capability
-
-The intent of SciFy is to develop new ways to review, reason, verify, and evaluate capability claims automatically for national security and defense.
-
-Related To:
-
-Systems & Technology Research
-
-2 min read
-
-ID 176161588 © Artur Szczybylo | Dreamstime.com
-
-ARLINGTON, Va. – U.S. military re
 
 ## Open roles
 (no jobs data found)

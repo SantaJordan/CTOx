@@ -1,0 +1,20 @@
+{
+  "company": "HawkEye 360",
+  "slug": "hawkeye-360",
+  "domain": "he360.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "News section: 'NRO Selects HawkEye 360 to Advance Tactical RF Data and Analytics Capabilities' (2025-12-03), 23 months of dedicated NRO/CSPO funding, plus a European MoD electronic-warfare program valued up to $75M.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "'Proven by operational mission success, HawkEye 360 is redefining how signals intelligence...' (linkedin_about) → already fielded",
+    "'Hawkeye 360 Proves Commercial Enabled Track Custody at Valiant Shield 2026' → operating inside major fleet exercises with government users",
+    "Publicly traded (NYSE: HAWK), 274 employees, constellation of 30+ satellites on orbit → no valley-of-death transition risk left"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Operates a commercial LEO satellite constellation that detects and geolocates RF emissions, selling signals-intelligence data and analytics to defense and intelligence agencies."
+}

@@ -438,10 +438,20 @@ Julie Bort
 Copy Share Link
 
 Former NSA deputy director George Barnes has made his first investment as a venture capitalist for his new job at the VC incubation studio Red Cell Partners. It’s a $3 million pre-seed deal in an open source cybersecurity startup called H
-- This is brilliant workThis morning, we launched Hunted Labs from stealth with $3M in pre-seed funding, and they announced a $1.79M SBIR Phase II contract with the Space Development Agency! Throughout my … | Jim Higgins (2025-03-22) https://www.linkedin.com/posts/jhiggins_hunted-labs-lands-3m-to-find-suspicious-activity-7309232930566877184-aJzn
-  # This is brilliant workThis morning, we launched Hunted Labs from stealth with $3M in pre-seed funding, and they announced a $1.79M SBIR Phase II contract with the Space Development Agency! Throughout my … | Jim Higgins · LinkedIn · 2025-03-22
+- Red Cell Partners Launches Hunted Labs to Harden ... (2025-03-19) https://www.businesswire.com/news/home/20250319842719/en/Red-Cell-Partners-Launches-Hunted-Labs-to-Harden-Software-Supply-Chains-and-Protect-Organizations-from-Attacks
+  Red Cell Partners Launches Hunted Labs to Harden Software Supply Chains and Protect Organizations from Attacks
 
-**Jim Higgins**: Chief Information Security Officer at CoreWeave with 27 years 7 months of experience. Previous roles include CISO at Snap Inc., CISO at Square, and Director of Product Security and Infrastructure Protection, Google at Google. Based in Sa
+-
+
+# Red Cell Partners Launches Hunted Labs to Harden Software Supply Chains and Protect Organizations from Attacks
+
+Share
+
+---
+
+Hunted Labs launches with $3M in pre-seed funding and a $1.79M contract with the Space Development Agency
+
+MCLEAN, Va.--(BUSINESS WIRE)--Red Cell Partners, an incubation firm building and investing in rapidly scalable, technology-led companies that are bringi
 
 ## Open roles
 (no jobs data found)

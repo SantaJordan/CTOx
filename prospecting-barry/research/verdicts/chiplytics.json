@@ -1,0 +1,51 @@
+{
+  "company": "Chiplytics, Inc.",
+  "slug": "chiplytics",
+  "domain": "chiplytics.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "News section: Air Force STTR Phase II, contract FA864924P1109 awarded by AFWERX on Aug 8 2024 with ~$1.8M obligated — 'Chiplytics and CALCE/UMD: Quantifiable Assurance for Mission-Critical Microelectronics' — corroborated by the University of Maryland CALCE announcement.",
+  "disconnect_score": 57,
+  "subscores": {
+    "lab_language_intensity": 11,
+    "deployment_awareness_absence": 12,
+    "operator_absence": 9,
+    "hiring_profile_skew": 10,
+    "stage_pressure": 15
+  },
+  "score_evidence": [
+    "'Power Spectrum Analysis (PSA) performs a non-invasive modal analysis of an electrical part' and 'capturing pseudosignatures' -> lab_language_intensity: bench-instrument framing, though partly offset by naming a real standard",
+    "'Components go through rigorous aerospace inspection, electronic testing, and certification requirements' under an 'AS6171 Standard Testing' heading -> lab_language_intensity held down; AS6171 is the correct counterfeit-detection standard to be anchored to",
+    "'stores signatures locally or over a secure cloud database for scalable data management and analysis' -> deployment_awareness_absence: a cross-program signature library in a vendor cloud, with no CUI, NIST 800-171, CMMC, DFARS 252.246-7007/7008, GIDEP or ITAR language anywhere in ~604 words (capped at 12 by the <1000-word rule)",
+    "'Chiplytics captures electrical and visual signatures on all components for full coverage and traceability' -> operator_absence: the inspection technician who would run thousands of parts a shift never appears, and no training or depot workflow is described",
+    "No jobs data in pack -> hiring_profile_skew set to exactly 10 by rule",
+    "employees(LI): 6, founded 2022, STTR Phase II awarded Aug 8 2024 with no follow-on or funding round visible -> stage_pressure: the period of performance is the runway"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The signature library is simultaneously the business model and a controlled artifact the customer will not let them keep",
+      "operator_reality": "A cross-customer database of golden electrical signatures for mission-critical microelectronics is a map of which parts sit in which weapon systems, in what volumes, and where the sourcing is thin — which is exactly what an adversary supply-chain analyst wants. A defense customer will class that as CUI at minimum, require NIST 800-171/CMMC handling, and in many programs insist the library live inside their boundary with no cross-program aggregation. That guts the network effect the product is built around. The architecture answer — per-tenant enclaves, exportable signature packages, a federated comparison that never centralizes raw data — is cheap to design now and a rewrite once a prime's security team reads the data flow.",
+      "why_likely_missing": "In commercial high-reliability electronics a shared reference library is a pure asset and the more customers contribute, the better it gets, so the incentive has always pointed toward centralization.",
+      "evidence_quote": "The Chiplytics desktop app automates data collection and stores signatures locally or over a secure cloud database for scalable data management and analysis.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Testing to AS6171 is not the same as being an accepted test house",
+      "operator_reality": "Under DFARS 252.246-7007 and -7008 the prime, not the vendor, owns the counterfeit detection and avoidance system and must source from approved suppliers; a test result only counts if it comes from a lab the prime and the program office recognize, typically ISO/IEC 17025 accreditation scoped to AS6171 and a place on an approved-source list. Without that, a prime treats Chiplytics data as advisory and re-tests anyway, which caps the deal at pilot size forever. There is also an obligation nobody has named: when a part is judged suspect counterfeit, someone has to file a GIDEP report, and whether that is the customer or the lab is a contractual term that should be settled before the first finding, not after.",
+      "why_likely_missing": "The STTR is a technology-development vehicle with a university partner, so the work is judged on whether the method discriminates parts — accreditation and reporting duties live in an acquisition and quality-assurance world the research contract never touches.",
+      "evidence_quote": "Quality is financially guaranteed through our extended warranty and backed by reporting on our platform.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "One hundred percent coverage is a fixturing problem, not an algorithm problem",
+      "operator_reality": "The differentiator claimed is screening every component rather than a sample, but the interface is a 40-pin ZIF socket plus per-package socket adapters. Real depot and prime incoming inspection means lots of thousands of parts spanning dozens of package types, including high-pin-count BGAs and QFNs where a test socket is a custom part with weeks of lead time and a four-figure price. At transition the question is throughput per shift and cost per part against a sample-based baseline, and the answer is set by socket tooling and handler automation — the least glamorous part of the system and the one a six-person team is least resourced to industrialize.",
+      "why_likely_missing": "The STTR demonstration set is chosen to prove discrimination on representative parts, so package diversity looks like a catalog problem rather than the dominant cost driver it becomes at volume.",
+      "evidence_quote": "Electronic components interface with the 40-pin zero insertion force (ZIF) socket or low leadtime socket adapters manufactured by Chiplytics for a wide range of package types.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Your PSA app stores component signatures 'locally or over a secure cloud database', and the AFWERX STTR you are on with CALCE (FA864924P1109) will eventually make that library CUI — at which point where it lives matters more than how well it discriminates parts.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Six-person Seattle startup detecting counterfeit and degraded microelectronics by capturing patented power-spectrum electrical fingerprints of every part, sold as inspection hardware plus a sourcing-and-certification service."
+}

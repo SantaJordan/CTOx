@@ -1,0 +1,25 @@
+{
+  "company": "Absentia Tech",
+  "slug": "absentia-tech",
+  "domain": "absentiatech.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own site claims 'Passed Tier-1 SOF evaluation', 'US Navy deployment via TempestOS', and 'active Department of Defense pathways' (homepage badges/validation section).",
+  "disconnect_score": 68,
+  "subscores": {"lab_language_intensity": 19, "deployment_awareness_absence": 15, "operator_absence": 8, "hiring_profile_skew": 10, "stage_pressure": 16},
+  "score_evidence": [
+    "'75% Clarity gain… 90% Detection and Tracking accuracy… <50ms Real-time latency on edge hardware' plus NVIDIA Innovation Lab and 'NeurIPS 2025 Spotlight' badges → lab_language_intensity",
+    "Detailed product description with zero mention of ATO/RMF/IL levels/CMMC/ITAR anywhere → deployment_awareness_absence",
+    "'We are a small team with a contrarian thesis and field validation' + channel notes: pre-seed, self-funded, raising a bridge/seed round, ~5-6 people → stage_pressure",
+    "No jobs data in pack → hiring_profile_skew set exactly 10 per rule"
+  ],
+  "blind_spots": [
+    {"blind_spot": "No accreditation path named despite claiming a Navy deployment", "operator_reality": "Software touching Navy ISR feeds needs ATO/RMF and an impact-level home; riding TempestOS may carry them for one integration, but every new program restarts the accreditation clock — the usual place physics-grounded ISR dies is paperwork, not accuracy", "why_likely_missing": "Two-founder research team whose credibility markers are NVIDIA grants and a NeurIPS spotlight, not a compliance hire", "evidence_quote": "Through active Department of Defense pathways and growing commercial engagement, we are bringing next-generation AI capabilities from advanced research into real-world operations.", "quote_source": "homepage"},
+    {"blind_spot": "SÉANCE swarm coordination assumes a live cross-track link a contested site denies", "operator_reality": "Continuous drone-swarm relay to a base station is exactly the DDIL failure mode — bandwidth for 1 frame every 5 seconds, jammed links, and the 'uninterrupted protected coverage' promise collapses; same architecture trap as the 30fps crowd-detection case", "why_likely_missing": "Product validated in demos and site-security pilots where RF is permissive", "evidence_quote": "relays data to a base station over a secure cross-track link. One operator. One site. Uninterrupted protected coverage.", "quote_source": "homepage"},
+    {"blind_spot": "ISR/situational-awareness platform with natural-language querying and no TAK integration mentioned", "operator_reality": "SOF consumes ISR in ATAK; an enhancement layer whose output can't land on the TAK screen of the team that evaluated it stays a side monitor, and 'query any feed in plain language' assumes a keyboard-and-headset operator, not a gloved E-5 on a berm", "why_likely_missing": "Founders are AI researchers building against benchmarks and camera feeds, not fielded C2 ecosystems", "evidence_quote": "Query any feed, subject, or site activity in natural language and get precise answers across every camera at once.", "quote_source": "homepage"}
+  ],
+  "opener_hook": "Absentia's quad chart claims sub-50ms edge latency and a US Navy deployment via TempestOS, yet nothing on absentiatech.com names an ATO or RMF path for MYSTIC itself.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Six-person pre-seed AI startup whose MYSTIC software de-fogs and enhances degraded video feeds in real time on existing cameras/drones for ISR and site security."
+}

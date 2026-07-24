@@ -292,7 +292,7 @@ Its compact form factor enhances ease of integration and optimise
 Auterion is a cutting-edge operating system for autonomous computing that empowers a diverse range of autonomous robots to perform high-risk to mundane tasks, deliver goods, and aid in life-saving missions. Our industry-leading software drives the adoption of robotic fleets and is recognized by the U.S. government as the future standard for its drone program. Join the Auterion movement and experience the power of next-generation computing.
 
 ## News (Exa, top 3)
-- Auterion Secures Contract to Deliver 33,000 Skynode Drone Strike Kits to Ukraine – Auterion (2025-07-28) https://auterion.com/auterion-secures-contract-to-deliver-33000-skynode-drone-strike-kits-to-ukraine/
+- Auterion Secures Contract to Deliver 33000 Skynode Drone Strike Kits ... (2025-07-28) https://auterion.com/auterion-secures-contract-to-deliver-33000-skynode-drone-strike-kits-to-ukraine/
   Auterion Secures Contract to Deliver 33,000 Skynode Drone Strike Kits to Ukraine | Auterion
 
 ## Press-release
@@ -304,6 +304,20 @@ https://auterion.com/news/press-release/
 July 28, 2025
 
 Arlington, Virginia – July 28, 2025 – Auterion, the international defense software company and leading provider of AI-powered drone software solutions, today announced a landmark commitment to deliver 33,000 artificial intelligence-driven drone "st
+- Auterion to Deliver 33,000 AI Drone Kits to Ukraine - DRONELIFE (2025-07-29) https://dronelife.com/2025/07/29/auterion-wins-50m-pentagon-contract-to-deliver-33000-ai%E2%80%91driven-drone-strike-kits-to-ukraine/
+  Auterion to Deliver 33,000 AI Drone Kits to Ukraine - DRONELIFE
+
+- Skip to main content
+- Skip to secondary menu
+- Skip to primary sidebar
+- Skip to secondary sidebar
+- Skip to footer
+
+### Landmark deal marks a tenfold scale‑up and underscores Auterion’s evolution into a defense software player
+
+#### Auterion signs major US‑Ukraine defense contract
+
+Auterion, a U.S.-German defense tech company, has landed a $50 million contract from the Pentagon. It will deliver 33,000 AI‑driven Skynode drone st
 - Contract HQ08452590045 Auterion Government Solutions () https://www.highergov.com/contract/HQ08452590045/
   Contract HQ08452590045 Auterion Government Solutions
 
@@ -357,20 +371,6 @@ Funding Agency
 
 OUSD Acquisition & Sustainment (A&S) [DoD - OSD]
 
-- Auterion and Skyfall to Ship 50000 Shrike Strike Drones to Ukraine's ... (2026-07-13) https://auterion.com/auterion-and-skyfall-to-ship-50000-shrike-strike-drones-to-ukraines-front-lines/
-  Auterion and Skyfall to Ship 50,000 Shrike Strike Drones to Ukraine’s Front Lines | Auterion
-
-## Product
-
-https://auterion.com/news/product/
-
-# Auterion and Skyfall to Ship 50,000 Shrike Strike Drones to Ukraine’s Front Lines
-
-July 13, 2026
-
-Partnership equips Skyfall's Shrike with Auterion's Skynode S and Strike software, delivering terminal guidance today and a software path to swarming.
-
-KYIV, Ukraine — July 13, 2026 — Auterion and Skyfall today announced their partnership: the delivery of 50
 
 ## Open roles (Blitz, live)
 - Supply Chain Specialist ({'city': 'Manassas', 'country_code': 'US'})

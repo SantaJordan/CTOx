@@ -284,6 +284,81 @@ Material automates the entire email threat lifecycle, from user report through r
 Material Security is an automated detection and response toolkit for Google Workspace and Microsoft 365, combining email security, data security, identity protection, and configuration management in a single platform.
 
 ## News (Exa, top 3)
+- GMS Support for DOE/NNSA Global Materials Security ... () https://www.highergov.com/contract/89233123CNA000324/
+  GMS Support for DOE/NNSA Global Materials Security (89233123CNA000324) -- --
+
+HigherGov
+
+Pipeline
+
+FOIA
+
+Track
+
+Favorite
+
+No Bid
+
+Export
+
+- Excel
+- CSV
+
+Share
+
+- Tweet
+- Email
+- Copy URL
+
+Search Prime Contracts
+
+# 89233123CNA000324
+
+Definitive Contract
+
+- Text
+- List
+
+## Overview
+
+Government Description
+
+Gms-strategic and programmatic support services for the DOE/NNSA office of global materials security (NA-21)
+
+Awardee
+
+Htgs-Culmen JV
+
+Awarding Agency
+
+National Nuclear Security Administration (
+- HunaTek subsidiary lands $18M DOE NNSA Global ... (2025-09-18) https://orangeslices.ai/hunatek-subsidiary-lands-18m-doe-nnsa-global-material-security-strategic-support-contract/
+  HunaTek subsidiary lands $18M DOE NNSA Global Material Security Strategic Support contract | OrangeSlices AI
+
+Opportunities
+
+- 🍊OS AI Premium: Solicitations
+- 🍊OS AI Premium: Forecasts
+- Contract Termination Reports
+- Expiring Tasks in 2026
+- FY2026 Expiring Tasks
+- Opportunities Home
+
+Agency Intel
+
+Department of Defense
+
+- US Navy
+- US Army
+- US Air Force
+- Defense Health Agency
+
+Federal Citizen Services
+
+- Small Business Administration
+- Housing and Urban Development
+- Department of Labor
+- De
 - Pentagon awards $7.1 million to expand U.S. production of cover glass for satellites (2026-07-18) https://spacenews.com/pentagon-awards-7-1-million-to-expand-u-s-production-of-cover-glass-for-satellites/
   # Pentagon awards $7.1 million to expand U.S. production of cover glass for satellites
 
@@ -296,24 +371,6 @@ Language: en
 WASHINGTON — The Pentagon awarded $7.1 million to Martin Materials Solutions to expand U.S. manufacturing of space-qualified cover glass, a specialized material used to protect the solar cells that power satellites.
 
 The investment, announced July 17 under the Defense Production Act, highlights the Pentagon’s co
-- DOD awards Ohio company $7.1M for resilient space satellite glass | InsideDefense.com () https://insidedefense.com/insider/dod-awards-ohio-company-71m-resilient-space-satellite-glass
-  DOD awards Ohio company $7.1M for resilient space satellite glass | InsideDefense.com
-
-Skip to main content
-
-# DOD awards Ohio company $7.1M for resilient space satellite glass
-
-The Defense Department on Friday announced it had made a $7.1 million investment using Defense Production Act Title III funds to a company in Ohio for establishing and scaling domestic supply to manufacture space solar cell coverglass.
-
-The DPA Title III funding -- awarded July 7 -- will allow Martin Materials Solutions 
-- Kratos Receives Mobile Counter-Unmanned Aircraft System(C-UAS) Approximate $156 Million Single Award Contract by U.S. Department of Energy Office of Secure Transportation () https://ir.kratosdefense.com/node/32911/pdf
-  Kratos Receives Mobile Counter-Unmanned Aircraft System(C-UAS) Approximate $156 Million Single Award Contract by U.S. Department of Energy Office of Secure Transportation
-
-July 21, 2026 
-Kratos to provide Mobile Counter-Unmanned Aircraft System (C-UAS) Platforms Designed to Support Critical National 
-Security Mission 
-SAN DIEGO, July 21, 2026 (GLOBE NEWSWIRE) -- Kratos Defense & Security Solutions, Inc. (Nasdaq: KTOS), a technology 
-company in the defense, national security and global markets, t
 
 ## Open roles (Blitz, live)
 - Sr. Manager, Security Engineering ({'city': 'San Francisco', 'country_code': 'US'})

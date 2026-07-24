@@ -1,0 +1,27 @@
+{
+  "company": "Bifrost AI",
+  "slug": "bifrost-ai",
+  "domain": "bifrost.ai",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "Nothing in the company's own artifacts shows defense motion: the site names NASA and 'the world's largest robotics companies', the domains listed are maritime/space/aerial/off-road/robotics/operations, and there is no SBIR record, no DoD/warfighter/military customer language, and no DIU/AFWERX engagement. The only DoD-sounding news hit is a name collision — 'Nextgen Federal awarded US Air Force BIFROST Enterprise Environmental Portal (E2P)' is a different company and an unrelated program acronym. IQT appearing on the sources metadata line is portfolio membership, which the gate explicitly does not accept on its own.",
+  "disconnect_score": 0,
+  "subscores": {
+    "lab_language_intensity": 0,
+    "deployment_awareness_absence": 0,
+    "operator_absence": 0,
+    "hiring_profile_skew": 0,
+    "stage_pressure": 0
+  },
+  "score_evidence": [
+    "'Bifrost is a series A backed by Sequoia Capital, Lux Capital, and Airbus Ventures' -> commercial venture positioning, no defense customer named",
+    "'from helping NASA explore Mars autonomously to automating dangerous industrial work' -> the only named government customer is civil space",
+    "'The evaluation platform for robotics researchers' + 'Free for research partners' -> the buyer they describe is a robotics research lab, not a program office",
+    "Open roles are Singapore engineering plus four US Growth Lead / Account Executive / DevRel postings -> commercial go-to-market, no cleared or federal-facing roles"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "medium",
+  "stage_band": "series_a",
+  "what_they_do": "Simulation infrastructure for physical AI — synthetic multi-modal sensor data (Stardust) and a GPU-sharded robot policy evaluation harness (Manifold) for robotics teams."
+}

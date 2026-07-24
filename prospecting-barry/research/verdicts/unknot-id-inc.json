@@ -1,0 +1,44 @@
+{
+  "company": "Unknot.id Inc.",
+  "slug": "unknot-id-inc",
+  "domain": "unknot.id",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Army STTR Phase II award (~$1.1-1.36M, Sept 2024) for COSINE, 'AI-Powered Indoor Navigation Without GPS for Military Operations,' plus a published DoD case study on the site titled 'Equipping the Department of Defense (DoD) with 100% Available, Resilient, and Robust Tracking' — SBIR record and homepage.",
+  "disconnect_score": 61,
+  "subscores": {"lab_language_intensity": 10, "deployment_awareness_absence": 14, "operator_absence": 11, "hiring_profile_skew": 10, "stage_pressure": 16},
+  "score_evidence": [
+    "'<1% error rate', 'sub-meter accuracy', '30x Better Situational Awareness' — precision stats stacked throughout marketing → lab_language_intensity",
+    "'Easily integrates with smartphones, radios, extending to weapons, drones, ground vehicles' — zero mention of ITAR/ATO/CMMC anywhere despite claiming direct weapons-system integration → deployment_awareness_absence",
+    "'Keep soldiers safe and secure and operate efficiently in GPS-contested regions' — soldiers named but no training, sustainment, or CONOPS depth anywhere in the DoD case study → operator_absence",
+    "(no jobs data in pack → hiring_profile_skew set exactly 10 per instructions)",
+    "Army STTR Phase II ($1.1M-$1.36M, awarded Sept 2024) on a 5-11 person team → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Fuse AI 'easily integrates with smartphones, radios, extending to weapons, drones, ground vehicles' — listed as a plug-and-play feature",
+      "operator_reality": "Wiring a location-intelligence payload into a weapon or drone platform is squarely export-controlled technical data; the company's own materials never mention ITAR, and a Phase II contract can stall hard once the integration partner's compliance office asks the question the marketing page never answers.",
+      "why_likely_missing": "The integration list is framed as a capability breadth flex, not a controlled-technology boundary.",
+      "evidence_quote": "Easily integrates with smartphones, radios, extending to weapons, drones, ground vehicles",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "COSINE is described as a 'Software-As-A-Service' platform, and Fuse AI 'feeds a continuous stream of raw data through our cloud-based AI system'",
+      "operator_reality": "A cloud-round-trip inference loop directly contradicts the company's own defense pitch of working in 'low RF signal power (tree canopy, buildings, storage containers)' — exactly the DDIL conditions where a persistent cloud dependency breaks first, and nothing in the materials explains an offline/edge fallback mode.",
+      "why_likely_missing": "The SaaS architecture was likely built for the commercial pilots (DFW Airport, Mohegan Sun) where connectivity is a given, then extended to the DoD narrative without re-architecting for denied comms.",
+      "evidence_quote": "Fuse AI™ feeds a continuous stream of raw data through our cloud-based AI system to enable 3D positioning, navigational context, and spatial awareness.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The DoD case study lists 'Technical Challenges' around calibration and platform integration but says nothing about who trains the soldier, what happens when the device fails mid-mission, or spares/battery logistics",
+      "operator_reality": "Operators loving the demo isn't adoption — a fielded location system with no documented training or field-sustainment plan is exactly the kind of program that dies quietly once the SBIR funding clock runs out and the unit that piloted it moves on.",
+      "why_likely_missing": "The case study is written to show quantified wins (sub-meter accuracy, better availability) rather than the operational logistics of keeping it running after handoff.",
+      "evidence_quote": "Uncertain operational environments for various use cases ranging from seen to completely unseen and dynamic environments (Training Exercises, Tactical Operations in Adversarial environments)",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Your DoD case study cites sub-meter accuracy in GPS-contested regions — does the cloud-based inference loop hold that accuracy when the RF link itself is degraded, not just GPS?",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Fuse AI, a software-only multi-sensor AI platform delivering real-time 3D positioning in GPS-denied/contested environments, sold to military, security/operational, and commercial navigation customers."
+}

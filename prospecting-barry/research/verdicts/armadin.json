@@ -1,0 +1,19 @@
+{
+  "company": "Armadin",
+  "slug": "armadin",
+  "domain": "armadin.com",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "None in the company's own artifacts. Every page (homepage, /platform, /company) and all ~25 listed resources are enterprise/CISO-facing — 'designed solutions for the harshest threat landscapes in 95% of Fortune 100 environments', partnerships with CrowdStrike and Palo Alto Unit 42. No SBIR, no DoD/warfighter customer language, no DIU/AFWERX/SOFWERX engagement, no defense contract record. The only defense signal is a third-party channel note (securitymea.com) asserting In-Q-Tel investment, which the company's own $189.9M funding release does not corroborate (Accel, Google Ventures, Kleiner Perkins, Menlo named instead) — insufficient per the gate.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "'Work with elite red team hackers and AI system builders who have designed solutions for the harshest threat landscapes in 95% of Fortune 100 environments.' → commercial enterprise ICP, not DoD",
+    "'Armadin Secures Record-Breaking $189.9M in Seed and Series A Funding' (2026-03-10) at 130 employees → far outside the $5-10M transition-risk band even if defense motion existed"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "series_a",
+  "what_they_do": "Kevin Mandia's AI-native cybersecurity company selling a continuous, agentic red-teaming and remediation platform to enterprise security teams."
+}

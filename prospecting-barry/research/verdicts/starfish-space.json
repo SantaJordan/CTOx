@@ -1,0 +1,16 @@
+{
+  "company": "Starfish Space",
+  "slug": "starfish-space",
+  "domain": "starfishspace.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Genuine and extensive DoD motion (AF Phase II SBIR $1.7M 2023, $37.5M Space Force contract 2024, $54.5M Space Force APFIT contract Feb 2026, PWSA Deorbit-as-a-Service contract Jan 2026) — but this is exactly why it's dropped: the APFIT (Accelerate Procurement and Fielding of Innovative Technologies) award and the operational PWSA deorbit-service contract show the company has already crossed from prototype into fielded procurement, not stuck in the valley of death.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Builds the Otter autonomous satellite-servicing vehicle for life extension and disposal; already holds a $54.5M Space Force APFIT procurement contract and an operational PWSA deorbit-as-a-service contract — crossed the valley of death."
+}

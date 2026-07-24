@@ -1,0 +1,42 @@
+{
+  "company": "Overwatch Imaging",
+  "slug": "overwatch-imaging",
+  "domain": "overwatchimaging.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own news posts: awarded a Navy SBIR Phase I ($236,426, contract N6833523C0679, NAVAIR/NAVSEA) and a two-year Phase II SBIR (announced June 2025) to 'develop and demonstrate AI-enabled, automated imagery intelligence software' — an active DoD acquisition motion distinct from their commercial/wildfire business.",
+  "disconnect_score": 36,
+  "subscores": {"lab_language_intensity": 5, "deployment_awareness_absence": 10, "operator_absence": 3, "hiring_profile_skew": 4, "stage_pressure": 14},
+  "score_evidence": [
+    "'awarded a Phase II Small Business Innovation Research (SBIR) contract by the U.S. Navy (USN)... Under the two-year Phase II' → stage_pressure (funded-months clock now running against 2026 date)",
+    "'Trusted and Deployed Globally Since 2016' and 'Fielded, Proven, Mission-Ready Technology' → lab_language_intensity is low, this is fielding-first messaging",
+    "'developed in collaboration with operators and refined through real-world missions' → operator_absence is very low, operators are central to their own narrative"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Claims 'Integration with existing C2 architectures' but never names ATAK/TAK once, despite delivering ISR intelligence directly to tactical operators.",
+      "operator_reality": "If ASO's outputs don't speak native TAK/ATAK, the operator has to manually bridge formats in the field — exactly the kind of last-mile integration gap that kills adoption even when the sensor and AI work perfectly.",
+      "why_likely_missing": "Company's fielding history is largely commercial/civil (wildfire, law enforcement, maritime) where TAK isn't the standard; the Navy SBIR work is newer and may not have hit that integration point yet.",
+      "evidence_quote": "Integration with existing C2 architectures",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No ATO/RMF/CMMC language anywhere despite active NAVAIR/NAVSEA SBIR contracts that will need to move AI-processed sensor data onto Navy networks.",
+      "operator_reality": "The AI/ML sensor-video processing described in the SBIR abstract has to get an Authority to Operate before NAVAIR fields it on an actual platform; the Phase II announcement talks about 'developing and demonstrating' the capability but says nothing about the accreditation path that decides whether Phase III ever happens.",
+      "why_likely_missing": "Press releases and product pages are written for commercial/investor audiences, not the acquisition compliance process running in parallel on the Navy side.",
+      "evidence_quote": "awarded a Phase II Small Business Innovation Research (SBIR) contract by the U.S. Navy (USN) to develop and demonstrate AI-enabled, automated imagery intelligence software",
+      "quote_source": "news"
+    },
+    {
+      "blind_spot": "No published SWaP-C numbers for the edge AI compute running ASO's real-time computer vision on a gimbal-mounted airborne sensor.",
+      "operator_reality": "'Edge-based, AI-enabled autonomy' doing real-time detection draws real power and generates real heat on a small airborne platform; without published SWaP figures, an integrator can't confirm ASO fits their platform's power/weight budget until late in integration — the classic point programs stall.",
+      "why_likely_missing": "Marketing emphasizes capability outcomes (superhuman vision, workload reduction) over the hardware constraints that gate actual platform integration.",
+      "evidence_quote": "edge-based, AI-enabled autonomy to ISR workflows",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Overwatch Imaging's Navy Phase II SBIR (announced June 2025, contract N6833523C0679) is a two-year clock to demonstrate AI-enabled ISR sensor processing — the announcement describes the capability but not the ATO path that decides whether it survives past Phase II.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Makes AI-enabled airborne ISR smart sensors and Automated Sensor Operator (ASO) software for EO/IR gimbals, fielded commercially worldwide since 2016, now running a Navy SBIR Phase II to extend AI/ML sensor-video processing for DoD use."
+}

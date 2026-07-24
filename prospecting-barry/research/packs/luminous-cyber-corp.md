@@ -242,7 +242,7 @@ The award includes $2 million in gover
 New Feed
 Luminous Cyber Receives $2M AFWERX TACFI Award for Alt-PNT Technology Development - Theia
 Luminous Cyber Receives $2M AFWERX TACFI Award for Alt-PNT Technology 
-- Luminous Cyber Selected for $2M AFWERX TACFI Award, ... () https://finance.yahoo.com/sectors/technology/articles/luminous-cyber-selected-2m-afwerx-175000354.html
+- Luminous Cyber Selected for $2M AFWERX TACFI Award, with $2M in ... () https://finance.yahoo.com/sectors/technology/articles/luminous-cyber-selected-2m-afwerx-175000354.html
   Luminous Cyber Selected for $2M AFWERX TACFI Award, with $2M in Matching Strategic Investment
 
 Oops, something went wrong

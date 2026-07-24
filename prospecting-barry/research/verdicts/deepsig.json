@@ -1,0 +1,25 @@
+{
+  "company": "DeepSig",
+  "slug": "deepsig",
+  "domain": "deepsig.ai",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Awarded DoD FutureG Office contract to lead OCUDU under National Spectrum Consortium OTA (news, 2025-09-30); hiring BD executives dedicated to SOCOM, Air Force/Space Force, Navy/Marine Corps (open roles); 'tactical and commercial wireless communications' (LinkedIn about).",
+  "disconnect_score": 44,
+  "subscores": {"lab_language_intensity": 12, "deployment_awareness_absence": 11, "operator_absence": 11, "hiring_profile_skew": 4, "stage_pressure": 6},
+  "score_evidence": [
+    "'best-in-class spectrum awareness across the wideband spectrum in real-time' / 'state-of-the-art performance and reaction time' → lab_language_intensity",
+    "'real-time situational awareness in the harshest of environments' — the only nod to fielded conditions; zero ATO/RMF/CMMC/ITAR/STIG language anywhere despite selling software onto government networks → deployment_awareness_absence",
+    "'enhances security, efficiency and capacity for tactical and commercial wireless communications' — tactical named, but no operator, training, CONOPS, or field-feedback language in ~977 own words → operator_absence",
+    "Open roles include 'Field Service Representative (FSR)' and three service-specific BD executives → hiring_profile_skew scored LOW (deployment-aware hiring)"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Neural-net RF inference sized for lab GPUs, not the radio it must ride", "operator_reality": "Tactical spectrum sensing runs on manpack or vehicle-mounted SDR hardware with hard SWaP ceilings; a model that needs GPU-class compute and cooling never leaves the bench", "why_likely_missing": "Team pedigree is telecom/O-RAN and ML research; site frames performance in throughput and reaction time, never watts or platform", "evidence_quote": "DeepSig's neural network (NN) solutions offer real-time situational awareness in the harshest of environments", "quote_source": "homepage"},
+    {"blind_spot": "Model retraining loop assumes reachback that DDIL denies", "operator_reality": "New emitters appear in theater; OmniSIG Studio's train-and-deploy cycle presumes connectivity back to a training environment — at a disconnected site the model an operator has is the model they keep", "why_likely_missing": "Product architecture built for commercial 5G networks where the pipe to the data center is a given", "evidence_quote": "software solution for rapidly training, testing, curating, and deploying custom deep learning models and data for new spectrum sensing applications", "quote_source": "homepage"},
+    {"blind_spot": "No visible ATO/RMF path for software that must live on DoD networks", "operator_reality": "OmniSIG as spectrum-security software touches government networks, which means RMF, STIGs, and impact-level hosting before any unit can legally run it — a months-long clock their FutureG win just started", "why_likely_missing": "Roots and marketing are commercial telecom (MWC, O-RAN PlugFest); compliance vocabulary is absent from every page in the pack", "evidence_quote": "DeepSig's machine learning-powered OmniSIG software provides best-in-class spectrum awareness across the wideband spectrum in real-time", "quote_source": "homepage"}
+  ],
+  "opener_hook": "DeepSig's FutureG OCUDU award and three new service-specific BD reqs put its OmniSIG software on a path to DoD networks that none of its public materials name an ATO route for.",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "AI/ML software for wireless: neural-net 5G RAN components and real-time spectrum sensing for telecom and defense."
+}

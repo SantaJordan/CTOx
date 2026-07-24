@@ -1,0 +1,24 @@
+{
+  "company": "Aegilys",
+  "slug": "aegilys",
+  "domain": "diasensor.com",
+  "verdict": "insufficient_evidence",
+  "drop_reason": "",
+  "dod_intent_evidence": "Only aggregator claims (channel notes cite Army FUZE SBIR/STTR reporting); the company's own language in the pack is a single ~30-word LinkedIn about — no site text, no abstracts, no contract record quoted.",
+  "disconnect_score": 0,
+  "subscores": {
+    "lab_language_intensity": 0,
+    "deployment_awareness_absence": 0,
+    "operator_absence": 0,
+    "hiring_profile_skew": 0,
+    "stage_pressure": 0
+  },
+  "score_evidence": [
+    "own-language word count: ~0 — website section empty; the only first-party text is \"Aegilys is an early stage deep-tech company making electrochemical sensors...\" (LinkedIn about). Far under the ~500-word sufficiency floor; absence of deployment language cannot be scored from silence."
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Early-stage company building electrochemical sensors for real-time chemical and biological threat detection."
+}

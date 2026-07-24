@@ -1,0 +1,51 @@
+{
+  "company": "Kilsar, Inc.",
+  "slug": "kilsar-inc",
+  "domain": "kilsar.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Air Force SBIR Phase II 'Hardware Agnostic Augmented Reality Software for USAF Maintainers' ($1,238,553, 2024) and a 2023 Phase I 'FL-MSA-Kinetic Wireless Mesh for High Speed Flightline Connectivity', with a homepage testimonial attributed to 'U.S Airforce': 'Orion is a critical necessity in our ability to capture and provide operational and maintenance training.'",
+  "disconnect_score": 45,
+  "subscores": {
+    "lab_language_intensity": 13,
+    "deployment_awareness_absence": 5,
+    "operator_absence": 4,
+    "hiring_profile_skew": 10,
+    "stage_pressure": 13
+  },
+  "score_evidence": [
+    "'40% less downtime with Kilsar ... Up to 6x faster with AI assistant ... Kilsar cuts costs twice as effectively as competitors' → lab_language_intensity: a wall of unsourced benchmark claims, one of them duplicated under two different headings",
+    "'Compliance with Protocols (FedRAMP, NIST, and ITAR for secure operations)' and 'CMMC 2, Soc2, and IL-4 / FedRamp Low' → deployment_awareness_absence LOW (5): the compliance vocabulary is present and specific, even where the combination is questionable",
+    "'Scalable data integration and ATAK compatibility' → deployment_awareness_absence LOW: they name the TAK ecosystem unprompted, which most companies in this cohort never do",
+    "'Give every student, maintainer, and operator instant access to the knowledge of your most experienced experts, exactly when they need it' and their 'Proprietary Human in the Loop Feedback Stack' → operator_absence very low: the maintainer is the design center",
+    "No jobs data in pack — hiring_profile_skew set to exactly 10 per instruction",
+    "Seed of $3.7M plus $1.80M in SBIR funding at 15 employees, with a 2024 Phase II whose period of performance is running down and a most-recent award dated Sept. 24, 2025 → stage_pressure: the transition has to close inside the remaining funded months"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The AI assistant assumes connectivity that their own Phase I proved the flightline lacks",
+      "operator_reality": "Kilsar already won a Phase I for 'Kinetic Wireless Mesh for High Speed Flightline Connectivity', which is an admission that the maintainer's environment has no dependable network. Meanwhile Orion is pitched as searching millions of manuals in seconds and generating contextual troubleshooting — a retrieval-and-inference stack that lives in an IL-4 cloud. On a deployed flightline, inside a hangar's steel, or aboard a ship, that assistant is a spinner. The architectural decision is which capability must survive fully offline on the device — cached task cards and worklog capture that syncs later — versus which is allowed to require the network.",
+      "why_likely_missing": "Connectivity was scoped as a separate SBIR to be solved by radios, so the software roadmap never had to assume its absence.",
+      "evidence_quote": "Search millions of operational and maintenance manuals, tasks, and work log records in seconds",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "AI-enriched procedures collide with technical-order configuration control",
+      "operator_reality": "An Air Force maintainer is required to work from the current, authoritative technical order, and a signed-off step has legal and airworthiness weight. An AI-generated or SME-enriched paraphrase that drifts even slightly from the TO becomes a quality deficiency the first time an inspector traces a signature back to the source. Fielding therefore needs a defined authority relationship — TO as system of record, generated content marked as advisory, and a revision-sync mechanism when the TO changes — and none of that is described.",
+      "why_likely_missing": "The commercial and trade-school customers reward exactly the opposite behavior: capturing undocumented tribal knowledge and turning it into the source of truth.",
+      "evidence_quote": "Kilsar's platform ingests your data and generates enriched technical documentation using our proprietary AI combined with human-in-the-loop.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The stated hosting baseline does not match the data they ingest",
+      "operator_reality": "Wiring diagram manuals, component maintenance manuals and converted CAD assemblies for military aircraft are export-controlled technical data and CUI. IL-4 is not paired with FedRAMP Low in any real authorization — IL4 rides a Moderate-equivalent baseline — and ITAR adds US-persons-only access control that reaches their own support and engineering staff, plus their subprocessors and any model API in the path. Written as it stands, the compliance panel is the first thing an assessor will pull the thread on, and that thread is measured in months.",
+      "why_likely_missing": "The panel reads as sales-side compliance copy assembled to clear a procurement checkbox rather than a posture owned by someone accountable for the authorization package.",
+      "evidence_quote": "CMMC 2, Soc2, and IL-4 / FedRamp Low",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Your 2023 Phase I was for wireless mesh to get connectivity onto the flightline, which means the environment Orion is meant to serve already failed the network test — and Orion's headline capability is searching millions of manuals in seconds.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "An AI platform (Orion) that turns technical manuals and expert tribal knowledge into guided, step-by-step maintenance workflows for technicians and USAF maintainers."
+}

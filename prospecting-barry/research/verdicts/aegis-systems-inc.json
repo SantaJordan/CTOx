@@ -1,0 +1,49 @@
+{
+  "company": "Aegis Systems Inc. (Actuate)",
+  "slug": "aegis-systems-inc",
+  "domain": "actuate.ai",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Army SBIR Phase II 2022 ($1.6M) for the Automated Inventory Management System (AIMS) with their own abstract promising Nett Warrior/ATAK/CAMS compatibility and field deployment — SBIR record section.",
+  "disconnect_score": 52,
+  "subscores": {
+    "lab_language_intensity": 14,
+    "deployment_awareness_absence": 10,
+    "operator_absence": 6,
+    "hiring_profile_skew": 12,
+    "stage_pressure": 10
+  },
+  "score_evidence": [
+    "\"AI Camera Software: Reduce False Positives By 95%+\" and \"user-friendly Cloud platform offers seamless integration\" → lab_language_intensity: accuracy-percent and cloud-native bragging with zero operational framing on the entire site",
+    "Only open role: \"Sales Development Representative (Bellevue)\" → hiring_profile_skew: zero field, deployment, or compliance roles four years after a Phase II that promised field testing",
+    "Abstract: \"make AIMS fully compatible with Nett Warrior mobile devices and apps such as Android Team Awareness Kit (ATAK)\" → deployment_awareness_absence kept mid-range; the defense abstract is ecosystem-fluent even though the commercial site is cloud-only",
+    "Phase II awarded 2022; no follow-on defense news since → stage_pressure: the transition window on AIMS has largely lapsed with the company's public energy on commercial security"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The company's entire delivery architecture is a cloud SaaS, while AIMS must run at ammunition transfer points where the abstract's own premise is minimizing time stationary under enemy threat — a DDIL environment with no cloud reachback",
+      "operator_reality": "An E-5 running resupply at an ATP with jammed or absent comms cannot stream video to a cloud inference service; the munitions count has to happen on the Nett Warrior end-user device or it does not happen",
+      "why_likely_missing": "All commercial revenue comes from monitoring centers with broadband; every engineering incentive since 2022 has pushed toward the cloud platform, not edge inference",
+      "evidence_quote": "Our user-friendly Cloud platform offers seamless integration with existing systems, enabling security providers to enhance responsiveness without costly on-site hardware upgrades",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Phase II promised field testing and deployment on Army networks, but the company shows no ATO/RMF/IL or CMMC language anywhere and is hiring nobody who would own accreditation",
+      "operator_reality": "Camera-based AI touching Form 581 munitions records on Nett Warrior needs RMF accreditation and an ATO sponsor; without one, AIMS stays a demo no unit is allowed to plug in",
+      "why_likely_missing": "Their compliance world is commercial alarm-industry standards; the one open req is a sales SDR, so no ISSO or deployment engineer exists to carry the paperwork",
+      "evidence_quote": "This will make AIMS available for field testing and deployment, in every kind of theater",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "The 2022 abstract names the right integrations (ATAK, CAMS, Nett Warrior) but four years on there is no public evidence of a transition partner, follow-on award, or Army advocacy chain — operators counting ammo faster is not adoption",
+      "operator_reality": "Without a PM-level champion and a funded transition vehicle, AIMS dies in the valley even if the field tests worked; the months-to-field now exceed any funded months remaining",
+      "why_likely_missing": "The commercial security business (\"Join Over 1000 Companies\") pays the bills, so nobody at a 33-person company is working the DoD advocacy chain",
+      "evidence_quote": "Actuate will streamline the User Interface (UI) issues and make AIMS fully compatible with Nett Warrior mobile devices",
+      "quote_source": "sbir_abstract"
+    }
+  ],
+  "opener_hook": "Actuate's 2022 Army Phase II promised AIMS field testing on Nett Warrior and ATAK; four years later the only open role on the books is a sales SDR in Bellevue.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Commercial AI video analytics for security monitoring centers, with a stalled Army Phase II product for computer-vision munitions inventory on Nett Warrior/ATAK."
+}

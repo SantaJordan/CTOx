@@ -1,0 +1,43 @@
+{
+  "company": "NPS Radar (Neural Propulsion Systems)",
+  "slug": "nps-radar-llc",
+  "domain": "nps.ai",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "sbir.gov contract record (channel notes): 2024 Army sequential Phase II SBIR for a multiband sensor suite / radar processing for autonomous military vehicles, plus RTX Ventures strategic Series B investment (news section).",
+  "disconnect_score": 65,
+  "subscores": {"lab_language_intensity": 19, "deployment_awareness_absence": 12, "operator_absence": 12, "hiring_profile_skew": 10, "stage_pressure": 12},
+  "score_evidence": [
+    "\"Atomic Norm is new math for 4D imaging radar that leads the way for defense\" / \"Delivers theoretical resolution limits with streamlined, high-speed data handling\" -> lab_language_intensity",
+    "\"HROS is an advanced radar solution that uses AI‑powered, patented mathematical frameworks to deliver unmatched clarity...at a practical cost for large‑scale deployment\" -- 'deployment' here means manufacturing scale, not DDIL/ATO/ITAR; no compliance vocabulary anywhere in pack -> deployment_awareness_absence (capped, own-language <1000 words)",
+    "\"giving military teams the awareness, confidence, and operational certainty required to understand what surrounds them in any mission-critical environment\" is the pack's only nod to operators -- no training/CONOPS/field-feedback detail -> operator_absence (capped, own-language <1000 words)",
+    "$17.5M Series B (2024-03-07 PR) stacked on an earlier ~$20M Series A/Seed (2021, channel notes) plus a sequential Army Phase II SBIR -- funded but still small team (11-50) running two funding tracks and a DoD period of performance -> stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The site's only use of 'deployment' refers to manufacturing/unit cost scale ('practical cost for large-scale deployment'), never to fielded operating conditions -- despite defense applications listed for Robotic Combat Vehicle autonomy that would need onboard tuning without home-station connectivity.",
+      "operator_reality": "A radar OS processing pipeline tuned for lab/road conditions and marketed on cost-at-scale, not on operating in a contested/DDIL environment, risks the same failure mode as the 30fps crowd-detection case once it's mounted on an actual combat vehicle instead of a test car.",
+      "why_likely_missing": "Company is automotive-ADAS-first commercially (ADAS press releases dominate the news section) and has not yet had a defense fielding event force the redesign.",
+      "evidence_quote": "\"HROS...delivers unmatched clarity and responsiveness at a practical cost for large-scale deployment\"",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Zero ITAR/export-control language anywhere despite RTX Ventures as a strategic investor and defense applications explicitly including Counter-UAS and ECCM (electronic counter-countermeasures) -- technology categories that are textbook ITAR-controlled.",
+      "operator_reality": "Selling the same branded radar OS into commercial automotive customers and DoD ECCM/Counter-UAS programs with no visible IP or data segregation is the kind of thing that stalls a defense contract in legal/export review long after the engineering is done.",
+      "why_likely_missing": "Dual-use go-to-market (GM Ventures + RTX Ventures both on the cap table) suggests the company hasn't yet had to formally separate its commercial and defense-controlled technology stacks.",
+      "evidence_quote": "\"AESA Radar Counter-UAS\" / \"Ground/Space Radar ECCM\"",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Defense use cases (Surface-to-Air, Air-to-Air, Autonomy/Robotic Combat Vehicle) are listed as marketing bullets identical in tone to the automotive ADAS bullets, with no separate SWaP-C, training, or sustainment story for a vehicle-mounted radar operating in dust/heat/vibration versus a passenger-car sensor suite.",
+      "operator_reality": "Combat-vehicle SWaP-C constraints (power budget, thermal, ruggedization, battle-damage sparing) are materially different from automotive OEM constraints; reusing the same spec sheet risks a hardware redesign the company hasn't budgeted for.",
+      "why_likely_missing": "The product roadmap and messaging are still anchored to the larger, better-funded automotive ADAS market (RTX and GM Ventures both cited primarily around automotive safety in the news section).",
+      "evidence_quote": "\"### Autonomy #### Robotic Combat Vehicle / Logistics/Supply\"",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "NPS's Army Phase II SBIR targets multiband radar for autonomous military vehicles -- is HROS's software stack ITAR-segregated yet from the ADAS commercial build?",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Builds AI-powered, patented software-defined radar (HROS/AtomicSense) for high-resolution perception, sold dual-use into automotive ADAS and defense sensing/autonomy applications."
+}

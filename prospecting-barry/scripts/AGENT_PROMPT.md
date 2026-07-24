@@ -17,8 +17,8 @@ the company's own artifacts or contract records**: SBIR award, explicit DoD/mili
 warfighter customer language on their site, DIU/AFWERX/SOFWERX/NSIN engagement, or
 defense contract news. Membership on a defense VC's portfolio list (the `sources:`
 metadata line) is NOT sufficient by itself — the company's own language or a contract
-record must show the motion. No defense motion → `"verdict":
-"drop", "drop_reason": "no_dod_motion"`. Also drop:
+record must show the motion. No defense motion → `"verdict": "drop", "drop_reason":
+"no_dod_motion"`. Also drop:
 - primes/SIs/staffing/services-only/resellers/hardware-only machine shops
   (`drop_reason: "disqualified_type"`)
 - companies already fielded at scale / program of record — they crossed the valley

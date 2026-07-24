@@ -1,0 +1,53 @@
+{
+  "company": "City Labs, Inc.",
+  "slug": "city-labs-inc",
+  "domain": "citylabs.net",
+  "verdict": "keep",
+  "drop_reason": "",
+  "disconnect_score": 51,
+  "dod_intent_evidence": "Three USAF SBIR Phase II awards in the news/SBIR sections — 'Enhanced Tritium Power Source for Autonomous Nuclear Tritium Sensors (ANTS)' ($3,800,000, 2025), 'Tritium-Powered Nanowatt Crypto Key Retention and Security COMSEC System' (2023), 'Self-Powered Wireless Autonomous Imaging Sensor for Satellites' (2023) — plus a homepage headline 'City Labs Awarded $1.5M DARPA Contract' (June 19, 2026) and a stated Defense application: 'Power for secure communications and mission-critical systems.'",
+  "subscores": {
+    "lab_language_intensity": 10,
+    "deployment_awareness_absence": 8,
+    "operator_absence": 13,
+    "hiring_profile_skew": 10,
+    "stage_pressure": 10
+  },
+  "score_evidence": [
+    "'BOHR — The First Commercial Nuclear-Powered Satellite' and 'City Labs Launches World's First...' (homepage) → lab_language_intensity: firsts and demonstrations lead the page ahead of any sustainment or fielding claim",
+    "'BOHR demonstrates how nuclear micropower can enable persistent autonomous systems in space' (homepage) → lab_language_intensity: the flagship artifact is explicitly framed as a demonstration",
+    "'FAA Authorized — One of the first commercial nuclear payloads approved for launch' and 'NRC Licensed — General license authorizes production and distribution of byproduct material' (homepage) → deployment_awareness_absence scored LOW: they are genuinely fluent in the regulatory gate that matters most for their material",
+    "'Thermal and environmental testing... qualification, and regulatory documentation' (about-us) → deployment_awareness_absence scored LOW: real qualification-path awareness, unusual for a company this size",
+    "Zero occurrences of operator, warfighter, soldier, training, CONOPS, sustainment, ATO, RMF, CMMC, NIST 800-171, or ITAR across ~1337 words → operator_absence: every customer in their language is an institution ('partners', 'organizations', 'Space Force needs'), never a person who handles the device",
+    "'Proven Deployments — Trusted by government and commercial partners in critical missions' (homepage) → operator_absence: the one deployment claim on the site names no program, no unit, and no user",
+    "'P100 ... 50–350 nA ... Available | P200 ... 52–156 µA ... Development' (technology-overview) → stage_pressure: the higher-output part every defense use case implies is still unbuilt while a $3.8M Phase II period of performance runs",
+    "No jobs data in pack → hiring_profile_skew set to exactly 10 per rule"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Nothing in their language addresses who is allowed to possess, transport, and dispose of a licensed radioactive source once it leaves their Miami facility on a fielded system",
+      "operator_reality": "An NRC general license covering production and distribution does not cover a supply sergeant carrying tritium devices on a unit property book, a DOT-regulated shipment into an OCONUS theater, a lost-item report when one goes missing off a downed system, or the radiological disposal path at end of life. That approval chain is owned by service radiation safety officers and can run longer than an entire Phase II period of performance — and it is a gate their prime and their program office will discover late, not early.",
+      "why_likely_missing": "Twenty-one years of experience have made the front-end regulatory path (NRC licensing, FAA launch approval) second nature, and both of those are approvals to make and to launch. The back-end — a unit in the field possessing and eventually discarding the source — is a different regulator and a different set of forms, and it never appears in their own words.",
+      "evidence_quote": "NRC Licensed — General license authorizes production and distribution of byproduct material.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The COMSEC key-retention use case requires getting inside someone else's certified crypto assembly, and the integration cost lives entirely in that host device, not in the battery",
+      "operator_reality": "Putting a new power source inside an NSA-certified Type 1 encryption device means the host assembly gets re-examined, not just the battery — a re-certification and re-qualification cycle owned by the crypto vendor and the certifying authority. The battery can be finished and qualified and the capability still cannot be fielded, because the schedule belongs to a third party. Nothing in their language names that dependency, names the host platform, or names who pays for the host's re-certification.",
+      "why_likely_missing": "Their vertical-integration story runs from tritium handling to packaging and stops at the connector. Every capability listed under 'Vertical Integration' is inside their own walls, so the one step that decides whether this ever fields — someone else's certified box — sits outside the mental model.",
+      "evidence_quote": "City Labs' platform is built around the ability to control critical steps in the development of tritium-powered systems, from tritium handling and metal tritide formation to packaging, testing, qualification, and regulatory documentation.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The homepage promises defense-scale power while the shipping part delivers nanoamps, and the gap is not stated anywhere a program office would see it",
+      "operator_reality": "A capability page that says 'Power for secure communications and mission-critical systems' sets an expectation of running a radio or a sensor. The available P100 puts out 50–350 nA; even the unbuilt P200 tops out at 156 µA. Real applications are memory and key retention, not operation — a distinction their own SBIR titles make correctly and their marketing does not. A requirements owner who reads the marketing and writes a threshold against it produces a requirement City Labs cannot meet, and that mismatch surfaces at the demo, in front of the customer.",
+      "why_likely_missing": "The three product families (power, heat, propulsion) are pitched at one altitude on the homepage, so the nanoamp reality lives two clicks down in a table while the aspiration lives in the headline. Nobody inside a 15-person company is incentivized to put the ceiling next to the promise.",
+      "evidence_quote": "Defense — Power for secure communications and mission-critical systems.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Your P100 ships at 50–350 nA and the P200 at 52–156 µA is still marked Development, which reads to me like the 2025 ANTS Phase II is being flown on the part that isn't built yet.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Makes tritium betavoltaic 'nuclear' micro-batteries, radioisotope heat units, and tritium propulsion concepts that supply continuous nanowatt-to-microwatt power for 20+ years in satellites, lunar payloads, COMSEC devices, and medical implants."
+}

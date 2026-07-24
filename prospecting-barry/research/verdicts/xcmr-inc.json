@@ -1,0 +1,38 @@
+{
+  "company": "XCMR Inc",
+  "slug": "xcmr-inc",
+  "domain": "xcmr.co",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "SBIR/STTR record: Air Force Phase II ($748,503, 2022) for a wearable Far UV-C PPE device explicitly built for 'Individual Airmen in operational and expeditionary environments'; News section confirms a second AFWERX Direct-to-Phase-II SBIR ($1.25M, 21-month, 2024) targeting battlefield wound infection reduction.",
+  "disconnect_score": 48,
+  "subscores": {"lab_language_intensity": 10, "deployment_awareness_absence": 8, "operator_absence": 4, "hiring_profile_skew": 10, "stage_pressure": 16},
+  "score_evidence": [
+    "Technical specificity (Far UV-C '221-223 nm with a peak at 222 nm') paired with mission-brochure phrasing ('Breakthrough achievements... revolutionize protection') → lab_language_intensity moderate",
+    "SBIR abstract names specific MOPP-integration intent: 'easily integrate into existing Mission Oriented Protective Postures (MOPP), safety, and communications equipment' → deployment_awareness_absence scored low (capped n/a, already under cap given word count ~654 < 1000)",
+    "SBIR abstract explicitly names operator roles: 'Individual Airmen in operational and expeditionary environments, from pilots to maintainers to aeromedical evacuation personnel, will benefit' → operator_absence scored very low",
+    "no jobs data found in pack → hiring_profile_skew set to exactly 10 per rule",
+    "second sequential 21-month AFWERX Phase II SBIR (2024, $1.25M) running on top of the original 2022 Phase II, on a company of ~8-10 employees per channel notes → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "The device promises a 'continuous invisible bubble of clean air' worn by an airman, but no power source, battery life, or duty-cycle spec is given anywhere in the pack.",
+     "operator_reality": "A wearable that must run continuously to maintain the pathogen-inactivation bubble needs a real SWaP-C answer — battery weight, recharge cadence, spares — for a pilot or maintainer who can't swap batteries mid-mission; none of that is public yet.",
+     "why_likely_missing": "Company messaging is centered on the biological/optical science (wavelength, efficacy) since that's the harder technical problem solved so far; the wearable-systems engineering (power, form factor logistics) reads as not yet public.",
+     "evidence_quote": "providing a continuous \"invisible\" bubble of clean air supporting an airman's respiration",
+     "quote_source": "sbir_abstract"},
+    {"blind_spot": "Claims 'easy' integration into existing MOPP, safety, and communications equipment with no description of the actual qualification/testing process or which specific gear it's been validated against.",
+     "operator_reality": "MOPP integration in practice means fit-testing against real gas masks, chem suits, and comms headsets under a specific unit's GFE — 'easily integrate' is a design intent, not evidence of a completed integration test.",
+     "why_likely_missing": "The abstract is written at the Phase II proposal stage, where the integration claim is the goal of the funded work rather than a demonstrated result.",
+     "evidence_quote": "XCMR's modular technology provides superior protection against biological threats and pathogens in a variety of form factors that easily integrate into existing Mission Oriented Protective Postures (MOPP), safety, and communications equipment.",
+     "quote_source": "sbir_abstract"},
+    {"blind_spot": "A second, differently-scoped SBIR (battlefield/surgical wound infection, 2024) launched on top of the original PPE Phase II (2022), with no visible advocacy champion or transition partner named for either product line despite two parallel funded-period clocks.",
+     "operator_reality": "Running two SBIR product lines simultaneously on a ~10-person team means a missed transition on either one puts real pressure on the whole company — without a named champion above the researcher level pushing either toward a program of record, both risk stalling when the 21-month clock runs out.",
+     "why_likely_missing": "Early-stage SBIR-funded companies often chase sequential award opportunities (a rational survival strategy) before a single champion-backed transition path is secured for any one product.",
+     "evidence_quote": "XCMR has been awarded a $1.25 million, 21-month Direct to Phase II Small Business Innovation Research (SBIR) contract from the U.S. Air Force Research Laboratory (AFRL), through its AFWERX program.",
+     "quote_source": "news"}
+  ],
+  "opener_hook": "XCMR's AFWERX Phase II runs a 21-month clock on cutting battlefield wound infections from 34% — worth asking what MOPP-integration testing looks like if that clock runs out first.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Wearable/portable Far UV-C (222nm) biodefense device creating a continuous 'clean air bubble' to inactivate airborne pathogens, developed for military PPE and now battlefield/surgical wound infection prevention."
+}

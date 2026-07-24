@@ -1,0 +1,43 @@
+{
+  "company": "UbiQD",
+  "slug": "ubiqd",
+  "domain": "ubiqd.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Two Air Force SBIR Phase I awards (2021 $50K, 2023 $74,997) for 'Self-Powered Nanotechnology Windows for Base Resilience and Integrated Security' / photovoltaic quantum-dot windows to power Air Force facilities — SBIR record and news section.",
+  "disconnect_score": 64,
+  "subscores": {"lab_language_intensity": 18, "deployment_awareness_absence": 12, "operator_absence": 12, "hiring_profile_skew": 16, "stage_pressure": 6},
+  "score_evidence": [
+    "'UbiQD quantum dots emit brilliant, vibrant light with near-perfect efficiency, remaining stable even in demanding environments' / 'Crafted using Nobel Prize-winning technology' → lab_language_intensity",
+    "'Our business model prioritizes a B2B approach, integrating quantum dots as drop-in solutions for existing products' — zero ATO/RMF/CMMC/ITAR vocabulary anywhere despite base-installation SBIR work → deployment_awareness_absence (word count <1000, capped at 12)",
+    "'If you have a potential application for quantum dots you'd like to explore, please contact us' — partner/customer framing throughout, no operator/warfighter/training/CONOPS language → operator_absence (capped at 12)",
+    "Open roles: 'Facilities Maintenance Technician', 'Senior Scientist - Analytics', 'Production Operator', 'Chemical Safety Manager' x2 — all manufacturing/research, zero field/deployment/compliance-for-DoD roles → hiring_profile_skew"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "'Self-Powered Nanotechnology Windows for Base Resilience and Integrated Security' — described only as a demonstrated solar-window product, not an installed base energy system",
+      "operator_reality": "Connecting distributed energy-generation windows into a base's microgrid/SCADA requires an ATO for anything that touches base control networks — the company's public materials never mention this integration step, only the glass itself.",
+      "why_likely_missing": "Company language treats the product as a drop-in commercial glazing material, not as an interconnected base-infrastructure system requiring its own authorization.",
+      "evidence_quote": "Self-Powered Nanotechnology Windows for Base Resilience and Integrated Security",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "'Drop-in solutions for existing products' framing applied to base-installed window glazing",
+      "operator_reality": "Physical installation on a military installation involves civil engineer sign-off, GFE coordination, and facility timelines that a B2B commercial materials pitch never accounts for — 'drop-in' assumes a retail supply chain, not base construction processes.",
+      "why_likely_missing": "The B2B pitch language is written for industrial partners (greenhouse film manufacturers, solar panel makers), not for base facilities engineering.",
+      "evidence_quote": "Our business model prioritizes a B2B approach, integrating quantum dots as drop-in solutions for existing products.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Security inks are marketed as commercial anti-counterfeiting technology for 'high-value goods'",
+      "operator_reality": "If DoD ever adopts this for supply-chain authentication (a real DoD interest), tagged items and their read data likely become CUI requiring ITAR/CMMC-level controlled handling — the company's public framing is purely commercial brand-protection, with no controlled-data posture visible.",
+      "why_likely_missing": "The focus page groups Security Inks with Agriculture and Solar as parallel commercial applications, with identical B2B language for each.",
+      "evidence_quote": "Security Inks — Advanced anti-counterfeiting solutions for high-value goods.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Your 2022 Air Force release framed the base-resilience windows as post-demonstration, pre-deployment — what's actually standing between the demo glass and glass installed on a live base?",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Manufactures quantum-dot nanomaterials sold B2B as drop-in components for greenhouse films, solar panels/windows, and security inks; a small Air Force SBIR line funds photovoltaic windows for military base energy resilience."
+}

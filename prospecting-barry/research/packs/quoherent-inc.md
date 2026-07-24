@@ -229,13 +229,11 @@ Agency Tracking Number: B22B-
 - quoherent (2026-06-29) https://quoherent.com/
   # Quoherent (Quoherent, Inc.)
 
-Quoherent is a Computer Hardware company. Quoherent is a company that provides quantum computing services. Quoherent employs 10 people (+16.7% YoY, +2 people) and has an annual revenue of $1.1M, founded in 2021. Headquartered in Winston Salem, North Carolina, United States, with presence in United Kingdom. Has $4.7M in total funding.
+Quoherent is a Computer Hardware company. Quoherent is a company that provides quantum computing services. Quoherent employs 10 people (+16.7% YoY, +2 people) and has an annual revenue of $1.1M, founded in 2021. Headquartered in Winston Salem, North Carolina, United States. Its workforce is distributed across United States and United Kingdom. Has $4.7M in total funding.
 
 ## About
 
-Quoherent's mission is to deploy the world’s first high-fidelity, scalable quantum processors on mobile platforms. 
-
-## Co
+Quoherent's mission is to deploy the world’s first high-fidelity, scalable quantum pr
 
 ## Open roles
 (no jobs data found)

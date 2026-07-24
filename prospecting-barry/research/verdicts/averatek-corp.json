@@ -1,0 +1,16 @@
+{
+  "company": "Averatek Corp",
+  "slug": "averatek-corp",
+  "domain": "averatek.com",
+  "verdict": "insufficient_evidence",
+  "drop_reason": "",
+  "dod_intent_evidence": "Genuine DoD motion exists — Sequential Phase II TACFI Air Force contract ($1,697,659) for miniaturized PCB/packaging for USAF unmanned aircraft (SBIR/STTR section) — but the pack carries almost no own-language.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "low",
+  "stage_band": "series_a",
+  "what_they_do": "Develops and licenses advanced electronics chemistries and manufacturing processes (high-density PCBs, semiconductor packaging, liquid-metal inks); relaunched 2024 as LQDX to chase AI-enabling chemistries."
+}

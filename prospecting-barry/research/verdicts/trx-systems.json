@@ -1,0 +1,20 @@
+{
+  "company": "TRX Systems, Inc.",
+  "slug": "trx-systems",
+  "domain": "trxsystems.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "TRX DAPS II is a U.S. Army Program of Record replacing the legacy DAGR under a $402M, seven-year IDIQ production contract, with follow-on delivery orders already flowing (News: $9.9M order, March 2024) — this is a fielded, scaled system, not a stuck prototype.",
+  "disconnect_score": 4,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 2, "stage_pressure": 2},
+  "score_evidence": [
+    "\"Built to the demanding requirements of a U.S. Army Program of Record, TRX DAPS II is a state-of-the-art navigation system developed to replace the legacy Defense Advanced GPS Receiver (DAGR)\" → already_operational",
+    "\"Low SWaP, Ruggedized Package... MIL-STD-810G Compliant, IP67 Rating, CBRNE/HEMP Resilience\" and hot-swappable STUB battery logistics → deployment_awareness_absence is LOW (they are maximally fluent in SWaP-C, ruggedization, and battery sustainment)",
+    "\"Warfighters equipped with ATAK can fully interact with TRX DAPS II through the ATAK End User Device\" → operator_absence is LOW (deep operator/ATAK/TAK ecosystem fluency)"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Assured PNT hardware (DAPS II) for dismounted warfighters, a fielded U.S. Army Program of Record under a $402M IDIQ, replacing the legacy DAGR receiver."
+}

@@ -278,7 +278,7 @@ Vivienne Machi December 15, 2025
 The company wants to build interceptors for midcourse missile defense at a fraction of existing systems' price points.
 
 Credit: Long Wal
-- ABL Space renamed Long Wall as it shifts focus to defense market (2025-02-21) https://spacenews.com/abl-space-renamed-long-wall-as-it-shifts-focus-to-defense-market/
+- ABL Space renamed Long Wall as it shifts focus to defense ... (2025-02-21) https://spacenews.com/abl-space-renamed-long-wall-as-it-shifts-focus-to-defense-market/
   ABL Space renamed Long Wall as it shifts focus to defense market - SpaceNews
 
 Home/ ABL Space renamed Long Wall as it shifts focus to defense market

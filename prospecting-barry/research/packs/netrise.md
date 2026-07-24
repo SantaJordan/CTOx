@@ -3,7 +3,7 @@ slug: netrise | domain: netrise.io | HQ: Austin, Texas US | employees(LI): 57 | 
 sources: exa-agent:defense-cyber
 industry(LI): Computer and Network Security | specialties: software supply chain detection  response, third party risk management, software bill of materials, software asset inventory, governance, software transparency, risk  compliance, binary composition analysis, sbom, tprm, grc, vulnerability management, binary analysis, product security, software suppl
 channel notes: Series A $10M Series A in 2025 led by DNX Ventures; $24.8M total funding reported. dom: cyber status: pilot dod: AFWERX awarded NetRise a $1.8M STTR Phase II contract for its firmware/software supply-chain visibility platform to address Department of the Air Force challenges and strengthen U.S. national defense. hq: Austin, TX emp: 41 src: https://www.netrise.io/en/company/announcements/netrise-awarded-afwerx-sttr-phase-ii-contract-to-support-national-defense
-own-language word count: ~1371
+own-language word count: ~1375
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -337,33 +337,31 @@ O
 URL: https://netrise.io/products/platform
 End Blind Trust. Software Supply Chain Security | NetRise
 
-Gain Visibility into Compiled Code. See Beyond CVEs. Prioritize What's Reachable.
+# Gain Visibility into Compiled Code. See Beyond CVEs. Prioritize What's Reachable.
 
 NetRise provides visibility into the compiled software that runs in devices, apps, operating systems, and in critical infrastructure, so you can prioritize remediation and mitigation of risk to your organization. NetRise assesses the results of a software build, identifying all of the components in the binary image, and finding risk beyond CVEs and CWEs. Our platform tells you which vulnerable code runs at startup, so you can prioritize risk reduction.
 
-## Benefits
-
-See what’s actually in your software
+### See what’s actually in your software
 
 Validate your Software Bill of Materials (SBOM) with a binary-derived inventory of the code that actually executes.
 
-Make smarter purchasing decisions
+### Make smarter purchasing decisions
 
 Use verified software inventory to assess supplier risk, compare products, and drive remediation through procurement.
 
-Analyze third-party code without waiting
+### Analyze third-party code without waiting
 
 Inspect purchased software and devices without relying on vendor self-attestations or delayed disclosures.
 
-Focus on what's reachable
+### Focus on what's reachable
 
 Prioritize mitigation and remediation by highlighting CVEs in components that autorun at system startup.
 
-Catch build-time deviations
+### Catch build-time deviations
 
 Verify that builds match declared manifests to ensure software integrity.
 
-Track patches
+### Track patches
 
 Ensure new versions don’t introduce new vulnerabilities. Remediate risk before it reaches production.
 
@@ -375,21 +373,21 @@ Explore supported binaries, firmware formats, OS targets, and embedded component
 
 ## Platform Overview
 
-#### Reachability Insights
+### Reachability Insights
 
 Identify vulnerabilities in components that actually execute at runtime using auto-run analysis and user context—prioritizing real-world risk over static code paths or dormant functionality.
 
-#### Exploit-Aware Prioritization
+### Exploit-Aware Prioritization
 
 Enrich vulnerability findings with exploitability context—including weaponization, privilege level, and CVSS impact—so your team can prioritize risk based on what’s actually dangerous, not just what’s listed.
 
-#### NetRise Trace
+### NetRise Trace
 
 Use AI‑powered semantic and keyword search to uncover code provenance, trace supply‑chain origins, detect hidden or unauthorized vulnerabilities and misconfigurations, and help validate vendor‑ and internally provided SBOMs.
 
 ## Ready to See the NetRise Platform?
 
-NetRise is an automated, cloud-based platform that provides comprehens
+NetRise is an automated, cloud-based platform that provides 
 
 URL: https://netrise.io/products/provenance
 NetRise Provenance | NetRise

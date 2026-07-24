@@ -183,44 +183,7 @@ Our AI-enabled digital investigations platform, Silo Workspace, gives government
 Purpose-built for investigations that require operational security, managed attribution, an
 
 ## News (Exa, top 3)
-- Award a Sole-Source Contract SILO - HigherGov () https://www.highergov.com/contract-opportunity/notice-of-intent-to-award-a-sole-source-contract-w519tc-26-r-silo-p-d09c9/
-  Award a Sole-Source Contract SILO
-
-HigherGov
-
-Pipeline
-
-Track
-
-Favorite
-
-No Bid
-
-Export
-
-- CSV
-- Excel
-
-Share
-
-- Copy URL
-- Email
-- Tweet
-
-Search Contract Opportunities
-
-# Notice of Intent to Award a Sole-Source Contract - SILO
-
-ID: W519TC-26-R-SILO &#x2022 Type: Presolicitation &#x2022 Match: &nbsp;100%
-
-##### Opportunity Assistant
-
-Reset
-
-Hello! Please let me know your questions about this opportunity. I will answer based on the available opportunity documents.
-
-Please sign-in to link federal 
-- DHS US Secret Service Authentic8 Software Licensing | OrangeSlices AI (2025-09-12) https://orangeslices.ai/contract-award-1-4m-dhs-us-secret-service-authentic8-software-licensing/
+- Contract Award: DHS US Secret Service Authentic8 Software ... (2025-09-12) https://orangeslices.ai/contract-award-1-4m-dhs-us-secret-service-authentic8-software-licensing/
   Contract Award: DHS US Secret Service Authentic8 Software Licensing | OrangeSlices AI
 
 - Defense Health Agency
@@ -244,7 +207,15 @@ Please sign-in to link federal
 
 - Environmental Protection Agency
 - Na
-- CONTRACT to AUTHENTIC8, INC | USAspending () https://www.usaspending.gov/award/CONT_AWD_19AQMM22P0549_1900_-NONE-_-NONE-
+- Department of the Treasury inks contract to acquire Authentic8 Silo ... () https://orangeslices.ai/department-of-the-treasury-inks-contract-to-acquire-authentic8-silo-licenses-and-support/
+  Department of the Treasury inks contract to acquire Authentic8 Silo Licenses and Support | OrangeSlices AI
+
+Search
+
+This is a 5-year NASA SEWP task to provide Authentic8 Silo software licenses along with ongoing operations and maintenance support to the Department of the Treasury’s Chief Information Officer.
+
+Awardee Name: FCN, INC. Total Contract Value: $1,170,901.26 Department Name: TREASURY, DEPARTMENT OF THE Funding Office: CHIEF INFORMATION OFFICER Number of Bidders: 8 Award ID: 2032L226F00
+- CONTRACT to AUTHENTIC8, INC () https://www.usaspending.gov/award/CONT_AWD_19AQMM22P0549_1900_-NONE-_-NONE-
   USAspending.gov
 
 # --

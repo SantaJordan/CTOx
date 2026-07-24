@@ -1,0 +1,16 @@
+{
+  "company": "Nexla",
+  "slug": "nexla",
+  "domain": "nexla.com",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "None. ~1400 words of own-language (homepage, about, MCP Studio, LinkedIn about, jobs) describe an enterprise AI data-integration platform for commercial customers (Autodesk, Carrier, DoorDash, J&J, LinkedIn, LiveRamp); no DoD/military language, no SBIR/AFWERX/DIU record, no contract news.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "series_a",
+  "what_they_do": "Enterprise data-integration and governance platform (\"data layer\") for AI apps and agents."
+}

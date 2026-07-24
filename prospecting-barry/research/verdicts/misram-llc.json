@@ -1,0 +1,38 @@
+{
+  "company": "Misram LLC (Spectronn)",
+  "slug": "misram-llc",
+  "domain": "spectronn.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "AF SBIR Phase II ($1,249,393, 2023, 'Edge AI Platform for Space and Unmanned Aerial Imagery Intelligence') in the company's own abstract language ('warfighters must be able to rapidly extract actionable intelligence...faster than adversaries can adapt'). Note: the News section returned results for an unrelated similarly-named company ('Mistral Inc.', GOLAM II munitions) — excluded from this evidence.",
+  "disconnect_score": 78,
+  "subscores": {"lab_language_intensity": 18, "deployment_awareness_absence": 16, "operator_absence": 16, "hiring_profile_skew": 10, "stage_pressure": 18},
+  "score_evidence": [
+    "'Real-Time Maritime Intelligence. Powered by AI.', 'Live insights. Trusted globally.' → lab_language_intensity",
+    "SBIR abstract mentions 'dynamic warfighting environments' but never DDIL, SWaP-C, or ATO for the Edge AI platform → deployment_awareness_absence",
+    "Current product targets 'Fleet Managers, Compliance Leads, Port Teams, Risk Analysts, ESG Leads' — zero warfighter/operator framing on the live product → operator_absence",
+    "Company pivoted from a DAF-funded Space/UAV Edge AI platform to an unrelated commercial maritime-compliance SaaS product on a 4-5 person team → stage_pressure",
+    "No jobs data found in pack → hiring_profile_skew set to 10 per instructions"
+  ],
+  "blind_spots": [
+    {"blind_spot": "The SBIR abstract promises an Edge AI platform for DAF space/UAV imagery in 'dynamic warfighting environments,' but the company's live product today is a cloud-hosted maritime dashboard (plain email/password login, 'Sign in with Google') with no edge-deployment story anywhere.",
+     "operator_reality": "If the edge-hardened, contested-environment capability from the Phase II never shipped, the company has effectively abandoned the fielding step — exactly the valley-of-death failure the EDP describes, now visible as a full product pivot rather than a stalled contract.",
+     "why_likely_missing": "Small team (4-5 people) likely couldn't sustain both the DAF edge-deployment engineering and a commercial GTM motion, and chose the commercial path.",
+     "evidence_quote": "Global persistent awareness is critical for Department of Air Force (DAF) missions to win in dynamic warfighting environments",
+     "quote_source": "sbir_abstract"},
+    {"blind_spot": "MaritimeIQ's flagship claim is tracking vessels 'even when they go dark' by fusing AIS, satellite, and RF data — real denied/degraded-signal engineering — but this DDIL-relevant capability is applied entirely to civilian shipping compliance, not reapplied to the DAF mission the SBIR funded.",
+     "operator_reality": "The company clearly has the technical DNA for contested-environment sensor fusion; none of that expertise is visible in a warfighter-facing offering, suggesting the DoD-relevant engineering was set aside when the commercial pivot happened.",
+     "why_likely_missing": "GTM and revenue pressure likely drove the team toward the market (commercial maritime) where deals close faster than a DoD Phase III transition.",
+     "evidence_quote": "Track vessels in real time—even when they go dark. AIS spoofing? No problem.",
+     "quote_source": "homepage"},
+    {"blind_spot": "Neither the commercial site nor the SBIR abstract mentions ITAR or export control, despite the SBIR covering space domain awareness/UAV imagery — a classically ITAR-sensitive area — and the live product ingesting satellite imagery with 'no speed or size limits.'",
+     "operator_reality": "A team that built a DAF-funded imagery platform without a visible ITAR/export-control posture is the kind of company that discovers the compliance gate only when a program office asks for it — often too late to save the transition.",
+     "why_likely_missing": "Team is optics/AI-first, not compliance-first, and the current commercial focus removes any pressure to surface it.",
+     "evidence_quote": "High-res data from Sentinel and more",
+     "quote_source": "homepage"}
+  ],
+  "opener_hook": "Misram's AF Phase II SBIR ($1.25M, 2023) for a DAF Edge AI space/UAV imagery platform is public — the company's live product today is an unrelated commercial maritime-tracking dashboard with no edge-deployment story.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Originally built an Edge AI platform for DAF space/UAV imagery intelligence under an AF SBIR Phase II; now operates MaritimeIQ, a commercial AI-powered maritime vessel-tracking and sanctions-compliance SaaS product, with no visible defense-facing product today."
+}

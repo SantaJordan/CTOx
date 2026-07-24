@@ -1,0 +1,44 @@
+{
+  "company": "OnSeen Marketing, Inc.",
+  "slug": "onseen-marketing-inc",
+  "domain": "onseen.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own site: 'OnSeen is currently working with the USAF to deliver a new, AI-powered, intelligent installation management technology platform called I2MS' plus an Air Force Phase II SBIR ($1,249,991, 2023) for the same I2MS system (own SBIR abstract).",
+  "disconnect_score": 64,
+  "subscores": {"lab_language_intensity": 11, "deployment_awareness_absence": 16, "operator_absence": 13, "hiring_profile_skew": 10, "stage_pressure": 14},
+  "score_evidence": [
+    "\"Increase Efficiency, Reduce Cost, Improve Outcomes, Optimize Resource Utilization with OnSeen's Resource Allocation AI\" -> lab_language_intensity",
+    "\"I2MS will provide Commanders with a Common Operating Picture (COP), real-time situational awareness, automated response functionality, and predictive resource allocation capabilities for critical installati[ons]\" -- detailed capability description with zero mention of ATO, RMF, IL4/IL5, STIG, or CMMC anywhere despite the platform running on USAF installation networks -> deployment_awareness_absence",
+    "I2MS section frames the entire audience as 'Commanders' receiving a Common Operating Picture; no mention of the installation-level technicians who would actually operate/sustain it day to day -> operator_absence",
+    "Air Force Phase II SBIR ($1,249,991, 2023) period-of-performance clock running on a 4-9 person team that is simultaneously building three other commercial verticals (DD care, InsurTech, GovTech) on the same core platform -> stage_pressure",
+    "the pack's formal Open roles field returned no jobs data -> hiring_profile_skew set to 10 per instructions"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "I2MS pitches 'automated emergency response and recovery' and automated 'performance documentation and reporting' for USAF installations, but nothing in the pack describes an ATO/RMF pathway, IL4/IL5, or STIG compliance for a platform meant to sit inside base network infrastructure and handle emergency-response data.",
+      "operator_reality": "An installation-management platform touching emergency response on a military base is exactly the kind of system that needs an ATO before it can go beyond pilot -- without that story, the SBIR Phase II funds can run out before the platform is cleared to actually run on the network it was built for.",
+      "why_likely_missing": "OnSeen's core narrative and existing customer base (DD care providers, P&C insurers, state/local government) are all commercial/civilian SaaS deployments where ATO/RMF simply isn't a gate; the USAF vertical inherited that same go-to-market assumption.",
+      "evidence_quote": "\"I2MS delivers: Accelerated, proactive, intelligent, and increasingly autonomous decision making...Automated emergency response and recovery\"",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The identical 'Resource Allocation AI' platform is marketed unmodified across four domains -- DD-care coordination, P&C insurance claims, state workforce programs, and USAF installation management -- with no defense-specific data-classification, CUI, or ITAR handling described for the military version.",
+      "operator_reality": "A multi-tenant SaaS core built for scheduling home-care workers and insurance adjusters is not automatically fit to handle installation security/emergency-response data at a military base; reusing the same architecture without a defined CUI boundary is the kind of thing that surfaces late in a security review and can kill the transition.",
+      "why_likely_missing": "Small 4-9 person team building one core AI engine and re-skinning it per vertical is a capital-efficient strategy that hasn't yet been forced to separate a defense-grade data path from the commercial one.",
+      "evidence_quote": "\"Intelligent Mobile Workforce Management Software Powered By: OnSeen Resource Allocation AI\" applied identically across LiveCare, LiveClaims, LiveGov, and I2MS",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "I2MS messaging is addressed entirely to 'Commanders' receiving a Common Operating Picture -- there is no mention of the installation technicians, facility staff, or first responders who would actually use eForms/eChecklists and sustain the system day to day.",
+      "operator_reality": "A champion above the operator level (the Commander) is necessary but not sufficient -- if the people entering data and executing directed work never appear in the pitch, adoption risk sits exactly where the checklist warns: operators loving it is not adoption, but here it's worse -- operators aren't even mentioned as a persona.",
+      "why_likely_missing": "The company's commercial verticals (insurance adjusters, DD-care staff) do describe front-line users explicitly (LiveClaims connects 'policyholders, adjusters, and agents'), suggesting the I2MS pitch was written top-down for a program-office audience rather than from field usage.",
+      "evidence_quote": "\"I2MS will provide Commanders with a Common Operating Picture (COP), real-time situational awareness, automated response functionality, and predictive resource allocation capabilities\"",
+      "quote_source": "sbir_abstract"
+    }
+  ],
+  "opener_hook": "OnSeen's Air Force Phase II funds I2MS for installation Commanders -- does it have an ATO to run on base networks yet?",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "AI-powered mobile workforce management platform (Resource Allocation AI) applied across four verticals: developmental-disability care coordination, P&C insurance claims, state/local workforce programs, and USAF installation management (I2MS)."
+}

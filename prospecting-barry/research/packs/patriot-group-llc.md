@@ -3,22 +3,142 @@ slug: patriot-group-llc | domain: patriotgroup.company | HQ: Pasadena, Maryland 
 sources: sbir
 industry(LI): Business Consulting and Services | specialties: 
 channel notes: SBIR PhII x1 [2022] Air Force latest: HC-130J Beyond Line of Sight (BLOS) Targeting Pod Video for Combat Search and Rescue / Personnel Recovery (CSAR/PR) and  hq: PASADENA,MD emp: 3
-own-language word count: ~382
+own-language word count: ~1121
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
 URL: https://patriotgroup.company
-301 Moved Permanently
+Patriot Group – Defense Consulting
 
-# 301 Moved Permanently
+SENIOR LEADERS WITH A COMBINED 100 YEARS OF DEFENSE EXPERTISE About the Patriot Group DEFENSE CONSULTING implementing strategic solutions to fuel growth Our Consulting Services
 
----
+## Helping to solve our nation's greatest challenges...
 
-nginx
+The mission of the Patriot Group is to further serve our country and its armed forces by assisting defense companies of all sizes to align affordable material solutions against our nation’s war fighting and homeland defense critical requirements, rapidly field solutions to those requirements, facilitate effective communication between industry / state organizations with the military, and help our clients achieve their goals. We are a service company: we are dedicated to long-term relationships with our clients through consulting services recognized for professionalism, adherence to the highest ethical standards, and, ultimately, in success. We aim to be efficient, organized, and cooperative in our efforts to aid your ventures while in our care.
 
-301 Moved Permanently
-# 301 Moved Permanently
-nginx
+We work with companies to develop strategies that deliver successful results.
+
+Get In Touch
+
+Search
+
+URL: https://www.patriotgroup.company/about-us/
+About Us – Patriot Group
+
+# Dedication
+
+We are a service company: we are dedicated to long-term relationships with our clients through consulting services recognized for professionalism, adherence to the highest ethical standards, and, ultimately, in success. We aim to be efficient, organized, and cooperative in our efforts to aid your ventures while in our care.
+
+Managing Partner/CEO
+
+## Kevin “Stubby” Campbell, Col, USAF (Ret)
+
+https://www.patriotgroup.company/staff-member/kevin-stubby-campbell/
+
+Managing Partner/CEO
+
+Kevin “Stubby” Campbell is a founder and Chief Executive Officer of the Patriot Group, representing clients with interests in US Air Force and Air National Guard aircraft modernization and Domestic…
+
+Phone Number
+
+Read more
+
+Managing Partner/COO
+
+## Tracy Welsh
+
+https://www.patriotgroup.company/staff-member/tracy/
+
+Managing Partner/COO
+
+Tracy Welsh is Managing Partner and Chief Operating Officer of the Patriot Group. Tracy is a client-focused, results-driven manager with 18 years of consulting experience. She manages contracts and provides…
+
+Phone Number
+
+Read more
+
+Corporate Social Responsibility Officer / Social Media Manager
+
+## Emma M. Campbell
+
+https://www.patriotgroup.company/staff-member/emma-m-campbell/
+
+Corporate Social Responsibility Officer / Social Media Manager
+
+Emma M. Campbell is the Corporate Social Responsibility Officer and Social Media Manager, overseeing corporate social responsibility, helping the Patriot Group create shared value through sustainability, corporate philanthropy, volunteerism, ethical…
+
+Phone Number
+
+Read more
+
+Senior Advisor
+
+## Stanley “Sid” Clarke III, Lt Gen, USAF (Ret)
+
+https://www.patriotgroup.company/staff-member/stanley-sid-clarke-iii-lt-gen-usaf-ret/
+
+Senior Advisor
+
+Stanley “Sid” Clarke is a Senior Advisor at the Patriot Group. Prior to retirement, General Clarke served as the Director of the Air National Guard from March 2013 to December…
+
+Read more
+
+Senior Advisor
+
+## Kirk S. Pierce, Lt Gen, USAF (Ret), Senior Advisor
+
+https://www.patriotgroup.company/staff-member/kirk-s-pierce-lt-gen-usaf-ret-senior-advisor/
+
+Senior Advisor
+
+Kirk “Tick” Pierce is a Senior Advisor at the Patriot Group. Prior to retirement, General Pierce served as the Commander, Continental U.S. North American Aerospace Defense Command Region; Commander, U.S.…
+
+Read more
+
+Senior Advisor
+
+## Major General April D. Vogel
+
+https://www.patriotgroup.company/staff-member/major-general-april-d-vogel/
+
+Senior Advisor
+
+Major General Vo
+
+URL: https://www.patriotgroup.company/
+Patriot Group – Defense Consulting
+
+SENIOR LEADERS WITH A COMBINED 100 YEARS OF DEFENSE EXPERTISE About the Patriot Group DEFENSE CONSULTING implementing strategic solutions to fuel growth Our Consulting Services
+
+## Helping to solve our nation's greatest challenges...
+
+The mission of the Patriot Group is to further serve our country and its armed forces by assisting defense companies of all sizes to align affordable material solutions against our nation’s war fighting and homeland defense critical requirements, rapidly field solutions to those requirements, facilitate effective communication between industry / state organizations with the military, and help our clients achieve their goals. We are a service company: we are dedicated to long-term relationships with our clients through consulting services recognized for professionalism, adherence to the highest ethical standards, and, ultimately, in success. We aim to be efficient, organized, and cooperative in our efforts to aid your ventures while in our care.
+
+We work with companies to develop strategies that deliver successful results.
+
+Get In Touch
+
+Search
+
+URL: https://www.patriotgroup.company/consulting-services/
+Defense Consulting – Patriot Group
+
+The Patriot Group offers a team of senior leaders, each of whom reached the pinnacle of success within their area of expertise, with decades of experience solving our nation’s greatest challenges. We offer clients expertise and assistance in the following areas:
+
+- Air National Guard Requirements Development and Validation
+- Air Force Requirements Development and Validation
+- Rapid Acquisition Strategies and Flexible Contracting Options
+- USAF Weapons & Tactics
+- Domestic Operations & Defense Support to Civil Authorities (DSCA)
+- International Affairs, Foreign Military Sales (FMS) and Direct Commercial Sales
+- Legislative Affairs
+- State Partnerships
+
+We work with companies to develop strategies that deliver successful results.
+
+Get In Touch
+
+Search
 
 ## LinkedIn about
 
@@ -30,7 +150,7 @@ The mission of the Patriot Group is to further serve our country and its armed f
 HC-130J Combat King II rescue aircraft play pivotal role in Combat Search and Rescue/Personnel Recovery and Domestic Rescue and Recovery operations in that they are long range, often first on-scene, and can deploy Pararescuemen (PJs) or supplies via airdrop or landing. They also support follow-on vertical lift rescue aircraft and can provide long duration over watch of an operation.  In other cases they may serve as on-scene commander for an operation and require robust BLOS communications throughout both defense and civilian command and control (C2) structures.  With an advanced Electro-Optical/Infrared (EO/IR) sensor, such as an AAQ-28(V) LITENING Gen 4 targeting pod, they can perform surveillance and reconnaissance for a combat rescue operation or natural disaster area while streaming video to a Combined Air Operations Center (CAOC) or State Headquarters/State Emergency Management Agency. Providing live video, voice or data updates is critical and essential for decision makers in the chain of command both military and civilian, versus being reliant on just commercial newscasts or spotty voice and data traffic from various sources.  A wideband commercial SATCOM solution (COMSATCOM) will provide a persistent connection for first responder Rescue HC-130J’s versus high-demand, low bandwidth MILSATCOM that is not always available due to priorities, military satellite bandwidth and coverage, and the approval process.  The Airdyne Roll /On/Off Special Airborne Mission Installation and Response (SABIR) equipment is already approved for C-130 use and has been flying for over10 years. The LITENING pod is certified on numerous fighter, bomber, and special mission aircraft and has been in use for decades. The commercial BLOS equipment in this proposal that will stream the video from the targeting pod is also approved and in use with various C-130 aircraft and will include an overhead escape hatch mounted satellite antenna and a representative wideband satellite service to provide demonstration airtime.  Subsequent to a demonstration and a notional follow-on program, a notional antenna for fielding could use a low profile fuselage mounted wideband antenna with multi-band capability for both Commercial and Military satellites. This could provide maximum future capability as the DoD SATCOM enterprise grows and changes under US Space Force which states use of commercial SATCOM will be used to leverage DoD capabilities.
 
 ## News (Exa, top 3)
-- PATRIOT GROUP INTERNATIONAL, LLC | Federal Award ... () https://www.usaspending.gov/recipient/63c2d091-66dc-771d-d22b-ddce6921931e-C/latest
+- PATRIOT GROUP INTERNATIONAL, LLC | Federal Award Recipient Profile () https://www.usaspending.gov/recipient/63c2d091-66dc-771d-d22b-ddce6921931e-C/latest
   PATRIOT GROUP INTERNATIONAL, LLC | Federal Award Recipient Profile | USAspending
 
 # PATRIOT GROUP INTERNATIONAL, LLC

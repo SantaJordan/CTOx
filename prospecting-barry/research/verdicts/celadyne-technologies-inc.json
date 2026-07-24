@@ -1,0 +1,44 @@
+{
+  "company": "Celadyne Technologies, Inc.",
+  "slug": "celadyne-technologies-inc",
+  "domain": "celadynetech.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Air Force SBIR Phase II 2022 ($750,000, PEM fuel cells for unmanned aerial and modular systems) in the SBIR section, plus own-announced Army SBIR Phase II launch ('Celadyne Powers Ground Support Vehicles As They Expand Partnership With U.S. Army', Oct 2024) and homepage defense-platform claims ('Navy submarine oxygen generator').",
+  "disconnect_score": 68,
+  "subscores": {"lab_language_intensity": 17, "deployment_awareness_absence": 13, "operator_absence": 14, "hiring_profile_skew": 10, "stage_pressure": 14},
+  "score_evidence": [
+    "'It enables 5x fuel cell durability, 7x electrolyzer current density, and 80% less iridium' and 'Hits the DOE 30,000-cycle ultimate target ahead of schedule' — the site leads entirely with lab metrics against civilian DOE targets → lab_language_intensity",
+    "1,400+ words of detailed product description with zero mention of MIL-STD qualification, ITAR, CMMC, or any defense fielding constraint despite claiming submarine, UAV, and remote-base applications → deployment_awareness_absence",
+    "'persistent energy storage for satellites and remote bases' (abstract) with no word anywhere on who fuels, maintains, or trains on a hydrogen system in the field → operator_absence",
+    "No jobs data in pack: hiring_profile_skew set exactly 10 per rule",
+    "'the launch of their Army SBIR Phase II' (Oct 2024) on a 13-person team, with a $250K UT Seed Fund check in 2026 as the visible bridge money → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Hydrogen logistics do not exist at the austere sites their defense pitch names",
+      "operator_reality": "DoD runs a single-fuel-forward battlefield: JP-8 comes in on every convoy, hydrogen comes in on none. A fuel cell for 'remote bases' or a forward-deployed UAV needs a hydrogen generation/storage/resupply chain the theater doesn't have — the sergeant can top off a diesel generator, not a 700-bar hydrogen cylinder. Same failure mode as the 30fps crowd-detection case: the enabling assumption (fuel availability) is denied by the environment, not the tech.",
+      "why_likely_missing": "Founder and CTO are PhD materials scientists from a DOE/Argonne commercialization track; their whole framing is DOE cost-per-kg and decarbonization economics, where hydrogen supply is someone else's solved problem.",
+      "evidence_quote": "long range silent unmanned aerial vehicles, persistent energy storage for satellites and remote bases",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "Durability is proven against DOE cycle targets, not the environmental qualification that decides an Army or Navy fielding",
+      "operator_reality": "A membrane that hits a 30,000-cycle bench target still dies in theater from what the bench never sees: sand and dust ingestion into the stack's air side, -30C cold starts, vibration on a ground support vehicle, shock qual for anything sub-safe. MIL-STD-810 environmental results and platform-level qual data — not DOE ultimate targets — are what the transition decision reads, and their language never mentions them.",
+      "why_likely_missing": "Their customers to date are DOE programs and commercial fuel-cell integrators, so every credibility metric they publish is a civilian benchmark; nobody on the 13-person team has had to assemble a military qualification package.",
+      "evidence_quote": "5x fuel cell durability. Hits the DOE 30,000-cycle ultimate target ahead of schedule.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "'Drop-in ready' component with no visible path through the prime/platform integration chain",
+      "operator_reality": "A membrane reaches a Navy submarine or an Army vehicle only inside someone else's stack, inside a prime's platform, inside a program office's schedule — subcontract flow-downs, GFE interfaces, airworthiness or sub-safe certification measured in years. Claiming the same part serves a submarine oxygen generator and a data center skips the part where the defense variant needs its own multi-year qualification lineage; 'drop-in' for a commercial electrolyzer is not drop-in for a program of record.",
+      "why_likely_missing": "As a materials supplier two tiers below the platform, they see the membrane spec, not the acquisition mechanics above it; no prime partner or qualification program is named anywhere on the site.",
+      "evidence_quote": "The same membrane that goes into a Navy submarine oxygen generator goes into a fuel cell for truck, ship, and data center power.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Celadyne's Army SBIR Phase II started October 2024 with roughly 13 people, and every durability number on celadynetech.com is a DOE target — not one is the MIL-STD-810 or fuel-logistics number an Army fielding decision actually reads.",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Materials startup making next-generation proton exchange membranes (Dura, Electra) that make hydrogen fuel cells more durable and electrolyzers more efficient, selling into defense (Army/AF SBIRs, submarine oxygen generation claims) and industrial decarbonization markets."
+}

@@ -417,7 +417,7 @@ Companies that try to build and maintain custom data pipelines in-house find it'
 Multi-domain ISR has been a key tool for counterterrorism and counter-insurgency efforts in the post-9/11 era; the recent Russian invasion of Ukraine is highlighting new use-cases for ISR as well as the advantages of integrating a hybrid approach – multip
 
 ## News (Exa, top 3)
-- Unstructured Awarded $1 Million DAF DTO Contract to ... (2026-01-16) https://www.businesswire.com/news/home/20260116254624/en/Unstructured-Awarded-%241-Million-DAF-DTO-Contract-to-Deliver-AI-Data-Layer-for-Scalable-Cost-Controlled-GenAI-at-the-Tactical-Edge
+- Unstructured Awarded $1 Million DAF DTO Contract to Deliver AI Data Layer for Scalable, Cost-Controlled GenAI at the Tactical Edge (2026-01-16) https://www.businesswire.com/news/home/20260116254624/en/Unstructured-Awarded-%241-Million-DAF-DTO-Contract-to-Deliver-AI-Data-Layer-for-Scalable-Cost-Controlled-GenAI-at-the-Tactical-Edge
   Powered and protected by
 
 Privacy

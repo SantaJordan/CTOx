@@ -1,0 +1,16 @@
+{
+  "company": "Pretorin",
+  "slug": "pretorin",
+  "domain": "pretorin.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "Founder ran the U.S. Army's AI lab and DoD/CMMC/RMF/FedRAMP language is central to the product, but Pretorin itself is an AI compliance-orchestration SaaS plus a stated consulting/custom-software services line ('We Also Offer Services': Custom Software and AI Development, Consulting, Digital Modernization) sold to other government software vendors — homepage and about page.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "AI-native compliance orchestration platform (RMF/ATO/FedRAMP/CMMC paperwork and control-mapping automation for government software vendors) plus a custom-software/consulting services arm — a tooling/services vendor selling into the defense-compliance problem, not itself a fielded operator-facing defense product."
+}

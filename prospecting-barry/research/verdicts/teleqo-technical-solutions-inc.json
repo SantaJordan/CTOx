@@ -1,0 +1,26 @@
+{
+  "company": "Teleqo Technical Solutions Inc.",
+  "slug": "teleqo-technical-solutions-inc",
+  "domain": "teleqotech.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "SBIR record: Air Force Phase II 'Multi-Sensor Fusion for Smart Cities Mapping & Visualization for Global Persistent Awareness' ($1.25M, 2023) plus a 2025 Phase I 'Automated Digitized Infrastructure for Resilient Basing' (USAF) — genuine, ongoing DoD R&D motion separate from their commercial mapping business.",
+  "disconnect_score": 58,
+  "subscores": {"lab_language_intensity": 10, "deployment_awareness_absence": 14, "operator_absence": 14, "hiring_profile_skew": 10, "stage_pressure": 10},
+  "score_evidence": [
+    "'Centimeter-Level Accuracy', 'industry-leading RIEGL technology', '50,000 miles... 1 million infrastructure assets' — quantified capability specs typical of commercial B2B service marketing → lab_language_intensity moderate",
+    "'cloud-based visualization platforms' and 'cloud-based geospatial platforms' repeated as the core deliverable, with zero mention of DDIL/ATO/RMF/CMMC/ITAR/STIG anywhere on site; the actual DoD-specific SBIR abstract is truncated to one sentence in this pack, so this score reflects the commercial product's silence, not a fully detailed defense-product silence → deployment_awareness_absence",
+    "Site names 'engineers, planners, utilities, and government agencies' and 'decision makers' as users but never operators, warfighters, training, or CONOPS — notable for an SBIR titled 'Global Persistent Awareness' → operator_absence",
+    "'no jobs data found' → hiring_profile_skew set to 10 per rule",
+    "10-13 employees but real commercial revenue since 2020 (50,000+ miles captured) cushions pure DoD-transition pressure; still, a new 2025 Phase I award shows the DoD pursuit is ongoing and unresolved → stage_pressure moderate"
+  ],
+  "blind_spots": [
+    {"blind_spot": "A 'Global Persistent Awareness' fusion platform (LiDAR + imagery + RF) is pitched around 'cloud-based visualization,' the same cloud dependency as their commercial product, with no edge-processing or offline mode described", "operator_reality": "Persistent-awareness mapping in a contested urban environment needs to keep functioning when uplink to the cloud is denied or degraded; if the fusion and visualization pipeline requires cloud roundtrips, the system goes blind exactly when persistent awareness matters most", "why_likely_missing": "the architecture was built for civilian infrastructure survey work, where cloud connectivity is a given, and appears to have been proposed for the DoD use case largely as-is", "evidence_quote": "Powerful Visualization: Cloud-based geospatial platforms make mobile mapping data and digital infrastructure models easy to access and use.", "quote_source": "homepage"},
+    {"blind_spot": "The mobile mapping 'fleet' (RIEGL LiDAR, GNSS, 360° imagery on survey vehicles) has no SWaP-C story for expeditionary or 'Resilient Basing' use beyond civilian survey vans", "operator_reality": "Resilient basing and forward infrastructure mapping often can't rely on a full survey-van sensor suite; without a ruggedized, smaller-footprint variant, the SBIR concept may never leave the commercial-platform form factor it was designed around", "why_likely_missing": "the sensor package and workflow are proven for commercial telecom/utility surveys, and adapting SWaP-C for a base-resilience use case is a separate, unaddressed engineering problem", "evidence_quote": "Our scalable mobile mapping fleet enables rapid data collection across highways, utility corridors, urban environments, and transportation networks", "quote_source": "homepage"},
+    {"blind_spot": "No ATO/RMF, ITAR, or data-handling story for a platform that explicitly fuses Radio Frequency (RF) data with imagery to map devices and networks — a SIGINT-adjacent capability", "operator_reality": "RF collection and network-mapping data is sensitive by nature; a system built for commercial geospatial workflows needs a real accreditation and data-handling plan before a program office will let it anywhere near an operational RF dataset, and none is visible in either the commercial site or the (truncated) SBIR abstract", "why_likely_missing": "the abstract available in this pack is cut off after one sentence, suggesting the security/compliance plan — if it exists — isn't part of the public-facing pitch", "evidence_quote": "Teleqo Tech proposes to research and develop a platform to fuse existing, non-proprietary LiDAR, imagery and Radio Frequency (RF) data sets from mobile and static sources to map out smart cities devices and networks in urban, clustered environments.", "quote_source": "sbir_abstract"}
+  ],
+  "opener_hook": "Teleqo's Global Persistent Awareness SBIR fuses LiDAR, imagery, and RF data through a cloud-based visualization platform — what's the plan when the environment denies that cloud link?",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "A commercial mobile LiDAR/geospatial mapping services company for telecom, utility, and transportation infrastructure, now applying the same sensor-fusion approach to an Air Force SBIR for smart-cities 'Global Persistent Awareness' and resilient-basing infrastructure digitization."
+}

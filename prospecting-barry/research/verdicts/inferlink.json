@@ -1,0 +1,22 @@
+{
+  "company": "InferLink Corp",
+  "slug": "inferlink",
+  "domain": "inferlink.com",
+  "verdict": "drop",
+  "drop_reason": "sbir_mill",
+  "dod_intent_evidence": "SBIR section shows a 2023 DARPA Phase II ($1.8M) for AI map georeferencing, and the news section shows a DARPA success report plus an SBIR.gov portfolio of 30 Phase I and 18 Phase II awards totaling $24.5M — genuine federal R&D motion, but the awards are the business model.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "\"InferLink is a group of leading research scientists that solve some of the world's hardest problems. We work on advanced government R&D projects and provide commercial AI consulting\" → the company is a research-and-consulting house, not a product company crossing a transition",
+    "\"14 years in business / 5 companies spun out / 400+ papers published / $30M awarded federal contracts\" → the scoreboard they keep is awards, papers and spin-outs",
+    "SBIR.gov portfolio: \"30 Phase I Awards, 18 Phase II Awards, 60% Conversion Rate, $24,575,096 Total\" since 2012 → winning SBIRs IS the business",
+    "\"InferLink's process begins with grant funding or direct investment... then either create a spin-off company or partner with commercial organizations\" → the stated exit for every technology is a spin-out, not a fielded DoD capability",
+    "Named innovations are commercial/civil (clinical-trial text parsing, an LMS, M&A diligence, USGS geological maps) → no fielded-mission product to rescue"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "A 22-person AI research and consulting house in El Segundo that lives on government R&D contracts and SBIRs, spinning out the technologies that work into separate companies."
+}

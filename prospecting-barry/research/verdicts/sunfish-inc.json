@@ -1,0 +1,24 @@
+{
+  "company": "Sunfish Inc",
+  "slug": "sunfish-inc",
+  "domain": "sunfish.ai",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "DARPA SBIR Phase II award (2022, $1,499,657) for SunBeam underwater mapping postprocessing, explicitly naming defense as a target application in their own abstract — see SBIR/STTR record section.",
+  "disconnect_score": 60,
+  "subscores": {"lab_language_intensity": 13, "deployment_awareness_absence": 15, "operator_absence": 10, "hiring_profile_skew": 8, "stage_pressure": 14},
+  "score_evidence": [
+    "'Flies like a jet fighter. Hovers like a helicopter.' and 'Built for extraterrestrial ocean exploration.' → lab_language_intensity (demo-flash framing over operational framing)",
+    "'Being able to rapidly generate large 3D maps that can address the above limitations will enable many applications for defense, science, infrastructure, recreation and exploration' names defense explicitly yet zero mention anywhere in ~1,436 words of DDIL/ATO/RMF/CMMC/ITAR/STIG → deployment_awareness_absence",
+    "DARPA Phase II ($1,499,657) awarded 2022 against a tiny 14-15 person team, with only a Digital Marketing Internship and one Regional Field Operations Technician as visible open roles in 2026 → stage_pressure (4 years past a Phase II award with no visible follow-on DoD contract news)"
+  ],
+  "blind_spots": [
+    {"blind_spot": "'During operations SUNFISH can report back, allowing a surface-based team to review, and re-task the vehicle' assumes a live surface comms link", "operator_reality": "In a denied or contested harbor/port-defense mission (their own listed use case), there is no described fallback for when the surface team/support boat and comms link are unavailable — same class of DDIL failure as the 30fps crowd-detection case, just underwater instead of RF", "why_likely_missing": "Product was proven in permissive test environments (Peacock Springs caves, commercial harbor inspections) where a support team and comms are always present", "evidence_quote": "During operations SUNFISH can report back, allowing a surface-based team to review, and re-task the vehicle.", "quote_source": "homepage"},
+    {"blind_spot": "Their own SBIR critiques competitors for needing 'trained human operators...to clean the data and optimize automated processing parameters' but Sunfish's field deployment story never addresses who trains and sustains an E-5-equivalent operator on the physical AUV itself", "operator_reality": "A 50kg custom-fabricated two-person-portable AUV with multibeam sonar and SLAM navigation needs battery logistics, spares, and hands-on training beyond 'push the button' — none of which appears anywhere in the pack", "why_likely_missing": "Company's origin (Stone Aerospace/NASA cryobot heritage) and small team are research-and-fabrication focused, not sustainment-focused", "evidence_quote": "These existing systems also rely on trained human operators both to clean the data and optimize automated processing parameters.", "quote_source": "sbir_abstract"},
+    {"blind_spot": "Product explicitly targets 'defense' applications while also being marketed and sold globally for recreation, offshore energy, and infrastructure inspection with no visible data segregation", "operator_reality": "Seabed/harbor mapping data collected for a defense customer (e.g. a port or dam survey) is sensitive; there is no ITAR/export-control or data-classification language anywhere despite the same commercial pipeline (sales, field services) apparently serving both defense and open commercial/scientific customers", "why_likely_missing": "Small 14-15 person commercial hardware company selling one product line across many verticals without a dedicated compliance function", "evidence_quote": "will enable many applications for defense, science, infrastructure, recreation and exploration", "quote_source": "sbir_abstract"}
+  ],
+  "opener_hook": "Sunfish's 2022 DARPA Phase II ($1.5M) automated SunBeam's underwater 3D mapping pipeline down to two days — is there a follow-on defense contract in motion, or did that Phase II clock run out?",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Sells and operates the SUNFISH autonomous underwater vehicle (AUV) and an automated underwater-mapping-data postprocessor (SunBeam, DARPA-funded) for inspection and exploration across commercial, scientific, and defense customers."
+}

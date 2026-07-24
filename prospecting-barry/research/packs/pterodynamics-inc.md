@@ -219,6 +219,12 @@ PteroDynamics has developed the Transwing UAS, a unique VTOL aircraft that launc
 For the DAF’s Agile Combat Employment (ACE) construct to remain viable, dynamic force maneuvers must be prioritized and enabled by agile mobility assets. Normally, the combatant commander retains control of theater assigned transportation assets. However,
 
 ## News (Exa, top 3)
+- PteroDynamics Awarded U.S. Navy Contract to Develop Next-Gen Autonomous Transwing VTOL UAS – sUAS News (2025-02-19) https://www.suasnews.com/2025/02/pterodynamics-awarded-u-s-navy-contract-to-develop-next-gen-autonomous-transwing-vtol-uas/
+  PteroDynamics Awarded U.S. Navy Contract to Develop Next-Gen Autonomous Transwing VTOL UAS – sUAS News
+
+# PteroDynamics Awarded U.S. Navy Contract to Develop Next-Gen Autonomous Transwing VTOL UAS
+
+PteroDynamics Inc., an innovator in autonomous vertical takeoff and landing (VTOL) aircraft systems, today announced an expansion of its contract with the U.S. Naval Air Warfare Center Aircraft Division (NAWCAD) to design, develop, and demonstrate in a maritime environment the next generation of its T
 - CONTRACT to PTERODYNAMICS INC. () https://www.usaspending.gov/award/CONT_AWD_FA864923P0166_9700_-NONE-_-NONE-
   USAspending.gov
 - Award | SBIR () https://www.sbir.gov/awards/204920
@@ -261,12 +267,6 @@ Phase I
 DOW
 
 Branch: US
-- PteroDynamics Awarded U.S. Navy Contract to Develop Next-Gen Autonomous Transwing VTOL UAS – sUAS News (2025-02-19) https://www.suasnews.com/2025/02/pterodynamics-awarded-u-s-navy-contract-to-develop-next-gen-autonomous-transwing-vtol-uas/
-  PteroDynamics Awarded U.S. Navy Contract to Develop Next-Gen Autonomous Transwing VTOL UAS – sUAS News
-
-# PteroDynamics Awarded U.S. Navy Contract to Develop Next-Gen Autonomous Transwing VTOL UAS
-
-PteroDynamics Inc., an innovator in autonomous vertical takeoff and landing (VTOL) aircraft systems, today announced an expansion of its contract with the U.S. Naval Air Warfare Center Aircraft Division (NAWCAD) to design, develop, and demonstrate in a maritime environment the next generation of its T
 
 ## Open roles (Blitz, live)
 - UAS Operator (Pilot) ({'city': 'Colorado Springs', 'country_code': 'US'})

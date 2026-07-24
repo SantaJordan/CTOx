@@ -1,0 +1,16 @@
+{
+  "company": "Netography",
+  "slug": "netography",
+  "domain": "netography.com",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "netography.com now redirects entirely into the Vectra AI commercial platform (acquired) — ~1450 words of own-language covers only hybrid-cloud/SecOps observability for enterprise customers (FICO customer story); no DoD/military/warfighter language, no SBIR/AFWERX/contract record anywhere in the pack.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "unknown",
+  "what_they_do": "Cloud-native network observability platform, now absorbed into the Vectra AI product line."
+}

@@ -248,32 +248,18 @@ Why Now? Demand is shifting from military-only to protecting airpor
 Argus Foresight Inc. builds distributed early-warning systems for detecting small, low-altitude drones—especially FPVs—using passive wideband RF sensing and on-device AI. Our ruggedized nodes continuously monitor key drone control and video bands, detect and categorize signals (e.g, analog FPV, digital links, jammers), and share detections across a self-healing mesh network. When multiple nodes observe the same emitter, the system fuses measurements to enable direction finding and 3D geolocation, and can deliver alerts into situational-awareness / C2 workflows via standard integration interfac
 
 ## News (Exa, top 3)
-- Argus Foresight () https://argusforesight.ai/
-  Argus Foresight
+- argus foresight inc. (2026-06-02) https://argusforesight.ai/
+  # Argus Foresight Inc.
 
-[email]
+Argus Foresight Inc. is a Software Development company. Argus Foresight Inc. employs 4 people, founded in 2025. Headquartered in New Castle, Delaware, United States. Its workforce is distributed across Ukraine and United States.
 
-[email]
+## About
 
-# Predict. Detect. Protect
+Argus Foresight Inc. builds distributed early-warning systems for detecting small, low-altitude drones—especially FPVs—using passive wideband RF sensing and on-device AI.
 
-AI-powered drone detection and situational awareness system
-
-A Distributed AI Mesh Network
-
-Resilient early warning that scales through low-cost nodes and mesh coordination.
-
-View Pitch Deck
-
-See it in action
-
-Watch a short demo of detection, visualization, and remote access.
-
-## About Us
-
-Argus Foresight is a U.S.-founded startup building affordable early warning against small drones.
-
-Our team combines
+Our ruggedized nodes continuously monitor key drone control and 
+- ARGUS SECURE TECHNOLOGY LLC | Federal Award Recipient Profile () https://www.usaspending.gov/recipient/8d3b527d-87bd-8bf0-dfcc-6be237f35c9f-P/latest
+  USAspending.gov
 - Ea156063ex99 1 foresight.htm () https://www.sec.gov/Archives/edgar/data/1691221/000121390022008807/ea156063ex99-1_foresight.htm
   Exhibit 99.1
 
@@ -282,14 +268,6 @@ Foresight’s Technology to Replace Use of LiDAR by a Leading Israeli Defense In
 In exchange for $250,000, Foresight will customize the integrator’s solutions to meet the requirements of its end-customer
 
 Ness Ziona, Israel – February 23, 2022- Foresight Autonomous Holdings Ltd. (Nasdaq and TASE: FRSX) (“Foresight” or the “Company”), an innovator in automotive vision systems, announced today that it will customize products and solutions for a l
-- Counter-Drone Procurement Goes Generational (2026-05-28) https://www.prnewswire.com/news-releases/counter-drone-procurement-goes-generational-302783555.html
-  Counter-Drone Procurement Goes Generational Accessibility Statement Skip Navigation
-
-Issued on behalf of VisionWave Holdings, Inc.
-
-A vertically integrated autonomous defense platform built around RF, computer vision, AI video analytics, and composite materials
-
-NEW YORK, May 28, 2026 /PRNewswire/ -- Equity Insider News Commentary — The U.S. defense procurement environment has made significant shifts in the last twelve months when compared to at any point in the prior decade. The Pentagon's Dron
 
 ## Open roles
 (no jobs data found)

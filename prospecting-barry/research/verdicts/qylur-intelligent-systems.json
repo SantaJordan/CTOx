@@ -1,0 +1,39 @@
+{
+  "company": "Qylur Intelligent Systems",
+  "slug": "qylur-intelligent-systems",
+  "domain": "qylur.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "AFWERX Direct-to-Phase-II SBIR awarded 2024 for TASCS, 'Tactical AI Spectrum Classifier System for Agile Spectrum Superiority,' USAF, and SBIR.gov shows 2 Phase I + 2 Phase II DoD awards totaling ~$2.6M — News and SBIR/STTR sections.",
+  "disconnect_score": 76,
+  "subscores": {"lab_language_intensity": 18, "deployment_awareness_absence": 12, "operator_absence": 12, "hiring_profile_skew": 18, "stage_pressure": 16},
+  "score_evidence": [
+    "'Revolutionary Technology... the world's first autonomous, self-service, entry screening system' → lab_language_intensity",
+    "'Maintaining Our AI Edge... a future powered by AI' → lab_language_intensity",
+    "zero mention of DDIL/ATO/RMF/CMMC/ITAR/STIG across ~953 words of own language → deployment_awareness_absence (capped 12, word count <1000)",
+    "'operator' language only appears for venue security guards ('screener workstations, operator and manager mobile controls') never for military/tactical users of TASCS → operator_absence (capped 12)",
+    "sole open role is 'Contract Software Engineer – Cloud SaaS (Full Stack + Cloud/DevOps)' despite a live Tactical AI Spectrum Classifier SBIR — no RF/embedded/edge-hardware or field-integration hire visible → hiring_profile_skew",
+    "8-18 person team running on Phase I/II SBIR dollars ($2.6M total) plus a small ~$3.22M Series A → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Core marketed product (Q Sentinel/The Q) is a cloud-connected, C4I-console-tied venue security kiosk, and this IIoT/cloud architecture is the base the tactical spectrum classifier is built from",
+     "operator_reality": "A spectrum classifier meant for 'Agile Spectrum Superiority' in contested RF environments needs to run denied/degraded from any cloud or centralized command center — the opposite of a kiosk-and-console architecture designed for venue Wi-Fi and staffed control rooms",
+     "why_likely_missing": "site describes the underlying SNIM AI platform generically as reusable across 'commercial and government organizations' without addressing what changes when the deployment context loses connectivity",
+     "evidence_quote": "Q Sentinel integrates a suite of technologies and services to handle everything secure entry and intelligent screening to real-time command-and-control",
+     "quote_source": "homepage"},
+    {"blind_spot": "Only open hire is a cloud SaaS full-stack/DevOps engineer while the funded DoD product is a tactical spectrum classifier",
+     "operator_reality": "Fielding an RF/EW-adjacent tactical AI system on Air Force hardware requires embedded/edge engineering, not cloud SaaS skills — the hiring signal suggests the company is still building for its commercial venue-security business, not the defense transition",
+     "why_likely_missing": "TASCS SBIR win (2024) has not visibly changed the hiring profile",
+     "evidence_quote": "Contract Software Engineer – Cloud SaaS (Full Stack + Cloud/DevOps)",
+     "quote_source": "job_post"},
+    {"blind_spot": "SNIM AI is described as sustaining performance 'amid the challenging realities of their missions' with no SWaP-C specifics",
+     "operator_reality": "A tactical spectrum classifier riding on a radio or platform has a real power/weight/compute budget; 'challenging realities' as a phrase does no work — the company has not shown it has translated venue-kiosk-scale compute into an edge-deployable footprint",
+     "why_likely_missing": "language stays at the mission-generic level across both commercial and defense product descriptions",
+     "evidence_quote": "SNIM® AI maintains the ongoing performance of autonomous systems AI amid the challenging realities of their missions",
+     "quote_source": "homepage"}
+  ],
+  "opener_hook": "Your AFWERX Direct-to-Phase-II SBIR (2024) is adapting SNIM AI from venue-entry screening to Tactical AI Spectrum Classification — what's different about the SWaP-C budget going from a kiosk to a radio?",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Builds SNIM AI, an autonomous-systems AI platform originally productized as Q Sentinel/The Q for venue entry security screening, now being adapted under an AFWERX SBIR into a Tactical AI Spectrum Classifier System for the Air Force."
+}

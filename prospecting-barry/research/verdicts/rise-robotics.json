@@ -1,0 +1,44 @@
+{
+  "company": "RISE Robotics",
+  "slug": "rise-robotics",
+  "domain": "riserobotics.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "$3M AFWERX Tactical Funding Increase (Aug 2025) 'focused on refining and fielding the RISE Beltdraulic SuperJammer Vehicle platform for testing and demonstration in an operational environment,' plus a separate U.S. Army Phase I SBIR (May 2025) for collapsible lightweight crane technology.",
+  "disconnect_score": 68,
+  "subscores": {"lab_language_intensity": 14, "deployment_awareness_absence": 12, "operator_absence": 12, "hiring_profile_skew": 15, "stage_pressure": 15},
+  "score_evidence": [
+    "'REVOLUTIONIZING INDUSTRIAL MACHINES WITHOUT FLUIDS' / '3x the speed. cost effective. reliable & durable. no fire hazard. source agnostic. environment friendly.' → lab_language_intensity",
+    "own-language word count ~895 (<1000, capped at 12); site describes DoD only as a partner type ('fostering dynamic partnerships with Tier 1 suppliers, OEMs and the US DoD') with zero ATO/RMF/CMMC/ITAR/DDIL language anywhere → deployment_awareness_absence",
+    "the only end-user comfort language on the site is 'Improve driver and bystander comfort' for the commercial trucking liftgate — no operator, warfighter, or training language appears anywhere for the DoD-facing SuperJammer/crane lines → operator_absence",
+    "all 10 open roles are mechanical/embedded design, sales, or office management (Principal/Senior/Sr. Mechanical/Embedded Engineer x6, TPM, 2x Sales Development Rep, Office Manager) — zero field test, integration, or compliance roles despite TACFI money earmarked for operational-environment demonstration → hiring_profile_skew",
+    "two parallel DoD funding lines (TACFI for SuperJammer Vehicle, Army Phase I SBIR for collapsible crane) running simultaneously at a 17-person company founded in 2011 → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "TACFI funding is explicitly earmarked to move the SuperJammer Vehicle actuator to 'testing and demonstration in an operational environment,' but every open engineering role is a design role (mechanical, embedded) — the same skill set that builds a lab prototype, not the one that fields and sustains it.",
+      "operator_reality": "Without field test/integration engineers, the gap between a working bench actuator and one that survives a fielded operational demo (vibration, dust, thermal cycling, vehicle EMI) has no dedicated owner on the team.",
+      "why_likely_missing": "RISE's hiring pattern is built for its core commercial business (industrial actuators, trucking liftgates), and the DoD line is riding on the same design team rather than getting its own fielding-focused hires.",
+      "evidence_quote": "TACFI to Advance SuperJammer Vehicle for Demonstration in Operational Environment",
+      "quote_source": "news"
+    },
+    {
+      "blind_spot": "The company's only ruggedization/environmental language — 'Sealed electronics and corrosion resistant materials stand up to the harshest conditions' — is scoped entirely to the commercial delivery-truck liftgate product, not to the SuperJammer Vehicle military platform.",
+      "operator_reality": "A vehicle-mounted actuator in an operational military environment faces different stressors (ballistic shock, EMI from tactical radios, wider temperature extremes, dust/sand ingress under combat conditions) than a delivery van's tailgate — no equivalent spec or claim exists for the defense product.",
+      "why_likely_missing": "The environmental-durability story was built for the commercial fleet customer and simply hasn't been re-derived for the defense use case yet.",
+      "evidence_quote": "All-weather operation: Sealed electronics and corrosion resistant materials stand up to the harshest conditions",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "RISE is running two separate, early-stage DoD funding lines at once (TACFI operational demo for SuperJammer; Phase I SBIR feasibility study for a collapsible crane) with a 17-person team that also serves commercial OEM and trucking customers.",
+      "operator_reality": "TACFI's operational-environment demonstration has a hard clock; a Phase I SBIR feasibility study competing for the same mechanical/embedded engineers' attention is exactly the kind of resource split that causes the higher-stakes TACFI demo to slip past its funded period.",
+      "why_likely_missing": "Both awards look like wins on a press page, but neither the site nor the job postings show the team was resourced up specifically to run them in parallel.",
+      "evidence_quote": "RISE Robotics Awarded U.S. Army Phase I Contract to Explore Advanced Collapsible Lightweight Crane Technology",
+      "quote_source": "news"
+    }
+  ],
+  "opener_hook": "RISE Robotics' $3M AFWERX TACFI is funding the SuperJammer Vehicle's move to an operational-environment demo, but the open roles are all mechanical/embedded design, not field test. Who runs that demo?",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Maker of Beltdraulic, an all-electric fluid-free linear actuator that replaces hydraulic cylinders, sold to industrial OEMs and trucking fleets commercially, now extending into a DoD-funded SuperJammer vehicle platform and Army crane technology."
+}

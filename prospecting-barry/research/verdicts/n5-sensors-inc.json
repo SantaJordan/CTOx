@@ -1,0 +1,25 @@
+{
+  "company": "N5 Sensors, Inc.",
+  "slug": "n5-sensors-inc",
+  "domain": "n5sensors.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "DHS SBIR Phase II award for ChemBadge, a person-worn chemical aerosol detector (per News/HigherGov), and the site's own Solutions page states the wearable/fixed-site chemical detection line is 'essential for safeguarding military personnel' alongside first responders.",
+  "disconnect_score": 63,
+  "subscores": {"lab_language_intensity": 12, "deployment_awareness_absence": 13, "operator_absence": 13, "hiring_profile_skew": 10, "stage_pressure": 15},
+  "score_evidence": [
+    "'Harnessing the synergy of powerful edge and cloud AI, our system delivers rapid, day-and-night detection capabilities with minimal false alarms' → lab_language_intensity",
+    "'Connectivity solutions are designed to work anywhere and all the time, without customer intervention' plus zero ATO/RMF/CMMC/ITAR language despite claiming military customers → deployment_awareness_absence",
+    "'Such compact wearable systems are essential for safeguarding military personnel and the first responder community' — the only operator reference, no training/CONOPS/sustainment detail → operator_absence",
+    "'$2.5 million from a recent seed round' (2023) against a company founded in 2012 with 42 employees — 13 years old and still raising seed-stage capital → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Core architecture is explicitly always-on cloud-connected: 'Connectivity solutions are designed to work anywhere and all the time, without customer intervention'", "operator_reality": "A chemical-threat wearable meant to protect soldiers in contested environments cannot assume constant cloud connectivity — same failure mode as the 30fps crowd-detection case: the one dependency they never questioned is the one a DDIL environment will break first", "why_likely_missing": "core product line (N5SHIELD wildfire detection) is built for domestic, connected deployment (utilities, fire departments); the military ChemBadge/ThreatSHIELD line appears to inherit the same cloud-first architecture without a redesign", "evidence_quote": "We have built-in cloud connectivity to our systems, enabling them to seamlessly transfer data to our secure cloud platform. Connectivity solutions are designed to work anywhere and all the time, without customer intervention", "quote_source": "homepage"},
+    {"blind_spot": "Zero mention of ATO, RMF, STIG, CMMC, or ITAR despite explicitly marketing ChemBadge/ChemNode to protect military personnel", "operator_reality": "A wearable sensor generating real-time alerts for military use will eventually need to integrate with government networks and pass an ATO; a company this deep into DHS CWMD funding with no visible compliance posture risks the same 'dead transition' pattern Barry targets", "why_likely_missing": "company's dominant identity and go-to-market is commercial/civilian (wildfire detection, industrial safety), with the military ChemBadge line described in the same generic marketing language as the consumer-facing products", "evidence_quote": "N5 offers a full suite of wearable (ChemBadge™) and fixed-site (ChemNode™) chemical detection systems to protect the Homeland, and critical infrastructure, and military", "quote_source": "homepage"},
+    {"blind_spot": "No mention of who trains a soldier to wear, interpret, or sustain ChemBadge in the field — spares, battery logistics, or false-alarm response procedure", "operator_reality": "'Easy to use' is a marketing claim, not a training pipeline; an E-5 issued a chemical-threat wearable needs documented procedures for calibration, battery swap, and what to do when an alert fires mid-mission", "why_likely_missing": "product messaging emphasizes detection accuracy and low false-alarm rate over the human workflow around the device", "evidence_quote": "The patented sensor technology and data analytics are easy to use and provide real-time warning of threats", "quote_source": "homepage"}
+  ],
+  "opener_hook": "N5 Sensors markets ChemBadge as protecting military personnel via always-on cloud connectivity — worth asking how it performs when a soldier's chemical-threat wearable loses signal in a contested environment.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Builds a proprietary chemical/environmental sensor array (SPH) for wildfire and infrastructure detection at scale, plus wearable (ChemBadge) and fixed-site (ChemNode) chemical-threat detection systems marketed to homeland security, critical infrastructure, and military users."
+}

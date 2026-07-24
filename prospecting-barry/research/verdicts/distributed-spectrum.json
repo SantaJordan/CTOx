@@ -1,0 +1,48 @@
+{
+  "company": "Distributed Spectrum",
+  "slug": "distributed-spectrum",
+  "domain": "distributedspectrum.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own Series A announcement states \"we were able to close over $7M in contracts in a span of just 60 days across the US Department of Defense\"; AFRL SBIR contract on usaspending in news section.",
+  "disconnect_score": 32,
+  "subscores": {
+    "lab_language_intensity": 8,
+    "deployment_awareness_absence": 8,
+    "operator_absence": 5,
+    "hiring_profile_skew": 5,
+    "stage_pressure": 6
+  },
+  "score_evidence": [
+    "\"Deploy Everywhere / Detect Everything ... Hot-Swappable Commercial Components ... AI-Enabled Workflows For Experts\" — homepage is capability-brag headers with no operational constraints stated → lab_language_intensity",
+    "Series A letter is operationally fluent (\"Soldiers on the front lines are forced to use hobbyist lab equipment ... We cannot place large numbers of million-dollar sensors across the ocean and constantly deploy experts to operate them\") — keeps deployment/operator subscores low",
+    "Open role \"Mission Operations Engineer\" is a field-facing hire → hiring_profile_skew low"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "\"Hot-Swappable Commercial Components\" — COTS RF hardware chosen for cost has never seen salt fog, dust, 50°C heat, or gloved-hand swaps at an austere Pacific site; component hot-swap assumes a bench, not a berm.",
+      "operator_reality": "The E-5 maintaining a mesh node OCONUS has no spares pipeline for consumer SDR components and no RF expert on site; a dead $100 component with no MIL-spec substitute takes the node off the mesh until resupply.",
+      "why_likely_missing": "Their disruption thesis is cost ('bridges the gap between $100 off-the-shelf hardware and the existing $1M+ systems') — ruggedization and sustainment logistics cut directly against that pitch.",
+      "evidence_quote": "Hot-Swappable Commercial Components",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "\"Unlimited Downstream Integrations\" collides with the accreditation boundary: every DoD network their sensor data touches needs an ATO, and EW sensor data feeds (SIGINT-adjacent) carry classification and ITAR handling their public language never mentions.",
+      "operator_reality": "A vast detection mesh whose data can't cross into the mission network inside the funded period is a science project; integration in DoD means IL levels, cross-domain solutions, and prime/GFE backends, not APIs.",
+      "why_likely_missing": "Team is Raytheon/Lockheed engineering plus Google/Microsoft software pedigree; the compliance-side words (ATO, RMF, ITAR, CMMC) appear nowhere in ~1,400 words of their own language.",
+      "evidence_quote": "Unlimited Downstream Integrations",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "\"AI-Enabled Workflows For Experts\" targets experts while their own Series A letter argues legacy systems fail because they 'require co-located, trained experts' — the actual fielded user is a minimally-trained operator, and the training/sustainment chain for thousands of distributed nodes is unaddressed.",
+      "operator_reality": "At scale across the Pacific there is no expert per node; whoever is on site gets 20 minutes of training, and the workflow either survives that or the mesh degrades silently.",
+      "why_likely_missing": "Early contracts likely put their own engineers next to the sensor; the expert-in-the-loop assumption hasn't been stress-tested by a deployment they didn't attend.",
+      "evidence_quote": "AI-Enabled Workflows For Experts",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Distributed Spectrum's Series A letter says the US can't scatter million-dollar sensors and experts across the Pacific — yet every network a cheap mesh node's data touches still needs an ATO the funded clock rarely survives.",
+  "confidence": "high",
+  "stage_band": "series_a",
+  "what_they_do": "Builds low-cost AI-enabled RF sensors and software that detect and identify radio signals for electronic warfare and spectrum awareness."
+}

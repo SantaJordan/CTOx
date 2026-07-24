@@ -3,7 +3,7 @@ slug: physna-inc | domain: physna.com | HQ: Columbus, Ohio US | employees(LI): 2
 sources: sbir
 industry(LI): Software Development | specialties: object dna  computer software
 channel notes: SBIR PhII x1 [2023] Air Force latest: Geometric Deep Learning Technology for Supply Chain hq: Columbus,OH emp: 75
-own-language word count: ~791
+own-language word count: ~869
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -111,6 +111,72 @@ Parts
 Group Distance
 
 Back/Forward Distance
+
+Interaction 2: X-Ray
+
+Group 1 Opacity (Outer Shell)
+
+Group 2 Opacity (Inner Shell)
+
+Group 3 Opacity (Bearing Housing)
+
+Interaction 4: Orbit
+
+Bearing X
+
+Bearing Y
+
+Bearing Z
+
+Interaction 5: Compare
+
+Bearings X
+
+Bearings Y
+
+Bearings Z
+
+Bearings Spacing
+
+Model Groups
+
+Primary X
+
+Primary Y
+
+Primary Z
+
+Primary RotateX
+
+Primary RotateY
+
+Primary RotateZ
+
+AR X
+
+AR Y
+
+AR Z
+
+AR RotateX
+
+AR RotateY
+
+AR RotateZ
+
+AR Scale
+
+Compare X
+
+Compare Y
+
+Compare Z
+
+Compare RotateX
+
+Compare RotateY
+
+Compare RotateZ
 
 URL: https://www.physna.com/about-us
 About Us | Physna™

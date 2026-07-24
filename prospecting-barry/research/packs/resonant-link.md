@@ -390,7 +390,7 @@ Implants can be deeper for more precise tre
 Resonant Link Medical is an innovative medical technology company redefining wireless power and data transfer for implantable medical devices to help people get well and stay well. Resonant Link Medical’s unmatched technology platform Aurion WPT™ delivers uninterrupted wireless power that\'s up to 10x faster than conventional wireless over double the range. The platform combines core innovations in coils, power electronics, magnetics, and data transfer capabilities to enable smaller, smarter, and longer-lasting devices that advance how we treat chronic conditions and make new therapies possibl
 
 ## News (Exa, top 3)
-- xTech winner links wireless power to the Army (2023-05-03) https://www.army.mil/article/266345/xtech_winner_links_wireless_power_to_the_army
+- xTech winner links wireless power to the Army  | Article | The United States Army (2023-05-03) https://www.army.mil/article/266345/xtech_winner_links_wireless_power_to_the_army
   xTech winner links wireless power to the Army | Article | The United States Army
 
 # xTech winner links wireless power to the Army
@@ -406,22 +406,51 @@ By Anna Volkwine, Office of Army Prize Competitions and Army Applied SBIR Progra
 (Photo Credit: U.S. Army) VIEW ORIGINAL
 
 WASHINGTON – Resonant Link, a two-time winner of the U.S. Army’s xTech Program, is doing just what their name suggests — creating resonati
-- CONTRACT to RESONANT SCIENCES LLC () https://www.usaspending.gov/award/CONT_AWD_FA862019F4047_9700_FA862018G4051_9700
+- CONTRACT to RESONANT SCIENCES LLC | USAspending () https://www.usaspending.gov/award/CONT_AWD_FA862020F4229_9700_FA862018G4051_9700
   USAspending.gov
-- Resonant Link Raises $9.3 Million Investment for Wireless Charging Technology Powering the Future of Mobility (2022-02-02) https://www.businesswire.com/news/home/20220202005011/en/Resonant-Link-Raises-%249.3-Million-Investment-for-Wireless-Charging-Technology-Powering-the-Future-of-Mobility
-  Resonant Link Raises $9.3 Million Investment for Wireless Charging Technology Powering the Future of Mobility
+- Resonant Sciences Profile - HigherGov () https://www.highergov.com/awardee/resonant-sciences-llc-10017304/
+  Resonant Sciences Profile
 
-Feb 2, 2022 9:00 AM Eastern Standard Time
+HigherGov
 
-# Resonant Link Raises $9.3 Million Investment for Wireless Charging Technology Powering the Future of Mobility
+Notify
+
+- New Contract Awards
+- New Grant Awards
+
+Favorite
+
+Export
+
+- CSV
+- Excel
+
+Claim
 
 Share
 
----
+- Copy URL
+- Email
+- Tweet
 
-The Engine-led funding will fuel commercial deployment in medical devices and EVs
+Search Awardees Open Help Docs
 
-BURLINGTON, Vt.--(BUSINESS WIRE)-- Resonant Link, developer of a transformational wireless charging technology for medical devices and ele
+# Resonant Sciences
+
+UEI: NKL9CL1G6GR7 &#x2022 CAGE: 78V26
+
+- List
+- Text
+
+## Overview
+
+Awardee Type
+
+Parent
+
+Company Description
+
+Resonant Sciences is a research and development firm located in Dayton, Ohio focused on developing and transitioning innovative technologies and solutions to developmental an
 
 ## Open roles (Blitz, live)
 - Electrical Engineering Intern ({'city': 'Boston', 'country_code': 'US'})

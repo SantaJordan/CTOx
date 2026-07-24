@@ -129,36 +129,7 @@ Couldn’t sign in. If you are not sure what happened, please contact your organ
 Delta AI is a Scenario-Based Training platform that uses AI-enabled role-players tailor-made to accomplish your training and learning objectives.
 
 ## News (Exa, top 3)
-- Delta, GDIT, MTSI Win Big with $33B Contract for DoD Research and Development - ClearanceJobs (2024-11-15) https://news.clearancejobs.com/2024/11/15/delta-gdit-mtsi-win-big-with-33b-contract-for-dod-research-and-development/
-  Delta, GDIT, MTSI Win Big with $33B Contract for DoD Research and Development - ClearanceJobs
-
-## DEFENSE CONTRACTS VALUED AT $7.5 MILLION AND ABOVE
-
-## AIR FORCE
-
-Delta Resources Inc., Washington, D.C. (FA8075-25-D-0014); General Dynamics Information Technology Inc., Falls Church, Virginia (FA8075-25-D-0015); and Modern Technology Solutions Inc., Alexandria, Virginia (FA8075-25-D-0016), are being awarded a maximum $33,164,000,000 ceiling, indefinite-delivery/indefinite-quantity, multiple award 
-- Delta Point  lands $17M AI-Centric Workforce Management Platform contract to support Ware Department Cyber Workforce | OrangeSlices AI () https://orangeslices.ai/delta-point-lands-17m-ai-centric-workforce-management-platform-contract-to-support-ware-department-cyber-workforce/
-  Delta Point lands $17M AI-Centric Workforce Management Platform contract to support Ware Department Cyber Workforce | OrangeSlices AI
-
-- Defense Health Agency
-- US Air Force
-- US Army
-- US Navy
-
-- Centers for Medicare & Medicaid Services
-- Department of Health & Human Services
-- Defense Health Agency
-- Department of Veterans Affairs
-
-- Treasury Department
-- Securities and Exchange Commission
-
-- Department of Energy
-- Department of Transportation
-
-- Department of Justice
-- Federal Bureau of Inves
-- GDIT, 2 Others Win Spots on $33.2B Air Force R&D Contract (2024-11-15) https://www.govconwire.com/articles/air-force-dod-contract-award
+- GDIT, 2 Others Win $33.2B Air Force R&D Contract (2024-11-15) https://www.govconwire.com/articles/air-force-dod-contract-award
   GDIT, 2 Others Win $33.2B Air Force R&D Contract
 
 US Air Force Logo Solid Colour by the United States Air Force, Trademark & Licensing Office, Licensed under Public Domain
@@ -166,6 +137,37 @@ US Air Force Logo Solid Colour by the United States Air Force, Trademark & Licen
 Author: Kristen Smith || Date Published: November 15, 2024
 
 The U.S. Air Force has added Delta Resources, General Dynamics Information Technology and Modern Technology Solutions to the Pool 1 awardees on the potential $33.16 billion Information Analysis Center, or IAC, multiple-award contract to support research and developme
+- Delta AI | Agentic AI for training and task automation. () https://www.fairwaterlabs.com/company/delta-ai
+  Delta AI | Agentic AI for training and task automation.
+
+acquired
+
+# Delta AI
+
+Agentic AI for training and task automation.
+
+OverviewTeamFounder QuoteFounder Quote
+
+Visit Website
+
+## About
+
+Delta AI was founded to solve a problem its team experienced firsthand: the high cost, limited scalability, and inconsistent quality of traditional training in high-stakes environments. Drawing on deep operational experience across defense, business, and AI engineering domains, Delta AI is building a next-gen
+- delta ai (2026-06-24) https://learndelta.ai/
+  # Delta AI
+
+Delta AI is a Software Development company. Learn Delta is a company that is currently launching soon. Delta AI employs 3 people. Headquartered in Sandwich, Massachusetts, United States.
+
+## About
+
+Delta AI is a Scenario-Based Training platform that uses AI-enabled role-players tailor-made to accomplish your training and learning objectives. 
+
+## Company Details
+- Industry: Software Development
+- Type: Privately Held
+- Headquarters: Sandwich, United States
+- Homepage: learndelta.ai
+-
 
 ## Open roles
 (no jobs data found)

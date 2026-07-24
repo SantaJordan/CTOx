@@ -1,0 +1,44 @@
+{
+  "company": "Orbital Operations",
+  "slug": "orbital-operations",
+  "domain": "orbitalops.tech",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Company's own site and news explicitly frame Astraeus for 'satellite defense' and DoD-relevant missions ('Defense ready', 'patrol and protect U.S. assets in orbit, with the ability to intercept threats') — see 'Their own words' technology page and the $8.8M raise news item.",
+  "disconnect_score": 78,
+  "subscores": {"lab_language_intensity": 17, "deployment_awareness_absence": 18, "operator_absence": 17, "hiring_profile_skew": 12, "stage_pressure": 14},
+  "score_evidence": [
+    "'Astraeus maneuvers at mission speed, delivering intercept, defense, and repositioning capabilities without delay. Defense ready. Unmatched delta-V.' → lab_language_intensity (spec-sheet bravado, zero operational framing)",
+    "Thrust (lbf), Payload Hosting (kg), Delta-v (km/s) stat blocks with no ATO/RMF/DDIL/CMMC/ITAR language anywhere on the site → deployment_awareness_absence",
+    "Founding team bios (Ben Schleuniger, Ross Doherty, Nico Montoya) are 100% propulsion/manufacturing engineers from Relativity, Blue Origin, Aerojet — zero mention of operators, warfighters, training, or CONOPS anywhere in the pack → operator_absence",
+    "Open roles: 'Head of Business Development' and 'Fluids Design Engineer - Heat Exchangers' — the latter is a neutral domain-engineering hire per calibration rules, but no field/test/integration/compliance role appears → hiring_profile_skew",
+    "$8.8M seed raised Aug 2025, founded 2024, 22 employees, still building toward first flight ('The Road to Astraeus' milestones) → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "No mention of contested/degraded space command-and-control — the vehicle's tasking and comms links are assumed always-on.",
+      "operator_reality": "If Astraeus is meant to 'intercept threats' and 'reposition rapidly' during an actual conflict, the adversary jams the C2 uplink and GPS/PNT first — the same DDIL failure mode as ground systems, just applied to space; the site never addresses autonomous or degraded-comms operation.",
+      "why_likely_missing": "Founding team is entirely propulsion/turbomachinery engineers (Relativity, Blue Origin, Aerojet Rocketdyne) with no visible military-ops or cyber background.",
+      "evidence_quote": "Astraeus maneuvers at mission speed, delivering intercept, defense, and repositioning capabilities without delay.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No ATO/RMF/STIG or cybersecurity-accreditation language for a vehicle meant to interface with DoD ground stations and command networks.",
+      "operator_reality": "Flight/tasking software touching military networks needs an Authority to Operate before it can fly a real DoD mission — without RMF/STIG work started early, the promised 'hours not months' response collides with a compliance process that itself runs months to years.",
+      "why_likely_missing": "Messaging is aimed at investors/commercial partners (raise announcement, technology specs) rather than at the acquisition/compliance path required to actually fly on a government asset.",
+      "evidence_quote": "turning months of lead time into hours",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No mission-ops, sustainment, or ground-crew hiring or messaging — who tasks, monitors, and maintains a vehicle 'stationed in orbit' 24/7 once fielded.",
+      "operator_reality": "A persistent in-orbit defense asset still needs a trained mission-ops crew, GFE/SDA-system integration, and an anomaly-response/sustainment plan — none of which appears in hiring or site language; only BD and a heat-exchanger engineering role are open.",
+      "why_likely_missing": "Company is still pre-launch and hiring for build-out, not operations; ops planning likely hasn't started.",
+      "evidence_quote": "Head of Business Development ... Fluids Design Engineer - Heat Exchangers",
+      "quote_source": "job_post"
+    }
+  ],
+  "opener_hook": "Orbital Operations raised $8.8M in August 2025 to build Astraeus, a cryogenic vehicle pitched for satellite defense and threat interception — the two open roles right now are Business Development and a heat-exchanger engineer, with no ops or compliance hire yet.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Builds a high-thrust, cryogenic-propulsion space vehicle (Astraeus) for in-orbit satellite defense, repositioning, and threat interception."
+}

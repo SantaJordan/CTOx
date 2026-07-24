@@ -1,0 +1,20 @@
+{
+  "company": "GelSight",
+  "slug": "gelsight",
+  "domain": "gelsight.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Genuine DoD motion is present — News section: 'Awarded U.S. Air Force Phase II SBIR' (2026-03-10) and Modulus 'originally developed under Contract W911W6-23-C-0002 with DEVCOM Aviation & Missile Center' — but the same news shows the transition already happened.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "'From Army Depot to Factory Floor: GelSight's Modulus Reaches 100-Units Sold Milestone' → already fielded/commercialized, not stuck in the valley",
+    "'Flexible and powerful inspection technology commercializes at scale, validating dual-use potential of Army-funded R&D' → completed prototype-to-product transition",
+    "Online store with 17 priced SKUs plus a global value-added reseller network → mature revenue operation, founded 2011, 37 employees"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Handheld and robotic high-resolution tactile sensors that turn touch into 3D surface measurements for inspection, metrology and robot grasping."
+}

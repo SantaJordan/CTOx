@@ -210,18 +210,86 @@ Author: Nichols Martin || Date Published: July 16, 2020
 Hensel Phelps has won a $91.8M contract from the U.S. Army Corps of Engineers to help establish a facility at Hill Air Force Base in Utah for integrating the future intercontinental ballistic missile system.
 
 The project to build the integration hub for the Ground Based Strategic Deterrent mission drew nine bids, the Department of Defense said Wednesda
-- Machine vision systems integrator spotlight: Phelps2020 | Vision Systems Design (2015-10-30) https://www.vision-systems.com/embedded/article/16740744/machine-vision-systems-integrator-spotlight-phelps2020
-  Machine vision systems integrator spotlight: Phelps2020 | Vision Systems Design Defense & Aerospace (2085181)&quot;},{"id":2085180,"type":"Category","name":"Environment & Agriculture&quot;,"fullName":"Category: Non-Industrial Vision Environment & Agriculture (2085180)&quot;},{"id":2085178,"type":"Category","name":"Scientific & Industrial Research&quot;,"fullName":"Category: Non-Industrial Vision Scientific & Industrial Research (2085178)&quot;},{"id":2085173,"type":"Category","name":"Non-Industr
-- Contracts For Jan. 25, 2024 () https://www.war.gov/News/Contracts/Contract/Article/3656651/
-  \> U.S. Department of War \> Contract | U.S. Department of War
-[Skip to main content (Press Enter).](#skip-target)
-An official website of the United States Government
-Here's how you know**
-**Official websites use .gov**
-A**.gov**website belongs to an official government organization in the United States.
-**Secure .gov websites use HTTPS**
-A**lock (lock)**or**https://**means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
-* [](https://tw
+- CONTRACT to HENSEL PHELPS CONSTRUCTION CO () https://www.usaspending.gov/award/CONT_AWD_W9128F24C0009_9700_-NONE-_-NONE-
+  CONTRACT to HENSEL PHELPS CONSTRUCTION CO | USAspending
+
+# Contract Summary
+
+- Copy link
+- Email
+- X (Twitter)
+- Facebook
+- LinkedIn
+- Reddit
+
+Share
+
+---
+
+Download
+
+- Copy link
+- Email
+- X (Twitter)
+- Facebook
+- LinkedIn
+- Reddit
+
+Share
+
+## Definitive Contract
+
+View glossary definition of Definitive Contracts
+
+### PIID
+
+W9128F24C0009
+
+##### In Progress
+
+##### (3 months remain)
+
+---
+
+###### Awarding Agency
+
+##### Department of Defense (DOD)
+
+https://www.usaspending.gov/agency/department-of-defens
+- HENSEL PHELPS CONSTRUCTION CO - Department of Defense | Federal Contract Award | Propivix () https://propivix.com/federal-awards/hensel-phelps-construction-co-department-of-defense-w912dr19c0013-p00017/
+  HENSEL PHELPS CONSTRUCTION CO - Department of Defense | Federal Contract Award | Propivix
+
+FIRM FIXED PRICENO SET ASIDE USED.
+
+# HENSEL PHELPS CONSTRUCTION CO - ECB3 BASE BID
+
+PIID: W912DR19C0013Solicitation ID: W912DR17R0038
+
+Signed Date: Oct 24, 2025Effective Date: Mar 28, 2019End Date: Closed on Oct 16, 2024
+
+Award $
+
+$711.3M
+
+Vendor
+
+HENSEL PHELPS CONSTRUCTION CO
+
+NAICS
+
+236220
+
+Signed Date
+
+Oct 24, 2025
+
+## Key Details
+
+Dollars Obligated$711.3M
+
+Base & All Options
+
+Awarding Agency Departmen
 
 ## Open roles
 (no jobs data found)

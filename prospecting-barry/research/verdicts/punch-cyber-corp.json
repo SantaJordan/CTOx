@@ -1,0 +1,40 @@
+{
+  "company": "Punch Cyber Corp.",
+  "slug": "punch-cyber-corp",
+  "domain": "punchcyber.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "DARPA SBIR Phase II 2023 ($1,792,869) for the Replicant synthetic-user-persona platform (built on DARPA CHASE program work), a GSA Schedule 70 federal contract vehicle, and job openings for an 'Embedded Hardware Engineer – DCO Sensor Platform' and 'Field Technician – Tactical Cyber Deployment' — SBIR record and job listings.",
+  "disconnect_score": 38,
+  "subscores": {"lab_language_intensity": 8, "deployment_awareness_absence": 16, "operator_absence": 4, "hiring_profile_skew": 2, "stage_pressure": 8},
+  "score_evidence": [
+    "Job titles 'Field Technician – Tactical Cyber Deployment' and 'Embedded Hardware Engineer – DCO Sensor Platform' confirm a physically field-deployed sensor product, yet the ~1,532 words of site copy (CADO/FOCUS/SHADOWBOX descriptions, About, Contracts) never mention DDIL, intermittent comms, ATO, RMF, CMMC, or STIG once -> deployment_awareness_absence"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Job postings reveal a real forward-deployed DCO sensor platform ('Embedded Hardware Engineer – DCO Sensor Platform', 'Field Technician – Tactical Cyber Deployment'), but the product copy for CADO/FOCUS never addresses how sensor data gets back to an analyst when comms are degraded or denied.",
+      "operator_reality": "A DCO sensor physically deployed forward hits the DDIL problem by default — if FOCUS/CADO's analytics assume steady connectivity back to a SOC, the sensor's data goes dark exactly when the tactical site loses its link, which is the normal operating condition at the edge, not the exception.",
+      "why_likely_missing": "The public-facing product narrative (CADO, FOCUS, SHADOWBOX) is written for SOC/enterprise analyst audiences, while the field-deployment reality only surfaces in job titles — a sign the deployment engineering hasn't yet made it into the company's own positioning.",
+      "evidence_quote": "Field Technician – Tactical Cyber Deployment",
+      "quote_source": "job_post"
+    },
+    {
+      "blind_spot": "PUNCH holds a GSA Schedule 70 contract explicitly to give 'all federal agencies access' to its cyber services, but nothing in the pack mentions ATO, RMF, or CMMC — the actual gate between winning a contract vehicle and getting a tool onto an agency's network.",
+      "operator_reality": "A GSA Schedule listing gets PUNCH on the shelf; it does not get FOCUS or CADO authorized to run on an agency's network. A cyber-ops company this deep into federal sales with zero public ATO/RMF language may be treating authorization as a later problem rather than a day-one design constraint — exactly the gap that stalls a deal after the contract vehicle is already won.",
+      "why_likely_missing": "The GSA/contracts language is framed as a sales-access story ('allowing all federal agencies access'), not a technical-authorization story, suggesting the compliance work is handled ad hoc per engagement rather than built into the product.",
+      "evidence_quote": "PUNCH has been awarded a United States General Services Administration (GSA) Schedule 70 contract, allowing all federal agencies access to help meet their cyber security needs.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The Replicant SBIR abstract lists 'maturation of the management/orchestration interfaces and concept of operations documentation' as still-in-progress work partway through the two-year Phase II, with success framed around scaling to '500+ hosts' in exercises rather than analyst handoff.",
+      "operator_reality": "A synthetic-user-persona training tool that scales cleanly in a lab exercise still needs a finished CONOPS before a real SOC team can run it day-to-day without the original R&D team in the room — leaving CONOPS as a to-do item risks the classic SBIR trap: the technical demo succeeds, but the operational handoff never happens before Phase II funding runs out.",
+      "why_likely_missing": "The abstract's own priority list (OCR/NLP/CNN improvements, attacker-framework support, labeling precision) is entirely technical-capability-focused; CONOPS maturation is listed last and phrased as ongoing, not as a milestone with a committed deliverable date.",
+      "evidence_quote": "the maturation of the management/orchestration interfaces and concept of operations documentation",
+      "quote_source": "sbir_abstract"
+    }
+  ],
+  "opener_hook": "Your Replicant DARPA abstract lists 'maturation of ... concept of operations documentation' as still-in-progress work partway through this two-year Phase II — that's usually the piece that decides whether a SOC team ever actually runs the tool after the contract ends.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Cyber operations company blending SOC services (threat hunting, DevSecOps) with DARPA-funded R&D products (CADO workflow model, FOCUS LLM-powered analyst interface, Replicant synthetic-user-persona platform) and a field-deployed DCO sensor platform."
+}

@@ -1,0 +1,16 @@
+{
+  "company": "Salvus LLC",
+  "slug": "salvus-llc",
+  "domain": "salvusdetect.com",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "None found. 'Their own words' section markets the chembio detection platform exclusively to water utilities, food safety, animal health, agriculture, industrial, and human-health/point-of-care markets — no DoD/military/warfighter language anywhere. No SBIR/STTR record section is present in the pack (unlike comparable packs), and the News section's three hits are all about an unrelated company, 'Solvus Global LLC' (Worcester, MA, 3D-printing defense manufacturer) — a name-collision the instructions say to disregard. The pack's channel-notes metadata line claiming 'government use' UAV/UGV adaptation is not corroborated by the company's own site language, which mentions UGV/UAV form factors only in a generic adaptability list alongside monitoring stations.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "unknown",
+  "what_they_do": "Makes a handheld interferometric chemical/biological detection platform (licensed from Georgia Tech Research Institute) marketed to water, food safety, animal health, agriculture, industrial, and human-health customers."
+}

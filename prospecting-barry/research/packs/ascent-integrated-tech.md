@@ -3,7 +3,7 @@ slug: ascent-integrated-tech | domain: ascentitech.com | HQ: Chicago, Illinois U
 sources: exa-agent:tactical-mobile-edge|exa-agent:sensors-data-collection|sbir
 industry(LI): Technology; Information and Internet | specialties: 
 channel notes: Unknown Company reports $10.25M in Department of War funding. dom: mobile status: fielded dod: Ascent's WearTAK is a wrist-worn ATAK interface reported as fielded to tactical units, including the 77th Special Forces Group at Kirtland AFB. hq: Chicago, IL emp: 15 src: https://ascentitech.com/ || Series A Approximately $8M-$10M reported, including SBIR/DoD development funding. dom: sensors status: fielded dod: Its WearTAK wearable provides physiological, gunshot, and UAS-acoustic sensing and is fielded across military units including the Air Force and 3rd Infantry Division. hq: Chicago, Illinois emp: 15 src: https://ascentitech.com/ || SBIR PhII x1 [2022] Air Force latest: Optimizing Emergency Response and Operator Readiness through Low SWAP-C Sensors and Command Portal hq: Champaign,IL emp: 5
-own-language word count: ~1608
+own-language word count: ~1189
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -290,50 +290,12 @@ Yes No
 Submit
 
 URL: https://www.youtube.com/watch?v=4T4BnCs63b4
-# WearTAK Tutorial Video
+WearTAK Tutorial Video - YouTube
 
-- Channel: Alex Gorsuch
-- Length: 11:56
-- Views: 303
-- Likes: 5
-- Published: 2026-02-06T10:49:17-08:00
-- Category: People & Blogs
-- Language: en
-
-## Chapters
-
-- 00:00 Introduction
-- 01:00 Set Callsign
-- 01:53 Set Role
-- 02:24 Set Team
-- 02:42 Add TAK Server
-- 03:55 Add WiFi or WiFi-enabled MANET Radio
-- 04:38 Call Manual Alert
-- 06:00 Clear Manual Alert
-- 06:26 Drop MIL-STD-2525D Point
-- 07:20 Clear MIL-STD-2525D Point
-- 08:00 Quick Chat
-- 09:25 Physiology
-- 10:20 Viewing Current Physiology Metrics on WearTAK
-- 10:25 Accepting a Bloodhound order
-- 11:25 Clearing a Bloodhound order
-- 11:44 Closing
-
-## Transcript
-
-Welcome to the Wearac quick start guide.
-Wearac isn't just a simple TAC tracker.
-It's a high-speed way to onboard you to the situation awareness possibilities of the entire tactical assault ecosystem but scaled to your wrist. Wear tac was designed so you keep your eyes on the fight, not on the phone in your chest rig. As I'm walking through wear tac, I will also be showing changes propagated on tac so you can see the power of the tac ecosystem.
-On your left, you'll see the wear tac interface as I walk through changes while on the right you will see on tac which is typically what your bo or other big screen tac user will utilize. If you have a watch running wear tac, please feel free to stop and pause as needed so you can follow through on your own watch. So let's start with the basics of initial setup. When others use TAC, you are represented by your call sign, role, and team. I'm going to show you how to set those up. First, your call sign.
-This could be unique to you, your duty post, whatever your command or server administrator tells you to use.
-To change it, select call sign, select call sign again, and then click on what's there.
-and make a change. I'm going to rename my watch temporarily Odin watch. Click to confirm and save changes.
-Now you can see my watch's call sign on tac is reflected.
-Second, let's set your role. So these are set by the TAC product center divided between Mill and Leo. To change it, select call sign again. Now Odin watch.
-Select roll. After scrolling down, select the specific user role that meets your needs and set it. So right now it was call sign. You can see that on the right on TACX. I'm going to change it to forward observer.
-Exit out and save. And you can see my icon changed.
-Now let's set your team. Again, these are set by the tag products.
-To change it, select call sign, select team, and
+WearTAK Tutorial Video - YouTube
+[](https://www.youtube.com/)[](https://www.youtube.com/)
+[About](https://www.youtube.com/about/)[Press](https://www.youtube.com/about/press/)[Copyright](https://www.youtube.com/about/copyright/)[Contact us](https://www.youtube.com/t/contact_us/)[Creators](https://www.youtube.com/creators/)[Advertise](https://www.youtube.com/ads/)[Developers](https://developers.google.com/youtube)[Terms](https://www.youtube.com/t/terms)[Privacy](https://www.youtube.com/t/privacy)[Policy & Safety](https://www.youtube.com/about/policies/)[How YouTube works](https://www.youtube.com/howyoutubeworks?utm_campaign=ytgen&utm_source=ythp&utm_medium=LeftNav&utm_content=txt&u=https://www.youtube.com/howyoutubeworks?utm_source=ythp&utm_medium=LeftNav&utm_campaign=ytgen)[Test new features](https://www.youtube.com/new)[NFL Sunday Ticket](https://tv.youtube.com/learn/nflsundayticket)
+&copy; 2026 Google LLC
 
 URL: https://docs.google.com/presentation/d/1gcfP7KW7cqARISXyr2hHkew8JsduoeWie1Nmm8hcbio/edit?slide=id.g2c762563782_6_0#slide=id.g2c762563782_6_0
 WearTAK Quad - Google Slides
@@ -351,7 +313,16 @@ Share
 [Sign in](https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://docs.google.com/presentation/d/1gcfP7KW7cqARISXyr2hHkew8JsduoeWie1Nmm8hcbio/edit?slide=id.g2c762563782_6_0&followup=https://docs.google.com/presentation/d/1gcfP7KW7cqARISXyr2hHkew8JsduoeWie1Nmm8hcbio/edit?slide=id.g2c762563782_6_0&ltmpl=slides&ec=GAZAmQI)
 File
 Edit
-V
+View
+Insert
+Tools
+Help
+Accessibility
+Debug
+Unsaved changes to Drive
+Accessibility
+Comment only
+[HTML view of the presentation](https://docs.google.com/presentation/d/1gcfP7KW7cqARISXyr2hHkew8JsduoeWie1Nmm8hcbio/htmlpresent)
 
 ## LinkedIn about
 
@@ -363,22 +334,6 @@ Architected 65 warfighter-driven tactical workflows within the WearTAK system, f
 This AFWERX Direct to Phase II project will focus on the development of a unifying platform for Incident Command. The platform can provide tracking in GPS-denied environments, biometric monitoring, and hands-free communication through detecting and informing the Incident Commander of potential mayday scenarios with enough time to make a critical difference. We can integrate our sensor modules into existing third-party Personal Protective Equipment solutions to provide actionable data insights into the health, environment, and location of operators in high-risk environments. This project will fund the development of 1) location tracking and Machine Learning model for floorplan generation; 2) biometric and environmental monitoring, and operator readiness metric to view across shift; 3) build-in system for assets and terrain tracking; 4) user experience improvements through direct exposure of our technology to airmen, and understand needs and constraints of airmen vs. local national vs. civil service vs. contractor; 5) integrate best incident command system practices.
 
 ## News (Exa, top 3)
-- Ascent Integrated Tech | Client Showcase (2024-05-16) https://www.evagarland.com/showcase/ascent-integrated-tech/
-  Ascent Integrated Tech | Client Showcase | Eva Garland Consulting
-
-# Ascent Integrated Tech
-
-Protecting Those in Harm’s Way: Ascent Integrated Technology Secures $7.3M to Advance Warfighter Readiness
-
-Client: Ascent Integrated Tech . Location: Chicago, Illinois Sector: Software . Link: ascentitech.com
-
-$7.3M
-
-Non-dilutive funding awarded
-
----
-
-In high-risk environments, those on the front lines often lack real-time visibility into their own health and surroundings—creating critical gaps in safet
 - Ascent Integrated Tech (TQU9MDZC4YA7) () https://www.highergov.com/awardee/ascent-integrated-tech-llc-12736666/
   Ascent Integrated Tech (TQU9MDZC4YA7)
 
@@ -424,14 +379,22 @@ Ascent improves the safety and efficiency of first responders and warfighters by
 Name
 
 Ascent Integr
-- weartak (2026-06-28) https://ascentitech.com/
-  # WearTAK (AI Tech Holdings)
+- Indianapolis Fire Department Implements Innovative Technology to Enhance Firefighter Safety - Ascent Integrated Tech (2024-09-19) https://ascentitech.com/company-news/indianapolis-fire-department-implements-innovative-technology-to-enhance-firefighter-safety/
+  Indianapolis Fire Department Implements Innovative Technology to Enhance Firefighter Safety - Ascent Integrated Tech
 
-WearTAK is a Technology, Information and Internet company. WearTAK™ increases operator safety with real-time information sharing and tactical control from a wrist-mounted smartwatch, proven in military and civilian deployments. WearTAK employs 15 people (+20.0% YoY, +3 people), founded in 2020. Headquartered in Chicago, Illinois, United States, with presence in Germany. Has $8.3M in total funding, with 7 prior funding rounds.
+# Indianapolis Fire Department Implements Innovative Technology to Enhance Firefighter Safety
 
-## About
+Indianapolis Fire Department Battalion Chief Dale Rolfson oversees the successful pilot deployment of location tracking technology from Ascent Integrated Tech.
 
-- Architected 65 warfighter-d
+Ascent Integrated Tech is pleased to announce a pilot deployment of its on-scene accountability technology with the Indianapol
+- Ascent Integrated Tech Successfully Deploys Location Tracking System with Lincoln Fire Department - Ascent Integrated Tech (2024-06-26) https://ascentitech.com/company-news/ascent-integrated-tech-successfully-deploys-location-tracking-system-with-lincoln-fire-department/
+  Ascent Integrated Tech Successfully Deploys Location Tracking System with Lincoln Fire Department - Ascent Integrated Tech
+
+# Ascent Integrated Tech Successfully Deploys Location Tracking System with Lincoln Fire Department
+
+On June 26th, Ascent Integrated Tech proudly marked a significant milestone by successfully deploying our location tracking system with the Lincoln Fire Department.
+
+On June 26th, Ascent Integrated Tech proudly marked a significant milestone by successfully deploying our loc
 
 ## Open roles
 (no jobs data found)

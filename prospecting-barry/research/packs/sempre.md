@@ -267,46 +267,38 @@ Announcement
 The multi-award IDIQ positions SEMPRE to provide the comprehensive digital infrastructure required for the next-generation missile defense, resilient communications, and distributed sensing across the Golden Dome enterprise.
 
 Colorado Springs, CO — SEMPRE today announced that it has been selected as an awardee on t
-- Partnership with technology company achieves ... (2024-03-06) https://www.afgsc.af.mil/News/Article-Display/Article/3697441/partnership-with-technology-company-achieves-communication-node-effectiveness-a/
-  Partnership with technology company achieves communication node effectiveness ahead of schedule > Air Force Global Strike Command AFSTRAT-AIR > Article Display
+- Partnership with technology company achieves communication node effectiveness ahead of schedule  > Kirtland Air Force Base > Article Display () https://www.kirtland.af.mil/News/Article-Display/Article/3697885/partnership-with-technology-company-achieves-communication-node-effectiveness-a/
+  Partnership with technology company achieves communication node effectiveness ahead of schedule > Kirtland Air Force Base > Article Display
 
-An official website of the United States government
+Skip to main content (Press Enter).
 
-Here's how you know
+# 230418-F-FZ712-4792
 
-Official websites use .mil
+Combat Operations Division Airmen provide bomber command and control support 24/7 within the 608th Air Operations Center during U.S Strategic Command's Global Thunder exercise.
 
-A .mil website belongs to an official U.S. Department of Defense organization in the United States.
+Photo Details/ Download Hi-Res
 
-Secure .mil websites use HTTPS
+BARKSDALE AIR FORCE BASE, La. --
 
-A lock ( ) or https:// means you’ve safely connected to the .mil website. Share sensitive information on
-- SEMPRE to Deliver Resilient Communication Nodes to Air Force (2024-03-07) https://www.executivegov.com/articles/sempre-to-deliver-resilient-communication-nodes-to-air-force
-  SEMPRE to Deliver Resilient Communication Nodes to Air Force
+Air Force Global Strike Command launched a $1.8M partne
+- Sempre () https://www.sempre.ai/news/sempre-earns-sbir-iii-funding-with-afgsc
+  Sempre
 
-No Result
+Back to news
 
-View All Result
+# SEMPRE earns SBIR III funding with AFGSC
 
-No Result
+SEMPRE
 
-View All Result
+Jan 15, 2025
 
-No Result
+Announcement
 
-View All Result
+SEMPRE has entered a Phase III Small Business Innovation Research (SBIR) agreement with the Air Force Global Strike Command (AFGSC) to provide secure 5G cellular networks, on-site edge compute and private local cloud. This agreement, effective Nov. 1, funds SEMPRE’s continued development and deployment of hardened communication infrastructure to strengthen AFGSC’s operational capabilities.
 
-# SEMPRE to Deliver Resilient Communication Nodes to Air Force
+‍
 
-in Contract Awards, News
-
-Air Force Global Strike Command has awarded a two-year tactical funding increase contract to SEMPRE, a provider of secure communications infrastructure for the U.S. military, to help the command deploy resilient communication nodes.
-
-Table of Contents
-
-Toggle
-
-###
+S
 
 ## Open roles
 (no jobs data found)

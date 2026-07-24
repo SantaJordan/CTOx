@@ -1,0 +1,17 @@
+{
+  "company": "All Vision Technologies",
+  "slug": "all-vision-technologies",
+  "domain": "all.vision",
+  "verdict": "insufficient_evidence",
+  "drop_reason": "",
+  "dod_intent_evidence": "Channel notes cite multiple Air Force SBIR Phase I/II awards (~$1.2M, sbir.gov portfolio link) and their LinkedIn about says 'contractor to the federal government from 2022 to the present'; the website has a one-line Defense blurb.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "unknown",
+  "what_they_do": "6-person 'industrial systems integrator' claiming ML and deployed autonomy across construction, logistics, security, manufacturing, and defense.",
+  "notes": "Own-language word count ~256 (<500): the site is five one-sentence category blurbs duplicated twice, and no SBIR abstracts are in the pack. All three news items are about different companies (Ascent Vision Technologies of Bozeman, MT and Vision Technologies LLC) — evidence contamination, do not credit them. Cannot honestly score deployment-awareness absence on this little product description."
+}

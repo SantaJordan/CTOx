@@ -203,7 +203,11 @@ Developed based on breakthrough technology from MIT’s Institute for Soldier Na
 Tactical counter-UAS (c-UAS) systems have emerged to protect the warfighter from that which is otherwise undetectable, increasing safety and mission efficacy in the field. These devices can be carried and deployed on foot by no more than two soldiers such that aerial protection can be obtained anywhere and at any time. Power sources remain as the primary inhibitor, often severely limiting the tactical functions of the system as a whole: manufacturers across the board have expressed issues with the size and weight of current battery packs, solar panels, and generators, as well as the reliability of small internal combustion engine generators. Furthermore, the inability to continuously provide power for an entire mission, often days or weeks at a time, reduces battery and solar panel effectiveness in practice even further. Overall, no power system exists that can provide mobile and reliable power consistently for counter-UAS applications. Mesodyne’s Light-Cell technology would maximize tactical counter-UAS systems’ potential by providing silent power in any environment and at any moment.   Mesodyne’s ultra-high energy density, efficient, silent, reliable Light-Cell power generators increase energy sustainment 10X over batteries alone. The Light-Cell efficiently converts any fuel to electricity with no moving parts, achieving energy densities of 1000-2000 Wh/kg. The solid state design means significantly improved reliability over internal combustion engines and quiet operation. Multi-fuel operation means ease of refueling over fuel cells and minimal overhead decreasing cost of operation. Simply put, Mesodyne enables the rapid deployment of power for a variety of scale and scope infrastructure.   In this AFWERX Phase II proposal we plan to adapt our Light-Cell for c-UAS applications requiring 200-300 W of electricity in a man-portable form factor.  This multi-purpose generator can provide on the go power generation by recharging batteries in a multitude of scenarios in addition to powering c-UAS systems including: on the warfighter, at forward deployed communications outposts, in autonomous drone charging stations, in remote unattended ground sensors, and more. Mesodyne would expect to be at TRL 6 by the end of the Phase II effort with this particular application. The final deliverable will be a modular unit capable of demonstration outside of the laboratory environment.
 
 ## News (Exa, top 3)
-- Mesodyne awarded Army Phase II SBIR contract for integration of LightCell power generator into UAS system () https://www.mesodyne.com/article/mesodyne-awarded-army-phase-ii-sbir-contract-for-integration-of-lightcell-power-generator-into-uas-system
+- Mesodyne Wins $4.25M Contract for Tactical Power ... (2026-05-18) https://www.linkedin.com/posts/mesodyne_mesodyne-to-develop-next-generation-power-activity-7462135744124489728-fETE
+  # Mesodyne is thrilled to announce a $4.25 million contract to develop Tactical Expeditionary Silent Power Generation for USSOCOM 's Science and Technology Directorate. Leveraging our advanced thermophotovoltaic technology, we will deliver portable, … | Mesodyne · LinkedIn · 2026-05-18
+
+**Mesodyne**: Mesodyne is a company that develops cutting-edge, military-grade power generation based on breakthrough technology from MIT's Institute for Soldier Nanotechnologies. Their ready, rugged LightCell by
+- Mesodyne awarded Army Phase II SBIR contract for ... (2025-02-03) https://www.mesodyne.com/article/mesodyne-awarded-army-phase-ii-sbir-contract-for-integration-of-lightcell-power-generator-into-uas-system
   Mesodyne awarded Army Phase II SBIR contract for integration of LightCell power generator into UAS system
 
 February 3, 2025
@@ -211,27 +215,10 @@ February 3, 2025
 # Mesodyne awarded Army Phase II SBIR contract for integration of LightCell power generator into UAS system
 
 Mesodyne, a leading defense technology startup and the developer of solid-state portable power generators for small unmanned autonomous vehicles and mobile platforms, announced today that it was awarded a Phase II SBIR through the Army xTech SBIR Autonomy program. O
-- Mesodyne Wins $4.25M Contract for Tactical Power ... (2026-05-18) https://www.linkedin.com/posts/mesodyne_mesodyne-to-develop-next-generation-power-activity-7462135744124489728-fETE
-  # Mesodyne is thrilled to announce a $4.25 million contract to develop Tactical Expeditionary Silent Power Generation for USSOCOM 's Science and Technology Directorate. Leveraging our advanced thermophotovoltaic technology, we will deliver portable, … | Mesodyne · LinkedIn · 2026-05-18
+- Mesodyne awarded Army Phase II SBIR contract for integration of LightCell power generator into UAS system - MassRobotics (2025-02-03) https://www.massrobotics.org/mesodyne-awarded-army-phase-ii-sbir-contract-for-integration-of-lightcell-power-generator-into-uas-system/
+  Mesodyne awarded Army Phase II SBIR contract for integration of LightCell power generator into UAS system - MassRobotics
 
-**Mesodyne**: Mesodyne is a company that develops cutting-edge, military-grade power generation based on breakthrough technology from MIT's Institute for Soldier Nanotechnologies. Their ready, rugged LightCell by
-- NATO Accelerator Program Includes Two U.S. Firms For Prototyping, Potential Adoption - Defense Daily (2026-05-29) https://www.defensedaily.com/nato-accelerator-program-includes-two-u-s-firms-for-prototypes/advanced-transformational-technology/
-  NATO Accelerator Program Includes Two U.S. Firms For Prototyping, Potential Adoption - Defense Daily
-
-:
-
-Search
-
-- Space
-- Army
-- Navy/USMC
-- Air Force
-- Business/Financial
-- Commentary
-
-Mesodyne says its LightCell efficiently converts any liquid or gaseous conventional fuel (e.g., hydrogen, propane, gasoline, diesel, jet fuel, and more) to electricity. Photo: Mesodyne
-
-A NATO defense innovation accelerator on Friday said it has awarded small contracts to five vendors, including two U.S. compani
+Mesodyne, a leading defense technology startup and the developer of solid-state portable power generators for small unmanned autonomous vehicles and mobile platforms, announced today that it was awarded a Phase II SBIR through the Army xTech SBIR Autonomy program. Over the course of the next 18 months, Mesodyne will partner with a drone manufacturer to integrate its novel the
 
 ## Open roles (Blitz, live)
 - Embedded Controls Engineer -- Thermal/Fluid Systems ({'city': 'Indiana', 'country_code': 'US'})
@@ -239,11 +226,11 @@ A NATO defense innovation accelerator on Friday said it has awarded small contra
 - Embedded Systems Engineer -- FreeRTOS ({'city': 'Key Biscayne', 'country_code': 'US'})
 - Forward Deployed Engineer at a Defense-Tech Startup ({'city': 'Sound', 'country_code': 'GB'})
 - Embedded Controls Engineer -- Thermal/Fluid Systems ({'city': None, 'country_code': 'US'})
+- Embedded Controls Engineer -- Thermal/Fluid Systems ({'city': None, 'country_code': 'US'})
 - Power Electronics & Hardware Design Engineer ({'city': 'Key Biscayne', 'country_code': 'US'})
 - Embedded Systems Engineer -- FreeRTOS ({'city': 'Key Biscayne', 'country_code': 'US'})
 - Forward Deployed Engineer at a Defense-Tech Startup ({'city': 'Sound', 'country_code': 'GB'})
 - Mechanical Engineer at an energy startup -- prototyping, integration, and testing ({'city': 'Somerville', 'country_code': 'US'})
-- Power Electronics & Hardware Design Engineer at an Energy Startup ({'city': 'Somerville', 'country_code': 'US'})
 
 ---
 # Context for the scoring agent (do not re-search)

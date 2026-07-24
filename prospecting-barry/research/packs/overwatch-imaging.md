@@ -391,18 +391,20 @@ NUWC Newport Division [DoD - USN - NAVSEA - NUWC]
 NAICS
 
 541715 - Research and Development in the Ph
-- Overwatch Imaging Awarded Phase II SBIR by the U.S. Navy (2025-07-14) https://finance.yahoo.com/news/overwatch-imaging-awarded-phase-ii-214100818.html
+- Overwatch Imaging Awarded Phase II SBIR by the U.S. Navy (2025-07-14) https://www.businesswire.com/news/home/20250714426193/en/Overwatch-Imaging-Awarded-Phase-II-SBIR-by-the-U.S.-Navy
   Overwatch Imaging Awarded Phase II SBIR by the U.S. Navy
 
-Oops, something went wrong
-
-This is a paid press release. Contact the press release distributor directly with any inquiries.
+Jul 14, 2025 5:41 PM Eastern Daylight Time
 
 # Overwatch Imaging Awarded Phase II SBIR by the U.S. Navy
 
+Share
+
+---
+
 Contract Work Will Deliver Automated AI-Powered Imagery Intelligence Solution
 
-HOOD RIVER, Ore., July 14, 2025--(BUSINESS WIRE)-- Overwatch Imaging, a leader in automated airborne intelligence technology, has been awarded a Phase II Small Business Innovati
+HOOD RIVER, Ore.--(BUSINESS WIRE)-- Overwatch Imaging, a leader in automated airborne intelligence technology, has been awarded a Phase II Small Business Innovation Research (SBIR) contract by the U.S. Navy (USN) to develop and demonstrate AI-enab
 
 ## Open roles (Blitz, live)
 - Production Technician ({'city': 'Hood River', 'country_code': 'US'})

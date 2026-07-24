@@ -1,0 +1,51 @@
+{
+  "company": "Gallatin AI",
+  "slug": "gallatin-ai",
+  "domain": "gallatin.ai",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Army PORTAL Direct-to-Phase-II SBIR (March 2026), an 18-month III Armored Corps contract to deploy and refine Navigator (June 2026), and a DIU Joint Sustainment Decision Tool award for USAREUR-AF (July 2026), plus Tradewinds 'Awardable' status (News + newsroom).",
+  "disconnect_score": 35,
+  "subscores": {
+    "lab_language_intensity": 6,
+    "deployment_awareness_absence": 5,
+    "operator_absence": 3,
+    "hiring_profile_skew": 11,
+    "stage_pressure": 10
+  },
+  "score_evidence": [
+    "\"We've built complex models that reflect how resupply truly functions in operational contexts—not how it works in a lab\" → lab_language_intensity LOW (they explicitly reject the lab framing)",
+    "\"whether data comes from a LOGSTAT, JBC-P message, an embedded sensor, or other variants of inventory and resupply requests\" → deployment_awareness_absence LOW (fluent in the actual Army reporting and mission-command plumbing)",
+    "Blog titled \"Navigator in Arctic Conditions: What We Learned at JPMRC 26-02\" and press item \"Gallatin Launches Navigator for Deployment into Palantir Environments, Allowing Instant Use with Data and Security Controls\" → deployment_awareness_absence LOW (they went to a real combat training center rotation and solved the accreditation path deliberately)",
+    "\"Navigator is your AI S4, supercharging logistician analysis ... enabling Brigade and below\" → operator_absence VERY LOW (the user is named by MOS-equivalent staff role and echelon)",
+    "Ten live open roles — \"Senior Manager, Marketing Communications\" x2, \"Technical Product Manager, Navigator\", \"Senior Product Manager, Navigator\" x2, \"Strategy Operations Associate, Growth\" x4, \"Mission Development Manager\" — contain no engineering, field service, deployment, or ISSO/security role → hiring_profile_skew (above 10, quoted here)",
+    "Founded 2024, $15M seed announced April 2025, 58 employees across three offices, no Series A announced against a growing contract footprint → moderate stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The fast path to a network — deploying inside Palantir Foundry — makes Navigator's availability equal to Foundry's availability at the echelon they claim to serve",
+      "operator_reality": "Riding an existing Foundry instance is the smartest accreditation shortcut in defense software and it buys months. It also means the product only exists where Foundry exists, and Foundry is a corps- and division-level reality far more than a brigade-and-below one. A battalion S4 in a tent at JPMRC does not have it. It also means the accreditation Navigator depends on is controlled by someone else: when the sponsor's boundary, license, or instance changes, Gallatin's fielding schedule changes with it and there is no independent authorization to fall back on. The hedge is a standalone, self-accreditable build for the echelon in the tagline — which is a second product, not a config flag.",
+      "why_likely_missing": "The Palantir path worked, and it worked fast enough (Aug 2025 to three contracts by mid-2026) that the coupling reads as an asset rather than a dependency.",
+      "evidence_quote": "Gallatin Launches Navigator for Deployment into Palantir Environments, Allowing Instant Use with Data and Security Controls",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The product promise is 'real-time', but the tactical bearer they name is JBC-P — and the interesting question is what the S4 sees at hour fourteen",
+      "operator_reality": "JBC-P rides a satellite bearer measured in kilobits, and a brigade support area goes long stretches with no LOGSTAT arriving at all. A tool whose value is real-time consumption tracking has to be trustworthy when its freshest input is half a day old, when three reports arrive out of order, and when one of them contradicts the other two. That means surfacing data age and confidence next to every recommendation, degrading the projection explicitly rather than silently, and reconciling late-arriving reports without rewriting a plan the commander already briefed. Their public language runs the other way — 'real-time' appears in nearly every product paragraph and staleness appears in none.",
+      "why_likely_missing": "The demo and the exercise both happen where the pipe works; the disconnected case is the one you discover on the fourth week of a rotation, not the first.",
+      "evidence_quote": "Navigator delivers real-time predictive insights and dramatically accelerates resupply decisions ... provides real-time insight into demand and consumption across all supply classes",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "An 18-month deployment with III Corps spans a full training and rotation cycle, and nobody is being hired to own the field side of it",
+      "operator_reality": "Over eighteen months the S4 shop that learned Navigator turns over, the unit goes to a CTC and comes back, and a new BSB inherits a tool with whatever tribal knowledge survived. Sustained adoption at that timescale needs a training package, a POI, an on-site engineer during exercises, and someone answering the 0200 question during a rotation. Ten open roles are marketing, product, growth and business development — the functions that win the next contract, not the ones that keep the current one alive through a personnel turnover. This is exactly how a well-liked pilot quietly stops being used before the option year.",
+      "why_likely_missing": "At 58 people with three awards landing in five months, hiring naturally chases the next award; field sustainment has no line item until renewal season.",
+      "evidence_quote": "Gallatin AI today announced it has been awarded a contract by the US Army's III Armored Corps to deploy and refine Navigator, its AI-native logistics decision support suite, in direct support of III Corps exercises and operational planning over the next 18 months.",
+      "quote_source": "news"
+    }
+  ],
+  "opener_hook": "Between March and July 2026 Gallatin landed Army PORTAL, an 18-month III Corps deployment and a DIU award for USAREUR-AF, and the ten roles open right now are marketing, product management and growth — none of them a deployment or field engineer, over a period in which the S4 shop that learns Navigator will turn over at least once.",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Builds AI decision-support software for military logistics — Navigator for resupply planning at brigade and below, plus a DoD-compliant 3PL layer (Burrow) and sensor-based asset visibility (Phalanx)."
+}

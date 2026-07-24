@@ -3,7 +3,7 @@ slug: maybell-quantum | domain: maybellquantum.com | HQ: Denver, Colorado US | e
 sources: vc:decisive-point
 industry(LI): Computer Hardware Manufacturing | specialties: 
 channel notes: quantum computing infrastructure (dilution refrigerators)
-own-language word count: ~1428
+own-language word count: ~1247
 
 ## Their own words (website via Exa, livecrawl-preferred)
 
@@ -196,137 +196,14 @@ The ColdCloud is designed with Maybell’s unmatched commitment to system excell
 March 12, 2026The ColdCloud® platform delivers up to 10x efficiency improvement,
 
 URL: https://maybellquantum.com/products/fast-fridge
-Fast Fridge | Maybell 
 
-# TheFastFridge
+ 301 Moved Permanently 
+ 
+ 301 Moved Permanently 
+ openresty 
+ 
+ 
 
-## Fast turnaround, low cost, maximum flexibility
-
-The Fast Fridge is affordable, flexible, and quick so you can iterate faster and get from idea to impact faster.
-
-Contact us → View specs ↓
-
-## Lowest cost
-
-### Maximize your research budget with the most affordable path to millikelvin temperatures, without compromising performance.
-
-Lower acquisition cost than competing dilution refrigerators
-
-Reduced infrastructure requirements with compact footprint and integrated systems (e.g., no liquid nitrogen)
-
-Minimal maintenance costs with self-regenerating traps and maintenance-free pumps
-
-Energy-efficient design that cuts electricity consumption and cooling water requirements
-
-## Maximum flexibility
-
-### Adapt quickly to changing research priorities with a system designed for versatility and rapid reconfiguration.
-
-Configurable 30mK or 10mK base temperature and custom shielding
-
-Quick-swap wire loaders allows experiments to be prepared in parallel and swapped in minutes
-
-Upgradable design lets you use the same wire tree for the Fridge+ or Big Fridge with no modifications
-
-## Fastest cooldown
-
-### The Fast Fridge is purpose-built for high-throughput experimentation and rapid characterization—all with minimal downtime.
-
-24-hour turn around from room temperature to base temperature and back
-
-Streamlined thermal path with reduced thermal mass for maximum efficiency
-
-Automated cooldown sequences with state-based triggers so that every sample is cooled as quickly as possible
-
-Specification
-
-Fast Fridge (30 mK)
-
-Fast Fridge (10 mK)
-
-Fridge
-
-Base temperature
-
-<30 mK
-
-<10 mK
-
-<10 mK
-
-Cooling power at 20 mK
-
-N/A
-
-14 μW expected,12 μW guaranteed
-
-16 μW expected,14 μW guaranteed
-
-Cooling power at 100 mK
-
-300 μW expected,250 μW guaranteed
-
-300 μW expected,250 μW guaranteed
-
-500 μW expected,400 μW guaranteed
-
-Mixing plate area
-
-289 mm x 310 mm
-
-289 mm x 310 mm
-
-368 mm x 366 mm
-
-Sample space
-
-300 mm or 600 mm
-
-300 mm or 600 mm
-
->300 mm
-
-Wire insert area
-
->280 cm2
-
->280 cm2
-
->800 cm2
-
-SMA coaxial line count
-
->100
-
->100
-
->250
-
-SMPS Flexline count
-
->350
-
->350
-
->1,000
-
-Next-gen Flexline count
-
->1,000
-
->1,000
-
->4,000
-
-## Obsessively designed & tested
-
-### Unmatched reliability
-
-No scroll pumps, no solder joints or acid flux, no indium or epoxy, 90% reduction in rubber gaskets (compared with leading competitor), and self-regenerating helium traps
-
-### User-centric design
-
-Front-opening access, integrated workspace, and intuitive controls tha
 
 URL: https://maybellquantum.com/products/fridge
 Fridge | Maybell
@@ -367,7 +244,105 @@ Parallel front-loading wiring inserts allow complete wiring assemblies to be pre
 
 All-around accessibility eliminates blind spots and provides a similar experience to traditional systems
 
-## Co
+## Compact footprint
+
+### Take advantage of more experimental capacity in less laboratory space.
+
+Utilizes only 10-20% of the floor space required by comparable systems
+
+No overhead superstructure required, allowing installation in standard-height laboratories
+
+Fits within two standard 19" racks with 9U of space for your electronics
+
+Reduced infrastructure requirements for cooling water, electricity, and HVAC
+
+Specification
+
+Fast Fridge (10 mK)
+
+Fridge
+
+Fridge+
+
+400 μW1,000 μW
+
+Base temperature
+
+<10 mK or 30 mK
+
+<10 mK
+
+<10 mK
+
+Cooling power at 20 mK
+
+14 μW expected,12 μW guaranteed
+
+16 μW expected,14 μW guaranteed
+
+16 μW expected,14 μW guaranteed
+
+30 μW expected,28 μW guaranteed
+
+Cooling power at 100 mK
+
+300 μW expected,250 μW guaranteed
+
+500 μW expected,400 μW guaranteed
+
+500 μW expected,400 μW guaranteed
+
+1,100 μW expected,1,000 μW guaranteed
+
+Mixing plate area
+
+289 mm x 310 mm
+
+368 mm x 366 mm
+
+495 mm x 392 mm
+
+Sample space
+
+300 mm or 600 mm
+
+>300 mm
+
+600 mm
+
+Wire insert area
+
+>280 cm2
+
+>800 cm2
+
+>850 cm2
+
+SMA coaxial line count
+
+>100
+
+>250
+
+>300
+
+SMPS Flexline count
+
+>350
+
+>1,000
+
+>1,200
+
+Next-gen Flexline count
+
+>1,000
+
+>4,000
+
+>5,000
+
+##
 
 ## LinkedIn about
 
@@ -414,14 +389,10 @@ SBIR
 Phase II
 
 ### Awa
-- MAYBELL QUANTUM INDUSTRIES, INC. | Federal Award Recipient Profile () https://www.usaspending.gov/recipient/975e2571-a000-1f32-4291-d05ef3c167f4-C/latest
-  USAspending.gov
+- Maybell Quantum Announces $25M Series A Funding Led by Cerberus - Cerberus Capital Management (2024-03-04) https://www.cerberus.com/media/maybell-quantum-announces-25m-series-a-funding-led-by-cerberus/
+  Maybell Quantum Announces $25M Series A Funding Led by Cerberus - Cerberus Capital Management
 
-# --
-
----
-
-Loading
+DENVER, CO – March 4, 2024 – Maybell Quantum (“Maybell”), the quantum infrastructure company, has closed a $25 million funding round led by an affiliate of Cerberus Capital Management, L.P. (“Cerberus”), a global leader in alternative investing. This investment marks the start of a pivotal chapter in Maybell’s development. With Cerberus’ financial backing and operational support, Maybell intends to sca
 
 ## Open roles (Blitz, live)
 - Associate Product Engineer ({'city': 'Denver', 'country_code': 'US'})

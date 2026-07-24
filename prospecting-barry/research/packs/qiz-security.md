@@ -239,7 +239,7 @@ BOOK A DEMO
 QIZ was founded by serial entrepreneurs to address one of the most urgent challenges security leaders face today: managing the emerging cryptography challenges and preparing for the transition to Post Quantum Cryptography (PQC). QIZ helps organizations to align cryptographic management and PQC readiness with real world risks and compliance demands. With over 6 years PQC field experience and +100 organizations that we’ve worked with on PQC readiness, we offer the market first next generation Crypto Agility platform. Backed by some of the world\'s most prominent VC’s, we enable organizations to 
 
 ## News (Exa, top 3)
-- QIZ Security Raises $17M Seed to Lead Cyber Readiness ... (2026-07-09) https://www.prnewswire.com/news-releases/qiz-security-raises-17m-seed-to-lead-cyber-readiness-for-the-post-quantum-era-302820074.html
+- QIZ Security Raises $17M Seed to Lead Cyber Readiness for the Post-Quantum Era (2026-07-09) https://www.prnewswire.com/news-releases/qiz-security-raises-17m-seed-to-lead-cyber-readiness-for-the-post-quantum-era-302820074.html
   QIZ Security Raises $17M Seed to Lead Cyber Readiness for the Post-Quantum Era Accessibility Statement Skip Navigation
 
 Seed round led by Bessemer Venture Partners and Merlin Ventures, with participation from Evolution Equity Partners, Qbeat Ventures, Singtel Innov8, and Qino Cyber Capital. The funding will accelerate QIZ's rapid growth, market expansion, and leadership in cryptographic posture and Post Quantum Cryptography (PQC).

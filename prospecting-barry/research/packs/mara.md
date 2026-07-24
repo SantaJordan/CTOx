@@ -402,10 +402,6 @@ Privacy Policy Cookie Policy
 Mara builds autonomous, short-range, AI-powered robotic defense systems.
 
 ## News (Exa, top 3)
-- mara () https://www.linkedin.com/company/mara-defense
-  # mara (Mara Solutions, Inc.)
-
-mara is a Defense and Space Manufacturing company. Mara is a company that brings an unfair advantage to the line of contact for sentient ammunition that kills fpv drones. They offer portable, low-cost protection from coordinated, radio-silent fpv drone attacks, designed from the ground up for rf-contested, GPS-denied environments. They provide persistent 360 protection and. Mara employs 9 people (+160.0% YoY, +8 people), founded in 2024. Headquartered in San Franci
 - Mara - a16z speedrun () https://speedrun.a16z.com/companies/mara
   Mara - speedrun
 
@@ -440,6 +436,14 @@ Maris-Tech Awarded a Government Defense Contract as Prime Contractor
 Company expands beyond its core edge video and AI portfolio with a contract to develop and supply a military standard (“MIL-STD”) vehicle-mounted audio-based system for armored fighting vehicles
 
 Rehovot, Israel, June 26, 2026 (GLOBE NEWSWIRE) -- Maris-Tech Ltd. (Nasdaq: MTEK, MTEKW) (“Maris-Tech” or the “Company”), a provider of advanced defense technology solutions, today announced that it has been awarded a go
+- Contracts for July 1, 2026 (2026-07-01) https://www.war.gov/News/Contracts/Contract/Article/4531882/contracts-for-july-1-2026/
+  Contracts for July 1, 2026 > U.S. Department of War > Contract | U.S. Department of War
+
+Skip to main content (Press Enter).
+
+ARMY
+
+AeroVironment Inc., Simi Valley, California, was awarded a $500,000,000 firm-fixed-price contract for the procurement of commercial counter-unmanned aerial systems and counter small-unmanned aerial systems capabilities. Work locations and funding will be determined with each order, with an estimated completion date of June 29, 2029. Army Contracting Command, Detroit
 
 ## Open roles (Blitz, live)
 - Wargamer (Robotics Simulation Engineer) ({'city': 'San Francisco', 'country_code': 'US'})

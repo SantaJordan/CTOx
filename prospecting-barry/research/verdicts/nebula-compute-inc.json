@@ -1,0 +1,25 @@
+{
+  "company": "NEBULA COMPUTE, INC.",
+  "slug": "nebula-compute-inc",
+  "domain": "nebulacompute.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "AFWERX Direct-to-Phase II Space Force SBIR contract ($1,246,661, 2023) for on-orbit cloud computing 'closing the kill web faster' per the SBIR abstract and News section (AccessNewswire, Nov 2023).",
+  "disconnect_score": 86,
+  "subscores": {"lab_language_intensity": 20, "deployment_awareness_absence": 19, "operator_absence": 19, "hiring_profile_skew": 10, "stage_pressure": 18},
+  "score_evidence": [
+    "'Empower The Universe With Information... We deliver unparalleled high-performance computing capabilities to space' → lab_language_intensity",
+    "'Data Centers will be in space by 2027' with zero ATO/RMF/CMMC/ITAR language anywhere despite an active DoD Space Force contract → deployment_awareness_absence",
+    "'Nebula's Executive Team is comprised of industry experts driven by enthusiasm and an entrepreneurial spirit' — no operator, warfighter, or field-feedback language anywhere on the site → operator_absence",
+    "Five 'sister companies' (Fabrx, Nebula Cybersecurity, Nebula Compute, Nebula Incubator, Nebula Media) claiming to 'achieve secure superiority in space' run by a 4-5 person team holding one Direct-to-Phase II award → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Promises 'data-center-grade' on-orbit servers with zero discussion of the actual space environment's power/thermal/radiation constraints", "operator_reality": "SWaP-C in space is not optional — launch mass, power budget, and radiation hardening determine whether 'data-center-grade' compute is even physically possible on orbit; the site never engages with this, only the end-state vision", "why_likely_missing": "messaging is entirely aspirational/pre-launch ('Data Centers will be in space by 2027') with no visible hardware engineering detail", "evidence_quote": "We deliver unparalleled high-performance computing capabilities to space", "quote_source": "homepage"},
+    {"blind_spot": "NebuCyber sister company claims to 'deliver managed space security operations for Department of Defense capabilities on Nebula Compute Contracts' with zero ATO/RMF/CMMC/ITAR mention anywhere in the corporate family", "operator_reality": "A company handling DoD compute and cybersecurity workloads must clear security accreditation before any operational unit can trust it with data — silence on this while claiming DoD-facing contracts across five entities is the exact 'dead transition' risk pattern", "why_likely_missing": "corporate structure emphasizes vision and advisor pedigree (retired generals, an astronaut) over a visible compliance or ISSO function", "evidence_quote": "NebuCyber delivers managed space security operations for Department of Defense capabilities on Nebula Compute Contracts", "quote_source": "homepage"},
+    {"blind_spot": "'Space-based and quantum powered' cybersecurity claims for a company whose core compute product hasn't launched", "operator_reality": "Unfalsifiable lab-brag layered onto pre-product hardware means an operator evaluating this for the 'kill web' has no way to validate performance claims before committing program funding and schedule to it", "why_likely_missing": "advisory board is stacked with credibility (Lt. Gen., astronaut, space-industry veterans) that substitutes for demonstrated technical readiness", "evidence_quote": "NebuCyber is space-based and quantum powered with more sensor data, computing power, and accuracy than competitors in the industry", "quote_source": "homepage"}
+  ],
+  "opener_hook": "Nebula Compute's AFWERX Direct-to-Phase II Space Force contract targets 'closing the kill web faster' — worth asking how a still-pre-launch on-orbit server clears an ATO before the 2027 target.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Developing on-orbit cloud computing servers (ServerSats) to bring data-center-grade compute to space under a Space Force AFWERX Direct-to-Phase II SBIR contract, alongside four other 'sister companies' spanning cybersecurity, blockchain-based space data infrastructure, media, and an incubator."
+}

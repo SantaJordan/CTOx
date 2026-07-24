@@ -1,0 +1,43 @@
+{
+  "company": "Falkonry",
+  "slug": "falkonry",
+  "domain": "falkonry.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "USAF AFWERX SBIR Phase II (2019) plus a strategic funding increase citing 'a 3X increase in DoD customers' (news section), and their own LinkedIn about states they 'improve situational awareness in the military' — genuine, sustained defense motion.",
+  "disconnect_score": 29,
+  "subscores": {"lab_language_intensity": 4, "deployment_awareness_absence": 2, "operator_absence": 5, "hiring_profile_skew": 11, "stage_pressure": 7},
+  "score_evidence": [
+    "'For SIPR/JWICS environments or highly restricted corporate networks, Falkonry can be deployed fully disconnected' — fluent, specific classified-deployment language → deployment_awareness_absence scored low",
+    "'analyzes data directly at the source - even in disconnected or tactical environments' → deployment_awareness_absence scored low (DDIL-aware)",
+    "Live roles are 'Systems Software Engineer' and 'Software Engineer' in Mumbai Metropolitan Region, IN, for a product whose flagship deployments are SIPR/JWICS airgaps — zero field-deployment, ISSO, or compliance roles posted → hiring_profile_skew",
+    "Series A dates to 2018 ($16.7M total, channel notes) with a 35-person team and no fresh round in the news section → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Engineering center of gravity is offshore while the differentiated deployments are classified airgaps",
+      "operator_reality": "Mumbai-based engineers cannot touch SIPR/JWICS installs, ITAR-adjacent telemetry, or on-site sustainment — every classified deployment lands on whatever tiny cleared US contingent exists, which becomes the single point of failure for patching, model updates, and outage response in disconnected enclaves.",
+      "why_likely_missing": "The commercial platform business runs fine offshore; the structural mismatch only bites as the DoD install base grows.",
+      "evidence_quote": "For SIPR/JWICS environments or highly restricted corporate networks, Falkonry can be deployed fully disconnected in your private cloud or on standalone hard",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "'Weeks, not years' delivery promise collides with accreditation timelines they never name",
+      "operator_reality": "They cite SOC2 for cloud, but a government airgap or GovCloud install still needs RMF accreditation and an ATO on the receiving network — the calendar is owned by the DAO, not by Falkonry's deployment tooling, and the promise sets program expectations the accreditation process will break.",
+      "why_likely_missing": "Their compliance vocabulary is commercial (SOC2, regulatory-grade); RMF/ATO/IL levels never appear in their language.",
+      "evidence_quote": "delivering proven, regulatory-grade intelligence in weeks, not years",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No-code 'every engineer' model ownership assumes an operator population the military sustainment site doesn't have",
+      "operator_reality": "CBM+ sites run on E-5 maintainers with 20 minutes of training, not process/reliability engineers who iterate models — in an airgapped enclave with no vendor reachback, model drift and retraining have no named owner, and the tool quietly decays into ignored alerts.",
+      "why_likely_missing": "Their commercial buyers (steel mills, plants) really do staff reliability engineers; the military manning model is different and their language never distinguishes it.",
+      "evidence_quote": "Democratize analytics with powerful no-code/low-code tools, enabling engineering teams to understand as well as improve their systems and operations.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Falkonry's deployment page offers fully disconnected SIPR/JWICS installs while both of its live software engineering requisitions sit in Mumbai — which usually means a single cleared engineer owns every classified deployment end to end.",
+  "confidence": "high",
+  "stage_band": "series_a",
+  "what_they_do": "No-code time-series AI platform that turns sensor and telemetry data into anomaly detection and condition monitoring, from cloud to airgapped tactical edge."
+}

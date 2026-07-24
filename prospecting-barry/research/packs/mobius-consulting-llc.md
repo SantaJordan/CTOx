@@ -335,11 +335,6 @@ Mobius is an award winning, Small Business Administration (SBA) certified Histor
 The Mobius Team is comprised of Mobius Consulting, LLC and our subcontractor, Parsons Government Services.  Team Mobius will develop a prototype of an Integrated Digital Engineering Framework (DEF) capable of performing as an  Modeling, Simulation and Analysis (MS&A) Testbed.  This testbed facilitates the formation of traceable requirements and seamlessly supports the assessment of military utility, enables the conduct of trade studies and maintains data repositories for historical reconstruction. The data and resultant architectures produced from our solution will contribute to the balancing and coordination of an integrated NDSA.  This ensures NDSA acquisition requirements are well vetted, coordinated, and interoperable with other space stakeholders to include the US Space Force, Space Systems Command, USSPACECOM, NRO, NGA, and others.   The Department of Defense and Commercial industry has previously proven the scientific and technical merit of DEFs and the need for Model Based Systems Engineering.  On top of these best practices, the Mobius Team has shown the feasibility of our solution through the development of a similar architecture and assessment environment for a missile defense mission.  That solution was implemented in a networked environment federating a full suite of missile, threat, and space sensor models and simulations to support an integrated MS&A testbed. Our proposed solution uses a best of breed combination of Commercial-off-the-Shelf (COTS)/Government-off-the-Shelf (GOTS) and custom developed analysis tools to achieve an end-to-end MS&A design for comprehensive engineering and analysis solution, providing a Digital Engineering Framework (DEF) supporting distributed developers, engineers, and analysts.  Employing a DEF, the Mobius Team provides a Science and Technology (S&T) testbed environment supporting a true Digital Ecosystem. Our Digital Ecosystem includes application of Digital Engineering, Distributed Multi-disciplinary Engineering, Digital Twinning, Distributed Modeling and Simulation, and Model Based Systems Engineering; and can federate existing or newly generated COTS, GOTS, and custom space system models. Our technical solution has been implemented in multiple IT domains, including classified networks,  and can be developed on local and cloud-based architectures, and provides “Modeling-as-a-Service” through cloud computing via a browser interface on users desktop computers.
 
 ## News (Exa, top 3)
-- Mobius Wins $64 Million Award for Missile Defense Agency ... (2021-07-20) https://mobius-llc.com/headlines/mobius-wins-64-million-award-for-missile-defense-agency-intelligence-and-counter-insider-threat-support
-  Mobius Wins $64 Million Award for Missile Defense Agency Intelligence and Counter Insider Threat Support — mobius
-# [![mobius](https://images.squarespace-cdn.com/content/v1/54c1c127e4b0bad937255f55/1441380358248-JBW4QVVIV1X30FIUWQR1/mobius+logo_white+letters_transparent.png?format=1500w)](https://mobius-llc.com/)
-[Guest User](https://mobius-llc.com/headlines?author=6570a2ed3b6681583da87845)
-[July 20, 2021](https://mobius-llc.com/headlines//mobius-wins-64-million-award-for-missile-defense-agency-
 - HQ085821C0013 () https://www.highergov.com/contract/HQ085821C0013/
   DEI LABOR Subaward for Mobius Consulting LLC (HQ085821C0013)
 
@@ -380,6 +375,11 @@ Definitive Contract
 Government Description
 
 Dei labor. The team next intelligence contract supports the Missile Defense Agency's (MDA) mission to develop, test, and field an integrated, layered Missile Defense System (MDS) to defend the United
+- Mobius Wins $64 Million Award for Missile Defense Agency ... (2021-07-20) https://mobius-llc.com/headlines/mobius-wins-64-million-award-for-missile-defense-agency-intelligence-and-counter-insider-threat-support
+  Mobius Wins $64 Million Award for Missile Defense Agency Intelligence and Counter Insider Threat Support — mobius
+# [![mobius](https://images.squarespace-cdn.com/content/v1/54c1c127e4b0bad937255f55/1441380358248-JBW4QVVIV1X30FIUWQR1/mobius+logo_white+letters_transparent.png?format=1500w)](https://mobius-llc.com/)
+[Guest User](https://mobius-llc.com/headlines?author=6570a2ed3b6681583da87845)
+[July 20, 2021](https://mobius-llc.com/headlines//mobius-wins-64-million-award-for-missile-defense-agency-
 - Parsons-Mobius JV Wins $567M Contract for MDA Test Services - GovCon Wire (2021-06-18) https://www.govconwire.com/articles/parsons-mobius-jv-to-provide-mda-test-support-under-new-567m-contract
   Parsons-Mobius JV Wins $567M Contract for MDA Test Services - GovCon Wire
 

@@ -266,28 +266,26 @@ II. GENERAL INFORMATION ABOUT THE COLLECTION AND PROCESSING OF YOUR DATA
 Sema4.ai provides a comprehensive enterprise AI agent platform that enables organizations to build, run, and manage AI agents at scale. Our platform empowers business users to create intelligent agents using natural language, connects agents to enterprise applications and data through pre-built actions and universal connectivity, and provides complete lifecycle management with enterprise-grade security and governance. Sema4.ai is trusted by leading enterprises to transform business operations through autonomous, intelligent agents that work 24/7 with complete transparency and control.
 
 ## News (Exa, top 3)
+- Sema4.ai raises $25M in funding for its AI agent platform (2025-06-04) https://siliconangle.com/2025/06/04/sema4-ai-raises-25m-funding-ai-agent-platform/
+  Sema4.ai raises $25M in funding for its AI agent platform - SiliconANGLE
+
+SHARE
+
+UPDATED 18:00 EDT / JUNE 04 2025
+
+AI
+
+### Sema4.ai raises $25M in funding for its AI agent platform
+
+Sema4.ai, a startup with a platform for building and managing artificial intelligence agents, today disclosed that it has raised $25 million in funding.
+
+The capital was provided through an extension of a Series A round that the company first announced last January. That original investment was provided by Benchmark 
 - sema4.ai (2026-06-25) https://sema4.ai/
   # Sema4.ai (Sema4.ai, Inc.)
 
-Sema4.ai is a Software Development company. Sema4.ai is an enterprise AI agent company that offers AI solutions to automate tasks, boost productivity, and drive smarter decisions. Sema4.ai employs 35 people (-13.8% YoY, -8 people), founded in 2024. Headquartered in Atlanta, Georgia, United States, operates in 6 countries (including Finland, Latvia, Canada, India, and Monaco). Has $55.5M in total funding, with 1 prior funding round.
+Sema4.ai is a Software Development company. Sema4.ai is an enterprise AI agent company that offers AI solutions to automate tasks, boost productivity, and drive smarter decisions. Sema4.ai employs 35 people (-13.8% YoY, -8 people), founded in 2024. Headquartered in Atlanta, Georgia, United States. Its workforce is distributed across 6 countries (including United States, Finland, Latvia, Canada, and India). Has $55.5M in total funding, with 1 prior funding round.
 
-## About
-
-Sema4.ai provides a comp
-- Sema4.ai Secures $30.5 Million to Bring AI to Enterprises (2024-01-29) https://www.pymnts.com/news/investment-tracker/2024/sema4-ai-secures-30-5-million-to-bring-ai-to-enterprise-work/
-  PYMNTS | Sema4.ai Secures $30.5 Million to Bring AI to Enterprises
-
-# Sema4.ai Secures $30.5 Million to Bring AI to Enterprise Work
-
-By PYMNTS| January 29, 2024
-
-Share on Facebook Tweet This Post Share on LinkedIn Share via Email|
-
-Artificial intelligence (AI) company Sema4.ai has secured $30.5 million in funding to bring open source-powered AI to enterprise work.
-
-## Get the Full Story
-
-Complete the form to unlock this article and enjoy unlimited free access to all PYMNTS content — no additiona
+## 
 - Sema4.ai Launches Enterprise AI Agent Platform That ... (2025-06-04) https://sema4.ai/newsroom/enterprise-ai-agent-platform-runs-natively-snowflake/
   Sema4.ai Launches Enterprise AI Agent Platform That Runs Natively on Snowflake | Sema4.ai
 
@@ -297,9 +295,10 @@ Back to newsroom
 
 June 4, 2025
 
+- Blog
 - Sema4.ai’s Team Edition makes it easy for teams to build, test, and deploy Sema4 Agents directly into Snowflake with a single click.
 
-- Powered by Anthropic Claude via Snowflake Cortex AI, Team Edition offers features like seamless deployment, multi-source data integration, and greater extens
+- Powered by Anthropic Claude via Snowflake Cortex AI, Team Edition offers features like seamless deployment, multi-source data integration, and greater
 
 ## Open roles (Blitz, live)
 - Account Manager ({'city': 'Atlanta', 'country_code': 'US'})

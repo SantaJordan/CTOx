@@ -1,0 +1,42 @@
+{
+  "company": "Q-Net Security",
+  "slug": "q-net-security",
+  "domain": "qnetsecurity.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Air Force SBIR Phase III IDIQ (August 2025) for protecting tactical-edge communications including airborne WANs, air-to-air links, and mobile ad-hoc networks supporting Agile Combat Employment, plus a USCYBERCOM red-team exercise validation — News section and homepage testimonial.",
+  "disconnect_score": 59,
+  "subscores": {"lab_language_intensity": 8, "deployment_awareness_absence": 15, "operator_absence": 12, "hiring_profile_skew": 10, "stage_pressure": 14},
+  "score_evidence": [
+    "'Compliance certified — FIPS-140 and NSA/NIST post-quantum guidelines' -> deployment_awareness_absence: compliance is framed entirely in civilian NIST/FIPS terms; ATO, RMF, CMMC, and IL4/IL5 never appear once despite the company now selling onto DoD tactical networks",
+    "Testimonials come from an 'International Telecom Executive,' 'USCYBERCOM Exercise Chief,' 'Major US Utility Senior Network Administrator,' and 'Power Industry Consortium Principal Cybersecurity Manager' -> operator_absence: every named validator is a civilian/enterprise administrator; no warfighter or tactical operator voice appears anywhere despite the new airborne/MANET contract",
+    "'Q-Net Security Secures a SBIR Phase III IDIQ Contract with the U.S. Air Force to Protect Tactical Edge Communications' (Aug 2025) at a 13-person, decade-old (2015) Series A company -> stage_pressure: a small team just took on a materially new domain (airborne WANs, air-to-air links, MANET, ACE) via an IDIQ that guarantees no task orders"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The Q-Box is validated as a 'bump-in-the-wire' device for fixed infrastructure (power grid PLC/RTU/sensors), but nothing in the pack addresses size, weight, or power for an airborne WAN or air-to-air link platform — a fundamentally different SWaP-C envelope.",
+      "operator_reality": "A device sized and powered for a substation cabinet is not automatically sized and powered for an aircraft or a MANET radio pack; without published evidence of ruggedization or power-envelope work for the new tactical-edge contract, the jump from 'utility bump-in-the-wire' to 'airborne WAN' is unaddressed engineering risk hiding behind reused marketing language.",
+      "why_likely_missing": "Every product claim and testimonial in the pack (power grid, telecom, USCYBERCOM smart-city exercise) validates the fixed-infrastructure use case; none validate the airborne/tactical-edge use case the Air Force contract just added.",
+      "evidence_quote": "A silicon encryption device — no processor, no OS, no software — that drops directly in line on the ethernet segment of the device it protects.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "All five customer testimonials are civilian or enterprise administrators — none are military operators — despite the company just winning a tactical-edge Air Force contract covering airborne WANs and mobile ad-hoc networks.",
+      "operator_reality": "A 'set and forget' pitch that lands well with a fixed power-grid administrator may face a completely different adoption story with an aircrew or ground MANET operator who has to trust the device under EW conditions and combat tempo — the pack shows no evidence Q-Net has yet gathered or published that operator-level validation for the new domain.",
+      "why_likely_missing": "The Phase III IDIQ was only announced in August 2025; the public testimonial set still reflects the company's original critical-infrastructure/enterprise customer base rather than the new DoD tactical-edge use case.",
+      "evidence_quote": "The gear we have in place at the plant is still operational and has been working properly without issue. — Major US Utility Senior Network Administrator",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Compliance claims are framed entirely as FIPS-140 and NSA/NIST post-quantum guidance — civilian cryptographic certification — with zero mention of ATO, RMF, CMMC, or IL4/IL5 anywhere in the pack, even as the company moves onto DoD tactical networks.",
+      "operator_reality": "FIPS-140 certification proves the crypto module itself is sound; it does not grant an Authority to Operate on a DoD network or an Agile Combat Employment communications architecture. Treating NIST/FIPS certification as sufficient for DoD fielding is a common Valley-of-Death misstep, and nothing in the pack shows the RMF/ATO conversation has started.",
+      "why_likely_missing": "The company's compliance messaging was built for its original enterprise/critical-infrastructure buyers, where FIPS-140 and NIST guidance are the relevant bar — that messaging hasn't yet been updated for a DoD-network buyer where ATO/RMF is the actual gate.",
+      "evidence_quote": "Unmatched cybersecurity ... Compliance certified — FIPS-140 and NSA/NIST post-quantum guidelines.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Every customer quote on your site is a telecom executive or a utility network administrator — your new Air Force Phase III covers airborne WANs and MANET, and there's no operator-level validation story for that domain on the page yet.",
+  "confidence": "medium",
+  "stage_band": "series_a",
+  "what_they_do": "Silicon-based, processor-less hardware encryption device (Q-Box) that bump-in-the-wire protects point-to-point network links, proven in utility/critical-infrastructure and telecom deployments, now transitioning via an Air Force SBIR Phase III IDIQ into protecting tactical-edge communications (airborne WANs, air-to-air links, MANET)."
+}

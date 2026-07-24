@@ -1,0 +1,16 @@
+{
+  "company": "Mobius Logic, Inc",
+  "slug": "mobius-logic-inc",
+  "domain": "mobiuslogic.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "n/a — dropped as disqualified type before scoring. (For reference: real DoD motion exists — USAF SBIR Phase II 2023 $1.25M for SKYBORG/AACO counter-autonomy work, Army AI/ML contract 2026, 9 total SBIR awards since 2019 worth $8.5M at a 200% Phase I-to-II conversion rate — but the company explicitly self-identifies as a services firm.)",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "22-person, 20-year-old applied-AI IT consultancy self-described as 'an applied Services Company that builds and deploys operational systems' across Energy, Defense, Finance, and Healthcare, with a long-running (since 2019) and highly successful SBIR/STTR track record (9 awards, $8.5M, 200% Phase I-to-II conversion) — a mature, diversified government/commercial services firm, not an early-stage prototype-stuck-in-the-valley company."
+}

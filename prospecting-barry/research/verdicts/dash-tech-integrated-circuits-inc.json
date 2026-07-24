@@ -1,0 +1,44 @@
+{
+  "company": "DASH TECH INTEGRATED CIRCUITS, INC.",
+  "slug": "dash-tech-integrated-circuits-inc",
+  "domain": "dashtechic.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Two DoD SBIR Phase IIs — DARPA 'DASH - I/O' 2023 ($1.77M, abstract explicitly targets 'critical DoD applications' and 'transition partners') and SDA 'COCHON - LS' 2024 ($1.2M) per the SBIR/news sections; $2.97M total, all Phase II. Product company (SoC), not a machine shop or mill.",
+  "disconnect_score": 68,
+  "subscores": {"lab_language_intensity": 16, "deployment_awareness_absence": 12, "operator_absence": 14, "hiring_profile_skew": 10, "stage_pressure": 16},
+  "score_evidence": [
+    "'ASIC-level performance with out-of-the-box adaptability' and 'producing a demonstration-capable SoC' — performance-brag and demo framing, professor-led team with 200+/600+ papers cited as credentials → lab_language_intensity",
+    "Abstract shows transition awareness ('enable substantial transition opportunities and address feedback from potential transition partners') but zero mention of ITAR, trusted foundry, mil-spec/rad qualification, or security accreditation for a chip aimed at DoD comms/sensing and an SDA award → deployment_awareness_absence",
+    "Applications page lists only commercial markets — 'Next Gen Communications... Autonomous Vehicles... Health Sensors... Augmented Reality... Positioning and Navigation' — no operator, platform, or mission appears anywhere in their language → operator_absence",
+    "No jobs data in pack → hiring_profile_skew set exactly 10",
+    "Two Phase II clocks (2023 DARPA, 2024 SDA), SBIR reports 5 employees, both co-CEOs are full-time university professors (ASU, Michigan), $0 Phase I / no visible follow-on capital → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "A DARPA-funded tapeout yields a demonstration-capable chip, not a fieldable part — the qualification gulf (mil-temp screening, radiation tolerance for the SDA use, packaging, trusted supply chain) is unmentioned and is where the schedule dies",
+      "operator_reality": "A processor going onto a space or tactical platform must survive environments and screening regimes that add years; a demo SoC from a one-off TAPO run cannot be bought by a program office as-is, so months-to-field blows past the funded period",
+      "why_likely_missing": "Academic founders optimize for architectural novelty and publishable performance; qualification and production are someone else's problem until the Phase II option expires",
+      "evidence_quote": "we use this design on a DARPA-funded TAPO run, producing a demonstration-capable SoC",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "Adoption of a novel accelerator depends on a prime's embedded engineers learning a proprietary toolchain — and there is no training, documentation, or sustainment story for that transition partner",
+      "operator_reality": "The integration engineer at the prime under schedule pressure will default to the FPGA or GPU they know unless the DASH software stack arrives with reference designs, support, and someone to call; a 5-person professor-led company cannot staff that",
+      "why_likely_missing": "They frame the software framework as removing the barrier ('automates the traditionally complex task'), assuming tooling alone converts a transition partner",
+      "evidence_quote": "The DASH Software framework automates the traditionally complex task of mapping application tasks to accelerators and scheduling execution, reducing the barrier to new workload adoption.",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "Public-facing identity is aimed at commercial markets while revenue is 100% DoD — no ITAR/export posture, no defense program framing, and no advocacy chain visible beyond the DARPA/SDA program managers funding them",
+      "operator_reality": "When the Phase II PM rotates or the program ends, there is no named platform, prime relationship, or acquisition sponsor to carry the chip across; a GoDaddy site listing 'Health Sensors' and 'Augmented Reality' gives a defense champion nothing to advocate with",
+      "why_likely_missing": "Hedging between commercial and defense markets is the classic university-spinout posture; it reads as not committing to the deployed defense environment",
+      "evidence_quote": "Next Gen Communications... Autonomous Vehicles... Health Sensors... Augmented Reality... Positioning and Navigation",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "DASH Tech holds $2.97M across DARPA and SDA Phase IIs for a DoD edge SoC, while dashtechic.com pitches health sensors and augmented reality — and neither the site nor the abstracts mention qualification, ITAR, or a named transition platform.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "University-spinout chip company (ASU/Michigan professors) building a reconfigurable domain-adaptive SoC for sensing and communications edge processing, funded entirely by DARPA/SDA SBIR Phase IIs."
+}

@@ -318,58 +318,6 @@ Phase II
 DOW
 
 Branch: ARMY
-- Contract W912CG24C0016 Unknot.Id () https://www.highergov.com/contract/W912CG24C0016/
-  Contract W912CG24C0016 Unknot.Id -- --
-
-HigherGov
-
-Pipeline
-
-FOIA
-
-Track
-
-Favorite
-
-No Bid
-
-Export
-
-- Excel
-- CSV
-
-Share
-
-- Tweet
-- Email
-- Copy URL
-
-Search Prime Contracts
-
-# W912CG24C0016
-
-Definitive Contract
-
-- Text
-- List
-
-## Overview
-
-Government Description
-
-Cosmos - Cosine Optimized System for Military Operations With Superior Localization.
-
-Awardee
-
-Unknot.Id
-
-Awarding Agency
-
-ACC Aberdeen Proving Ground (APG) [DoD - USA - AMC - ACC]
-
-Funding Agency
-
-DEVCOM Soldier Center (SC) [DoD - USA 
 - Contract W912CG24C0023 Unknot.Id () https://www.highergov.com/contract/W912CG24C0023/
   Contract W912CG24C0023 Unknot.Id -- --
 
@@ -420,6 +368,18 @@ Unknot.Id
 Awarding Agency
 
 ACC Aberdee
+- UNKNOT.ID INC. - AI-Powered Indoor Navigation Without GPS for Military Operations Award | SBIR.org () https://sbir.org/awards/dod-W912CG-24-C-0023-1
+  UNKNOT.ID INC. - AI-Powered Indoor Navigation Without GPS for Military Operations Award | SBIR.org
+
+Phase II $1362744 Department of Defense
+
+# AI-Powered Indoor Navigation Without GPS for Military Operations
+
+UNKNOT.ID INC.· September 2024
+
+COSINE appears to use artificial intelligence and multiple sensors to pinpoint locations indoors and in GPS-denied areas with reported sub-meter accuracy, potentially enabling soldiers and personnel to navigate where GPS fails.
+
+## What is this research about
 
 ## Open roles
 (no jobs data found)

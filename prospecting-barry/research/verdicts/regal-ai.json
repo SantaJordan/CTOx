@@ -1,0 +1,16 @@
+{
+  "company": "Regal",
+  "slug": "regal-ai",
+  "domain": "regal.ai",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "Entire site, LinkedIn about, jobs, and news describe an enterprise CX/contact-center voice AI platform (Coursera, Kin, AAA, Ro as customers) with zero DoD/military/warfighter language, no SBIR, no defense contract news.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "unknown",
+  "what_they_do": "AI voice/chat agent platform for enterprise contact centers (customer support, sales, collections)."
+}

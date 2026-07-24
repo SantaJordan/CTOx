@@ -1,0 +1,38 @@
+{
+  "company": "Mission Autonomy AI",
+  "slug": "mission-autonomy-ai",
+  "domain": "missionautonomy.ai",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Explicit warfighter customer language ('deliver next-generation intelligence solutions to America's warfighters', LinkedIn: 'protect the warfighter') plus acceptance into FedTech Crucible, a defense-focused accelerator, and a deliberate choice to decline Y Combinator to 'stay focused on defense' — Company page. (Note: the pack's News section returned unrelated Shield AI/Anduril results — excluded from this evidence; the channel-notes claim of USSOCOM Vulcan platform listing is unverified in the company's own language.)",
+  "disconnect_score": 66,
+  "subscores": {"lab_language_intensity": 14, "deployment_awareness_absence": 12, "operator_absence": 10, "hiring_profile_skew": 10, "stage_pressure": 20},
+  "score_evidence": [
+    "'Multi-modal data fusion for real-time battlefield intelligence' (ODIN tagline) → lab_language_intensity, generic AI-startup framing without deployment specifics",
+    "Own-language word count ~534 (<1000) → deployment_awareness_absence capped at 12 per calibration rule",
+    "'working directly with real-world operators in defense, emergency response, and complex industrial environments' → operator_absence (below cap — genuine operator framing present)",
+    "No jobs data found in pack → hiring_profile_skew set to 10 per instructions",
+    "4-5 person bootstrapped/self-funded team building four separate named products (B-Calm, Contracto, Just-In, ODIN) simultaneously, founded Aug 2025 → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "ODIN is pitched as 'Multi-modal data fusion for real-time battlefield intelligence' with no mention of DDIL, degraded comms, or bandwidth constraints anywhere on the site.",
+     "operator_reality": "This is the canonical 30fps-crowd-detection failure mode restated — a data-fusion tool promising 'real-time' battlefield intelligence has to assume the fused sources can talk to each other continuously, which a contested/denied environment won't allow.",
+     "why_likely_missing": "Site copy is a one-line product tagline with no technical depth yet — team is pre-architecture-disclosure stage.",
+     "evidence_quote": "Multi-modal data fusion for real-time battlefield intelligence",
+     "quote_source": "homepage"},
+    {"blind_spot": "A 4-5 person, bootstrapped, zero-institutional-funding team is simultaneously building four distinct products (B-Calm behavioral AI, Contracto procurement intelligence, Just-In contextual delivery, ODIN battlefield fusion) across defense, emergency response, and industrial verticals.",
+     "operator_reality": "None of these four product lines likely has the engineering depth for CMMC/ATO compliance before any funded period of performance runs out — spreading a tiny team across four unrelated problem domains is itself a leading indicator of a stalled transition.",
+     "why_likely_missing": "Early-stage team chasing multiple markets simultaneously to find product-market fit before funding runs out.",
+     "evidence_quote": "Today, Mission Autonomy AI is developing a suite of technologies from defense-grade autonomy systems to commercial data platforms",
+     "quote_source": "homepage"},
+    {"blind_spot": "ODIN is explicitly a battlefield situational-awareness/data-fusion tool, yet ATAK/TAK is never mentioned anywhere on the site.",
+     "operator_reality": "If ODIN's fused battlefield picture doesn't speak TAK, it becomes a separate screen the operator has to check instead of the one they already carry — adoption dies at the squad level regardless of how good the fusion algorithm is.",
+     "why_likely_missing": "Team appears AI/algorithm-first (NVIDIA Inception acceptance) rather than integration-first with existing tactical software ecosystems.",
+     "evidence_quote": "ODIN: Multi-modal data fusion for real-time battlefield intelligence",
+     "quote_source": "homepage"}
+  ],
+  "opener_hook": "Mission Autonomy AI declined Y Combinator to stay focused on defense and joined FedTech Crucible instead — yet ODIN's real-time battlefield fusion pitch never mentions TAK or DDIL.",
+  "confidence": "low",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Bootstrapped, sub-1-year-old defense AI startup building four early products — behavioral-analysis AI, defense-acquisition procurement intelligence, time-sensitive contextual delivery, and multi-modal battlefield data fusion (ODIN)."
+}

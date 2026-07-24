@@ -135,6 +135,8 @@ Martian Sky Industries, LLC is dedicated to advancing the satellite servicing ma
 COVERT is a computer vision software solution that processes 3D point clouds and 2D camera images to increase environmental awareness during data acquisition missions. The system implements an Iterative Closest Point (ICP) algorithm and instantaneous velo
 
 ## News (Exa, top 3)
+- CONTRACT to MARTIAN SKY INDUSTRIES, LLC () https://www.usaspending.gov/award/CONT_AWD_FA945322CA029_9700_-NONE-_-NONE-
+  USAspending.gov
 - Martian Sky Industries Awarded an Orbital Prime Contract (2022-11-07) https://martianskyindustries.com/f/martian-sky-industries-awarded-an-orbital-prime-contract
   Martian Sky Industries Awarded an Orbital Prime Contract
 
@@ -150,18 +152,18 @@ Martian Sky Industries Awarded an Orbital Prime Contract
 * [Team](https://martianskyindustries.com/team)
 * [Contact Us](https://martianskyindustries.com/contact-us)
 # Computer Vision f
-- martian sky industries, llc (2026-06-23) https://martianskyindustries.com/
-  # Martian Sky Industries, LLC
+- SpaceWERX's Post (2024-07-25) https://www.linkedin.com/posts/spacewerxdod_spacewerx-orbitalprime-spaceventures-activity-7222299569697550336-aTKi
+  #spacewerx #orbitalprime #spaceventures #d2p2 #isam #ussf #afwerx #usaf #daf #dod #demo #covert #computervisionsoftware #dof #tumblingtestbedplatform #technology #innovation | SpaceWERX
 
-Martian Sky Industries, LLC is a Space Research and Technology company. Martian Sky Industries, LLC employs 2 people (-50.0% YoY, -2 people), founded in 2020. Headquartered in Cleveland Heights, Ohio, United States.
+# SpaceWERX’s Post
 
-## About
+SpaceWERX
 
-Martian Sky Industries, LLC is dedicated to advancing the satellite servicing market through cutting-edge space robotics and AI/ML- driven solutions, enabling real-time decision-making and enhancing operational efficiencies for a sustainable 
-- Post by Douglas Marsh (2023-03-22) https://www.linkedin.com/posts/douglas-marsh-618198b_spacewerx-orbitalprime-spaceprime-activity-7044310172344717312-JM5B
-  # I'm honored to be considered by SpaceWERX and the United States Space Force for this opportunity in the Orbital Prime program and to lead a team of individuals that have put everything … | Douglas Marsh · LinkedIn · 2023-03-22
+19,976 followers
 
-**Douglas Marsh**: Director of Engineering at Snowbird Technologies with 21 years 9 months of experience. Previous roles include Founder and CEO at Martian Sky Industries, LLC, Principal Investigator at Martian Sky Industries, LLC, and Aerospace Engineer at Made In Spac
+1y
+
+SpaceWERX Orbital Prime awarded company, Martian Sky Industries, hosted a demonstration on July 19 of their computer vision software, COVERT, at the University of Cincinnati. The demonstration was part of their final deliverable under their current Direct-to-P
 
 ## Open roles
 (no jobs data found)

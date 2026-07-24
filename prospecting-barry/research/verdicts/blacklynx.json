@@ -1,0 +1,24 @@
+{
+  "company": "BlackLynx",
+  "slug": "blacklynx",
+  "domain": "blacklynx.tech",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "AF IDIQ FA714621DB001 and national-security customer language exist, but the company was acquired by Jacobs (Nov 2021, per news section) — it is now a prime's subsidiary, not a standalone $5M-$10M prospect; channel notes confirm 'exited, sold to Jacobs'. Own-language word count ~0 would independently trigger insufficient_evidence.",
+  "disconnect_score": 0,
+  "subscores": {
+    "lab_language_intensity": 0,
+    "deployment_awareness_absence": 0,
+    "operator_absence": 0,
+    "hiring_profile_skew": 0,
+    "stage_pressure": 0
+  },
+  "score_evidence": [
+    "\"Jacobs... has entered into a definitive agreement to acquire BlackLynx\" (2021-11-01 press release) → disqualifying fact"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "unknown",
+  "what_they_do": "Edge/HPC analytics software for national-security customers; absorbed into prime Jacobs in 2021."
+}

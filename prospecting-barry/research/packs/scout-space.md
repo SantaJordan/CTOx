@@ -219,7 +219,7 @@ The increasingly congested and contested space domain, especially in low Earth o
 To address the Air Force’s need for improved space domain awareness of the locations, status, and condition of resident space object (RSOs), SCOUT is developing on-orbit systems including SCOUT-Vision multi-spectral stereoscopic sensor payloads and indepe
 
 ## News (Exa, top 3)
-- Scout Space Awarded TACFI Contract to Deliver New GEO Space Domain ... (2025-04-25) https://www.scout.space/news/scout-space-tacfi-1
+- Scout Space Awarded TACFI Contract to Deliver New GEO ... (2025-04-25) https://www.scout.space/news/scout-space-tacfi-1
   Scout Space Awarded TACFI Contract to Deliver New GEO Space Domain Awareness Sensor to U.S. Space Force | Scout Newsroom
 
 Scout Space Awarded TACFI Contract to Deliver New GEO Space Domain Awareness Sensor to U.S. Space Force | Scout Newsroom
@@ -232,20 +232,7 @@ Newsroom
 ](#)
 News
 # Scout Space Awarded TACFI Contract to Deliver New GEO Space Domain Awareness Sensor to
-- Scout Space Awarded TACFI Contract to Enhance Space Domain ... (2025-04-25) https://www.scout.space/news/scout-space-tacfi-2
-  Scout Space Awarded TACFI Contract to Enhance Space Domain Awareness via On-Board Data Processing for U.S. Space Force | Scout Newsroom
-
-Scout Space Awarded TACFI Contract to Enhance Space Domain Awareness via On-Board Data Processing for U.S. Space Force | Scout Newsroom
-[![](https://cdn.prod.website-files.com/67b234facbe620c976bfe28b/67d1c9b38b8a57228b9492d1_SCOUT_Logo_p_b_copy_2%201.avif)](https://www.scout.space/)
-[
-Contact
-](https://www.scout.space/contact)
-[
-Newsroom
-](#)
-News
-# Scout Spac
-- Scout Space Wins Space Force Funding for GEO Space Domain ... (2025-05-22) https://www.satellitetoday.com/government-military/2025/05/22/scout-space-wins-space-force-funding-for-geo-space-domain-awareness/
+- Scout Space Wins Space Force Funding for GEO ... (2025-05-22) https://www.satellitetoday.com/government-military/2025/05/22/scout-space-wins-space-force-funding-for-geo-space-domain-awareness/
   Scout Space Wins Space Force Funding for GEO Space Domain Awareness - Via Satellite
 
 :
@@ -253,6 +240,10 @@ News
 Rendering of Scout Space's optical payload system. Photo: Scout Space
 
 Scout Space has won a new contract from the U.S. Space Force to deliver a new GEO Geostationary Orbit (GEO) space awareness domain (SDA) sensor. The contract, worth $3.8 million, is a Tactical Funding Increase (TACFI) Sequential Phase II contract by the USSF Space Systems Command (SSC) Space Safari Office, with $1.9 million coming from bot
+- We are pleased to share a significant and exciting update - Scout Space has now been awarded a position on the Missile Defense Agency’s SHIELD MA-IDIQ! | Scout Space (2025-12-03) https://www.linkedin.com/posts/scoutdotspace_scoutspace-mda-shield-activity-7402099982998126592-zB-r
+  # We are pleased to share a significant and exciting update - Scout Space has now been awarded a position on the Missile Defense Agency’s SHIELD MA-IDIQ! | Scout Space · LinkedIn · 2025-12-03
+
+**Scout Space**: Scout Space is a company that aims to create a future where space operations are safe and sustainable. They provide plug & play hosted optical payload packages with sensing tools, processing algorithms, and responsive autonomy capabilities for in-space applications. Scout Space has 30-40 e
 
 ## Open roles (Blitz, live)
 - Satellite Electrical Engineer ({'city': 'Reston', 'country_code': 'US'})

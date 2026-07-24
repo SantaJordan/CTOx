@@ -1,0 +1,44 @@
+{
+  "company": "ARMADA Marine Robotics Inc",
+  "slug": "armada-marine-robotics-inc",
+  "domain": "armadamarinerobotics.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Their own SBIR abstract and news post: 'ARMADA Marine Robotics Wins Navy Phase II Contract' (2023-06-07) for an External Payload Deployment System for cylindrical UUVs, $999,028, contract N6833523C0142 awarded by NAWCAD and funded by ONR.",
+  "disconnect_score": 65,
+  "subscores": {"lab_language_intensity": 15, "deployment_awareness_absence": 12, "operator_absence": 9, "hiring_profile_skew": 10, "stage_pressure": 19},
+  "score_evidence": [
+    "'Work under the Phase II Base effort will include fabrication of the A-Size prototype designed in the Phase I Option, followed by bench, dockside, and tank validation testing' — the entire program narrative ends at tank and open-water test, and the public-facing site adds only 'make today's robots better and tomorrow's robots possible' → lab_language_intensity",
+    "No mention of ITAR, CMMC, system safety, shipboard handling, host-platform configuration control, or any accreditation topic across ~602 own-language words → deployment_awareness_absence (capped at 12, word count under 1000)",
+    "Founder bios carry the only operator proximity — 'technology demonstrations at US and allied navy bases' and 'delivering capability to warfighters' — while the product description names no user, no load-out procedure, and no training → operator_absence (capped at 12; scored 9 because the team language is genuinely warfighter-adjacent)",
+    "No jobs data in pack: hiring_profile_skew set to exactly 10 as instructed",
+    "'The contract is for $1M over 2 years with an Option for another $1M over 2 additional years' awarded June 2023, with 3-7 employees and no public milestone since → stage_pressure (base period and likely most of the option have expired with no transition artifact)"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The payload has no path to an authorized configuration on the host vehicle it was validated against",
+      "operator_reality": "EPADS only exists bolted to somebody else's UUV. Making it fieldable means an interface control agreement with the vehicle OEM, a re-validated buoyancy and hydrodynamic envelope for the modified vehicle, and an updated operating limitation set that the fleet's vehicle owner signs. A $1M SBIR does not compel the OEM to cooperate, and the WHOI licensing thread on the underlying transponder work adds a second IP owner to the same product. A payload company without host-platform authority stalls the moment the demo vehicle goes back to its owner.",
+      "why_likely_missing": "Phase I and II both ran on borrowed REMUS 600 test time, where the vehicle's owner was a collaborator rather than a gatekeeper — the authority problem is invisible until transition.",
+      "evidence_quote": "In-water tests were conducted with proprietary hydrodynamic A-Size dummy payloads carried on a REMUS 600 UUV.",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "Release is commanded over the least reliable link in the undersea domain, with no failure behavior described",
+      "operator_reality": "Acoustic command underwater is tens of bits per second through multipath, thermoclines, and self-noise, with no delivery guarantee — the textbook denied/intermittent channel. The program office's next questions are the ones the abstract does not touch: what happens when the release command never arrives, when it arrives garbled, or when it arrives twice; is there a fail-safe or a timeout; and how does the operator ever confirm the payload actually deployed given the UUV is not surfacing to tell anyone. Deployment accuracy is quantified; command reliability and safing behavior are not mentioned at all.",
+      "why_likely_missing": "In a tank and in a controlled open-water test the acoustic path is short and clean, so the link never failed and never became a design driver.",
+      "evidence_quote": "Upon receiving an acoustic release command from the UUV, a motor opens a valve that floods a vacuum, making the payload negatively buoyant, and the payload detaches and descends to the seafloor target location.",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "No shipboard handling, safety, or load-out reality for a stored-energy pressure vessel",
+      "operator_reality": "A 5 kg module whose actuation mechanism is a valve flooding an evacuated chamber is a pressure vessel with stored energy, carried aboard a ship and handled by sailors. Fielding requires a system safety hazard analysis, pressure-vessel certification for shipboard carriage, stowage and battery-handling approval, and a written load-out procedure a sailor can execute on a pitching deck in the dark with gloves on. Every one of those runs on a Navy timeline independent of the engineering, and none of them is scoped in a Phase II that ends at open-water accuracy testing.",
+      "why_likely_missing": "The team's deep expertise is oceanographic research operations — a research vessel with a science party has none of these gates, so the procedure that works at WHOI has never been tested against a Navy safety authority.",
+      "evidence_quote": "The approach uses a payload that can be neutrally ballasted in a range of seawater densities, including freshwater, so that it has no effect on host UUV buoyancy when attached.",
+      "quote_source": "sbir_abstract"
+    }
+  ],
+  "opener_hook": "ARMADA's Phase II abstract quantifies exactly the right things — two A-size payloads costing under 25% of REMUS 600 mission time and under 10% parasitic drag — and the last public milestone on armadamarinerobotics.com is still the June 2023 award; the question a program office asks after the tank test is what EPADS does when the acoustic release command never arrives.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Builds external payload deployment modules and modular propulsion for cylindrical unmanned underwater vehicles, letting a UUV carry and drop A-size payloads without changing its buoyancy."
+}

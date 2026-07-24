@@ -313,7 +313,7 @@ Illustration of the Otter vehicle in geosynchronous Earth orbit. Credit: Starfis
 WASHINGTON — The U.S. Space Force has awarded a $54.5 million contract to Starfish Space to build and operate a spacecraft designed to support military satellites in geostationary Earth orbit.
 
 The contract, awarded on 
-- Starfish Space Awarded First Ever End-of-Life Disposal ... (2026-01-21) https://www.starfishspace.com/press-release/starfish-space-awarded-first-ever-end-of-life-disposal-contract-for-a-leo-constellation/
+- Starfish Space Awarded First Ever End-of-Life Disposal Contract for a LEO Constellation – Starfish Space () https://www.starfishspace.com/press-release/starfish-space-awarded-first-ever-end-of-life-disposal-contract-for-a-leo-constellation
   Starfish Space Awarded First Ever End-of-Life Disposal Contract for a LEO Constellation – Starfish Space
 
 Rotate device

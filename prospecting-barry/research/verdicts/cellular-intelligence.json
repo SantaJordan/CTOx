@@ -1,0 +1,16 @@
+{
+  "company": "Cellular Intelligence",
+  "slug": "cellular-intelligence",
+  "domain": "somite.ai",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "None anywhere in the pack: site, LinkedIn, and news are all TechBio/cell-therapy (Novo Nordisk STEM-PD acquisition, Khosla-led Series A); the only defense items in the news section are about Geoforce, a different company; membership on a defense VC list (vc:harpoon) is not sufficient.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "series_a",
+  "what_they_do": "AI-native biotech building virtual cell-signaling foundation models and clinical-stage cell therapies (fka Somite)."
+}

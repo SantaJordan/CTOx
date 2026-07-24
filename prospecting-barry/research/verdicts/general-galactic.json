@@ -1,0 +1,45 @@
+{
+  "company": "General Galactic",
+  "slug": "general-galactic",
+  "domain": "gengalactic.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own site (tech/spacecraft) states the fleet will 'host and transit payloads for applications across the commercial, science, and defense sectors' and sells 'renewed space superiority', and they are hiring a 'VP of Government Relations' (careers section) — defense motion is stated in their own language, though no award or contract record appears in the pack.",
+  "disconnect_score": 62,
+  "subscores": {"lab_language_intensity": 16, "deployment_awareness_absence": 12, "operator_absence": 10, "hiring_profile_skew": 9, "stage_pressure": 15},
+  "score_evidence": [
+    "'Delivering unprecedented delta-V and agility' → lab_language_intensity",
+    "'We've demonstrated successful operation of our high-thrust chemical and high-efficiency electric engine prototypes' → lab_language_intensity (prototype demo as the proof point)",
+    "~983 words of propulsion/spacecraft detail with zero mention of ITAR, export control, ATO/RMF, CMMC or ground-segment accreditation → deployment_awareness_absence (capped at 12, own-language < 1000 words)",
+    "'delta-V in whatever form an operator needs' is the single operator reference; no CONOPS, mission-ops, training or sustainment language → operator_absence (capped at 12)",
+    "Careers list is propulsion, structures, GNC, fluids, mechanical, power electronics, embedded, plus one Test/Automation Engineer and a VP of Government Relations; no mission-operations, export-compliance or security engineering roles → hiring_profile_skew",
+    "Roadmap '2026 First spaceflight' then '2027 Operational missions start in LEO/MEO/GEO' against an $8M raise dated 2024-11-12 and 17 employees → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "No export-control posture anywhere in a ~1,000-word technical site that also solicits international interest",
+      "operator_reality": "H2/O2 chemical and electric thrusters are USML-controlled; a government customer cannot put controlled mission data on the company's systems, and the 'Fly With Us' inbound funnel invites foreign-person inquiries that a program office will treat as an export finding. Contract vehicles stall on the compliance package, not the engine.",
+      "why_likely_missing": "Founders came out of SpaceX/Varda where an existing corporate export and security apparatus handled this invisibly; at 17 people nobody owns it and no compliance role is being hired.",
+      "evidence_quote": "We design, analyze, test, and manufacture our engines in house in El Segundo, California.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "'Autonomous RPO-ready' is sold as a spacecraft feature with no ground segment, comms, or accreditation story",
+      "operator_reality": "RPO and GEO life-extension are Space Force / SDA mission sets flown from accredited government ground networks. Tasking, telemetry and imagery ride on IL5-and-above enclaves that require an ATO, STIGs and a POA&M; a commercial ops center that assumes open internet links cannot be connected, so the demo flies and the mission still cannot be tasked.",
+      "why_likely_missing": "The team is optimizing the vehicle equation (delta-V, thrust, payload power) and treats the ground/network side as a later integration detail.",
+      "evidence_quote": "Autonomous RPO-ready",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Acquisition advocacy is being hired after the roadmap was fixed, not designed into it",
+      "operator_reality": "The 2026 flight demo has to convert into a funded 2027 mission. Without a champion above the program-office action officer and a named transition vehicle lined up 12-18 months ahead, the demo lands in the gap between a $8M seed raised in late 2024 and the money needed to fly operationally — months-to-field exceeding funded months, which is the failure mode that kills the company, not the technology.",
+      "why_likely_missing": "The company pivoted from terrestrial CO2-to-fuel (the 2024 raise headline) into space mobility; government strategy is catching up to the technical roadmap rather than leading it.",
+      "evidence_quote": "VP of Government RelationsEl Segundo, CAFull Time",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Your spacecraft page sells 'Autonomous RPO-ready' to the defense sector, but across the whole tech section there is no mention of export control or a ground-segment accreditation path — the two things that decide whether the 2026 Trinity demo becomes a 2027 funded mission.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Builds water-fueled multi-mode (chemical + electric) propulsion and ESPA-class spacecraft for high-delta-V maneuvering from LEO to cislunar."
+}

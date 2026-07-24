@@ -346,18 +346,6 @@ How Oyster scaled global hiring with Oso’s fl
 Oso gives organizations the visibility and controls to get their arms around agent adoption: discover every agent running inside your company, monitor all approved AI traffic, detect anomalous behavior and policy violations, enforce rules on what agents can and can\'t do, and produce complete audit logs of every action. Trusted by teams at Webflow, Brex, Vanta, Duolingo, and more. Backed by Sequoia and Felicis.
 
 ## News (Exa, top 3)
-- Government Contract Update: $39M payment to OSHKOSH DEFENSE LLC | Quiver Quantitative (2026-07-13) https://www.quiverquant.com/news/Government+Contract+Update%3A+%2439M+payment+to+OSHKOSH+DEFENSE+LLC
-  Government Contract Update: $39M payment to OSHKOSH DEFENSE LLC | Quiver Quantitative
-
-Back to News
-
-# Government Contract Update: $39M payment to OSHKOSH DEFENSE LLC
-
-We just received data on a $39M payment to OSHKOSH DEFENSE LLC from the Department of Defense. This payment was made on 2026-04-10 by the Department of the Army. We received this data from USASpending.gov.
-
-Here is the award's description:
-
-FAMILY OF TACTICAL VEHICLES (FHTV) V IS A 5 YEAR FIXED PRICE WITH ECONOMIC PRICE ADJUSTMENT
 - Contract 15F06718F0001061 Chenega Integrated Security Solutions () https://www.highergov.com/contract/15F06718A0003001-15F06718F0001061/
   Contract 15F06718F0001061 Chenega Integrated Security Solutions
 
@@ -418,6 +406,18 @@ NAICS
 - April 16, 2026
 
 OSHKOSH, WI. – Oshkosh Defense, LLC, an Oshkosh Corporation business, has received a $42.3 million order for trucks and associated kits, including the installation of Enhanced Container Handling Units (ECHUs), for the U.S. Army Reserve under the Family of Heavy Tactical Vehicles (FHTV) contrac
+- Government Contract Update: $39M payment to OSHKOSH DEFENSE LLC | Quiver Quantitative (2026-07-13) https://www.quiverquant.com/news/Government+Contract+Update%3A+%2439M+payment+to+OSHKOSH+DEFENSE+LLC
+  Government Contract Update: $39M payment to OSHKOSH DEFENSE LLC | Quiver Quantitative
+
+Back to News
+
+# Government Contract Update: $39M payment to OSHKOSH DEFENSE LLC
+
+We just received data on a $39M payment to OSHKOSH DEFENSE LLC from the Department of Defense. This payment was made on 2026-04-10 by the Department of the Army. We received this data from USASpending.gov.
+
+Here is the award's description:
+
+FAMILY OF TACTICAL VEHICLES (FHTV) V IS A 5 YEAR FIXED PRICE WITH ECONOMIC PRICE ADJUSTMENT
 
 ## Open roles (Blitz, live)
 - Engineering Manager ({'city': 'New York', 'country_code': 'US'})

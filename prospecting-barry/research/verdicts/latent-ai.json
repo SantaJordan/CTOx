@@ -1,0 +1,50 @@
+{
+  "company": "Latent AI",
+  "slug": "latent-ai",
+  "domain": "latentai.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own News section: DoD APFIT selection (April 2025, 'Award Builds on Success of Project AMMO'); 'Clears All Gates in U.S. Army Operation Jailbreak, Extends FTS Validation to Counter-UAS and Drone Autonomy' (2026, three independent field tests on Lattice C2 and the NATO coalition stack); named Navy customer quote from Commodore Shaun Lieb, Commander, Navy Task Force 75.",
+  "disconnect_score": 44,
+  "subscores": {
+    "lab_language_intensity": 12,
+    "deployment_awareness_absence": 5,
+    "operator_absence": 6,
+    "hiring_profile_skew": 10,
+    "stage_pressure": 11
+  },
+  "score_evidence": [
+    "'97% faster time to update, 92% cost savings, 99% less human effort' — headline efficiency stats presented without methodology, aimed at a general enterprise-AI audience rather than operational framing → lab_language_intensity",
+    "Homepage: 'Proven: Deployed and validated in real-world, disconnected environments' plus channel-notes record of off-grid/ATAK integration and Lattice C2/NATO coalition stack validation — the company is fluent in DDIL-adjacent language even without using the acronym → deployment_awareness_absence (scored low)",
+    "'We demonstrated the ability to deploy and update our automatic target recognition models at the speed of operational relevance' — Commodore Shaun Lieb, Commander, Navy Task Force 75, named and quoted directly → operator_absence (scored low)",
+    "No jobs data in pack — hiring_profile_skew set to neutral 10 per instructions",
+    "$39.8M raised across seed through Series A while simultaneously running Army Operation Jailbreak field validation, a Navy pilot, and a fresh APFIT award — several concurrent DoD relationships still short of program-of-record status → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "All the headline numbers (92% cost savings, 97% faster updates, 18x faster Navy model redeployment) are about model-iteration speed and GPU cost — none quantify the actual SWaP-C footprint (size/weight/power draw) on the tactical hardware the model runs on in the field.",
+      "operator_reality": "A model that updates 18x faster is worthless if the inference hardware doesn't fit the power/weight budget of the dismounted kit or Group 1-2 UAS payload it's meant to ride on; SWaP-C is the metric that decides whether this ships on the actual platform, not just in a lab benchmark.",
+      "why_likely_missing": "Public stats are optimized for enterprise/commercial buyers (sports, retail, agriculture) where GPU cost dominates the pitch, and that framing carried over into the DoD messaging.",
+      "evidence_quote": "We're helping one manufacturer reduce required GPUs by 92%.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "'Field-updatable AI' is marketed as a core strength, but nothing in the public language addresses the ATO/RMF/CMMC burden of pushing OTA model updates onto a device sitting on a classified or IL4/IL5 network.",
+      "operator_reality": "Live over-the-air model updates are exactly the kind of capability that draws extra POA&M scrutiny in an RMF review — a feature that's a selling point in the commercial pitch becomes a compliance liability the moment FTS is on a government network, and there's no visible sign that path has been walked yet.",
+      "why_likely_missing": "The APFIT award and Operation Jailbreak validation are recent (2025-2026); the compliance/ATO story likely hasn't caught up to the field-validation story in the company's public voice.",
+      "evidence_quote": "Field-updatable AI to stay mission-ready.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "The same homepage carrying the Navy testimonial also headlines sports analytics, retail, fast food, and construction use cases — commercial dual-use messaging sits directly alongside the DoD pitch with no visible program-of-record sponsor above the Task Force 75 operator level.",
+      "operator_reality": "An operator loving the ATR model isn't adoption; APFIT selection starts a transition clock, and a ~51-person team splitting GTM attention across seven commercial verticals plus DoD has less bandwidth to build the acquisition advocacy chain that actually converts a pilot into a program of record.",
+      "why_likely_missing": "Company is still selling a horizontal edge-AI platform (LEIP) with defense as one vertical among many, rather than an org built exclusively around the DoD transition.",
+      "evidence_quote": "Real-world AI at the edge... Sports Analytics... Industrial IoT... Smart Cities... Retail & Consumer Experience... Transportation... Fast Food & Quick Service... Construction... Agriculture & Sustainability",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Latent AI just cleared all three field-test gates in Army Operation Jailbreak on Lattice C2 and the NATO coalition stack — with APFIT funding now in hand, what's the ATO path for pushing OTA model updates once FTS sits on an IL4/IL5 network?",
+  "confidence": "high",
+  "stage_band": "series_a",
+  "what_they_do": "Edge-AI model-compression/deployment platform (LEIP) with a defense-specific Field Tactical Suite for off-grid, ATAK-integrated tactical AI; validated in Army Operation Jailbreak (counter-UAS/drone autonomy) and a Navy pilot, selected for DoD APFIT."
+}

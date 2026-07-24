@@ -1,0 +1,50 @@
+{
+  "company": "krtkl",
+  "slug": "krtkl",
+  "domain": "krtkl.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Own-site News section documents an Army xTechSBIR Autonomy Phase 1 (2024) and Phase 2 follow-on (2025), an SDA Direct-to-Phase-2 SBIR (2024), and a SpaceWERX/Orbital Prime STTR (2022); channel notes add an Army SBIR sensor-fusion-for-Robotic-Combat-Vehicles award with Textron Systems.",
+  "disconnect_score": 71,
+  "subscores": {
+    "lab_language_intensity": 14,
+    "deployment_awareness_absence": 15,
+    "operator_absence": 16,
+    "hiring_profile_skew": 10,
+    "stage_pressure": 16
+  },
+  "score_evidence": [
+    "'snickerdoodle is a prototype-to-production platform for building high-integrity IoT products... the ideal platform for artificial intelligence and machine learning at the edge' — dev-kit/OEM marketing language, no field-operations framing → lab_language_intensity",
+    "LinkedIn about markets snickerdoodle to 'individuals and startups to Fortune 100 corporations and the DoD' with no ATO/RMF/CMMC/ITAR/STIG language anywhere despite ~1268 words of product description → deployment_awareness_absence",
+    "Site language addresses 'OEMs and Resellers' and 'developers' throughout; no mention of operators, warfighters, training, or CONOPS anywhere in the corpus → operator_absence",
+    "No jobs data in pack — hiring_profile_skew set to neutral 10 per instructions",
+    "Four concurrent SBIR/STTR award threads (Army P1+P2, SDA Direct-to-P2, SpaceWERX STTR) running through an 8-person team since 2022 → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Sells snickerdoodle into DoD and Fortune 100 alike with zero ATO/RMF/CMMC/ITAR language, despite an Army SBIR specifically targeting Robotic Combat Vehicle sensor fusion.",
+      "operator_reality": "A sensor-fusion board destined for an RCV program of record needs a compliance and ATO path well before fielding; treating it as an OEM dev-kit sale risks the same 'demo worked, transition died' failure as any other Phase II that never budgeted for RMF.",
+      "why_likely_missing": "Company voice is calibrated to a maker/OEM audience (CrowdSupply interviews, reseller pitches) rather than an acquisition audience.",
+      "evidence_quote": "Used by companies ranging from individuals and startups to Fortune 100 corporations and the DoD, this \"prototype-to-production\" platform enables...",
+      "quote_source": "linkedin_about"
+    },
+    {
+      "blind_spot": "No discussion anywhere of how snickerdoodle's 'wireless connectivity' and edge-computing pitch behaves under denied/degraded RF — the exact condition the Army xTechSBIR Autonomy work is meant to address.",
+      "operator_reality": "The canonical DDIL failure mode (a system built assuming continuous connectivity breaks the moment the link is denied) applies directly to a sensor-fusion platform meant for robotic combat vehicles operating in contested spectrum.",
+      "why_likely_missing": "Marketing copy for snickerdoodle/piSmasher is written for the commercial edge-AI/IoT market, not re-written for the DoD-specific contracts layered on top.",
+      "evidence_quote": "The convenience of wireless connectivity... The ideal platform for artificial intelligence and machine learning at the edge.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Four separate SBIR/STTR contract threads (Army xTechSBIR P1+P2, SDA Direct-to-Phase-2, SpaceWERX STTR) running simultaneously through an 8-person company, with no visible advocacy-chain or transition-planning language on the site.",
+      "operator_reality": "Each of those Phase II clocks is an independent valley-of-death risk; a team this size juggling four agency relationships has no slack to also own deployment architecture, ATO paperwork, and sustainment planning for whichever program transitions first.",
+      "why_likely_missing": "Site content is proud-of-award press-release style, not program-management or transition-risk framing.",
+      "evidence_quote": "krtkl has been awarded a follow-on contract under the US Army Research Laboratory's xTechSBIR Autonomy initiative. This Phase 2 contract will build upon krtkl's Phase 1 efforts...",
+      "quote_source": "news"
+    }
+  ],
+  "opener_hook": "krtkl, Visimo, and Textron Systems are building a sensor-fusion platform for Robotic Combat Vehicles under a US Army SBIR — how does snickerdoodle's fusion pipeline handle the RCV's link going DDIL mid-mission?",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Makes snickerdoodle, a business-card-sized reconfigurable ARM+FPGA embedded computer sold as a prototype-to-production platform for edge AI/sensing, with commercial OEM sales plus multiple DoD SBIR/STTR awards (Army, Space Force, SDA)."
+}

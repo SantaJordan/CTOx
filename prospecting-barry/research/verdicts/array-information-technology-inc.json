@@ -4,17 +4,16 @@
   "domain": "arrayinfotech.com",
   "verdict": "drop",
   "drop_reason": "disqualified_type",
-  "dod_intent_evidence": "DTRA SBIR Phase II (2022) and Army/USAF IT contract awards (ITES-3S prime) — SBIR record and news sections.",
+  "dod_intent_evidence": "Genuine DoD motion exists (DTRA SBIR Phase II 2022, Army ITES-3S prime, USAF ILS-S replatform — SBIR/STTR record + News sections), but the company is an IT services/application-service provider, not a product company crossing the prototype-to-fielded gap.",
   "disconnect_score": 0,
   "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
   "score_evidence": [
-    "'ARRAY is an application service provider committed to optimizing mission performance' → IT services firm, not a product company (linkedin_about)",
-    "'ARRAY Awarded Prime Contract on Army's $12.1B ITES-3S IDIQ' → services prime on an enterprise IT vehicle (news)",
-    "Note: own-language word count ~33 would independently trigger insufficient_evidence; disqualified_type takes precedence at gate 1"
+    "\"ARRAY is an application service provider committed to optimizing mission performance\" → disqualified_type: services/SI, not a product",
+    "\"ARRAY Awarded Prime Contract on Army's $12.1B ITES-3S IDIQ\" → already_operational: prime on a major services vehicle since 2018"
   ],
   "blind_spots": [],
   "opener_hook": "",
   "confidence": "high",
   "stage_band": "revenue_stage",
-  "what_they_do": "Federal IT services company (application modernization, logistics-system replatforming) priming on Army and Air Force enterprise IT contract vehicles."
+  "what_they_do": "Government IT services and application modernization contractor (Army, Air Force logistics systems) founded 1997, with one DTRA deep-learning SBIR."
 }

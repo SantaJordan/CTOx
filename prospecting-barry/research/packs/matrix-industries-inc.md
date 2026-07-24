@@ -142,14 +142,28 @@ Request a Demo
 Matrix Industries is a pioneer of self-powered machine-learning solutions for connected devices. We deploy and collect actionable sensor data at the edge with our Perceptive and Proximity product lines. Each product includes our advanced low-power machine learning algorithms and unique energy harvesting technology that eliminates the need to recharge or replace batteries. With Perceptive and Proximity, you can monitor your connected devices from the cloud using our APIs and take meaningful action with that data. Request a demo at our website at to see how you can track thousands of connected d
 
 ## News (Exa, top 3)
-- Matrix Research Inc. Poised to Transform Radar Capabilities with $9.99M Contract | Contract Awards (2024-07-22) https://envzone.com/award-record/matrix-research-inc-poised-to-transform-radar-capabilities-with-9-99m-contract/
-  Matrix Research Inc. Poised to Transform Radar Capabilities with $9.99M Contract | Contract Awards
+- CONTRACT to MATRIX SOLUTIONS INC () https://www.usaspending.gov/award/CONT_AWD_FA521523F0089_9700_GS35F0381X_4732
+  USAspending.gov
+- Air Force Taps Matrix Research for Radio Frequency Sensor Tech R&D – ExecutiveBiz (2023-02-21) https://www.executivebiz.com/articles/air-force-taps-matrix-research-for-radio-frequency-sensor-tech-randd
+  Air Force Taps Matrix Research for Radio Frequency Sensor Tech R&D – ExecutiveBiz
 
-Know who’s winning. Learn how to compete.
+Processing....
 
-# Matrix Research Inc. Poised to Transform Radar Capabilities with $9.99M Contract
+Hello, Guest!
 
-Matrix Research Inc., Dayton, Ohio, was awarded a $9,999,999 indefinite-delivery/indefinite-quantity contract for a model-based systems engineering for a distributed coherent synthetic aperture radar at KU-Band effort. This contract provides research and development activi
+Latest Federal & Government Contracting Companies' News Coverage
+
+Menu
+
+Menu
+
+Latest Federal & Government Contracting Companies' News Coverage
+
+Logo/matrixresearch.com
+
+Matrix Research has received a seven-year, $49.5 million contract from the U.S. Air Force to mature radio frequency subsystems designed for sensing hardware.
+
+The Dayton, Ohio-based company will provide research and d
 - Contract FA238523C0002 Matrix Research () https://www.highergov.com/contract/FA238523C0002/
   Contract FA238523C0002 Matrix Research -- --
 
@@ -206,26 +220,6 @@ Defense Advanced Research Projects Agency (DARPA) [DoD]
 NAICS
 
 541715 - Research and Development in th
-- Air Force Taps Matrix Research for Radio Frequency Sensor Tech R&D – ExecutiveBiz (2023-02-21) https://www.executivebiz.com/articles/air-force-taps-matrix-research-for-radio-frequency-sensor-tech-randd
-  Air Force Taps Matrix Research for Radio Frequency Sensor Tech R&D – ExecutiveBiz
-
-Processing....
-
-Hello, Guest!
-
-Latest Federal & Government Contracting Companies' News Coverage
-
-Menu
-
-Menu
-
-Latest Federal & Government Contracting Companies' News Coverage
-
-Logo/matrixresearch.com
-
-Matrix Research has received a seven-year, $49.5 million contract from the U.S. Air Force to mature radio frequency subsystems designed for sensing hardware.
-
-The Dayton, Ohio-based company will provide research and d
 
 ## Open roles
 (no jobs data found)

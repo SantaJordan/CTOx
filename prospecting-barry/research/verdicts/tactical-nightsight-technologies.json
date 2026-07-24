@@ -1,0 +1,26 @@
+{
+  "company": "Tactical NightSight Technologies",
+  "slug": "tactical-nightsight-technologies",
+  "domain": "convergent3d.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "LinkedIn about states they are 'accelerating the transition of our TRL 6 prototype to large-scale modernization programs like JLTV and AMPV' — explicit named DoD program targets, not just VC portfolio membership.",
+  "disconnect_score": 52,
+  "subscores": {"lab_language_intensity": 8, "deployment_awareness_absence": 14, "operator_absence": 5, "hiring_profile_skew": 10, "stage_pressure": 15},
+  "score_evidence": [
+    "'converting 2D thermal/IR imagery into predictive 3D terrain awareness' with 'AI software' branding ('We See Depth™') → lab_language_intensity",
+    "Zero mention of DDIL/ATO/RMF/CMMC/ITAR/STIG across ~1100 words describing an AI-processing sensor system destined for combat-vehicle networks → deployment_awareness_absence",
+    "'Following a small amount of training in the use of the prototype C3D solution, the operator achieves significantly improved night driving terrain awareness' — operators are the explicit center of the pitch → operator_absence (low score, they get this)",
+    "'no jobs data found' → hiring_profile_skew set to 10 per rule",
+    "employees(LI): 4, 'Reports more than $2M invested in R&D', prototype 'transitioning' toward JLTV/AMPV → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "No SWaP-C accounting for adding a camera/lens/processing unit inside an already-cramped armored vehicle", "operator_reality": "JLTV/AMPV interiors have fixed power and space budgets; a DVE add-on with no stated power draw or weight spec gets cut in vehicle integration review before it ever reaches a soldier", "why_likely_missing": "team is optimizing the 3D algorithm, not vehicle integration constraints", "evidence_quote": "The software interpolates the incoming video signal, which displays through a lens, and creates the realistic 3D effect.", "quote_source": "homepage"},
+    {"blind_spot": "No ATO/RMF or software certification pathway mentioned for an 'AI software' processing unit destined to run as GFE on Army vehicle networks", "operator_reality": "Any software touching a JLTV/AMPV data bus needs an ATO/RMF path and likely STIG compliance before a PM will accept it as an ECP — without that, the TRL6 prototype stalls indefinitely regardless of accuracy", "why_likely_missing": "founders are describing the ECP integration process at a conceptual level, not the certification gauntlet behind it", "evidence_quote": "Such technology should be applied as an (Engineering Change Proposal (ECP) for legacy DVE systems and integrated into the design of the next generation of DVE systems.", "quote_source": "homepage"},
+    {"blind_spot": "Sustainment/field-repair plan is absent — training is mentioned once, spares/battery/field-fix logistics never", "operator_reality": "A 2-4 person company has no fielded sustainment infrastructure; when the unit breaks in an austere motor pool, there's no depot-level repair chain, which is exactly what kills small defense-tech vendors post-fielding", "why_likely_missing": "company is pre-transition and hasn't had to build a sustainment org yet", "evidence_quote": "Following a small amount of training in the use of the prototype C3D solution, the operator achieves significantly improved night driving terrain awareness", "quote_source": "homepage"}
+  ],
+  "opener_hook": "Your TRL 6 DVE prototype is targeting JLTV and AMPV modernization via an ECP path for legacy systems — that's exactly the transition where funded months usually run out before certification does.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "AI software that converts 2D thermal/IR/night-vision camera feeds into real-time 3D depth-perception displays for combat vehicle drivers, to reduce night-driving rollovers."
+}

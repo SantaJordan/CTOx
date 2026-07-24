@@ -355,7 +355,17 @@ Priva
 SkySafe’s drone detection technology enables critical infrastructure, commercial, and government organizations to identify, track, and analyze drone activity in their airspace. The cloud-based SaaS platform provides real-time and historical drone data, offering precise information on drone location, altitude, velocity, flight status, launch point, and pilot location. With SkySafe, organizations can proactively detect and resolve security vulnerabilities from drones before they turn into major breaches. Whether deployed in industrial settings, educational institutions, or public venues, SkySafe
 
 ## News (Exa, top 3)
-- SkySafe Secures U.S. Border Security Drone Contract () https://www.skysafe.io/press/skysafe-secures-critical-contract-to-enhance-u-s-border-security
+- N6328525PS051 | Navy Award | SKYSAFE () https://www.federalcompass.com/award-contract-detail/N6328525PS051
+  Navy Award | N6328525PS051 | SKYSAFE 
+
+ 
+
+# N6328525PS051 - SKYSAFE
+
+##### Federal Contract Award Search » Purchase Order Award
+
+This Purchase Order contract for IT Hardware was awarded in FY2025 on Aug 14, 2025 to SKYSAFE, INC. by Naval Criminal Investigative Service. There have been $31.5k in obligations to date with a ceiling value of $31.5k, showing a 100% burn rate so far on the contract. The contract was competed under Small Business Set-Aside -- Total preference program with 15 offers rec
+-  () https://www.skysafe.io/press/skysafe-secures-critical-contract-to-enhance-u-s-border-security
   ---
 title: "SkySafe Secures U.S. Border Security Drone Contract | SkySafe"
 description: SkySafe has been awarded a significant contract from Amentum and will deploy a cloud-based drone detection system along a portion of the US southern border.
@@ -383,16 +393,6 @@ Getting your Trinity Audio player ready...
 San Diego’s SkySafe, which has developed security technology that can take control of rogue drones, said Thursday that it has raised $11.5 million in a first round of institutional funding led by well-known Silicon Valley venture firm Andreessen Horowitz.
 
 The 15-employee start-up also has landed a $1.5 million Department of Defense contract to d
-- SkySafe Raises $11.5 Mill for Counter-UAS Technology; Secures DoD Contract - DRONELIFE (2017-07-21) https://dronelife.com/2017/07/21/skysafe-raises-11-5-mill-counter-uas-technology-secures-dod-contract/
-  SkySafe Raises $11.5 Mill for Counter-UAS Technology; Secures DoD Contract - DRONELIFE
-
-- Skip to main content
-- Skip to secondary menu
-- Skip to primary sidebar
-- Skip to secondary sidebar
-- Skip to footer
-
-SkySafe, a San Diego based startup, has received $11.5 in Series A funding round that was led by Andreessen Horowitz. The round comes with a seat on the board for Andreessen general partner Lars Dalgaard. In addition, SkySafe has received a $1.5 million contract with the Department of Defens
 
 ## Open roles (Blitz, live)
 - Project Manager – Federal Programs ({'city': None, 'country_code': 'US'})

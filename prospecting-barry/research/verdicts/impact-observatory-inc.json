@@ -1,0 +1,47 @@
+{
+  "company": "Impact Observatory Inc",
+  "slug": "impact-observatory-inc",
+  "domain": "impactobservatory.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "SBIR/STTR section: NGA (DoD) Phase II 2022 for $999,987 \"Seeing the World in Real-Time with Automated Land Use Monitoring\", plus a 2024 NGA Phase II in the news section, and a \"Defense and Intelligence\" use case on their homepage.",
+  "disconnect_score": 73,
+  "subscores": {"lab_language_intensity": 16, "deployment_awareness_absence": 17, "operator_absence": 16, "hiring_profile_skew": 10, "stage_pressure": 14},
+  "score_evidence": [
+    "\"Understand risks & anticipate change at unprecedented speed and scale\" and \"revolutionary AI-powered geospatial monitoring\" → lab_language_intensity",
+    "\"Being a cloud-based capability, versus an on-premises solution, will enable further integration with new sources of data\" → deployment_awareness_absence (cloud-only posture stated as a virtue to an IC customer)",
+    "\"leveraging the cloud compute and imagery archives of Microsoft Azure Planetary Computer\" → deployment_awareness_absence (no IL4/IL5, no ATO, no classified-enclave path anywhere in the pack)",
+    "\"empower global decision-makers to be planetary superheroes\" → operator_absence (no analyst, no GEOINT tradecraft, no training, no CONOPS in ~1,200 words)",
+    "\"Frictionless delivery to your inbox\" → operator_absence / deployment_awareness_absence (delivery model is commercial email, not a mission system)",
+    "No jobs data in pack → hiring_profile_skew set to exactly 10",
+    "\"Impact Observatory raises $5.9 million\" (2023) with 13 employees and consecutive NGA Phase IIs (2022, 2024) → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The entire product is a cloud-delivered map service with no articulated path onto a classified or disconnected network, yet the paying customer is NGA.",
+      "operator_reality": "An NGA or J2 analyst consuming this operationally works on JWICS/SIPR, not on the open internet. A product whose only delivery mechanisms are a commercial store, an inbox, and STAC/API endpoints on Azure Planetary Computer cannot be touched by the analyst it was funded to serve — the Phase III transition stalls not on model accuracy but on an accreditation path nobody scoped.",
+      "why_likely_missing": "The team's center of gravity is Earth-observation science and commercial sustainability/ESG buyers, where cloud APIs are the correct answer; the SBIR abstract treats cloud-native as an unqualified advantage rather than as an accreditation liability.",
+      "evidence_quote": "Being a cloud-based capability, versus an on-premises solution, will enable further integration with new sources of data as they become available",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "Near-real-time, daily-cadence 3m imagery products assume the consumer has bandwidth to pull continent-scale rasters.",
+      "operator_reality": "A forward analyst or a deployed staff cell pulls product over a satellite pipe measured in hundreds of kilobits. Daily PlanetScope-derived 3m land-cover tiles over a 1M km2 AOI are gigabytes; the same failure mode as the 30fps crowd-detection case, solved only by shipping change deltas or vectorized alerts rather than rasters. Nothing in their language indicates a low-bandwidth product tier exists.",
+      "why_likely_missing": "Their published performance framing is resolution and refresh rate — the metrics that win a science review — so the constraint that actually governs delivery (bytes per AOI per day over a contested link) is never named.",
+      "evidence_quote": "Leverage daily PlanetScope imagery for the most up-to-date maps in the industry.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "No integration story with the government-side systems that would actually consume the output — no mention of GEOINT dissemination standards, existing analyst tooling, or TAK/situational-awareness ingest.",
+      "operator_reality": "Land-cover change is only actionable when it lands inside the tool the user already stares at. Without a named ingest path, an NGA program office has to fund an integration effort after Phase II ends, and integration work that starts after the period of performance is where the transition dies. \"Reports on where and when changes are occurring\" is a PDF nobody has a workflow for.",
+      "why_likely_missing": "Their commercial customers (urban planning, finance, sustainability) consume maps in GIS desktop tools and dashboards, so the team has never had to name a defense back-end; the SBIR abstract lists STAC, open data formats and APIs as the distribution answer.",
+      "evidence_quote": "Receive reports on where and when changes are occurring in your area of interest.",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Your NGA Phase II abstract argues that being cloud-based rather than on-premises is the advantage — which is true right up until the analyst who needs the change detection is sitting on JWICS.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "AI-generated land-cover and change-detection maps from satellite imagery, sold as on-demand 3m/10m map products and an open annual global dataset.",
+  "_own_language_words": 1198
+}

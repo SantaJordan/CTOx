@@ -1,0 +1,44 @@
+{
+  "company": "Apeiron Labs, Inc.",
+  "slug": "apeiron-labs-inc",
+  "domain": "apeironlabs.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "A 2025 SBIR Phase II award for NEXUS undersea sensing at scale and glider-based ocean-mesh networking (sbir.gov/portfolio/2274469, cited in channel notes) plus a usaspending.gov federal award recipient profile in the news section, backed by their own technology page: 'Dual-use is in our DNA' and a Maritime Domain Awareness application framed around 'our national security arsenal.'",
+  "disconnect_score": 66,
+  "subscores": {"lab_language_intensity": 16, "deployment_awareness_absence": 12, "operator_absence": 12, "hiring_profile_skew": 10, "stage_pressure": 16},
+  "score_evidence": [
+    "'A single ocean profile measurement from the ARGO network costs approximately $200' and '4-dimensional subsurface temperature and salinity observations typically have 4X more impact on ocean model performance' — the entire value story is science economics with zero operational framing → lab_language_intensity",
+    "'Tell us what data you need, where, and for how long. We'll take care of the rest.' — a pure DaaS promise with no mention of ATO, IL5, CUI, ITAR, or any delivery-path constraint anywhere in ~732 own-language words → deployment_awareness_absence (capped at 12, word count under 1000)",
+    "'Our world-class team comprises engineers, scientists, entrepreneurs, and veterans of ocean technology' — the only 'veterans' on the site are industry veterans; no sailor, watch floor, fleet user, training, or CONOPS language → operator_absence (capped at 12)",
+    "No jobs data in pack: hiring_profile_skew set to exactly 10 as instructed",
+    "'Apeiron Labs Closes $9.5 Million Series A' (2026-02-04) at 17 employees, with a 2025 Phase II period of performance running concurrently → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Sells 'real-time' undersea data while the physics of their own platform makes the link the binding constraint",
+      "operator_reality": "A drifting node in the upper 400 m has no RF path until it surfaces; when it does, it gets a satellite slot measured in hundreds of bytes and minutes of visibility. 'Dense, real time upper ocean data' from a distributed sub-surface constellation is latency in hours and payloads in bytes — which means detection and summarization must happen on the node, not shoreside. That is the same architecture decision as the crowd-detection startup that streamed 30 fps into a link with room for one frame every five seconds; discovering it after the Phase II is a redesign, not a tuning pass.",
+      "why_likely_missing": "Their anchor customers in the site's framing are climate modelers and aquaculture, who accept batch delivery and never test the latency claim; the word 'real-time' has cost them nothing so far.",
+      "evidence_quote": "Dense, real time upper ocean data is a crucial component of understanding climate change and improving forecasting, especially of extreme weather events.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Data-as-a-Service delivery assumes a commercial pipe into a customer who lives on a classified network",
+      "operator_reality": "An MDA or ISR consumer receives data inside an accredited enclave. A vendor-hosted feed reaching that watch floor needs an authorized delivery path (IL5 or higher), CUI handling for the collection, and an ITAR review of subsea sensor performance parameters — and the sensor-performance data itself is likely export-controlled the moment it is characterized against a threat. None of that is a contract line the DaaS pricing model contains.",
+      "why_likely_missing": "The business model was designed to avoid selling hardware, which is exactly the right commercial instinct and exactly the thing that pushes the accreditation burden onto a 17-person company with no security engineering function visible.",
+      "evidence_quote": "Data As A Service — Tell us what data you need, where, and for how long. We'll take care of the rest.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Reusability is stated as a product virtue with no recovery, refurbishment, or shipboard-handling reality attached",
+      "operator_reality": "'From expendability to reusability' means someone recovers the nodes. In a Navy context that is a deck evolution off a ship or small boat in sea state, a crew that must be trained on the handling procedure, and lithium batteries that need shipboard-carriage safety approval before they are allowed aboard at all. Add a spares and refurbishment pipeline and a depot decision. Expendable sensors sidestep every one of those gates; reusable ones inherit all of them, and the approval timeline for battery carriage alone routinely outruns a Phase II.",
+      "why_likely_missing": "Reusability is a cost-per-data-point argument, and cost-per-data-point is the metric the whole company is organized around — the sustainment cost lands on the operator's side of the ledger where it never shows up in their model.",
+      "evidence_quote": "from episodic sampling to continuous observing, from expendability to reusability, and from human-assisted to autonomous sensing",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Apeiron's 2025 Phase II covers glider-based ocean-mesh networking while apeironlabs.com sells 'dense, real time upper ocean data' — a node in the upper 400 m has no RF path until it surfaces, so real-time there is a satellite slot measured in bytes, and that gap is an on-node processing decision rather than a bandwidth one.",
+  "confidence": "medium",
+  "stage_band": "series_a",
+  "what_they_do": "Builds low-cost autonomous drifting/profiling underwater sensor nodes (Tensor platform) and sells the upper-ocean data they collect as a service."
+}

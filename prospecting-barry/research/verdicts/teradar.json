@@ -1,0 +1,37 @@
+{
+  "company": "Teradar",
+  "slug": "teradar",
+  "domain": "teradar.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Completed a $1.9M US Army SBIR Phase II ('Terahertz Sensing for Situation Awareness') per SBIR.gov and PRNewswire coverage, and own-language homepage lists 'defend and secure our troops' among served industries, with active 'Director of Business Development - Defense' and 'Customer Engineer - Defense' job postings.",
+  "disconnect_score": 69,
+  "subscores": {"lab_language_intensity": 17, "deployment_awareness_absence": 18, "operator_absence": 18, "hiring_profile_skew": 11, "stage_pressure": 5},
+  "score_evidence": [
+    "'0.13° native resolution... 20x better than leading automotive imaging radars' → lab_language_intensity",
+    "'first A sample sensor system developed' / 'First B Sample sensor expected' / 'Mass Production Sensor Ready for vehicle programs' (2028) roadmap with zero DDIL/ATO/RMF/CMMC/ITAR mention → deployment_awareness_absence",
+    "'help defend and secure our troops' is the only operator-adjacent phrase in ~1300 words; no mention of training, CONOPS, or field feedback → operator_absence",
+    "'Customer Engineer - Defense' and 'Director of Business Development - Defense' postings show some field/customer-facing defense hiring, offsetting an otherwise research/silicon-heavy roster → hiring_profile_skew"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Spec-sheet metrics (resolution, range) with no ruggedization or SWaP-C framing for a vehicle-mounted defense sensor",
+     "operator_reality": "A terahertz sensor rated for automotive ADAS conditions is not automatically survivable on a tactical vehicle platform — dust, vibration, thermal extremes, and power budget on a mounted military vehicle are a different environment than a passenger car.",
+     "why_likely_missing": "Company's core business and hiring (DSP, silicon packaging, radar systems engineers) is automotive-first; defense is framed as an adjacent market, not a co-designed use case.",
+     "evidence_quote": "'0.13° native resolution... 20x better than leading automotive imaging radars'",
+     "quote_source": "homepage"},
+    {"blind_spot": "Product roadmap shows no field pilot with military operators before 2028 mass production",
+     "operator_reality": "Without an operator-facing pilot, there is no training, CONOPS, or sustainment plan being built in parallel with the hardware — by the time the sensor is field-ready, the SBIR-funded advocacy window may have closed.",
+     "why_likely_missing": "Roadmap is entirely hardware-maturity milestones (chip → array → A/B/C sample → mass production), with no parallel deployment or operator-integration milestone listed.",
+     "evidence_quote": "'2028 Mass Production Sensor Ready for vehicle programs'",
+     "quote_source": "homepage"},
+    {"blind_spot": "No ATO/RMF/CMMC/ITAR/STIG language despite an active Army threat-detection contract",
+     "operator_reality": "A sensor feeding 'battlefield situation awareness' will eventually need to pass data into a government network or platform — without ATO/RMF groundwork started now, the transition from SBIR Phase II demo to a program of record stalls on compliance, not technology.",
+     "why_likely_missing": "Own-language and job postings are entirely hardware/silicon-engineering focused; no compliance, ISSO, or government-integration role is posted.",
+     "evidence_quote": "'The goal of the $1,899,778 contract is to deploy new terahertz sensing capabilities to heighten battlefield situation awareness and protect U.S. and allied troops.'",
+     "quote_source": "news"}
+  ],
+  "opener_hook": "Teradar completed its $1.9M Army SBIR Phase II for battlefield terahertz threat detection in March 2026, with mass-production sensors not slated on the public roadmap until 2028.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Solid-state terahertz imaging sensors for all-weather vehicle vision, sold primarily into automotive ADAS with a secondary defense/battlefield sensing line."
+}

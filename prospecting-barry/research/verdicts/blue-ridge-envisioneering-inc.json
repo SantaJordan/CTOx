@@ -1,0 +1,24 @@
+{
+  "company": "Blue Ridge Envisioneering, Inc.",
+  "slug": "blue-ridge-envisioneering-inc",
+  "domain": "br-envision.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "Real DoD motion exists (Navy SBIR Phase II 'MENTAT' 2022, $9.9M AFRL definitive contract FA875022C1520) but the company self-describes as an engineering-services house: \"BRE provides a wide range of services for our clients, including: Systems Engineering... Software Development... Data Collection... End-to-End Demonstrations\" — homepage. Services-only defense engineering shop, no product of its own to field.",
+  "disconnect_score": 0,
+  "subscores": {
+    "lab_language_intensity": 0,
+    "deployment_awareness_absence": 0,
+    "operator_absence": 0,
+    "hiring_profile_skew": 0,
+    "stage_pressure": 0
+  },
+  "score_evidence": [
+    "\"BRE is a small, agile team of experienced engineers, signals analysts, and programmers... developing innovative solutions to the tough technical challenges facing our partners in the defense community\" → services positioning, and its MENTAT abstract is deployment-fluent (edge power, constrained comms), so no blindness to sell into either"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "31-person Chantilly defense/IC engineering-services shop (signals analysis, HPC, rapid prototyping) doing contract R&D, not fielding a product."
+}

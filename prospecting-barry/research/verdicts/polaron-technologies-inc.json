@@ -1,0 +1,16 @@
+{
+  "company": "Polaron Technologies, Inc.",
+  "slug": "polaron-technologies-inc",
+  "domain": "polaronanalytics.com",
+  "verdict": "drop",
+  "drop_reason": "sbir_mill",
+  "dod_intent_evidence": "SBA 8(a) firm with multiple unrelated-domain SBIR/STTR awards (on-orbit additive-manufacturing defect detection for AF, low-flammability polymer composites for Navy) across 'Air Force, Navy, NASA, Department of Energy, and Space Force' clients — genuine DoD motion but structured as a diversified government-contracting/consulting shop rather than one product racing to field (About Us + SBIR/STTR record).",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "SBA 8(a) data-analytics and computational-modeling consultancy offering R&D, engineering, IT, cybersecurity, and training services to government agencies."
+}

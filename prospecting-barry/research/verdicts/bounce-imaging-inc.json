@@ -1,0 +1,16 @@
+{
+  "company": "Bounce Imaging, Inc",
+  "slug": "bounce-imaging-inc",
+  "domain": "bounceimaging.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "News section: 'Part of $11M in New Contracts with DoD ... Several Hundred Mesh-Radio-Enabled 360° Cameras to Fill Situational Awareness Capabilities Gap for US and NATO Allies' (company's own May 2024 release), plus two Air Force SBIR Phase IIs.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Throwable 360-degree tactical cameras for SWAT, first responders, and special operations. Already crossed the valley: 12 years old, production deliveries of several hundred TrellisWare-TSM-mesh-enabled units under $11M in DoD contracts to US and NATO users, and their own language is deployment-fluent (drop-rated 26x onto concrete, rain-rated, 'Almost no training required', military-specific Recce360 with added encryption) — nothing for Barry to fix."
+}

@@ -1,0 +1,16 @@
+{
+  "company": "Atakama Inc.",
+  "slug": "atakama-inc",
+  "domain": "atakama.com",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "Only defense artifact is a single 2022 Air Force SBIR Phase II ('Zero Trust Key Management System' — SBIR section); the company has since fully pivoted: homepage, LinkedIn about, and all open roles (Marketing Intern, 2x Account Executive) are 100% commercial MSP browser security with zero DoD/military/warfighter language, and the 2024 news is an $11M commercial raise aimed at SMBs.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Managed browser security platform (DNS filtering, DLP, shadow-AI visibility) sold to MSPs for SMB clients."
+}

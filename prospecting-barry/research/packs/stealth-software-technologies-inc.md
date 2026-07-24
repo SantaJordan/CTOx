@@ -209,6 +209,12 @@ Since 2008, Stealth Software Technologies Inc. has developed groundbreaking solu
 Cyber infrastructures efficiently supporting data collection and transmission have become essential to the mission of the United States Department of Defense (DoD). Intelligence is an extremely important element that impacts DoD’s strategic decisions at critical times. The success f intelligence operations is possible only if quality data/information—and actionable insights from that data—are securely, robustly, and efficiently collected in the field and transmitted back to DoD personnel. However, such information collection poses non-trivial technical challenges due to the fact that the recent advancements of network and artificial intelligence reinforce adversaries’ capabilities of surveillance and disruption as a cyber threat. Stealth Software Technologies, Inc. (Stealth) proposes to develop a secure and private network data aggregation system that can carry out secure aggregate computation from two or more two or more data-collecting intelligence sources with practical efficiency and scalability. In addition, Stealth’s proposed technology will be equipped with an auxiliary data exfiltration mechanism which only utilizes an out-of-band phone-to-phone ad-hoc network to transmit data while avoiding detection in case existing communication networks become compromised or unavailable. Our proposed technology will be developed upon cutting-edge cryptographic systems known as Secure Multiparty Computation (MPC). A MPC protocol is a distributed protocol that enables multiple distrusting servers with secret inputs to compute functions over the secret inputs so that the servers will learn only the output of the computation even if a subset of participating servers are compromised. Using our MPC protocols, we will develop a secure and robust midpoint consisting of a group of servers (e.g., 5 ~ servers) jointly carrying out secure filtering operations and aggregate computations over data uploaded by data collectors. The secure filtering protocol can down-select the intelligence data to a smaller, refined dataset according to conditions (e.g. expressed as keywords, thresholds, and so on) that can be controlled and set up by DoD personnel. In addition, DoD personnel will have control over what aggregate will be computed at the midpoint. Stealth will develop the platform, architecture, and tool chain necessary to integrate Stealth's innovative MPC technologies into the workflow of DoD’s desired data midpoint operations, as well as the detection-avoiding exfiltration protocol. The intelligence data transmission and analysis will be modeled and prototyped as MPC computations with an MPC-friendly data format.
 
 ## News (Exa, top 3)
+- Stealth Awarded Contract for DARPA SIEVE Seedling (2023-01-31) https://www.stealthsoftwareinc.com/contract/update/stealth-receives-contract-for-darpa-sieve-seedling/
+  Stealth Awarded Contract for DARPA SIEVE Seedling - Stealth Software Technologies
+
+# Stealth Awarded Contract for DARPA SIEVE Seedling
+
+As part of a seedling project of our WIZKIT efforts under the SIEVE program, Stealth has received additional funding to pursue technology targeting zero-knowledge applications within the healthcare sector. Namely, cryptographic tools such as ZK and MPC can be employed to link and aggregate health records from multiple hospitals, allowing for their joint analysis
 - Stealth Software Technologies () https://www.highergov.com/awardee/stealth-software-technologies-inc-10008360/
   Stealth Software Technologies
 
@@ -258,12 +264,6 @@ Stealth Software Technologies
 Website
 
 H
-- Stealth Awarded Contract for DARPA SIEVE Seedling (2023-01-31) https://www.stealthsoftwareinc.com/contract/update/stealth-receives-contract-for-darpa-sieve-seedling/
-  Stealth Awarded Contract for DARPA SIEVE Seedling - Stealth Software Technologies
-
-# Stealth Awarded Contract for DARPA SIEVE Seedling
-
-As part of a seedling project of our WIZKIT efforts under the SIEVE program, Stealth has received additional funding to pursue technology targeting zero-knowledge applications within the healthcare sector. Namely, cryptographic tools such as ZK and MPC can be employed to link and aggregate health records from multiple hospitals, allowing for their joint analysis
 - About Us (2022-04-24) https://www.stealthsoftwareinc.com/about-us/
   About Us - Stealth Software Technologies
 

@@ -1,0 +1,16 @@
+{
+  "company": "1Aardvark, LLC",
+  "slug": "1aardvark",
+  "domain": "1aardvark.co",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "SDVOSB with a $1.93M MDA Direct-to-Phase-II SBIR and 'Delivering for the warfighter' homepage language (website, channel notes) — but the business is custom software services plus IT equipment resale.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Veteran-owned defense services small business: custom software/algorithm engineering for DoD plus IT equipment supply (latest news is a $193K DLA contract to resell Cisco transceivers) — no product of its own crossing a valley of death."
+}

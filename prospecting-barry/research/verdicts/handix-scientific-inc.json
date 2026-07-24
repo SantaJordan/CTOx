@@ -1,0 +1,45 @@
+{
+  "company": "Handix Scientific Inc",
+  "slug": "handix-scientific-inc",
+  "domain": "handixscientific.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "SBIR section: Navy Phase II, 'Aerosol spectral absorption measurement for Near UV through Near Infrared Wavelengths' (2023, $992,428), whose own abstract states 'Directed energy applications, including weapon and communication systems, are also impacted by absorption' and commits to demonstrating 'the prototype at Navy field sites'. Not an SBIR mill — they sell a real commercial instrument catalog (CDC issued a sole-source purchase order for a Portable Aerosol Speciation Spectrometer).",
+  "disconnect_score": 57,
+  "subscores": {"lab_language_intensity": 14, "deployment_awareness_absence": 12, "operator_absence": 11, "hiring_profile_skew": 10, "stage_pressure": 10},
+  "score_evidence": [
+    "'High quality atmospheric aerosol instruments to make measurements that help us better understand our planet' → lab_language_intensity (the entire public site is research framing and spec sheets: 'Diameter resolution: ~5% of diameter', counting-efficiency curves for ammonium sulfate)",
+    "'Building upon the well-established and published Colorado State University CFDC design' → lab_language_intensity (provenance is academic publication, not fielded performance)",
+    "Across ~1,676 words of product detail there is no MIL-STD-810/461, shipboard, airworthiness, ITAR or sustainment language; environmental work is described only as 'laboratory evaluation including environmental testing' → deployment_awareness_absence",
+    "'a novel calibration approach that will greatly simplify operation of the instrument in the field by non-specialists' → operator_absence (the only operator concept is the non-specialist scientist; no sailor, watch stander, training pipeline or CONOPS anywhere)",
+    "No jobs data in pack, so hiring_profile_skew is set to exactly 10 by rule",
+    "9-12 employees, founded 2015, single Navy Phase II with base plus option periods still running, cushioned by commercial instrument revenue → moderate stage_pressure only"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "Calibration ownership after the instrument leaves their hands — 'non-specialist' means a grad student to them and a rotating watch stander to the Navy",
+      "operator_reality": "On a ship or an expeditionary site, nobody has an aerosol calibration bench. The calibration material has a shelf life, the interval has to be written into a maintenance requirement card, the standards need an NSN and a supply channel, and the person doing it changes every rotation. An absorption number that has drifted out of calibration is worse than no number when it is feeding a directed-energy or comms-planning decision — and the fleet will simply stop using a box it cannot certify.",
+      "why_likely_missing": "Their entire installed base is research users who return instruments for factory calibration or run the vendor's field kit themselves; there has never been a customer who needed a sustainment chain rather than a calibration accessory.",
+      "evidence_quote": "We tested a novel calibration approach that will greatly simplify operation of the instrument in the field by non-specialists.",
+      "quote_source": "sbir_abstract"
+    },
+    {
+      "blind_spot": "The measurement has no path into any Navy system that would act on it — it ends at a local log file",
+      "operator_reality": "Aerosol absorption only changes an outcome if it reaches the person aiming the directed-energy system or planning the link, in their existing display, in a format their system ingests. A standalone instrument whose output is onboard logging plus vendor Viewer software on a USB stick produces data that no shipboard system of record can consume, so the operational value stays theoretical and the program has no advocate above the researcher who requested it.",
+      "why_likely_missing": "Research customers take data home and analyze it later; latency and interoperability have never been requirements, so no message format, API or system-of-record integration was ever needed.",
+      "evidence_quote": "Built-in data acquisition and logging capability",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Platform integration is treated as a late test activity rather than a qualification program with its own schedule",
+      "operator_reality": "Putting a box on a Navy manned aircraft or UAS is not a test event — it is airworthiness: MIL-STD-810 vibration/shock/altitude, MIL-STD-461 EMI on a platform full of emitters, hazard analysis, weight and balance, and an installation approval. That queue is measured in quarters, and it starts after someone funds it. Attempting it inside the option period is exactly the case where months-to-field exceeds the funded months remaining.",
+      "why_likely_missing": "Their existing airborne heritage is research aircraft and balloons, where a principal investigator signs off on the installation; the certification machinery of a military platform is invisible from that world.",
+      "evidence_quote": "We will also conduct flight testing on manned aircraft to test performance of the system in an aircraft environment ... We will attempt to integrate the system into UAS",
+      "quote_source": "sbir_abstract"
+    }
+  ],
+  "opener_hook": "Your Navy Phase II abstract promises a calibration approach simple enough for non-specialists in the field, which is the right instinct — the version of that problem that kills transitions is who owns the calibration interval and the standards once the instrument is on a ship.",
+  "confidence": "medium",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Builds portable atmospheric aerosol and bioaerosol instruments (optical particle spectrometers, ice-nucleation chambers, condensation samplers) for research, government and now Navy aerosol-absorption measurement."
+}

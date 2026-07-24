@@ -1,0 +1,25 @@
+{
+  "company": "Modern Intelligence",
+  "slug": "modern-intelligence",
+  "domain": "modernintelligence.ai",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "SBIR/STTR record shows an Air Force Phase II award ($1,224,440, 2022) for CUTLASS, and the site's own testimonials cite testing with NGA, Naval Special Warfare, and a major prime contractor PM.",
+  "disconnect_score": 67,
+  "subscores": {"lab_language_intensity": 19, "deployment_awareness_absence": 14, "operator_absence": 12, "hiring_profile_skew": 10, "stage_pressure": 12},
+  "score_evidence": [
+    "'Shockingly Accurate... Based on F1 scores. 99% IR SINGLE CLASS' (repeated 3x) → lab_language_intensity",
+    "'Easily deploy on premise, on cloud, or at the federated tactical edge' — deployment mentioned only as a marketing checkbox, no DDIL/ATO/RMF/CMMC/ITAR specifics anywhere → deployment_awareness_absence",
+    "'Empower the modern warfighter to accurately and quickly operate with confidence' — the only operator reference is a tagline, no training/CONOPS/sustainment language → operator_absence",
+    "'Founded 2020... 20 employees... Capital Factory All Access Fund 2024' with SBIR Phase II already closed in 2022 and still describing itself as pre-program-of-record → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Claims 'federated tactical edge' deployment but the product's core value is multi-INT sensor fusion requiring continuous multichannel data streams", "operator_reality": "Same failure mode as the 30fps crowd-detection case — CUTLASS's 'combine near-simultaneous data streams... into a single multichannel tensor' architecture assumes sustained multi-sensor bandwidth that a DDIL environment will deny", "why_likely_missing": "the SBIR abstract emphasizes model capability (accuracy, sensor-agnosticism) with no discussion of degraded-comms behavior", "evidence_quote": "CUTLASS utilizes state of the art multimodal machine learning models to combine near-simultaneous data streams of separate modalities into a single multichannel tensor", "quote_source": "sbir_abstract"},
+    {"blind_spot": "'Deploy on any UXS, ship, plane, or COP' with no SWaP-C discussion for constrained platforms", "operator_reality": "Running multichannel tensor fusion inference onboard a small UAS or USV has real compute/power ceilings; claiming universal platform deployment without addressing footprint means the E-5 finds out the hard way when it won't fit or drains batteries", "why_likely_missing": "pitch materials emphasize model performance (F1 scores, one-shot learning) over the hardware envelope it must run inside", "evidence_quote": "Cutlass is a software product that can deploy on any UXS, ship, plane, or COP to process sensor data in real-time from any sensor", "quote_source": "news"},
+    {"blind_spot": "Zero mention of ATO, RMF, STIG, IL4/IL5, or CMMC despite claiming integration into any government platform, new or old", "operator_reality": "A product this embedded in classified/sensitive ISR sensor chains cannot get on a government network without an ATO; absence of any compliance language at this stage of DoD testing is a live risk to the contract clock", "why_likely_missing": "team appears product/ML-focused (sensor fusion, neural networks per LinkedIn specialties) with no visible compliance or ISSO function", "evidence_quote": "Designed to work with any hardware, software or data, whether legacy systems, newly deployed systems, or the systems of the future", "quote_source": "homepage"}
+  ],
+  "opener_hook": "Modern Intelligence's CUTLASS won an AFRL SBIR Phase II in 2022 and has since been tested by NGA and Naval Special Warfare — worth asking how it performs when the tactical edge drops from continuous streams to intermittent comms.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "CUTLASS is a sensor-agnostic AI platform that fuses EO/IR, SAR, acoustic, and RF sensor data across UAS, satellites, ships, and common operating picture platforms for maritime target detection and tracking."
+}

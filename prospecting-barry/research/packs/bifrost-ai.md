@@ -341,7 +341,7 @@ MANIF
 Bifrost recreates the real world in simulation. Our simulation infrastructure enable the world’s largest robotics companies to train and evaluate systems at the speed of software, from helping NASA explore Mars autonomously to automating dangerous industrial work. Bifrost is a series A backed by Sequoia Capital, Lux Capital, and Airbus Ventures.
 
 ## News (Exa, top 3)
-- Nextgen Federal awarded US Air Force BIFROST ... (2026-06-12) https://orangeslices.ai/nextgen-federal-awarded-us-air-force-bifrost-enterprise-environmental-portal-e2p-ai-ml-support-contract/
+- Nextgen Federal awarded US Air Force BIFROST Enterprise ... (2026-06-12) https://orangeslices.ai/nextgen-federal-awarded-us-air-force-bifrost-enterprise-environmental-portal-e2p-ai-ml-support-contract/
   Nextgen Federal awarded US Air Force BIFROST Enterprise Environmental Portal (E2P) AI/ML Support contract | OrangeSlices AI
 
 Opportunities
@@ -373,7 +373,7 @@ Federal Financial
 - bifrost ai (2026-06-26) https://bifrost.ai/
   # Bifrost AI (Bifrost AI, Inc.)
 
-Bifrost AI is a Software Development company. Bifrost is a simulation company that helps teams deploy AI systems faster and more safely for robotics and autonomous AI development with simulation, world models, and synthetic data. Bifrost AI employs 20 people (+4.9% YoY, +2 people) and has an annual revenue of $3M, founded in 2020. Headquartered in San Francisco, United States, with presence in Singapore, Japan, and Indonesia. Has $13.2M in total funding, with 3 p
+Bifrost AI is a Software Development company. Bifrost is a simulation company that helps teams deploy AI systems faster and more safely for robotics and autonomous AI development with simulation, world models, and synthetic data. Bifrost AI employs 20 people (+4.9% YoY, +2 people) and has an annual revenue of $3M, founded in 2020. Headquartered in San Francisco, United States, with presence in Singapore. Its workforce is distributed across Singapore, United State
 - Bifrost helps industrials speed up model training with its 3D data-generation platform | TechCrunch (2024-10-30) https://techcrunch.com/2024/10/30/bifrost-ai-raises-8m-for-its-3d-and-ai-data-generation-platform/
   Bifrost helps industrials speed up model training with its 3D data-generation platform | TechCrunch
 

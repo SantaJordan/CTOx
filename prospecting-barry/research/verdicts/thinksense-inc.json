@@ -1,0 +1,38 @@
+{
+  "company": "ThinkSense Inc.",
+  "slug": "thinksense-inc",
+  "domain": "thinksense.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "DARPA SBIR Phase II ($1,746,406, 2023) for 'mSense: Mobile & Wearable Sensing at scale' whose own abstract states the goal is to 'continuously monitor warfighter health and readiness at the edge in real-time' — genuine DoD motion, though absent from the public-facing homepage entirely.",
+  "disconnect_score": 63,
+  "subscores": {"lab_language_intensity": 12, "deployment_awareness_absence": 12, "operator_absence": 11, "hiring_profile_skew": 10, "stage_pressure": 18},
+  "score_evidence": [
+    "'Deliver Digital Biomarker Innovation with a deep scientific data analysis of the data collection' — commercial clinical-trial marketing language with no operational/field framing → lab_language_intensity",
+    "SBIR abstract describes edge processing and battery constraints in technical detail with zero ATO/RMF/CMMC/ITAR/DDIL language (capped at 12: own-language word count ~765, under 1000) → deployment_awareness_absence",
+    "'continuously monitor warfighter health and readiness at the edge' is the only warfighter/operator mention across the entire pack; no training, CONOPS, or field feedback discussed (capped at 12) → operator_absence",
+    "No jobs data in pack ('Open roles: (no jobs data found)') → hiring_profile_skew set exactly 10 per instructions",
+    "Homepage copyright reads '© 2019-2023 thinksense' (stale site), company still at 3-4 employees off a single DARPA SBIR Phase II → stage_pressure"
+  ],
+  "blind_spots": [
+    {"blind_spot": "Public commercial website never mentions the DARPA-funded warfighter application at all — it frames the entire product as a civilian clinical-trial/HIPAA platform",
+     "operator_reality": "A go-to-market message that omits the military use case entirely suggests the defense application still lives only inside a $1.75M SBIR abstract, not in an actual fielding plan — there is no visible bridge from 'digital biomarkers for drug development' to 'a device a warfighter wears on patrol.'",
+     "why_likely_missing": "The commercial clinical-trials business (cohort data collection, HIPAA compliance) is clearly the company's primary go-to-market identity; the DARPA award appears to be a separate, unintegrated research track.",
+     "evidence_quote": "'Digital biomarker sensing technologies... HIPPA compliant... Focus on mental and behavioral health & drug development' (homepage) vs. 'continuously monitor warfighter health and readiness at the edge' (SBIR abstract)",
+     "quote_source": "homepage"},
+    {"blind_spot": "SBIR abstract shows real battery/SWaP awareness ('less than 5% of the wearable battery over 10 days') but assumes periodic connectivity rather than full DDIL denial",
+     "operator_reality": "A warfighter on an extended patrol in a comms-denied environment needs the wearable to function and store data fully offline for days — the abstract's language of 'minimize the data transmission' implies incremental transmission is still expected, not the total denial that a DDIL environment can impose.",
+     "why_likely_missing": "The proposal's framing comes from a wellness/telehealth mental model (continuous light transmission to a backend) rather than a tactical-edge mental model (store-and-forward under total denial).",
+     "evidence_quote": "'By running the models at the edge, the platform can reduce latency, minimize the data transmission, and real-time feedback to the user.'",
+     "quote_source": "sbir_abstract"},
+    {"blind_spot": "No mention of who on a unit trains on or interprets mSense outputs, and no CMMC/ITAR framing despite HIPAA being explicitly claimed for the civilian product",
+     "operator_reality": "Physiological/behavioral-health data collected on a warfighter's body is sensitive PII/PHI in a military context that HIPAA alone does not cover — without a visible CMMC/ITAR plan, this data-handling gap is likely to surface the moment the DARPA prototype tries to move toward a unit-level pilot.",
+     "why_likely_missing": "Compliance language on the site is entirely civilian-clinical-trial-oriented (HIPAA), suggesting the team has not yet built out the parallel government-data-handling compliance track.",
+     "evidence_quote": "'HIPPA compliant' (as the sole compliance claim on the site, alongside a DARPA warfighter-health SBIR with no CMMC/ITAR mention)",
+     "quote_source": "homepage"}
+  ],
+  "opener_hook": "ThinkSense's DARPA SBIR Phase II ($1.75M, 2023) targets continuous warfighter health monitoring at the edge, though the company's public site frames itself entirely as a civilian clinical-trial platform.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Digital biomarker/wearable-sensor data platform (mSense) built for civilian clinical trials and drug development, with a DARPA SBIR track applying the same edge-sensing tech to continuous warfighter health monitoring."
+}

@@ -1,0 +1,44 @@
+{
+  "company": "Obviant",
+  "slug": "obviant",
+  "domain": "obviant.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "DIU Prototype OT award up to $99M (Nov 2025, businesswire/Breaking Defense) followed by a contract expansion with OUSD(A&S) (Feb 19, 2026, own news page) explicitly framed as a transition from prototype to production usage.",
+  "disconnect_score": 68,
+  "subscores": {"lab_language_intensity": 12, "deployment_awareness_absence": 16, "operator_absence": 12, "hiring_profile_skew": 14, "stage_pressure": 14},
+  "score_evidence": [
+    "\"Data that Drives Overmatch\" / \"Thousands of Data Sources. One Unified Platform.\" -> lab_language_intensity",
+    "Four feature areas (Budget Intelligence, Market Landscapes, Data Modules, pipeline building) described in detail with zero mention of ATO, FedRAMP, CMMC, or data-handling controls despite ingesting DoD budget/program/contract data -> deployment_awareness_absence",
+    "\"empowers companies, government agencies, and investors to deliver better technology to the warfighter\" is the pack's only warfighter/operator reference; no training, CONOPS, or field-feedback language anywhere -> operator_absence",
+    "8 open roles are all sales/GTM or generalist engineering (Account Executive x2, Product Manager, VP of Engineering, Senior Engineer, two data/research analysts) with zero security/compliance/ISSO posting -> hiring_profile_skew",
+    "\"Obviant Awarded Contract Expansion with OUSW(A&S)...marks an important transition from a Defense Innovation Unit prototype OT awarded in 2025\" -- prototype to production-adjacent expansion in ~3 months, run by a 21-person team -> stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "The platform ingests 'thousands of structured and unstructured sources' of DoD budget, program, and contract data with no visible ATO, FedRAMP authorization, or CMMC level mentioned anywhere in the pack.",
+      "operator_reality": "A data platform marketed directly to 'government agencies' needs to clear an accreditation bar before broad government rollout -- this is exactly the kind of compliance gap that stalls an OT-to-production-contract transition after the prototype money is spent.",
+      "why_likely_missing": "Company messaging is entirely feature/value-prop focused (decision advantage, unified platform) and hasn't surfaced the accreditation story publicly, which is common pre-ATO.",
+      "evidence_quote": "\"Obviant is a unified defense acquisition data platform created by synthesizing thousands of structured and unstructured sources\"",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Obviant markets to 'all sides of the market' -- companies, government agencies, AND investors -- as simultaneous customers of the same platform, with no mention of how competitively sensitive acquisition intelligence is segregated between competing defense contractors.",
+      "operator_reality": "If Prime A and Prime B are both customers pulling market-landscape and opportunity data from the same unified platform, the data-segregation and access-control architecture is a real technical and trust problem -- unaddressed, it becomes a blocker the moment a serious government customer's security office asks about it.",
+      "why_likely_missing": "The 'serve everyone' positioning is a growth strategy that predates the harder multi-tenancy security conversation a broader government rollout will force.",
+      "evidence_quote": "\"We're on a mission to equip all sides of the market with the tools they need to execute effectively\"",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "Hiring is entirely commercial GTM and generalist engineering (two Account Executive roles, Product Manager, VP of Engineering, Senior Engineer) with no security/compliance/ISSO role posted, at the exact moment the company is expanding from a DIU prototype OT into an OUSD(A&S) production contract.",
+      "operator_reality": "Security and compliance hiring typically has to precede, not follow, a scale-up in government usage -- absence of that role at this specific inflection point is the hiring-profile version of the same fielding gap.",
+      "why_likely_missing": "21-person team still prioritizing revenue growth (two AE roles) and core product build (VP Eng, Senior Eng) over compliance infrastructure.",
+      "evidence_quote": "\"Account Executive - Government\" / \"VP of Engineering\" / \"Senior Engineer\" (open roles)",
+      "quote_source": "job_post"
+    }
+  ],
+  "opener_hook": "Obviant's DIU OT just expanded into an OUSD(A&S) contract in about three months -- does the platform have a FedRAMP ATO yet?",
+  "confidence": "medium",
+  "stage_band": "unknown",
+  "what_they_do": "Runs a unified data-intelligence SaaS platform that synthesizes thousands of DoD budget, program, and acquisition data sources into dashboards for defense companies, program offices, and investors."
+}

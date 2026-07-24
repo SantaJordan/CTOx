@@ -205,12 +205,12 @@ Phase II Dollars
 $3,852,177
 
 T
-- Little Arms Studios () https://littlearms.com/
-  Little Arms Studios
+- Little Arms Studios for Government () https://www.carahsoft.com/little-arms-studios
+  Little Arms Studios for Government | Carahsoft
 
-Little Arms Studios
-Our website uses cookies to give you the best user experience on our website and to help us deliver our services. By using our services, you agree to our use of cookies.
-[ Info ](/cookies)
+# Zephyr Drone Simulator: Better Training, Better Operators
+
+Zephyr Drone Simulator offers a cutting-edge training solution tailored to meet the unique needs of the public sector market, providing comprehensive training and simulation capabilities for drone operators. Our products and services are designed to empower government agencies, law enforcement, emergency responders, and other public sector organizations with the tools they need to enhance
 
 ## Open roles (Blitz, live)
 - The New Standard for Fire Training Excellence ({'city': None, 'country_code': 'CN'})

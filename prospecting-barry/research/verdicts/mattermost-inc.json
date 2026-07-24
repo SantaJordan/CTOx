@@ -1,0 +1,16 @@
+{
+  "company": "Mattermost, Inc.",
+  "slug": "mattermost-inc",
+  "domain": "mattermost.com",
+  "verdict": "drop",
+  "drop_reason": "already_operational",
+  "dod_intent_evidence": "Own press releases document completed contracts: '$1.1M AFWERX SBIR Phase II Contract' completion (2024-10-02) supporting ABMS, and completion of a U.S. Air Force 618th Air Operations Center contract for real-time mission-critical comms (2024-03-05); plus an Air Mobility Command customer story using ChatOps 'to support largest-ever readiness exercise.'",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Secure, self-hosted/air-gapped mission-critical collaboration platform (Slack-like chat, ChatOps, TAK integration) sold to DoD, allied militaries, and critical-infrastructure enterprises."
+}

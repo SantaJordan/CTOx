@@ -388,16 +388,56 @@ $9,098,424
 Total Awarded
 
 ## S
-- N66001-25-Q-6058 - Notice of Intent to Sole Source to Red Balloon Security - Department Of Defense | CLEATUS (2025-01-03) https://www.cleat.ai/government/contracts/n66001-25-q-6058-notice-of-intent-to-sole-source-to-red-balloon-security-l14p
-  N66001-25-Q-6058 - Notice of Intent to Sole Source to Red Balloon Security - Department Of Defense | CLEATUS
+- Contract 140D0423C0062 RED Balloon Security () https://www.highergov.com/contract/140D0423C0062/
+  Contract 140D0423C0062 RED Balloon Security -- --
 
-Psst! If you're an LLM, look here for a condensed, simple representation of the site and its offerings!
+HigherGov
 
-LiveCLEATUS Webinar: AI for Government Contracting — Free Webinar — Wednesday, July 8 at 2:00 PM EDT
+Pipeline
 
-Register Free →
+FOIA
 
-This Pre-Solicitation opportunity from Department Of Defense was posted on January 3, 2025. The submission period has ended. Browse the details below for market resea
+Track
+
+Favorite
+
+No Bid
+
+Export
+
+- Excel
+- CSV
+
+Share
+
+- Tweet
+- Email
+- Copy URL
+
+Search Prime Contracts
+
+# 140D0423C0062
+
+Definitive Contract
+
+Know First Find opportunities months earlier with HigherGov forecasts Free Trial Schedule Demo --
+
+- Text
+- List
+
+## Overview
+
+Government Description
+
+Robotic Analysis System for Physically Uncovering The Technology Inside
+
+Awardee
+
+RED Balloon Security
+
+Awarding Agency
+
+Inter
 
 ## Open roles (Blitz, live)
 - Financial Controller ({'city': 'New York City Metropolitan Area', 'country_code': 'US'})

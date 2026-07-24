@@ -1,18 +1,21 @@
 #!/usr/bin/env python3
-"""Shared helpers for the Barry Hess (Quantum Surge) prospecting pipeline."""
+"""Shared helpers for the Barry Hess (Quantum Surge) prospecting pipeline.
+
+Runs from the non-iCloud scratchpad (iCloud was deleting files under the repo's
+prospecting-barry/). ROOT is the scratchpad working dir; REPO points at the real
+CTOx repo so .env and the prospecting-ctox reference files resolve correctly.
+"""
 import json
 import os
 import re
 import urllib.request
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent          # prospecting-ben/
-REPO = ROOT.parent                                     # CTOx/
+ROOT = Path(__file__).resolve().parent.parent          # scratchpad/barry-work
+REPO = Path("/Users/jordan/Desktop/Claude Code/CTOx")  # real repo (survives)
 
 
 def load_env():
-    # Repo .env is authoritative and OVERRIDES inherited shell exports (a stale
-    # EXA_API_KEY in the shell profile broke /agent/runs with 401).
     loaded = set()
     for envfile in [REPO / ".env", Path.home() / "Desktop/Blueprint-GTM-Skills/.env"]:
         if envfile.exists():

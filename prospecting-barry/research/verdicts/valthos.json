@@ -1,0 +1,16 @@
+{
+  "company": "Valthos",
+  "slug": "valthos",
+  "domain": "valthos.com",
+  "verdict": "drop",
+  "drop_reason": "no_dod_motion",
+  "dod_intent_evidence": "None in own words. Site/blog/LinkedIn describe 'biodefense' AI for biological threat identification and countermeasure design — no DoD/military customer language, no SBIR, no DIU/AFWERX/SOFWERX engagement, no defense contract news; funding is OpenAI/Lux/Founders Fund VC money, not a government award. Also fails evidence-sufficiency gate independently at ~491 own-language words.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Frontier-AI biodefense startup identifying biological threats and designing medical countermeasures in real time."
+}

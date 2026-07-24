@@ -1,0 +1,44 @@
+{
+  "company": "Argus Foresight Inc.",
+  "slug": "argus-foresight-inc",
+  "domain": "argusforesight.ai",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "Their own pitch deck (argusforesight.ai/docs/Foresight_One_pitch_en_compact_public.pdf) states 'Prototypes deployed with 241st Territorial Defense Brigade in the Zaporizhzhia sector and with the 34th Marine Brigade in Kherson' and credits AI algorithms 'developed at Tulane University through DARPA-funded research' with a Tulane PPOC grant in Nov 2025; channel notes add DARPA Embedded Entrepreneur Initiative participation. (Note: the usaspending 'ARGUS SECURE TECHNOLOGY LLC' and SEC 'Foresight Autonomous Holdings' items in the news section are different companies and were not used as evidence.)",
+  "disconnect_score": 55,
+  "subscores": {"lab_language_intensity": 10, "deployment_awareness_absence": 12, "operator_absence": 4, "hiring_profile_skew": 10, "stage_pressure": 19},
+  "score_evidence": [
+    "'Validated Performance: 40+ km detection range achieved in combat conditions' and 'TAM (Total Addressable Market): $63 Billion' — a best-case range figure and a market number carrying the credibility load, with no stated conditions, altitude, or emitter power → lab_language_intensity",
+    "Zero mention of ATO/RMF, STIG, CMMC/NIST 800-171, ITAR/export control, or spectrum authorization anywhere in ~1114 words, despite a Ukraine-distributed workforce and an RF/ELINT product → deployment_awareness_absence",
+    "'High praise from Electronic Intelligence (ELINT) operators' and 'Continuous battlefield testing enables rapid iteration and practical improvements' — operators and field feedback are genuinely central → operator_absence 4",
+    "No jobs data in pack: hiring_profile_skew set to exactly 10 as instructed",
+    "Founded 2025, 4 people, 'View Pitch Deck' as a homepage CTA, 'Representative office in Ukraine: registration in progress', '5 ruggedized prototypes built; Mesh software in development' against a 2026 roadmap of '100+ pilot modules' → stage_pressure"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "A consumer single-board computer as the fielded compute baseline",
+      "operator_reality": "A US program office buying a thousand nodes needs a controlled BOM: environmental qualification for shock, vibration, and temperature; configuration control so a silent board revision doesn't fracture the fleet; secure boot and anti-tamper because the node sits forward and will be captured; guaranteed lifecycle availability across a five-year sustainment contract; and an OS baseline that can be STIG'd. A Raspberry Pi 5 satisfies none of those, and the redesign to something that does changes thermals, power, and the AI inference budget all at once — which is a re-architecture discovered after the pilot, not during it.",
+      "why_likely_missing": "In the fight they are actually in, the Pi is the correct engineering answer — cheap, available, replaceable, and good enough to survive attrition. The constraint that kills it is a procurement constraint, and they have never been procured by anyone who imposes it.",
+      "evidence_quote": "Distributed AI: Lightweight AI classifiers run on the edge (Raspberry Pi 5), not expensive servers.",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "C2 integration is asserted generically; no message format, no TAK, no air-defense chain",
+      "operator_reality": "A counter-UAS detection is only useful if it arrives in the air-defense C2 picture fast enough and in a format that picture accepts — CoT into a TAK server for the SA layer, and a correlated track into the FAAD C2 chain for anything that will cue an effector. 'Can be integrated' is not an interface. And their actual user interface — a browser-based web page per node — is not how an air-defense crew works: on a DoD network that web app needs its own ATO, STIG'd container, and CAC authentication, and at the tactical edge the operator does not have a browser device to spare.",
+      "why_likely_missing": "Their Ukrainian users self-integrate — a crew will happily open a web page on a phone because nobody is enforcing an accreditation boundary. That flexibility is exactly what disappears on a US installation.",
+      "evidence_quote": "Can be integrated with situational awareness and C2 systems",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "A Ukraine-distributed workforce holding RF/ELINT technical data, with no export-control or facility posture described",
+      "operator_reality": "The moment a US contract vehicle is involved, RF signal-classification technical data becomes export-controlled, and development or storage by non-US persons abroad is a deemed-export problem before it is a contracting problem. Layer on CMMC/NIST 800-171 for handling CUI, a FOCI review for a company whose engineering center is overseas, and the requirement to hold controlled data on a compliant enclave rather than shared drives. This is the gate that stops the transition regardless of how good the sensor is, and it takes quarters to clear — longer than a pre-seed runway.",
+      "why_likely_missing": "The Ukrainian engineering team is their genuine competitive advantage and their fastest feedback loop; nothing about the way they have operated so far has priced in that the same structure is a compliance finding on the US side.",
+      "evidence_quote": "Central Office (U.S.): Argus Foresight Inc., Delaware, USA. Representative office in Ukraine: registration in progress",
+      "quote_source": "homepage"
+    }
+  ],
+  "opener_hook": "Argus's public pitch deck says Foresight One runs its classifiers on Raspberry Pi 5 and that prototypes are fielded with the 241st Territorial Defense Brigade in Zaporizhzhia and the 34th Marine Brigade in Kherson — the combat validation is real, and it is also the exact bill of materials a US program office cannot put on a sustainment contract.",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Builds low-cost passive RF sensor nodes that mesh together to detect, classify, and geolocate small drones for early warning."
+}

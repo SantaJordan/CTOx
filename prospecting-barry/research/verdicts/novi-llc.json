@@ -1,0 +1,44 @@
+{
+  "company": "NOVI Space",
+  "slug": "novi-llc",
+  "domain": "novillc.com",
+  "verdict": "keep",
+  "drop_reason": "",
+  "dod_intent_evidence": "MDA Phase II SBIR (SEED, $1.34M/1.69M), MDA follow-on award, and MDA SHIELD IDIQ contract win reported in the news section; own site cites support for USAF and Missile Defense Agency missions.",
+  "disconnect_score": 67,
+  "subscores": {"lab_language_intensity": 17, "deployment_awareness_absence": 14, "operator_absence": 12, "hiring_profile_skew": 10, "stage_pressure": 14},
+  "score_evidence": [
+    "\"flight-proven On-Board Computers (OBCs)\" / \"already achieved TRL-9\" -> lab_language_intensity",
+    "\"sensor-agnostic, near real-time detection in a low-SWaP...cross-platform product\" is the only deployment-constraint language in the whole pack; no ATO/RMF/CMMC/ITAR/STIG mention anywhere -> deployment_awareness_absence",
+    "\"A Proliferated, Low-Cost Satellite Platform for AI Software Development, Testing and Warfighter Training\" is the sole warfighter mention; no CONOPS, training plan, or field-feedback language accompanies it -> operator_absence",
+    "9-14 person team (LinkedIn/SBIR record) simultaneously running SEED, a Phase II follow-on, an OSD Phase I, and prepping the GENIEedge P-BODY launch for Q3 2026 -> stage_pressure",
+    "no jobs data found in pack -> hiring_profile_skew set to 10 per instructions"
+  ],
+  "blind_spots": [
+    {
+      "blind_spot": "On-orbit edge processing is pitched as solving bandwidth by 'transmitting only actionable results' but the pack never addresses what happens when the downlink itself goes denied/intermittent for the ground segment receiving those results.",
+      "operator_reality": "A DDIL ground segment means the 'actionable result' sits unsent in the same way raw data would have — the architecture assumes a reliable downlink exists at exactly the moment it matters, the same blind spot as the 30fps crowd-detection case, just one hop further down the chain.",
+      "why_likely_missing": "Team is optimizing the space-side compute problem (SWaP, edge inference) and has not yet had a ground-side DDIL failure force the redesign.",
+      "evidence_quote": "\"transmitting only actionable results and information to the end-user\"",
+      "quote_source": "homepage"
+    },
+    {
+      "blind_spot": "GENIE's on-orbit 'user-defined data collection & processing tasks' implies mid-mission reprogramming of a DoD/MDA payload with zero mention of ATO, IL4/IL5, or STIG accreditation for that software pipeline.",
+      "operator_reality": "A payload that can be arbitrarily reprogrammed on-orbit is exactly the kind of system an ISSO will refuse to grant an ATO for without a defined POA&M — this can stall a contract far longer than the hardware development itself.",
+      "why_likely_missing": "The company is hardware/mission-heritage focused (TRL-9 achieved, ISS flights) and hasn't yet hit the compliance wall that comes with operationalizing customer-defined software on a government payload.",
+      "evidence_quote": "\"GENIE can perform countless user-defined data collection & processing tasks, cutting costs, latency & data volume\"",
+      "quote_source": "linkedin_about"
+    },
+    {
+      "blind_spot": "The Phase I abstract title invokes 'Warfighter Training' but the entire pack contains no description of who trains on the system, how a non-engineer operator tasks the satellite, or what sustainment looks like once GENIEedge scales to a constellation.",
+      "operator_reality": "Without a defined training/CONOPS path, 'warfighter training' risks being a proposal keyword rather than a designed workflow — the same gap that kills adoption once a champion below flag-officer level has to actually operate it.",
+      "why_likely_missing": "Small 9-14 person team is still in mission-heritage/demo mode (SEED, LIME, ATLAS pathfinders) and hasn't reached the phase where operator training becomes a forcing function.",
+      "evidence_quote": "\"A Proliferated, Low-Cost Satellite Platform for AI Software Development, Testing and Warfighter Training\"",
+      "quote_source": "sbir_abstract"
+    }
+  ],
+  "opener_hook": "NOVI's SEED payload flew an MDA mission to the ISS this year — is the SP240's on-orbit reprogramming path already ATO'd for classified tasking?",
+  "confidence": "medium",
+  "stage_band": "preseed_seed",
+  "what_they_do": "Builds flight-proven on-board computers and AI-enabled smart satellites (GENIEedge) that process sensor data in orbit and downlink only the actionable intelligence."
+}

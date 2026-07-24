@@ -1,0 +1,16 @@
+{
+  "company": "Convergent Manufacturing Technologies US Inc",
+  "slug": "convergent-manufacturing-technologies-us-inc",
+  "domain": "convergent-us.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "Air Force SBIR Phase II 2022 and a 2025 USAF contract (news), but their own LinkedIn says 'Convergent-US is a representative of Convergent Manufacturing Technologies' suite of process modelling software' and the site adds 'independent developer and reseller of hardware and software products' plus 'simulation and consulting' — a 2-4 person reseller/consulting outpost, and the product is factory-floor simulation with no fielded-to-operators dimension.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "US reseller/rep and consulting arm for composite-manufacturing process-simulation software (COMPRO, RAVEN), with AF-funded simulation R&D."
+}

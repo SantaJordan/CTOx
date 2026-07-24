@@ -1,0 +1,20 @@
+{
+  "company": "Atomic-6, Inc.",
+  "slug": "atomic-6-inc",
+  "domain": "atomic-6.com",
+  "verdict": "drop",
+  "drop_reason": "disqualified_type",
+  "dod_intent_evidence": "DoD motion is genuine (Air Force SBIR Phase II 2022 for AFRL's LCAAT XQ-58 Valkyrie, a 2024 USAF Phase II on hypersonic radomes, and a $2M Space Force contract reported July 2025 — SBIR/STTR + News), but the company is a composite parts and materials manufacturer, not a system that has to be fielded to operators.",
+  "disconnect_score": 0,
+  "subscores": {"lab_language_intensity": 0, "deployment_awareness_absence": 0, "operator_absence": 0, "hiring_profile_skew": 0, "stage_pressure": 0},
+  "score_evidence": [
+    "\"Atomic-6 is revolutionizing mobility by rapidly designing and manufacturing the world's finest composite solutions\" (linkedin_about) → disqualified_type: build-to-spec materials/parts supplier",
+    "\"Atomic-6's composites and autoclave manufacturing 1) exponentially reduce manufacturing costs ... reduce autoclave cycle times by 98%\" (sbir_abstract) → the pitch is a manufacturing process, not a deployable system",
+    "Entire homepage is a parts configurator — \"Space Armor® Tiles ... $2,500.00 ... Typically ships within 30d\" → catalog component sales into other people's platforms; no software, network, or operator surface where deployment architecture applies"
+  ],
+  "blind_spots": [],
+  "opener_hook": "",
+  "confidence": "high",
+  "stage_band": "revenue_stage",
+  "what_they_do": "Atlanta composites manufacturer selling catalog carbon-fiber products — deployable solar arrays, spacecraft armor tiles, and lightweight structural panels — to aerospace and defense platform builders."
+}

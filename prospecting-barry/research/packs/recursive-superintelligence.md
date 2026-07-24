@@ -137,24 +137,26 @@ Recursive self-improving superintelligence to automate knowledge discovery.
   nytimes.com
 
 nytimes.com
-- What happens when AI starts building itself? | TechCrunch (2026-05-14) https://techcrunch.com/2026/05/14/what-happens-when-ai-starts-building-itself/
-  What happens when AI starts building itself? | TechCrunch
+- Recursive Superintelligence emerges from stealth with $650M raise - Tech.eu (2026-05-13) https://tech.eu/2026/05/13/recursive-superintelligence-emerges-from-stealth-with-650m-raise/
+  Recursive Superintelligence emerges from stealth with $650M raise - Tech.eu
 
-Image Credits:Piaras Ó Mídheach/Sportsfile / Getty Images
+NOTIFICATIONS
 
-AI
+Sign in to your account, or Sign up to stay up to date with the hottest European tech startup news.
 
-Copy Share Link
+Sign in
 
-# What happens when AI starts building itself?
+Sign up
 
-Russell Brandom
+Search on Tech.eu...
 
-12:57 PM PDT · May 14, 2026
+Sign in to your account, or Sign up to stay up to date with the hottest European tech startup news.
 
-Copy Share Link
+Sign in
 
-Richard Socher has been a major figure in AI for some time, best known for founding the early chatbot startup You.com and, before that, his work on ImageNet. Now he’s joining the current generation of research-focused AI startups with Recursive Super
+Sign up
+
+FUNDINGEXPLORER Tech.eu Funding Explorer is a free and open platform built to help founders, investors, operators, researchers and ecosystem builder
 - A four-month-old startup just raised $650 million to build AI that improves ... (2026-05-14) https://thenextweb.com/news/recursive-superintelligence-self-improving-ai-funding
   Recursive Superintelligence raises $650m at $4.65bn valuation to build self-improving AI
 
