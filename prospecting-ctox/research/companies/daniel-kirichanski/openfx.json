@@ -1,0 +1,48 @@
+{
+  "verdict": "keep",
+  "reason": "OpenFX's live Product Manager, Onboarding posting confesses the exact EDP Daniel fixes — \"We have built a world-class financial engine. Now we need an onboarding experience that matches it\" — a payments company at $45B annualized volume and 100+ institutional clients still onboarding them by hand, while a parallel live posting admits the external developer surface \"has no owner.\"",
+  "fit_score": 0.6448,
+  "company": {
+    "name": "OpenFX",
+    "domain": "openfx.com",
+    "one_liner": "Cross-border FX and payments infrastructure for financial institutions, using stablecoins as an intermediate settlement rail so fintechs, neobanks, remittance providers and payroll platforms can convert and settle in minutes instead of days.",
+    "industry": "Fintech / cross-border payments infrastructure",
+    "stage": "Series A — $94M led by Accel, Atomico, Lightspeed Faction, M13, Northzone, Pantera (2026-03-31), ~$500M valuation, ~$140M total raised, ~105 employees across 4 continents, founded 2024",
+    "hq": "Miami, Florida, USA (hubs in London, Dubai, Bangalore, Singapore)"
+  },
+  "evidence_jobs": [
+    {
+      "title": "Product Manager, Onboarding",
+      "url": "https://job-boards.greenhouse.io/openfx/jobs/5157134008",
+      "live": true,
+      "quote": "We have built a world-class financial engine. Now we need an onboarding experience that matches it. This is a foundational role where you will own the onboarding ecosystem from the ground up: designing client journey flows by segment, enabling clients to reach \"ready to trade\" across every product and corridor, and directly influencing how quickly clients go from first touch"
+    },
+    {
+      "title": "Developer Experience Lead",
+      "url": "https://job-boards.greenhouse.io/openfx/jobs/5208798008",
+      "live": true,
+      "quote": "We have built a world-class financial engine, but how external developers experience that engine has no owner. This role fills that gap. This is a foundational role. You will be the first hire in this function."
+    }
+  ],
+  "people_spec": [
+    "Chief Technology Officer — confirmed to exist (OpenFX is currently hiring an \"Executive Assistant to CTO\"); owns whether client integration is plumbing or people",
+    "Head of Product Growth — confirmed to exist; the Developer Experience Lead posting states it reports to \"the head of Product Growth,\" so this person owns the unowned developer surface today",
+    "Founder & CEO (Prabhakar Reddy) — the Series A thesis is a thousand institutions each serving millions, which is the cost-to-onboard argument in his own words",
+    "Head of Trade Operations — note: currently an OPEN req, so there may be no incumbent to reach",
+    "Head of Business Operations — note: currently an OPEN req, so there may be no incumbent to reach"
+  ],
+  "talk_track": "I ran platform engineering at Ripple through 6B+ annual transactions, and PayPal's internal developer platform for 9,000 engineers before that, so I've watched what happens when corridors grow faster than the engineering underneath them. Your Product Manager, Onboarding posting puts it plainly: \"We have built a world-class financial engine. Now we need an onboarding experience that matches it.\" Read alongside the Developer Experience Lead req — \"how external developers experience that engine has no owner\" — those two openings are describing one number rather than two: how many OpenFX people it takes to get one institution live and trading. At $45B annualized across 100+ institutional clients, that number decides whether each new corridor compounds margin or just adds a delivery team. In my experience that is almost always solved with plumbing — a self-serve integration path, API governance, docs that stay true as the platform moves — and only rarely with more headcount. What does it cost you today to get one institution to first trade?",
+  "sources": [
+    "https://job-boards.greenhouse.io/openfx/jobs/5157134008",
+    "https://job-boards.greenhouse.io/openfx/jobs/5208798008",
+    "https://job-boards.greenhouse.io/openfx/jobs/5121568008",
+    "https://www.openfx.com/blog/announcing-openfx-s-94m-series-a",
+    "https://www.businesswire.com/news/home/20260330586743/en/OpenFX-Raises-%2494-Million-Series-A-to-Scale-Cross-Border-Money-Movement",
+    "https://www.businesswire.com/news/home/20250522683658/en/OpenFX-Raises-%2423M-in-Initial-Funding-to-Revolutionize-Cross-Border-Payments-with-Real-Time-FX-Settlement-Capabilities",
+    "https://www.coindesk.com/business/2026/03/31/forex-startup-openfx-raises-usd94-million-to-expand-stablecoin-powered-cross-border-payments",
+    "https://cfotech.in/story/openfx-raises-usd-94-million-to-speed-cross-border-payments",
+    "https://refreshmiami.com/news/global-startup-openfx-growing-from-miami-using-stablecoin-to-speed-money-transfers/",
+    "https://www.openfx.com/company",
+    "https://tracxn.com/d/companies/openfx/__7eQRtC52bTsrhj7728jrMwIz8HKUIK-rpd1gJ6OJaFI"
+  ]
+}

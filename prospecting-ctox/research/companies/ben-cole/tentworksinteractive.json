@@ -1,0 +1,27 @@
+{
+  "verdict": "drop",
+  "reason": "Wrong geography and wrong signal: Tentworks is an India-licensed studio (TentWorks Interactive Private Limited, CIN U92412KA2012PTC065492, HQ Bengaluru) of roughly 5-22 people, and every live Workable posting is a creative/gameplay role listed 'Bengaluru, India - on_site' (Senior Unity Game Programmer, 3D Artist, Narrative Designer, Character Artist) with zero DevOps, build/release, IT, security, cloud or platform hiring - no quotable line redescribes the unowned technical-operations pain Ben Cole fixes, and Ben's ICP is explicitly US-based PC/console studios of 20-150 with a publisher relationship or recent funding.",
+  "company": {
+    "name": "Tentworks Interactive"
+  },
+  "disqualifiers": [
+    "Not US-based: Indian private limited entity headquartered in Bengaluru, Karnataka; San Francisco listed only as a second office. All four live job postings are 'Bengaluru, India - on_site'.",
+    "Too small for the engagement: Outlook Respawn (2026-05-29) calls it 'a five-person studio from Bengaluru'; LinkedIn shows 19 employees (-13% YoY), BounceWatch 22. Below Ben's 20-150 band and below the scale that sustains a fractional tech-ops executive.",
+    "No ops-layer hiring signal: matched jobs are Senior Unity Game Programmer, 3D Artist, Narrative Designer, Character Artist - a generic 'they hire game devs' match, not a confession of build/release, cloud, IT or security pain.",
+    "No funding or publisher evidence found via Exa; the company solicits 'development, work-for-hire, or publishing inquiries', i.e. partly a work-for-hire dev shop rather than a funded studio entering full production.",
+    "Headcount is shrinking, not growing - the opposite of the 'visible headcount growth' trigger in Ben's spec."
+  ],
+  "sources": [
+    "https://tentworks.io/about",
+    "https://tentworks.io/careers",
+    "https://tentworks.io/press",
+    "https://apply.workable.com/tentworks-interactive/",
+    "https://apply.workable.com/tentworks-interactive/jobs/view/0E95A0F9AA.md",
+    "https://apply.workable.com/tentworks-interactive/jobs/view/8E47BEAD3D.md",
+    "https://www.crunchbase.com/organization/tentworks-interactive",
+    "https://www.cbinsights.com/company/tentworks-interactive",
+    "https://respawn.outlookindia.com/gaming/gaming-news/becoming-pablo-is-a-drug-cartel-strategy-game-from-india",
+    "https://store.steampowered.com/developer/TentworksInteractive/",
+    "https://bouncewatch.com/company/tentworks-interactive"
+  ]
+}

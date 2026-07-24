@@ -1,7 +1,0 @@
-{
-  "verdict": "drop",
-  "reason": "UnifyID no longer exists as an independent company — it was acquired by Prove Identity in June 2021 (prove.com/prove-acquires-unifyid), and the 'unify' Lever feed is a zombie board: the matched Senior iOS/Android postings are dated 2020 and open with 'About Prove (acquired UnifyID)'. The business is behavioral-biometrics identity authentication SaaS serving 1,000+ enterprises and 9 of the top 10 US banks — not a connected-hardware or medical-device company with a companion-app bottleneck, and far too large (and too absorbed) to hire a fractional CTO. No line in the feed redescribes David Sowsy's niche pain (BLE companion apps, app-store deadline crises, regulated mobile); the fresh feed is generic engineering titles plus parsing artifacts.",
-  "company": {
-    "name": "UnifyID (acquired by Prove Identity, 2021)"
-  }
-}

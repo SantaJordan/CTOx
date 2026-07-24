@@ -1,7 +1,0 @@
-{
-  "verdict": "drop",
-  "reason": "Bankjoy is a YC/Bessemer-backed fintech for community banks and credit unions with zero defense/intelligence footprint; none of its 8 live postings (VP of Engineering, mobile leads, AE, implementation) redescribes Barry Hess's lab-to-fielded-deployment / DoD valley-of-death pain — the top match is a generic engineering-leadership hire, and hiring a full-time VP of Engineering is not a fractional-CTO signal in his niche.",
-  "company": {
-    "name": "Bankjoy"
-  }
-}

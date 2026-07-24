@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Ridgeline is a ~478-537 employee, ~$100M ARR cloud-native investment-management platform founded by Dave Duffield (PeopleSoft/Workday) with a sitting CTO (Jon Ruggiero), a Chief Technology Architect, a VP Platform Engineering and a VP Engineering — far too large and too well-staffed for a fractional CTO engagement, and on the WRONG SIDE of Shawn's market: its 'Migrations Engineering' and 'Performance & Analytics' postings are about building the product that migrates OTHER firms off legacy systems ('replace legacy systems with a unified platform'), not evidence of an inherited SQL Server/.NET platform with bus factor = 1 that Shawn stabilizes in place.",
+  "company": {
+    "name": "Ridgeline"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "The only evidence is three faculty postings (Middle School Science, Spanish, PE for 2026-27) whose text is purely instructional — curriculum, classroom management, lesson planning — with no line about technology governance, cybersecurity, vendor oversight, AI policy, or IT leadership; this is a generic 'a school hires teachers' match with no quotable line redescribing the pain Kenneth Thomas fixes, and Exa could not even resolve the company identity (Paylocity job URLs return redirect stubs only, feed slug is None, liveness unverified).",
+  "company": {
+    "name": "Unidentified classical K-12 school (evidence pack ef891498-b9f5-4399-98a3-aa0c692f30a0)"
+  }
+}

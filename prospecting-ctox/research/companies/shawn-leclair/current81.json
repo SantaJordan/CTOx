@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Current is a $1.5B-valuation Series E consumer neobank (6M members, ~187-600 staff, NYC, $80M raised June 2026 led by Springcoast with a16z/Tiger/QED behind it) running a modern GCP stack — Kubernetes, Spanner, MongoDB, Pub/Sub, BigQuery, Java and Scala — with a full in-house engineering and data org; the Director of Analytics Engineering / Director of Data Analytics / Senior Analytics Engineer openings are scale-up hires for an existing analytics function, not a confession of a bus-factor-1 legacy SQL Server/SSIS platform inherited through acquisition, so there is no quotable line matching Shawn Leclair's stabilize-and-modernize-in-place niche, and a company this large and well-capitalized would hire a full-time VP Data, not a fractional CTO.",
+  "company": {
+    "name": "Current"
+  }
+}

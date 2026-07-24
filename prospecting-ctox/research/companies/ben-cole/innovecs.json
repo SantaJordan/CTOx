@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Innovecs is an offshore software outsourcing / dev-services vendor (IAOP 'Global Outsourcing 100' seven years running, ~276 employees, HQ Miami with delivery across 15 countries, ~$23M revenue), not a funded independent US PC/console game studio — it is on the wrong side of Ben Cole's market: it SELLS outsourced DevOps/QA/cloud engineering as billable services (its own site: 'If you'd like to delegate the process of your product development to a software outsourcing company'), which is the same service line a fractional technical-operations executive would compete with, and its matched postings are staffing for client engagements rather than confessions of an unowned internal ops layer (the Senior QA Engineer JD literally reads 'Our client is a leading company in the supply of advanced technological services... for human resources management'). Gaming is only one of four verticals it services via the Innovecs Games sub-brand, so there is no studio, no publisher milestone, and no Tech Director being pulled off the game.",
+  "company": {
+    "name": "Innovecs"
+  }
+}

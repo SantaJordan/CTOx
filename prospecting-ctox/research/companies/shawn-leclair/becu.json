@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "BECU is Boeing Employees' Credit Union — the 5th largest US credit union with $29.4B in assets, 1.5M members, 1,715 FTEs and 67 branches (creditunions.com call-report data as of 2025-12-31) — an enterprise with a full in-house IT org, far too large for a fractional CTO engagement and on the wrong side of the market (a member-owned depository that BUYS core banking software, not the data-heavy B2B SaaS vendor Shawn's niche targets); the pack's 'stage: growth_startup' label is a misclassification, and none of the four matched postings yields a quotable line about legacy SQL Server/SSIS pain or bus-factor-1 ownership — every JD excerpt is identical 'people helping people' recruiting boilerplate plus a pay range, with the top match (Director, Data Engineering at $199,300–$243,800) being a full-time executive hire rather than evidence of an unowned legacy platform.",
+  "company": {
+    "name": "BECU (Boeing Employees' Credit Union)"
+  }
+}

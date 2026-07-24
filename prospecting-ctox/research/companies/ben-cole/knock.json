@@ -1,7 +1,0 @@
-{
-  "verdict": "drop",
-  "reason": "Knock (knock.app) is an unregulated ~20-person Series A dev-tools API company whose platform layer is its core product — the JDs show healthy proactive scaling (Terraform/EKS, Datadog/Honeycomb, '>99.95% uptime track record') and a full-time first-EM hire reporting to the CTO, the opposite of Ben's 'unowned ops in regulated SaaS/game studios not ready to hire the leadership layer' niche; no posting line redescribes his EDP (cost drift, SOC 2 pressure, single-person builds).",
-  "company": {
-    "name": "Knock"
-  }
-}

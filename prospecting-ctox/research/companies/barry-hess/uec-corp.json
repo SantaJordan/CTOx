@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "UEC (United Electronics Company, uec-corp.com) is a 25+ year old AS9100D/ITAR contract electronics manufacturer operating as a multi-site subsidiary of holding company Albion River LLC (UEC Advanced Circuit Technologies, Rochester NY; UEC Advanced Electronics, 64,000 sq ft Charleston SC campus) — it is the wrong side of Barry Hess's market (an EMS supplier that BUILDS hardware for defense OEMs, not a Series A/B venture-backed defense tech startup of 8-30 people with a prototype stuck in the valley of death), it has no venture stage, and the three matched postings are ordinary operations hires with no confession of the pain he fixes: the Design Engineering Manager is a manufacturing-transition role for lithium-ion power products, the Quality Manager runs an existing AS9100/ISO 9001 QMS, and the Network Security Analyst explicitly 'reports directly to the IT Director' — i.e. technical leadership is already in place, the opposite of the cleared-senior-leadership gap he sells into.",
+  "company": {
+    "name": "UEC (United Electronics Company)"
+  }
+}

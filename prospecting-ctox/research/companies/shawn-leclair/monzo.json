@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Monzo is a ~5,048-employee, $5.2B-valuation UK neobank with FY2026 revenue of GBP 1.71B, three consecutive profitable years and an active LSE IPO preparation (Exa: Revelio Labs, Tracxn, Dealroom, Monzo annual report) — orders of magnitude too large for a fractional CTO engagement, and it already carries a full technology C-suite plus multiple Engineering Directors it is hiring more of. It is also the wrong situation and wrong geography for Shawn Leclair: his niche is a data-heavy US SMB whose inherited SQL Server/SSIS/.NET platform is understood by one or two people (bus factor = 1), whereas Monzo is a cloud-native London bank staffing a large in-house platform org. The four matched postings (Senior Analytics Engineer, Staff Analytics Engineer, Data Director Workforce Systems, Engineering Director EU) are generic scale hiring, not confessions of legacy fragility — every JD excerpt in the pack is boilerplate mission copy ('We're on a mission to make money work for everyone') with no line describing legacy stabilization, single-owner risk, migration pressure, or fixed contracted reporting deadlines. No quotable line redescribing the pain Shawn fixes exists in any live posting, so per the rules this drops.",
+  "company": {
+    "name": "Monzo"
+  }
+}

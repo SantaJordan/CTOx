@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Wrong vertical: Arkestro is a San Francisco Series B enterprise procurement SaaS vendor (~120 employees, $104.25M raised, founded 2017 as Bid Ops), not a funded US PC/console game studio entering full production; the pack's match fired on jd_lexicon only, and the boilerplate phrase 'AI, game theory, and behavioral science' repeated in every JD is the almost-certain false-positive trigger against Ben Cole's games niche. No live posting redescribes milestone-confidence or studio build/release pain -- the openings are a Senior Fullstack Engineer, an Enterprise AE, and a Professional Services consultant, i.e. generic growth-stage SaaS hiring, plus a Senior SRE that is a staffed-role hire rather than evidence of an unowned technical-operations layer.",
+  "company": {
+    "name": "Arkestro"
+  }
+}

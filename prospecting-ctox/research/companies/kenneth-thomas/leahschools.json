@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Vertical is right (independent Christian PK-12 association, ~870+ students at its flagship campus, 8-member board on a 'policy-based governance' model) but the hiring signal is not: the three matched postings are a part-time Spirit Store Manager, a stipend Substitute Teacher, and a part-time Chemistry Teacher — generic school hiring with zero technology-governance content (strong_title=False, gap=False, jd_lexicon-only match, and all three unverified for liveness). The one technology-adjacent LEAH posting found via Exa, 'LSA - FT Technology Helpdesk Technician,' reports to an existing 'IT Operations Manager' and describes tier-1 support ('single point of contact... to resolve problems relating to computer- and communications-related services'), which is evidence of in-house IT capacity plus a published Technology Handbook, an acceptable-use policy, a Zendesk support portal and a 1:1 MacBook program — the opposite of Kenneth Thomas's target situation of a school that outgrew reactive outsourced IT with no technology leadership. No live posting redescribes the board-level cybersecurity/AI/vendor-governance gap he fixes, so there is no quotable line.",
+  "company": {
+    "name": "Lutheran Education Association of Houston (LEAH Schools)"
+  }
+}

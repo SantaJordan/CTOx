@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Unanet is a 364-456 employee, ~$74-84M revenue PE-backed ERP vendor (JMI Equity primary investor, Onex strategic investment Dec 2022, 4,200 customers, founded 1988) with a full in-house executive and engineering org across 6 countries - far too large and too well-capitalized for a fractional CTO engagement - and its only two live postings (Product Manager, AEC AI Solutions; Senior Customer Account Executive, GovCon) are an AI product-strategy hire and a sales hire, neither of which contains any line evidencing bus-factor-1 legacy SQL Server/.NET pain, an inherited acquired platform, or absent technical leadership; the matched JD in fact describes an already-shipping 'AI-first platform' and 'internal AI tooling across the full product lifecycle,' which is the opposite of the situation Shawn Leclair fixes.",
+  "company": {
+    "name": "Unanet"
+  }
+}

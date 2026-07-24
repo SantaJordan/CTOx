@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Testronic is an outsourced games QA/localization services vendor (Croydon UK HQ, founded 1998, ~798-2,000 staff across Warsaw/New Orleans/Manila Centres of Excellence, ~$27.4M revenue) — the wrong side of Ben Cole's market (it SELLS ops/QA capacity to studios rather than being a funded US independent studio entering full production), and far too large and mature for a fractional technical-operations engagement; the top matched job is an Associate IT Manager running an internal help desk and mentoring IT Technicians, which is routine service-delivery staffing at a 27-year-old outsourcer, not a confession of unowned technical operations burning milestone runway.",
+  "company": {
+    "name": "Testronic"
+  }
+}

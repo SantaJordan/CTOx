@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Wrong side of the market and wrong situation: Medal is a consumer gaming-clips UGC platform (Naarden, NL; founded 2017) that spun out AI research lab General Intuition — it does not build games, has no publisher milestone to protect, and is not a US independent studio entering full production. The SRE posting is a hyperscale consumer-infrastructure hire ('Medal's infrastructure handles billions of clips, video ingestion pipelines... You'll own the on-call rotation, drive postmortems'), i.e. a full-time IC owning on-call at scale, not a studio whose Tech Director is drowning in builds and vendors. With a $133-134M seed (General Catalyst, Khosla) and General Intuition now at a $320M Series A, the org is far past a fractional technical-operations engagement, and the remaining matched jobs (Senior Frontend React, Data Security Engineer, World Model Researcher) are generic 'they hire engineers' / AI-lab roles. No live posting redescribes the milestone-confidence pain Ben Cole fixes.",
+  "company": {
+    "name": "Medal (Medal.tv) / General Intuition"
+  }
+}

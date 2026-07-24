@@ -1,0 +1,24 @@
+{
+  "verdict": "drop",
+  "reason": "Caprock Academy is a tuition-free K-12 public charter school in Grand Junction, CO (782 students per CDE 2025-26; ~899 per GreatSchools) whose only matched postings are Educational Assistant, Substitute Teacher/Educational Assistant, and Full-time Substitute -- generic instructional-staffing hires with zero technology, vendor, cybersecurity, or AI-governance content, so there is no quotable line redescribing the pain Kenneth Thomas fixes; all three jobs also carry live=None (liveness unverified, feed slug None) and the pack contains no fresh live job list, and Exa surfaced no IT/technology role on the school's own employment page, making this a generic 'they hire staff' match rather than a confession of missing technology governance.",
+  "company": {
+    "name": "Caprock Academy",
+    "domain": "caprockacademy.org",
+    "one_liner": "Tuition-free K-12 public classical charter school in Grand Junction, Colorado, chartered by the Colorado Charter School Institute.",
+    "industry": "K-12 education (public charter school)",
+    "stage": "Established single-campus charter school, ~782-899 students, 51-100 employees",
+    "hq": "714 24 1/2 Road, Grand Junction, CO 81505"
+  },
+  "notes": "Secondary concern beyond the missing signal: Kenneth's EDP is tuition attrition at tuition-funded schools ($0.6M-$3M of annual tuition at 800-2,000 students). Caprock is explicitly tuition-free and state-funded via the Charter School Institute, so the revenue mechanism that makes his 90-day board-clarity engagement urgent does not apply here. Enrollment also sits at the very bottom of his 800-2,000 band. Charter schools are inside his stated niche, so this is not a wrong-vertical drop -- it is a no-evidence drop.",
+  "sources": [
+    "https://www.cde.state.co.us/schoolview/explore/enrollment/8001/1279",
+    "https://www.cde.state.co.us/schoolview/explore/profile/8001/1279",
+    "https://www.caprockacademy.org/prospective-families/caprock-academy-enrollment",
+    "https://www.caprockacademy.org/employment-opportunities",
+    "https://www.caprockacademy.org/contact/directory",
+    "https://www.greatschools.org/colorado/grand-junction/2576-Caprock-Academy/",
+    "https://recruiting.paylocity.com/recruiting/jobs/details/4278279",
+    "https://recruiting.paylocity.com/recruiting/jobs/details/3932484",
+    "https://recruiting.paylocity.com/recruiting/jobs/details/4156078"
+  ]
+}

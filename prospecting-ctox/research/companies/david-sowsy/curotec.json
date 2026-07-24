@@ -1,7 +1,0 @@
-{
-  "verdict": "drop",
-  "reason": "Curotec is a software development / staff-augmentation agency, not a product company — its own JDs say 'You will join our client's mobile team as an embedded engineer' and 'Our client is looking for a Mobile Lead Engineer,' so the BLE companion-app pain belongs to Curotec's end clients, and Curotec itself sells the same service David would offer; doctrine explicitly drops dev shops and consultancies.",
-  "company": {
-    "name": "Curotec"
-  }
-}

@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Arlo Technologies is a NYSE-listed public company (ARLO, IPO 2018, spun out of Netgear; ~376-400+ employees, HQ Carlsbad CA) that MANUFACTURES consumer smart-home security cameras and sells cloud SaaS subscriptions — it is the OEM on the wrong side of David Shake's market, not a $2M-$20M low-voltage systems integrator or electrical contractor adding a technology line. Every matched posting is mature-org enterprise SaaS work (its own JD says Arlo is 'standing up a Cloud Center of Excellence (CCoE) to drive engineering efficiency... across our 400+ person engineering organization'), which signals governance layering on a large existing engineering org, the opposite of the no-senior-technology-leadership gap he fixes; the remaining matches (Staff SaaS Platform Architect, Director of Strategic Accounts, Lifecycle Marketing Manager) are generic growth hires with no line redescribing the recurring-revenue/vendor-strategy pain, and the company is far too large for a fractional CTO engagement.",
+  "company": {
+    "name": "Arlo Technologies, Inc."
+  }
+}

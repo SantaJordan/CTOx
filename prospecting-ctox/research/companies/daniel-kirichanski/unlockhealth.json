@@ -1,0 +1,46 @@
+{
+  "verdict": "keep",
+  "reason": "Unlock Health is a PE-backed healthcare marketing roll-up (Eruptr + DECODE + SPM Group) whose live Head of Web Engineering posting asks one hire to both 'drive profitability, optimizing utilization' of the web development practice and 'champion responsible and performant AI development practices, including robust CI/CD pipelines that support increased development velocity' - a headcount-bound, high-touch delivery org publicly confessing Daniel's exact EDP, that cost-to-deliver must stop scaling one-for-one with headcount.",
+  "fit_score": 0.691,
+  "company": {
+    "name": "Unlock Health",
+    "domain": "unlockhealth.com",
+    "one_liner": "Full-service healthcare marketing communications agency and 'technology and services growth platform' for U.S. health systems and providers, formed by combining Eruptr, DECODE and SPM Group (SPM, GLC, Dreamscape, Centretek), with a managed care consultancy attached.",
+    "industry": "Healthcare marketing and technology services (agency / martech)",
+    "stage": "PE-backed roll-up, growth stage - backed by Amulet Capital Partners and Athyrium Capital; formed 2023 via three acquisitions covering eight agency brands; ~250-343 employees and ~$94-100M revenue",
+    "hq": "Nashville, Tennessee, USA (offices Chicago, New York, Houston, Columbus; delivery presence in Colombia, Costa Rica, Ecuador)"
+  },
+  "evidence_jobs": [
+    {
+      "title": "Head of Web Engineering",
+      "url": "https://job-boards.greenhouse.io/unlockhealth/jobs/5158642007",
+      "live": true,
+      "quote": "Operate as the business leader of the web development discipline with a focus on driving profitability, optimizing utilization, and setting teams up for success with thoughtful project-level resourcing."
+    },
+    {
+      "title": "Head of Web Engineering",
+      "url": "https://job-boards.greenhouse.io/unlockhealth/jobs/5158642007",
+      "live": true,
+      "quote": "Champion responsible and performant AI development practices, including robust CI/CD pipelines that support increased development velocity."
+    }
+  ],
+  "people_spec": [
+    "VP, Digital Experience - the posting states the role 'reports to the VP, Digital Experience'; this is the hiring manager and the person who owns whether the web practice's margin problem gets solved by a hire or by a platform",
+    "Chief Technology Officer - owns the post-roll-up technical estate across the merged Eruptr/DECODE/SPM brands and the CI/CD and cloud decisions the posting describes",
+    "VP of AI & Innovation - named on the leadership page; owns the 'AI-native' mandate the posting attaches to the role",
+    "VP, Innovation & Technical Efficiency - title itself is the output-per-engineer mandate this engagement addresses",
+    "Chief Executive Officer - PE-backed platform CEO carrying the gross-margin expansion case to Amulet/Athyrium"
+  ],
+  "talk_track": "Most of my last decade went into making delivery stop scaling one-for-one with headcount - PayPal's CI/CD platform for 9,000+ developers, Ripple's deploy cycles from hours down to minutes, and AI agents at Tricentis that took MTTR down roughly 40%. Your Head of Web Engineering posting on Greenhouse asks one hire to 'operate as the business leader of the web development discipline with a focus on driving profitability, optimizing utilization,' and in that same list to 'champion responsible and performant AI development practices, including robust CI/CD pipelines that support increased development velocity.' Read together, that is a margin problem wearing an engineering job description. Utilization is a ceiling rather than a lever - a practice can only bill the hours it staffs, so profitability actually moves when the delivery pipeline raises output per engineer, not when someone resources projects more thoughtfully. The part that usually bites: an AI-native leader dropped onto a practice that has no delivery platform underneath it just adds review load onto the same tech leads, and velocity goes flat around month four. Where does the web practice sit on output per engineer today? - Daniel Kirichanski, Prime Path Global",
+  "sources": [
+    "https://job-boards.greenhouse.io/unlockhealth/jobs/5158642007",
+    "https://unlockhealth.com/about-us/",
+    "https://unlockhealth.com/about-us/leadership/",
+    "https://unlockhealth.com/capabilities/",
+    "https://www.prnewswire.com/news-releases/unlock-health-launches-novel-healthcare-technology-and-services-platform-to-transform-how-healthcare-companies-drive-growth-301803572.html",
+    "https://www.prnewswire.com/news-releases/unlock-health-announces-acquisition-of-spm-group-the-premier-network-of-health-and-healthcare-marketing-agencies-301998563.html",
+    "https://www.prnewswire.com/news-releases/unlock-health-appoints-jamie-mermelstein-as-vice-president-of-digital-experience-302646034.html",
+    "https://www.mmm-online.com/agency-100/unlock-health-agency-100-2024/",
+    "https://theorg.com/org/unlock-health/org-chart/corey-maul"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Ignite IT LLC is a federal IT services contractor (GovCon systems integrator), not a Series A/B defense tech product startup — wrong side of the market and far too large for Barry's fractional engagement: its own About page claims '$2B+ in Won Contract Value' and '100+ Engineers', it already holds GSA MAS 47QTCA19D00LQ, Alliant 2, eFAST, CMMI and ISO 27001, meaning it is the incumbent procurement-ready prime rather than a company stuck in the valley of death; the four matched jobs (Systems Administrator, Database Administrator, Senior UI/UX Designer, Program Manager, all DHS/CBP/Census contract billets) are generic contract-staffing reqs with no line confessing missing cleared technical leadership or a stalled prototype-to-fielding transition, and the company sells the same Agile/DevSecOps advisory service Barry sells.",
+  "company": {
+    "name": "Ignite IT, LLC"
+  }
+}

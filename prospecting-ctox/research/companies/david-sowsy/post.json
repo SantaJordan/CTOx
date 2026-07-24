@@ -1,7 +1,0 @@
-{
-  "verdict": "drop",
-  "reason": "Post (Post.News) was a Twitter-alternative social media platform, not a connected-hardware or medical-device company, and it shut down in April 2024 (TechCrunch/The Verge, 2024-04-19) — the Ashby feed is a zombie board with 2022-era postings, so there is no company and no niche fit.",
-  "company": {
-    "name": "Post"
-  }
-}

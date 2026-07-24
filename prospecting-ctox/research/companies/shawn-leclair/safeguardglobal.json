@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Safeguard Global is a 950-1,594-person, Accel-KKR private-equity-backed global payroll/EOR provider (Austin TX, founded 2008, GBP59.6M revenue, 187 countries, 1,500+ customers, '2000+ Guardians' per its own JD) — far too large for a fractional CTO engagement, and none of the matched postings confess Shawn's pain: the four jobs are a Director of Sales Development (SDR org build in South Africa), a Director of Marketing Website (Core Web Vitals and A/B test velocity on safeguardglobal.com), and two Platform Engineer roles hiring into an already-mature AWS/DevSecOps/microservices/serverless platform team, which is a generic 'they hire engineers' match rather than evidence of bus-factor-1 on an inherited SQL Server/SSIS legacy system; no quotable line redescribes the problem this CTO fixes, and every matched job was still 'live=None' (unverified) in the pack.",
+  "company": {
+    "name": "Safeguard Global"
+  }
+}

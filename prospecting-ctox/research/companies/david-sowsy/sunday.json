@@ -1,0 +1,39 @@
+{
+  "verdict": "keep",
+  "reason": "Sunday's live UI Designer posting asks one designer to \"own the design and development of Memo's companion app\" and states \"the app will be how families set up, understand and command their robot\" for a beta shipping to households this Fall — yet none of their 31 open roles is an iOS, Android or mobile engineer, which is exactly David's niche: a connected consumer device whose companion app is the activation gate with nobody aboard who has shipped consumer mobile at scale.",
+  "fit_score": 0.445,
+  "company": {
+    "name": "Sunday Robotics",
+    "domain": "sunday.ai",
+    "one_liner": "Builds Memo, an autonomous wheeled home robot that clears tables, loads dishwashers and folds laundry, trained on real-household demonstrations captured via a Skill Capture Glove.",
+    "industry": "Consumer robotics / connected consumer hardware",
+    "stage": "Series B — $165M at $1.15B valuation (Mar 2026, led by Coatue); ~79 employees mid-2026; founded 2024 by Tony Zhao (CEO) and Cheng Chi; consumer beta rolling out to households late 2026",
+    "hq": "Redwood City, CA (current job postings; Sacra lists Mountain View, CA)"
+  },
+  "evidence_jobs": [
+    {
+      "title": "UI Designer",
+      "url": "https://jobs.ashbyhq.com/sunday/b3658191-4943-4cd5-b48e-fdc6c84d91ad",
+      "live": true,
+      "quote": "We're looking for a UI Designer to own the design and development of Memo's companion app. ... This role is especially important during our upcoming beta: The app will be how families set up, understand and command their robot. ... Develop production features: Implement core parts of the companion app so prototypes can evolve directly into real product experiences."
+    }
+  ],
+  "people_spec": [
+    "Co-founder & CEO (Tony Zhao) — at ~79 people the founders still own product scope decisions",
+    "Co-founder / CTO (Cheng Chi)",
+    "Head of Product / VP Product — the companion app sits in Product per the posting's stated collaborators",
+    "Head of Software / VP Software Engineering — owns the robot-side stack the app must talk to",
+    "Head of Design / Design Lead — the hiring manager for this UI Designer req",
+    "NOTE: there is no Head of Mobile, VP Mobile, iOS Lead or Android Lead to find at Sunday — none of the 31 open roles is a mobile engineer, and that absence IS the signal"
+  ],
+  "talk_track": "I spent last year running the mobile team behind the SharkClean app — 5M-plus customers, nine App Store field releases, and the crash triage that follows every one of them. Your UI Designer posting says that person will \"own the design and development of Memo's companion app,\" and that \"the app will be how families set up, understand and command their robot.\" Across all 31 of your open roles that designer is the only person attached to the app; there's no iOS or Android engineer on the list. The part that bites hardware teams is rarely the design — it's store review, the Google Play target-API deadline, and crash-fix turnaround when the first hundred households unbox on the same weekend. For a Fall beta the app is the activation gate, so a rejected build means finished robots sitting in boxes. Who owns store submission and release for the beta?",
+  "sources": [
+    "https://jobs.ashbyhq.com/sunday/b3658191-4943-4cd5-b48e-fdc6c84d91ad",
+    "https://jobs.ashbyhq.com/sunday",
+    "https://www.sunday.ai/",
+    "https://www.sunday.ai/journal/series-b",
+    "https://siliconangle.com/2026/03/12/sunday-raises-165m-1-15b-valuation-launch-memo-household-robot/",
+    "https://sacra.com/c/sunday/",
+    "https://baincapitalventures.com/insight/robots-finally-at-home/"
+  ]
+}

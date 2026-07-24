@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Promesa Academy is a single-campus, tuition-free K-5 charter of ~250-421 students (NCES 2024-25: 248 students, 42.7 FTE staff) in San Antonio -- roughly 2-4x below Kenneth's 800-2,000-student band, with no tuition revenue for his enrollment-attrition EDP to act on, and it already employs an in-house IT/Cybersecurity & Business Manager (Miguel Acosta, per theorg.com), contradicting the 'no technology leadership, reactive outsourced IT' premise; all 9 live postings are clinical/SPED/cafeteria roles and the only technology language is boilerplate qualification text in contractor clinician JDs ('Use secure, FERPA-compliant virtual platforms for therapy and documentation'), which confesses a bilingual-clinician shortage, not a technology-governance gap -- a lexicon-only match (score 0.31-0.35, strong_title=False, gap=False) with no posting that redescribes the pain he fixes.",
+  "company": {
+    "name": "Promesa Academy Charter School"
+  }
+}

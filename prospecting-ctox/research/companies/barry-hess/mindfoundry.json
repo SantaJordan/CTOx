@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Wrong side of the market and far outside the fractional window: Mind Foundry is a UK 'sovereign AI' scale-up (Oxford, founded 2016, ~48-100 staff, $71.9M raised across 12 rounds, Series B+) selling to the UK National Security community and central government — Barry Hess's entire edge is an active US TS/SCI and US DoD/IC procurement mechanics (SBIR Phase II, CMMC, GSA schedule, DCMA teaming), none of which transfer to UK DV/SC-cleared programmes; it also already has a full C-suite (CEO Lindsay Chadwick, two co-founder Chief Science Officers, Head of Science & Engineering, Director of Mission Systems), so the matched ML Engineer / Product Manager postings are a generic 'they hire engineers' JD-lexicon match, not a confession of missing cleared technical leadership.",
+  "company": {
+    "name": "Mind Foundry"
+  }
+}

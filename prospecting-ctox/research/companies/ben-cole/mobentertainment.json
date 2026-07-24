@@ -1,0 +1,49 @@
+{
+  "verdict": "drop",
+  "reason": "No live posting redescribes Ben's pain: all 23 current openings are creative/production/franchise roles (the pack's four 'matches' scored ~0.30 purely on the shared company boilerplate), and the studio already owns the layer Ben sells — its own archived postings reference a 'growing Developer Operations team' reporting to a 'Lead DevOps Engineer', alongside a sitting Director of Technology and Lead Programmer — while at ~146 employees, self-funded with no publisher, and five shipped Poppy Playtime chapters plus a Legendary film deal and a global licensing division, it is a profitable transmedia IP operator, not a funded 20-150 studio entering full production.",
+  "company": {
+    "name": "Mob Entertainment, Inc.",
+    "domain": "mobentertainment.com",
+    "one_liner": "Independent transmedia studio behind the Poppy Playtime horror franchise, expanding from games into film, merchandise and global consumer-products licensing.",
+    "industry": "Video games / transmedia entertainment",
+    "stage": "Self-funded, revenue-generating (Tracxn: no funding rounds raised); ~146-147 employees, +32% YoY",
+    "hq": "Los Angeles, CA (LinkedIn/GlobeNewswire); founded and long headquartered in St. Louis, MO"
+  },
+  "drop_detail": {
+    "failed_tests": [
+      "No live build/DevOps/IT/security/cloud/platform/release/QA-automation posting — Ben's own stated hiring signal — anywhere on the current 23-role board.",
+      "Ownership premise contradicted: Mob's DevOps postings describe a 'growing Developer Operations team' and a 'Lead DevOps Engineer' already in place; Exa org data lists AJ Omernik as Director of Technology and Pablo Munoz as Lead Programmer, with a 28-person technical department.",
+      "Wrong stage/shape: not a funded studio entering full production against a publisher-fixed milestone. Chapter 5 shipped Feb 2026 (275k units first week); the company self-publishes, took no venture funding, and its hiring center of gravity is franchise development, consumer products and licensing.",
+      "Size at/over the ceiling: ~146-147 employees against Ben's stated 20-150 band, growing +32% YoY.",
+      "EDP does not apply: no publisher tranche or milestone date at risk — the company is funded by franchise revenue and a McFarlane/Funko/Legendary licensing engine."
+    ],
+    "closest_quote_considered": {
+      "title": "Senior Technical Producer",
+      "url": "https://job-boards.greenhouse.io/mobentertainment/jobs/5156852007",
+      "live": true,
+      "quote": "Comfortable managing technical workstreams: software pipelines, tools development, platform requirements, and backend dependencies.",
+      "why_rejected": "A production/PM hire that coordinates engineering delivery under the Game Director — the function Ben explicitly excludes ('not a replacement for the Tech Director', 'not a hands-on DevOps contractor'). Its existence signals delivery-coordination hiring, not an unowned technical-operations layer."
+    },
+    "stale_signals_checked": [
+      "Junior/Mid-Level DevOps Engineer — RemoteOtter shows 'Posted 63 weeks ago'; Built In records it removed 2025-05-01. Not live.",
+      "DevOps Engineer — Remotive listing archived; devopsprojectshq copy dated 2024-02-17. Not live.",
+      "Senior Tools & Pipeline Technical Artist/Engineer — gamejobs.co, '2 years ago', 'might no longer be available'. Not live.",
+      "'Engineering Director' appears only on a stale duplicate Greenhouse board (job-boards.greenhouse.io/MobEntertainment, capital M, 3 jobs) and is absent from today's live mobentertainment feed. Treated as stale, not used as evidence."
+    ]
+  },
+  "sources": [
+    "https://job-boards.greenhouse.io/mobentertainment/jobs/5156852007",
+    "https://builtin.com/company/mob-entertainment/jobs",
+    "https://builtin.com/company/mob-entertainment",
+    "https://www.mobentertainment.com/about",
+    "https://www.linkedin.com/company/mobentertainment",
+    "https://tracxn.com/d/companies/mob-entertainment/__Eb7lqTzHW7HEe0Fd8cP_R0IVf5bbXrFLmi_sdlwslBI",
+    "https://remoteotter.com/company/mob-entertainment/jobs/remote-junior-or-mid-level-devops-engineer_8a7e71d4-67c0-4c66-849b-0d9dfd22ee2e",
+    "https://builtin.com/job/devops-engineer/4786857",
+    "https://gamejobs.co/Senior-Tools-Pipeline-Technical-Artist-Engineer-at-Mob-Entertainment",
+    "https://variety.com/2026/digital/news/poppy-playtime-chapter-6-film-adaptation-mob-entertainment-1236701560/",
+    "https://www.licensingmagazine.com/2026/05/21/mob-entertainment-poppy-playtimes-global-retail-expansion/",
+    "https://www.prnewswire.com/news-releases/mob-entertainment-angry-films-and-legendary-entertainment-lock-deal-to-bring-poppy-playtime-to-the-big-screen-302141513.html",
+    "https://www.globenewswire.com/news-release/2026/03/16/3256626/0/en/Mob-Entertainment-Expands-the-World-of-Poppy-Playtime-with-New-Official-Online-Merchandise-Store.html"
+  ]
+}

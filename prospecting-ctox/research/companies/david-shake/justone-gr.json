@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "JUST ONE (justone.gr) is an Athens, Greece recruitment and executive search agency (14 employees, founded 2020, offices across GR/IT/ES/FR/RO) — every posting in the pack is placed 'on behalf of its client' (e.g. 'JUST ONE, on behalf of its client, a leading software development and systems integration company operating within the defense industry', 'For a leading global chemical company: Business Controller'), so the hiring signal describes other companies' hiring, not JUST ONE's own technology pain; it is also a staffing/recruiting firm (explicit drop rule), in the wrong vertical (executive search, not low-voltage systems integration or property technology) and the wrong geography for David Shake's US multifamily/hospitality/senior-living integrator niche.",
+  "company": {
+    "name": "JUST ONE | Recruitment & Executive Search agency"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "verdict": "drop",
+  "reason": "Priority Power is a 205-person, PE-backed ($250M-$500M raised) utility-scale energy management, supply and grid-infrastructure firm in Arlington TX with a full C-suite (CEO, COO, CFO, CCO, CHRO) — wrong vertical (substation/SCADA/ERCOT energy advisory, not low-voltage building technology for multifamily, student housing, hospitality or senior living), wrong side of the market (an energy asset operator and advisor, not a $2M-$20M integrator or electrical contractor adding a technology line to an existing install base), and far too large and too well-staffed for a fractional CTO engagement; the 'System Integrator I or II' match is a title false positive for a SCADA/substation cybersecurity role, and no live posting contains a line that redescribes David Shake's recurring-revenue / new-technology-line pain.",
+  "company": {
+    "name": "Priority Power (Priority Power Management, Inc.)",
+    "domain": "prioritypower.com",
+    "one_liner": "Independent energy management, supply and grid-infrastructure firm serving large commercial, industrial and data-center customers.",
+    "industry": "Energy management / electric power infrastructure",
+    "stage": "PE-backed growth (founded 2001, ~205 employees, ~$30M revenue, $250M-$500M raised)",
+    "hq": "Arlington, Texas, USA"
+  },
+  "sources": [
+    "https://prioritypower.com/company/about-us/",
+    "https://prioritypower.com/company/leadership/",
+    "https://www.cbinsights.com/company/priority-power-management",
+    "https://www.indeed.com/cmp/Priority-Power-Management,-LLC",
+    "https://recruiting.paylocity.com/recruiting/jobs/details/4038809",
+    "https://recruiting.paylocity.com/recruiting/jobs/details/4205413"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "verdict": "drop",
+  "reason": "Fullstack Academy is an adult coding/cybersecurity bootcamp — a wholly-owned subsidiary of Blackstone-backed Simplilearn since Nov 2022 (businesswire.com/news/home/20221128005213/en) — not an independent or charter K-12 school, so it is on the wrong side of Kenneth's market: it SELLS tech training rather than being a tuition-funded school whose board cannot answer technology-risk questions; both matched postings ('Instructor - Generative AI in Data Analytics', 'Senior Instructor') are curriculum-delivery teaching roles with zero governance, vendor-oversight, or IT-leadership signal, and a PE-owned global platform serving 70,000+ monthly learners with its own corporate IT function is far too large for a fractional 90-day board-clarity engagement.",
+  "company": {
+    "name": "Fullstack Academy",
+    "domain": "fullstackacademy.com",
+    "one_liner": "Online coding, cybersecurity, and data analytics bootcamp for adult learners; a Simplilearn (Blackstone) company since November 2022.",
+    "industry": "Adult tech education / bootcamp training (not K-12)",
+    "stage": "PE-owned subsidiary of Blackstone-backed Simplilearn",
+    "hq": "Brooklyn / New York, NY"
+  },
+  "drop_reasons": [
+    "wrong_vertical: adult bootcamp provider, not an independent/charter K-12 school",
+    "wrong_side_of_market: sells tech training; is not a school buying technology governance",
+    "subsidiary_of_large_parent: owned by Blackstone-backed Simplilearn, not an independent institution",
+    "too_large_for_fractional: global platform, 70,000+ monthly learners, existing corporate IT leadership",
+    "generic_hiring_signal: both matched jobs are instructor/teaching roles, no governance or IT-leadership pain"
+  ],
+  "sources": [
+    "https://www.fullstackacademy.com/about",
+    "https://fullstackacademy.com/",
+    "https://www.businesswire.com/news/home/20221128005213/en/Fullstack-Academy-Joins-Blackstone-backed-Simplilearn",
+    "https://www.simplilearn.com/about-us",
+    "https://mergr.com/company/fullstack-academy"
+  ]
+}

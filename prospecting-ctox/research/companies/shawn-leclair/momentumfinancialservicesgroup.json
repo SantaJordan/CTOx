@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Momentum Financial Services Group (Money Mart) is a 1979-founded, PE-backed consumer lender with 1,500+ employees (PitchBook lists 5,000), 420+ North American branches, ~$995M revenue and a C$657.9M Ares credit facility — far too large for a fractional CTO engagement, wrong side of the market (a consumer lender that BUYS financial software, not the data-heavy B2B SaaS/services SMB Shawn targets), and the opposite of bus-factor-1: it is concurrently hiring a Director of Data Architecture & Information Management, Director GRC, Cyber Security Engineer, Senior IAM Engineer, SRE, Cloud Engineer, Lead Software Engineer, Principal Software Developer, Scrum Master and a Hyderabad delivery org, so full-time senior technical leadership is already in place; the pack's 'growth_startup' stage label is wrong, and no matched JD excerpt contains a quotable line about legacy SQL Server/.NET stabilization or single-owner system risk — all four excerpts are boilerplate 'Who We Are' and compensation-philosophy text.",
+  "company": {
+    "name": "Momentum Financial Services Group"
+  }
+}

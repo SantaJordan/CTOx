@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Wrong side of the market and far too large: Fortis Games is a wholly-owned subsidiary of public parent Las Vegas Sands (NYSE:LVS) — UK Companies House still lists Las Vegas Sands Corp as the sole active person with significant control at 75%+ of shares/voting rights with the right to appoint and remove directors — so it is not an independent funded studio; it is also a ~349-430-person remote-first F2P MOBILE studio across 17 countries (Ben's ICP is US-based PC/console studios of roughly 20-150), it has already acquired three studios (Oktagon, Metagame, Doppio), and it already staffs the exact layer Ben would own with full-time executives (VP Business Systems and InfoSec, VP Central Services, VP Central Products). The matched jobs are ordinary senior-IC and product hires at a mature org (Staff Software Engineer (Platform), Sr Security Operations Engineer, Associate Director of Product, AI Solution Architect) — a generic 'they hire engineers' match with no line describing unowned technical operations, no quotable confession of the pain Ben fixes, and no fractional-sized engagement behind a corporate parent's balance sheet.",
+  "company": {
+    "name": "Fortis Games"
+  }
+}

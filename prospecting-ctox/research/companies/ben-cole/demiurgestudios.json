@@ -1,0 +1,39 @@
+{
+  "verdict": "keep",
+  "reason": "Their only live posting, an IT Manager reporting directly to the COO, asks one hire to keep systems running while also 'migrating our systems to co-location and cloud, as well as modernization of our identity stack' in an environment with 'some inherited technical debt' and partner-driven security obligations - a US console/PC studio of ~45-100 with no technical-operations owner above the IT layer, which is exactly the layer Ben owns.",
+  "fit_score": 0.566,
+  "company": {
+    "name": "Demiurge Studios",
+    "domain": "demiurgestudios.com",
+    "one_liner": "Boston-based AAA game co-development studio (partners include Riot Games, Blizzard, Epic, Second Dinner, EA) working on 2XKO, Teamfight Tactics, Hearthstone Battlegrounds and Marvel SNAP, plus an unannounced original title in active development.",
+    "industry": "Video games - multi-platform (console/PC/mobile) co-development studio, Unreal/Unity/custom C++",
+    "stage": "Private; wholly owned Embracer Group subsidiary (acquired Aug 2021 via Saber Interactive, retained by Embracer after the Mar 2024 Saber sale). Founded 2002. Headcount reported 68 at acquisition, 74 on its LinkedIn org record, '100+' on its own About page, and ~45 as of Oct 2025 per Grokipedia following Aug 2025 layoffs - figures conflict, treat as roughly 45-100. ~$15M annual revenue (Exa org record, aggregator data).",
+    "hq": "Cambridge / Boston, Massachusetts, USA"
+  },
+  "evidence_jobs": [
+    {
+      "title": "IT Manager",
+      "url": "https://jobs.lever.co/demiurgestudios/761c526c-7609-4fbd-883e-0449f3a5e2c6",
+      "live": true,
+      "quote": "In addition, you will also be driving meaningful infrastructure projects such as migrating our systems to co-location and cloud, as well as modernization of our identity stack."
+    }
+  ],
+  "people_spec": [
+    "COO - named in the posting as the role's direct report line and therefore the owner of this problem; the primary buyer",
+    "CEO",
+    "President / Studio Head",
+    "General Manager",
+    "NOTE: do not look for a CTO, VP Engineering, Head of IT or Director of Infrastructure at this company - the posting shows the ops layer reports into the COO with 'existing IT staff' but no named technical-operations leader, which is the signal itself. The Tech Director (if present) is the affected party, not the buyer."
+  ],
+  "talk_track": "I spent five years owning identity and cloud operations for Pokemon's consumer platforms, then built the shared technical-operations org covering four studios at Prytania Media. Your IT Manager posting asks one person to keep systems running and documentation current while also \"migrating our systems to co-location and cloud, as well as modernization of our identity stack\" - reporting to the COO. Those are two jobs on two different clocks. Support always wins the day, so the migrations quietly slip a quarter or two and nobody can name the week it happened. The part worth having before you hire: identity is what your partner security obligations actually rest on, so it is the piece to sequence first and own separately from the help-desk load. Is the co-lo date already committed to a partner?",
+  "sources": [
+    "https://jobs.lever.co/demiurgestudios/761c526c-7609-4fbd-883e-0449f3a5e2c6",
+    "https://demiurgestudios.com/about/",
+    "https://demiurgestudios.com/our-work/",
+    "https://en.wikipedia.org/wiki/Demiurge_Studios",
+    "https://embracer.com/releases/embracer-group-enters-into-agreement-to-acquire-demiurge-studios/",
+    "https://www.gamesindustry.biz/embracers-next-three-acquisitions-are-demiurge-studios-fractured-byte-and-smartphone-labs",
+    "https://www.linkedin.com/company/demiurge-studios",
+    "https://grokipedia.com/page/Demiurge_Studios"
+  ]
+}

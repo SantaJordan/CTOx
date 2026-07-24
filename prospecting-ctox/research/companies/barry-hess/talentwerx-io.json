@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "TalentWerx self-describes as \"a talent acquisition firm\" (talentwerx.io/about-talentwerx) and is listed as a Staffing and Recruiting company, now a division of EXPANSIA under PE-backed roll-up Aether Aerospace (JHNA + CTSi + EXPANSIA, backed by Falfurrias Management Partners) — the Lever board is a recruiter's req board, its JDs say \"Our client is seeking...\", and the real hiring entity is a multi-entity PE platform, not an independent 8-30 person Series A/B defense startup, so it fails both the staffing-firm ban and the wrong-side-of-market ban.",
+  "company": {
+    "name": "TalentWerx (a division of EXPANSIA / Aether Aerospace)"
+  }
+}

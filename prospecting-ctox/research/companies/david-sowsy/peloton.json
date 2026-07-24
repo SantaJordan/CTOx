@@ -1,7 +1,0 @@
-{
-  "verdict": "drop",
-  "reason": "Peloton is a publicly traded connected-fitness company (NASDAQ: PTON, ~$2.5B revenue, thousands of employees) with a full in-house CTO and large product engineering org; its Android/firmware postings are routine hiring by a mature team, not evidence of the missing-mobile-leadership pain David Sowsy fixes, and it is far too large for a fractional CTO.",
-  "company": {
-    "name": "Peloton"
-  }
-}

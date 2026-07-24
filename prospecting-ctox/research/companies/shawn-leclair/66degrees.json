@@ -1,0 +1,28 @@
+{
+  "verdict": "drop",
+  "reason": "66degrees is a 507-1,034 person Google Cloud premier partner and AI/cloud consultancy (Chicago, ~$29.1M revenue, 7 countries, acquired by The Marketing Junction Feb 2026) that SELLS the exact service Shawn sells - cloud migration, legacy .NET modernization, and data-platform consolidation - so it is a dev shop on the wrong side of the market, far too large for a fractional CTO engagement; its open roles (Site Reliability Engineer on the Managed Cloud Optimization team serving 'some of the largest cloud users in the world', two App Development Architect (.Net) reqs) are billable delivery headcount staffed onto enterprise client engagements, not a confession of a bus-factor-1 legacy SQL Server platform inside its own business, so no qualifying quote exists.",
+  "company": {
+    "name": "66degrees",
+    "domain": "66degrees.com",
+    "one_liner": "Chicago-based Google Cloud premier partner and enterprise AI/data transformation consultancy.",
+    "industry": "IT services / business consulting",
+    "stage": "Acquired (The Marketing Junction, Feb 2026); prior growth equity from Sunstone Partners, Oct 2022",
+    "hq": "550 West Adams Street Suite 910, Chicago, Illinois, United States"
+  },
+  "drop_signals": [
+    "Dev shop / competitor: sells 'AI-Powered Modernization & Migration' and .NET architecture consulting - the same offer as the CTO's fractional practice.",
+    "Too large for a fractional engagement: 507 employees per LinkedIn company data (+46% YoY), 1,034 per Tracxn (May 2026), 501-1000 per Crunchbase, across 7 countries.",
+    "Not an independent SMB: acquired by The Marketing Junction on 2026-02-12 (CB Insights), previously growth-equity backed.",
+    "Matched SRE role serves 'some of the largest cloud users in the world' - enterprise delivery capacity, not internal legacy-platform pain.",
+    "Wrong vertical: IT services, not a data-heavy B2B SaaS or financial-services SMB operating its own revenue-critical legacy platform."
+  ],
+  "sources": [
+    "https://www.66degrees.com/",
+    "https://www.66degrees.com/about-us",
+    "https://www.cbinsights.com/company/66degrees",
+    "https://www.cbinsights.com/company/66degrees/financials",
+    "https://www.crunchbase.com/organization/66degrees-fae4",
+    "https://tracxn.com/d/companies/66degrees/__mFRXt8S0cq0-uvg-n_dhu6orD9ly2tEVp-X9QhzK5dw",
+    "https://job-boards.greenhouse.io/66degrees/jobs/5774410004"
+  ]
+}

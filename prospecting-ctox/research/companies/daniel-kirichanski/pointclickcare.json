@@ -1,7 +1,0 @@
-{
-  "verdict": "drop",
-  "reason": "PointClickCare is a ~30-year-old, multi-thousand-employee healthcare enterprise (founder-led, privately held, 30,000+ provider organizations, Forbes top private cloud company per its own JD boilerplate) — far too large and mature for a fractional CTO; its platform/SRE/DevOps postings are routine hires for an org this size, not evidence of the Series A-C engineering-bottleneck pain Daniel Kirichanski fixes.",
-  "company": {
-    "name": "PointClickCare"
-  }
-}

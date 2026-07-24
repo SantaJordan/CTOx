@@ -1,0 +1,19 @@
+{
+  "verdict": "drop",
+  "reason": "Wrong vertical and wrong side of the market: AssetWatch is a $100M+-funded Series C industrial IoT SaaS vendor selling vibration/oil condition-monitoring to global manufacturing plants (Westerville/Columbus, OH), not a $2M-$20M low-voltage integrator or electrical contractor adding a technology line to multifamily, student-housing, hospitality, or senior-living buildings. The matched 'Condition Monitoring Engineer' postings are field vibration-analysis delivery roles ('Collect and analyze vibration and temperature data at client sites'), i.e. core-product headcount, not a confession of a new low-voltage division launched without senior technology leadership. The company is also far too large and too technically staffed for a fractional CTO engagement of David Shake's type: its live board carries Head of AI, Backend Engineer, Firmware Engineer, Senior Full Stack Engineer, Senior Mobile Engineer, and Cloud Engineering Support Manager. No quotable line in any live posting redescribes the recurring-revenue/vendor-strategy pain he fixes.",
+  "company": {
+    "name": "AssetWatch, Inc.",
+    "domain": "assetwatch.com",
+    "one_liner": "End-to-end AI-driven predictive maintenance and condition monitoring (vibration, temperature, oil analysis) for industrial manufacturers.",
+    "industry": "Industrial IoT / predictive maintenance SaaS",
+    "stage": "Series C — $75M led by Viking Global Investors (Apr 2025), $100M+ total",
+    "hq": "Westerville / Columbus, Ohio, USA"
+  },
+  "sources": [
+    "https://www.assetwatch.com/news/assetwatch-secures-75m-in-series-c-funding",
+    "https://assetwatch.com/",
+    "https://www.ohiotechnews.com/assetwatch-raises-75m/",
+    "https://www.vcbacked.co/company/assetwatch",
+    "https://job-boards.greenhouse.io/assetwatch/jobs/4698049005"
+  ]
+}

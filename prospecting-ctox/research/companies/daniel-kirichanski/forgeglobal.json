@@ -1,7 +1,0 @@
-{
-  "verdict": "drop",
-  "reason": "Forge Global is a former NYSE-listed company (FRGE, ~$79M revenue, ~220-344 employees) acquired by Charles Schwab and delisted 2026-03-02 — now a subsidiary of a Fortune 500, not a Series A-C or PE-backed company, and far too large/late-stage to hire a fractional CTO; its Director of Platform & Reliability Engineering posting is a routine full-time hire inside an established engineering org, not evidence of a leadership gap.",
-  "company": {
-    "name": "Forge Global"
-  }
-}

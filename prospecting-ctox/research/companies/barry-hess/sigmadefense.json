@@ -1,0 +1,20 @@
+{
+  "verdict": "drop",
+  "reason": "Wrong side of the market and far too large for a fractional engagement: Sigma Defense is a Sagewind Capital PE portfolio roll-up (founded 2006, ~300+ employees across 9 US offices and 7 countries, 5 divisions, add-on acquisitions of SOLUTE, Sub-U, Juno Technologies and EWA) that SELLS the exact service Barry Hess sells — cleared systems engineering, DevSecOps, program management and procurement-readiness to DoD customers — so it is a competitor/analog, not a Series A/B 8-30 person startup stuck between demo and fielding; the matched postings are staff-augmentation bench roles on Navy/Army services contracts, two of them explicitly 'a contingent position that is pending award of contract,' which is evidence they are bidding recompetes, not evidence of a prototype-to-fielding stall.",
+  "company": {
+    "name": "Sigma Defense",
+    "domain": "sigmadefense.com",
+    "one_liner": "PE-backed (Sagewind Capital) defense technology and services roll-up delivering CJADC2/C5ISR, DevSecOps, secure comms, electronic warfare and training to all US military branches.",
+    "industry": "Defense services / government contracting",
+    "stage": "Private equity-backed, founded 2006, ~300+ employees, ~$39M+ revenue, multiple add-on acquisitions",
+    "hq": "Perry, GA (plus San Diego CA, Lexington Park MD, Arlington VA, Huntsville AL, Fairmont WV, Mt Laurel NJ, Ridgecrest CA, Suffolk VA)"
+  },
+  "disqualifying_quote": "This is a contingent position that is pending award of contract. This means that the position is subject to the successful awarding of a contract and will be confirmed once the contract is finalized.",
+  "sources": [
+    "https://sigmadefense.com/about-us/",
+    "https://sigmadefense.com/contact-us/",
+    "https://www.sagewindcapital.com/investment/sigma-defense/",
+    "https://sigmadefense.com/press-release/driving-innovation-sigma-defense-expands-cjadc2-capabilities-with-ewa-acquisition/",
+    "https://www.cbinsights.com/company/sigma-defense-systems"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "verdict": "drop",
+  "reason": "OT Training Solutions is a 2008-founded SDVOSB government SERVICES contractor in Debary FL (training/simulation staffing, logistics, staff augmentation, range and grounds maintenance) — not a Series A/B venture-backed defense tech startup with an AI/ML, geospatial or sensor product; the matched jobs are labor-category hires for a Fort Bragg grounds-maintenance contract ('Position contingent upon contract award', Grounds Maintenance Project Manager; Field Service Representatives doing preventative maintenance on training devices), which is contract staffing, not evidence of a prototype-to-fielding transition stall. Wrong side of the market and wrong vertical: OTTS sells the same kind of government technical services Barry Hess ran at KBI, so he would be a competitor, not a fractional CTO hire.",
+  "company": {
+    "name": "OT Training Solutions, LLC",
+    "domain": "ottrainingsolutions.com",
+    "one_liner": "SDVOSB government contractor providing simulation/training device development and O&M, instructor and logistics staff augmentation, literacy education, and range/airfield grounds maintenance to the US Army and Army National Guard.",
+    "industry": "Government services / defense training and simulation (NAICS 541330 Engineering Services; grounds contract NAICS 561730)",
+    "stage": "Bootstrapped small business, founded 2008, no venture funding (SBA SDVOSB/VOSB certified, UEI RMK8VKXLHDM5, CAGE 51LR2)",
+    "hq": "Debary, FL, United States"
+  },
+  "sources": [
+    "https://ottrainingsolutions.com/",
+    "https://ottrainingsolutions.com/about-ot-training-solutions/",
+    "https://ottrainingsolutions.com/wp-content/uploads/2020/10/OTTS-TRAINING-16APR.pdf",
+    "https://www.highergov.com/awardee/ot-training-solutions-llc-10006180/",
+    "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4166406",
+    "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4166400",
+    "https://sam.gov/workspace/contract/opp/4798213e077648b0987f3e7832ef9399/view"
+  ]
+}

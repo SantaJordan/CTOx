@@ -1,0 +1,27 @@
+{
+  "verdict": "drop",
+  "reason": "RavenTek Solution Partners is a ~130-person federal IT-services/managed-services contractor (Ashburn VA, founded 2015, GSA Schedule 70 prime, CMMI Level 3, SDVOSB JV with staffing firm FalconTek) — not a Series A/B defense tech product startup; it sits on the WRONG SIDE of Barry's market (it sells the same cleared engineering/cyber services he sold at KBI), it already has a full C-suite including a sitting CTO, and all four matched jobs are contract-delivery billets ('The performance of this position is key to RavenTek's performance on the contract'), i.e. generic staff-augmentation hiring rather than evidence of a prototype-stuck-between-lab-and-field problem.",
+  "company": {
+    "name": "RavenTek Solution Partners, LLC",
+    "domain": "raventek.com",
+    "one_liner": "Federal IT modernization, cybersecurity and managed-services contractor supporting DoD and civilian agencies.",
+    "industry": "government IT services / contracting",
+    "stage": "bootstrapped services firm, ~130 employees, founded 2015 (no venture stage)",
+    "hq": "Ashburn, VA"
+  },
+  "disqualifiers": [
+    "Services contractor / staff-aug delivery model, not a product company building AI-ML, geospatial or sensor tech",
+    "JV partner FalconTek is explicitly a staffing and consulting firm",
+    "~130 employees vs. the 8-30 person ICP; far outside Series A/B",
+    "Already has Chris Riordan as Chief Technology Officer plus COO, CGO, CFO",
+    "Jobs are billable positions on an existing customer contract, not lab-to-field transition pain"
+  ],
+  "sources": [
+    "https://www.raventek.com/about-raventek/",
+    "https://www.raventek.com/industries/federal/",
+    "https://www.raventekalliance.com/",
+    "https://www.highergov.com/awardee/raventek-solution-partners-llc-10002857/",
+    "https://www.gsaelibrary.gsa.gov/ElibMain/contractorInfo.do?contractNumber=47QTCA19D001U",
+    "https://recruiting.paylocity.com/recruiting/jobs/details/4222366"
+  ]
+}

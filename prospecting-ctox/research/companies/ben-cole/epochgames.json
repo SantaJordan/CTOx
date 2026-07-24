@@ -1,0 +1,21 @@
+{
+  "verdict": "drop",
+  "reason": "Epoch Games is an unincorporated, all-volunteer hobbyist team (~25 unpaid contributors across 8 countries, UK-hosted site, no funding, no publisher, no revenue) building the indie UE4 RPG 'The Lays of Althas: Sundered Order' — every open role is explicitly an unpaid volunteer post ('In this volunteer position you will...'), and all of them are art/design/gameplay creative roles with zero build, DevOps, IT, cloud, security, or release signal, so there is no funded-studio milestone risk for Ben to own and no budget to buy a fractional engagement.",
+  "company": {
+    "name": "Epoch Games"
+  },
+  "disqualifiers": [
+    "Not funded: self-described as 'unincorporated at this time' with no publisher relationship or raise; volunteers work for free.",
+    "No paid staff / no budget for a fractional technical-operations executive.",
+    "Wrong size and geography for the niche: ~25 unpaid volunteers distributed across 8 countries, site on epochgames.co.uk, only a nominal Winston-Salem NC address.",
+    "No hiring signal matching the niche: current openings are Concept Artist, Lead 3D Game Artist, 3D Character/Creature Artist, Reallusion Character Creator 3D Artist, UE C++ Programmer, UE Level Designer, UE Technical Artist — none touch build/release, DevOps, IT, security, or cloud.",
+    "Not 'entering full production' in the funded sense: in development since ~2013 with a TBD release and no shipping milestone tied to a funding tranche."
+  ],
+  "sources": [
+    "https://epochgames.co.uk/wordpress/about-us/",
+    "https://www.indiedb.com/games/the-lays-of-althas-sundered-order",
+    "https://rpgwatch.com/developers/epoch-games-802.html",
+    "https://forums.unrealengine.com/t/the-lays-of-althas-sundered-order-open-world-fantasy-rpg/81329",
+    "https://jobs.smartrecruiters.com/epochgames/743999979988243"
+  ]
+}

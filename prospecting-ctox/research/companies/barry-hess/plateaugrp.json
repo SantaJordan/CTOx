@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Plateau GRP (Plateau Software, Inc.) is a 1999-founded federal IT services contractor / systems integrator in Fairfax VA — ~132 employees, ~$24.8M revenue, holding GSA MAS, OASIS SB, ITES-3S and Army IDIQ vehicles — not a Series A/B, 8-30 person VC-backed defense product startup. Wrong side of the market: Barry sells cleared technical leadership to startups whose own product is stuck between demo and fielding, whereas Plateau IS the government services vendor and is staffing cleared billets against an already-won task order (the JD says 'Lead Task 3 execution, overseeing IT/cybersecurity support personnel', with Tier 5 adjudication and CISSP/CISM required). That is a contract-vehicle staffing fill, not a confession of missing technical leadership — and it is structurally the same business as Barry's own KBI, so he would be selling to a peer services firm rather than to a product company in the valley of death. Also too large and too mature for the fractional engagement his ICP describes.",
+  "company": {
+    "name": "Plateau GRP (Plateau Software, Inc.)"
+  }
+}

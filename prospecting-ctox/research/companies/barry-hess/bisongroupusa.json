@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "The Bison Group (bisongroupusa.com, Reston VA, ~43-100 employees) is a bootstrapped cleared-services / staff-augmentation government contractor selling intelligence analysts and IT professionals into IC and DoD contracts — not a Series A/B venture-funded product startup, and on the wrong side of Barry Hess's market: it sells the same cleared-leadership-and-services offering he does, rather than buying it. Its open roles (Cybersecurity Engineer III, Tier 2 Network Administrator - NETOPS x2, Ground Systems Analyst Junior) are contract billets on existing government task orders — enterprise break/fix, VLAN and ACL changes, IOS upgrades, all-source ground-forces analysis — none of which describe a prototype stuck between demo and fielded deployment, and none yielded a quotable line matching the lab-to-field / advocacy-chain pain Barry fixes. Leadership is also already deeply cleared and acquisition-native (President Paul Courtney built The Buffalo Group to 1,000 people / $200M before selling to Jacobs, previously SM Consulting to SAIC), so there is no missing senior technical leadership gap.",
+  "company": {
+    "name": "The Bison Group"
+  }
+}

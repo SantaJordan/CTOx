@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Wrong side of the market and wrong stage: SHINE Systems is a 2007-founded government professional-services/staffing contractor (~35-200 people, Inc. 5000 four times, NAICS 561110 employment services, Crelate staffing ATS) that bills labor onto existing NSG/ASG and IC contracts - not a VC-backed 8-30 person Series A/B defense tech startup with a product stuck between demo and fielding. Every matched posting is a contract labor-category billet (Test Systems Engineer, Field Service Analyst supporting Palantir Gotham/Foundry, 'actively building a pipeline of qualified professionals' for a multi-disciplinary government contract), which signals recruiting throughput, not a valley-of-death transition problem. It is also adjacent-competitive to Barry's own SDVOSB services work rather than a client.",
+  "company": {
+    "name": "SHINE Systems & Technologies"
+  }
+}

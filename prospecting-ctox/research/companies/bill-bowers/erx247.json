@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Wrong side of the market: Emergency Restoration Xperts (erx247.com) is a 32-person family-owned Charlotte, NC restoration SERVICES contractor (water/fire/mold/storm) — the kind of company that BUYS Xactimate and JobNimbus, not a vertical-SaaS vendor that builds them. Bill Bowers fixes stalled engineering orgs at property-trades software companies ($3M-$15M ARR, mobile-heavy field-service SaaS); ERX has no software product and no engineering org. Every matched job is field labor (three Mitigation Technician reqs, one Contents Specialist) whose JD is a values/culture pitch about restoring damaged property — 'We are looking to hire a full-time Mitigation Technicians' — with zero engineering, release-cycle, or SDLC signal. The jd_lexicon match fired on restoration-industry vocabulary shared with his Xactware/Verisk background, not on evidence of the problem he fixes. No quotable line from any live posting redescribes stalled delivery, manual releases, or legacy codebases, so no keep is possible.",
+  "company": {
+    "name": "Emergency Restoration Xperts (ERX)"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "verdict": "keep",
+  "reason": "Pilgrim is a 5-person, $7.55M-funded defense biotech whose live 'Government Ops' posting asks a first hire to 'own our engagement across the federal government and ensure our solutions reach the warfighter' - a company with prototypes and federal demos but no procurement path or advocacy chain, which is precisely the lab-to-field stall Barry Hess fixes.",
+  "fit_score": 7.5,
+  "company": {
+    "name": "Pilgrim (Pilgrim, Inc. / Pilgrim Labs)",
+    "domain": "pilgrimlabs.com",
+    "one_liner": "Builds battlefield-ready biotechnology for warfighters - Kingsfoil hemostatic dressing, Voyager inhaled chemical-threat countermeasure, and ARGUS, an autonomous pathogen/chemical-hazard detection and biosurveillance sensor platform.",
+    "industry": "Defense biotechnology / medical devices + CBRN sensing for DoD",
+    "stage": "Seed - $7.55M total ($3.25M pre-seed Mar 2025 led by Founders Fund/Thiel + $4.3M seed led by Cantos, with Refactor Capital); founded Jun 2023; ~5 employees (+75% YoY)",
+    "hq": "Redwood City, California, USA"
+  },
+  "evidence_jobs": [
+    {
+      "title": "Government Ops",
+      "url": "https://jobs.ashbyhq.com/pilgrim/3b43d01b-1f28-4e06-af7b-3509fb99a9fa",
+      "live": true,
+      "quote": "We are looking for a Government Ops lead at Pilgrim to own our engagement across the federal government and ensure our solutions reach the warfighter."
+    },
+    {
+      "title": "Electrical Engineer",
+      "url": "https://jobs.ashbyhq.com/pilgrim/d31a0a00-e68e-4c81-8e98-5fe600fbb177",
+      "live": true,
+      "quote": "you'll own initiatives end-to-end, transforming mission needs into prototypes, refining them through field demos and rapid iterations, and engaging directly with operators and decision-makers to ensure breakthroughs reach warfighters where they matter most."
+    }
+  ],
+  "people_spec": [
+    "Founder & Chief Executive Officer (Jake Adler)",
+    "Founder",
+    "Head of Operations",
+    "Chief of Staff"
+  ],
+  "talk_track": "I ran engineering at a DoD small business for sixteen years, and the part that still stings is watching a tactical platform operators actually used in theater die force-wide because nobody senior inside the building carried it. Your Government Ops posting says the job is to \"own our engagement across the federal government and ensure our solutions reach the warfighter.\" Most teams read that as a business development hire. It usually means something harder: the technical calls being made right now - how ARGUS logs and ships detection data, how Kingsfoil's evidence package is assembled - are getting locked in before anyone has mapped which program office funds the transition. That ordering, not the science, is what strands a prototype after the demo lands. Which program office do you think picks up battlefield biotech first?",
+  "sources": [
+    "https://pilgrimlabs.com/",
+    "https://jobs.ashbyhq.com/pilgrim/3b43d01b-1f28-4e06-af7b-3509fb99a9fa",
+    "https://jobs.ashbyhq.com/pilgrim/d31a0a00-e68e-4c81-8e98-5fe600fbb177",
+    "https://www.axios.com/2025/09/10/jake-adler-pilgrim-military-medicine",
+    "https://www.businessinsider.com/pilgrim-jake-adler-4-million-funding-biotech-product-bold-video-2025-8",
+    "https://pitchbook.com/profiles/company/762755-77",
+    "https://www.ventureradar.com/organisation/Pilgrim,%20Inc_%5Bdot%5D_/f199410e-2af6-4f52-af75-4125b4970d99",
+    "https://www.tbpndigest.com/story/2025-03-20/pilgrim-founder-jake-adler-raises-325m-to-build-military-biotech-starting-with-rapid-wound-healing-nanocomposites",
+    "https://startupdod.substack.com/p/file-03-pilgrim"
+  ],
+  "caveats": [
+    "Stage sits just below Barry's stated ICP band: seed-stage and ~5 people versus his declared 'Series A/B, 8-30 people'. Kept because the pain signal is near-verbatim and the company is actively hiring three roles with 75% YoY headcount growth.",
+    "Vertical is biotech/medical device rather than his core AI/ML or geospatial - but ARGUS (autonomous pathogen and chemical-hazard detection) is a sensor product, which is explicitly inside his ICP, and the live EE posting is PCB plus microfluidics instrument work.",
+    "Non-obvious bridge worth confirming before outreach: Barry's KBI is listed as an MTEC (Medical Technology Enterprise Consortium) life-sciences member, the DoD consortium that funds exactly this class of battlefield medical technology. Source in dossier: https://mtec-sc.org/life-sciences/knowledgebridge-international",
+    "A Jun 2025 STARTUP DoD market analysis of Pilgrim's anchor NAICS (541711) flagged 'zero DoD presence = gap' for the company - consistent with hiring a first Government Ops lead now. Not independently re-verified for 2026.",
+    "Founder Jake Adler stated publicly on 2026-06-28 that Pilgrim has 'multiple federal deployments this year, with the next one in 58 days' - a dated liveness signal on the lab-to-field transition, retrieved via Exa cache of his post."
+  ]
+}

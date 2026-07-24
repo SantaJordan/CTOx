@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Quadric is a Series C ($103M raised, ~57-100 people, profitable, Burlingame CA) commercial semiconductor IP licensing company selling Chimera GPNPU cores to automotive and consumer chipmakers (DENSO, Tier IV, MegaChips) — wrong vertical and wrong side of the market for Barry Hess, whose niche is 8-30 person Series A/B defense-tech startups getting DoW/IC products procurement-ready; Exa found no DoD/IC customer, SBIR, CMMC or clearance activity anywhere in their public record, the four matched postings are commercial FAE / product-manager / ISO 26262 automotive-safety roles with zero defense-procurement language, and the company already has a founding CTO plus a CPO, so there is no cleared-technical-leadership gap to fill.",
+  "company": {
+    "name": "Quadric, Inc."
+  }
+}

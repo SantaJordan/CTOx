@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Wrong vertical and far too large for a fractional engagement: Cellares is a Series D cell-therapy contract manufacturer (IDMO) in South San Francisco with ~249+ employees and $682M raised (Exa: cellares.com, cbinsights.com), not a $2M-$20M low-voltage systems integrator, electrical contractor, or multifamily/hospitality proptech vendor; the matched 'Director, GMP Systems' posting describes a GMP-critical digital backbone (MES/ERP/validation, audit-ready pre-commercial operations) with zero overlap with David Shake's low-voltage-division, managed-Wi-Fi/surveillance/access-control, vendor-strategy and recurring-service-plan niche, and the other three matches (two FP&A director roles, one Process Development director) are generic senior hires with no relation to the problem he fixes.",
+  "company": {
+    "name": "Cellares"
+  }
+}

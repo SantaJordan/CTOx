@@ -1,0 +1,30 @@
+{
+  "verdict": "drop",
+  "reason": "TekPro Support Services (TSS) is a federal staffing/professional-services body shop, not a defense tech product company: it self-describes as 'an Alaska Native Corporation (ANC), SBA certified 8(a) Program participant, and wholly owned subsidiary of Bristol Bay Native Corporation (BBNC), a $2 billion holding company' and is 'one of 23 subsidiaries' in BBNC's Government Services Group (~80 employees, founded 2016, San Antonio TX) — wrong side of the market versus Barry Hess's ICP of independent Series A/B defense tech startups of 8-30 people building AI/ML, geospatial or sensor products, and far too large/parent-owned for a fractional CTO engagement; the four matched postings (Contract Program Manager, Administrative Operations Specialist, Executive Operations Specialist, Training Support Specialist) are contract-staffing seats billed to FBI Redstone Arsenal, the Federal Railroad Administration and the USCG, with zero product-engineering or lab-to-field transition content, so no quotable line redescribes the prototype-to-fielding pain he fixes.",
+  "company": {
+    "name": "TekPro Support Services, LLC (TSS)",
+    "domain": "tekprosupport.com",
+    "one_liner": "8(a) Alaska Native Corporation providing professional and technical staffing services to federal agencies; wholly owned subsidiary of Bristol Bay Native Corporation.",
+    "industry": "government contracting / professional & technical staffing services",
+    "hq": "San Antonio, Texas, United States",
+    "parent": "Bristol Bay Native Corporation (BBNC) — Government Services Group",
+    "size": "~80 employees (company self/aggregate listing), founded 2016"
+  },
+  "drop_criteria_hit": [
+    "staffing/services firm selling billable bodies, not a product company",
+    "subsidiary of a $2B parent holding company, not an independent startup",
+    "wrong vertical/side of market: buys and places technical labor rather than building AI/ML, geospatial or sensor products",
+    "no live posting quotable as evidence of lab-to-field / procurement-readiness pain",
+    "postings are admin, executive-assistant, program-management and training-coordination roles"
+  ],
+  "sources": [
+    "https://tekprosupport.com/",
+    "https://tekprosupport.com/about/",
+    "https://tekprosupport.com/contracting/",
+    "https://www.bbnc.net/affiliate/government-services-group/tekpro-support-services-llc/",
+    "https://jobs.dayforcehcm.com/brs/TSSCANDIDATEPORTAL/jobs/32169",
+    "https://jobs.dayforcehcm.com/brs/TSSCANDIDATEPORTAL/jobs/32048",
+    "https://jobs.dayforcehcm.com/brs/TSSCANDIDATEPORTAL/jobs/32052",
+    "https://jobs.dayforcehcm.com/brs/TSSCANDIDATEPORTAL/jobs/32187"
+  ]
+}

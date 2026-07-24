@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "BNPC LLC is a franchise-based fire/water/storm restoration and reconstruction contractor in Ft. Worth, TX (Exa-confirmed via its Paylocity careers pages, e.g. 'BNPC LLC - Reconstruction Estimator/PM, Ft Worth, TX') — it is on the WRONG SIDE of Bill Bowers' market: a restoration contractor is a BUYER of Xactimate/JobNimbus-style software, not a vertical-SaaS vendor with a mobile-and-desktop codebase to modernize; every matched job is a field/admin ops role (Construction Project Manager, Job File Coordinator) posted 2022-2024 with liveness unverified, zero engineering roles anywhere in the feed, so there is no quotable line describing stalled software delivery.",
+  "company": {
+    "name": "BNPC LLC"
+  }
+}

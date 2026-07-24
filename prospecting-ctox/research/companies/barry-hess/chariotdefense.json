@@ -1,0 +1,27 @@
+{
+  "verdict": "drop",
+  "reason": "Post-$34M-a16z-Series-A hardware scale-up hiring, not a lab-to-field stall: all 9 open roles are IC engineering/technician seats (Mechanical, Firmware, Power Electronics, Embedded Linux, Test) with no leadership, compliance, or program-transition gap, and the company already fielded Amphora with the U.S. Army at NTC rotation 26-02 and DIU's Artemis project under a founder-CEO who was Senior Director of Engineering at Anduril — so the 'built the tech, needs cleared senior leadership to get it to warfighters' pain Barry fixes is absent; product is battlefield power hardware, not the AI/ML, geospatial or sensor products in his ICP.",
+  "company": {
+    "name": "Chariot Defense",
+    "domain": "chariotdefense.com",
+    "one_liner": "Builds the Amphora family of transportable hybrid-electric battlefield power storage and distribution systems for expeditionary U.S. military units.",
+    "industry": "defense technology / tactical power systems (hardware)",
+    "stage": "Series A ($34M led by Andreessen Horowitz, Feb 2026; ~$42M total), ~20 employees",
+    "hq": "South San Francisco, California, United States"
+  },
+  "disqualifiers": [
+    "Wrong situation: CEO Adam Warmoth on the record — 'We're solving it by actually getting on the ground, in the field with users, and not just burying ourselves in a lab for years' (Axios, 2025-07-16). Barry sells to companies stuck between demo and fielding; Chariot fielded first.",
+    "Senior defense leadership already in house: founder-CEO was Senior Director of Engineering at Anduril for 3+ years running counter-drone and air defense programs.",
+    "Generic 'they hire engineers' match: every matched job is an individual-contributor hardware/software engineering role opened to burn Series A capital on production scale-up.",
+    "Product-category mismatch: high-voltage power electronics and battery hardware, not AI/ML, geospatial, or sensor products for DoW/IC."
+  ],
+  "sources": [
+    "https://www.chariotdefense.com/",
+    "https://www.prnewswire.com/news-releases/chariot-defense-announces-34m-series-a-led-by-andreessen-horowitz-to-scale-command-of-power-on-the-battlefield-302696144.html",
+    "https://www.prnewswire.com/news-releases/chariot-defense-emerges-from-stealth-to-bridge-the-militarys-critical-battlefield-energy-and-power-gap-302506277.html",
+    "https://www.axios.com/2025/07/16/chariot-defense-battlefield-energy-warmoth",
+    "https://a16z.com/announcement/investing-in-chariot-defense/",
+    "https://www.fastcompany.com/91558092/the-battery-startup-powering-the-laser-weapons-race",
+    "https://job-boards.greenhouse.io/chariotdefense/jobs/5275764008"
+  ]
+}

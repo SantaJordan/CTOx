@@ -1,0 +1,45 @@
+{
+  "verdict": "keep",
+  "reason": "Chapin is an 810-student, $68,250-tuition independent K-12 school -- dead center of Kenneth's 800-2,000-student band -- and its live Systems Administrator posting (Career.com, posted 2026-06-28, open through 2026-08-27) confesses that multi-MSP vendor coordination, security incident response, and compliance/audit documentation all sit inside one hands-on individual-contributor role, which is exactly the missing board-level vendor-governance layer he sells; honest caveat: Chapin already employs a Director of Technology (Terence Kennedy), so this is a governance-above-existing-IT sale, not a no-technology-leadership sale.",
+  "fit_score": 0.4917,
+  "company": {
+    "name": "The Chapin School",
+    "domain": "chapin.edu",
+    "one_liner": "Independent K-12 day school for girls on Manhattan's Upper East Side, founded 1901, serving ~810 students at $68,250 tuition.",
+    "industry": "Primary and secondary education (independent K-12)",
+    "stage": "Established nonprofit; ~$63M annual revenue, ~$355M net assets, ~288 employees (IRS FY2023)",
+    "hq": "100 East End Avenue, New York, NY"
+  },
+  "evidence_jobs": [
+    {
+      "title": "Systems Administrator",
+      "url": "https://www.career.com/job/the-chapin-school/systems-administrator/j202306080732309395406",
+      "live": true,
+      "quote": "Collaborate with our Managed Services Providers (MSPs) on network and infrastructure operations, maintenance tasks, and troubleshooting, and serve as an on-site technical liaison"
+    },
+    {
+      "title": "Systems Administrator (same posting, incident + audit duties)",
+      "url": "https://chapin.hire.trakstar.com/jobs/fk0zvv8/",
+      "live": true,
+      "quote": "Assist with compliance documentation and audit requests as directed by the Director of Technology"
+    }
+  ],
+  "people_spec": [
+    "Chief Finance & Operations Officer (owns vendor contracts, insurance, audit -- most likely buyer of a governance engagement)",
+    "Head of School (board-facing; the person the Board asks technology-risk questions of)",
+    "Director of Technology (owns the MSP relationships this posting describes; scopes and defends any outside advisory)",
+    "Chief of Staff, Head of School Office (coordinates major HOS-office initiatives and board-facing materials)",
+    "Board Chair / Trustee on the Audit or Finance Committee (the governance body that would commission a written technology-risk report)"
+  ],
+  "talk_track": "I work with independent school boards that can't answer technology-risk questions, usually because IT runs through outside vendors nobody formally oversees. Chapin's open Systems Administrator posting asks that hire to \"Collaborate with our Managed Services Providers (MSPs)... and serve as an on-site technical liaison,\" and to assist with compliance documentation and audit requests. Read together, those two lines put vendor accountability inside one person's daily queue rather than in a reporting line the Board can see. At a tuition-funded school that matters for one reason: when a shared vendor gets breached, schools with written vendor governance recover in days, and schools without it spend weeks managing parent communication -- and across 810 families, weeks is an enrollment number, not an IT number. That's worth knowing whether or not you ever bring in someone like me. Does the Board get a written technology-risk report today? -- Kenneth Thomas",
+  "sources": [
+    "https://www.career.com/job/the-chapin-school/systems-administrator/j202306080732309395406",
+    "https://chapin.hire.trakstar.com/jobs/fk0zvv8/",
+    "https://www.chapin.edu/about/chapin-community/administration",
+    "https://www.chapin.edu/admissions/tuitionfinancial-aid",
+    "https://www.chapin.edu/about/employment-opportunities/current-openings",
+    "https://www.causeiq.com/organizations/the-chapin-school,131635257/",
+    "https://chapin.edu/",
+    "https://careers.nais.org/jobs/22273073/systems-administrator"
+  ]
+}

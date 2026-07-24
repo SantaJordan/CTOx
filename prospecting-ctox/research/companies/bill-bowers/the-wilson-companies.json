@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Wrong side of the market and no engineering signal: The Wilson Companies is the holding entity for Wilson Plumbing, Heating, Cooling & Electric (founded 1958, Stow OH, third-generation family-owned residential home-services contractor) plus Cut and Dry Restoration — a BUYER of property-trades software like Xactimate/JobNimbus, not a vertical-SaaS vendor, which is Bill Bowers' entire niche; every matched posting is a field/trade role (Home Services Field Marketer, Restoration & Mitigation Technician, Plumbing Field Canvasser, Residential Sales Plumber) with zero mention of software delivery, releases, cycle time, mobile apps, or an engineering org, so there is no quotable line redescribing the pain he fixes.",
+  "company": {
+    "name": "The Wilson Companies"
+  }
+}

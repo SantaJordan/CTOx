@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Accuray is a NASDAQ-listed radiation-oncology device manufacturer (ARAY, ~$458M revenue, 850-990 employees, HQ Madison WI, IPO 2007) — wrong vertical and roughly 25x above David Shake's $2M-$20M low-voltage integrator / property-technology band, so no fractional engagement exists here; the four matched jobs (Regional Sales Director, Director of Global EHS, Senior Director Product Strategy, Regional Business Director EIMEA) are generic enterprise roles with no low-voltage division, managed-Wi-Fi, estimating, or recurring-service-plan signal, and the only lexicon hit — 'maintain existing Install Base' in the medical-device sales JD — means a fleet of installed CyberKnife/Radixact systems at hospitals, not an integrator's job-site install base, making it a false-positive keyword collision rather than evidence of the pain this CTO fixes.",
+  "company": {
+    "name": "Accuray Incorporated"
+  }
+}

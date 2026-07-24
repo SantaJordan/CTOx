@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Wrong entity type and wrong signal: the Diocese of Nashville is a Catholic diocesan chancery (~57-person Mission Support Office governing 19 system schools / 6,358 students across 38 counties under a Superintendent and the bishop), not the independent or charter school with its own board that Kenneth serves -- the diocesan-system-vs-independent-school distinction is the same wrong-side-of-market cut as a school district; and the only matched posting is a Director of Facilities role about buildings, preventive maintenance and capital projects that explicitly states 'This position does not oversee parish or school facilities across the diocese,' so it is not evidence of a technology-governance gap. The pack's own signals confirm this (strong_title=False, gap=False, jd_lexicon=True only) -- the match fired on generic 'manage vendors, contractors, and external consultants' language, which here means maintenance contractors, not the unsupervised IT vendors Kenneth governs. No quotable line redescribes the pain he fixes.",
+  "company": {
+    "name": "Diocese of Nashville"
+  }
+}

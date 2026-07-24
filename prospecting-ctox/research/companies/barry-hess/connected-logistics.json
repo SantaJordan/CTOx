@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Wrong side of the market: Connected Logistics (LOGC2, Inc.) is a 19-year-old, 67-person SDVOSB government IT SERVICES contractor in Huntsville AL (~$15.6M revenue, prime on DLA JETS, ITES-3S and GSA SEWP VI, acquiring majority stakes in other firms) — it sells the same cleared-technical-leadership and procurement-navigation services Barry Hess sells, rather than being a Series A/B 8-30 person product startup with a prototype stuck between demo and field; all four matched jobs are 'Contingent Upon Contract Award' body-shop staffing reqs for a DLA task order (Okta sysadmin, SAP application admin, cybersecurity A&A SME, contracts administrator), which signal task-order staffing, not a lab-to-field transition stall.",
+  "company": {
+    "name": "Connected Logistics (LOGC2, Inc.)"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Wrong side of the market and wrong vertical: MealSuite is a 180-222-person, 35-year-old healthcare/senior-living foodservice SOFTWARE vendor (Dallas TX, late stage, ~$14-40M revenue per Tracxn/Datanyze/RocketReach) that SELLS a SaaS platform to senior-living operators — not a $2M-$20M low-voltage systems integrator or electrical contractor adding a technology line to buildings it already services. The 'Director, Integration Strategy' signal is EMR/HL7/dietary-platform data plumbing ('the data connections that link MealSuite to EMRs, dietary platforms, and third-party providers'), which is software API integration, not the vendor-selection/estimating/recurring-service-plan build-out David Shake fixes; senior living is only a surface-word overlap with his K4Connect/Groove background. They also already have layered technology leadership (VP Customer Experience, a Director of AI, a Senior Director of Solutions Engineering, and an Engineering Manager over a Clinical Pillar team), so there is no 'no senior technology leadership' gap, and the size/stage is far past a fractional CTO engagement.",
+  "company": {
+    "name": "MealSuite"
+  }
+}

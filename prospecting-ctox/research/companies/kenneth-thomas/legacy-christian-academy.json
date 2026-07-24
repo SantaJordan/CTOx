@@ -1,0 +1,29 @@
+{
+  "verdict": "drop",
+  "reason": "Legacy Christian Academy (Frisco, TX) is the right vertical and size for Kenneth's niche — an independent, tuition-funded PK-12 Christian school with ~1,127 students (NCES) and its own Board of Trustees — but no live posting redescribes the pain he fixes: the three matched jobs are Director of Finance, Annual Giving & Advancement Operations Manager, and a Recess/Lunch/After-School Program Coordinator, all verified live via Exa and none containing a technology-governance, ungoverned-IT-vendor, or missing-technology-leadership line. Decisive counter-evidence: LCA already has in-house senior technology leadership — a Senior Director of Curriculum & Technology (since Aug 2024) whose own public profile describes leading 'thoughtful evaluation and integration of human-centered AI and emerging technologies', a Director of Educational Technology & Innovation (since Jan 2023), and a Sr. Director of Campus Operations who previously held the Director of IT role — which contradicts the core situation Kenneth sells into ('outgrown reactive outsourced IT but no technology leadership'). Closest near-miss lines are generic business-office contracting ('Develops and maintains external relationships with vendors, lenders, etc.' / 'Negotiates and manages contracts') and standard advancement-ops CRM duty ('Serve as the primary administrator of Blackbaud Raiser's Edge NXT'), neither of which is evidence of the technology-governance gap.",
+  "company": {
+    "name": "Legacy Christian Academy",
+    "domain": "legacyca.com",
+    "one_liner": "Independent, ACSI/SACS-accredited PK-12 Christian college-preparatory school in Frisco, TX serving ~1,127 students.",
+    "industry": "K-12 private/independent education",
+    "stage": "Independent nonprofit school, founded 1999, ~100-200 employees",
+    "hq": "Frisco, Texas, USA"
+  },
+  "disqualifiers": [
+    "No live posting quotes the technology-governance pain — matched roles are finance, advancement/fundraising ops, and after-school program coordination.",
+    "Existing in-house technology leadership at director and senior-director level, including an AI-integration remit, so the 'no technology quarterback' situation is absent.",
+    "Signal in the pack was jd_lexicon-only on non-technical roles (strong_title=False, gap=False) — a generic 'school is hiring staff' match."
+  ],
+  "sources": [
+    "https://recruiting.paylocity.com/recruiting/jobs/details/4109352",
+    "https://recruiting.paylocity.com/recruiting/jobs/details/4187723",
+    "https://recruiting.paylocity.com/recruiting/jobs/All/0ea670ce-96cc-44f6-816c-1eeb3ca3c9d6/Legacy-Christian-Academy",
+    "https://www.legacyca.com/careers/",
+    "https://legacyca.com/",
+    "https://nces.ed.gov/surveys/pss/privateschoolsearch/school_detail.asp?ID=A0109424",
+    "https://www.privateschoolreview.com/legacy-christian-academy-profile/75034",
+    "https://prospeo.io/c/legacy-christian"
+  ],
+  "researched_at": "2026-07-23",
+  "research_method": "Exa search + Exa contents livecrawl only"
+}

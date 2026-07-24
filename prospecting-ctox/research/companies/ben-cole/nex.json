@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Nex (NEX Team Inc.) is a consumer hardware platform holder, not a funded independent US PC/console game studio entering full production: it builds and retails its own $299 Nex Playground console (launched Dec 2023, sold at Walmart/Costco) plus PlayOS and a Motion Development Kit that other game developers build against — the wrong side of Ben's market. It is ~140 people across 12 countries with its engineering center in Hong Kong (not US-based), last funded at Series B in Sep 2021 (~$42M total, five years stale, no 'recent funding or publisher relationship'), and it already has a CTO plus an open full-time 'Director / Senior Director, Platform Software Engineering' req that reports to that CTO and owns platform software, PlayOS and cloud services globally — the ops layer has an owner and is being hired in-house, which is the opposite of the unowned-technical-operations gap Ben fixes. The three matched postings (Senior Game Environment Artist, People Director, People Operations Specialist) scored only on shared company boilerplate (jd_lexicon=True, strong_title=False, gap=False); no line in any live posting redescribes Ben's pain, so there is no quotable line and the keep bar fails.",
+  "company": {
+    "name": "Nex (NEX Team Inc.)"
+  }
+}

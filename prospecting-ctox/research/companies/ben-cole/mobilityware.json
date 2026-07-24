@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "MobilityWare is a 35-year-old, ~180-243 person mobile card/casual games publisher (Irvine, CA) running a live-service portfolio of 30+ titles — not a US funded PC/console studio of 20-150 entering full production. It fails Ben Cole's platform, size, and stage filters simultaneously, and its own JD kills the EDP: the Senior Technical Artist posting advertises 'a profitable, stable, self-funded studio with one of the best no-crunch cultures in our industry,' which is the exact opposite of runway burned against a publisher-fixed milestone date. The entire fresh job list (Apply Here, Game Designer, Product Manager, Senior Technical Artist) contains zero build/DevOps/IT/security/cloud/release/QA-automation hiring — no ops confession, no quotable line, generic 'they hire game people' match.",
+  "company": {
+    "name": "MobilityWare"
+  }
+}

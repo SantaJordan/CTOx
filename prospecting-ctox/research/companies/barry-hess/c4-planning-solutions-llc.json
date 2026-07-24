@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Wrong side of the market and wrong stage: C4 Planning Solutions is a 25-year-old SDVOSB managed-IT/C5ISR SERVICES contractor (founded 2000, ~88 employees across 6 countries, $5M-$25M revenue, HQ Blythe/Augusta GA) that staffs government sites — not a Series A/B product startup of 8-30 people building AI/ML, geospatial or sensor technology stuck between demo and fielding. Its live postings are $70-85K billet-backfill SME roles at MCTSSA Camp Pendleton (Ground C2 Systems Analyst, AFATDS SME, TACNET SME, TACRAD SME) requiring 3-5 years of experience and Security+; they are contract-staffing confessions, not evidence of a prototype-to-fielding transition stall. It is also structurally the same kind of company as Barry Hess's own KBI — a peer defense services firm that sells the integration support he would be hired to provide, so there is no buyer for a fractional CTO here.",
+  "company": {
+    "name": "C4 Planning Solutions, LLC"
+  }
+}

@@ -56,6 +56,10 @@ def run_cto(slug):
     if not todo:
         return
 
+    # name+company -> linkedin_url, for the fallback join
+    by_name = {(t.get("first_name", ""), t.get("last_name", ""),
+                t.get("company_name", "")): t["linkedin_url"] for t in todo}
+
     jobs = {}
     for i in range(0, len(todo), 100):
         batch = todo[i:i + 100]
@@ -66,6 +70,9 @@ def run_cto(slug):
             "company_name": t.get("company_name", ""),
             "linkedin_url": t["linkedin_url"],
             "enrich_fields": ["contact.emails", "contact.phones"],
+            # FullEnrich does not echo linkedin_url back on results, so carry it
+            # through `custom` — this is the join key for s8.
+            "custom": {"li": t["linkedin_url"]},
         } for t in batch]
         sub = req("POST", "/contact/enrich/bulk",
                   {"name": f"ctox_{slug}_{i // 100}", "datas": datas})
@@ -92,7 +99,14 @@ def run_cto(slug):
                     emails = c.get("emails") or []
                     phones = c.get("phones") or []
                     inp = r.get("input", {}) or {}
-                    li = r.get("linkedin_url") or inp.get("linkedin_url") or ""
+                    cust = r.get("custom") or inp.get("custom") or {}
+                    li = (cust.get("li") or r.get("linkedin_url")
+                          or inp.get("linkedin_url") or "")
+                    if not li:
+                        # last resort: match on name + company from the input echo
+                        nm = (inp.get("firstname", ""), inp.get("lastname", ""),
+                              inp.get("company_name", ""))
+                        li = by_name.get(nm, "")
                     fh.write(json.dumps({
                         "linkedin_url": li,
                         "fe_email": em(emails[0]) if emails else "",

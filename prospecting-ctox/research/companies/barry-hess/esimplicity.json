@@ -1,0 +1,29 @@
+{
+  "verdict": "drop",
+  "reason": "eSimplicity is a ~238-person government digital-services CONTRACTOR (founded 2016, Silver Spring MD, $305M+ lifetime federal awards, GSA MAS + five OASIS+ vehicles, no venture funding) — wrong side of the market and wrong size for Barry Hess's ICP of 8-30-person Series A/B defense tech product startups; it sells the same federal technical-leadership and AI/ML delivery services Barry sells, and its matched postings (Technical Director, Senior Proposal Manager, Senior Proposal Writer monitoring 'SAM.gov, GovWin, GSA MAS, IDIQs, BPAs') prove it already owns a full capture/proposal/acquisition machine rather than lacking one, while hiring a full-time senior technical executive rules out a fractional engagement.",
+  "company": {
+    "name": "eSimplicity",
+    "domain": "esimplicity.com",
+    "one_liner": "Federal digital-services contractor delivering data modernization, AI/ML, spectrum/EMSO engineering and digital experience to HHS, DoD, DHS and IC agencies.",
+    "industry": "Government IT / digital services contractor",
+    "stage": "Bootstrapped, established (founded 2016; ~238 employees; $305.3M lifetime federal obligations; no funding rounds)",
+    "hq": "Silver Spring, Maryland, US"
+  },
+  "drop_criteria_hit": [
+    "wrong side of market — services contractor, not a defense-tech product startup",
+    "sells the same service the CTO sells (federal technical leadership, AI/ML delivery, capture support)",
+    "far too large for a fractional engagement (~238 employees vs ICP 8-30)",
+    "wrong stage — no venture funding, not Series A/B",
+    "hiring signal is the inverse of the pain: mature Proposal Operations team + capture managers + a full-time Technical Director req"
+  ],
+  "sources": [
+    "https://esimplicity.com/about-us/",
+    "https://esimplicity.com/",
+    "https://besagov.com/companies/HTCQFJB8LLV3",
+    "https://www.gsaelibrary.gsa.gov/ElibMain/home.do/contractorInfo.do?contractNumber=47QRCA25DU400&contractorName=ESIMPLICITY+INC&executeQuery=YES",
+    "https://www.govconinabox.com/explore/contractors/profile/HTCQFJB8LLV3",
+    "https://prospeo.io/c/esimplicity-revenue",
+    "https://recruiting.paylocity.com/recruiting/jobs/details/4127621",
+    "https://recruiting.paylocity.com/recruiting/jobs/details/4163733"
+  ]
+}

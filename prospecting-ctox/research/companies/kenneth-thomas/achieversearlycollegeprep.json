@@ -1,0 +1,58 @@
+{
+  "verdict": "keep",
+  "reason": "AECP is a growth-stage NJ charter school (543 students, expanding 6-11 toward a full 6-12 span) whose live Chief Operations Officer posting buries 'technology' as one bullet among facilities, food services, maintenance and security under a single ops/finance hire reporting to the Executive Director -- literal public evidence of Kenneth's target situation, a school with outsourced IT and no technology leadership or board-level technology oversight.",
+  "fit_score": 0.4528,
+  "company": {
+    "name": "Achievers Early College Prep Charter School (AECP)",
+    "domain": "achieversecp.org",
+    "one_liner": "New Jersey's first public charter school for grades 6-12, offering four STEAM pathways (Health Sciences, Digital Media, Audio Engineering, Cisco Computer Networking) where students can earn up to 60 college credits and NOCTI credentials at no cost.",
+    "industry": "K-12 education (public charter school)",
+    "stage": "Growth-stage single-site charter; 543 students and 27.5 FTE teachers (NCES 2024-25), grade span still building out from 6-11 to 6-12; annual revenue $1M-$5M (Exa company record); 23 roles open on its ATS today including a Chief Operations Officer",
+    "hq": "544 Chestnut Ave, Trenton, NJ 08611"
+  },
+  "evidence_jobs": [
+    {
+      "title": "Chief Operations Officer (2026-2027)",
+      "url": "https://job-boards.greenhouse.io/achieversearlycollegeprep",
+      "live": true,
+      "quote": "Oversee network and school operations, including facilities, financial management, technology, food services, maintenance, security, and daily school systems for each of our sites"
+    },
+    {
+      "title": "Chief Operations Officer (2026-2027) -- second load-bearing line, same posting",
+      "url": "https://www.topschooljobs.org/job/2443123/chief-operations-officer-2026-2027-/",
+      "live": true,
+      "quote": "Monitor student enrollment, retention, and attendance systems to maximize funding and ensure compliance with state and federal regulations."
+    },
+    {
+      "title": "NJ Certified CTE and Cisco Academy Director 2026-2027",
+      "url": "https://job-boards.greenhouse.io/achieversearlycollegeprep/jobs/6419990003",
+      "live": true,
+      "quote": "As the Cisco Academy director, you will direct CCNA, CCNP, CCIE courses, support with internship and job placement, and on-time graduation."
+    }
+  ],
+  "people_spec": [
+    "Executive Director (the COO reports to this role; AECP's top executive and the person who owns the technology gap until a COO is hired)",
+    "President / Chair, Board of Trustees (NJ charter school boards carry statutory oversight duty -- this is the buyer for a board-clarity engagement)",
+    "Board of Trustees member chairing the Finance or Audit committee (owns vendor contracts and the technology line in the budget)",
+    "Chief Academic Officer / Head of School (owns the instructional technology and student-data systems named in the COO posting)",
+    "NOTE: do not look for a CTO, IT Director, or COO at AECP -- the COO who would own technology is the role they are currently hiring, and no internal technology leader exists on the org chart. The CTE and Cisco Academy Director is a student-curriculum role, not internal IT."
+  ],
+  "talk_track": "I'm a fractional CTO for charter and independent school boards that can't answer technology-risk questions -- cybersecurity, AI tools, vendor accountability -- and I work alongside the IT vendors a school already has rather than replacing them. Your open Chief Operations Officer role describes the job as \"Oversee network and school operations, including facilities, financial management, technology, food services, maintenance, security, and daily school systems for each of our sites.\" Technology sits in that sentence between financial management and food services, which means at Achievers it isn't a role, it's a leftover -- whoever you hire inherits it on top of six other departments. The same posting asks that person to \"monitor student enrollment, retention, and attendance systems to maximize funding,\" so your technology systems and your per-pupil funding are the same system; a vendor breach here is an enrollment event, not an IT ticket. Worth naming plainly: you're preparing students for CCNA and CCNP certifications while your own network has no owner on the org chart. Is technology on your board's agenda, or waiting on the COO hire?\n\n-- Kenneth Thomas",
+  "sources": [
+    "https://job-boards.greenhouse.io/achieversearlycollegeprep",
+    "https://www.topschooljobs.org/job/2443123/chief-operations-officer-2026-2027-/",
+    "https://jobera.com/job/achieversearlycollegeprep-chief-operations-officer-2026-2027-65446230/",
+    "https://job-boards.greenhouse.io/achieversearlycollegeprep/jobs/6419990003",
+    "https://nces.ed.gov/ccd/schoolsearch/school_detail.asp?County=Mercer+County&ID=340079403457&Search=1&State=34",
+    "https://newjerseyschools.us/districts/achievers-early-college-prep-charter-school/",
+    "https://www.nj.gov/education/sprreports/202324/School-Detail/80-7895-920.pdf",
+    "https://achieversecp.org/about",
+    "https://www.achieversecp.org/enrollment-data"
+  ],
+  "caveats": [
+    "Size gap vs the dossier's stated band: AECP has 543 students (NCES 2024-25), below Kenneth's ~800-2,000 target. It is growing (grade span 6-10 in 2023-24, 6-11 in 2024-25, hiring for 6-12 in 2026-27) but is currently a smaller engagement than his stated ICP.",
+    "AECP is a tuition-FREE public charter, so the dossier's headline EDP (5% tuition attrition = $0.6M-$3M) does not literally apply. The equivalent mechanic does: NJ charter funding is per-pupil, and the COO posting itself ties enrollment/retention systems to maximizing funding. The talk track uses that version, not the tuition number.",
+    "Exa's cached copy of the Greenhouse board shows a stale 10-job snapshot; COO liveness rests on the evidence pack's fresh ATS feed pulled today, corroborated by two independent job mirrors carrying the same JD text. No direct Greenhouse job ID for the COO posting was discoverable via Exa, so the evidence URL points at the live company job board.",
+    "topschooljobs.org labels its mirror 'expired'; the company's own ATS feed today still lists Chief Operations Officer (2026-2027). The mirror is used for JD text, the ATS feed for liveness."
+  ]
+}

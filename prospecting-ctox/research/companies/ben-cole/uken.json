@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Wrong on every axis of Ben's niche and no quotable ops signal: Uken is a Toronto (not US) mobile/social studio, not PC/console; it is a 15-year-old live-service company shipping weekly updates to already-launched titles (Who Wants To Be A Millionaire?, Jeopardy! World Tour, Ava's Manor), not a funded studio entering full production on an unlaunched game; funding is $250K raised ~13 years ago (CB Insights, Seed VC-II), so there is no publisher-milestone or tranche pressure; the four matched postings are Senior Product Manager, Product Manager, Game Designer II - Economy and Data Analyst, with zero build/DevOps/IT/security/release hiring, and the pack's own signal flags show strong_title=False and gap=False with only jd_lexicon=True firing on shared boilerplate ('weekly updates we make to our games and internal technologies') that appears identically in all four JDs; liveness was never verified (live=None on all four); and the ops layer is already owned in-house — RocketReach lists a sitting CTO (Gihad Murad) over a 44-person tech org plus a Senior IT Operations Engineer, which is the opposite of the unowned-technical-operations situation Ben is engaged for.",
+  "company": {
+    "name": "Uken Games"
+  }
+}

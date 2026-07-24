@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "StaffMode (dba SurgeHire) is a 7-person Houston staffing and recruiting agency for oilfield/mining/environmental labor, not a software company — the matched 'Director of Engineering' posting is a client-side onshore upstream oil & gas project-engineering role requiring a BS in Engineering and MS Office skills, with no software product, no mobile/desktop codebase, and no delivery-velocity pain for Bill Bowers to fix; it is also on the wrong side of the market (a staffing vendor filling roles, not a vertical-SaaS product org).",
+  "company": {
+    "name": "StaffMode (SurgeHire)"
+  }
+}

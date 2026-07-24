@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Aero Simulation, Inc. (aerosimulation.com) is a 1983-founded, 100% ESOP employee-owned military training-device prime with ~177-300 staff and ~$38.5M revenue in Tampa, FL — not a Series A/B, 8-30 person defense tech startup, and the opposite of Barry Hess's situation: ASI is the procurement-mature incumbent (ISO 9001:2015, highly rated CPARS, continuous E-2/C-2 flight trainer development since 2000, USCG ATC support since 1995), so it has no lab-to-field valley-of-death problem and is far too large for a fractional CTO; the four matched jobs (Systems Engineer Maritime, MBSE, Project Engineer, Avionic Systems Engineer) are routine program-staffing reqs with no line confessing missing cleared technical leadership. The pack's 'stage: growth_startup' label is incorrect.",
+  "company": {
+    "name": "Aero Simulation, Inc. (ASI)"
+  }
+}

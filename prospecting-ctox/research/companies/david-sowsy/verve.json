@@ -1,7 +1,0 @@
-{
-  "verdict": "drop",
-  "reason": "Verve is a global public-scale adtech platform (30 offices, hiring an SEC consolidations manager) — far too large for a fractional CTO and in the wrong industry; its 'Senior iOS Engineer, SDK' role is for an advertising SDK, not the connected-hardware/medical-device companion-app pain David Sowsy fixes (pack signals: gap=False).",
-  "company": {
-    "name": "Verve"
-  }
-}

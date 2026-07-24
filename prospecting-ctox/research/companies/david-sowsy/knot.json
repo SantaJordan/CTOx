@@ -1,7 +1,0 @@
-{
-  "verdict": "drop",
-  "reason": "Knot is a fintech ('Plaid for merchant connectivity') hiring Senior iOS/Android engineers to build embeddable payments SDKs — there is no connected-hardware product, no companion app, and no regulated-mobile situation matching David Sowsy's niche; the match was title/lexicon-generic, and as a well-funded growth startup (8VC, Amex, Plaid) with Staff-level hiring across product and infrastructure it is not a fractional-CTO buyer.",
-  "company": {
-    "name": "Knot"
-  }
-}

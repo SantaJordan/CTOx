@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Wrong side of the market and wrong scale: EIT is Larry Ellison's Oxford research institute (a building OWNER buying physical-security and building-technology systems for its own campus), not a $2M-$20M low-voltage integrator or property-technology vendor selling those systems; the 'Operational Technology Manager - Network Infrastructure' posting is EIT staffing an in-house campus OT team, which is David Shake's clients' customer, not his client. Larry Ellison committed a further GBP 890M in Oct 2025 to expand the campus from 300,000 sq ft to 2 million sq ft (Times Higher Education, 2025-10-14), placing EIT far beyond any fractional-CTO engagement, and the remaining matched jobs (Engineering Administrator/CMMS, Receptionist, Predoctoral Research Fellow in Economics) are generic facilities and research hiring with no low-voltage-division or recurring-service-revenue signal.",
+  "company": {
+    "name": "Ellison Institute of Technology"
+  }
+}

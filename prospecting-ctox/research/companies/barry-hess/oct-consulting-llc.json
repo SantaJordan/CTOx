@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "OCT Consulting is a ~150-employee federal management/IT consulting services firm (founded 2013, 8(a) graduate, OASIS+ and MDA SHIELD IDIQ holder, McLean VA), not a Series A/B defense tech product startup of 8-30 people — and it is on the wrong side of the market twice over: it sells the same advisory/compliance services Barry sells, and it is standing up its own C3PAO practice to CERTIFY other companies' CMMC rather than needing help passing CMMC; the matched jobs (Certified CMMC Assessor, QA for CMMC Assessments, Proposal Manager/Writer, RMF Cybersecurity Analyst) are billable-consultant and BD headcount, not evidence of a prototype stuck between demo and fielding.",
+  "company": {
+    "name": "OCT Consulting, LLC"
+  }
+}

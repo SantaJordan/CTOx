@@ -1,0 +1,27 @@
+{
+  "verdict": "drop",
+  "reason": "Choreo is a Parthenon Capital-backed RIA with ~$25B AUM, ~183-200 employees and 50 offices that BUYS wealth-tech (eMoney et al.) rather than owning a revenue-critical legacy data platform — wrong side of the market for Shawn's SQL Server/.NET modernization niche; it already has a full-time CIO (the Senior Director, IT/InfoSec role explicitly 'reports to the Head of Technology (CIO)'), a 5-person Platform & Technology team, a PMO and a 'hybrid IT operating model that includes internal resources and third-party service providers,' so the posting signals a staffed department adding a management layer, not bus-factor-1 with no technical leadership, and the firm is far too large for a fractional CTO engagement.",
+  "company": {
+    "name": "Choreo, LLC",
+    "domain": "choreoadvisors.com",
+    "one_liner": "Chicago-based PE-backed registered investment advisor (RIA) serving CPA-referred high-net-worth clients; formerly RSM US Wealth Management, lifted out by Parthenon Capital in Feb 2022 and a serial acquirer of CPA-affiliated wealth practices.",
+    "industry": "financial_services / wealth management (RIA)",
+    "stage": "PE-backed rollup, ~$25B+ AUM/AUA, ~183-200 employees, 40-50 offices",
+    "hq": "Chicago, IL"
+  },
+  "drop_reasons": [
+    "wrong side of market: buyer of wealth-tech, not a data-heavy B2B SaaS vendor with its own legacy platform",
+    "technical leadership already in place: CIO / Head of Technology, Platform & Technology team, PMO, M&A integration function",
+    "too large for a fractional CTO engagement: PE-backed, ~$25B AUM, 50 offices, enterprise IT/security director hire",
+    "no evidence of a bus-factor-1 SQL Server/SSIS legacy platform with calendar-fixed contracted deliverables (the EDP)"
+  ],
+  "sources": [
+    "https://job-boards.greenhouse.io/choreo/jobs/4700003005",
+    "https://job-boards.greenhouse.io/choreo/jobs/4708626005",
+    "https://www.choreoadvisors.com/newsroom/choreo-announces-acquisition-of-wealth-management-business-from-bdo/",
+    "https://www.financial-planning.com/news/private-equity-owned-choreo-buys-bdos-8-1b-wealth-unit",
+    "https://www.parthenoncapital.com/news/newly-independent-advisory-firm-choreo-announces-the-closing-of-previously-announced-transaction/",
+    "https://www.wealthmanagement.com/ria-news/choreo-acquires-illinois-ria-with-700m-in-assets",
+    "https://theorg.com/org/choreo/teams/platform-and-technology-team"
+  ]
+}

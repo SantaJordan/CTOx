@@ -1,7 +1,0 @@
-{
-  "verdict": "drop",
-  "reason": "Duet is a pure-software enablement platform for NP-owned primary care clinics (EHR/RCM data plumbing) with zero connected hardware, no medical device, and no mobile companion app; its only engineering roles (VP of Engineering, Senior Product Engineer RCM Operations) describe a data-platform leadership need, not the BLE/companion-app/app-store-deadline pain David Sowsy fixes, and no JD line in the fresh feed redescribes his niche.",
-  "company": {
-    "name": "Duet"
-  }
-}

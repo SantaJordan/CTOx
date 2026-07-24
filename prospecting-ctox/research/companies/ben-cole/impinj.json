@@ -1,7 +1,0 @@
-{
-  "verdict": "drop",
-  "reason": "Impinj is a public enterprise (NASDAQ: PI, ~1,000+ employees, offices in Seattle/Taiwan/Brazil/Finland) far outside Ben Cole's 20-200-person niche; its DevOps postings are routine growth of an existing Developer Infrastructure team with a manager layer, not an unowned ops layer needing a fractional leader.",
-  "company": {
-    "name": "Impinj"
-  }
-}

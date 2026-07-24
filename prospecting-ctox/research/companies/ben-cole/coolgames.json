@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Wrong side of the market and wrong geography/platform on every axis of Ben's niche: CoolGames is a ~49-person Amsterdam HTML5 casual/web-games studio that was acquired outright by Keesing Media Group in July 2023 ('Keesing assumes ownership of CoolGames... with immediate effect', keesing.com 2023-07-06) and its own JD says 'CoolGames is part of Keesing, the world's largest Braintainment company' — a subsidiary of a buy-and-build parent, not an independent US-based funded PC/console studio entering full production; all four matched postings (Senior QA Engineer, Game Developer, Senior Producer, Level Designer) are creative/production roles with zero build, DevOps, IT, cloud, security or release-operations language, so there is no quotable line evidencing the technical-operations pain Ben fixes.",
+  "company": {
+    "name": "CoolGames"
+  }
+}

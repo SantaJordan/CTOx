@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Wrong side of the market: Best Choice Roofing is a residential roofing CONTRACTOR (282 employees, ~$170M revenue, 85+ locations, HQ Goodlettsville TN, founded 2009) — a BUYER of contractor software like JobNimbus, not a vertical-SaaS vendor with an engineering org. All four matched jobs are duplicate 'Sales Opportunity' postings for door-to-door residential roofing sales reps ('Meet homeowners face-to-face'), containing zero engineering, mobile, release, or delivery signal; there is no quotable line redescribing the stalled-delivery pain Bill Bowers fixes. Match appears to be a vertical-keyword false positive (roofing) rather than evidence of the problem.",
+  "company": {
+    "name": "Best Choice Roofing"
+  }
+}

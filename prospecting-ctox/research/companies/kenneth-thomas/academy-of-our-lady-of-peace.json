@@ -1,0 +1,23 @@
+{
+  "verdict": "drop",
+  "reason": "Right vertical (independent Catholic 9-12 school, 730-750 students, $24,250 tuition, San Diego) but no technology-governance signal: the only matched posting is an Admissions Enrollment Manager with zero technology content, the live aolp.org careers page today lists only advancement, librarian, substitute-teacher, driver and coaching roles, and OLP already has in-house technology leadership (Senior Director of Technology since Jul 2022; the Director of Technology role sits on the Executive Leadership Team reporting to the Head of School) — the exact layer Kenneth Thomas sells is already staffed, and enrollment sits below his 800-2,000 band. Both technology postings found are stale (Director of Technology deadline 12/11/2020; Helpdesk Technician deadline 9/1/2022). No quotable live line => drop.",
+  "company": {
+    "name": "Academy of Our Lady of Peace"
+  },
+  "notes": {
+    "domain": "aolp.org",
+    "one_liner": "Independent all-girls Catholic college-preparatory high school (grades 9-12) in San Diego, founded 1882.",
+    "industry": "K-12 independent education",
+    "size": "~750 students, 82 employees, ~$3.2M revenue (Exa-sourced)",
+    "hq": "San Diego, CA"
+  },
+  "sources": [
+    "https://aolp.org/",
+    "https://www.aolp.org/our-school/employment",
+    "https://nces.ed.gov/surveys/pss/privateschoolsearch/school_detail.asp?County=San+Diego&ID=00077164&Search=1",
+    "https://www.niche.com/k12/academy-of-our-lady-of-peace-san-diego-ca/",
+    "https://www.edjoin.org/Home/JobPosting/1341052",
+    "https://www.edjoin.org/Home/JobPosting/1412030",
+    "https://recruiting.paylocity.com/recruiting/jobs/details/4263992"
+  ]
+}

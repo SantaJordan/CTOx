@@ -1,0 +1,44 @@
+{
+  "verdict": "keep",
+  "reason": "Boam AI sells a human-run \"fully managed\" data service (Toast, Uber Eats, SpotOn) with ~17-23 people across five countries and no technical executive, and its live Ashby posting confesses it is only now hiring \"the first product leader at Boam AI\" alongside four backend engineering roles - the exact services-to-product, scale-without-headcount transition Daniel Kirichanski sells.",
+  "fit_score": 0.725,
+  "company": {
+    "name": "Boam AI (Gigabite, Inc.)",
+    "domain": "boam.ai",
+    "one_liner": "Managed data-agents that continuously clean, enrich and monitor CRM data on SMB restaurants and F&B merchants for enterprise sales teams at Toast, Uber Eats and SpotOn.",
+    "industry": "B2B data infrastructure / AI-native CRM data management for restaurant + F&B technology",
+    "stage": "Seed ($1.6M disclosed across 2 rounds, per Crunchbase/Tracxn; company self-describes as \"well-funded, fast-growing, profitable\" in its own JDs); ~17-23 employees, founded 2021-2022",
+    "hq": "Miami, Florida, USA (252 NW 29th St) - distributed team across US, Hungary, South Africa, UK, Switzerland"
+  },
+  "evidence_jobs": [
+    {
+      "title": "Head of Product",
+      "url": "https://jobs.ashbyhq.com/boam/b3831fbb-603a-440f-b79a-ce3dbe9e6387",
+      "live": true,
+      "quote": "As Head of Product, you will be the first product leader at Boam AI and the person who turns customer pull into a focused roadmap and shipped outcomes... The role starts hands-on: you'll operate as an IC, get your hands dirty, and ship."
+    },
+    {
+      "title": "Technical Product Lead",
+      "url": "https://jobs.ashbyhq.com/boam/24d9add1-f943-429b-ac37-5fc7a2c2ffce",
+      "live": true,
+      "quote": "As a Technical Product Lead, you'll be the first product hire and a hands-on driver for end-to-end delivery across our data, engineering, and ML teams."
+    }
+  ],
+  "people_spec": [
+    "CEO & Co-Founder (the JDs state the hire will \"work directly with the CEO\" - he owns the product and engineering problem himself)",
+    "Co-Founder (second founder, commercial/finance side; co-owns the managed-service delivery model)",
+    "NOTE: there is no CTO, VP Engineering or Head of Product at this company - that is the signal. Do not search for one; engineering and product both report to the CEO today."
+  ],
+  "talk_track": "I've spent the last few years moving work that lived in people's hands into AI systems that hold up under real load - platform engineering at PayPal and Ripple, then AI agents running incident response at Tricentis. Your Ashby posting for Head of Product says the hire will be \"the first product leader at Boam AI\" and that \"the role starts hands-on: you'll operate as an IC, get your hands dirty, and ship.\" Open beside it right now: Staff Backend, Senior Backend, Backend, and Security & Backend Engineer. Read together, that isn't a product gap - it's a delivery model where every new enterprise account still costs people, which is why the first product leader has to be an IC. The number that decides how Boam gets valued is cost-to-deliver per account: flat while Toast and Uber Eats volume grows and margin expands; tracking headcount and the next round prices like a service business. Worth knowing either way, even if you never reply. Is cost per account flat or climbing?",
+  "sources": [
+    "https://jobs.ashbyhq.com/boam/b3831fbb-603a-440f-b79a-ce3dbe9e6387",
+    "https://jobs.ashbyhq.com/boam/24d9add1-f943-429b-ac37-5fc7a2c2ffce",
+    "https://jobs.ashbyhq.com/boam/f52d4d9d-e667-47b0-b23a-7084ba5cc1d6",
+    "https://boam.ai/",
+    "https://boam.ai/privacy-policy",
+    "https://www.crunchbase.com/organization/boam",
+    "https://www.cbinsights.com/company/boam",
+    "https://www.cbinsights.com/company/boam/people",
+    "https://tracxn.com/d/companies/boamai/__H3oyJrEJltkk1nXiVc-kbrx5neO43k1lvWSUdc2QTQ0"
+  ]
+}

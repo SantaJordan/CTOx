@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Goliath is a 45-year-old, family-owned, unfunded Netherlands-based physical toy and board-game manufacturer/distributor (HQ Hattem, Gelderland; ~187 employees; offices in 15 countries; $100M-$500M revenue) - not a US-based funded independent PC/console game studio entering full production. Wrong side of the market: its only game-development arm is Goliath Digital Studio, a ~12-person wholly-owned subsidiary in Krakow, Poland making mobile adaptations of its own board-game IPs (Sequence, Triominos), so it is a toy conglomerate's in-house digital unit rather than an independent studio with a publisher relationship or funding tranche at risk. Three of the four matched jobs (Director of Activities, Brand Manager, VP North American Marketing) are toy/CPG brand-marketing roles with zero technical-operations content, and the fourth - 'As our first dedicated QA Specialist, you'll have a unique opportunity to build and shape QA processes from the ground up' - is manual device testing of mobile games at the Polish studio, not build/release, cloud, IT, security or vendor ownership. No live posting redescribes the milestone-confidence pain Ben Cole fixes, and no publisher-fixed milestone or runway dynamic exists at a profitable legacy manufacturer.",
+  "company": {
+    "name": "Goliath (Goliath Games)"
+  }
+}

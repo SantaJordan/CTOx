@@ -1,0 +1,51 @@
+{
+  "verdict": "keep",
+  "reason": "Roofr is the roofing-contractor CRM category Bill Bowers just spent 18 months inside at JobNimbus (its direct competitor), and its live Greenhouse posting 'Engineering Team Lead, AI Platform' opens 'Roofr is at an inflection point with AI, and this role is at the center of it' while asking that hire to 'Navigate a maturing codebase and help drive architectural consistency across domains with varying levels of maturity' — the same AI-inflection-on-uneven-legacy-code moment he ran at JobNimbus one year earlier; caveat recorded honestly: at ~216 employees and $30-40M ARR Roofr sits 2-3x above his self-declared $3M-$15M ARR band and has a full leadership bench (co-founder CTO Kevin Redman, VP Eng John Cartwright), so this is an advisory/transformation sale to sitting leadership, not a CTO-seat fill — though its ~27-person engineering org is exactly the 20-engineer scale his EDP math is built on.",
+  "fit_score": 0.4889,
+  "company": {
+    "name": "Roofr",
+    "domain": "roofr.com",
+    "one_liner": "All-in-one CRM and workflow platform for roofing contractors — aerial roof measurement reports, instant estimates, digital proposals, invoicing, payments, material ordering and job management, serving 12,000+ roofing contractors across North America.",
+    "industry": "Vertical SaaS / construction tech (roofing contractor CRM)",
+    "stage": "Series B (led by TCV with ABC Supply, announced 2025-01-28; $43.87M raised across 9 rounds; ~216 employees, ~$30-40M annual revenue)",
+    "hq": "San Francisco, California, USA (engineering leadership concentrated in Toronto, Canada; remote-first across 11 countries)"
+  },
+  "evidence_jobs": [
+    {
+      "title": "Engineering Team Lead, AI Platform",
+      "url": "https://job-boards.greenhouse.io/roofr/jobs/4699637005",
+      "live": true,
+      "quote": "Navigate a maturing codebase and help drive architectural consistency across domains with varying levels of maturity"
+    },
+    {
+      "title": "Engineering Team Lead, AI Platform",
+      "url": "https://job-boards.greenhouse.io/roofr/jobs/4699637005",
+      "live": true,
+      "quote": "Roofr is at an inflection point with AI, and this role is at the center of it."
+    },
+    {
+      "title": "Senior Backend Engineer, AI Platform",
+      "url": "https://job-boards.greenhouse.io/roofr",
+      "live": true,
+      "quote": "Listed in today's live Greenhouse feed alongside the Team Lead role — Roofr is standing up a whole AI Platform team at once, not running an experiment."
+    }
+  ],
+  "people_spec": [
+    "VP of Engineering (John Cartwright — owns delivery across the engineering org and is the hiring manager this AI Platform lead reports into; primary buyer)",
+    "Co-Founder / CTO (Kevin Redman — owns the 'inflection point with AI' framing and the architectural bet; economic buyer for a transformation engagement)",
+    "SVP of Product Management (Rajiv Jhurani — co-owns the AI roadmap the JD says this lead must 'partner with product and engineering leadership to shape')",
+    "Senior Manager of Engineering / Director, Data Engineering (own the domains with 'varying levels of maturity' that the transformation would actually touch)"
+  ],
+  "talk_track": "I ran the AI-native engineering transformation at JobNimbus through last year — roofing CRM, same contractors you sell to — and we took cycle time from 42 hours to under 20 while automating away manual app releases. Your live posting for an Engineering Team Lead, AI Platform asks that person to 'navigate a maturing codebase and help drive architectural consistency across domains with varying levels of maturity.' The non-obvious part is that those are two different jobs, and the second one decides whether the first ever ships — agent architecture built on domains of uneven maturity inherits the unevenness. The other thing I'd want to know going in: when we built the AI product layer, the bottleneck moved almost immediately off coding, engineers turned into code auditors, and discovery and quality became the constraint instead. No integration pattern fixes that, and it's cheaper to plan for in month one than month nine. Is that team meant to change how you ship, or what you ship?",
+  "sources": [
+    "https://job-boards.greenhouse.io/roofr/jobs/4699637005",
+    "https://job-boards.greenhouse.io/roofr",
+    "https://www.prnewswire.com/news-releases/roofr-raises-series-b-funding-from-tcv-and-abc-supply-to-expand-roofing-crm-302362118.html",
+    "https://roofr.com/blog/roofr-raises-series-b-funding-from-tcv-and-abc-supply-to-expand-roofing-crm",
+    "https://www.digitalcommerce360.com/2025/04/14/roofr-series-b-funding-expand-roofing-software/",
+    "https://www.cbinsights.com/company/roofr/financials",
+    "https://theorg.com/org/roofr/teams/leadership-team-1",
+    "https://theorg.com/org/roofr/org-chart/john-cartwright",
+    "https://www.welcometothejungle.com/en/companies/roofr/jobs/engineering-team-lead-ai-platform_ca_fk2mvwbd"
+  ]
+}

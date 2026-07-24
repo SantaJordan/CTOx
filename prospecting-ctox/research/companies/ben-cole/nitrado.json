@@ -1,0 +1,24 @@
+{
+  "verdict": "drop",
+  "reason": "Nitrado (marbis GmbH) is a German game-server HOSTING vendor, not a funded US independent game studio — it SELLS the managed-infrastructure/DevOps layer (GameFabric, Kubernetes orchestration, DDoS protection, Apex Hosting, Multicraft) that Ben Cole would own inside a studio, putting it on the wrong side of the market; it is also ~120 employees HQ'd in Karlsruhe, Germany (Ben's ICP is US-based PC/console studios of 20-150 entering full production), founded 2001 with no unlaunched game, and the matched DevOps/Frontend/Ruby roles are ordinary product-engineering hires on its Customer Application Development team requiring fluent German, not evidence of senior engineers being pulled off a game to run builds and cloud.",
+  "company": {
+    "name": "Nitrado (marbis GmbH)",
+    "domain": "nitrado.net",
+    "one_liner": "Game server hosting and managed multiplayer infrastructure for studios and players; owns Apex Hosting and Multicraft.",
+    "industry": "Game server hosting / infrastructure (vendor to game studios)",
+    "stage": "Founded 2001; ~120 employees; CB Insights stage 'Acq - Fin'",
+    "hq": "Karlsruhe, Baden-Wurttemberg, Germany"
+  },
+  "disqualifiers": [
+    "Wrong side of the market: sells hosting/ops infrastructure TO studios rather than being a studio that needs a technical-operations owner",
+    "Wrong geography: German HQ, German-language job requirements; Ben's stated ICP is US-based studios",
+    "Wrong situation: 25-year-old profitable hosting business, not a funded studio entering full production on a publisher milestone",
+    "Matched jobs are core product-engineering hires (web apps, Vue/Nuxt frontend, Ruby on Rails backend), not confessions of an unowned ops layer"
+  ],
+  "sources": [
+    "https://server.nitrado.net/company/about-us",
+    "https://www.cbinsights.com/company/nitrado",
+    "https://server.nitrado.net/en-GB/legal/legal-information",
+    "https://nitrado.jobs.personio.de/job/2489412?language=en"
+  ]
+}

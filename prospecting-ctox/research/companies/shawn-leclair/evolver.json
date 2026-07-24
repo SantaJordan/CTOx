@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Evolver (evolver.ai) is a greenfield enterprise-GenAI startup founded in 2024 in Palo Alto (~55 employees, +126% YoY) with a sitting full-time founder-CTO — Luis Vargas, PhD, former VP of AI at Microsoft — alongside a former EY Global CTO as CEO and multiple Chief Product Officers, so there is no fractional-CTO vacuum and no inherited SQL Server/SSIS-era legacy platform to stabilize; the four matched postings (Managing Director - Procurement, Forward Deployed Engineer, Recruiter, Executive Assistant & Office Manager) are ordinary scale-up hiring, and neither they nor the full live list (GenAI Engineer, Applied Research Scientist, Senior Python Developer, Senior Enterprise System Integrator) contains a single line confessing bus-factor-1 on a revenue-critical legacy system with calendar-fixed contracted deliverables — no quotable line exists, and the company is on the wrong side of Shawn Leclair's market (a net-new AI vendor selling automation to professional-services firms, not a data-heavy SMB drowning in an acquired legacy stack).",
+  "company": {
+    "name": "Evolver"
+  }
+}

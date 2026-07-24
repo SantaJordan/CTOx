@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "PUBG Madison (legal entity PUBG Madglory, LLC) is a wholly-owned studio of KRAFTON, Inc. — a KOSPI-listed public company (ticker 259960, ~10.1T KRW market cap, 3.82T KRW TTM revenue, ~2,100 employees) — so it is not the funded INDEPENDENT studio Ben's niche requires, and its technical-operations layer (KRAFTON's careers taxonomy carries a corporate 'Job Category - IT Infra') is owned by the parent, not the studio; separately, no quotable line exists because the fresh full job list is entirely creative/marketing (Animator, Concept Artist, 3D Character Artist, 3D Environment Artist, Product Marketing Manager, Publishing Producer) with zero DevOps, build, release, cloud, IT, security, or platform roles — the four 'matched' jobs scored only on the shared boilerplate studio-intro paragraph that is copy-pasted into every posting, not on any ops-pain lexicon.",
+  "company": {
+    "name": "PUBG Madison (PUBG Madglory, LLC)"
+  }
+}

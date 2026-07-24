@@ -1,0 +1,17 @@
+{
+  "verdict": "drop",
+  "reason": "Mirai is a wholly-owned subsidiary of Scopely (itself acquired by PIF-owned Savvy Games Group for $4.9B in 2023) and describes itself in its own live Workable posting as 'a video game support studio based in Riyadh, Saudi Arabia' whose leadership reports into Scopely's global engineering org — it fails Ben Cole's niche on four independent counts: not an independent studio (subsidiary of a mega-cap parent, an explicit drop rule), not US-based (Riyadh, on-site), not PC/console (Scopely is mobile-first, and Mirai is a support/service arm rather than a studio entering full production on its own funded title), and not lacking technical-operations ownership (it is directly hiring FTE Site Reliability Engineer - Observability, Senior AI Engineer, and a Director of AI reporting to the CEO, i.e. it is building the ops layer in-house with sovereign-fund capital rather than needing a fractional owner for it); the matched jobs in the pack (QA Lead, Junior FP&A Analyst, Arabic Community Manager for MENA) are generic growth hiring, not confessions of the unowned-ops pain Ben fixes.",
+  "company": {
+    "name": "Mirai, a Scopely company (Mirai Arabian International Company Limited)"
+  },
+  "sources": [
+    "https://www.playmirai.com/",
+    "https://apply.workable.com/playmirai/j/39459186C8",
+    "https://miraigaming.com/about-us/",
+    "https://www.gamesindustry.biz/scopely-opens-new-studio-in-saudi-arabia-led-by-ea-veteran",
+    "https://www.zawya.com/en/press-release/people-in-the-news/charity-joy-appointed-to-lead-mirai-a-scopely-company-in-riyadh-mos2k37f",
+    "https://www.pif.gov.sa/en/news-and-insights/newswire/2023/savvy-games-group-completes-acquisition-of-scopely-for-fourty-nine-billion/",
+    "https://www.pocketgamer.biz/monopoly-go-developer-scopely-opens-new-studio-in-saudi-arabia/",
+    "https://builtin.com/company/mirai-scopely-company"
+  ]
+}

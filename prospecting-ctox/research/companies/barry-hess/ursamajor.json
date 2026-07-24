@@ -1,0 +1,19 @@
+{
+  "verdict": "drop",
+  "reason": "Ursa Major is a Series E rocket-propulsion manufacturer with ~308 employees and $442.7M raised (Nov 2025 Series E of $100M + $50M debt; $115M in 2025 bookings) — vastly too large and too late-stage for a fractional CTO engagement aimed at 8-30 person Series A/B startups, and it is a propulsion hardware/energetics business rather than the AI/ML, geospatial or sensor software niche Barry Hess serves; the matched postings (Senior Contracts Manager, Buyer II, Propulsion Systems Engineer II, Development Technician - Energetics) are scale-up manufacturing and procurement hires, and the Contracts Manager JD explicitly reports to a General Counsel and describes maturing an existing contracts function, which is the opposite of a company missing cleared senior technical leadership. No quotable line redescribes the lab-to-field transition stall he fixes.",
+  "company": {
+    "name": "Ursa Major Technologies, Inc.",
+    "domain": "ursamajor.com",
+    "one_liner": "Berthoud, CO manufacturer of liquid rocket engines and solid rocket motors for hypersonics, missile defense, space launch and in-space mobility.",
+    "industry": "aerospace-defense (propulsion manufacturing)",
+    "stage": "Series E, ~308 employees, $442.7M total raised",
+    "hq": "Berthoud, Colorado, USA"
+  },
+  "sources": [
+    "https://ursamajor.com/media/press-release/ursa-major-raises-100-million-closes-series-e/",
+    "https://spacenews.com/ursa-major-secures-100-million-in-new-capital-as-it-leans-hard-into-defense-work/",
+    "https://www.cbinsights.com/company/ursa-major-technologies",
+    "https://en.wikipedia.org/wiki/Ursa_Major_Technologies",
+    "https://ursamajor.com/careers/?gh_jid=4708193005"
+  ]
+}

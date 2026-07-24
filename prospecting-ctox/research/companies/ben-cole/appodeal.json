@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Appodeal is a ~300-person, 10-year-old mobile ad-tech/monetization mediation vendor (Series A, $11.1M raised 8 years ago, SF/McLean HQ with Warsaw/Barcelona/Parkland offices) — wrong side of the market and wrong vertical for Ben Cole, who serves US funded PC/console game studios of 20-150 entering full production; Appodeal SELLS monetization tooling to game developers and its only games exposure is a casual/hybrid-casual MOBILE publishing division, so there is no publisher-fixed production milestone for an ops layer to protect. The four matched jobs (part-time QA engineer, Head of Publishing, two Independent Board Director seats) are adtech/platform and governance roles whose JD text is entirely boilerplate 'Why Appodeal' culture copy — no quotable line confesses senior engineers or a Tech Director drowning in builds, access, cloud, vendors or release fire drills. The one superficially close listing, 'Senior Technical Operations Engineer (part-time),' is a hands-on IC contractor req, which Ben's own NOT-list explicitly rules out ('I am not a hands-on DevOps contractor'). Company is also too mature and too large for a fractional technical-operations engagement, and is hiring a Chief Data Science Officer and board directors rather than an ops owner.",
+  "company": {
+    "name": "Appodeal"
+  }
+}

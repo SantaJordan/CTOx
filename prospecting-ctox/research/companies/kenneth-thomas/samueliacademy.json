@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Generic 'they hire teachers' match: the only postings found (Design Teacher, Science Teacher, Math Specialist, Art & Design Teacher, Student Development Coordinator) are instructional roles whose sole tech language is classroom pedagogy ('1:1 Chromebook program', 'advanced technology skills in the classroom') — no live posting redescribes the board-level cybersecurity/AI/vendor-governance pain Kenneth Thomas fixes, so there is no quotable line. Compounding strikes: Samueli Academy is a tuition-FREE public charter (~820 students, 53 staff) founded and back-officed by Orangewood Foundation — its CFO and Chief People & Culture Officer both use @orangewoodfoundation.org addresses, so technology/vendor decisions sit with the parent foundation rather than an independent school board; the tuition-attrition EDP ($10-30k/student) does not apply; and admissions confirms all grades 7-12 are full with a waiting list for both 2025-26 and 2026-27, so the 'enrollment growing, outgrew reactive outsourced IT' situation is absent. The school also already staffs an in-house IT Help Desk.",
+  "company": {
+    "name": "Samueli Academy"
+  }
+}

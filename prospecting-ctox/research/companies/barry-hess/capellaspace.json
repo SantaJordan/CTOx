@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Capella Space is not an independent Series A/B startup — it is a wholly-owned subsidiary of IonQ (NYSE: IONQ), acquisition completed 2025-07-15, and every matched JD leads with 'Capella, an IonQ company'; a public quantum-computing parent with in-house engineering leadership is far outside Barry Hess's 8-30-person Series A/B fractional-CTO ICP, and the four matched roles (Satellite Operations, Senior Staff RF Test, Staff Manufacturing, Staff ADCS/GNC) are routine spacecraft-hardware hiring with no quotable line describing a lab-to-field transition stall or missing cleared technical leadership.",
+  "company": {
+    "name": "Capella Space"
+  }
+}

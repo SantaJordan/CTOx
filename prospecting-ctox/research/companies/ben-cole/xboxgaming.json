@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "The 'xboxgaming' Workday tenant is Microsoft Gaming / Activision Blizzard King, not an independent studio — the matched reqs belong to Infinity Ward (Activision-owned, 420-648 staff, Woodland Hills), Elsewhere Entertainment (an 'all-new internal studio' Activision formed in Warsaw, per Activision's own 2024-05-16 announcement), and Activision's 'Central Technology' org; all sit under a public mega-cap parent, blowing past Ben's US-based 20-150-person funded-independent-studio ICP on ownership, size, and geography, and the IT Manager JD describes the opposite of his pain — it exists to 'partner closely with centralized corporate IT teams to support and implement enterprise systems, standards, and infrastructure initiatives at the studio level,' i.e. the centralized technical-operations layer Ben is hired to build from zero already exists here, and the Senior Technical Product Manager req confirms it ('the Central Technology team, which serves as a strategic partner for game development studios in the areas of online services, engine tools, graphics, systems engineering, security, and infrastructure'); the remaining two matches are narrative Tools Engineer and Game UX Technical Designer, both creative/engine technology that Ben's own NOT-list explicitly excludes.",
+  "company": {
+    "name": "Microsoft Gaming / Activision Blizzard King (Xbox Gaming Workday tenant — Infinity Ward, Elsewhere Entertainment, Central Technology)"
+  }
+}

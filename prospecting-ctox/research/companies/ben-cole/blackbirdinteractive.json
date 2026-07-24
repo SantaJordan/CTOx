@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Wrong geography, wrong size, and no ops confession: Blackbird is a Vancouver, BC studio whose live postings state 'we are only able to hire candidates who are legally eligible to work in Canada and reside within Canada' (Ben's ICP is US-based studios), it is 150-330 staff founded in 2007 with a sitting co-founder CTO (Yossarian King) plus CEO/President/COO, it runs a large work-for-hire/co-dev and external-development business (a dev shop selling technical services, not a funded studio missing an ops owner), and every one of its ~14 live roles is Art, Design, Production, Programming, or Finance with zero DevOps/build-release/IT/security/cloud hiring - the two matched jobs are Technical Animator and Senior Audio Designer, pure creative craft roles, and the only ops-sounding title, 'Mid-level / Senior Platform Engineer (Porting / Co-dev),' is console engine programming (memory allocators, async file I/O, job systems on PS5/Xbox/Switch 2) sold into co-dev clients, so no quotable line redescribes the pain Ben fixes.",
+  "company": {
+    "name": "Blackbird Interactive"
+  }
+}

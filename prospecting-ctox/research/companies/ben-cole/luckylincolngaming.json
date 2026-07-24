@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Wrong vertical — a keyword false positive on \"gaming\": Lucky Lincoln Gaming is a licensed Illinois Video Gaming Terminal Operator (slot machines placed in bars, truck stops and liquor stores, $110M+ revenue, ~1,450 VGTs across 240+ locations, per luckylincoln.com), not a funded PC/console game studio entering full production; the four matched postings are a field slot-machine repair tech, a territory District Manager owning 20+ gambling locations, a VP of Field Revenue and Operations, and a Staff Software Engineer building back-office finance software for the affiliated shared-services entity Vast — none of them evidence a Tech Director or senior engineers pulled off a game onto builds, cloud, release and vendor operations, and there is no game, no Steam page, no publisher relationship and no Unreal/Unity build pipeline anywhere in the company.",
+  "company": {
+    "name": "Lucky Lincoln Gaming, LLC"
+  }
+}

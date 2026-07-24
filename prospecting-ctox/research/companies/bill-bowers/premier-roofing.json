@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Wrong side of the market plus no engineering signal: Premier Roofing Company is a PE-backed residential roofing CONTRACTOR (founded 2005, Denver CO, ~200 employees / ~161 headcount, ~$120M revenue, 12-14 branches, storm-restoration re-roofing and insurance-claim assistance) — i.e. a BUYER of roofing/exterior trades software like JobNimbus and Xactimate, not a vertical-SaaS vendor building it, which is Bill Bowers' entire niche ($3M-$15M ARR mobile-heavy field-service SaaS). All four matched postings are uncapped-commission door-to-door sales roles (In-Field Sales Training Manager, 3x Sales Representative) whose JDs describe six-figure commission earnings and storm-restoration sales, with zero reference to engineering delivery, release cadence, cycle time, mobile codebases, or a product org — so there is no quotable line redescribing the stalled-delivery pain Bill fixes; the pack's match is a vertical-keyword artifact ('roofing', 'insurance claims') rather than evidence of the problem.",
+  "company": {
+    "name": "Premier Roofing Company"
+  }
+}

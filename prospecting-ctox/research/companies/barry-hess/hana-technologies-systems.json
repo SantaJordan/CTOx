@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Hana Technologies & Systems is a physical security guard-force services contractor (NAICS 561612 'Security Guards and Patrol Services', PSC S206 'Housekeeping- Guard'; NIEHS contract 75N96024C00001 for 'Niehs Armed Security Protection And Patrol Services'), not a Series A/B defense tech startup building AI/ML, geospatial or sensor products — every matched job is guard labor (Armed Security Officer, Security Watch Stander, Security Contract Manager) whose 'jd_lexicon' hit was a false positive on words like 'Department of Defense', 'security' and 'clearance'; it is also on the wrong side of the market (a labor-hours services firm that staffs government facilities, not a product company with a prototype stuck between demo and fielding) and is a child of parent awardee Hana Industries, an NHO-owned 8(a) facilities/base-operations holding with an SBA Mentor/Protege relationship with EMCOR — so there is no valley-of-death transition pain, no product architecture, and no quotable line redescribing what Barry Hess fixes.",
+  "company": {
+    "name": "Hana Technologies & Systems, Inc."
+  }
+}

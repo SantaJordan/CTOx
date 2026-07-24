@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Davy Group is a ~900-person, five-office Irish wealth-management and investment-banking firm that has been a wholly-owned subsidiary of Bank of Ireland Group plc since the 2022 completion of a EUR 440m acquisition (davy.ie/about-us; davy.ie/davy-update.html; 2024 Summary Financial Statement) — it fails the fractional-engagement size test and the 'subsidiary of a public parent' rule, it is Dublin-based rather than a US SMB, and its four matched postings (Senior Data Engineer, Internal Audit Associate Director, Data Quality Senior Analyst, Senior React Developer) are routine staffing inside an existing Information Systems department and Data & Analytics team, with no line in any JD evidencing a bus-factor-1 legacy SQL Server platform held together by one or two people.",
+  "company": {
+    "name": "Davy Group (J & E Davy Holdings Unlimited Company)"
+  }
+}

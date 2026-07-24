@@ -1,0 +1,53 @@
+{
+  "verdict": "keep",
+  "reason": "A 42-person, $14M-seed \"AI-native\" fund-admin platform whose live Fund Controller posting asks the hire to \"translate accounting standards and edge cases into scalable systems\" while today's board carries eight-plus fund-accounting/ops hires against a single Ruby on Rails engineer — cost-to-deliver still scaling one-for-one with accounts, which is exactly the services-to-product transition and EDP Daniel sells.",
+  "fit_score": 0.3354,
+  "company": {
+    "name": "Decile Group",
+    "domain": "decilegroup.com",
+    "one_liner": "Integrated platform for emerging VC managers spanning the VC Lab accelerator, the Decile Hub fund-management software, and Decile Partners fund administration — marketed as agentic/AI-native fund admin.",
+    "industry": "Fintech / VC fund administration and fund-operations software",
+    "stage": "Seed — $14M total funding across 3 rounds, latest $14.0M seed 2025-08-11 led by Geek Ventures and Draper Associates; ~42 employees (+168% YoY); founded 2023",
+    "hq": "San Francisco, CA (postings list Palo Alto / Silicon Valley; company is 100% remote across 10+ countries)"
+  },
+  "evidence_jobs": [
+    {
+      "title": "Fund Controller (Remote)",
+      "url": "https://jobs.lever.co/decilegroup/b1dc9811-2db7-4291-a58d-de4b5f73f674",
+      "live": true,
+      "quote": "The Fund Controller also partners with Product and Engineering teams to help translate accounting standards and edge cases into scalable systems"
+    },
+    {
+      "title": "Sales, Fund Solutions",
+      "url": "https://jobs.lever.co/decilegroup/b3a06c73-e810-4d5f-afb2-a019bd855cd3",
+      "live": true,
+      "quote": "AI handles the heavy lifting. Ultra-senior staff on every account."
+    },
+    {
+      "title": "Ruby on Rails Engineer w/ front-end skills (Remote)",
+      "url": "https://jobs.lever.co/decilegroup/3a1e9b3d-37b0-47d8-a40e-4ea5ac16d06c",
+      "live": true,
+      "quote": "The ideal dev is self-motivated with real-world experience and there is no question in your mind that you could take an idea and turn it into a functional and beautiful product."
+    }
+  ],
+  "people_spec": [
+    "Chief Executive Officer (Adeo Ressi) — owns the gross-margin/cost-to-serve consequence and the services-to-product thesis; primary buyer at 42 people",
+    "Head of Product and Technology (Travis Giggy) — the closest thing to an engineering leader; there is no CTO or VP of Engineering at this company, so this title owns the platform roadmap and the one-engineer-per-eight-ops-hires ratio",
+    "Head of Operations — currently held and simultaneously re-posted as 'Head of Operations (Remote)'; owns the human delivery layer whose headcount is the problem",
+    "VP of Finance (Remote) / Acting CFO — open and interim respectively; owns the cost-to-deliver number itself",
+    "Note: no CTO, VP Engineering, or Head of Platform exists or is being hired — do not look for one"
+  ],
+  "talk_track": "I work on one transition: businesses that proved demand with a high-touch, human-delivered offer and now need that work to live in systems instead of in people. I ran platform engineering at PayPal and Ripple, and at Tricentis I put AI agents into production for incident detection and root-cause analysis. Your Fund Controller posting says the role \"partners with Product and Engineering teams to help translate accounting standards and edge cases into scalable systems,\" and the Sales, Fund Solutions posting sells \"AI handles the heavy lifting. Ultra-senior staff on every account.\" Set those against the rest of your Lever board today — Fund Accountant, Senior Fund Accountant, Fund Controller, Legal Operations Associate, Deals Associate, Head of Operations — next to one Ruby on Rails engineer. The non-obvious read is that the agentic layer is real at the front end, but the accounting judgment that sets cost-to-serve is still being hired one person at a time, so each new fund adds cost about as fast as it adds revenue. That ratio, not the pipeline, is what decides whether gross margin expands as you scale past 150 partner firms. Where does that edge-case judgment live today — product, or people? — Daniel Kirichanski, Prime Path Global",
+  "sources": [
+    "https://decilegroup.com/",
+    "https://decilegroup.com/jobs",
+    "https://decilegroup.com/decile-partners",
+    "https://decilegroup.com/decile-hub",
+    "https://jobs.lever.co/decilegroup",
+    "https://jobs.lever.co/decilegroup/b1dc9811-2db7-4291-a58d-de4b5f73f674",
+    "https://jobs.lever.co/decilegroup/b3a06c73-e810-4d5f-afb2-a019bd855cd3",
+    "https://jobs.lever.co/decilegroup/3a1e9b3d-37b0-47d8-a40e-4ea5ac16d06c",
+    "https://jobs.lever.co/decilegroup/dfd5bb9d-42c9-4215-9ee4-2c97ce243cb5",
+    "https://jobs.lever.co/decilegroup/b689fd7b-9163-4163-b8b7-90a212297fea"
+  ]
+}

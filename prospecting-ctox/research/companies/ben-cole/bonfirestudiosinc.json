@@ -1,0 +1,46 @@
+{
+  "verdict": "keep",
+  "reason": "Independent 85-person Irvine studio running Arkheron's first cross-platform closed beta (PC + Xbox, July 15-27 2026) with zero DevOps/build/IT/security roles on its live board — instead its $263,750-$320,000 Principal/Lead Systems Engineer posting bundles \"optimizing iteration pipelines\" in with netcode and rendering, and its Internal Tools PM posting warns candidates off if \"you want lots of process and structure already in place.\"",
+  "fit_score": 8.2,
+  "company": {
+    "name": "Bonfire Studios, Inc.",
+    "domain": "bonfirestudios.com",
+    "one_liner": "Independent game studio founded in 2016 by ex-Blizzard CCO Rob Pardo, building its first original IP Arkheron — a cross-platform competitive 3v3 PvP title now in closed beta on PC and Xbox.",
+    "industry": "Video games (PC/console, competitive multiplayer live-service)",
+    "stage": "Private and independent; $25M disclosed across 2 rounds from Andreessen Horowitz and Riot Games (plus angel investment from then-Unity CEO John Riccitiello); ~85 employees, +20.5% YoY headcount; first title in closed beta, unlaunched",
+    "hq": "Irvine, California, United States (hybrid; staff also in Canada and New Zealand)"
+  },
+  "evidence_jobs": [
+    {
+      "title": "Systems Engineer (Principal/Lead)",
+      "url": "https://job-boards.greenhouse.io/bonfirestudiosinc/jobs/4178767009",
+      "live": true,
+      "quote": "Tackling high-impact projects such as optimizing iteration pipelines, building live-editable profiling systems, and enhancing runtime systems like rendering, streaming, and netcode."
+    },
+    {
+      "title": "Product Manager, Internal Tools & Player Insights",
+      "url": "https://job-boards.greenhouse.io/bonfirestudiosinc/jobs/4075212009",
+      "live": true,
+      "quote": "THIS MIGHT NOT BE THE ROLE FOR YOU IF: You want lots of process and structure already in place."
+    }
+  ],
+  "people_spec": [
+    "Chief Executive Officer",
+    "Chief Operating Officer",
+    "Studio Head / General Manager",
+    "Head of Studio Operations",
+    "VP of Engineering",
+    "Technical Director (affected leader, not the buyer)"
+  ],
+  "talk_track": "I spent two years building the shared technical-operations layer under four Prytania Media studios — DevOps, build/release, IT, security, vendors — so the Tech Directors never had to touch it. Your live Systems Engineer (Principal/Lead) posting lists \"optimizing iteration pipelines\" next to netcode and rendering, at a $263,750-$320,000 base, and your Internal Tools PM posting tells candidates it may not be the role if \"you want lots of process and structure already in place.\" Read together in the same week Arkheron's closed beta is running as a technical test across PC and Xbox, those two postings say the operational foundation is being spread across your most expensive engineering hires instead of being owned. At Prytania I found a tech director running builds out of zip files; putting one owner on that pipeline landed the prototype milestone six weeks early, ahead of investor demos. That layer is cheap to own on purpose and expensive to own by accident. Who owns builds, cloud, and access at Bonfire today?",
+  "sources": [
+    "https://job-boards.greenhouse.io/bonfirestudiosinc/jobs/4178767009",
+    "https://job-boards.greenhouse.io/bonfirestudiosinc/jobs/4075212009",
+    "https://en.wikipedia.org/wiki/Bonfire_Studios",
+    "https://gamesbeat.com/bonfire-studios-announces-debut-game-arkheron-after-8-years/",
+    "https://www.gamesindustry.biz/rob-pardo-announces-new-developer-bonfire-studios",
+    "https://www.ocregister.com/2016/09/13/ex-blizzard-exec-rob-pardo-launches-gaming-studio-in-irvine/",
+    "https://news.xbox.com/en-us/2026/07/22/enter-the-tower-arkheron-closed-beta-is-live-for-xbox-insiders/",
+    "https://gamesbeat.com/bonfire-studios-announces-closed-beta-details-for-arkheron/"
+  ]
+}

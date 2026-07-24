@@ -1,0 +1,24 @@
+{
+  "verdict": "drop",
+  "reason": "Togetherwork is a $250M-recurring-revenue, GI Partners/Park Square-backed PE roll-up (33 apps, 12+ verticals, ~700 employees per PitchBook) serving camps, pet care, studios, nonprofits and associations — roughly 17-80x above Bill's self-declared $3M-$15M ARR band, in the wrong vertical (not property trades / insurance claims estimation / roofing-exterior contractors), and it already seats a full technical bench that owns the modernization mandate: CTO Craig E Conway (since Mar 2025), VP Software Engineering & Enterprise Architecture Vidura Burma (6 verticals, explicit 'modernization' remit), VP Software Engineering Aaron Bullard, plus VP Product Development Bharat Vadlapatla — so there is no fractional-CTO seat here; separately, liveness could not be certified (pack ships no fresh careers feed, all four matched jobs are live=None off a 2026-06-16/06-23 snapshot, and the only Exa-reachable Togetherwork jobs page is an archive), so the keep rule's live-posting quote requirement also fails.",
+  "company": {
+    "name": "Togetherwork",
+    "domain": "togetherwork.com",
+    "one_liner": "PE-backed roll-up of 33+ vertical SaaS and payments applications for member-based communities — associations, camps, pet care and studios, youth programs, nonprofits.",
+    "industry": "Vertical SaaS / integrated payments (community and member management)",
+    "stage": "PE-backed roll-up, ~$250M recurring revenue (self-stated in JDs); GI Partners sole investor since Mar 2018, Park Square Capital minority Jul 2024",
+    "hq": "Austin, TX (1221 S. Congress Ave; relocated from Atlanta, Jan 2026)"
+  },
+  "near_miss_note": "The pain language is genuinely on-niche — the Sr. Software Engineer Frontend JD reads 'incrementally modernize the user interfaces of 20+ SaaS products across a polyglot stack while keeping everything running for customers. Not prototyping - replacing live, production legacy UIs,' and the Senior Product Content Engineer JD describes 'building an AI-first content and digital adoption function where AI is the primary production method, not an accelerator, but the engine.' That maps cleanly onto Bill's legacy-modernization-without-stopping-delivery and AI-native-SDLC angles. It does not rescue the fit: the company is an order of magnitude too large for a fractional engagement, is in the wrong vertical, is already executing its own AI-first program under a seated CTO and two engineering VPs, and neither line could be confirmed live today.",
+  "sources": [
+    "https://www.prnewswire.com/news-releases/togetherwork-to-accelerate-growth-with-strategic-investment-from-park-square-capital-and-continued-support-from-gi-partners-302186669.html",
+    "https://www.gipartners.com/private-equity/portfolio/togetherwork",
+    "https://pitchbook.com/profiles/company/168368-86",
+    "https://www.statesman.com/business/technology/article/togetherwork-austin-hq-hiring-21257019.php",
+    "https://www.togetherwork.com/vertical-solutions/nonprofit/",
+    "https://togetherwork.com/",
+    "https://theorg.com/org/togetherwork/org-chart/craig-e-conway",
+    "https://www.togetherwork.com/jobs/togetherwork/",
+    "https://www.dialectica.io/origin/company/togetherwork"
+  ]
+}

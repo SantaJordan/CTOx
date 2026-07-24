@@ -1,7 +1,0 @@
-{
-  "verdict": "drop",
-  "reason": "Lightdash is an open-source BI/analytics startup (dbt-based), not a defense or intelligence technology company; its Head of Engineering posting explicitly partners with an existing CTO, so there is no technical-leadership gap and no DoD lab-to-field transition pain matching Barry Hess's niche.",
-  "company": {
-    "name": "Lightdash"
-  }
-}

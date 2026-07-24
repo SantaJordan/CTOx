@@ -1,0 +1,29 @@
+{
+  "verdict": "drop",
+  "reason": "Reach Game Studios Pty. Ltd. is a Sydney, Australia studio (not US-based, per its own Trakstar careers page listing all 6 openings as 'Sydney, New South Wales, Australia Contract | Partially remote'), and it is effectively dormant rather than a funded studio entering full production: founded 2013, GLORY was targeted at FY2016/17 and never shipped, RocketReach lists ~1 employee, and the same rev-share/contract postings have been recycled since a 2015 Polycount thread filed under 'Royalties or Post-Launch Compensation Work' through a 2025 Outscal repost; the four matched jobs (web developer, UE4 gameplay programmer, concept artist, executive producer) contain no build/release, DevOps, cloud, IT or security confession that redescribes the pain Ben Cole fixes.",
+  "company": {
+    "name": "Reach Game Studios Pty. Ltd."
+  },
+  "drop_details": {
+    "domain": "reachgamestudios.com",
+    "hq": "Kogarah, Sydney, New South Wales, Australia",
+    "one_liner": "Small Sydney game developer that announced GLORY, an Unreal Engine 4 open-world FPS RPG, in 2015-16; the title was never released.",
+    "disqualifiers": [
+      "wrong geography: Ben's stated ICP is US-based PC/console studios; every posting is Sydney, Australia",
+      "wrong stage/size: ~1 employee per RocketReach, no evidence of publisher deal or recent funding, far below the 20-150 headcount band",
+      "not entering full production: GLORY targeted FY2017, never shipped; postings recycled since 2015 on deferred/royalty compensation",
+      "no ops-layer hiring signal: matched roles are web dev, gameplay programmer, concept artist, executive producer"
+    ],
+    "closest_line_considered": "Implementing feature sets as required by a range of departments, particularly working with dev ops and live ops teams to ensure operation continuity.",
+    "why_that_line_fails": "It is a single passing mention inside a web-developer JD that presumes DevOps and LiveOps teams already exist; it is not a confession that the ops layer is unowned, and it sits on a stale posting from a studio that is not in production."
+  },
+  "sources": [
+    "https://reachgamestudios.hire.trakstar.com/",
+    "https://rocketreach.co/reach-game-studios-profile_b5b5c7e4f60a520f",
+    "https://www.indiedb.com/company/reach-studios",
+    "https://polycount.com/discussion/152800/glory%C2%99-fps-rpg-vacancies-thread",
+    "https://outscal.com/job/concept-artist-at-reach-games-studios-in-worldwide-1",
+    "https://www.pcgamesn.com/glory/making-it-in-unreal-what-can-first-person-rpg-glory-do-better-than-bethesda",
+    "https://www.ausgamers.com/news/read/3542307/ambitious-new-aussie-developed-fps-rpg-glory-open-for-pre-orders"
+  ]
+}

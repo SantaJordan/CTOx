@@ -1,7 +1,0 @@
-{
-  "verdict": "drop",
-  "reason": "Cape is a Series C privacy-first mobile carrier (telecom, not connected hardware or medical devices) scaling a permanent in-house org — hiring a full-time VP of Engineering plus iOS/Android/platform/infra engineers; no companion-app-as-hardware-bottleneck pain exists here and no fresh posting contains a quotable line redescribing David Sowsy's EDP, so it is both the wrong industry and too large/funded for a fractional CTO.",
-  "company": {
-    "name": "Cape"
-  }
-}

@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Wrong side of the market and wrong stage: ALST is a 1987-founded electro-optical laser rangefinder/designator manufacturer (formerly L-3 Warrior Systems) that is now a business unit of Intelligent Manufacturing Solutions, a ~75-person PCBA contract manufacturer acquired outright by publicly traded Perimeter Solutions (NYSE: PRM) on 2024-12-24 — not an independent 8-30 person Series A/B defense tech startup, and Barry's lab-to-field procurement-readiness offer does not apply to a subsidiary with a public parent's balance sheet. The hiring signal is also the wrong pain: every matched posting (Lead Project Engineering, Electromechanical Manufacturing Engineering Lead, Test Engineer, Principal Business Development) is production-line and OEM-transition manufacturing work — 'transitioning incoming production lines from OEM's' — i.e. sustaining acquired legacy hardware product lines, which is the opposite of a startup prototype stalled in the valley of death, and no posting describes missing cleared technical leadership or a stalled fielding transition.",
+  "company": {
+    "name": "Advanced Laser Systems Technology (ALST) / Intelligent Manufacturing Solutions"
+  }
+}

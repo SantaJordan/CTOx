@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Significance Inc. is a ~118-150 person EDWOSB federal professional-services/consulting contractor (~$23.3M rev, founded 2014, Annapolis MD) that sells financial management, audit remediation, ERP and program-management staff to DoD/DoE agencies — it is on the wrong side of Barry Hess's market (a government services body-shop and KBI-style peer/competitor, not a Series A/B 8-30 person defense tech startup with a product stuck between prototype and fielding), it is far too large for a fractional CTO engagement, and every matched posting (DIA Technical Program Manager, IT Audit Analyst, DIA Real Property Accountable Officer, DoD Skillbridge recruiting internship) is contingent-on-award billet staffing or recruiting headcount rather than evidence of a lab-to-field transition stall; the full live job list (Travel Systems Analyst, Navy ERP SME, Junior Recruiter, Proposal Manager, Management Analyst I) confirms staffing-firm behavior, and no live posting contains a line redescribing the valley-of-death pain he fixes.",
+  "company": {
+    "name": "Significance Inc."
+  }
+}

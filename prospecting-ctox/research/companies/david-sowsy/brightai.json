@@ -1,0 +1,48 @@
+{
+  "verdict": "keep",
+  "reason": "BrightAI's live Staff Product Manager req scopes the hire to \"product initiatives, including mobile applications and web-based products\" for connected IoT hardware, yet none of the ~14 roles on today's Greenhouse feed is a mobile engineer — product ownership for the companion app without mobile engineering behind it is exactly the bottleneck Sowsy has run at a 5M+ customer connected-appliance fleet.",
+  "fit_score": 0.4173,
+  "company": {
+    "name": "BrightAI Corporation",
+    "domain": "bright.ai",
+    "one_liner": "Physical AI platform (\"Stateful OS\") combining edge AI sensors, autonomous drones/robots and workforce wearables so operators of power grids, water pipelines, oil & gas and HVAC infrastructure can predict failures before they break.",
+    "industry": "Physical AI / industrial IoT hardware for critical infrastructure",
+    "stage": "Series A — $51M led by Khosla Ventures and Inspired Capital (2025-07-18), $66.2M raised total; reports 250,000+ AI endpoints deployed across 50,000+ locations",
+    "hq": "Palo Alto, California (roles also posted San Francisco Bay Area)"
+  },
+  "evidence_jobs": [
+    {
+      "title": "Staff Product Manager",
+      "url": "https://job-boards.greenhouse.io/brightai/jobs/5996628004",
+      "live": true,
+      "quote": "You will work on product initiatives, including mobile applications and web-based products to deliver complete, end-to-end solutions for our customers."
+    },
+    {
+      "title": "Staff Embedded Software Engineer",
+      "url": "https://job-boards.greenhouse.io/brightai/jobs/5556883004",
+      "live": true,
+      "quote": "Support and maintain an existing Yocto-based embedded Linux distribution used in production devices."
+    }
+  ],
+  "people_spec": [
+    "Chief Technology Officer (Kiran Bharwani) — owns engineering; the app has no named engineering owner, so this seat absorbs the gap",
+    "VP of Products (Mark Jaremko) — the Staff Product Manager req reports into product; he is the one scoping mobile applications with no mobile engineers being hired",
+    "Founder & CEO (Alex Hawkinson) — ex-SmartThings founder, Series A company, still close enough to platform decisions",
+    "Note: there is no VP/Director/Head of Mobile Engineering on the public leadership page or anywhere in the current job feed — that absence IS the opening, so do not go looking for one"
+  ],
+  "talk_track": "I spent last year running the mobile team behind SharkClean — 5M+ connected-appliance customers, nine App Store field releases, and the post-release crash hypercare that keeps a hardware product activating. Your Staff Product Manager req in Palo Alto asks that person to \"work on product initiatives, including mobile applications and web-based products to deliver complete, end-to-end solutions for our customers.\" Across every role on your Greenhouse board today — cloud architect, embedded Linux, robotics, MLOps, hardware, SDET, time-series AI — not one is a mobile engineer. Here is the pattern I have watched play out at three connected-hardware companies: the companion app quietly becomes the last mile the whole hardware roadmap depends on, and it gets product ownership before it gets engineering ownership, so Google Play target-API deadlines and BLE pairing bugs land on whoever happens to be nearest. That matters more for you than most, because a technician wearable or sensor that needs an app to pair does not become a product until the app ships. Worth naming who owns that app today?\n\n— David Sowsy",
+  "sources": [
+    "https://job-boards.greenhouse.io/brightai/jobs/5996628004",
+    "https://job-boards.greenhouse.io/brightai/jobs/5556883004",
+    "https://job-boards.greenhouse.io/brightai/jobs/5616545004",
+    "https://bright.ai/",
+    "https://bright.ai/stateful-os/",
+    "https://bright.ai/workforce-wearable-copilot/",
+    "https://bright.ai/blog/brightai-51m-series-a-physical-ai/",
+    "https://siliconangle.com/2025/07/18/brightai-raises-51m-ease-infrastructure-maintenance-ai/",
+    "https://tracxn.com/d/companies/brightai/__so0lT6x2ulYnFtw5LQRIYCliUKsNEjvwqz-fX2t38Bo",
+    "https://bright.ai/leadership-team/",
+    "https://bright.ai/leadership-team/alex-hawkinson/",
+    "https://theorg.com/org/bright-ai/teams/leadership-team"
+  ]
+}

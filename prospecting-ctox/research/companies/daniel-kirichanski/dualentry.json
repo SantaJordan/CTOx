@@ -1,0 +1,48 @@
+{
+  "verdict": "keep",
+  "reason": "DualEntry sells \"the finance team of one\" and zero-fee AI implementation, yet its live Head of ERP Implementations req asks the hire to \"recruit and lead a team of 15+ CX Leads and Customer Support specialists\" — a human delivery org standing up one-for-one with customer growth, which is the exact services-to-AI-product transition and cost-to-deliver problem Daniel's practice is built on.",
+  "fit_score": 0.5925,
+  "company": {
+    "name": "DualEntry (Entry Inc.)",
+    "domain": "dualentry.com",
+    "one_liner": "AI-native ERP that automates accounting close, data entry and migration for mid-market finance teams, from $5M-ARR businesses to NYSE-listed companies.",
+    "industry": "Fintech / ERP accounting software",
+    "stage": "Series A — $90M led by Lightspeed and Khosla with GV (Oct 2025), $415M valuation, ~$96-100M total raised; ~55-58 employees",
+    "hq": "New York, NY (7 World Trade Center)"
+  },
+  "evidence_jobs": [
+    {
+      "title": "Head of ERP Implementations",
+      "url": "https://lensa.com/job-v1/dualentry/new-york-ny/head-of-erp-implementations/a9d9f31ec694b43b1e268bdbde59f39a",
+      "live": true,
+      "quote": "You'll recruit and lead a team of 15+ CX Leads and Customer Support specialists, and will continue to hire and scale the team quickly"
+    },
+    {
+      "title": "ERP Implementations Lead (CX) / AI ERP Implementations Lead",
+      "url": "https://www.dualentry.com/open-roles/erp-implementations-lead-cx-2",
+      "live": true,
+      "quote": "You'll establish and evolve implementation methodologies, processes, and operational standards"
+    }
+  ],
+  "people_spec": [
+    "Co-Founder & CEO (Benedict Dohmen) — owns the margin story and the implementation-org decision",
+    "Co-Founder & CTO (Santiago Nestares) — owns whether delivery methodology becomes product",
+    "Chief Financial Officer — cost-to-serve and gross-margin owner (role also open per today's feed)",
+    "Engineering Manager (NYC) — nearest in-house owner of automating delivery workflows",
+    "NOTE: Head of ERP Implementations and AI ERP Implementations Lead are both OPEN reqs — there is no incumbent implementations leader to find at this company"
+  ],
+  "talk_track": "I've spent the last few years moving work that lived in people's hands into AI systems that held up under real load — AI agents for incident detection and on-call response at Tricentis, and a services-to-SaaS platform transition at Avathon before that. Your open Head of ERP Implementations role asks that person to \"recruit and lead a team of 15+ CX Leads and Customer Support specialists, and will continue to hire and scale the team quickly.\" Here is the read worth having whether or not we ever speak: for a product sold on the finance team of one, implementation is the last place where cost-to-serve still scales one-for-one with customers, and that ratio is what a Series B diligence process prices. The same posting asks the hire to \"establish and evolve implementation methodologies, processes, and operational standards\" — written once with agents in mind, that document is the spec for the system that replaces most of the 15; written twice, it becomes a services org bolted to a software company. Which parts of go-live do you think stay permanently human?\n\n— Daniel",
+  "sources": [
+    "https://dualentry.com/",
+    "https://www.dualentry.com/funding-announcement",
+    "https://www.dualentry.com/careers",
+    "https://www.dualentry.com/open-roles/erp-implementations-lead-cx-2",
+    "https://dualentry.com/open-roles/erp-implementations-lead-cx",
+    "https://dualentry.com/open-roles/solutions-consultant-head-or-lead",
+    "https://www.dualentry.com/implementation-and-migration",
+    "https://www.reuters.com/technology/company-valued-415-million-2025-10-02/",
+    "https://accountio.co.uk/startups/dualentry-ai-erp-startup-overview/",
+    "https://lensa.com/job-v1/dualentry/new-york-ny/head-of-erp-implementations/a9d9f31ec694b43b1e268bdbde59f39a",
+    "https://jobs.ashbyhq.com/dualentry/aa653edb-acbf-4370-ab0f-58f3b4024c22"
+  ]
+}

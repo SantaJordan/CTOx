@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Pathward Financial (NASDAQ: CASH) is a 72-year-old publicly traded bank holding company with ~1,182 full-time employees and $7.1B in total assets, with a sitting EVP Chief Information & Operations Officer — far too large and too governed for a fractional CTO engagement, and the reverse of Shawn's SMB bus-factor-1 niche; the matched 'Director, Financial Crimes Technology' role is a BSA/AML compliance functional lead ('responsible for ensuring the Bank's screening models are accurately implemented, operating as intended'), which is regulated-bank compliance staffing, not evidence of an inherited SQL Server/.NET platform understood by one or two people, and the other 30 open roles are ordinary large-bank hiring (BSA/AML analysts, fraud analysts, IT auditors, senior/principal software engineers). The evidence pack's 'growth_startup' stage label is incorrect.",
+  "company": {
+    "name": "Pathward Financial, Inc."
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "PrizePicks is a daily fantasy sports / real-money prediction platform, not a PC/console game studio building a game — the pack's 'gaming' industry tag is a gambling-vs-game-development false positive; it is also 550+ employees by its own JD text (Ben's ICP is 20-150) and has been majority-acquired by lottery operator Allwyn for $1.6B (Sept 2025), making it a subsidiary of a large corporate parent rather than an independent funded studio, and the matched roles (Data Platform Engineer, ML Platform Engineer, Senior Ruby/Go Back Office, Senior React) are core product engineering at a mature org, not evidence that senior engineers and a Tech Director are being pulled off a game onto builds, access, cloud and vendors against a publisher milestone date.",
+  "company": {
+    "name": "PrizePicks"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Wrong vertical: Rabot is a commercial e-commerce/3PL fulfillment vendor (Vision AI pack-station QA, 40+ carriers, 62+ WMS integrations, buyers are VP Ops and fulfillment leaders) with no DoW/IC customer, no government procurement, no SBIR/CMMC/SCIF exposure — Barry Hess's niche is Series A/B defense tech startups needing cleared (TS/SCI) leadership to cross the DoD valley of death, and his EDP (months-to-field vs funded period of performance) does not exist here since Rabot already sells commercially with paying warehouse customers; the four matched postings (Systems Engineer, Software Engineer, Operations Lead, Marketing Lead) are generic scaling hires whose jd_lexicon match is a false positive on 'real-time / edge / perception / sensor' language, and the JDs affirmatively say 'The product works' with commercial traction, not a stalled lab-to-field transition.",
+  "company": {
+    "name": "Rabot"
+  }
+}

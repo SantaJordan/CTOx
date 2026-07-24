@@ -1,0 +1,48 @@
+{
+  "verdict": "keep",
+  "reason": "Array Labs is a $20M-Series-A, ~36-person radar/geospatial company selling sensing to DoD and IC customers, and its live Capture and Proposal Manager req confesses it has no government-transition machinery at all — \"You will not inherit a large capture organization; you will help build the operating system for how Array pursues and wins government work\" — the exact prototype-to-program gap Barry Hess fixes.",
+  "fit_score": 8.5,
+  "company": {
+    "name": "Array Labs, Inc.",
+    "domain": "arraylabs.io",
+    "one_liner": "Builds and operates clusters of small SAR (radar) satellites that image the same area from multiple angles simultaneously to produce high-resolution 3D geospatial data for government and commercial customers.",
+    "industry": "Aerospace / defense / space-based radar and geospatial intelligence",
+    "stage": "Series A — $20M led by Catapult Ventures announced 2026-01-05; $35M total raised since Y Combinator (S22); ~36-39 employees",
+    "hq": "Palo Alto / Redwood City, CA (Capture role also based Washington, D.C.)"
+  },
+  "evidence_jobs": [
+    {
+      "title": "Capture and Proposal Manager, Government",
+      "url": "https://jobs.lever.co/arraylabs.io/0ec2a81b-8042-4fca-b136-0e4e578ceebf",
+      "live": true,
+      "quote": "You will not inherit a large capture organization; you will help build the operating system for how Array pursues and wins government work, from pursuit plans and proposal rhythms to compliance discipline, technical storytelling, and award handoffs."
+    },
+    {
+      "title": "Capture and Proposal Manager, Government (supporting line, same live posting)",
+      "url": "https://jobs.lever.co/arraylabs.io/0ec2a81b-8042-4fca-b136-0e4e578ceebf",
+      "live": true,
+      "quote": "As government customers seek faster and more cost-effective ways to field advanced capabilities, Array is focused on transitioning new technology into funded programs, prototype efforts, and operational deployments."
+    }
+  ],
+  "people_spec": [
+    "Co-Founder and CEO",
+    "Founder, Strategy & GTM",
+    "VP / Head of Business Development",
+    "Head of Government Programs",
+    "VP of Engineering"
+  ],
+  "talk_track": "I ran engineering at a DoD small business for 16 years and fielded a patented tactical mapping platform that operators used in theater. It still died force-wide, because nobody senior inside the building carried it. Your Capture and Proposal Manager req says the hire \"will not inherit a large capture organization\" and will \"build the operating system for how Array pursues and wins government work.\" The non-obvious read: capture wins the award, but what turns a prototype award into a program of record is an advocacy chain — an operator who needs it, a program manager who budgets it, and a technical story that survives their evaluation, not yours. That work is technical and much of it happens inside a SCIF, which is why the clearance line on that req sitting under \"preferred\" is the part I would price first. Worth mapping before your next program office evaluation?",
+  "sources": [
+    "https://jobs.lever.co/arraylabs.io/0ec2a81b-8042-4fca-b136-0e4e578ceebf",
+    "https://www.arraylabs.io/updates/3",
+    "https://spacenews.com/array-labs-raises-20-million-to-scale-production-of-radar-satellites-for-3d-earth-mapping/",
+    "https://www.prnewswire.com/news-releases/array-labs-raises-20m-to-scale-radar-manufacturing-prepare-for-launch-302653196.html",
+    "https://pitchbook.com/profiles/company/452804-50",
+    "https://www.cbinsights.com/company/array-labs",
+    "https://www.cbinsights.com/company/array-labs/people",
+    "https://www.ycombinator.com/companies/array-labs",
+    "https://newspacetracker.com/company/array-labs/",
+    "https://arraylabs.io/"
+  ],
+  "notes": "Liveness re-verified 2026-07-23 by Exa livecrawl of the Lever posting (crawl status: success). Other live Array Labs reqs today: Radar Signal Processing Engineer (MTI/STAP), Space Systems Engineer, Engineering Program Manager, Technical Program Manager, Senior Commercial Counsel — those are ordinary engineering scaling hires and are NOT the signal. Caveats: headcount ~36-39 sits just above Barry's stated 8-30 ICP band, and the founding team is technically deep (CEO Andrew Peterson, ex-General Atomics radar / Moog), so the gap is specifically cleared, government-facing technical leadership rather than engineering competence. No CTO is publicly listed; public exec record shows Andrew Peterson (Co-Founder & CEO) and Isaac Robledo (Founder, Strategy & GTM)."
+}

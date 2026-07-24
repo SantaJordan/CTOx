@@ -1,0 +1,7 @@
+{
+  "verdict": "drop",
+  "reason": "Wrong side of the market: Cotton Holdings is a Houston-based infrastructure/disaster-restoration services contractor (~$135-180M revenue, 231-574 employees; Cotton Global Disaster Solutions, Cotton Roofing, Cotton Logistics, Cotton Culinary, ACT, Target Solutions brands) that BUYS property-trades software rather than building and shipping it, so Bill Bowers' niche — vertical SaaS vendors whose delivery has stalled on legacy mobile/desktop codebases — does not apply; all four matched postings (Construction Project Manager, Project Director, Restoration Supervisor, Commercial Business Development Executive) are field-ops and sales roles with zero engineering, release, cycle-time, or product-delivery language, so there is no quotable JD line redescribing the pain he fixes.",
+  "company": {
+    "name": "Cotton Holdings, Inc."
+  }
+}

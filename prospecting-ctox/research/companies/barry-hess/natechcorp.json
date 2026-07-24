@@ -1,0 +1,26 @@
+{
+  "verdict": "drop",
+  "reason": "NATECH (Native American Technology Corporation) is a 30-year-old family-owned federal SERVICES contractor / staffing house (71-300 people, SDVOSB, 8(a) graduate, TS facility clearance, CMMC Level 2 already certified) selling program management, training support and simulation operators to the government — the wrong side of Barry Hess's market, which is 8-30 person Series A/B defense tech product startups that need help getting their OWN technology procurement-ready and fielded; NATECH is already the procurement-fluent contracting entity, and its postings are billet-fills for awarded/pending contracts (\"This position is contingent on contract award\") rather than evidence of a lab-to-field transition stall.",
+  "company": {
+    "name": "Native American Technology Corporation (NATECH)",
+    "domain": "natechcorp.com",
+    "one_liner": "SDVOSB federal services contractor providing program management, training/simulation support and technical staffing to DoW and civilian agencies.",
+    "industry": "government professional & technical services",
+    "stage": "founded 1995, private family-owned small business, no venture funding",
+    "hq": "Leesburg, VA"
+  },
+  "drop_reasons": [
+    "wrong side of market: buys/sells services, not a product startup needing procurement readiness",
+    "not Series A/B — 30-year-old bootstrapped family business, no funding events",
+    "staffing-style postings contingent on contract award (billet fill, not a technical-leadership gap)",
+    "already CMMC L2 certified with TS facility clearance and 30 years of contracting mechanics — the exact capabilities Barry sells",
+    "no live-verified posting in the pack (all matched jobs live=None, liveness unverified)"
+  ],
+  "sources": [
+    "https://natechcorp.com/",
+    "https://www.natechcorp.com/about",
+    "https://www.natechcorp.com/capabilities",
+    "https://www.ceocfointerviews.com/natechcorporation20.html",
+    "https://recruiting.paylocity.com/recruiting/jobs/details/4145181"
+  ]
+}

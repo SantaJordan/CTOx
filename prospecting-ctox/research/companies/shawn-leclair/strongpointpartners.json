@@ -1,0 +1,48 @@
+{
+  "verdict": "keep",
+  "reason": "Live Greenhouse posting for a Data Transformation Manager asks one hire to lead \"the transformation and migration of data across core business systems\" and own \"enterprise-wide data quality, hygiene, and coverage\" for a 21-firm TPA roll-up with statutory filing deadlines and no CTO - Shawn's exact niche of acquisition-inherited legacy data platforms carrying calendar-fixed contracted deliverables.",
+  "fit_score": 0.4938,
+  "company": {
+    "name": "Strongpoint Partners",
+    "domain": "strongpointpartners.com",
+    "one_liner": "PE-backed (Shore Capital, Dec 2021) roll-up of independent retirement TPAs offering integrated 401(k) administration, recordkeeping, payroll and HR to small- and mid-sized businesses, now a coast-to-coast network of ~21 acquired firms.",
+    "industry": "Financial services / retirement plan administration (TPA, recordkeeping, payroll)",
+    "stage": "PE-backed growth roll-up; ~$33M revenue in 2024 (GetLatka), $58B+ plan assets under administration, 400+ employees, Inc. 5000 2024 & 2025; CEO states the company doubled in size in each of 2024 and 2025",
+    "hq": "Riverwoods / Chicago, IL"
+  },
+  "evidence_jobs": [
+    {
+      "title": "Data Transformation Manager",
+      "url": "https://job-boards.greenhouse.io/strongpointpartners/jobs/5365954008",
+      "live": true,
+      "quote": "This role plays a critical part in analyzing and interpreting complex data sets while leading the transformation and migration of data across core business systems. The Data Transformation Manager is responsible for ensuring accurate, efficient, and seamless data conversions while maintaining enterprise-wide data quality, hygiene, and coverage."
+    },
+    {
+      "title": "Director, TPA Operations, Strategic Partnerships",
+      "url": "https://job-boards.greenhouse.io/strongpointpartners/jobs/5249992008",
+      "live": true,
+      "quote": "With a coast-to-coast network of 19 leading firms including HowardSimon (\"HSR\"), Jocelyn Pension Consulting (\"JPC\"), Retirement Strategies Group (\"RSG\")..."
+    }
+  ],
+  "people_spec": [
+    "Chief Transformation Officer (Anh Nguyen) - Strongpoint's own LinkedIn post names her as the executive over the Data & Analytics and Systems Operations teams; primary buyer",
+    "Vice President, Information Technology (Craig Schoeberle, since Jun 2025) - infrastructure/IT background, owns the systems side but not a data-platform migration specialist",
+    "Vice President of Product and AI (Matt Miller, joined Jan 2026, reports to CEO) - owns platform/product strategy across the acquired firms",
+    "Director, Data & Analytics (Eric Hanson) - hiring manager for the Data Transformation Manager role",
+    "Chief Executive Officer (Danny Hest) - has publicly framed 2026 as the year of investment in data management and workflow transformation",
+    "NOTE: there is no CTO or VP Engineering at this company; the technology and data functions sit under a Chief Transformation Officer with a strategy/consulting background, which is the gap"
+  ],
+  "talk_track": "I spend my time on one narrow problem: a data platform assembled out of acquisitions, where the reporting carries a statutory deadline and two or three people hold the whole thing in their heads. Your open Data Transformation Manager role is responsible for \"ensuring accurate, efficient, and seamless data conversions while maintaining enterprise-wide data quality, hygiene, and coverage.\" Those are opposite jobs sharing one calendar - a conversion is a project with an end date, while hygiene across the partner firms that same posting names is a permanent operation that grows the day you sign the next one. When one hire owns both, conversions always win, because conversions have the visible deadline, and the quality tooling stays a backlog item until a filing season exposes it. The cheap move is separating the two on paper before the offer goes out - name who owns conversion throughput and who owns standing data quality, even if it is the same person this year. Is that role expected to carry the ACT book conversions as well?",
+  "sources": [
+    "https://job-boards.greenhouse.io/strongpointpartners/jobs/5365954008",
+    "https://job-boards.greenhouse.io/strongpointpartners/jobs/5249992008",
+    "https://www.strongpointpartners.com/our-story",
+    "https://www.strongpointpartners.com/welcoming-new-leaders",
+    "https://www.strongpointpartners.com/strongpoint-year-in-review-2024",
+    "https://www.cbinsights.com/company/strongpoint-partners",
+    "https://www.shorecp.com/companies/strongpoint-partners",
+    "https://getlatka.com/companies/Strongpoint_Partners",
+    "https://theorg.com/org/strongpoint-partners/teams/data-analytics",
+    "https://theorg.com/org/strongpoint-partners/teams/leadership-team"
+  ]
+}

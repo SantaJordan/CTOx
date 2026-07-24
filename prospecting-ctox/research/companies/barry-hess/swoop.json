@@ -1,0 +1,40 @@
+{
+  "verdict": "keep",
+  "reason": "Swoop's live Rome, NY \"Deployment and Test Engineer\" posting states the role exists to drive \"the advancement and reduction of time fielding these capabilities\" for mission-critical DoD customers — a company publicly naming Barry Hess's exact EDP (months-to-field vs. a closing period of performance) at a ~40-person, VC-backed defense OS startup whose $9.7M MDA demonstration-and-test vehicle ran to 3/31/26.",
+  "fit_score": 0.5061,
+  "company": {
+    "name": "Swoop Technologies",
+    "domain": "swooptech.com",
+    "one_liner": "Builds SwoopOS, a distributed operating system (plus the Valhalla SDK and Surf browser) that turns military and critical-infrastructure equipment into programmable, orchestratable edge assets without hardware upgrades.",
+    "industry": "Defense tech / edge operating systems for DoD and critical infrastructure",
+    "stage": "Venture-backed startup, ~36-45 employees; founded 2011/2012; PitchBook lists latest deal type as Later Stage VC; DoD revenue via ONR OTA prototype (RIOT, $750K) and an MDA 'Swoop Operating System Demonstration And Test Report' vehicle worth up to $9.7M through 3/31/26",
+    "hq": "Lakeland, MN (engineering presence in Madison, WI; the open deployment role is on-site in Rome, NY)"
+  },
+  "evidence_jobs": [
+    {
+      "title": "Deployment and Test Engineer",
+      "url": "https://jobs.ashbyhq.com/Swoop/1e98702a-7541-447f-87e3-8b661c831e1a",
+      "live": true,
+      "quote": "The deployment, integration, and sustainment of Swoop technology, for mission critical customers, will usher in the advancement and reduction of time fielding these capabilities."
+    }
+  ],
+  "people_spec": [
+    "Founder & Chief Executive Officer",
+    "President / Co-Founder (the exec who moved out of the CTO seat in Jan 2026)",
+    "Chief Technology Officer (verify whether the seat is still held by the co-founder-turned-President)",
+    "VP of Engineering or Head of Engineering — note: none appears to exist; they are currently hiring an 'Engineering Manager', so route above that role, not to it",
+    "Head of Government Programs / Director of Programs / Technical Program Manager (owns period-of-performance and transition risk)",
+    "Product Deployment Lead (owns the fielding pipeline day-to-day; useful corroborator, not the buyer)"
+  ],
+  "talk_track": "I ran engineering at a defense SDVOSB for sixteen years and fielded a patented tactical app platform with operators in theater — then watched it die force-wide because no one senior inside the building championed it. Your open Deployment and Test Engineer role in Rome, NY says the job exists so that \"the deployment, integration, and sustainment of Swoop technology, for mission critical customers, will usher in the advancement and reduction of time fielding these capabilities.\" That reads to me as a company whose constraint has moved off the OS itself and onto months-to-field — the same clock that just ran out on the $9.7M MDA \"Swoop Operating System Demonstration and Test Report\" vehicle on March 31 (HigherGov). A deployment engineer can compress the pipeline, but not the advocacy chain: operators who love SwoopOS don't create a program of record, a sponsor with a requirement does. Building that chain from the operator up is the work I do for defense startups, and a current TS/SCI means the classified half of it doesn't wait on access. What does months-to-field look like for the Rome work? — Barry Hess",
+  "sources": [
+    "https://jobs.ashbyhq.com/Swoop/1e98702a-7541-447f-87e3-8b661c831e1a",
+    "https://swooptech.com/",
+    "https://pitchbook.com/profiles/company/106663-24",
+    "https://www.highergov.com/contract/HQ086224C0002/",
+    "https://www.highergov.com/contract/HQ08832490015/",
+    "https://www.cbinsights.com/company/swoop-search",
+    "https://www.cbinsights.com/company/swoop-search/people",
+    "https://theorg.com/org/swoopsrch/org-chart/quinn-bottum"
+  ]
+}

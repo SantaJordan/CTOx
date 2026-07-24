@@ -1,43 +1,46 @@
 {
   "verdict": "keep",
-  "reason": "saas.group is a serial acquirer of ~20 bootstrapped B2B SaaS brands (the PE-backed-platform-in-M&A-mode situation Daniel targets), and its live Greenhouse posting for a hands-on CTO at 15-person portfolio brand AddSearch publicly confesses a technical-leadership gap at a post-acquisition AI/RAG inflection point.",
-  "fit_score": 0.4762,
+  "reason": "saas.group's live CTO posting for its 15-person AddSearch brand confesses the exact inflection Daniel sells into — \"maintaining a stable, high-SLA enterprise product while scaling a newer AI/RAG solution\" with only 5 engineers, no sitting CTO, and an AI/RAG line already \"driving the majority of our current sales growth\" — inside a 25-acquisition portfolio operator where post-acquisition platform integration is a recurring problem.",
+  "fit_score": 0.4719,
   "company": {
-    "name": "saas.group",
+    "name": "saas.group (AddSearch brand)",
     "domain": "saas.group",
-    "one_liner": "Serial acquirer and operator of ~20 bootstrapped B2B SaaS brands (Prerender, ScraperAPI, AddSearch, INFOnline), run with a founder-friendly, remote-first holding model.",
-    "industry": "SaaS holding company / serial software acquirer",
-    "stage": "Founded 2018; profitable PE-style holdco (~80-100 central+brand staff per aggregator data); each portfolio brand is small (AddSearch is 15 people)",
-    "hq": "Remote-first, distributed across 28 countries; US entity (aggregators list Seattle, WA / Las Vegas, NV)"
+    "one_liner": "Bootstrapped-mindset serial acquirer that buys and operates ~18-25 independent B2B SaaS brands ($1-10M ARR each), including AddSearch enterprise site search, Prerender, ScraperAPI and Rewardful.",
+    "industry": "B2B SaaS / software holding company (portfolio operator)",
+    "stage": "Profitable serial acquirer, ~25 acquisitions and $80M+ portfolio ARR (ProductLed, 2025-09-19); ~82 direct employees; AddSearch brand is ~15 people, acquired June 2023",
+    "hq": "Remote-first, distributed across ~28-30 countries; US entity listed in Seattle, WA (CB Insights lists Las Vegas, NV); AddSearch brand founded and based in Helsinki, Finland"
   },
   "evidence_jobs": [
     {
-      "title": "Chief Technology Officer (CTO) — AddSearch (saas.group brand)",
+      "title": "Chief Technology Officer (CTO) — AddSearch",
       "url": "https://job-boards.eu.greenhouse.io/saasgroup/jobs/4876704101",
       "live": true,
       "quote": "You'll be joining a company at an inflection point: maintaining a stable, high-SLA enterprise product while scaling a newer AI/RAG solution. You'll need to balance both."
     },
     {
-      "title": "Senior DevOps Engineer — ScraperAPI (saas.group brand)",
+      "title": "Senior DevOps / Platform Engineer — ScraperAPI (listed in today's fresh feed as Lead DevOps Engineer)",
       "url": "https://job-boards.eu.greenhouse.io/saasgroup/jobs/4858508101",
       "live": true,
       "quote": "Explore and assess the infrastructure architecture, collecting risks and opportunities that need to be addressed"
     }
   ],
   "people_spec": [
-    "CEO, AddSearch (the portfolio-brand CEO hiring her first CTO — there is no incumbent technical leader to find)",
-    "Co-Founder / Managing Partner, saas.group",
-    "COO, saas.group (central operations owner across portfolio brands)",
-    "Head of Portfolio Operations / Integration, saas.group"
+    "Managing Director / Brand Lead, AddSearch (the operator who owns the P&L and is running the CTO search — AddSearch has no sitting CTO, so there is no VP Eng or CTO to find at the brand)",
+    "Chief Executive Officer / Co-Founder, saas.group (group-level owner of brand leadership gaps)",
+    "Chief Operating Officer or VP Operations, saas.group (owns post-acquisition operating cadence across brands)",
+    "Head of Talent / Head of People, saas.group (running the open CTO and Lead DevOps searches and the executive talent pool)",
+    "Head of Engineering / Lead Engineer, AddSearch (the senior IC currently absorbing the technical-leadership vacuum)"
   ],
-  "talk_track": "Daniel Kirichanski here — my work is standing up engineering leadership inside post-acquisition SaaS companies, the same integration playbook I ran at PayPal after the CyActive deal and again at Tricentis. AddSearch's live Greenhouse posting for a hands-on CTO says the company is 'at an inflection point: maintaining a stable, high-SLA enterprise product while scaling a newer AI/RAG solution.' Read plainly, that means the RAG product is winning deals faster than the platform underneath can absorb, with no technical owner holding both sides. Player-coach CTO searches for 15-person companies tend to run long, because anyone who can carry an enterprise SLA and an AI roadmap is usually already a CTO somewhere. The interim months are where the risk lives: the SLA erodes quietly, or the RAG roadmap ships without an evaluation harness — the failure mode I keep writing about. What breaks first if the search runs long — the SLA or the roadmap?",
+  "talk_track": "Most of my work now is one transition: an AI offering outgrowing the platform and the org that was built for the older product. Your open CTO posting for AddSearch describes it as \"a company at an inflection point: maintaining a stable, high-SLA enterprise product while scaling a newer AI/RAG solution.\" With five engineers and one solutions engineer, that is two operating models sharing one on-call rotation — enterprise SLAs punish change, RAG demands it constantly. The quiet failure mode isn't a bad hire; it's the RAG line borrowing reliability capacity from your contract customers until an SLA breach picks the tradeoff for you. I ran both clocks at Ripple and Tricentis: GitOps delivery for the fast side, error budgets and AI-assisted incident response for the SLA side, MTTR down about 40%. Who's holding the SLA side while the CTO search runs? — Daniel Kirichanski",
   "sources": [
     "https://job-boards.eu.greenhouse.io/saasgroup/jobs/4876704101",
     "https://job-boards.eu.greenhouse.io/saasgroup/jobs/4858508101",
     "https://saas.group/",
-    "https://saas.group/about/",
     "https://saas.group/family/",
-    "https://www.linkedin.com/company/saas-group",
+    "https://saas.group/blog/saas-group-announces-the-acquisition-of-addsearch/",
+    "https://www.addsearch.com/about/",
+    "https://www.addsearch.com/addsearch-experience/",
+    "https://productled.com/blog/inside-saas-groups-80m-portfolio-lessons-from-25-acquisitions",
     "https://www.cbinsights.com/investor/saasgroup"
   ]
 }
