@@ -1,6 +1,6 @@
 {
   "cto": "david-sowsy",
-  "niche_statement": "Connected-hardware and medical-device companies at the moment their product's mobile companion app becomes the bottleneck — a BLE-device app that won't ship, a legacy iOS/Android codebase aging past OS and app-store deadlines, or a first companion app with no one aboard who has shipped regulated mobile — served by a 30-year bare-metal-C-to-SwiftUI engineer who has shipped BLE medical apps, NIH-funded clinical data-collection suites, and solo App Store submissions.",
+  "niche_statement": "Connected-hardware, consumer-appliance and medical-device companies at the moment their companion mobile app becomes the bottleneck - a BLE device app that will not ship, a legacy codebase aging past OS and app-store deadlines, or a first companion app with nobody aboard who has shipped regulated mobile - served by a 25-year mobile engineering leader (native iOS/Android plus React Native and Xamarin) who has run app teams for a 5M+ customer robot fleet and Class II devices.",
   "edp": "A connected device whose companion app misses a platform deadline (Google Play target-API delisting, Apple SDK rejection) or fails store review stops selling entirely — every unit in the channel needs the app to activate, so 100% of new-device revenue freezes until the app ships.",
   "expertise_statements": [
     "Modernize our aging Objective-C companion app to Swift/SwiftUI without halting feature releases",
@@ -80,7 +80,19 @@
     "Ollama",
     "on-device LLM",
     "RAG",
-    "CUDA"
+    "CUDA",
+    "React Native",
+    "Kotlin Multiplatform",
+    "cross-platform mobile",
+    "Firebase",
+    "Google Play",
+    "target API",
+    "robot vacuum",
+    "connected appliance",
+    "smart home device",
+    "hypercare",
+    "crash rate",
+    "BugSnag"
   ],
   "leadership_gap_titles": [
     "First mobile engineer",
@@ -109,20 +121,33 @@
     "sleep research",
     "public safety technology",
     "emergency alerting",
-    "robotics"
+    "robotics",
+    "consumer electronics",
+    "smart home",
+    "home appliance",
+    "connected hardware"
   ],
   "disqualifiers": [
-    "web-only SaaS with no hardware or mobile product",
-    "React Native-only or Flutter-only codebase (his cross-platform depth is Cordova/Xamarin/native, not RN/Flutter)",
-    "blockchain or crypto",
-    "adtech or martech",
-    "game studio roles",
-    "staffing agency or offshore dev-shop postings on behalf of unnamed clients",
-    "pure backend, data-platform, or SRE roles with no mobile or device surface",
-    "roles requiring active security clearance"
+    "staffing",
+    "recruiting",
+    "recruitment",
+    "dev shop",
+    "outsourcing",
+    "bootcamp",
+    "blockchain",
+    "crypto",
+    "web3",
+    "adtech",
+    "casino",
+    "gambling"
   ],
   "structured": {
-    "country_codes": ["US", "CA", ""],
+    "country_codes": [
+      "US",
+      "CA",
+      ""
+    ],
     "max_company_open_jobs": 75
-  }
+  },
+  "_source": "First-party: david-sowsy-resume.txt (Drive, 2026-07-23). Fixes v1 which wrongly disqualified React Native (he ships it at SharkNinja) and used prose disqualifiers that never matched as text filters."
 }

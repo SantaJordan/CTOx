@@ -1,7 +1,7 @@
 {
   "cto": "barry-hess",
-  "niche_statement": "Defense and intelligence technology companies in the $5M-$10M range whose proven prototype is stuck between demo and fielded deployment, guided by a CTO who fielded a patented tactical Android app platform with operators in theater and now engineers deployment architecture and acquisition advocacy from day one.",
-  "edp": "When months-to-field exceeds the funded months remaining on the contract, the program dies in the DoD valley of death - and for a $5M-$10M defense tech company, one dead transition is often the company.",
+  "niche_statement": "Fractional CTO for US Series A/B defense tech startups of roughly 8-30 people building AI/ML, geospatial or sensor products for DoW and Intelligence Community customers - the team built the technology but needs cleared senior leadership (active TS/SCI) to get it procurement-ready and into warfighters' hands.",
+  "edp": "Months-to-field versus funded months remaining: when time-to-field outruns the period of performance, the program dies in the valley of death - and at 8-30 people one dead transition is often the company.",
   "expertise_statements": [
     "Transition our prototype from successful demo to fielded operational capability with military end users",
     "Stand up our first real engineering organization as we grow past SBIR-funded prototype work",
@@ -100,7 +100,13 @@
     "government furnished equipment",
     "flow-down requirements",
     "prime contractor",
-    "subcontract"
+    "subcontract",
+    "SBIR Phase III",
+    "SCIF",
+    "procurement",
+    "program of record",
+    "government evaluation",
+    "cleared"
   ],
   "leadership_gap_titles": [
     "First Head of Engineering",
@@ -134,16 +140,31 @@
     "small business defense contractor"
   ],
   "disqualifiers": [
-    "large defense primes with established CTO organizations (Lockheed Martin, RTX, Boeing, Northrop Grumman, General Dynamics, L3Harris, BAE)",
-    "federal systems integrators and body-shop staffing agencies hiring cleared billets for client sites",
-    "pure commercial SaaS with no government or defense customer motion",
-    "consumer apps, adtech, gambling, crypto",
-    "recruiting agencies posting on behalf of unnamed clients",
-    "companies whose only defense tie is reselling or distribution",
-    "hardware-only machine shops with no software product"
+    "Lockheed",
+    "Raytheon",
+    "RTX",
+    "Boeing",
+    "Northrop",
+    "General Dynamics",
+    "L3Harris",
+    "BAE",
+    "Leidos",
+    "Booz Allen",
+    "staffing",
+    "recruiting",
+    "recruitment",
+    "body shop",
+    "reseller",
+    "distribution",
+    "gambling",
+    "crypto",
+    "adtech"
   ],
   "structured": {
-    "country_codes": ["US", "CA", ""],
-    "max_company_open_jobs": 75
-  }
+    "country_codes": [
+      "US"
+    ],
+    "max_company_open_jobs": 50
+  },
+  "_source": "First-party: qst-capstate-jul26.txt (Quantum Surge Technologies capability statement, Drive, 2026-07-23). Fixes v1 sizing ($5-10M revenue, incl. Canada) -> Series A/B, 8-30 people, US only; prose disqualifiers -> real substring filters."
 }

@@ -1,6 +1,6 @@
 {
   "cto": "shawn-leclair",
-  "niche_statement": "Data-heavy B2B SaaS and services SMBs (workforce/benchmarking analytics, healthcare-finance back office) whose SQL Server/SSIS-era legacy platform — often inherited through acquisition and understood by one or two people — must be stabilized and modernized in place without a rebuild or a full-time CTO.",
+  "niche_statement": "Fractional CTO for data-heavy B2B SaaS and financial-services SMBs whose legacy SQL Server/.NET platform - often inherited through acquisition and understood by one or two people - must be stabilized, migrated to cloud and made exit-ready in place, without a rebuild or a full-time CTO.",
   "edp": "Bus factor = 1 on a revenue-critical legacy system with calendar-fixed contracted deliverables: one resignation drops delivery to zero while reporting deadlines don't move, and one missed cycle kills the anchor contract that funds the company.",
   "expertise_statements": [
     "Take ownership of a legacy .NET / SQL Server application that only one developer currently understands",
@@ -84,7 +84,15 @@
     "recently acquired",
     "post-acquisition integration",
     "wear many hats",
-    "small engineering team"
+    "small engineering team",
+    "exit readiness",
+    "due diligence",
+    "M&A",
+    "AWS migration",
+    "Azure migration",
+    "Snowflake",
+    "regulatory reporting",
+    "audit readiness"
   ],
   "leadership_gap_titles": [
     "First Head of Engineering",
@@ -120,22 +128,31 @@
     "wealth management back office",
     "insurance analytics",
     "B2B SaaS",
-    "professional services"
+    "professional services",
+    "financial services",
+    "wealth management",
+    "private equity backed"
   ],
   "disqualifiers": [
-    "FAANG or big-tech employer",
-    "staffing agency or recruiting firm posting on behalf of clients",
-    "consumer mobile or gaming product",
-    "deep ML research or PhD-required roles",
-    "crypto or web3",
-    "embedded systems, firmware, or hardware",
-    "greenfield-only modern stack with no legacy or data-platform component",
-    "enterprise with large existing engineering org (CTO, VPs, and many teams already in place)",
-    "government clearance required",
-    "pure IT helpdesk or desktop support roles"
+    "staffing",
+    "recruiting",
+    "recruitment",
+    "body shop",
+    "bootcamp",
+    "crypto",
+    "web3",
+    "gaming",
+    "game studio",
+    "helpdesk",
+    "desktop support"
   ],
   "structured": {
-    "country_codes": ["US", "CA", ""],
+    "country_codes": [
+      "US",
+      "CA",
+      ""
+    ],
     "max_company_open_jobs": 75
-  }
+  },
+  "_source": "First-party: shawn-leclair-resume.txt (Drive, 2026-07-23). Broadens v1 beyond SSIS-only to SaaS + financial services platform modernization, cloud migration and exit readiness; prose disqualifiers -> real substring filters."
 }

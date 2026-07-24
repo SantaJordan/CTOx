@@ -74,8 +74,15 @@ def candidates_for(con, spec):
     gap = spec.get("leadership_gap_titles", [])
     jdlex = spec.get("jd_lexicon", [])
     disq = spec.get("disqualifiers", [])
+    industry = spec.get("industry_keywords", [])
     countries = spec.get("structured", {}).get("country_codes", ["US", "CA", ""])
     country_sql = ",".join(f"'{esc(c).upper() if c else ''}'" for c in countries)
+
+    # Industry gate: the company itself must look like the CTO's vertical. Without
+    # this a generic "DevOps Engineer" title matches every industry on earth, which
+    # is exactly how a game-studio spec returned adtech companies.
+    ind_expr = (f"({any_like('company_does', industry)} OR {any_like('industry', industry)}"
+                f" OR {any_like('company', industry)})") if industry else "TRUE"
 
     q = f"""
     SELECT id, ats, company, url, title,
@@ -88,10 +95,12 @@ def candidates_for(con, spec):
            {any_like('title', strong)} AS hit_strong,
            {any_like('title', supporting)} AS hit_supporting,
            {any_like('title', gap)} AS hit_gap,
-           {any_like('jd_markdown', jdlex)} AS hit_jdlex
+           {any_like('jd_markdown', jdlex)} AS hit_jdlex,
+           {ind_expr} AS hit_industry
     FROM read_parquet('{PARQUET}')
     WHERE (upper(coalesce(country_code,'')) IN ({country_sql})
            OR coalesce(remote_scope,'') IN ('global','us-only','us-canada'))
+      AND {ind_expr}
       AND ({any_like('title', strong)} OR {any_like('title', gap)}
            OR {any_like('jd_markdown', jdlex)})
       AND NOT ({any_like('company', disq)} OR {any_like('company_does', disq)})
@@ -165,7 +174,8 @@ def main():
         companies = {}
         for jid, row in cand[slug].items():
             (jid_, ats, company, url, title, role_summary, company_does, industry,
-             company_stage, posted_at, jd_head, h_strong, h_sup, h_gap, h_jdlex) = row
+             company_stage, posted_at, jd_head, h_strong, h_sup, h_gap, h_jdlex,
+             h_ind) = row
             if counts.get((ats, company), 0) > max_jobs:
                 continue
             ct, cj = sims[slug].get(jid, (0.0, 0.0))
