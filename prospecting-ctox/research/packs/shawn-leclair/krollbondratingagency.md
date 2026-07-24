@@ -2,7 +2,7 @@
 ATS: greenhouse | liveness: live | feed slug: krollbondratingagency
 
 ## CTO niche
-Data-heavy B2B SaaS and services SMBs (workforce/benchmarking analytics, healthcare-finance back office) whose SQL Server/SSIS-era legacy platform — often inherited through acquisition and understood by one or two people — must be stabilized and modernized in place without a rebuild or a full-time CTO.
+Fractional CTO for data-heavy B2B SaaS and financial-services SMBs whose legacy SQL Server/.NET platform - often inherited through acquisition and understood by one or two people - must be stabilized, migrated to cloud and made exit-ready in place, without a rebuild or a full-time CTO.
 EDP: Bus factor = 1 on a revenue-critical legacy system with calendar-fixed contracted deliverables: one resignation drops delivery to zero while reporting deadlines don't move, and one missed cycle kills the anchor contract that funds the company.
 
 ## Matched jobs (from the 2026-06-25 snapshot; 'live' = re-verified today)
@@ -32,7 +32,7 @@ KBRA is seeking an Associate Director to join its Corporate Portfolio Finance Re
  - **Fund** research derived from rated note feeders, collateralized fund obligations, private equity net asset value loans, and asset-based finance reporting and performance.
  - **Structured credit **research, including analy
 ```
-### Revenue Operations (Data & Systems)  – Associate Director (NY)  [score 0.5112, live=True]
+### Revenue Operations (Data & Systems)  – Associate Director (NY)  [score 0.5113, live=True]
 apply: https://job-boards.greenhouse.io/krollbondratingagency/jobs/8524305002
 posted: 2026-05-19T10:19:51-04:00 | company_does: buys and assigns credit ratings; provides risk analysis and financial services | industry: financial-services | stage: scaleup
 signals: strong_title=False gap=True jd_lexicon=True
@@ -55,7 +55,7 @@ This is a strategic, hands-on role requiring someone to independently diagnose i
 
 As KBRA continues to scale, the Associate Director of Revenue Operations will lead the transition to a reporting-centric operating model. Approximately 70% of the role will focus on building and transforming—including analyzing current-state processes, redesigning data structures, standardizing workflows, and implementing scalable systems and documenta
 ```
-### Funds Ratings - Associate / Associate Director (Chicago)  [score 0.5079, live=True]
+### Funds Ratings - Associate / Associate Director (Chicago)  [score 0.508, live=True]
 apply: https://job-boards.greenhouse.io/krollbondratingagency/jobs/7972154002
 posted: 2026-05-19T09:23:53-04:00 | company_does: buys and assigns credit ratings; provides risk analysis and financial services | industry: financial-services | stage: scaleup
 signals: strong_title=False gap=True jd_lexicon=True

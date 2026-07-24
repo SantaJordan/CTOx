@@ -2,14 +2,54 @@
 ATS: greenhouse | liveness: live | feed slug: crunchyroll
 
 ## CTO niche
-Fractional technical-operations leader for 20-200-person regulated B2B SaaS companies and game studios whose growth has outrun the ops layer - engaged when builds depend on one person, cloud spend drifts unowned, and an enterprise buyer, auditor, or PE board demands SOC 2/CJIS evidence and cost visibility - owning the platform/DevSecOps/FinOps layer underneath the CTO, per his record at Expedia (0-95), Pokemon (2-32, 320M users), Prytania Media (0-35, 4 studios), and Lexipol (first-attempt SOC 2 Type II, -22% AWS).
-EDP: Unowned technical operations silently converts runway into waste: cloud bills that double in six months unflagged, ~20%+ recoverable cloud spend (he cut AWS 22% at Lexipol), and enterprise deals frozen pending SOC 2 - costing a 20-200-person company months of runway before the problem appears as a board-visible line item.
+Fractional technical-operations executive for US-based funded PC/console game studios of roughly 20-150 people entering full production, owning the non-creative operations layer (DevOps, cloud, build/release, IT, security, vendors) so senior engineers and the Tech Director stay on the game.
+EDP: Milestone confidence: every week senior engineers and the Tech Director spend on builds, access, cloud, vendors and release fire drills is runway burned against a publisher-fixed milestone date - miss the milestone and the funding tranche or launch window goes with it.
 
 ## Matched jobs (from the 2026-06-25 snapshot; 'live' = re-verified today)
-### Senior Director, Platform Engineering -  Enterprise Technology  [score 0.5203, live=True]
+### Staff DevOps Engineer  [score 0.5871, live=True]
+apply: https://boards.greenhouse.io/crunchyroll/jobs/7462442?gh_jid=7462442
+posted: 2026-06-24T15:42:09-04:00 | company_does: streaming anime content and related media; licensing, distribution, events, merchandise, gaming, and community experiences | industry: entertainment | stage: growth_startup
+signals: strong_title=True gap=False jd_lexicon=True
+JD excerpt (snapshot):
+```
+## About Crunchyroll
+
+Founded by fans, Crunchyroll delivers the art and culture of anime to a passionate community. We super-serve over 100 million anime and manga fans across 200+ countries and territories, and help them connect with the stories and characters they crave. Whether that experience is online or in-person, streaming video, theatrical, games, merchandise, events and more, it’s powered by the anime content we all love.
+
+Join our team, and help us shape the future of anime!
+
+### About the Team
+
+At Crunchyroll, our Cloud Reliability team within the Infrastructure Engineering team forms the foundation on which our services are built and directly influence our customer experience and the velocity of our engineers. Our team focus is to ensure that our developers are enabled, self-service, that everything about our infrastructure is automated and that our services are highly reliable and scalable. Cloud Reliability team members will engage directly with development teams on helping them become empowered and effective at delivering on our Infrastructure.
+
+### About the role
+
+As a Staff DevOps Engineer within the Infrastructure Engineering team, you are essential in automating 
+```
+### Staff DevOps Engineer  [score 0.5865, live=True]
+apply: https://boards.greenhouse.io/crunchyroll/jobs/7483996?gh_jid=7483996
+posted: 2026-06-24T15:42:09-04:00 | company_does: streaming anime content and related media; licensing, distribution, events, merchandise, gaming, and community experiences | industry: entertainment | stage: growth_startup
+signals: strong_title=True gap=False jd_lexicon=True
+JD excerpt (snapshot):
+```
+## About Crunchyroll
+
+Founded by fans, Crunchyroll delivers the art and culture of anime to a passionate community. We super-serve over 100 million anime and manga fans across 200+ countries and territories, and help them connect with the stories and characters they crave. Whether that experience is online or in-person, streaming video, theatrical, games, merchandise, events and more, it’s powered by the anime content we all love.
+
+Join our team, and help us shape the future of anime!
+
+### About the Team
+
+At Crunchyroll, our Cloud Reliability team within the Infrastructure Engineering team forms the foundation on which our services are built and directly influence our customer experience and the velocity of our engineers. Our team focus is to ensure that our developers are enabled, self-service, that everything about our infrastructure is automated and that our services are highly reliable and scalable. Cloud Reliability team members will engage directly with development teams on helping them become empowered and effective at delivering on our Infrastructure.
+
+### About the role
+
+As a Staff DevOps Engineer within the Infrastructure Engineering team, you are essential in automating 
+```
+### Senior Director, Platform Engineering -  Enterprise Technology  [score 0.501, live=True]
 apply: https://boards.greenhouse.io/crunchyroll/jobs/7985457?gh_jid=7985457
 posted: 2026-06-24T15:42:09-04:00 | company_does: streaming anime content and related media; licensing, distribution, events, merchandise, gaming, and community experiences | industry: entertainment | stage: growth_startup
-signals: strong_title=False gap=False jd_lexicon=True
+signals: strong_title=True gap=False jd_lexicon=True
 JD excerpt (snapshot):
 ```
 ## About Crunchyroll
@@ -24,8 +64,8 @@ Enterprise Technology Platform Engineering powers the infrastructure foundation 
 
 In the role of Senior Director, Platform Engineering, you will report to the VP, Enterprise Technology. We are conside
 ```
-### Staff DevOps Engineer  [score 0.512, live=True]
-apply: https://boards.greenhouse.io/crunchyroll/jobs/7462442?gh_jid=7462442
+### Principal Technical Program Manager, Enterprise Technology  [score 0.4501, live=True]
+apply: https://boards.greenhouse.io/crunchyroll/jobs/7950813?gh_jid=7950813
 posted: 2026-06-24T15:42:09-04:00 | company_does: streaming anime content and related media; licensing, distribution, events, merchandise, gaming, and community experiences | industry: entertainment | stage: growth_startup
 signals: strong_title=False gap=False jd_lexicon=True
 JD excerpt (snapshot):
@@ -36,51 +76,15 @@ Founded by fans, Crunchyroll delivers the art and culture of anime to a passiona
 
 Join our team, and help us shape the future of anime!
 
-### About the Team
+## About the role
 
-At Crunchyroll, our Cloud Reliability team within the Infrastructure Engineering team forms the foundation on which our services are built and directly influence our customer experience and the velocity of our engineers. Our team focus is to ensure that our developers are enabled, self-service, that everything about our infrastructure is automated and that our services are highly reliable and scalable. Cloud Reliability team members will engage directly with development teams on helping them become empowered and effective at delivering on our Infrastructure.
+You will report to the Director of Enterprise Technology Operations and will work closely with Engineering teams, in addition to other teams across the business, to support important initiatives.
 
-### About the role
+As a Principal TPM, you will:
 
-As a Staff DevOps Engineer within the Infrastructure Engineering team, you are essential in automating 
-```
-### Staff DevOps Engineer  [score 0.5116, live=True]
-apply: https://boards.greenhouse.io/crunchyroll/jobs/7483996?gh_jid=7483996
-posted: 2026-06-24T15:42:09-04:00 | company_does: streaming anime content and related media; licensing, distribution, events, merchandise, gaming, and community experiences | industry: entertainment | stage: growth_startup
-signals: strong_title=False gap=False jd_lexicon=True
-JD excerpt (snapshot):
-```
-## About Crunchyroll
-
-Founded by fans, Crunchyroll delivers the art and culture of anime to a passionate community. We super-serve over 100 million anime and manga fans across 200+ countries and territories, and help them connect with the stories and characters they crave. Whether that experience is online or in-person, streaming video, theatrical, games, merchandise, events and more, it’s powered by the anime content we all love.
-
-Join our team, and help us shape the future of anime!
-
-### About the Team
-
-At Crunchyroll, our Cloud Reliability team within the Infrastructure Engineering team forms the foundation on which our services are built and directly influence our customer experience and the velocity of our engineers. Our team focus is to ensure that our developers are enabled, self-service, that everything about our infrastructure is automated and that our services are highly reliable and scalable. Cloud Reliability team members will engage directly with development teams on helping them become empowered and effective at delivering on our Infrastructure.
-
-### About the role
-
-As a Staff DevOps Engineer within the Infrastructure Engineering team, you are essential in automating 
-```
-### Senior Manager, Platform Development  [score 0.4804, live=True]
-apply: https://boards.greenhouse.io/crunchyroll/jobs/7722270?gh_jid=7722270
-posted: 2026-06-24T15:42:09-04:00 | company_does: streaming anime content and related media; licensing, distribution, events, merchandise, gaming, and community experiences | industry: entertainment | stage: growth_startup
-signals: strong_title=False gap=False jd_lexicon=True
-JD excerpt (snapshot):
-```
-## About Crunchyroll
-
-Founded by fans, Crunchyroll delivers the art and culture of anime to a passionate community. We super-serve over 100 million anime and manga fans across 200+ countries and territories, and help them connect with the stories and characters they crave. Whether that experience is online or in-person, streaming video, theatrical, games, merchandise, events and more, it’s powered by the anime content we all love.
-
-Join our team, and help us shape the future of anime!
-
-## About the Team
-
-The Platform Development organization powers Crunchyroll's core access and security platform. This platform includes authentication and authorization, notifications, and AI runtimes. It enables other teams to safely build fan-facing features on top of a stable, compliant, and leverageable foundation.
-
-The team's mission is to provide reliable, secure fan access across devices and partners, integrate access services with data and compliance orchestration, and evolve notifications and AI inference into reusable platform capabilities that accelerate product and partner launches. We collaborate with product, data, security, client engineering, video, and service monetization teams to d
+- Organize, plan, and track ongoing technical projects and critical initiatives for the Enterprise Technology team, with a specific focus on Digital Supply Chain.
+- Drive daily technical execution across engineering teams, ensuring progress against design milestones, system readiness, and delivery timelines.
+- Translate high-level business needs into technically feasible and prioritized requirements. Ensure every initiative has clear technical definitions an
 ```
 
 ## Company's FULL current job list (fresh, from today's ATS feed)

@@ -22,6 +22,9 @@ prospecting-ctox/data/
 prospecting-ctox/checkpoints/
 prospecting-ctox/vendor/
 prospecting-ctox/output/*_raw*
+# Full lead CSVs carry mobiles + personal emails — never to a public repo.
+# The *_final_public.csv copies (work email only, no mobiles) are what we commit.
+prospecting-ctox/output/*_final.csv
 
 # prospecting-barry (large data, checkpoints, raw contact output)
 prospecting-barry/data/

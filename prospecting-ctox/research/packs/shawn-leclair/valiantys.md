@@ -2,7 +2,7 @@
 ATS: lever | liveness: live | feed slug: valiantys
 
 ## CTO niche
-Data-heavy B2B SaaS and services SMBs (workforce/benchmarking analytics, healthcare-finance back office) whose SQL Server/SSIS-era legacy platform — often inherited through acquisition and understood by one or two people — must be stabilized and modernized in place without a rebuild or a full-time CTO.
+Fractional CTO for data-heavy B2B SaaS and financial-services SMBs whose legacy SQL Server/.NET platform - often inherited through acquisition and understood by one or two people - must be stabilized, migrated to cloud and made exit-ready in place, without a rebuild or a full-time CTO.
 EDP: Bus factor = 1 on a revenue-critical legacy system with calendar-fixed contracted deliverables: one resignation drops delivery to zero while reporting deadlines don't move, and one missed cycle kills the anchor contract that funds the company.
 
 ## Matched jobs (from the 2026-06-25 snapshot; 'live' = re-verified today)

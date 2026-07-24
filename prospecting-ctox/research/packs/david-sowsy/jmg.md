@@ -2,7 +2,7 @@
 ATS: crelate | liveness: unverified | feed slug: None
 
 ## CTO niche
-Connected-hardware and medical-device companies at the moment their product's mobile companion app becomes the bottleneck — a BLE-device app that won't ship, a legacy iOS/Android codebase aging past OS and app-store deadlines, or a first companion app with no one aboard who has shipped regulated mobile — served by a 30-year bare-metal-C-to-SwiftUI engineer who has shipped BLE medical apps, NIH-funded clinical data-collection suites, and solo App Store submissions.
+Connected-hardware, consumer-appliance and medical-device companies at the moment their companion mobile app becomes the bottleneck - a BLE device app that will not ship, a legacy codebase aging past OS and app-store deadlines, or a first companion app with nobody aboard who has shipped regulated mobile - served by a 25-year mobile engineering leader (native iOS/Android plus React Native and Xamarin) who has run app teams for a 5M+ customer robot fleet and Class II devices.
 EDP: A connected device whose companion app misses a platform deadline (Google Play target-API delisting, Apple SDK rejection) or fails store review stops selling entirely — every unit in the channel needs the app to activate, so 100% of new-device revenue freezes until the app ships.
 
 ## Matched jobs (from the 2026-06-25 snapshot; 'live' = re-verified today)

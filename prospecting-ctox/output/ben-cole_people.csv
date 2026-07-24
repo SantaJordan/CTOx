@@ -1,0 +1,3 @@
+company_name,domain,role_bucket,full_name,first_name,last_name,title,headline,location,linkedin_url,company_linkedin_url
+Demiurge Studios,demiurgestudios.com,decision_maker,Eric Vaughn,Eric,Vaughn,"COO, Demiurge Studios",,"{'city': 'Los Altos', 'state_code': 'CA', 'country_code': 'US', 'continent': 'North America'}",https://www.linkedin.com/in/eric-vaughn-04a4323,https://www.linkedin.com/company/demiurge-studios
+Demiurge Studios,demiurgestudios.com,tech_product,David Hottal,David,Hottal,Head of Product,Head of Product at Demiurge Studios,"{'city': None, 'state_code': None, 'country_code': 'US', 'continent': 'North America'}",https://www.linkedin.com/in/davidhottal,https://www.linkedin.com/company/demiurge-studios
