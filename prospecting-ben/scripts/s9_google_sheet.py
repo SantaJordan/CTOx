@@ -33,7 +33,7 @@ TITLE = "Ben Cole — Funded, Unlaunched US Game Studios (ranked by ops pain)"
 STUDIO_COLS = [
     ("pain_score", "Pain", 55), ("company", "Studio", 170),
     ("fit_verdict", "Fit", 70), ("verified", "Spot-check (manually re-verified)", 320),
-    ("employees", "Staff", 55),
+    ("employees", "Staff", 130),
     ("hq", "HQ", 140), ("game", "Game", 150),
     ("game_status", "Game status", 110),
     ("total_raised", "Raised", 95), ("last_round", "Last round", 130),
@@ -100,6 +100,10 @@ def main():
     n_email = sum(1 for c in contacts if c["email"])
     n_zero_ops = sum(1 for r in studios if "ZERO dedicated ops" in r["ops_gap_why"])
     n_check = sum(1 for r in studios if r.get("verified"))
+    n_no_ops_any = sum(1 for r in studios
+                       if "zero dedicated ops" in r["ops_gap_why"].lower())
+    n_thin_ops = n_no_ops_any + sum(1 for r in studios
+                                    if "single point of failure" in r["ops_gap_why"])
 
     # ---------- Start Here ----------
     intro = [
@@ -138,6 +142,8 @@ def main():
         ["  Medium fit", n_med],
         ["  Weak fit", n_weak],
         ["Studios with 2+ senior engineers and ZERO dedicated ops staff", n_zero_ops],
+        ["Studios with NO dedicated ops staff at all", n_no_ops_any],
+        ["Studios with no ops staff, or a single ops person as the only one", n_thin_ops],
         ["Decision-maker contacts", len(contacts)],
         ["  With a verified email address", n_email],
         ["Top studios independently spot-checked by hand", n_check],
@@ -158,7 +164,10 @@ def main():
          "two independent providers."],
         [],
         ["CAVEATS — PLEASE READ"],
-        ["Headcount comes from LinkedIn and runs a little behind reality."],
+        ["Headcount comes from LinkedIn and runs behind reality — on the studios I "
+         "hand-checked it was off by as much as 3x, so treat every staff number as "
+         "approximate. Where I re-verified it, the Staff column shows the corrected "
+         "figure and what it previously said."],
         ["'Game status' reflects the most recent public information found; a studio "
          "may have announced something since."],
         ["The ops-gap signal infers from public profiles who is NOT on staff. It is "
